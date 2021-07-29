@@ -1,0 +1,21 @@
+中平台	172.16.54.10 catvc
+1	觀昇    Emcks/emc5601ks
+2	屏南    Emcpn/emc6202pn
+3	南天    Emcnt/emc6403nt
+5	新頻道  EMCNCC/EMC6105NCC
+6	豐盟    EMCFM/EMC1906FM
+
+北平台  172.16.12.10 catvn
+7	振道    EMCCT/EMC5707CT
+8	全聯    EMCUC/EMC5508UC
+9	陽明山  EMCYMS/EMC5909YMS
+10	新台北  EMCNTP/EMC6010NTP
+11	金頻道  EMCKP/EMC2511KP
+12	大安文山 EMCDW/EMC5812DW
+
+獨立1   192.168.14.252 sdtcmis
+13	唐城     EMCTC/EMCTC
+14	新店     EMCST/EMCST
+
+獨立2   192.168.107.201 ntymis
+16	北桃園   EMCNTY/EMCNTY

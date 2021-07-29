@@ -1,0 +1,76 @@
+Puzzle :
+	1. I assign the device_call.obj_name value for 'EMGR_EME_SVR', is it correct? It always be assigned this value?
+	2. What kind of data about device_call.user_data I have to assign it? Is SMS Command?
+	3. When I run this program, the return value of recv(nL_Result2) is 3. Is it correct?
+	4. The next line after recv function is read function.
+	   I want to read sizeof(TDeviceAnswer) bytes from the read function, but i fount the function always be hang...
+	   If I only read 3 bytes from the read function , this function will be run.
+	   Could u tell me why?
+
+==================================================================================================
+
+  L_TmpAry : array[0..2] of char;
+
+  TDeviceCall = record
+    len : array[0..1] of char;
+    op_mode : char;
+    obj_name_len : char;
+    obj_name : array[0..31] of char;
+    user_data : array[0..254] of char;
+  end;
+
+  TDeviceStatus = record
+    len : Smallint;
+    status : char;
+  end;
+
+  TDeviceAnswer = record
+    len : Smallint;
+    code : char;
+    data : array[0..1024] of char;
+  end;
+
+  L_DeviceCall : TDeviceCall ;
+  L_DeviceAnswer : TDeviceAnswer;
+
+
+        with FSocket do
+        begin
+          Address := '10.40.1.1';
+          Port := 20000;
+          Open; // open tcp connection
+
+
+          L_DeviceCall.op_mode := '0'; // assign op_mode
+
+
+          StrPCopy(L_DeviceCall.obj_name,'EMGR_EME_SVR'); // assign obj_name
+          L_DeviceCall.obj_name_len := char(length('EMGR_EME_SVR')); // compute and assign obj_name_len
+
+
+          sL_Data :='00000000301025602572380920000509N1999092220000101U12345678901002'; // prepare user data 
+          L_DeviceCall.user_data := '00000000301025602572380920000509N1999092220000101U12345678901002'; // assign user_data
+
+	  //down, computer and assign len
+          nL_Len := 1 + 1 + length('EMGR_EME_SVR') + length(sL_Data); x
+
+          L_TmpRecord := GetBinaryVal(nL_Len,2,false);
+          L_TmpLenAry[0] := L_TmpRecord.TempAry[0];
+          L_TmpLenAry[1] := L_TmpRecord.TempAry[1];
+          L_DeviceCall.len[0] := L_TmpLenAry[0];
+          L_DeviceCall.len[1] := L_TmpLenAry[1];
+	  //down, computer and assign len
+
+          L_WStream := TWinSocketStream.Create(FSocket.Socket, 60000);
+          nL_Result1 := write(@L_DeviceCall, nL_Len+2, L_WStream); // write device_call 
+
+
+          nL_Result2 := recv(FSocket.Socket.SocketHandle , L_TmpAry, 3,0); // receive data into L_TmpAry
+
+
+          read(@L_DeviceAnswer, sizeof(TDeviceAnswer), L_WStream); // read response data ....
+
+          L_WStream.Free;
+
+        end;
+

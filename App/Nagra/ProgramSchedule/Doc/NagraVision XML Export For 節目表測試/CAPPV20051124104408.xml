@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ProductManagementData SYSTEM "ProductManagementData.dtd">
+<ProductManagementData creationDate="20051124104408">
+<ProviderInfo>
+<ProviderId>IMS Nagra</ProviderId>
+<ProviderName>IMS Nagravision S.A.</ProviderName>
+<DtdVersion>1.1.1</DtdVersion>
+</ProviderInfo>
+<ProductChangeNotification>
+
+<ProductData>
+<Product>
+<ProductId>18709</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>捍衛正義</ProductName>
+<ProductDescription>捍衛正義</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051122180000" endTime="20051127184959"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051126000000" endTime="20051129000000"/>
+<Event beginTime="20051127180000" duration="2999">
+<EventId>L00000034277</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>捍衛正義-改變後</Name>
+<Description>牶擊手魯賓卡特【丹佐華盛頓飾】希望拿下世界中量級牶王頭銜前夕，卻在紐澤西酒吧的槍擊案中以謀殺起訴，被判三無期徒刑，終生監禁．在獄中，卡特為了表示自己的清白，拒絕穿上罪犯的囚衣．並多次上訴，但全數被駁回．他逐漸灰心只能將冤屈訴諸於自傳當中，卡特的自傳感動了一名年輕黑人，於是在年輕人的幫肋下，他決定上訴到聯邦法院．．</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>modifier</Name>
+</EpgText>
+<ParentalRating>6</ParentalRating>
+<DvbContent>
+<Content nibble1="1" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>503</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>18710</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>六壯士續集</ProductName>
+<ProductDescription>六壯士續集</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051122200000" endTime="20051127210000"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051126000000" endTime="20051129000000"/>
+<Event beginTime="20051127200000" duration="3600">
+<EventId>L00000034280</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>六壯士續集</Name>
+<Description>這部絕無冷場的動作片，是007系列-改變後</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>Force 10 From Navarone</Name>
+<Description>From Guy Hamilton, the veteran director -modifier</Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="1" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>503</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>18711</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>愛情另一章</ProductName>
+<ProductDescription>愛情另一章</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051122210000" endTime="20051127220000"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051126000000" endTime="20051129000000"/>
+<Event beginTime="20051127210000" duration="3600">
+<EventId>L00000034283</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>愛情另一章</Name>
+<Description>莎拉（凱拉塞吉維克 飾，「第三類奇蹟」）跟男友萊恩（羅柏莫洛 飾，「益智遊戲」）在同居的當天大吵一架而分手，但一星期後莎拉卻發現自己懷孕了，雖然她仍愛著萊恩，卻無法接受他不願承諾的性格，於是決定不跟萊恩和大家說出她懷孕的消息，只告訴了她的好友露露（莉拉羅尚 飾，「挑戰星期天」），直到莎拉即將分娩之前都沒人知道這個消息，此時她的好友覺得有責任將這個好消息告知眾家親友，於是在產房內引發了一場大混亂！</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>Labor Pains</Name>
+<Description>Sarah (Sedgwick- Twelfth Night) breaks up with Ryan (Morrow-Quiz Show) on the day they are to move in together, only to realize a week later that she is pregnant. Still in love with him but unable to take his inability to commit, she keeps the news from him and everyone else but her best friend Lulu (Rochon-Any Given Sunday). The secret is well kept until Sarah goes into labor and her friend takes it upon herself to call everyone to the hospital. What ensues LS a hilarious mess right in the middle of childbirth!</Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="1" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>503</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>18718</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>戰慄之旅</ProductName>
+<ProductDescription>戰慄之旅</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051123040000" endTime="20051128050001"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051127000000" endTime="20051130000000"/>
+<Event beginTime="20051128040000" duration="3601">
+<EventId>L00000034304</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>戰慄之旅</Name>
+<Description>來自不同地方的七個人，為了不同的目的，各路人馬不約而同的在一家餐館休憩：有進來喝杯咖啡的寂寞卡車司機（勞勃佛斯特）、陪瀕死祖母做最後旅程的印第安婦女、被解雇的馬戲團小丑（凱文波拉克）和他的脫衣舞孃女友（潘妮洛普安米勒）、以及趕去參加父親喪禮的姊妹花；這七個人收聽著同一個音樂頻道，前往一樣的目的地，並成為同一個連續殺人狂的下一個目標…</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>Outside Ozona</Name>
+<Description>A group of people unite over the airwaves as they drive down lonesome highways into an uncertain future outside Ozona, Texas.  There’s the irritated disc jockey (Taj Mahal) who is determined to share his angst with the world in general and the station manager (Meat Loaf) who would rather he didn’t.  There’s the abusive, unemployed circus clown and his sexy white-trash girlfriend fleeing the scene of his latest act of rage.  Then there’s the shy and lonely trucker who helps a stranded Navajo lady and her grandmother in an act of kindness and affection.  As these unusual people follow they own destinies, they are, unknown to them, speeding towards a place where they worlds will collide.</Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="1" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>503</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>18721</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>殺妻</ProductName>
+<ProductDescription>殺妻</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051123070001" endTime="20051128080001"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051127000000" endTime="20051130000000"/>
+<Event beginTime="20051128070001" duration="3600">
+<EventId>L00000034313</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>殺妻</Name>
+<Description>布萊斯塔柏（柯賓班森，「愛情不設防」）拋下妻子，搬去跟情人蓋兒（萊絲莉安華倫，「對不起，駭到你」）同居，法院因此而拒絕讓他探視他的兩個孩子；他對法院的判決感到忿忿不平，並且急著想搶回孩子的監護權，於是布萊斯便夥同蓋兒計畫殺掉他老婆好將孩子搶回來，但為了要讓計畫成功，他們得再另外找人幫忙，於是他們便內舉不避親地找上了蓋兒的孩子！這部帶點荒謬情節的影片是根據真人真事所改編的。</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>Murderous Intent</Name>
+<Description>Based on actual events, this taut psychological thriller examines the extent of the human will to get what it wants.  Brice Talbot (Bernsen-Two of Hearts) abandons his wife to move in with his lover Gayle (Warren-Delivering Milo), but this act causes the courts to deny him the right to be with his two children.  Desperate to regain custody and furious at the results, Brice and Gayle plot to regain control by getting rid of Brice’s wife.  But in order for their plan to succeed, they have to recruit others into their plans, in this case Gayle’s own children!</Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="1" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>503</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>18725</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>頭號潛艦</ProductName>
+<ProductDescription>頭號潛艦</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051123110001" endTime="20051128120001"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051127000000" endTime="20051130000000"/>
+<Event beginTime="20051128110001" duration="3600">
+<EventId>L00000034325</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>頭號潛艦</Name>
+<Description>這部感人的戰爭片是根據一段美國內戰時的史實所改編，曾榮獲2000年艾美獎最佳音效剪接。西元1864年南北戰爭期間，南卡羅萊納州的查爾士敦遭北軍重重包圍，水陸交通皆與外界隔絕；面對戰力明顯優越許多的敵軍，城裡的南軍為突破重圍，因而建造了配備魚雷的史上第一艘潛水艇”CSS杭利號”，雖然最後並未達成使命，但船上的八名軍官所表現的袍澤之情，以及大無畏的軍人情操卻令他們名留青史。由演技派演員艾蒙亞森特（「超時空戰警」）和唐納蘇德蘭（「太空大哥大」、「神鬼任務」）領銜主演。</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>The Hunley</Name>
+<Description>The incredible true story of Confederate efforts to develop a submersible boat during the American Civil War. The story opens in Charleston S.C. during the 1864 seize and naval blockade of that city by the Yankees. The Confederates were attempting to develop a submarine with a torpedo to be used as a weapon to break the blockade. This movie follows the bravery and determination of the eight-member crew in developing the manually propelled submarine and its deployment into battle.  An exceptional story of heroism in the face of adversity. </Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="1" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>503</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+</ProductData>
+</ProductChangeNotification>
+</ProductManagementData>

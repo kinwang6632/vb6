@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ProductManagementData SYSTEM "ProductManagementData.dtd">
+<ProductManagementData creationDate="20060418082529">
+<ProviderInfo>
+<ProviderId>IMS Nagra</ProviderId>
+<ProviderName>IMS Nagravision S.A.</ProviderName>
+<DtdVersion>1.1.1</DtdVersion>
+</ProviderInfo>
+<ProductChangeNotification>
+
+<ProductData>
+<Product>
+<ProductId>6693</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>Avid 展示</ProductName>
+<ProductDescription>Avid 展示</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051117153000" endTime="20051117164000"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051116000000" endTime="20051119000000"/>
+</PpvData>
+</Product>
+<Product>
+<ProductId>7398</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>風火連天</ProductName>
+<ProductDescription>風火連天</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051207040808" endTime="20051208041808"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051207000000" endTime="20051210000000"/>
+</PpvData>
+</Product>
+<Product>
+<ProductId>7751</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>天王星攝影機</ProductName>
+<ProductDescription>天王星攝影機</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051211144000" endTime="20051212145000"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051211000000" endTime="20051214000000"/>
+</PpvData>
+</Product>
+</ProductData>
+</ProductChangeNotification>
+</ProductManagementData>

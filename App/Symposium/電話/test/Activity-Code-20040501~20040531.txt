@@ -1,0 +1,222 @@
+  201                                     Service Calls      4050     21.6%
+  202                                            Outage      4157     22.2%
+                                    Request Information      1880       10%
+  203                                   Install Request       685      0.0%
+  204   Install Request--Not in Franchise or 2-Way Area        67      0.0%
+  205                                         COS Rates       128      0.0%
+  206                  Channel Location/Program Content       143      0.0%
+  207  Installation Time for No Plant or Non 2-Way Area       381      0.0%
+  208                             Converter/STB Related        25      0.0%
+  209                          Company Location/Fax No.       269      0.0%
+  210                      Phone No. of Other Companies       112      0.0%
+  211             Ask for Customer Service Info/Premium        18      0.0%
+  212                                Identify Employees        37      0.0%
+  213                                        Spare Item        12      0.0%
+  214                                        Spare Item         2      0.0%
+                                        Payment Related      2827     15.1%
+  215               Channel of Payment (Incl. Past Due)      1061      0.0%
+  216                         Confirm Amount to Be Paid       237      0.0%
+  217                        Asking for Resending Bills        20      0.0%
+  218                             Confirm Bill Deadline        43      0.0%
+  219                     Confirm Next Payment Due Date       105      0.0%
+  220                                      Direct Debit        93      0.0%
+  221                               Refund/Fee Transfer        91      0.0%
+  222                    Making Collection Appointments      1045      0.0%
+  223                                   Invoice Related       117      0.0%
+  224                             Confirm Receiving Fax        11      0.0%
+  225                              Change Billing Cycle         3      0.0%
+  226                                        Spare Item         0      0.0%
+                                      Schedule Installs      1547      8.2%
+  227                                    Single Product      1234      0.0%
+  228                                     Dual Services        30      0.0%
+  229                                   Triple Services         0      0.0%
+  230                                     Four Products         0      0.0%
+  231                                        Relocation       282      0.0%
+  232                                        Spare Item         1      0.0%
+                                           Schedule COS        75      0.4%
+  233                                 Indoor Relocation        18      0.0%
+  234                              Additional Equipment        53      0.0%
+  235                          Refund Various Equipment         0      0.0%
+  236                                      Speed Change         2      0.0%
+  237              Apply for & Cancel Fixed/Multiple IP         1      0.0%
+  238                                        Spare Item         0      0.0%
+  239                                        Spare Item         0      0.0%
+  240                                        Spare Item         1      0.0%
+                                               Dispatch      2757     14.7%
+  241                           Reschedule Appointments        77      0.0%
+  242                               Cancel Appointments       141      0.0%
+  243                               Confirm Appointment      2275      0.1%
+  244                     Running Late for Installs/COS       120      0.0%
+  245                    Running Late for Service Calls        15      0.0%
+  246                                   Transfer to TSR       127      0.0%
+  247                                        Spare Item         2      0.0%
+                                On-Line Troubleshooting       449      2.4%
+  248            Unable to Connect to Specific Websites         1      0.0%
+  249                                    E-Mail Setting        12      0.0%
+  250                                        PC Setting        22      0.0%
+  251                            Cable Modem Technology         4      0.0%
+  252                               Reset the Modem/STB        49      0.0%
+  253                                        IP Related        15      0.0%
+  254                                       NIC Related         0      0.0%
+  255                                Customer Education       207      0.0%
+  256                               EPG Troubleshooting         0      0.0%
+  257                          Satellite Signal Problem       127      0.0%
+  258                          Preventative Maintenance        11      0.0%
+  259                               CP Related Problems         1      0.0%
+  260                                        Spare Item         0      0.0%
+                                    Customer Complaints       236      1.3%
+  261                                      Ad Insertion        10      0.0%
+  262                            Change Channel Line Up        10      0.0%
+  263                            Channel Location/Split        34      0.0%
+  264                                  Program Contents        11      0.0%
+  265                         Not Provide Program Guide         3      0.0%
+  266                               No Chinese Subtitle         0      0.0%
+  267               Speed of Switching Channel too slow         0      0.0%
+  268                        Remote Control Malfunction         0      0.0%
+  269                         Employee/Service Attitude        32      0.0%
+  270                                             Rates        33      0.0%
+  271                             Collection Procedures        24      0.0%
+  272                                  Frequent Outages        65      0.0%
+  273                                  Connection Speed         4      0.0%
+  274                 Unable to Access Specific Website         1      0.0%
+  275       Intermittent Connection/Network Instability         3      0.0%
+  276                                    E-Mail Related         1      0.0%
+  277            Content of Project/Promotion Materials         2      0.0%
+  278                              CP Related Complaint         1      0.0%
+  279                                        Spare Item         2      0.0%
+                                 Special Request Orders       209      1.1%
+  280        Remove Cable Drop/Equipment/Obsolete Cable        29      0.0%
+  281                  Work w/Official for Construction         0      0.0%
+  282                            Restore Terrestrial TV         3      0.0%
+  283            Ask for Compensation or Extend Payment         6      0.0%
+  284                        Update Account Information       158      0.0%
+  285                                            Piracy         6      0.0%
+  286                                 Power Supply Subs         2      0.0%
+  287                Community Closed Circuit TV System         4      0.0%
+  288                                   Special Routing         0      0.0%
+  289                                        Spare Item         1      0.0%
+  290                                        Spare Item         0      0.0%
+                                             Disconnect       239      1.3%
+  291                              Temporary Disconnect        87      0.0%
+  292                                 Unpaid Disconnect       152      0.0%
+                                                 Others       336      1.8%
+  293                       Calls from or for Employees        53      0.0%
+  294                              Phone System Related       126      0.0%
+  295                                         Spam Mail         1      0.0%
+  296                              Express Satisfaction         3      0.0%
+  297                                Provide Suggestion       131      0.0%
+  298                                        Spare Item         3      0.0%
+  299                                        Spare Item        19      0.0%
+  601                                     Service Calls         2      0.0%
+  602                                            Outage         0      0.0%
+                                    Request Information      1880       10%
+  603                     Install Request--No Promotion         1      0.0%
+  604                               Special Promotion 1         0      0.0%
+  605                               Special Promotion 2         0      0.0%
+  606                 Install Request--Not in Franchise         0      0.0%
+  607                                         COS Rates         0      0.0%
+  608                    Installation Time for No Plant         0      0.0%
+  609                                  Company Location         0      0.0%
+  610                      Phone No. of Other Companies         0      0.0%
+  611                                  Channel Location         0      0.0%
+  612                                       STB Related         0      0.0%
+  613                                  Company Location         0      0.0%
+  614                                  Program Schedule         0      0.0%
+                                        Payment Related      2827     15.1%
+  615                        Ask for CM/STB User Manual         0      0.0%
+  616                                        Spare Item         0      0.0%
+  617                                        Spare Item         0      0.0%
+  618                                        Spare Item         0      0.0%
+  619               Channel of Payment (Incl. Past Due)         1      0.0%
+  620                         Confirm Amount to Be Paid         0      0.0%
+  621                        Asking for Resending Bills         0      0.0%
+  622                                  Confirm Deadline         0      0.0%
+  623                     Confirm Next Payment Due Date         0      0.0%
+  624                         Apply/Cancel Direct Debit         0      0.0%
+  625                                            Refund         0      0.0%
+  626                       Request for ATM Account No.         0      0.0%
+                                      Schedule Installs      1547      8.2%
+  627                                        Spare Item         0      0.0%
+  628                                        Spare Item         0      0.0%
+  629                                               HSI         0      0.0%
+  630                                               DVS         0      0.0%
+  631                                     Dual Services         0      0.0%
+  632                                   Triple Services         0      0.0%
+                                           Schedule COS        75      0.4%
+  633                                        Spare Item         0      0.0%
+  634                                        Spare Item         0      0.0%
+  635                                        Spare Item         0      0.0%
+  636                       Apply for Fixed/Multiple IP         0      0.0%
+  637                                        Relocation         0      0.0%
+  638                              Speed Change-Upgrade         0      0.0%
+  639                            Speed Change-Downgrade         0      0.0%
+  640                                 Additional CM/STB         0      0.0%
+                                               Dispatch      2757     14.7%
+  641                                Buy Remote Control         0      0.0%
+  642                                   Upgrade to Dual         0      0.0%
+  643                        Downgrade from dual to HSI         0      0.0%
+  644                        Downgrade from dual to DVS         0      0.0%
+  645                                        Spare Item         0      0.0%
+  646                                        Spare Item         0      0.0%
+  647                                        Spare Item         0      0.0%
+                                On-Line Troubleshooting       449      2.4%
+  648                            Reschedule Appointment         0      0.0%
+  649                               Cancel Appointments         0      0.0%
+  650                               Confirm Appointment         0      0.0%
+  651                     Running Late for Installs/COS         0      0.0%
+  652                    Running Late for Service Calls         0      0.0%
+  653            Unable to Connect to Specific Websites         0      0.0%
+  654                                    E-Mail Setting         0      0.0%
+  655                                        PC Setting         0      0.0%
+  656                            Cable Modem Technology         0      0.0%
+  657                                   Reset the Modem         0      0.0%
+  658                                        IP Related         0      0.0%
+  659                                       NIC Related         0      0.0%
+  660                                        Spare Item         0      0.0%
+                                    Customer Complaints       236      1.3%
+  661                                        Spare Item         0      0.0%
+  662                                            Others         0      0.0%
+  663                         Employee/Service Attitude         0      0.0%
+  664                                  Connection Speed         0      0.0%
+  665                                  Frequent Outages         0      0.0%
+  666             Unable to Connect to Specific Website         0      0.0%
+  667                             E-Mail Server Quality         0      0.0%
+  668                                     Service Rates         0      0.0%
+  669                              Online Game Problems         0      0.0%
+  670                                Channel of Payment         0      0.0%
+  671                            Change Channel Line Up         0      0.0%
+  672                                  Channel Location         0      0.0%
+  673                                  Program Contents         0      0.0%
+  674                        No Providing Program Guide         0      0.0%
+  675                               No Chinese Subtitle         0      0.0%
+  676               Speed of Switching Channel too slow         0      0.0%
+  677                        Remote Control Malfunction         0      0.0%
+  678                        Mosaic on Erotica Channels         0      0.0%
+  679                                    Billing Period         0      0.0%
+                                 Special Request Orders       209      1.1%
+  680                                        Spare Item         0      0.0%
+  681                                        Spare Item         0      0.0%
+  682                              Correct Payment Term         0      0.0%
+  683                             Add Specific Channels         0      0.0%
+  684                                    Reset Password         0      0.0%
+  685                                        Spare Item         0      0.0%
+  686                                Customer Education         0      0.0%
+  687                                   Invoice Related         0      0.0%
+  688                                        Disconnect         0      0.0%
+  689                        Update Account Information         0      0.0%
+  690                          Satellite Signal Problem         0      0.0%
+                                             Disconnect       239      1.3%
+  691                            Preventive Maintenance         0      0.0%
+  692                       Calls from or for Employees         0      0.0%
+                                                 Others       336      1.8%
+  693                              Express Satisfaction         0      0.0%
+  694                               Provide Suggestions         0      0.0%
+  695                                   Transfer to TSR         0      0.0%
+  696                                        Spare Item         0      0.0%
+  697                                        Spare Item         0      0.0%
+  698                                        Spare Item         0      0.0%
+  699                                            Others         0      0.0%
+                        Unique Wrap Up Codes Entered :         87          
+                  Total Valid  Wrap Up Codes Entered :      18762          
+                Total Invalid  Wrap Up Codes Entered :        873          
+                Total Num. Of  Wrap Up Codes Entered :      19635          

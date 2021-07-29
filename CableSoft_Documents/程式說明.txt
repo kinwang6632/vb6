@@ -1,0 +1,33 @@
+*****************************原則***************************************
+
+(1)SO6420A(銀行編號代碼管理)
+   設定CD018.PRGNAME(轉帳程式名稱)
+
+(2)SO7300D
+   設定SO043.Para24(1.媒体入帳 0.單據編號入帳)
+
+(3) SO6330(未繳費原因代碼)
+    當有其中一筆設定參考為4時,則出帳成功後會將未收原因回填至該筆
+    當有其中一筆設定參考號5時,則入帳失敗會Upd UCcode與Ucname
+
+************************************************************************
+
+(4)SO3271(MediaOut4.dll)
+   CD018.PRGNAME='MEDIA%'
+
+(5)SO3272A、B(SO041.CreditCardTBCMode控制)
+  0.跑SO3272A(CreditCardOutEmc) 1.跑SO3272B(CreditCardOut)
+  CD018.PRGNAME='CreditCard%'
+  如果SO041.CreditCardTBCMode=0 And CD018.PRGNAME='CREDITCARDCITIBANK'
+  則會呼叫SO3272B的元件
+
+(6)SO3274
+   畫面選擇"中信新格式" 則單據會以CitiBankAmt為主，而且CitiBankAtm無值時，程式會自動給予(後端(CD018.FileName2))
+   CD018.PRGNAME='BANKCENTER%'
+   會根據單據不同的銀行別產出不同檔名的電子檔(CD018.FileName1),如果合併銀行,則以合併銀行的檔名為主
+
+(7)SO3277
+   針對ACH銀行做提出的動作,無其它特殊的做法 
+   CD018.PRGNAME='ACHTRANREFER%'
+
+

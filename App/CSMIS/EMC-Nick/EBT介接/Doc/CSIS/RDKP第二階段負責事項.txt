@@ -1,0 +1,14 @@
+RDK負責之功能
+UI以及工單的顯示
+賦予客編
+客戶狀態異動寫入
+
+
+
+RDP負責之功能
+(ok)	Dispatch EBT 寫入之資料到各系統台 => 包含EBT only(table4)與非EBT only(table3)之data
+(ok)	EMC之客戶狀態異動資料(從各系統台(SO151)寫到report server(EMC_EBT008))
+(ok)	EMC客編賦予完成之資料寫回report server，並寫入系統台之local table(table3)
+(ok)	Dispatch EBT客戶資料異動資料到各系統台(table3)
+
+snapshot 的設定=>EMC與EBT之客戶資料對應關係(從各系統台到report server)

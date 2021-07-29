@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AsRunSchedule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="LysisAsRun.xsd" reportingDate="2006-04-28T21:30:01Z">
+    <AsRun device="dev01" channelID="301" assetName="999-00000009" playStart="2006-04-26T21:59:45Z" playEnd="2006-04-26T22:59:46Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000009" playStart="2006-04-26T21:59:45Z" playEnd="2006-04-26T22:59:46Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000012" playStart="2006-04-26T22:59:46Z" playEnd="2006-04-26T23:59:46Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000012" playStart="2006-04-26T22:59:46Z" playEnd="2006-04-26T23:59:46Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000003" playStart="2006-04-26T23:59:46Z" playEnd="2006-04-27T00:59:46Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000003" playStart="2006-04-26T23:59:46Z" playEnd="2006-04-27T00:59:46Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000006" playStart="2006-04-27T00:59:46Z" playEnd="2006-04-27T01:59:46Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000006" playStart="2006-04-27T00:59:46Z" playEnd="2006-04-27T01:59:46Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000009" playStart="2006-04-27T01:59:46Z" playEnd="2006-04-27T02:59:47Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000009" playStart="2006-04-27T01:59:46Z" playEnd="2006-04-27T02:59:47Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000012" playStart="2006-04-27T02:59:47Z" playEnd="2006-04-27T03:59:47Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000012" playStart="2006-04-27T02:59:47Z" playEnd="2006-04-27T03:59:47Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000001" playStart="2006-04-27T03:59:47Z" playEnd="2006-04-27T04:14:47Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000001" playStart="2006-04-27T03:59:47Z" playEnd="2006-04-27T04:14:47Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000004" playStart="2006-04-27T04:14:47Z" playEnd="2006-04-27T04:29:47Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000004" playStart="2006-04-27T04:14:47Z" playEnd="2006-04-27T04:29:47Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000007" playStart="2006-04-27T04:29:47Z" playEnd="2006-04-27T04:44:47Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000007" playStart="2006-04-27T04:29:47Z" playEnd="2006-04-27T04:44:47Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000010" playStart="2006-04-27T04:44:47Z" playEnd="2006-04-27T04:59:47Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000010" playStart="2006-04-27T04:44:47Z" playEnd="2006-04-27T04:59:47Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000001" playStart="2006-04-27T04:59:47Z" playEnd="2006-04-27T05:14:48Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000001" playStart="2006-04-27T04:59:47Z" playEnd="2006-04-27T05:14:48Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000004" playStart="2006-04-27T05:14:48Z" playEnd="2006-04-27T05:29:48Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000004" playStart="2006-04-27T05:14:48Z" playEnd="2006-04-27T05:29:48Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000007" playStart="2006-04-27T05:29:48Z" playEnd="2006-04-27T05:44:48Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000007" playStart="2006-04-27T05:29:48Z" playEnd="2006-04-27T05:44:48Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000010" playStart="2006-04-27T05:44:48Z" playEnd="2006-04-27T05:59:48Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000010" playStart="2006-04-27T05:44:48Z" playEnd="2006-04-27T05:59:48Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000001" playStart="2006-04-27T05:59:48Z" playEnd="2006-04-27T06:14:48Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000001" playStart="2006-04-27T05:59:48Z" playEnd="2006-04-27T06:14:48Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000004" playStart="2006-04-27T06:14:48Z" playEnd="2006-04-27T06:29:48Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000004" playStart="2006-04-27T06:14:48Z" playEnd="2006-04-27T06:29:49Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000007" playStart="2006-04-27T06:29:48Z" playEnd="2006-04-27T06:44:49Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000007" playStart="2006-04-27T06:29:49Z" playEnd="2006-04-27T06:44:49Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000010" playStart="2006-04-27T06:44:49Z" playEnd="2006-04-27T06:59:49Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000010" playStart="2006-04-27T06:44:49Z" playEnd="2006-04-27T06:59:49Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000001" playStart="2006-04-27T06:59:49Z" playEnd="2006-04-27T07:14:49Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000001" playStart="2006-04-27T06:59:49Z" playEnd="2006-04-27T07:14:49Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000004" playStart="2006-04-27T07:14:49Z" playEnd="2006-04-27T07:29:49Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000004" playStart="2006-04-27T07:14:49Z" playEnd="2006-04-27T07:29:49Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000007" playStart="2006-04-27T07:29:49Z" playEnd="2006-04-27T07:44:49Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000007" playStart="2006-04-27T07:29:49Z" playEnd="2006-04-27T07:44:49Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000010" playStart="2006-04-27T07:44:49Z" playEnd="2006-04-27T07:59:49Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000010" playStart="2006-04-27T07:44:49Z" playEnd="2006-04-27T07:59:50Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000001" playStart="2006-04-27T07:59:49Z" playEnd="2006-04-27T08:14:50Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000001" playStart="2006-04-27T07:59:50Z" playEnd="2006-04-27T08:14:50Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000004" playStart="2006-04-27T08:14:50Z" playEnd="2006-04-27T08:29:50Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000004" playStart="2006-04-27T08:14:50Z" playEnd="2006-04-27T08:29:50Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000007" playStart="2006-04-27T08:29:50Z" playEnd="2006-04-27T08:44:50Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000007" playStart="2006-04-27T08:29:50Z" playEnd="2006-04-27T08:44:50Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000010" playStart="2006-04-27T08:44:50Z" playEnd="2006-04-27T08:59:50Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000010" playStart="2006-04-27T08:44:50Z" playEnd="2006-04-27T08:59:50Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000001" playStart="2006-04-27T08:59:50Z" playEnd="2006-04-27T09:14:50Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000001" playStart="2006-04-27T08:59:50Z" playEnd="2006-04-27T09:14:50Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000004" playStart="2006-04-27T09:14:50Z" playEnd="2006-04-27T09:29:50Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000004" playStart="2006-04-27T09:14:50Z" playEnd="2006-04-27T09:29:51Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000007" playStart="2006-04-27T09:29:50Z" playEnd="2006-04-27T09:44:51Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000007" playStart="2006-04-27T09:29:51Z" playEnd="2006-04-27T09:44:51Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000010" playStart="2006-04-27T09:44:51Z" playEnd="2006-04-27T09:59:51Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000010" playStart="2006-04-27T09:44:51Z" playEnd="2006-04-27T09:59:51Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000003" playStart="2006-04-27T09:59:51Z" playEnd="2006-04-27T10:59:51Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000003" playStart="2006-04-27T09:59:51Z" playEnd="2006-04-27T10:59:51Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000006" playStart="2006-04-27T10:59:51Z" playEnd="2006-04-27T11:59:51Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000006" playStart="2006-04-27T10:59:51Z" playEnd="2006-04-27T11:59:51Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000009" playStart="2006-04-27T11:59:51Z" playEnd="2006-04-27T12:59:52Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000009" playStart="2006-04-27T11:59:51Z" playEnd="2006-04-27T12:59:52Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000012" playStart="2006-04-27T12:59:52Z" playEnd="2006-04-27T13:59:52Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000012" playStart="2006-04-27T12:59:52Z" playEnd="2006-04-27T13:59:52Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000003" playStart="2006-04-27T13:59:52Z" playEnd="2006-04-27T14:59:52Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000003" playStart="2006-04-27T13:59:52Z" playEnd="2006-04-27T14:59:52Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000005" playStart="2006-04-27T14:59:52Z" playEnd="2006-04-27T15:29:52Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000005" playStart="2006-04-27T14:59:52Z" playEnd="2006-04-27T15:29:52Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="000-00000004" playStart="2006-04-27T15:29:52Z" playEnd="2006-04-27T15:41:02Z" played="true" eventID="" eventName=""/>
+    <AsRun device="dev02" channelID="301" assetName="000-00000004" playStart="2006-04-27T15:29:52Z" playEnd="2006-04-27T15:41:02Z" played="true" eventID="" eventName=""/>
+    <AsRun device="dev01" channelID="301" assetName="000-00000005" playStart="2006-04-27T15:41:02Z" playEnd="2006-04-27T15:44:43Z" played="true" eventID="" eventName=""/>
+    <AsRun device="dev02" channelID="301" assetName="000-00000005" playStart="2006-04-27T15:41:02Z" playEnd="2006-04-27T15:44:43Z" played="true" eventID="" eventName=""/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000010" playStart="2006-04-27T15:44:43Z" playEnd="2006-04-27T15:59:44Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000010" playStart="2006-04-27T15:44:45Z" playEnd="2006-04-27T15:59:45Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000003" playStart="2006-04-27T15:59:44Z" playEnd="2006-04-27T16:59:44Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000003" playStart="2006-04-27T15:59:45Z" playEnd="2006-04-27T16:59:45Z" played="true" eventID="L00000088036" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000006" playStart="2006-04-27T16:59:44Z" playEnd="2006-04-27T17:59:44Z" played="true" eventID="L00000088038" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000006" playStart="2006-04-27T16:59:45Z" playEnd="2006-04-27T17:59:46Z" played="true" eventID="L00000088038" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000009" playStart="2006-04-27T17:59:44Z" playEnd="2006-04-27T18:59:44Z" played="true" eventID="L00000088038" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000009" playStart="2006-04-27T17:59:46Z" playEnd="2006-04-27T18:59:46Z" played="true" eventID="L00000088038" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000012" playStart="2006-04-27T18:59:44Z" playEnd="2006-04-27T19:59:45Z" played="true" eventID="L00000088038" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000012" playStart="2006-04-27T18:59:46Z" playEnd="2006-04-27T19:59:46Z" played="true" eventID="L00000088038" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000003" playStart="2006-04-27T19:59:45Z" playEnd="2006-04-27T20:59:45Z" played="true" eventID="L00000088038" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000003" playStart="2006-04-27T19:59:46Z" playEnd="2006-04-27T20:59:46Z" played="true" eventID="L00000088038" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="301" assetName="999-00000006" playStart="2006-04-27T20:59:46Z" playEnd="2006-04-27T21:59:47Z" played="true" eventID="L00000088038" eventName="Unknown Programme"/>
+    <AsRun device="dev02" channelID="301" assetName="999-00000006" playStart="2006-04-27T20:59:46Z" playEnd="2006-04-27T21:59:47Z" played="true" eventID="L00000088038" eventName="Unknown Programme"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000006" playStart="2006-04-26T22:00:01Z" playEnd="2006-04-26T23:00:01Z" played="true" eventID="L00000087400" eventName="尼可3"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000006" playStart="2006-04-26T22:00:01Z" playEnd="2006-04-26T23:00:02Z" played="true" eventID="L00000087400" eventName="尼可3"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000003" playStart="2006-04-26T23:00:01Z" playEnd="2006-04-27T00:00:01Z" played="true" eventID="L00000087403" eventName="HBO3"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000003" playStart="2006-04-26T23:00:02Z" playEnd="2006-04-27T00:00:02Z" played="true" eventID="L00000087403" eventName="HBO3"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000012" playStart="2006-04-27T00:00:01Z" playEnd="2006-04-27T01:00:01Z" played="true" eventID="L00000087406" eventName="慈濟3"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000012" playStart="2006-04-27T00:00:02Z" playEnd="2006-04-27T01:00:02Z" played="true" eventID="L00000087406" eventName="慈濟3"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000009" playStart="2006-04-27T01:00:01Z" playEnd="2006-04-27T02:00:02Z" played="true" eventID="L00000087409" eventName="緯來體育3"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000009" playStart="2006-04-27T01:00:02Z" playEnd="2006-04-27T02:00:02Z" played="true" eventID="L00000087409" eventName="緯來體育3"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000006" playStart="2006-04-27T02:00:02Z" playEnd="2006-04-27T03:00:02Z" played="true" eventID="L00000087412" eventName="尼可3"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000006" playStart="2006-04-27T02:00:02Z" playEnd="2006-04-27T03:00:03Z" played="true" eventID="L00000087412" eventName="尼可3"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000003" playStart="2006-04-27T03:00:02Z" playEnd="2006-04-27T04:00:02Z" played="true" eventID="L00000087415" eventName="HBO3"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000003" playStart="2006-04-27T03:00:03Z" playEnd="2006-04-27T04:00:03Z" played="true" eventID="L00000087415" eventName="HBO3"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000010" playStart="2006-04-27T04:00:02Z" playEnd="2006-04-27T04:15:02Z" played="true" eventID="L00000087418" eventName="慈濟1"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000010" playStart="2006-04-27T04:00:03Z" playEnd="2006-04-27T04:15:03Z" played="true" eventID="L00000087418" eventName="慈濟1"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000007" playStart="2006-04-27T04:15:02Z" playEnd="2006-04-27T04:30:02Z" played="true" eventID="L00000087421" eventName="緯來體育1"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000007" playStart="2006-04-27T04:15:03Z" playEnd="2006-04-27T04:30:03Z" played="true" eventID="L00000087421" eventName="緯來體育1"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000004" playStart="2006-04-27T04:30:02Z" playEnd="2006-04-27T04:45:03Z" played="true" eventID="L00000087424" eventName="尼可1"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000004" playStart="2006-04-27T04:30:03Z" playEnd="2006-04-27T04:45:03Z" played="true" eventID="L00000087424" eventName="尼可1"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000001" playStart="2006-04-27T04:45:03Z" playEnd="2006-04-27T05:00:03Z" played="true" eventID="L00000087427" eventName="HBO1"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000001" playStart="2006-04-27T04:45:03Z" playEnd="2006-04-27T05:00:03Z" played="true" eventID="L00000087427" eventName="HBO1"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000010" playStart="2006-04-27T05:00:03Z" playEnd="2006-04-27T05:15:03Z" played="true" eventID="L00000087430" eventName="慈濟1"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000010" playStart="2006-04-27T05:00:03Z" playEnd="2006-04-27T05:15:04Z" played="true" eventID="L00000087430" eventName="慈濟1"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000007" playStart="2006-04-27T05:15:03Z" playEnd="2006-04-27T05:30:03Z" played="true" eventID="L00000087433" eventName="緯來體育1"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000007" playStart="2006-04-27T05:15:04Z" playEnd="2006-04-27T05:30:04Z" played="true" eventID="L00000087433" eventName="緯來體育1"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000004" playStart="2006-04-27T05:30:03Z" playEnd="2006-04-27T05:45:03Z" played="true" eventID="L00000087436" eventName="尼可1"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000004" playStart="2006-04-27T05:30:04Z" playEnd="2006-04-27T05:45:04Z" played="true" eventID="L00000087436" eventName="尼可1"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000001" playStart="2006-04-27T05:45:03Z" playEnd="2006-04-27T06:00:03Z" played="true" eventID="L00000087439" eventName="HBO1"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000001" playStart="2006-04-27T05:45:04Z" playEnd="2006-04-27T06:00:04Z" played="true" eventID="L00000087439" eventName="HBO1"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000010" playStart="2006-04-27T06:00:03Z" playEnd="2006-04-27T06:15:03Z" played="true" eventID="L00000087442" eventName="慈濟1"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000010" playStart="2006-04-27T06:00:04Z" playEnd="2006-04-27T06:15:04Z" played="true" eventID="L00000087442" eventName="慈濟1"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000007" playStart="2006-04-27T06:15:03Z" playEnd="2006-04-27T06:30:04Z" played="true" eventID="L00000087445" eventName="緯來體育1"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000007" playStart="2006-04-27T06:15:04Z" playEnd="2006-04-27T06:30:04Z" played="true" eventID="L00000087445" eventName="緯來體育1"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000004" playStart="2006-04-27T06:30:04Z" playEnd="2006-04-27T06:45:04Z" played="true" eventID="L00000087448" eventName="尼可1"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000004" playStart="2006-04-27T06:30:04Z" playEnd="2006-04-27T06:45:05Z" played="true" eventID="L00000087448" eventName="尼可1"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000001" playStart="2006-04-27T06:45:04Z" playEnd="2006-04-27T07:00:04Z" played="true" eventID="L00000087451" eventName="HBO1"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000001" playStart="2006-04-27T06:45:05Z" playEnd="2006-04-27T07:00:05Z" played="true" eventID="L00000087451" eventName="HBO1"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000010" playStart="2006-04-27T07:00:04Z" playEnd="2006-04-27T07:15:04Z" played="true" eventID="L00000087454" eventName="慈濟1"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000010" playStart="2006-04-27T07:00:05Z" playEnd="2006-04-27T07:15:05Z" played="true" eventID="L00000087454" eventName="慈濟1"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000007" playStart="2006-04-27T07:15:04Z" playEnd="2006-04-27T07:30:04Z" played="true" eventID="L00000087457" eventName="緯來體育1"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000007" playStart="2006-04-27T07:15:05Z" playEnd="2006-04-27T07:30:05Z" played="true" eventID="L00000087457" eventName="緯來體育1"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000004" playStart="2006-04-27T07:30:04Z" playEnd="2006-04-27T07:45:05Z" played="true" eventID="L00000087460" eventName="尼可1"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000004" playStart="2006-04-27T07:30:05Z" playEnd="2006-04-27T07:45:05Z" played="true" eventID="L00000087460" eventName="尼可1"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000001" playStart="2006-04-27T07:45:05Z" playEnd="2006-04-27T08:00:05Z" played="true" eventID="L00000087463" eventName="HBO1"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000001" playStart="2006-04-27T07:45:05Z" playEnd="2006-04-27T08:00:05Z" played="true" eventID="L00000087463" eventName="HBO1"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000010" playStart="2006-04-27T08:00:05Z" playEnd="2006-04-27T08:15:05Z" played="true" eventID="L00000087466" eventName="慈濟1"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000010" playStart="2006-04-27T08:00:05Z" playEnd="2006-04-27T08:15:06Z" played="true" eventID="L00000087466" eventName="慈濟1"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000007" playStart="2006-04-27T08:15:05Z" playEnd="2006-04-27T08:30:05Z" played="true" eventID="L00000087469" eventName="緯來體育1"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000007" playStart="2006-04-27T08:15:06Z" playEnd="2006-04-27T08:30:06Z" played="true" eventID="L00000087469" eventName="緯來體育1"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000004" playStart="2006-04-27T08:30:05Z" playEnd="2006-04-27T08:45:05Z" played="true" eventID="L00000087472" eventName="尼可1"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000004" playStart="2006-04-27T08:30:06Z" playEnd="2006-04-27T08:45:06Z" played="true" eventID="L00000087472" eventName="尼可1"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000001" playStart="2006-04-27T08:45:05Z" playEnd="2006-04-27T09:00:05Z" played="true" eventID="L00000087475" eventName="HBO1"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000001" playStart="2006-04-27T08:45:06Z" playEnd="2006-04-27T09:00:06Z" played="true" eventID="L00000087475" eventName="HBO1"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000010" playStart="2006-04-27T09:00:05Z" playEnd="2006-04-27T09:15:06Z" played="true" eventID="L00000087478" eventName="慈濟1"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000010" playStart="2006-04-27T09:00:06Z" playEnd="2006-04-27T09:15:06Z" played="true" eventID="L00000087478" eventName="慈濟1"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000007" playStart="2006-04-27T09:15:06Z" playEnd="2006-04-27T09:30:07Z" played="true" eventID="L00000087481" eventName="緯來體育1"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000007" playStart="2006-04-27T09:15:07Z" playEnd="2006-04-27T09:30:07Z" played="true" eventID="L00000087481" eventName="緯來體育1"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000004" playStart="2006-04-27T09:30:07Z" playEnd="2006-04-27T09:45:07Z" played="true" eventID="L00000087484" eventName="尼可1"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000004" playStart="2006-04-27T09:30:07Z" playEnd="2006-04-27T09:45:08Z" played="true" eventID="L00000087484" eventName="尼可1"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000001" playStart="2006-04-27T09:45:07Z" playEnd="2006-04-27T10:00:07Z" played="true" eventID="L00000087487" eventName="HBO1"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000001" playStart="2006-04-27T09:45:08Z" playEnd="2006-04-27T10:00:08Z" played="true" eventID="L00000087487" eventName="HBO1"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000012" playStart="2006-04-27T10:00:07Z" playEnd="2006-04-27T11:00:07Z" played="true" eventID="L00000087490" eventName="慈濟3"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000012" playStart="2006-04-27T10:00:08Z" playEnd="2006-04-27T11:00:08Z" played="true" eventID="L00000087490" eventName="慈濟3"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000009" playStart="2006-04-27T11:00:07Z" playEnd="2006-04-27T12:00:07Z" played="true" eventID="L00000087493" eventName="緯來體育3"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000009" playStart="2006-04-27T11:00:08Z" playEnd="2006-04-27T12:00:08Z" played="true" eventID="L00000087493" eventName="緯來體育3"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000006" playStart="2006-04-27T12:00:07Z" playEnd="2006-04-27T13:00:08Z" played="true" eventID="L00000087496" eventName="尼可3"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000006" playStart="2006-04-27T12:00:08Z" playEnd="2006-04-27T13:00:09Z" played="true" eventID="L00000087496" eventName="尼可3"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000003" playStart="2006-04-27T13:00:08Z" playEnd="2006-04-27T14:00:08Z" played="true" eventID="L00000087499" eventName="HBO3"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000003" playStart="2006-04-27T13:00:09Z" playEnd="2006-04-27T14:00:09Z" played="true" eventID="L00000087499" eventName="HBO3"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000012" playStart="2006-04-27T14:00:08Z" playEnd="2006-04-27T15:00:08Z" played="true" eventID="L00000087502" eventName="慈濟3"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000012" playStart="2006-04-27T14:00:09Z" playEnd="2006-04-27T15:00:09Z" played="true" eventID="L00000087502" eventName="慈濟3"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000008" playStart="2006-04-27T15:00:08Z" playEnd="2006-04-27T15:30:08Z" played="true" eventID="L00000087505" eventName="緯來體育2"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000008" playStart="2006-04-27T15:00:09Z" playEnd="2006-04-27T15:30:09Z" played="true" eventID="L00000087505" eventName="緯來體育2"/>
+    <AsRun device="dev02" channelID="302" assetName="000-00000001" playStart="2006-04-27T15:30:08Z" playEnd="2006-04-27T15:32:25Z" played="true" eventID="" eventName=""/>
+    <AsRun device="dev01" channelID="302" assetName="000-00000001" playStart="2006-04-27T15:30:09Z" playEnd="2006-04-27T15:32:26Z" played="true" eventID="" eventName=""/>
+    <AsRun device="dev02" channelID="302" assetName="000-00000005" playStart="2006-04-27T15:32:25Z" playEnd="2006-04-27T15:38:28Z" played="true" eventID="" eventName=""/>
+    <AsRun device="dev01" channelID="302" assetName="000-00000005" playStart="2006-04-27T15:32:26Z" playEnd="2006-04-27T15:38:29Z" played="true" eventID="" eventName=""/>
+    <AsRun device="dev02" channelID="302" assetName="000-00000003" playStart="2006-04-27T15:38:28Z" playEnd="2006-04-27T15:40:19Z" played="true" eventID="" eventName=""/>
+    <AsRun device="dev01" channelID="302" assetName="000-00000003" playStart="2006-04-27T15:38:29Z" playEnd="2006-04-27T15:40:20Z" played="true" eventID="" eventName=""/>
+    <AsRun device="dev02" channelID="302" assetName="000-00000005" playStart="2006-04-27T15:40:19Z" playEnd="2006-04-27T15:45:00Z" played="true" eventID="" eventName=""/>
+    <AsRun device="dev01" channelID="302" assetName="000-00000005" playStart="2006-04-27T15:40:20Z" playEnd="2006-04-27T15:45:00Z" played="true" eventID="" eventName=""/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000007" playStart="2006-04-27T15:45:00Z" playEnd="2006-04-27T16:00:00Z" played="true" eventID="L00000087510" eventName="緯來體育1"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000007" playStart="2006-04-27T15:45:00Z" playEnd="2006-04-27T16:00:01Z" played="true" eventID="L00000087510" eventName="緯來體育1"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000012" playStart="2006-04-27T16:00:00Z" playEnd="2006-04-27T17:00:00Z" played="true" eventID="L00000087513" eventName="慈濟3"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000012" playStart="2006-04-27T16:00:01Z" playEnd="2006-04-27T17:00:01Z" played="true" eventID="L00000087513" eventName="慈濟3"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000009" playStart="2006-04-27T17:00:00Z" playEnd="2006-04-27T18:00:00Z" played="true" eventID="L00000087516" eventName="緯來體育3"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000009" playStart="2006-04-27T17:00:01Z" playEnd="2006-04-27T18:00:01Z" played="true" eventID="L00000087516" eventName="緯來體育3"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000006" playStart="2006-04-27T18:00:00Z" playEnd="2006-04-27T19:00:01Z" played="true" eventID="L00000087519" eventName="尼可3"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000006" playStart="2006-04-27T18:00:01Z" playEnd="2006-04-27T19:00:01Z" played="true" eventID="L00000087519" eventName="尼可3"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000003" playStart="2006-04-27T19:00:01Z" playEnd="2006-04-27T20:00:01Z" played="true" eventID="L00000087522" eventName="HBO3"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000003" playStart="2006-04-27T19:00:01Z" playEnd="2006-04-27T20:00:01Z" played="true" eventID="L00000087522" eventName="HBO3"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000012" playStart="2006-04-27T20:00:01Z" playEnd="2006-04-27T21:00:01Z" played="true" eventID="L00000087525" eventName="慈濟3"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000012" playStart="2006-04-27T20:00:01Z" playEnd="2006-04-27T21:00:01Z" played="true" eventID="L00000087525" eventName="慈濟3"/>
+    <AsRun device="dev02" channelID="302" assetName="999-00000009" playStart="2006-04-27T21:00:01Z" playEnd="2006-04-27T22:00:01Z" played="true" eventID="L00000087528" eventName="緯來體育3"/>
+    <AsRun device="dev01" channelID="302" assetName="999-00000009" playStart="2006-04-27T21:00:01Z" playEnd="2006-04-27T22:00:02Z" played="true" eventID="L00000087528" eventName="緯來體育3"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000009" playStart="2006-04-26T22:00:01Z" playEnd="2006-04-26T23:00:01Z" played="true" eventID="L00000085618" eventName="緯來體育3"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000009" playStart="2006-04-26T22:00:01Z" playEnd="2006-04-26T23:00:01Z" played="true" eventID="L00000085618" eventName="緯來體育3"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000012" playStart="2006-04-26T23:00:01Z" playEnd="2006-04-27T00:00:01Z" played="true" eventID="L00000085620" eventName="慈濟3"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000012" playStart="2006-04-26T23:00:01Z" playEnd="2006-04-27T00:00:01Z" played="true" eventID="L00000085620" eventName="慈濟3"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000003" playStart="2006-04-27T00:00:01Z" playEnd="2006-04-27T01:00:01Z" played="true" eventID="L00000085629" eventName="HBO3"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000003" playStart="2006-04-27T00:00:01Z" playEnd="2006-04-27T01:00:02Z" played="true" eventID="L00000085629" eventName="HBO3"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000006" playStart="2006-04-27T01:00:01Z" playEnd="2006-04-27T02:00:02Z" played="true" eventID="L00000085631" eventName="尼可3"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000006" playStart="2006-04-27T01:00:02Z" playEnd="2006-04-27T02:00:02Z" played="true" eventID="L00000085631" eventName="尼可3"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000009" playStart="2006-04-27T02:00:02Z" playEnd="2006-04-27T03:00:02Z" played="true" eventID="L00000085633" eventName="緯來體育3"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000009" playStart="2006-04-27T02:00:02Z" playEnd="2006-04-27T03:00:02Z" played="true" eventID="L00000085633" eventName="緯來體育3"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000012" playStart="2006-04-27T03:00:02Z" playEnd="2006-04-27T04:00:02Z" played="true" eventID="L00000085635" eventName="慈濟3"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000012" playStart="2006-04-27T03:00:02Z" playEnd="2006-04-27T04:00:02Z" played="true" eventID="L00000085635" eventName="慈濟3"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000001" playStart="2006-04-27T04:00:02Z" playEnd="2006-04-27T04:15:02Z" played="true" eventID="L00000085637" eventName="HBO1"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000001" playStart="2006-04-27T04:00:02Z" playEnd="2006-04-27T04:15:03Z" played="true" eventID="L00000085637" eventName="HBO1"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000004" playStart="2006-04-27T04:15:02Z" playEnd="2006-04-27T04:30:03Z" played="true" eventID="L00000085639" eventName="尼可1"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000004" playStart="2006-04-27T04:15:03Z" playEnd="2006-04-27T04:30:03Z" played="true" eventID="L00000085639" eventName="尼可1"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000007" playStart="2006-04-27T04:30:03Z" playEnd="2006-04-27T04:45:03Z" played="true" eventID="L00000085641" eventName="緯來體育1"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000007" playStart="2006-04-27T04:30:03Z" playEnd="2006-04-27T04:45:03Z" played="true" eventID="L00000085641" eventName="緯來體育1"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000010" playStart="2006-04-27T04:45:03Z" playEnd="2006-04-27T05:00:03Z" played="true" eventID="L00000085643" eventName="慈濟1"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000010" playStart="2006-04-27T04:45:03Z" playEnd="2006-04-27T05:00:03Z" played="true" eventID="L00000085643" eventName="慈濟1"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000001" playStart="2006-04-27T05:00:03Z" playEnd="2006-04-27T05:15:03Z" played="true" eventID="L00000085645" eventName="HBO1"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000001" playStart="2006-04-27T05:00:03Z" playEnd="2006-04-27T05:15:03Z" played="true" eventID="L00000085645" eventName="HBO1"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000004" playStart="2006-04-27T05:15:03Z" playEnd="2006-04-27T05:30:03Z" played="true" eventID="L00000085647" eventName="尼可1"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000004" playStart="2006-04-27T05:15:03Z" playEnd="2006-04-27T05:30:03Z" played="true" eventID="L00000085647" eventName="尼可1"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000007" playStart="2006-04-27T05:30:03Z" playEnd="2006-04-27T05:45:03Z" played="true" eventID="L00000085649" eventName="緯來體育1"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000007" playStart="2006-04-27T05:30:03Z" playEnd="2006-04-27T05:45:04Z" played="true" eventID="L00000085649" eventName="緯來體育1"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000010" playStart="2006-04-27T05:45:03Z" playEnd="2006-04-27T06:00:04Z" played="true" eventID="L00000085651" eventName="慈濟1"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000010" playStart="2006-04-27T05:45:04Z" playEnd="2006-04-27T06:00:04Z" played="true" eventID="L00000085651" eventName="慈濟1"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000001" playStart="2006-04-27T06:00:04Z" playEnd="2006-04-27T06:15:04Z" played="true" eventID="L00000085653" eventName="HBO1"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000001" playStart="2006-04-27T06:00:04Z" playEnd="2006-04-27T06:15:04Z" played="true" eventID="L00000085653" eventName="HBO1"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000004" playStart="2006-04-27T06:15:04Z" playEnd="2006-04-27T06:30:04Z" played="true" eventID="L00000085655" eventName="尼可1"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000004" playStart="2006-04-27T06:15:04Z" playEnd="2006-04-27T06:30:04Z" played="true" eventID="L00000085655" eventName="尼可1"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000007" playStart="2006-04-27T06:30:04Z" playEnd="2006-04-27T06:45:04Z" played="true" eventID="L00000085657" eventName="緯來體育1"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000007" playStart="2006-04-27T06:30:04Z" playEnd="2006-04-27T06:45:04Z" played="true" eventID="L00000085657" eventName="緯來體育1"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000010" playStart="2006-04-27T06:45:04Z" playEnd="2006-04-27T07:00:04Z" played="true" eventID="L00000085659" eventName="慈濟1"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000010" playStart="2006-04-27T06:45:04Z" playEnd="2006-04-27T07:00:05Z" played="true" eventID="L00000085659" eventName="慈濟1"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000001" playStart="2006-04-27T07:00:04Z" playEnd="2006-04-27T07:15:04Z" played="true" eventID="L00000085661" eventName="HBO1"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000001" playStart="2006-04-27T07:00:05Z" playEnd="2006-04-27T07:15:05Z" played="true" eventID="L00000085661" eventName="HBO1"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000004" playStart="2006-04-27T07:15:04Z" playEnd="2006-04-27T07:30:05Z" played="true" eventID="L00000085663" eventName="尼可1"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000004" playStart="2006-04-27T07:15:05Z" playEnd="2006-04-27T07:30:05Z" played="true" eventID="L00000085663" eventName="尼可1"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000007" playStart="2006-04-27T07:30:05Z" playEnd="2006-04-27T07:45:05Z" played="true" eventID="L00000085665" eventName="緯來體育1"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000007" playStart="2006-04-27T07:30:05Z" playEnd="2006-04-27T07:45:05Z" played="true" eventID="L00000085665" eventName="緯來體育1"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000010" playStart="2006-04-27T07:45:05Z" playEnd="2006-04-27T08:00:05Z" played="true" eventID="L00000085667" eventName="慈濟1"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000010" playStart="2006-04-27T07:45:05Z" playEnd="2006-04-27T08:00:05Z" played="true" eventID="L00000085667" eventName="慈濟1"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000001" playStart="2006-04-27T08:00:05Z" playEnd="2006-04-27T08:15:05Z" played="true" eventID="L00000085669" eventName="HBO1"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000001" playStart="2006-04-27T08:00:05Z" playEnd="2006-04-27T08:15:05Z" played="true" eventID="L00000085669" eventName="HBO1"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000004" playStart="2006-04-27T08:15:05Z" playEnd="2006-04-27T08:30:05Z" played="true" eventID="L00000085671" eventName="尼可1"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000004" playStart="2006-04-27T08:15:05Z" playEnd="2006-04-27T08:30:06Z" played="true" eventID="L00000085671" eventName="尼可1"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000007" playStart="2006-04-27T08:30:05Z" playEnd="2006-04-27T08:45:06Z" played="true" eventID="L00000085673" eventName="緯來體育1"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000007" playStart="2006-04-27T08:30:06Z" playEnd="2006-04-27T08:45:06Z" played="true" eventID="L00000085673" eventName="緯來體育1"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000010" playStart="2006-04-27T08:45:06Z" playEnd="2006-04-27T09:00:06Z" played="true" eventID="L00000085675" eventName="慈濟1"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000010" playStart="2006-04-27T08:45:06Z" playEnd="2006-04-27T09:00:06Z" played="true" eventID="L00000085675" eventName="慈濟1"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000001" playStart="2006-04-27T09:00:06Z" playEnd="2006-04-27T09:15:06Z" played="true" eventID="L00000085681" eventName="HBO1"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000001" playStart="2006-04-27T09:00:06Z" playEnd="2006-04-27T09:15:06Z" played="true" eventID="L00000085681" eventName="HBO1"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000004" playStart="2006-04-27T09:15:06Z" playEnd="2006-04-27T09:30:06Z" played="true" eventID="L00000085683" eventName="尼可1"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000004" playStart="2006-04-27T09:15:06Z" playEnd="2006-04-27T09:30:06Z" played="true" eventID="L00000085683" eventName="尼可1"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000007" playStart="2006-04-27T09:30:06Z" playEnd="2006-04-27T09:45:06Z" played="true" eventID="L00000085685" eventName="緯來體育1"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000007" playStart="2006-04-27T09:30:06Z" playEnd="2006-04-27T09:45:06Z" played="true" eventID="L00000085685" eventName="緯來體育1"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000010" playStart="2006-04-27T09:45:06Z" playEnd="2006-04-27T10:00:06Z" played="true" eventID="L00000085687" eventName="慈濟1"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000010" playStart="2006-04-27T09:45:06Z" playEnd="2006-04-27T10:00:07Z" played="true" eventID="L00000085687" eventName="慈濟1"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000003" playStart="2006-04-27T10:00:06Z" playEnd="2006-04-27T11:00:06Z" played="true" eventID="L00000085689" eventName="HBO3"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000003" playStart="2006-04-27T10:00:07Z" playEnd="2006-04-27T11:00:07Z" played="true" eventID="L00000085689" eventName="HBO3"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000006" playStart="2006-04-27T11:00:06Z" playEnd="2006-04-27T12:00:07Z" played="true" eventID="L00000085691" eventName="尼可3"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000006" playStart="2006-04-27T11:00:07Z" playEnd="2006-04-27T12:00:07Z" played="true" eventID="L00000085691" eventName="尼可3"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000009" playStart="2006-04-27T12:00:07Z" playEnd="2006-04-27T13:00:07Z" played="true" eventID="L00000085693" eventName="緯來體育3"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000009" playStart="2006-04-27T12:00:07Z" playEnd="2006-04-27T13:00:08Z" played="true" eventID="L00000085693" eventName="緯來體育3"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000012" playStart="2006-04-27T13:00:07Z" playEnd="2006-04-27T14:00:07Z" played="true" eventID="L00000085695" eventName="慈濟3"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000012" playStart="2006-04-27T13:00:08Z" playEnd="2006-04-27T14:00:08Z" played="true" eventID="L00000085695" eventName="慈濟3"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000003" playStart="2006-04-27T14:00:07Z" playEnd="2006-04-27T15:00:07Z" played="true" eventID="L00000085711" eventName="HBO3"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000003" playStart="2006-04-27T14:00:08Z" playEnd="2006-04-27T15:00:08Z" played="true" eventID="L00000085711" eventName="HBO3"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000005" playStart="2006-04-27T15:00:07Z" playEnd="2006-04-27T15:30:08Z" played="true" eventID="L00000085713" eventName="尼可2"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000005" playStart="2006-04-27T15:00:08Z" playEnd="2006-04-27T15:30:08Z" played="true" eventID="L00000085713" eventName="尼可2"/>
+    <AsRun device="dev01" channelID="303" assetName="000-00000004" playStart="2006-04-27T15:30:08Z" playEnd="2006-04-27T15:41:18Z" played="true" eventID="" eventName=""/>
+    <AsRun device="dev02" channelID="303" assetName="000-00000004" playStart="2006-04-27T15:30:08Z" playEnd="2006-04-27T15:41:18Z" played="true" eventID="" eventName=""/>
+    <AsRun device="dev01" channelID="303" assetName="000-00000005" playStart="2006-04-27T15:41:18Z" playEnd="2006-04-27T15:44:59Z" played="true" eventID="" eventName=""/>
+    <AsRun device="dev02" channelID="303" assetName="000-00000005" playStart="2006-04-27T15:41:18Z" playEnd="2006-04-27T15:44:59Z" played="true" eventID="" eventName=""/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000010" playStart="2006-04-27T15:44:59Z" playEnd="2006-04-27T15:59:59Z" played="true" eventID="L00000085715" eventName="慈濟1"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000010" playStart="2006-04-27T15:44:59Z" playEnd="2006-04-27T15:59:59Z" played="true" eventID="L00000085715" eventName="慈濟1"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000003" playStart="2006-04-27T15:59:59Z" playEnd="2006-04-27T16:59:59Z" played="true" eventID="L00000085725" eventName="HBO3"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000003" playStart="2006-04-27T15:59:59Z" playEnd="2006-04-27T16:59:59Z" played="true" eventID="L00000085725" eventName="HBO3"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000006" playStart="2006-04-27T16:59:59Z" playEnd="2006-04-27T17:59:59Z" played="true" eventID="L00000085728" eventName="尼可3"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000006" playStart="2006-04-27T16:59:59Z" playEnd="2006-04-27T18:00:00Z" played="true" eventID="L00000085728" eventName="尼可3"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000009" playStart="2006-04-27T17:59:59Z" playEnd="2006-04-27T19:00:00Z" played="true" eventID="L00000085731" eventName="緯來體育3"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000009" playStart="2006-04-27T18:00:00Z" playEnd="2006-04-27T19:00:00Z" played="true" eventID="L00000085731" eventName="緯來體育3"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000012" playStart="2006-04-27T19:00:00Z" playEnd="2006-04-27T20:00:00Z" played="true" eventID="L00000085734" eventName="慈濟3"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000012" playStart="2006-04-27T19:00:00Z" playEnd="2006-04-27T20:00:00Z" played="true" eventID="L00000085734" eventName="慈濟3"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000003" playStart="2006-04-27T20:00:00Z" playEnd="2006-04-27T21:00:00Z" played="true" eventID="L00000085737" eventName="HBO3"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000003" playStart="2006-04-27T20:00:00Z" playEnd="2006-04-27T21:00:00Z" played="true" eventID="L00000085737" eventName="HBO3"/>
+    <AsRun device="dev01" channelID="303" assetName="999-00000006" playStart="2006-04-27T21:00:00Z" playEnd="2006-04-27T22:00:00Z" played="true" eventID="L00000085740" eventName="尼可3"/>
+    <AsRun device="dev02" channelID="303" assetName="999-00000006" playStart="2006-04-27T21:00:00Z" playEnd="2006-04-27T22:00:01Z" played="true" eventID="L00000085740" eventName="尼可3"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000006" playStart="2006-04-26T22:00:01Z" playEnd="2006-04-26T23:00:01Z" played="true" eventID="L00000086271" eventName="尼可3"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000006" playStart="2006-04-26T22:00:01Z" playEnd="2006-04-26T23:00:01Z" played="true" eventID="L00000086271" eventName="尼可3"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000003" playStart="2006-04-26T23:00:01Z" playEnd="2006-04-27T00:00:01Z" played="true" eventID="L00000086274" eventName="HBO3"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000003" playStart="2006-04-26T23:00:01Z" playEnd="2006-04-27T00:00:01Z" played="true" eventID="L00000086274" eventName="HBO3"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000012" playStart="2006-04-27T00:00:01Z" playEnd="2006-04-27T01:00:01Z" played="true" eventID="L00000086277" eventName="慈濟3"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000012" playStart="2006-04-27T00:00:01Z" playEnd="2006-04-27T01:00:01Z" played="true" eventID="L00000086277" eventName="慈濟3"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000009" playStart="2006-04-27T01:00:01Z" playEnd="2006-04-27T02:00:02Z" played="true" eventID="L00000086280" eventName="緯來體育3"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000009" playStart="2006-04-27T01:00:01Z" playEnd="2006-04-27T02:00:02Z" played="true" eventID="L00000086280" eventName="緯來體育3"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000006" playStart="2006-04-27T02:00:02Z" playEnd="2006-04-27T03:00:02Z" played="true" eventID="L00000086283" eventName="尼可3"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000006" playStart="2006-04-27T02:00:02Z" playEnd="2006-04-27T03:00:02Z" played="true" eventID="L00000086283" eventName="尼可3"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000003" playStart="2006-04-27T03:00:02Z" playEnd="2006-04-27T04:00:02Z" played="true" eventID="L00000086286" eventName="HBO3"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000003" playStart="2006-04-27T03:00:02Z" playEnd="2006-04-27T04:00:02Z" played="true" eventID="L00000086286" eventName="HBO3"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000010" playStart="2006-04-27T04:00:02Z" playEnd="2006-04-27T04:15:02Z" played="true" eventID="L00000086288" eventName="慈濟1"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000010" playStart="2006-04-27T04:00:02Z" playEnd="2006-04-27T04:15:02Z" played="true" eventID="L00000086288" eventName="慈濟1"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000007" playStart="2006-04-27T04:15:02Z" playEnd="2006-04-27T04:30:03Z" played="true" eventID="L00000086290" eventName="緯來體育1"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000007" playStart="2006-04-27T04:15:02Z" playEnd="2006-04-27T04:30:03Z" played="true" eventID="L00000086290" eventName="緯來體育1"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000004" playStart="2006-04-27T04:30:03Z" playEnd="2006-04-27T04:45:03Z" played="true" eventID="L00000086292" eventName="尼可1"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000004" playStart="2006-04-27T04:30:03Z" playEnd="2006-04-27T04:45:03Z" played="true" eventID="L00000086292" eventName="尼可1"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000001" playStart="2006-04-27T04:45:03Z" playEnd="2006-04-27T05:00:03Z" played="true" eventID="L00000086294" eventName="HBO1"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000001" playStart="2006-04-27T04:45:03Z" playEnd="2006-04-27T05:00:03Z" played="true" eventID="L00000086294" eventName="HBO1"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000010" playStart="2006-04-27T05:00:03Z" playEnd="2006-04-27T05:15:03Z" played="true" eventID="L00000086297" eventName="慈濟1"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000010" playStart="2006-04-27T05:00:03Z" playEnd="2006-04-27T05:15:03Z" played="true" eventID="L00000086297" eventName="慈濟1"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000007" playStart="2006-04-27T05:15:03Z" playEnd="2006-04-27T05:30:03Z" played="true" eventID="L00000086300" eventName="緯來體育1"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000007" playStart="2006-04-27T05:15:03Z" playEnd="2006-04-27T05:30:03Z" played="true" eventID="L00000086300" eventName="緯來體育1"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000004" playStart="2006-04-27T05:30:03Z" playEnd="2006-04-27T05:45:03Z" played="true" eventID="L00000086303" eventName="尼可1"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000004" playStart="2006-04-27T05:30:03Z" playEnd="2006-04-27T05:45:04Z" played="true" eventID="L00000086303" eventName="尼可1"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000001" playStart="2006-04-27T05:45:03Z" playEnd="2006-04-27T06:00:04Z" played="true" eventID="L00000086306" eventName="HBO1"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000001" playStart="2006-04-27T05:45:04Z" playEnd="2006-04-27T06:00:04Z" played="true" eventID="L00000086306" eventName="HBO1"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000010" playStart="2006-04-27T06:00:04Z" playEnd="2006-04-27T06:15:04Z" played="true" eventID="L00000086309" eventName="慈濟1"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000010" playStart="2006-04-27T06:00:04Z" playEnd="2006-04-27T06:15:04Z" played="true" eventID="L00000086309" eventName="慈濟1"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000007" playStart="2006-04-27T06:15:04Z" playEnd="2006-04-27T06:30:04Z" played="true" eventID="L00000086312" eventName="緯來體育1"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000007" playStart="2006-04-27T06:15:04Z" playEnd="2006-04-27T06:30:04Z" played="true" eventID="L00000086312" eventName="緯來體育1"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000004" playStart="2006-04-27T06:30:04Z" playEnd="2006-04-27T06:45:04Z" played="true" eventID="L00000086315" eventName="尼可1"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000004" playStart="2006-04-27T06:30:04Z" playEnd="2006-04-27T06:45:04Z" played="true" eventID="L00000086315" eventName="尼可1"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000001" playStart="2006-04-27T06:45:04Z" playEnd="2006-04-27T07:00:04Z" played="true" eventID="L00000086318" eventName="HBO1"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000001" playStart="2006-04-27T06:45:04Z" playEnd="2006-04-27T07:00:04Z" played="true" eventID="L00000086318" eventName="HBO1"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000010" playStart="2006-04-27T07:00:04Z" playEnd="2006-04-27T07:15:04Z" played="true" eventID="L00000086321" eventName="慈濟1"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000010" playStart="2006-04-27T07:00:04Z" playEnd="2006-04-27T07:15:04Z" played="true" eventID="L00000086321" eventName="慈濟1"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000007" playStart="2006-04-27T07:15:04Z" playEnd="2006-04-27T07:30:05Z" played="true" eventID="L00000086324" eventName="緯來體育1"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000007" playStart="2006-04-27T07:15:04Z" playEnd="2006-04-27T07:30:05Z" played="true" eventID="L00000086324" eventName="緯來體育1"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000004" playStart="2006-04-27T07:30:05Z" playEnd="2006-04-27T07:45:05Z" played="true" eventID="L00000086327" eventName="尼可1"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000004" playStart="2006-04-27T07:30:05Z" playEnd="2006-04-27T07:45:05Z" played="true" eventID="L00000086327" eventName="尼可1"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000001" playStart="2006-04-27T07:45:05Z" playEnd="2006-04-27T08:00:05Z" played="true" eventID="L00000086330" eventName="HBO1"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000001" playStart="2006-04-27T07:45:05Z" playEnd="2006-04-27T08:00:05Z" played="true" eventID="L00000086330" eventName="HBO1"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000010" playStart="2006-04-27T08:00:05Z" playEnd="2006-04-27T08:15:05Z" played="true" eventID="L00000086333" eventName="慈濟1"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000010" playStart="2006-04-27T08:00:05Z" playEnd="2006-04-27T08:15:05Z" played="true" eventID="L00000086333" eventName="慈濟1"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000007" playStart="2006-04-27T08:15:05Z" playEnd="2006-04-27T08:30:05Z" played="true" eventID="L00000086336" eventName="緯來體育1"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000007" playStart="2006-04-27T08:15:05Z" playEnd="2006-04-27T08:30:05Z" played="true" eventID="L00000086336" eventName="緯來體育1"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000004" playStart="2006-04-27T08:30:05Z" playEnd="2006-04-27T08:45:05Z" played="true" eventID="L00000086339" eventName="尼可1"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000004" playStart="2006-04-27T08:30:05Z" playEnd="2006-04-27T08:45:06Z" played="true" eventID="L00000086339" eventName="尼可1"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000001" playStart="2006-04-27T08:45:05Z" playEnd="2006-04-27T09:00:06Z" played="true" eventID="L00000086342" eventName="HBO1"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000001" playStart="2006-04-27T08:45:06Z" playEnd="2006-04-27T09:00:06Z" played="true" eventID="L00000086342" eventName="HBO1"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000010" playStart="2006-04-27T09:00:06Z" playEnd="2006-04-27T09:15:06Z" played="true" eventID="L00000086345" eventName="慈濟1"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000010" playStart="2006-04-27T09:00:06Z" playEnd="2006-04-27T09:15:06Z" played="true" eventID="L00000086345" eventName="慈濟1"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000007" playStart="2006-04-27T09:15:06Z" playEnd="2006-04-27T09:30:06Z" played="true" eventID="L00000086348" eventName="緯來體育1"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000007" playStart="2006-04-27T09:15:06Z" playEnd="2006-04-27T09:30:06Z" played="true" eventID="L00000086348" eventName="緯來體育1"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000004" playStart="2006-04-27T09:30:06Z" playEnd="2006-04-27T09:45:06Z" played="true" eventID="L00000086351" eventName="尼可1"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000004" playStart="2006-04-27T09:30:06Z" playEnd="2006-04-27T09:45:06Z" played="true" eventID="L00000086351" eventName="尼可1"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000001" playStart="2006-04-27T09:45:06Z" playEnd="2006-04-27T10:00:06Z" played="true" eventID="L00000086354" eventName="HBO1"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000001" playStart="2006-04-27T09:45:06Z" playEnd="2006-04-27T10:00:06Z" played="true" eventID="L00000086354" eventName="HBO1"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000012" playStart="2006-04-27T10:00:06Z" playEnd="2006-04-27T11:00:06Z" played="true" eventID="L00000086357" eventName="慈濟3"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000012" playStart="2006-04-27T10:00:06Z" playEnd="2006-04-27T11:00:06Z" played="true" eventID="L00000086357" eventName="慈濟3"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000009" playStart="2006-04-27T11:00:06Z" playEnd="2006-04-27T12:00:07Z" played="true" eventID="L00000086360" eventName="緯來體育3"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000009" playStart="2006-04-27T11:00:06Z" playEnd="2006-04-27T12:00:07Z" played="true" eventID="L00000086360" eventName="緯來體育3"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000006" playStart="2006-04-27T12:00:07Z" playEnd="2006-04-27T13:00:07Z" played="true" eventID="L00000086363" eventName="尼可3"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000006" playStart="2006-04-27T12:00:07Z" playEnd="2006-04-27T13:00:07Z" played="true" eventID="L00000086363" eventName="尼可3"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000003" playStart="2006-04-27T13:00:07Z" playEnd="2006-04-27T14:00:07Z" played="true" eventID="L00000086366" eventName="HBO3"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000003" playStart="2006-04-27T13:00:07Z" playEnd="2006-04-27T14:00:07Z" played="true" eventID="L00000086366" eventName="HBO3"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000012" playStart="2006-04-27T14:00:07Z" playEnd="2006-04-27T15:00:07Z" played="true" eventID="L00000086369" eventName="慈濟3"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000012" playStart="2006-04-27T14:00:07Z" playEnd="2006-04-27T15:00:07Z" played="true" eventID="L00000086369" eventName="慈濟3"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000008" playStart="2006-04-27T15:00:07Z" playEnd="2006-04-27T15:30:08Z" played="true" eventID="L00000086414" eventName="緯來體育2"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000008" playStart="2006-04-27T15:00:07Z" playEnd="2006-04-27T15:30:08Z" played="true" eventID="L00000086414" eventName="緯來體育2"/>
+    <AsRun device="dev01" channelID="304" assetName="000-00000001" playStart="2006-04-27T15:30:08Z" playEnd="2006-04-27T15:32:25Z" played="true" eventID="" eventName=""/>
+    <AsRun device="dev02" channelID="304" assetName="000-00000001" playStart="2006-04-27T15:30:08Z" playEnd="2006-04-27T15:32:25Z" played="true" eventID="" eventName=""/>
+    <AsRun device="dev01" channelID="304" assetName="000-00000005" playStart="2006-04-27T15:32:25Z" playEnd="2006-04-27T15:38:27Z" played="true" eventID="" eventName=""/>
+    <AsRun device="dev02" channelID="304" assetName="000-00000005" playStart="2006-04-27T15:32:25Z" playEnd="2006-04-27T15:38:27Z" played="true" eventID="" eventName=""/>
+    <AsRun device="dev01" channelID="304" assetName="000-00000003" playStart="2006-04-27T15:38:27Z" playEnd="2006-04-27T15:40:19Z" played="true" eventID="" eventName=""/>
+    <AsRun device="dev02" channelID="304" assetName="000-00000003" playStart="2006-04-27T15:38:27Z" playEnd="2006-04-27T15:40:19Z" played="true" eventID="" eventName=""/>
+    <AsRun device="dev01" channelID="304" assetName="000-00000005" playStart="2006-04-27T15:40:19Z" playEnd="2006-04-27T15:44:59Z" played="true" eventID="" eventName=""/>
+    <AsRun device="dev02" channelID="304" assetName="000-00000005" playStart="2006-04-27T15:40:19Z" playEnd="2006-04-27T15:44:59Z" played="true" eventID="" eventName=""/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000007" playStart="2006-04-27T15:44:59Z" playEnd="2006-04-27T15:59:59Z" played="true" eventID="L00000086406" eventName="緯來體育1"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000007" playStart="2006-04-27T15:44:59Z" playEnd="2006-04-27T15:59:59Z" played="true" eventID="L00000086406" eventName="緯來體育1"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000012" playStart="2006-04-27T15:59:59Z" playEnd="2006-04-27T16:59:59Z" played="true" eventID="L00000086418" eventName="慈濟3"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000012" playStart="2006-04-27T15:59:59Z" playEnd="2006-04-27T16:59:59Z" played="true" eventID="L00000086418" eventName="慈濟3"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000009" playStart="2006-04-27T16:59:59Z" playEnd="2006-04-27T18:00:00Z" played="true" eventID="L00000086421" eventName="緯來體育3"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000009" playStart="2006-04-27T16:59:59Z" playEnd="2006-04-27T18:00:00Z" played="true" eventID="L00000086421" eventName="緯來體育3"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000006" playStart="2006-04-27T18:00:00Z" playEnd="2006-04-27T19:00:00Z" played="true" eventID="L00000086424" eventName="尼可3"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000006" playStart="2006-04-27T18:00:00Z" playEnd="2006-04-27T19:00:00Z" played="true" eventID="L00000086424" eventName="尼可3"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000003" playStart="2006-04-27T19:00:00Z" playEnd="2006-04-27T20:00:00Z" played="true" eventID="L00000086427" eventName="HBO3"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000003" playStart="2006-04-27T19:00:00Z" playEnd="2006-04-27T20:00:00Z" played="true" eventID="L00000086427" eventName="HBO3"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000012" playStart="2006-04-27T20:00:00Z" playEnd="2006-04-27T21:00:00Z" played="true" eventID="L00000086430" eventName="慈濟3"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000012" playStart="2006-04-27T20:00:00Z" playEnd="2006-04-27T21:00:00Z" played="true" eventID="L00000086430" eventName="慈濟3"/>
+    <AsRun device="dev01" channelID="304" assetName="999-00000009" playStart="2006-04-27T21:00:00Z" playEnd="2006-04-27T22:00:01Z" played="true" eventID="L00000086433" eventName="緯來體育3"/>
+    <AsRun device="dev02" channelID="304" assetName="999-00000009" playStart="2006-04-27T21:00:00Z" playEnd="2006-04-27T22:00:01Z" played="true" eventID="L00000086433" eventName="緯來體育3"/>
+</AsRunSchedule>

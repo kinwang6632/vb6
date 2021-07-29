@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ProductManagementData SYSTEM "ProductManagementData.dtd">
+<ProductManagementData creationDate="20060418074344">
+<ProviderInfo>
+<ProviderId>IMS Nagra</ProviderId>
+<ProviderName>IMS Nagravision S.A.</ProviderName>
+<DtdVersion>1.1.1</DtdVersion>
+</ProviderInfo>
+<ProductChangeNotification>
+
+<ProductData>
+<Product>
+<ProductId>5897</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>Avid 展示</ProductName>
+<ProductDescription>Avid 展示</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051102161000" endTime="20051102172000"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051101000000" endTime="20051104000000"/>
+</PpvData>
+</Product>
+<Product>
+<ProductId>8315</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>Avid 展示</ProductName>
+<ProductDescription>Avid 展示</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051217141015" endTime="20051218142015"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051217000000" endTime="20051220000000"/>
+</PpvData>
+</Product>
+<Product>
+<ProductId>8526</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>Avid 展示</ProductName>
+<ProductDescription>Avid 展示</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051221141015" endTime="20051222142015"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051221000000" endTime="20051224000000"/>
+</PpvData>
+</Product>
+<Product>
+<ProductId>8593</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>天王星攝影機</ProductName>
+<ProductDescription>天王星攝影機</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051224220000" endTime="20051225221000"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051224000000" endTime="20051227000000"/>
+</PpvData>
+</Product>
+<Product>
+<ProductId>9022</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>天王星攝影機</ProductName>
+<ProductDescription>天王星攝影機</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051228052000" endTime="20051229053000"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051228000000" endTime="20051231000000"/>
+</PpvData>
+</Product>
+<Product>
+<ProductId>9680</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>風雲錄</ProductName>
+<ProductDescription>風雲錄</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060116194500" endTime="20060117195500"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20060116000000" endTime="20060119000000"/>
+</PpvData>
+</Product>
+<Product>
+<ProductId>9982</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>天王星攝影機</ProductName>
+<ProductDescription>天王星攝影機</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060125144001" endTime="20060126145001"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20060125000000" endTime="20060128000000"/>
+</PpvData>
+</Product>
+</ProductData>
+</ProductChangeNotification>
+</ProductManagementData>

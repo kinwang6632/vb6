@@ -1,0 +1,10 @@
+@D:\APP\Nagra\Project\Scripts\Add_Seq.sql;
+@D:\APP\Nagra\Project\Scripts\ADD_ComTable.sql;
+@D:\APP\Nagra\Project\Scripts\SF_UpdateSendNagraCmdStatus1.sql;
+@D:\APP\Nagra\Project\Scripts\SF_UpdateSendNagraCmdStatus2.sql;
+@D:\APP\Nagra\Project\Scripts\SF_UpdateSendNagraCmdStatus3.sql;
+@D:\APP\Nagra\Project\Scripts\SF_UpdateSendNagraCmdStatus4.sql;
+@D:\APP\Nagra\Project\Scripts\SF_InsertCaCallbackData.sql;
+@D:\APP\Nagra\Project\Scripts\SF_InsertSendCmdLog.sql;
+@D:\APP\Nagra\Project\Scripts\SF_InsertCmdResponseLog.sql;
+@D:\APP\Nagra\Project\Scripts\SF_InsertSeqNoTransMapping.sql;

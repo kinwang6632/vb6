@@ -1,0 +1,34 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{61e39f97-b773-491b-98ef-3656a0765cd8}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Projects Include="TestCall\TestCallServer.dproj" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+<BorlandProject xmlns=""><Default.Personality></Default.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="TestCallServer">
+    <MSBuild Projects="TestCall\TestCallServer.dproj" Targets="" />
+  </Target>
+  <Target Name="TestCallServer:Clean">
+    <MSBuild Projects="TestCall\TestCallServer.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="TestCallServer:Make">
+    <MSBuild Projects="TestCall\TestCallServer.dproj" Targets="Make" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="TestCallServer" />
+  </Target>
+  <Target Name="Clean">
+    <CallTarget Targets="TestCallServer:Clean" />
+  </Target>
+  <Target Name="Make">
+    <CallTarget Targets="TestCallServer:Make" />
+  </Target>
+  <Import Condition="Exists('$(MSBuildBinPath)\Borland.Group.Targets')" Project="$(MSBuildBinPath)\Borland.Group.Targets" />
+</Project>

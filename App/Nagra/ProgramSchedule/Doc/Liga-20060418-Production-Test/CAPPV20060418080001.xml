@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ProductManagementData SYSTEM "ProductManagementData.dtd">
+<ProductManagementData creationDate="20060418080001">
+<ProviderInfo>
+<ProviderId>IMS Nagra</ProviderId>
+<ProviderName>IMS Nagravision S.A.</ProviderName>
+<DtdVersion>1.1.1</DtdVersion>
+</ProviderInfo>
+<ProductChangeNotification>
+
+<ProductData>
+<Product>
+<ProductId>7041</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>天王星攝影機</ProductName>
+<ProductDescription>天王星攝影機</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051129044502" endTime="20051130045502"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051129000000" endTime="20051202000000"/>
+</PpvData>
+</Product>
+<Product>
+<ProductId>7349</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>風火連天</ProductName>
+<ProductDescription>風火連天</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051204170808" endTime="20051205171808"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051204000000" endTime="20051207000000"/>
+</PpvData>
+</Product>
+<Product>
+<ProductId>8103</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>天王星攝影機</ProductName>
+<ProductDescription>天王星攝影機</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051218032001" endTime="20051219033001"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051218000000" endTime="20051221000000"/>
+</PpvData>
+</Product>
+<Product>
+<ProductId>8756</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>天王星攝影機</ProductName>
+<ProductDescription>天王星攝影機</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051226090000" endTime="20051227091000"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051226000000" endTime="20051229000000"/>
+</PpvData>
+</Product>
+<Product>
+<ProductId>8908</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>風雲錄</ProductName>
+<ProductDescription>風雲錄</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051227232500" endTime="20051228233500"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051227000000" endTime="20051231000000"/>
+</PpvData>
+</Product>
+<Product>
+<ProductId>9266</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>風雲錄</ProductName>
+<ProductDescription>風雲錄</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060103102500" endTime="20060104103500"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20060103000000" endTime="20060106000000"/>
+</PpvData>
+</Product>
+<Product>
+<ProductId>9549</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>天王星攝影機</ProductName>
+<ProductDescription>天王星攝影機</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060115182000" endTime="20060116183000"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20060115000000" endTime="20060118000000"/>
+</PpvData>
+</Product>
+</ProductData>
+</ProductChangeNotification>
+</ProductManagementData>

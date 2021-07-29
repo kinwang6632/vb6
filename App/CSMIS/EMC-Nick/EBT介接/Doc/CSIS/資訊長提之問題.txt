@@ -1,0 +1,13 @@
+1. 要用session 進行控制(直接拉先前執行過的URL,應該不可以抓到資料) 
+2. 只有某些網段可以查詢
+3. 如何啟動 https ?
+4. 畫面美工?
+5. 可否先測試查詢時之performance?
+6. 查詢系統人數使用上限?
+7. 使用者帳號代碼檔:
+   Com Code/ID/Passwd/Control Passwd/Supervisor/Disabled
+8. 查詢時,也要用 EMC 客編查
+
+
+87878930~234 郭's
+

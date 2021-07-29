@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<xs:schema id="CMStatusQueryDS" targetNamespace="http://tempuri.org/Dataset1.xsd" xmlns:mstns="http://tempuri.org/Dataset1.xsd" xmlns="http://tempuri.org/Dataset1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="CMStatusQueryDS" msdata:IsDataSet="true" msdata:EnforceConstraints="False">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="CMSTDT">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="QueryResult" type="xs:string" minOccurs="0" />
+              <xs:element name="FaultReason" type="xs:string" minOccurs="0" />
+              <xs:element name="GROUPID" type="xs:string" minOccurs="0" />
+              <xs:element name="CMStatus" type="xs:string" minOccurs="0" />
+              <xs:element name="CMIP" type="xs:string" minOccurs="0" />
+              <xs:element name="CMUPFREQ" type="xs:string" minOccurs="0" />
+              <xs:element name="CMDOWNFREQ" type="xs:string" minOccurs="0" />
+              <xs:element name="CMRECPW" type="xs:string" minOccurs="0" />
+              <xs:element name="CMTRANSPW" type="xs:string" minOccurs="0" />
+              <xs:element name="CMSNR" type="xs:string" minOccurs="0" />
+              <xs:element name="CMOnlineTimes" type="xs:string" minOccurs="0" />
+              <xs:element name="CMInOctets" type="xs:string" minOccurs="0" />
+              <xs:element name="CMOutOctets" type="xs:string" minOccurs="0" />
+              <xs:element name="CMInErrors" type="xs:string" minOccurs="0" />
+              <xs:element name="CMOutErrors" type="xs:string" minOccurs="0" />
+              <xs:element name="PCIP" type="xs:string" minOccurs="0" />
+              <xs:element name="CMTSRECPW" type="xs:string" minOccurs="0" />
+              <xs:element name="CMTSRXSNR" type="xs:string" minOccurs="0" />
+              <xs:element name="CMTSUPMOD" type="xs:string" minOccurs="0" />
+              <xs:element name="CMTSDOWNMOD" type="xs:string" minOccurs="0" />
+              <xs:element name="CMDESC" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BroadcastData SYSTEM "BroadcastData.dtd">
+<BroadcastData creationDate="20051124093506">
+  <ProviderInfo>
+    <ProviderId>Nagra</ProviderId>
+    <ProviderName>Nagravision S.A.</ProviderName>
+  </ProviderInfo>
+  <ScheduleData>
+    <ChannelPeriod beginTime="20051127060001" endTime="20051127090001">
+      <ChannelId>503</ChannelId>
+      <Event beginTime="20051127060001" duration="3600">
+        <EventId>L00000034244</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">00490AAD01822E68FBC702678851370ABDB5D39E0FD410DE696D0AAA88B8CFE1BABC55F6B296EDCEA3B74F0B99E842997D41C0290F3B610B4DBABB5DCEDF4DBAA11CE6A58D35</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">007995F91388031700490A138801656E67041A1A1A1AD1C50600010100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">0001000000490A13880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">0001000000490A13880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>魔鬼獵殺</Name>
+            <Description>仍尚未自喪子之慟中恢復的刑事組警官巴恩斯（史蒂芬鮑德溫，「刺激驚爆點」）奉命追查一樁詭異的連續殺人案，當他慢慢克服驟失獨子的悲劇之時，另一方面卻日漸沈迷於追查該宗神祕案件，然而此舉卻危害到他早已亮起紅燈的婚姻；當兇手的動機逐漸明朗之際，巴恩斯發現自己的生活也日漸分崩離析，他不只被迫質疑自己的信仰和原則，最後還必須和身邊潛藏的邪惡正面衝突！</Description>
+            <ExtendedInfo name="導演">約翰弗林</ExtendedInfo>
+            <ExtendedInfo name="演員">史蒂芬鮑德溫、法蘭克吉瑞許、泰恩黛莉</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Absence Of The Good</Name>
+            <Description>Homicide detective Caleb Barnes (Baldwin, The Usual Suspects) is brought in to investigate a series of bizarre murders.  Still wracked by the death of his only child, Barnes becomes increasingly obsessed with the case at the same time as he is trying to come to terms with his own personal tragedy.  He does this at the cost of his marriage, which is already strained to begin with.  As the killing spree intensifies, Barnes finds his life disintegrating around him and he is forced to question his own principles and beliefs as well as come face to face with the evil that surrounds him.</Description>
+            <ExtendedInfo name="導演">John Flynn</ExtendedInfo>
+            <ExtendedInfo name="演員">Stephen Baldwin、Tyne Daly</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051127070001" duration="3600">
+        <EventId>L00000034247</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">00490BAD0102AA65F2203B5A2912013813950E71D678316831596E3A9A4BE5610D91582955CAE8341C1B49F77E3F6079E8D0AC944FA62EB19FD3B195438460B5B04E2BEE0024</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="32" pdsValue="9">0079A8F91388031800490B138801656E67051A1A1A1A1AD1C50700010100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="20" pdsValue="9">0001000000490B13880300000160011A1A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="26" pdsValue="9">0001000000490B13880000000003000001600100001A1A1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>奪命黑寡婦</Name>
+            <Description>曾有&quot;迷你影集之后&quot;雅稱的賈桂琳史密斯在本片中飾演布莉姬，一位為家庭盡心盡力的妻子、社區的楷模，但實際上卻是個為保有優渥的生活而不計一切代價的蛇蠍女子—即使必須殺人亦在所不惜。新寡的布莉姬嫁給曾結過一次婚的高中棒球教練朗恩（提摩西卡哈特）為妻，他們在新婚期間有如一對神仙眷屬：布莉姬在當地電視台當行銷經理，並掌管兩人財務上的投資極各項貸款，不久後夫妻倆便搬進豪宅，過著優裕的生活；然而當朗恩發現他們債台高築時事情就全走了樣，而為了急於拿到現金，布莉姬設計&quot;意外&quot;開槍射死朗恩好領取他的保險金，但朗恩的前妻與其好友瓊安（黛安娜史卡威）卻查出布莉姬的前夫也是死於跟朗恩類似的&quot;意外&quot;…這部影片是改編自傑瑞布雷索（Jerry Bledsoe）根據真實事件所寫成的暢銷小說。</Description>
+            <ExtendedInfo name="導演">麥可史考特</ExtendedInfo>
+            <ExtendedInfo name="演員">賈桂琳史密斯、黛安娜史卡威、提摩西卡哈特</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Before He Wakes</Name>
+            <Description>The one-time Queen of TV Mini-Series, Jaclyn Smith plays Bridgette, an outwardly devoted wife and pillar of community, who secretly, will do anything - including murder - to maintain the facade of a wealthy lifestyle. A recent widow, Bridgette marries Ron Michaels (Timothy Carhart), a divorcee who works as the high school basketball coach. For the ensuing months, it is a marriage made in heaven: Bridgette works as a sales executive at the local TV station, refinancing their loans and investing their money.  In no time, the Michaels move into a larger luxurious home.  However, things start to go wrong when Ron discovers that they are seriously in debt.  Desperate for cash, Bridgette kills Ron for his hefty insurance policy. Just when you think Bridgette can get away scot-free, Ron’s ex-wife and good friend Joanne (Scarwid) tries to convince the cops with vital information that proves that Ron’s death, like the death of Bridgette’s first husband, was </Description>
+            <ExtendedInfo name="導演">Michael Scott</ExtendedInfo>
+            <ExtendedInfo name="演員">Jaclyn Smith、Diana Scarwid</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051127080001" duration="3600">
+        <EventId>L00000034250</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">00490CAD0142FF250EE81CC5D6385237DEA4B9E7E3BB13F2210FE024789C224B8A488160A7EF5CEB333B23455168305A1B1BC7F92C86441519379BF51DC6E1E68355FE1E170E</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="29" pdsValue="9">007996F91388031500490C138801656E67021A1AD1C50800010100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="17" pdsValue="9">0001000000490C13880300000160011A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="23" pdsValue="9">0001000000490C13880000000003000001600100001A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>殺妻</Name>
+            <Description>布萊斯塔柏（柯賓班森，「愛情不設防」）拋下妻子，搬去跟情人蓋兒（萊絲莉安華倫，「對不起，駭到你」）同居，法院因此而拒絕讓他探視他的兩個孩子；他對法院的判決感到忿忿不平，並且急著想搶回孩子的監護權，於是布萊斯便夥同蓋兒計畫殺掉他老婆好將孩子搶回來，但為了要讓計畫成功，他們得再另外找人幫忙，於是他們便內舉不避親地找上了蓋兒的孩子！這部帶點荒謬情節的影片是根據真人真事所改編的。</Description>
+            <ExtendedInfo name="導演">葛雷哥萊古德爾</ExtendedInfo>
+            <ExtendedInfo name="演員">萊絲莉安華倫、柯賓班森</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Murderous Intent</Name>
+            <Description>Based on actual events, this taut psychological thriller examines the extent of the human will to get what it wants.  Brice Talbot (Bernsen-Two of Hearts) abandons his wife to move in with his lover Gayle (Warren-Delivering Milo), but this act causes the courts to deny him the right to be with his two children.  Desperate to regain custody and furious at the results, Brice and Gayle plot to regain control by getting rid of Brice’s wife.  But in order for their plan to succeed, they have to recruit others into their plans, in this case Gayle’s own children!</Description>
+            <ExtendedInfo name="導演">Barry Levinson</ExtendedInfo>
+            <ExtendedInfo name="演員">Robert DeNiro、Dustin Hoffman、Anne Heche、Woody Harrelson</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+    </ChannelPeriod>
+  </ScheduleData>
+</BroadcastData>

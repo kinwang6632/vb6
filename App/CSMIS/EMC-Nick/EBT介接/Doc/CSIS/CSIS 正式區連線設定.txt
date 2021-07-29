@@ -1,0 +1,65 @@
+
+  Net 8 Aliase: catvnr ( Report Server )
+  SID: CATVNR
+  Server: 172.16.12.3
+  Port: 1512
+  Login: ebtuser/ebt
+  
+  
+  
+  Net 8 Aliase: sdtcmis
+  SID: SDTCMIS
+  Server: 192.168.14.252
+  Port: 1512
+  Login: emctc/EMCTC   CompCode= 13            唐城
+  Login: emcst/EMCST   CompCode= 14            新店
+  
+   
+  
+  Net 8 Aliase: emcct  ---> ?
+  SID: sdtcmis
+  Server: 192.168.14.252
+  Port: 1512
+  
+  
+
+  Net 8 Aliase: catvn
+  SID: catvn
+  Server: 172.16.12.10
+  Port: 1512
+  Login: emcct/EMC5707CT     CompCode= 7       振道
+  Login: emcuc/EMC5508UC     CompCode= 8       全聯
+  Login: emcyms/EMC5909YMS   CompCode= 9       陽明山
+  Login: emcntp/EMC6010NTP   CompCode= 10      新台北
+  Login: emckp/EMC2511KP     CompCode= 11      金頻道
+  Login: emcdw/EMC5812DW     CompCode= 12      大安文山
+  
+  
+  
+  Net 8 Aliase: emcfm  ---> ?
+  SID: catvc
+  Server: 172.16.54.10
+  Port: 1512
+
+
+
+  Net 8 Aliase: catvc
+  SID: catvc
+  Server: 172.16.54.10
+  Port: 1512  
+  Login: emcks/emc5601ks    CompCode= 1        觀昇
+  Login: emcpn/emc6202pn    CompCode= 2        屏南
+  Login: emcnt/emc6403nt    CompCode= 3        南天
+  Login: emcncc/EMC6105NCC  CompCode= 5        新頻道
+  Login: emcfm/EMC1906FM    CompCode= 6        豐盟 
+  
+  
+  
+  Net 8 Aliase: emcnty
+  SID: ntymis
+  Server: 192.168.107.201
+  Port: 1512
+  Login: emcnty/EMCNTY  CompCode= 16           北桃園
+  
+  
+  

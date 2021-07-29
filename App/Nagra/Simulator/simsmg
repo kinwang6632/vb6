@@ -1,0 +1,150 @@
+#!/usr/local/bin/perl
+
+#--+-------------------------------------------------------------------------+--
+#--+ simsmg                                                                  +--
+#--+-------------------------------------------------------------------------+--
+#--+ Author              : Patrice Willemin                                  +--
+#--+ CopyRight           : NAGRAVision, (c) 1994-1999                        +--
+#--+ Creation            : 23-DEC-1999                                       +--
+#--+ Version             : 1.1                                               +--
+#--+                                                                         +--
+#--+ Description                                                             +--
+#--+                     : Receive and analyze EIS2.6 SMS commands	     +--
+#--+			   v1.0 initial version				     +--
+#--+			   v1.1 more detailed USAGE 10-FEB-2000		     +--
+#--+			        a) change default port number 		     +--
+#--+ 				   from 2222 to 20'000  		     +--
+#--+				b) NT compliant for the CREATION_DATE	     +-- 
+#--+				computation				     +--
+#--+				c) the ACK/NACK creation date must be today  +--
+#--+-------------------------------------------------------------------------+--
+
+
+$VERSION = "v1.1";
+
+
+push (@INC, "perlib");
+push (@INC, "protocol");
+
+require EIS26Analyser;
+
+
+sub receiveData {
+  local ($data,$status);
+  while ($data = FTcp::receive_data (*NS)) {
+    print '='x80,"\n";
+    print "Receive data $data\n" if $opt_v ;
+    EIS26Analyser::dumpCmd ($data, *RESULTS);
+
+    undef $errorCodeTxt;
+    $errorCodeExt = '0000';
+
+    $fields{CREATION_DATE} = "19960101";
+    $fields{DEST_ID} = "0000";
+    $fields{SOURCE_ID} = "0000";
+    $fields{MOP_PPID} = "00000";
+    $fields{TRANSACTION_NUMBER} = "000000000";
+
+    foreach (@RESULTS) {
+      if (/^F (\w+) = (.*)/) {
+        $fields{$1}=$2;
+        printf ("%-30s : %s\n",$1,$2);
+      }
+      elsif (/^E (\w+) \((\d+)\)/) {
+        print "$_\n";
+        $errorCodeExt = $2 if !$errorCodeTxt;
+        $errorCodeTxt = $1 if !$errorCodeTxt;
+      }
+      elsif (/^E/) {
+        print "$_\n";
+        $errorCodeTxt = "syntax" if !$errorCodeTxt;
+      }
+      elsif (/^D/) {
+        print "$_\n" if $opt_D;
+      }
+      else {
+        print "$_\n";
+      }
+    }
+
+    # << PPE 10-FEB-2000
+    #chop ($fields{CREATION_DATE} = `date +"%Y%m%d"`) ;
+    ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = gmtime (time) ;
+    $year += 1900 ;
+    if ($mon < 10) {
+      $mon = "0$mon" ;
+    }
+    if ($mday < 10) {
+      $mday = "0$mday" ;
+    }
+    $fields{CREATION_DATE} = "$year$mon$mday" ;
+    # >> PPE 10-FEB-2000
+
+    # << PPE 11-FEB-2000
+    $trans_nb += 1 ;
+    $trans_nb = sprintf ("%9.9d", $trans_nb) ;
+    # >> PPE 11-FEB-2000
+
+    if (!defined $errorCodeTxt) {
+      $answer = "${trans_nb}05$fields{DEST_ID}$fields{SOURCE_ID}$fields{MOP_PPID}".
+             "$fields{CREATION_DATE}1000$fields{TRANSACTION_NUMBER}".
+             "000000000000000000000000";
+    }
+    else {
+      $errorCode = '0003';  # Bad command syntax.
+      $answer = "${trans_nb}05$fields{DEST_ID}$fields{SOURCE_ID}$fields{MOP_PPID}".
+             "$fields{CREATION_DATE}1001$fields{TRANSACTION_NUMBER}1".
+             "${errorCode}${errorCodeExt}" . sprintf ("%3.3d",length($data)) . 
+             $data;
+
+    }
+
+    print "send data $answer\n" if $opt_v;
+    FTcp::send_data (*NS,"$answer");
+  }
+  FTcp::close_link (*NS) ;
+}
+
+
+sub main {
+ 
+  require FTcp;
+  require Tcp;
+
+  $USAGE = "simsmg [-vsD -pPortNumber ]\n-v verbose\n-s synchronous\n-D debug";
+  # PPE 10-FEB-2000
+  $trans_nb = 0 ;
+
+  require Getopt::Std;
+  Getopt::Std::getopts ('vsDp:') || die "$USAGE\n";
+  $port = $opt_p ? $opt_p : 20000;
+
+  Tcp::set_trace_mode ("terminal") if $opt_D;
+
+  FTcp::install_sigchild();
+  FTcp::create_service (*S, $port) || die "$!";
+
+
+
+  print "Service $port created\n";
+
+  while (1) {
+    $addr = FTcp::accept_call (*S, *NS) || die "$!" ;
+    print "Accept $addr\n" if $opt_v;
+    if ($opt_s) {
+      receiveData();
+    }
+    else {
+      if (!fork()) {
+        receiveData();
+        exit;
+      }
+      else {
+        FTcp::close_link (*NS) ;
+      }
+    }
+  }
+}
+
+
+main;

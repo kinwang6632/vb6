@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2007/08/30 10:29:55.703.pas,D:\MyFolder\My Documents\RAD Studio\Projects\Unit1.pas=D:\App\EMC\WebPool\cbMain.pas</Transaction>
+    <Transaction>2007/08/30 10:29:55.703.dfm,D:\MyFolder\My Documents\RAD Studio\Projects\Unit1.dfm=D:\App\EMC\WebPool\cbMain.dfm</Transaction>
+    <Transaction>2007/08/30 10:30:05.343.dproj,D:\MyFolder\My Documents\RAD Studio\Projects\Project1.dproj=D:\App\EMC\WebPool\TestWebPool.dproj</Transaction>
+    <Transaction>2007/08/30 10:42:48.593.tlb,D:\App\EMC\WebPool\WebPool.tlb=</Transaction>
+  </Transactions>
+</BorlandProject>

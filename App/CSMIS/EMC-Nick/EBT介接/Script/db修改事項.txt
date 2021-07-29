@@ -1,0 +1,10 @@
+alter table emc_ebt005 modify QueryKeyValue Varchar2(500);
+
+alter table emc_ebt002 add COMPCODE	Number(5);
+alter table emc_ebt002 add DEPTCODE	Number(5);
+alter table emc_ebt002 add TEL		VARCHAR2(20);
+alter table emc_ebt002 add TelExt		Number(5);
+alter table emc_ebt002 add EMail		VARCHAR2(50);
+alter table emc_ebt002 add Creater		VARCHAR2(20);
+alter table emc_ebt002 add CreateDate	Date;
+alter table emc_ebt002 add ifChangePasswd	VARCHAR2(1);

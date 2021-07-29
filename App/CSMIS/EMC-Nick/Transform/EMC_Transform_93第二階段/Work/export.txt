@@ -1,0 +1,21 @@
+# Parameter file example for Export utility
+# EXP USERNAME/PASSWORD PARFILE=C:\export\expowner.TXT
+# 2000/11/01
+#
+# MODIFY 2003/06/03
+#
+
+COMPRESS=Y
+CONSISTENT=Y
+CONSTRAINTS=N
+DIRECT=N
+buffer=10240000
+FEEDBACK=100
+FILE=C:\Transform\Work\exp_TC.DMP
+FULL=N
+GRANTS=Y
+HELP=N
+INDEXES=N
+LOG=C:\Transform\Work\exp_TC.log
+ROWS=Y
+owner=EMCTC

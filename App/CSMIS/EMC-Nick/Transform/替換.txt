@@ -1,0 +1,15 @@
+--更新 SO105D(BuyCode)
+  for crSO105D in ccSO105D loop
+    begin      
+      select OldCode,OldName,NewCode,NewName,Mark into v_OldCode,v_OldName,v_NewCode,v_NewName,v_Mark from CD034_Map where OldCode=crSO105D.BuyCode;      
+      begin
+        update SO105D set BuyCode=v_NewCode where Rowid=crSO105D.Rowid;
+      exception
+        when others then
+          DBMS_OUTPUT.PUT_LINE('錯誤6: CD034代碼無法更新至SO105D.BuyCode, 新代碼='||v_NewCode||', 舊代碼='||v_OldCode);
+      end;
+    exception
+      when others then
+        null;
+    end;
+  end loop;

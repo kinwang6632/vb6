@@ -1,0 +1,49 @@
+-- 彙總表
+select AcceptEn, AcceptName, sum(cnt1), sum(cnt2), sum(cnt3),
+	sum(cnt4),sum(cnt5), sum(cnttotal)
+	from so503 where seqno=30
+	group by AcceptName, AcceptEn
+
+-- 明細表
+select AcceptEn, AcceptName, CompCode, CompName, cnt1,cnt2,cnt3,cnt4,cnt5,cnttotal
+	from SO503 where seqno=30
+	order by AcceptName, CompCode
+
+
+-- 檢查方法:
+-- 1. 顯示該介紹人之當日工單
+select A.Custid, A.sno, A.instcode, A.instname
+from emcyms.so007 A 
+where A.MediaCode=1 and A.IntroId='YMS0202'
+and trunc(A.fintime)=to_date('20020902','YYYYMMDD');
+
+-- 2. 顯示該工單的收費情形
+select CUSTID, billno, item, citemcode, citemname, realamt
+from emcyms.so033
+where billno='200208IC0241075' and realdate is not null and uccode is null and cancelflag=0;
+
+-- 
+select A.sno, A.instname, B.custid,b.citemname,b.Realamt
+from emckp.so007 A, emckp.so033 b
+where A.SNo=B.Billno and A.MediaCode=1 and A.IntroId='YMS0202'
+and trunc(A.fintime)=to_date('20020902','YYYYMMDD')
+and b.realdate is not null and b.uccode is null and b.cancelflag=0;
+
+select count(distinct a.sno) from so007 a, so033 b
+where a.custid=b.custid and substr(a.sno, 9)=substr(b.billno, 9)
+and a.sno!=b.billno
+and a.accepttime>=to_date('20020801','YYYYMMDD')
+
+
+update so033 set billno = 
+(select sno from so007 where custid=so033.custid and substr(so033.sno, 9)=substr(so007.billno, 9)
+and so007.sno!=so033.billno)
+
+select count(distinct a.sno) from so007 a, so033 b
+where a.custid=b.custid and substr(a.sno, 9)=substr(b.billno, 9)
+and a.sno!=b.billno
+and a.accepttime>=to_date('20020801','YYYYMMDD')
+
+update so007 set introname=(select empname from cm003 where empno=so007.introid)
+where introid=introname;
+

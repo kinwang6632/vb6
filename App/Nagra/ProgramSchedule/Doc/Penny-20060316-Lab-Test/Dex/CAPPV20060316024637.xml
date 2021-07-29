@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ProductManagementData SYSTEM "ProductManagementData.dtd">
+<ProductManagementData creationDate="20060316024637">
+<ProviderInfo>
+<ProviderId>IMS Nagra</ProviderId>
+<ProviderName>IMS Nagravision S.A.</ProviderName>
+<DtdVersion>1.1.1</DtdVersion>
+</ProviderInfo>
+<ProductChangeNotification>
+
+<ProductData>
+<Product>
+<ProductId>21003</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>史瑞克</ProductName>
+<ProductDescription>史瑞克</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060317020000" endTime="20060318021000"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20060317000000" endTime="20060320000000"/>
+<Event beginTime="20060318020000" duration="5400">
+<EventId>L00000047261</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>史瑞克</Name>
+<Description>您將和史瑞克一同展開一場刺激的冒險,在一隻可愛但喋喋不休的驢子從旁幫助下,史瑞克將前往城堡拯救美麗的公主,好讓陰險的法克大人趕走一群惹人厭的童話故事人物,讓自己的沼澤家園恢復從前的清靜.</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>SHREK</Name>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="5" nibble2="5"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>506</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>21024</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>史瑞克</ProductName>
+<ProductDescription>史瑞克</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060318200000" endTime="20060319201000"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20060318000000" endTime="20060321000000"/>
+<Event beginTime="20060319200000" duration="5400">
+<EventId>L00000047366</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>史瑞克</Name>
+<Description>您將和史瑞克一同展開一場刺激的冒險,在一隻可愛但喋喋不休的驢子從旁幫助下,史瑞克將前往城堡拯救美麗的公主,好讓陰險的法克大人趕走一群惹人厭的童話故事人物,讓自己的沼澤家園恢復從前的清靜.</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>SHREK</Name>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="5" nibble2="5"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>506</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>21091</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>史瑞克2</ProductName>
+<ProductDescription>史瑞克2</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060318220000" endTime="20060319221000"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20060318000000" endTime="20060321000000"/>
+<Event beginTime="20060319220000" duration="5540">
+<EventId>L00000046951</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>史瑞克2</Name>
+</EpgText>
+<EpgText language="eng">
+<Name>SHREK-2</Name>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="5" nibble2="5"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>505</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+</ProductData>
+</ProductChangeNotification>
+</ProductManagementData>

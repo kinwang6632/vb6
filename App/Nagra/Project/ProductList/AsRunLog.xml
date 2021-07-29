@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by OSX (None) -->
+<AsRunData creationDate="20030108160239">
+	<ProviderInfo>
+		<ProviderId>IMS Nagra</ProviderId>
+		<ProviderName>IMS Nagravision S.A.</ProviderName>
+		<DtdVersion>1.0.0</DtdVersion>
+	</ProviderInfo>
+	<ScheduleData>
+		<ChannelPeriod beginTime="20030107001013" endTime="20030108001013"/>
+		<ChannelId>501</ChannelId>
+		<Event beginTime="20030107001013" duration="2987">
+			<PreviewTime>0</PreviewTime>
+			<EpgProduction>
+				<EpgText language="eng">
+					<ShortName>Filler Event</ShortName>
+					<Name>Filler Event</Name>
+				</EpgText>
+			</EpgProduction>
+			<PlayedEvent beginTime="20030107001012" duration="2987" statusOk="1">
+				<PlayedSubEvent beginTime="20030107001012" duration="2987">
+					<TimecodeIn>0</TimecodeIn>
+					<AssetId>FI000002</AssetId>
+					<AssetDescription>Nagra Filler Event</AssetDescription>
+					<MediaServerMuxId>MUX:23</MediaServerMuxId>
+					<MediaServerId>nvod_pri_cs0</MediaServerId>
+					<PlayOutStatus>1</PlayOutStatus>
+				</PlayedSubEvent>
+			</PlayedEvent>
+		</Event>
+		<Event beginTime="20030107010000" duration="7813">
+			<EventId>002239009</EventId>
+			<PreviewTime>5</PreviewTime>
+			<EpgProduction>
+				<EpgText language="eng">
+					<ShortName>Baby Boy</ShortName>
+					<Name>Baby Boy</Name>
+				</EpgText>
+			</EpgProduction>
+			<SingleEventProduct>
+				<ProductId>407279</ProductId>
+				<ProdCategoryId>0</ProdCategoryId>
+				<Production>
+					<ProductionId>43402</ProductionId>
+					<ProductionTitle>Baby Boy</ProductionTitle>
+				</Production>
+			</SingleEventProduct>
+			<PlayedEvent beginTime="20030107005959" duration="7813" statusOk="1">
+				<PlayedSubEvent beginTime="20030107005959" duration="155">
+					<TimecodeIn>0</TimecodeIn>
+					<AssetId>AV002205</AssetId>
+					<AssetDescription>Baby Boy 04.01-10.01</AssetDescription>
+					<MediaServerMuxId>MUX:23</MediaServerMuxId>
+					<MediaServerId>nvod_pri_cs0</MediaServerId>
+					<PlayOutStatus>1</PlayOutStatus>
+				</PlayedSubEvent>
+				<PlayedSubEvent beginTime="20030107010235" duration="7468">
+					<TimecodeIn>0</TimecodeIn>
+					<AssetId>NV000305</AssetId>
+					<AssetDescription>Baby Boy</AssetDescription>
+					<MediaServerMuxId>MUX:23</MediaServerMuxId>
+					<MediaServerId>nvod_pri_cs0</MediaServerId>
+					<PlayOutStatus>1</PlayOutStatus>
+				</PlayedSubEvent>
+				<PlayedSubEvent beginTime="20030107030703" duration="190">
+					<TimecodeIn>0</TimecodeIn>
+					<AssetId>AV002206</AssetId>
+					<AssetDescription>Baby Boy 04.01-10.01</AssetDescription>
+					<MediaServerMuxId>MUX:23</MediaServerMuxId>
+					<MediaServerId>nvod_pri_cs0</MediaServerId>
+					<PlayOutStatus>1</PlayOutStatus>
+				</PlayedSubEvent>
+			</PlayedEvent>
+		</Event>
+	</ScheduleData>
+</AsRunData>

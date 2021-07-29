@@ -1,0 +1,1906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BroadcastData SYSTEM "BroadcastData.dtd">
+<BroadcastData creationDate="20051124071443">
+  <ProviderInfo>
+    <ProviderId>Nagra</ProviderId>
+    <ProviderName>Nagravision S.A.</ProviderName>
+  </ProviderInfo>
+  <ScheduleData>
+    <ChannelPeriod beginTime="20051125230000" endTime="20051128120001">
+      <ChannelId>503</ChannelId>
+      <Event beginTime="20051125230000" duration="3600">
+        <EventId>L00000034169</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">0048F3AD01420E6D5ABE14102C1E3826AE56D2C394885245C7F4A9106AC5DB9851E07A2DA572A31F157E9C256376AF625BE65DDD77CF335BB945C705A03EBA438D36C54BF032</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="36" pdsValue="9">0079A9F91388031C0048F3138801656E67091A1A1A1A2D2D1A1A1AD1C32300000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="24" pdsValue="9">000100000048F313880300000160011A1A1A1A2D2D1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="30" pdsValue="9">000100000048F313880000000003000001600100001A1A1A1A2D2D1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>桃色風雲--搖擺狗</Name>
+            <Description>美國總統鬧出性醜聞，面對著醜聞成為頭條新聞的壓力，及兩週後的總統大選，白宮這回該怎麼做呢？簡單，發動一場戰爭！白宮危機處理專家康洛德（勞勃狄尼洛，「老大靠邊閃」）受命替總統解圍，轉移民眾注意力，於是他找來了好萊塢大製片家史丹利（達斯汀霍夫曼，「地動天驚」、「雨人」），虛擬一場在阿爾巴尼亞的戰爭，但這場戰爭不是發生在真實的戰場，而是在攝影棚當中，不用任何真槍實彈，他們製造各種有關戰爭的新聞片段，甚至趁機推出愛國歌曲大撈一筆。起初一切都進行地很順利，廣大民眾的心，隨著真真假假的戰爭新聞而起伏，但不久後卻漏洞百出，假的戰區英雄意外死亡，製片史丹利為了居功而不願保密，中情局也開始懷疑這場美國總統的桃色風雲該如何圓滿收場？導演巴瑞李文遜曾以「雨人」、「早安越南」、「豪情四兄弟」等片獲得空前的成功。</Description>
+            <ExtendedInfo name="導演">巴瑞李文遜</ExtendedInfo>
+            <ExtendedInfo name="演員">勞勃狄尼洛、達斯汀霍夫曼、安海契、伍迪哈里遜</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Wag The Dog</Name>
+            <Description>What do the President’s advisers do when a sex scandal threatens to explode across front pages nationwide, with the election is only 14 days away? Simple. Start a war! Faced with this dilemma, a ‘spin-doctor’ (DeNiro, Men Of Honor, Meet The Parents, The Adventures of Rocky &amp; Bullwinkle ) is called in to fabricate a nonexistent war for the President to win, and to distract the American public. Wars are no longer fought on battlefields but on TV, so naturally a hotshot Hollywood producer (Hoffman, Being John Malcovich, Cosm) is hired to manufacture a war in distant Albania — without a shot being fired. With its first-class cast and ascerbic humour, Wag the Dog is a biting satire that has never been more appropriate.</Description>
+            <ExtendedInfo name="導演">Barry Levinson</ExtendedInfo>
+            <ExtendedInfo name="演員">Robert DeNiro、Dustin Hoffman、Anne Heche、Woody Harrelson</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051126000000" duration="3600">
+        <EventId>L00000034171</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">0048F4AD010225BA995AC981F3398B2353526BDAA862474E482ADA8D5EDABC0FCB4DBC23DEF9D92601229DC9039B2352F62AEE7F472EDDFAC044F87BCBEE94F4BD1FEA221819</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="30" pdsValue="9">007926F9138803160048F4138801656E67031A1A1AD1C40000000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="18" pdsValue="9">000100000048F413880300000160011A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="24" pdsValue="9">000100000048F413880000000003000001600100001A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>熱帶雪</Name>
+            <Description>塔佛（尼克柯瑞，「天人交戰」、「我吸我吸我吸吸吸」）和米蘭妲（麥德琳史道威，「將軍的女兒」、「未來總動員」）是一對居住於哥倫比亞波哥大的年輕戀人，兩人為維持家人生計而在機場當扒手為業，對他們倆來說，紐約是個能建立新生活的夢想城市；當地的毒梟歐斯卡（大衛卡拉定，「雙重麻煩」）以紐約之行為交換，說服他們以吞入腹中的方式，走私毒品闖過紐約機場的海關；由於米蘭妲的姊姊便是死於類似的情況，他們很清楚這種走私方式會有的風險，但為了實現夢想，兩人還是答應了歐斯卡的條件；然而抵達紐約機場後，兩人卻因過於緊張而引來警方注意，他們的夢想也漸漸隨之破碎…</Description>
+            <ExtendedInfo name="導演">西羅杜蘭</ExtendedInfo>
+            <ExtendedInfo name="演員">麥德琳史道威、大衛卡拉定、尼克柯瑞</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Body Snatchers</Name>
+            <Description>New York is the dream city of Tavo (Garcia, Traffic, Vampire In Brooklyn) and Marina (Stowe, The General’s Daughter, Twelve Monkeys), where the two young lovers hope to start a better life. At home in slum-ridden Bogota, Columbia, they have had to work as pickpockets at the airport to support their families.  Dealer Oskar (Carridine, Double Trouble) persuades them to smuggle drugs in their stomachs on a plane to New York - although both know of the risks, since Marina&apos;s sister died on a similar journey.   However on arrival at the airport in New York they show nerves and all their dreams start to shatter...</Description>
+            <ExtendedInfo name="導演">Ciro Durn</ExtendedInfo>
+            <ExtendedInfo name="演員">Mike Myers、Heather Graham、Robert Wagner、Elizabeth Hurley</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051126010000" duration="3600">
+        <EventId>L00000034173</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">0048F5AD01020B48F082AEE75DE3EC6F1B639D116E893E6A11D558EC9CFADDFCC07AC8B3BB7F9FDDCA888F5D7DBD46055E8723EB8E157450711B4B7750A3400A2F32968E2321</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">00791FF9300C03170048F5300C01656E67041A1A1A1AD1C40100000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">000100000048F5300C0300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">000100000048F5300C0000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>異形基地</Name>
+            <Description>改編自傑克芬尼（Jack Finney）的知名科幻小說，本片是繼1956年和1978年後第三度搬上螢光幕之作，並將地點改到一向管制嚴格的軍事基地中；瑪蒂（嘉柏莉安沃，「女人香」、「小生護駕」）跟著醫生爸爸（泰瑞基尼，「大地英豪」）、繼母（梅提莉，「唐人街續集」、「上帝的女兒」）和弟弟一家四口搬到位於舊金山的一處軍事基地，渾然不知基地內最近發現的異象會為他們全家帶來什麼樣的巨變；原來外星人利用人們睡眠時侵入人腦中，複製其形體後便取代宿主生存，變成沒有情緒、沒有個人思想、有如機器人一般的行屍走肉；瑪蒂的家人和朋友一個個陸續被這些可怕的異形取代，只剩瑪蒂和她的新男友馬修（比利沃斯，「粗野少年族」）仍繼續對抗，但形單勢孤的兩人能躲過整個軍事基地異形的追捕嗎？他們能及時阻止這些異形佔領全美的邪惡陰謀嗎？</Description>
+            <ExtendedInfo name="導演">艾柏法瑞拉</ExtendedInfo>
+            <ExtendedInfo name="演員">嘉柏莉安沃、梅提莉、泰瑞基尼、比利沃斯</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Body Snatchers</Name>
+            <Description>A sci-fi thriller based on the novel of the same name by Jack Finney and inspired by the 1956 film version Invasion Of The Body Snatchers.  Something is happening to the Malone family – something bad – and its spreading. The lives of people they once knew and loved are drained by the Body Snatchers and replaced by soulless, emotionless aliens emerging from their cocoon-like pods and taking possession of their human hosts.  Starring Gabrielle Anwar (Without Malice, Scent Of A Woman, For Love Or Money), Meg Tilly (The Two Jakes, Agnes Of God) and Terry Kinney (The Last Of The Mohicians) as the Malone Family. A chilling and graphic portrayal of a desperate fight for human survival. </Description>
+            <ExtendedInfo name="導演">Abel Ferrara</ExtendedInfo>
+            <ExtendedInfo name="演員">Gabrielle Anwar、Meg Tilly、Terry Kinny</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">123.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051126020000" duration="3600">
+        <EventId>L00000034175</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">0048F6AD0142379AA4AB87208A048B8FE9D1A8338B86D0970AA8AB6BCF5B2F4A7CB9BF04F52B83FF26CAE8E68DE51D6EAE4773BBFCEF39E02746F8AAEF4EC6D255B88BE77369</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">007977F9138803170048F6138801656E67041A1A1A1AD1C40200000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">000100000048F613880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="27" pdsValue="9">0001000000492B0FA00300000160044D756C74694576656E742031</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">000100000048F613880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="33" pdsValue="9">0001000000492B0FA00000000003000001600400004D756C74694576656E742031</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>閻王索命</Name>
+            <Description>西元2002年，自殺在美國成為合法行為，卻因而產生了難以預料的後果，吉姆（艾瑞克羅勃茲，「莫名殺機」）為了替瀕死的兒子籌措手術費，而將自己的身體賣給一家仲介”多餘器官”的大公司；然而吉姆的兒子並未逃過死神召喚，而買下他身體的器官仲介公司又拒絕讓他退還訂金，痛失愛子的吉姆只得展開逃亡生涯，以躲避該公司派出的殺手追蹤；但吉姆很快便發現若想保住小命，唯一的方法便是從問題的源頭著手：找上該公司的總裁！本片導演是紐西蘭籍的傑夫墨菲，他另外的作品包括「少壯屠龍陣2」、「魔鬼戰將2」、「奪命12小時」等。</Description>
+            <ExtendedInfo name="導演">傑夫墨菲</ExtendedInfo>
+            <ExtendedInfo name="演員">艾瑞克羅勃茲、凱瑞艾文斯、莎拉溫特</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Race Against Time</Name>
+            <Description>
+In 2002, the United States legalizes suicide.  The consequences are unforseen.  Jim Gabriel (Roberts-No Alibi ) sells his body to a powerful organization called Lifecorps that buys people for their ‘spare parts’.  He needs to raise money to pay for the surgery that his dying son needs.  But when his son dies anyway, Lifecorps is not about to give refunds.  They want him bad.  His only option is to run and elude the trackers that have been sent from him.  But soon he realizes that to truly escape, he has to go for the source of his problems: the CEO of Lifecorps.</Description>
+            <ExtendedInfo name="導演">Geoff Murphy</ExtendedInfo>
+            <ExtendedInfo name="演員">Eric Roberts、Cary Elwes</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="6" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051126030000" duration="3600">
+        <EventId>L00000034177</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">0048F7AD0142BEF9AE675CAA938E2C6BAA2DCF3472D983A161FB7DC69388C329AFAD31DB33AD96FD44DE9E076F6A01DC457DABB82E03C8B5969028CDEE5DE2D980F2E464C33F</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">007973F9138803170048F7138801656E67041A1A1A1AD1C40300000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="27" pdsValue="9">0001000000492B0FA00300000160044D756C74694576656E742031</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">000100000048F713880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="33" pdsValue="9">0001000000492B0FA00000000003000001600400004D756C74694576656E742031</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">000100000048F713880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>頭號潛艦</Name>
+            <Description>這部感人的戰爭片是根據一段美國內戰時的史實所改編，曾榮獲2000年艾美獎最佳音效剪接。西元1864年南北戰爭期間，南卡羅萊納州的查爾士敦遭北軍重重包圍，水陸交通皆與外界隔絕；面對戰力明顯優越許多的敵軍，城裡的南軍為突破重圍，因而建造了配備魚雷的史上第一艘潛水艇”CSS杭利號”，雖然最後並未達成使命，但船上的八名軍官所表現的袍澤之情，以及大無畏的軍人情操卻令他們名留青史。由演技派演員艾蒙亞森特（「超時空戰警」）和唐納蘇德蘭（「太空大哥大」、「神鬼任務」）領銜主演。</Description>
+            <ExtendedInfo name="導演">約翰葛雷</ExtendedInfo>
+            <ExtendedInfo name="演員">艾蒙亞森特、唐納蘇德蘭</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>The Hunley</Name>
+            <Description>The incredible true story of Confederate efforts to develop a submersible boat during the American Civil War. The story opens in Charleston S.C. during the 1864 seize and naval blockade of that city by the Yankees. The Confederates were attempting to develop a submarine with a torpedo to be used as a weapon to break the blockade. This movie follows the bravery and determination of the eight-member crew in developing the manually propelled submarine and its deployment into battle.  An exceptional story of heroism in the face of adversity. </Description>
+            <ExtendedInfo name="導演">John Gray</ExtendedInfo>
+            <ExtendedInfo name="演員">Armand Assante、Donald Sutherland</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051126040000" duration="3600">
+        <EventId>L00000034179</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">0048F8AD0182C1A2B12C16286108149C1892F581FE8AEBBA30233F9CE1CF394F161BFBC7B2693C2DB1F115A943DF1C409F33C61EBA0451853E4E0CB10B94A337CFC7C0D2C61C</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">007976F9138803170048F8138801656E67041A1A1A1AD1C40400000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">000100000048F813880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="27" pdsValue="9">0001000000492B0FA00300000160044D756C74694576656E742031</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">000100000048F813880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="33" pdsValue="9">0001000000492B0FA00000000003000001600400004D756C74694576656E742031</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>戰慄之旅</Name>
+            <Description>來自不同地方的七個人，為了不同的目的，各路人馬不約而同的在一家餐館休憩：有進來喝杯咖啡的寂寞卡車司機（勞勃佛斯特）、陪瀕死祖母做最後旅程的印第安婦女、被解雇的馬戲團小丑（凱文波拉克）和他的脫衣舞孃女友（潘妮洛普安米勒）、以及趕去參加父親喪禮的姊妹花；這七個人收聽著同一個音樂頻道，前往一樣的目的地，並成為同一個連續殺人狂的下一個目標…</Description>
+            <ExtendedInfo name="導演">JS卡多尼</ExtendedInfo>
+            <ExtendedInfo name="演員">麥德琳史道威、大衛卡拉定、尼克柯瑞</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Outside Ozona</Name>
+            <Description>A group of people unite over the airwaves as they drive down lonesome highways into an uncertain future outside Ozona, Texas.  There’s the irritated disc jockey (Taj Mahal) who is determined to share his angst with the world in general and the station manager (Meat Loaf) who would rather he didn’t.  There’s the abusive, unemployed circus clown and his sexy white-trash girlfriend fleeing the scene of his latest act of rage.  Then there’s the shy and lonely trucker who helps a stranded Navajo lady and her grandmother in an act of kindness and affection.  As these unusual people follow they own destinies, they are, unknown to them, speeding towards a place where they worlds will collide.</Description>
+            <ExtendedInfo name="導演">J.S. Cardone</ExtendedInfo>
+            <ExtendedInfo name="演員">Madeleine Stowe、David Carridine、Jsu Garcia</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051126050000" duration="3601">
+        <EventId>L00000034181</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">0048F9AD01826B99037B8818CB621FA812B964B7D36FC25376A4B9434BBC05D082C3FE70D48495AF80CF03470ABC2B2A7817A4BE31DC4A09A81D6A1C38794779858F70834C1A</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">007975F9138803170048F9138801656E67041A1A1A1AD1C40500000100013C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">000100000048F913880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="27" pdsValue="9">0001000000492B0FA00300000160044D756C74694576656E742031</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">000100000048F913880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="33" pdsValue="9">0001000000492B0FA00000000003000001600400004D756C74694576656E742031</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>魔鬼獵殺</Name>
+            <Description>仍尚未自喪子之慟中恢復的刑事組警官巴恩斯（史蒂芬鮑德溫，「刺激驚爆點」）奉命追查一樁詭異的連續殺人案，當他慢慢克服驟失獨子的悲劇之時，另一方面卻日漸沈迷於追查該宗神祕案件，然而此舉卻危害到他早已亮起紅燈的婚姻；當兇手的動機逐漸明朗之際，巴恩斯發現自己的生活也日漸分崩離析，他不只被迫質疑自己的信仰和原則，最後還必須和身邊潛藏的邪惡正面衝突！</Description>
+            <ExtendedInfo name="導演">約翰弗林</ExtendedInfo>
+            <ExtendedInfo name="演員">史蒂芬鮑德溫、法蘭克吉瑞許、泰恩黛莉</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Absence Of The Good</Name>
+            <Description>Homicide detective Caleb Barnes (Baldwin, The Usual Suspects) is brought in to investigate a series of bizarre murders.  Still wracked by the death of his only child, Barnes becomes increasingly obsessed with the case at the same time as he is trying to come to terms with his own personal tragedy.  He does this at the cost of his marriage, which is already strained to begin with.  As the killing spree intensifies, Barnes finds his life disintegrating around him and he is forced to question his own principles and beliefs as well as come face to face with the evil that surrounds him.</Description>
+            <ExtendedInfo name="導演">John Flynn</ExtendedInfo>
+            <ExtendedInfo name="演員">Stephen Baldwin、Tyne Daly</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051126060001" duration="3600">
+        <EventId>L00000034183</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">0048FAAD01828D175FC2650A0E4C8AB310AF54F2D00A5297C1D2AF72FBC8FAAB5BE6EA77A048582D26341ABC4ED9711364E21186BDBEACACB8D84DAE71A5A1F6EBC40BBC7432</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="32" pdsValue="9">007974F9138803180048FA138801656E67051A1A1A1A1AD1C40600010100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="20" pdsValue="9">000100000048FA13880300000160011A1A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="27" pdsValue="9">0001000000492B0FA00300000160044D756C74694576656E742031</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="26" pdsValue="9">000100000048FA13880000000003000001600100001A1A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="33" pdsValue="9">0001000000492B0FA00000000003000001600400004D756C74694576656E742031</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>奪命黑寡婦</Name>
+            <Description>曾有&quot;迷你影集之后&quot;雅稱的賈桂琳史密斯在本片中飾演布莉姬，一位為家庭盡心盡力的妻子、社區的楷模，但實際上卻是個為保有優渥的生活而不計一切代價的蛇蠍女子—即使必須殺人亦在所不惜。新寡的布莉姬嫁給曾結過一次婚的高中棒球教練朗恩（提摩西卡哈特）為妻，他們在新婚期間有如一對神仙眷屬：布莉姬在當地電視台當行銷經理，並掌管兩人財務上的投資極各項貸款，不久後夫妻倆便搬進豪宅，過著優裕的生活；然而當朗恩發現他們債台高築時事情就全走了樣，而為了急於拿到現金，布莉姬設計&quot;意外&quot;開槍射死朗恩好領取他的保險金，但朗恩的前妻與其好友瓊安（黛安娜史卡威）卻查出布莉姬的前夫也是死於跟朗恩類似的&quot;意外&quot;…這部影片是改編自傑瑞布雷索（Jerry Bledsoe）根據真實事件所寫成的暢銷小說。</Description>
+            <ExtendedInfo name="導演">麥可史考特</ExtendedInfo>
+            <ExtendedInfo name="演員">賈桂琳史密斯、黛安娜史卡威、提摩西卡哈特</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Before He Wakes</Name>
+            <Description>The one-time Queen of TV Mini-Series, Jaclyn Smith plays Bridgette, an outwardly devoted wife and pillar of community, who secretly, will do anything - including murder - to maintain the facade of a wealthy lifestyle. A recent widow, Bridgette marries Ron Michaels (Timothy Carhart), a divorcee who works as the high school basketball coach. For the ensuing months, it is a marriage made in heaven: Bridgette works as a sales executive at the local TV station, refinancing their loans and investing their money.  In no time, the Michaels move into a larger luxurious home.  However, things start to go wrong when Ron discovers that they are seriously in debt.  Desperate for cash, Bridgette kills Ron for his hefty insurance policy. Just when you think Bridgette can get away scot-free, Ron’s ex-wife and good friend Joanne (Scarwid) tries to convince the cops with vital information that proves that Ron’s death, like the death of Bridgette’s first husband, was </Description>
+            <ExtendedInfo name="導演">Michael Scott</ExtendedInfo>
+            <ExtendedInfo name="演員">Jaclyn Smith、Diana Scarwid</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051126070001" duration="3600">
+        <EventId>L00000034185</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">0048FBAD0102CF6F00FAE9FA98FD4BF4F76B1C76D2E799F7C66FAFB85FC907C9BAA3DD4D87B223DC2769FA76E1F29C54483138F52532E07CD38EABB9AA819E26F42492D40865</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="29" pdsValue="9">00792FF9138803150048FB138801656E67021A1AD1C40700010100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="17" pdsValue="9">000100000048FB13880300000160011A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="23" pdsValue="9">000100000048FB13880000000003000001600100001A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>殺妻</Name>
+            <Description>布萊斯塔柏（柯賓班森，「愛情不設防」）拋下妻子，搬去跟情人蓋兒（萊絲莉安華倫，「對不起，駭到你」）同居，法院因此而拒絕讓他探視他的兩個孩子；他對法院的判決感到忿忿不平，並且急著想搶回孩子的監護權，於是布萊斯便夥同蓋兒計畫殺掉他老婆好將孩子搶回來，但為了要讓計畫成功，他們得再另外找人幫忙，於是他們便內舉不避親地找上了蓋兒的孩子！這部帶點荒謬情節的影片是根據真人真事所改編的。</Description>
+            <ExtendedInfo name="導演">葛雷哥萊古德爾</ExtendedInfo>
+            <ExtendedInfo name="演員">萊絲莉安華倫、柯賓班森</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Murderous Intent</Name>
+            <Description>Based on actual events, this taut psychological thriller examines the extent of the human will to get what it wants.  Brice Talbot (Bernsen-Two of Hearts) abandons his wife to move in with his lover Gayle (Warren-Delivering Milo), but this act causes the courts to deny him the right to be with his two children.  Desperate to regain custody and furious at the results, Brice and Gayle plot to regain control by getting rid of Brice’s wife.  But in order for their plan to succeed, they have to recruit others into their plans, in this case Gayle’s own children!</Description>
+            <ExtendedInfo name="導演">Barry Levinson</ExtendedInfo>
+            <ExtendedInfo name="演員">Robert DeNiro、Dustin Hoffman、Anne Heche、Woody Harrelson</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051126080001" duration="3600">
+        <EventId>L00000034190</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">0048FCAD0142EBBB081D03C7A365E0BE50817DA123FD0E3A2590E2E766F8FED6EDCDC9DA40F45C4A07EC5882FDF8D20B2BD8FBD0D810571F7A4B06EB6E744BCBC0EB93E7834C</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="30" pdsValue="9">007992F9138803160048FC138801656E67031A1A1AD1C40800010100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="18" pdsValue="9">000100000048FC13880300000160011A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="24" pdsValue="9">000100000048FC13880000000003000001600100001A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>熱帶雪</Name>
+            <Description>塔佛（尼克柯瑞，「天人交戰」、「我吸我吸我吸吸吸」）和米蘭妲（麥德琳史道威，「將軍的女兒」、「未來總動員」）是一對居住於哥倫比亞波哥大的年輕戀人，兩人為維持家人生計而在機場當扒手為業，對他們倆來說，紐約是個能建立新生活的夢想城市；當地的毒梟歐斯卡（大衛卡拉定，「雙重麻煩」）以紐約之行為交換，說服他們以吞入腹中的方式，走私毒品闖過紐約機場的海關；由於米蘭妲的姊姊便是死於類似的情況，他們很清楚這種走私方式會有的風險，但為了實現夢想，兩人還是答應了歐斯卡的條件；然而抵達紐約機場後，兩人卻因過於緊張而引來警方注意，他們的夢想也漸漸隨之破碎…</Description>
+            <ExtendedInfo name="導演">西羅杜蘭</ExtendedInfo>
+            <ExtendedInfo name="演員">麥德琳史道威、大衛卡拉定、尼克柯瑞</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Body Snatchers</Name>
+            <Description>New York is the dream city of Tavo (Garcia, Traffic, Vampire In Brooklyn) and Marina (Stowe, The General’s Daughter, Twelve Monkeys), where the two young lovers hope to start a better life. At home in slum-ridden Bogota, Columbia, they have had to work as pickpockets at the airport to support their families.  Dealer Oskar (Carridine, Double Trouble) persuades them to smuggle drugs in their stomachs on a plane to New York - although both know of the risks, since Marina&apos;s sister died on a similar journey.   However on arrival at the airport in New York they show nerves and all their dreams start to shatter...</Description>
+            <ExtendedInfo name="導演">Ciro Durn</ExtendedInfo>
+            <ExtendedInfo name="演員">Mike Myers、Heather Graham、Robert Wagner、Elizabeth Hurley</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051126090001" duration="3600">
+        <EventId>L00000034193</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">0048FDAD0102BD5A7D984D36538583D275259D08AB4E3FEC5ACAA4B486093045560F2C4D70A2FAD68F4474F2BE83FEF05E4D77FD34928B7D756E1D60A4664AEB891541A13F12</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">0079B7F9138803170048FD138801656E67041A1A1A1AD1C40900010100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">000100000048FD13880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">000100000048FD13880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>異形基地</Name>
+            <Description>改編自傑克芬尼（Jack Finney）的知名科幻小說，本片是繼1956年和1978年後第三度搬上螢光幕之作，並將地點改到一向管制嚴格的軍事基地中；瑪蒂（嘉柏莉安沃，「女人香」、「小生護駕」）跟著醫生爸爸（泰瑞基尼，「大地英豪」）、繼母（梅提莉，「唐人街續集」、「上帝的女兒」）和弟弟一家四口搬到位於舊金山的一處軍事基地，渾然不知基地內最近發現的異象會為他們全家帶來什麼樣的巨變；原來外星人利用人們睡眠時侵入人腦中，複製其形體後便取代宿主生存，變成沒有情緒、沒有個人思想、有如機器人一般的行屍走肉；瑪蒂的家人和朋友一個個陸續被這些可怕的異形取代，只剩瑪蒂和她的新男友馬修（比利沃斯，「粗野少年族」）仍繼續對抗，但形單勢孤的兩人能躲過整個軍事基地異形的追捕嗎？他們能及時阻止這些異形佔領全美的邪惡陰謀嗎？</Description>
+            <ExtendedInfo name="導演">艾柏法瑞拉</ExtendedInfo>
+            <ExtendedInfo name="演員">嘉柏莉安沃、梅提莉、泰瑞基尼、比利沃斯</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Body Snatchers</Name>
+            <Description>A sci-fi thriller based on the novel of the same name by Jack Finney and inspired by the 1956 film version Invasion Of The Body Snatchers.  Something is happening to the Malone family – something bad – and its spreading. The lives of people they once knew and loved are drained by the Body Snatchers and replaced by soulless, emotionless aliens emerging from their cocoon-like pods and taking possession of their human hosts.  Starring Gabrielle Anwar (Without Malice, Scent Of A Woman, For Love Or Money), Meg Tilly (The Two Jakes, Agnes Of God) and Terry Kinney (The Last Of The Mohicians) as the Malone Family. A chilling and graphic portrayal of a desperate fight for human survival. </Description>
+            <ExtendedInfo name="導演">Abel Ferrara</ExtendedInfo>
+            <ExtendedInfo name="演員">Gabrielle Anwar、Meg Tilly、Terry Kinny</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051126100001" duration="3600">
+        <EventId>L00000034196</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">0048FEAD01027665883D6078B6E6868320D4489CA00D5CA7C7E023082E459E2F42C3B28F47C94BDED565EF76EB6CF7FD420B386720D0E2FEAC46734B02C75B4258D157D8E449</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">00795CF9138803170048FE138801656E67041A1A1A1AD1C41000010100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">000100000048FE13880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">000100000048FE13880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>閻王索命</Name>
+            <Description>西元2002年，自殺在美國成為合法行為，卻因而產生了難以預料的後果，吉姆（艾瑞克羅勃茲，「莫名殺機」）為了替瀕死的兒子籌措手術費，而將自己的身體賣給一家仲介”多餘器官”的大公司；然而吉姆的兒子並未逃過死神召喚，而買下他身體的器官仲介公司又拒絕讓他退還訂金，痛失愛子的吉姆只得展開逃亡生涯，以躲避該公司派出的殺手追蹤；但吉姆很快便發現若想保住小命，唯一的方法便是從問題的源頭著手：找上該公司的總裁！本片導演是紐西蘭籍的傑夫墨菲，他另外的作品包括「少壯屠龍陣2」、「魔鬼戰將2」、「奪命12小時」等。</Description>
+            <ExtendedInfo name="導演">傑夫墨菲</ExtendedInfo>
+            <ExtendedInfo name="演員">艾瑞克羅勃茲、凱瑞艾文斯、莎拉溫特</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Race Against Time</Name>
+            <Description>
+In 2002, the United States legalizes suicide.  The consequences are unforseen.  Jim Gabriel (Roberts-No Alibi ) sells his body to a powerful organization called Lifecorps that buys people for their ‘spare parts’.  He needs to raise money to pay for the surgery that his dying son needs.  But when his son dies anyway, Lifecorps is not about to give refunds.  They want him bad.  His only option is to run and elude the trackers that have been sent from him.  But soon he realizes that to truly escape, he has to go for the source of his problems: the CEO of Lifecorps.</Description>
+            <ExtendedInfo name="導演">Geoff Murphy</ExtendedInfo>
+            <ExtendedInfo name="演員">Eric Roberts、Cary Elwes</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="6" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051126110001" duration="3600">
+        <EventId>L00000034199</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">0048FFAD0142A7B59A14080173E77366D8964985E572FAD3A16702CC435FB6C37BB9FB936D786A5B7B336B52482A03DD2EAB37D069E762B9E4B2C6B17FE37EF3D2950624A23D</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">00794DF9138803170048FF138801656E67041A1A1A1AD1C41100010100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">000100000048FF13880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">000100000048FF13880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>頭號潛艦</Name>
+            <Description>這部感人的戰爭片是根據一段美國內戰時的史實所改編，曾榮獲2000年艾美獎最佳音效剪接。西元1864年南北戰爭期間，南卡羅萊納州的查爾士敦遭北軍重重包圍，水陸交通皆與外界隔絕；面對戰力明顯優越許多的敵軍，城裡的南軍為突破重圍，因而建造了配備魚雷的史上第一艘潛水艇”CSS杭利號”，雖然最後並未達成使命，但船上的八名軍官所表現的袍澤之情，以及大無畏的軍人情操卻令他們名留青史。由演技派演員艾蒙亞森特（「超時空戰警」）和唐納蘇德蘭（「太空大哥大」、「神鬼任務」）領銜主演。</Description>
+            <ExtendedInfo name="導演">約翰葛雷</ExtendedInfo>
+            <ExtendedInfo name="演員">艾蒙亞森特、唐納蘇德蘭</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>The Hunley</Name>
+            <Description>The incredible true story of Confederate efforts to develop a submersible boat during the American Civil War. The story opens in Charleston S.C. during the 1864 seize and naval blockade of that city by the Yankees. The Confederates were attempting to develop a submarine with a torpedo to be used as a weapon to break the blockade. This movie follows the bravery and determination of the eight-member crew in developing the manually propelled submarine and its deployment into battle.  An exceptional story of heroism in the face of adversity. </Description>
+            <ExtendedInfo name="導演">John Gray</ExtendedInfo>
+            <ExtendedInfo name="演員">Armand Assante、Donald Sutherland</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051126175959" duration="3601">
+        <EventId>L00000034549</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004930AD0182F20514EAA2973D88A6D438736FDACF29667190964467ADC7CD3812EE3B7556312BB996C16FFCD69E7A62AB0A50B14E34D8BC821728721644D767EEEF4C3CD36F</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="30" pdsValue="9">0079DCF913880316004930138801656E67031A1A1AD1C41759590100013C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="18" pdsValue="9">0001000000493013880300000160011A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="24" pdsValue="9">0001000000493013880000000003000001600100001A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>熱帶雪</Name>
+            <Description>塔佛（尼克柯瑞，「天人交戰」、「我吸我吸我吸吸吸」）和米蘭妲（麥德琳史道威，「將軍的女兒」、「未來總動員」）是一對居住於哥倫比亞波哥大的年輕戀人，兩人為維持家人生計而在機場當扒手為業，對他們倆來說，紐約是個能建立新生活的夢想城市；當地的毒梟歐斯卡（大衛卡拉定，「雙重麻煩」）以紐約之行為交換，說服他們以吞入腹中的方式，走私毒品闖過紐約機場的海關；由於米蘭妲的姊姊便是死於類似的情況，他們很清楚這種走私方式會有的風險，但為了實現夢想，兩人還是答應了歐斯卡的條件；然而抵達紐約機場後，兩人卻因過於緊張而引來警方注意，他們的夢想也漸漸隨之破碎…</Description>
+            <ExtendedInfo name="導演">西羅杜蘭</ExtendedInfo>
+            <ExtendedInfo name="演員">麥德琳史道威、大衛卡拉定、尼克柯瑞</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Body Snatchers</Name>
+            <Description>New York is the dream city of Tavo (Garcia, Traffic, Vampire In Brooklyn) and Marina (Stowe, The General’s Daughter, Twelve Monkeys), where the two young lovers hope to start a better life. At home in slum-ridden Bogota, Columbia, they have had to work as pickpockets at the airport to support their families.  Dealer Oskar (Carridine, Double Trouble) persuades them to smuggle drugs in their stomachs on a plane to New York - although both know of the risks, since Marina&apos;s sister died on a similar journey.   However on arrival at the airport in New York they show nerves and all their dreams start to shatter...</Description>
+            <ExtendedInfo name="導演">Ciro Durn</ExtendedInfo>
+            <ExtendedInfo name="演員">Mike Myers、Heather Graham、Robert Wagner、Elizabeth Hurley</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051126190000" duration="3600">
+        <EventId>L00000034214</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004900AD01028216B6EEF21058B5A9F33E529FDA7E986BDFC7D19A1D8DB20ECD5890FC046889472AF5221D0C7B4A87B07C13380BAB0D9D7B95E228F9DDB4960F380B7070E02E</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">00792BF913880317004900138801656E67041A1A1A1AD1C41900000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">0001000000490013880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="73" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">0001000000490013880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>捍衛正義</Name>
+            <Description>牶擊手魯賓卡特【丹佐華盛頓飾】希望拿下世界中量級牶王頭銜前夕，卻在紐澤西酒吧的槍擊案中以謀殺起訴，被判三無期徒刑，終生監禁．在獄中，卡特為了表示自己的清白，拒絕穿上罪犯的囚衣．並多次上訴，但全數被駁回．他逐漸灰心只能將冤屈訴諸於自傳當中，卡特的自傳感動了一名年輕黑人，於是在年輕人的幫肋下，他決定上訴到聯邦法院．．</Description>
+            <ExtendedInfo name="導演">諾曼傑維生</ExtendedInfo>
+            <ExtendedInfo name="演員">丹佐華盛頓, 約翰漢納</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>捍衛正義</Name>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>6</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051126200000" duration="3600">
+        <EventId>L00000034217</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004901AD01825FC98276B4E6E07CC8B1F6A37B6690AF912B017F5ADE518C4C733150B275CD9AAF53E9B42EA6B6F5306E981481B5FEFFEEAE0EE6A6C6F27F03FC64BC97C79755</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="32" pdsValue="9">0079BCF913880318004901138801656E67051A1A1A1A1AD1C42000000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="20" pdsValue="9">0001000000490113880300000160011A1A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="73" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="26" pdsValue="9">0001000000490113880000000003000001600100001A1A1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>六壯士續集</Name>
+            <Description>這部絕無冷場的動作片，是007系列「金手指」、「金剛鑽」的導演蓋漢米頓繼1961年的動作片經典「六壯士」，在17年後延續原來的劇情所拍的續集。馬洛利少校（羅勃蕭 飾，「大白鯊」）和爆破專家米勒（愛德華福克斯 飾，「LIS太空號」）是上次任務的倖存者，這次第十中隊則是奉命到巴爾幹半島，去摧毀一座足以左右盟軍對抗納粹德軍勝負關鍵的重要橋樑；這次的突擊隊成員包括哈里遜福特飾演的巴斯比上校，及卡爾威德斯飾演的韋佛上士等人，除了炸橋這項任務外，他們還得先除掉殘酷無情的德國間諜雷斯柯瓦（法蘭柯尼洛 飾，「終極警探2」），也就是在第一集中出賣馬洛利的壞蛋，只是如今他轉而在南斯拉夫境內活動。</Description>
+            <ExtendedInfo name="導演">蓋漢米頓</ExtendedInfo>
+            <ExtendedInfo name="演員">羅勃蕭、愛德華福克斯、哈里遜福特</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Force 10 From Navarone</Name>
+            <Description>From Guy Hamilton, the veteran director of Goldfinger and Diamonds Are Forever, comes this adrenaline-gushing, nail-biting follow-up to the 1961 classic, The Guns Of Navarone. Major Mallory (Shaw- Jaws) and demolition expert Miller (Fox - Lost in Space) are the two survivors from the previous mission and this time round, Force 10 is assigned to the Balkans to destroy a bridge that could make a difference between victory and failure for the Allies’ campaign against Nazi Germany. That’s just the first part, the commando squad - which also comprises Harrison Ford as US Colonel Barnsby and Carl Weathers as Sgt. Weaver - must first eliminate a ruthless German agent Lescovar (Franco Nero, Die Hard 2:Die Harder), the same man who betrayed Mallory at Navarone and is presently operating in Yugoslavia.</Description>
+            <ExtendedInfo name="導演">Guy Hamilton</ExtendedInfo>
+            <ExtendedInfo name="演員">Robert Shaw、Edward Fox、Harrison Ford</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051126210000" duration="3600">
+        <EventId>L00000034220</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004902AD01022C4B7C6D266B6AF407878E1C655D1D204C0DE0C14B3F807FF1BCFDF5A1796B47F85BBFC102FF41EEA705CE142DB1D549865AB1546920375AEA8E49629A48C55C</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="32" pdsValue="9">007952F913880318004902138801656E67051A1A1A1A1AD1C42100000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="20" pdsValue="9">0001000000490213880300000160011A1A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="26" pdsValue="9">0001000000490213880000000003000001600100001A1A1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>愛情另一章</Name>
+            <Description>莎拉（凱拉塞吉維克 飾，「第三類奇蹟」）跟男友萊恩（羅柏莫洛 飾，「益智遊戲」）在同居的當天大吵一架而分手，但一星期後莎拉卻發現自己懷孕了，雖然她仍愛著萊恩，卻無法接受他不願承諾的性格，於是決定不跟萊恩和大家說出她懷孕的消息，只告訴了她的好友露露（莉拉羅尚 飾，「挑戰星期天」），直到莎拉即將分娩之前都沒人知道這個消息，此時她的好友覺得有責任將這個好消息告知眾家親友，於是在產房內引發了一場大混亂！</Description>
+            <ExtendedInfo name="導演">崔西艾力克森</ExtendedInfo>
+            <ExtendedInfo name="演員">凱拉塞吉維克、羅柏莫洛、莉拉羅尚</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Labor Pains</Name>
+            <Description>Sarah (Sedgwick- Twelfth Night) breaks up with Ryan (Morrow-Quiz Show) on the day they are to move in together, only to realize a week later that she is pregnant. Still in love with him but unable to take his inability to commit, she keeps the news from him and everyone else but her best friend Lulu (Rochon-Any Given Sunday). The secret is well kept until Sarah goes into labor and her friend takes it upon herself to call everyone to the hospital. What ensues LS a hilarious mess right in the middle of childbirth!</Description>
+            <ExtendedInfo name="導演">Tracy Alexson</ExtendedInfo>
+            <ExtendedInfo name="演員">Kyra Sedgwick、Rob Morrow、Leia Rochon</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051126220000" duration="3600">
+        <EventId>L00000034223</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004903AD0102247C8BC1F910BA801838EC14A601D224F4570858818BC27B00599A8ADB97391005879D505CE6D1625C2B2852AAE78133772FDFB5F33BD4954C8D2FD99A51C21B</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="34" pdsValue="9">007957F91388031A004903138801656E67071A1A1A1A303037D1C42200000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="22" pdsValue="9">0001000000490313880300000160011A1A1A1A303037</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="28" pdsValue="9">0001000000490313880000000003000001600100001A1A1A1A303037</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>時空賤諜007</Name>
+            <Description>史上最賤的王牌間諜奧斯汀鮑威（麥克麥爾斯，「王牌大賤諜」、「反斗智多星」）回來啦！還記得在第一集的故事中，萬惡罪魁”邪惡博士”（也是麥克麥爾斯）被智勇雙全的奧斯汀打敗後，最後還是乘亂逃走了，他如今又捲土重來，派遣手下肥霸（還是麥克麥爾斯）乘時光機器回到1969年偷了奧斯汀的活力泉源”魔酒”，另一方面則在月球上裝設威力強大的雷射砲對準華府，威脅美國政府交出鉅額贖金，否則便…嘿～嘿～嘿。英國情報局為此派出了多位菁英探員，卻總是被邪惡博士給識破而慘遭毒手，於是這個拯救世界的任務自然落到全英國最賤…不，是最厲害的王牌間諜奧斯汀鮑威出馬了。然而失去魔酒的奧斯汀因無法對漂亮美眉一展男性雄風而失去自信，英國情報局的專家研究後發現魔酒的失蹤又是邪惡博士搞的鬼，因而讓奧斯汀乘坐超時光金龜車回到1969年阻止魔酒被偷；然而此舉卻早在邪惡博士的預料中，因而派出一流殺手來給他好好”照顧”一下。想看奧斯汀鮑威如何打敗惡勢力、拯救世界、順便泡身材火辣辣的間諜美眉（海瑟葛萊罕，「大製騙家」、「不羈夜」）嗎？那就千萬不能錯過精彩絕倫的「時空賤諜007」！片中令人目眩的各種復古造型還曾入圍奧斯卡最佳化裝。</Description>
+            <ExtendedInfo name="導演">傑羅區</ExtendedInfo>
+            <ExtendedInfo name="演員">麥克麥爾斯、海瑟葛萊罕、伊莉莎白赫蕾</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Austin Powers: The Spy Who Shagged Me</Name>
+            <Description>Dr. Evil (Myers, Austin Powers: International Man of Mystery, Wayne’s World) returns from space just as British spy Austin Powers learns on his honeymoon that his wife, Vanessa (Hurley, Bedazzled) is a fembot under  Dr Evil&apos;s control.  Back on the singles scene, Powers discovers he&apos;s impotent because Evil has used a time machine to return to the late 60s and steal his libido. British intelligence also has a time portal, so Powers goes back to 1969 to recapture his “mojo” and, teams with agent Felicity Shagwell (Graham, Bowfinger, Boogie Nights), to stop another Evil plot to take over the world, this time with a &quot;laser&quot; beamed from the moon! Yeeeeah Baby – Myers is at his best again and don’t miss out on the brilliant collection of 60’s one-liners!</Description>
+            <ExtendedInfo name="導演">Jay Roach</ExtendedInfo>
+            <ExtendedInfo name="演員">Mike Myers、Heather Graham、Robert Wagner、Elizabeth Hurley</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051126230000" duration="3600">
+        <EventId>L00000034226</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004904AD010297F66FF10B085ED49F9F06264058AA5653AAE4AEC484F79229A77DFE49EF650E92578D717580DE2ECDED968F820624593E8CBB9EDACECFFDF954E1DE6D3EB337</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="36" pdsValue="9">00798FF91388031C004904138801656E67091A1A1A1A2D2D1A1A1AD1C42300000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="24" pdsValue="9">0001000000490413880300000160011A1A1A1A2D2D1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="30" pdsValue="9">0001000000490413880000000003000001600100001A1A1A1A2D2D1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>桃色風雲--搖擺狗</Name>
+            <Description>美國總統鬧出性醜聞，面對著醜聞成為頭條新聞的壓力，及兩週後的總統大選，白宮這回該怎麼做呢？簡單，發動一場戰爭！白宮危機處理專家康洛德（勞勃狄尼洛，「老大靠邊閃」）受命替總統解圍，轉移民眾注意力，於是他找來了好萊塢大製片家史丹利（達斯汀霍夫曼，「地動天驚」、「雨人」），虛擬一場在阿爾巴尼亞的戰爭，但這場戰爭不是發生在真實的戰場，而是在攝影棚當中，不用任何真槍實彈，他們製造各種有關戰爭的新聞片段，甚至趁機推出愛國歌曲大撈一筆。起初一切都進行地很順利，廣大民眾的心，隨著真真假假的戰爭新聞而起伏，但不久後卻漏洞百出，假的戰區英雄意外死亡，製片史丹利為了居功而不願保密，中情局也開始懷疑這場美國總統的桃色風雲該如何圓滿收場？導演巴瑞李文遜曾以「雨人」、「早安越南」、「豪情四兄弟」等片獲得空前的成功。</Description>
+            <ExtendedInfo name="導演">巴瑞李文遜</ExtendedInfo>
+            <ExtendedInfo name="演員">勞勃狄尼洛、達斯汀霍夫曼、安海契、伍迪哈里遜</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Wag The Dog</Name>
+            <Description>What do the President’s advisers do when a sex scandal threatens to explode across front pages nationwide, with the election is only 14 days away? Simple. Start a war! Faced with this dilemma, a ‘spin-doctor’ (DeNiro, Men Of Honor, Meet The Parents, The Adventures of Rocky &amp; Bullwinkle ) is called in to fabricate a nonexistent war for the President to win, and to distract the American public. Wars are no longer fought on battlefields but on TV, so naturally a hotshot Hollywood producer (Hoffman, Being John Malcovich, Cosm) is hired to manufacture a war in distant Albania — without a shot being fired. With its first-class cast and ascerbic humour, Wag the Dog is a biting satire that has never been more appropriate.</Description>
+            <ExtendedInfo name="導演">Barry Levinson</ExtendedInfo>
+            <ExtendedInfo name="演員">Robert DeNiro、Dustin Hoffman、Anne Heche、Woody Harrelson</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051127000000" duration="3600">
+        <EventId>L00000034229</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004905AD014217B84C08F17737EEA0326F39D978CA212A86BAD28F7E44869EC6A11B6A2B5737B52403113582B8E98A8D570D50961AF18FAAC73063B79184D70487297360A11A</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="30" pdsValue="9">007950F913880316004905138801656E67031A1A1AD1C50000000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="18" pdsValue="9">0001000000490513880300000160011A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="24" pdsValue="9">0001000000490513880000000003000001600100001A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>熱帶雪</Name>
+            <Description>塔佛（尼克柯瑞，「天人交戰」、「我吸我吸我吸吸吸」）和米蘭妲（麥德琳史道威，「將軍的女兒」、「未來總動員」）是一對居住於哥倫比亞波哥大的年輕戀人，兩人為維持家人生計而在機場當扒手為業，對他們倆來說，紐約是個能建立新生活的夢想城市；當地的毒梟歐斯卡（大衛卡拉定，「雙重麻煩」）以紐約之行為交換，說服他們以吞入腹中的方式，走私毒品闖過紐約機場的海關；由於米蘭妲的姊姊便是死於類似的情況，他們很清楚這種走私方式會有的風險，但為了實現夢想，兩人還是答應了歐斯卡的條件；然而抵達紐約機場後，兩人卻因過於緊張而引來警方注意，他們的夢想也漸漸隨之破碎…</Description>
+            <ExtendedInfo name="導演">西羅杜蘭</ExtendedInfo>
+            <ExtendedInfo name="演員">麥德琳史道威、大衛卡拉定、尼克柯瑞</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Body Snatchers</Name>
+            <Description>New York is the dream city of Tavo (Garcia, Traffic, Vampire In Brooklyn) and Marina (Stowe, The General’s Daughter, Twelve Monkeys), where the two young lovers hope to start a better life. At home in slum-ridden Bogota, Columbia, they have had to work as pickpockets at the airport to support their families.  Dealer Oskar (Carridine, Double Trouble) persuades them to smuggle drugs in their stomachs on a plane to New York - although both know of the risks, since Marina&apos;s sister died on a similar journey.   However on arrival at the airport in New York they show nerves and all their dreams start to shatter...</Description>
+            <ExtendedInfo name="導演">Ciro Durn</ExtendedInfo>
+            <ExtendedInfo name="演員">Mike Myers、Heather Graham、Robert Wagner、Elizabeth Hurley</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051127010000" duration="3600">
+        <EventId>L00000034232</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004906AD0102928C8E5FF23E7BFA4C3E3F3283DFA469397C54577B4D6CF306A14F89A13167E8870E68E28A1A80E77EBD9AF2FF040273F0721C11253C94AFEC02DE55CF0B9E09</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">00794BF913880317004906138801656E67041A1A1A1AD1C50100000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">0001000000490613880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">0001000000490613880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>異形基地</Name>
+            <Description>改編自傑克芬尼（Jack Finney）的知名科幻小說，本片是繼1956年和1978年後第三度搬上螢光幕之作，並將地點改到一向管制嚴格的軍事基地中；瑪蒂（嘉柏莉安沃，「女人香」、「小生護駕」）跟著醫生爸爸（泰瑞基尼，「大地英豪」）、繼母（梅提莉，「唐人街續集」、「上帝的女兒」）和弟弟一家四口搬到位於舊金山的一處軍事基地，渾然不知基地內最近發現的異象會為他們全家帶來什麼樣的巨變；原來外星人利用人們睡眠時侵入人腦中，複製其形體後便取代宿主生存，變成沒有情緒、沒有個人思想、有如機器人一般的行屍走肉；瑪蒂的家人和朋友一個個陸續被這些可怕的異形取代，只剩瑪蒂和她的新男友馬修（比利沃斯，「粗野少年族」）仍繼續對抗，但形單勢孤的兩人能躲過整個軍事基地異形的追捕嗎？他們能及時阻止這些異形佔領全美的邪惡陰謀嗎？</Description>
+            <ExtendedInfo name="導演">艾柏法瑞拉</ExtendedInfo>
+            <ExtendedInfo name="演員">嘉柏莉安沃、梅提莉、泰瑞基尼、比利沃斯</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Body Snatchers</Name>
+            <Description>A sci-fi thriller based on the novel of the same name by Jack Finney and inspired by the 1956 film version Invasion Of The Body Snatchers.  Something is happening to the Malone family – something bad – and its spreading. The lives of people they once knew and loved are drained by the Body Snatchers and replaced by soulless, emotionless aliens emerging from their cocoon-like pods and taking possession of their human hosts.  Starring Gabrielle Anwar (Without Malice, Scent Of A Woman, For Love Or Money), Meg Tilly (The Two Jakes, Agnes Of God) and Terry Kinney (The Last Of The Mohicians) as the Malone Family. A chilling and graphic portrayal of a desperate fight for human survival. </Description>
+            <ExtendedInfo name="導演">Abel Ferrara</ExtendedInfo>
+            <ExtendedInfo name="演員">Gabrielle Anwar、Meg Tilly、Terry Kinny</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051127020000" duration="3600">
+        <EventId>L00000034235</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004907AD014216F2A12DC63EA9EEE25E394963E4516FE01D928FD584177907B25E91974D0AF9E007FE20C191894350CA9712D98699D90A1FDDC6A16438F30269DB2004E2AD22</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">007931F913880317004907138801656E67041A1A1A1AD1C50200000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">0001000000490713880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">0001000000490713880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>閻王索命</Name>
+            <Description>西元2002年，自殺在美國成為合法行為，卻因而產生了難以預料的後果，吉姆（艾瑞克羅勃茲，「莫名殺機」）為了替瀕死的兒子籌措手術費，而將自己的身體賣給一家仲介”多餘器官”的大公司；然而吉姆的兒子並未逃過死神召喚，而買下他身體的器官仲介公司又拒絕讓他退還訂金，痛失愛子的吉姆只得展開逃亡生涯，以躲避該公司派出的殺手追蹤；但吉姆很快便發現若想保住小命，唯一的方法便是從問題的源頭著手：找上該公司的總裁！本片導演是紐西蘭籍的傑夫墨菲，他另外的作品包括「少壯屠龍陣2」、「魔鬼戰將2」、「奪命12小時」等。</Description>
+            <ExtendedInfo name="導演">傑夫墨菲</ExtendedInfo>
+            <ExtendedInfo name="演員">艾瑞克羅勃茲、凱瑞艾文斯、莎拉溫特</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Race Against Time</Name>
+            <Description>
+In 2002, the United States legalizes suicide.  The consequences are unforseen.  Jim Gabriel (Roberts-No Alibi ) sells his body to a powerful organization called Lifecorps that buys people for their ‘spare parts’.  He needs to raise money to pay for the surgery that his dying son needs.  But when his son dies anyway, Lifecorps is not about to give refunds.  They want him bad.  His only option is to run and elude the trackers that have been sent from him.  But soon he realizes that to truly escape, he has to go for the source of his problems: the CEO of Lifecorps.</Description>
+            <ExtendedInfo name="導演">Geoff Murphy</ExtendedInfo>
+            <ExtendedInfo name="演員">Eric Roberts、Cary Elwes</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="6" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051127030000" duration="3600">
+        <EventId>L00000034238</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004908AD01020F2A05337FC5CD985ACB161322CDA0FB05E7C82D5626BBED872F3579141F61613DA0BB3986C381337F89075873BDEF3C9DAB6ACD29813DAB43B59027F05A2737</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">007945F913880317004908138801656E67041A1A1A1AD1C50300000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">0001000000490813880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">0001000000490813880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>頭號潛艦</Name>
+            <Description>這部感人的戰爭片是根據一段美國內戰時的史實所改編，曾榮獲2000年艾美獎最佳音效剪接。西元1864年南北戰爭期間，南卡羅萊納州的查爾士敦遭北軍重重包圍，水陸交通皆與外界隔絕；面對戰力明顯優越許多的敵軍，城裡的南軍為突破重圍，因而建造了配備魚雷的史上第一艘潛水艇”CSS杭利號”，雖然最後並未達成使命，但船上的八名軍官所表現的袍澤之情，以及大無畏的軍人情操卻令他們名留青史。由演技派演員艾蒙亞森特（「超時空戰警」）和唐納蘇德蘭（「太空大哥大」、「神鬼任務」）領銜主演。</Description>
+            <ExtendedInfo name="導演">約翰葛雷</ExtendedInfo>
+            <ExtendedInfo name="演員">艾蒙亞森特、唐納蘇德蘭</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>The Hunley</Name>
+            <Description>The incredible true story of Confederate efforts to develop a submersible boat during the American Civil War. The story opens in Charleston S.C. during the 1864 seize and naval blockade of that city by the Yankees. The Confederates were attempting to develop a submarine with a torpedo to be used as a weapon to break the blockade. This movie follows the bravery and determination of the eight-member crew in developing the manually propelled submarine and its deployment into battle.  An exceptional story of heroism in the face of adversity. </Description>
+            <ExtendedInfo name="導演">John Gray</ExtendedInfo>
+            <ExtendedInfo name="演員">Armand Assante、Donald Sutherland</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051127040000" duration="3600">
+        <EventId>L00000034241</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004909AD018254F3AD11B2BCAC9183A42DC4ED5F8A2B155F38560E8C6FA73C5FF1824315E0DCEAD5D6C9F4AD4F228D3D188D5DCC634F92F32F7A558F5A65310057E54222433B</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">00791BF913880317004909138801656E67041A1A1A1AD1C50400000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">0001000000490913880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">0001000000490913880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>戰慄之旅</Name>
+            <Description>來自不同地方的七個人，為了不同的目的，各路人馬不約而同的在一家餐館休憩：有進來喝杯咖啡的寂寞卡車司機（勞勃佛斯特）、陪瀕死祖母做最後旅程的印第安婦女、被解雇的馬戲團小丑（凱文波拉克）和他的脫衣舞孃女友（潘妮洛普安米勒）、以及趕去參加父親喪禮的姊妹花；這七個人收聽著同一個音樂頻道，前往一樣的目的地，並成為同一個連續殺人狂的下一個目標…</Description>
+            <ExtendedInfo name="導演">JS卡多尼</ExtendedInfo>
+            <ExtendedInfo name="演員">麥德琳史道威、大衛卡拉定、尼克柯瑞</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Outside Ozona</Name>
+            <Description>A group of people unite over the airwaves as they drive down lonesome highways into an uncertain future outside Ozona, Texas.  There’s the irritated disc jockey (Taj Mahal) who is determined to share his angst with the world in general and the station manager (Meat Loaf) who would rather he didn’t.  There’s the abusive, unemployed circus clown and his sexy white-trash girlfriend fleeing the scene of his latest act of rage.  Then there’s the shy and lonely trucker who helps a stranded Navajo lady and her grandmother in an act of kindness and affection.  As these unusual people follow they own destinies, they are, unknown to them, speeding towards a place where they worlds will collide.</Description>
+            <ExtendedInfo name="導演">J.S. Cardone</ExtendedInfo>
+            <ExtendedInfo name="演員">Madeleine Stowe、David Carridine、Jsu Garcia</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051127050000" duration="3601">
+        <EventId>L00000034244</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">00490AAD01822E68FBC702678851370ABDB5D39E0FD410DE696D0AAA88B8CFE1BABC55F6B296EDCEA3B74F0B99E842997D41C0290F3B610B4DBABB5DCEDF4DBAA11CE6A58D35</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">007995F91388031700490A138801656E67041A1A1A1AD1C50500000100013C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">0001000000490A13880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="29" pdsValue="9">0001000000492C0FA00300000160044D756C74694576656E74202D2032</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">0001000000490A13880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="35" pdsValue="9">0001000000492C0FA00000000003000001600400004D756C74694576656E74202D2032</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>魔鬼獵殺</Name>
+            <Description>仍尚未自喪子之慟中恢復的刑事組警官巴恩斯（史蒂芬鮑德溫，「刺激驚爆點」）奉命追查一樁詭異的連續殺人案，當他慢慢克服驟失獨子的悲劇之時，另一方面卻日漸沈迷於追查該宗神祕案件，然而此舉卻危害到他早已亮起紅燈的婚姻；當兇手的動機逐漸明朗之際，巴恩斯發現自己的生活也日漸分崩離析，他不只被迫質疑自己的信仰和原則，最後還必須和身邊潛藏的邪惡正面衝突！</Description>
+            <ExtendedInfo name="導演">約翰弗林</ExtendedInfo>
+            <ExtendedInfo name="演員">史蒂芬鮑德溫、法蘭克吉瑞許、泰恩黛莉</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Absence Of The Good</Name>
+            <Description>Homicide detective Caleb Barnes (Baldwin, The Usual Suspects) is brought in to investigate a series of bizarre murders.  Still wracked by the death of his only child, Barnes becomes increasingly obsessed with the case at the same time as he is trying to come to terms with his own personal tragedy.  He does this at the cost of his marriage, which is already strained to begin with.  As the killing spree intensifies, Barnes finds his life disintegrating around him and he is forced to question his own principles and beliefs as well as come face to face with the evil that surrounds him.</Description>
+            <ExtendedInfo name="導演">John Flynn</ExtendedInfo>
+            <ExtendedInfo name="演員">Stephen Baldwin、Tyne Daly</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051127060001" duration="3600">
+        <EventId>L00000034247</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">00490BAD0102AA65F2203B5A2912013813950E71D678316831596E3A9A4BE5610D91582955CAE8341C1B49F77E3F6079E8D0AC944FA62EB19FD3B195438460B5B04E2BEE0024</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="32" pdsValue="9">0079A8F91388031800490B138801656E67051A1A1A1A1AD1C50600010100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="20" pdsValue="9">0001000000490B13880300000160011A1A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="29" pdsValue="9">0001000000492C0FA00300000160044D756C74694576656E74202D2032</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="26" pdsValue="9">0001000000490B13880000000003000001600100001A1A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="35" pdsValue="9">0001000000492C0FA00000000003000001600400004D756C74694576656E74202D2032</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>奪命黑寡婦</Name>
+            <Description>曾有&quot;迷你影集之后&quot;雅稱的賈桂琳史密斯在本片中飾演布莉姬，一位為家庭盡心盡力的妻子、社區的楷模，但實際上卻是個為保有優渥的生活而不計一切代價的蛇蠍女子—即使必須殺人亦在所不惜。新寡的布莉姬嫁給曾結過一次婚的高中棒球教練朗恩（提摩西卡哈特）為妻，他們在新婚期間有如一對神仙眷屬：布莉姬在當地電視台當行銷經理，並掌管兩人財務上的投資極各項貸款，不久後夫妻倆便搬進豪宅，過著優裕的生活；然而當朗恩發現他們債台高築時事情就全走了樣，而為了急於拿到現金，布莉姬設計&quot;意外&quot;開槍射死朗恩好領取他的保險金，但朗恩的前妻與其好友瓊安（黛安娜史卡威）卻查出布莉姬的前夫也是死於跟朗恩類似的&quot;意外&quot;…這部影片是改編自傑瑞布雷索（Jerry Bledsoe）根據真實事件所寫成的暢銷小說。</Description>
+            <ExtendedInfo name="導演">麥可史考特</ExtendedInfo>
+            <ExtendedInfo name="演員">賈桂琳史密斯、黛安娜史卡威、提摩西卡哈特</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Before He Wakes</Name>
+            <Description>The one-time Queen of TV Mini-Series, Jaclyn Smith plays Bridgette, an outwardly devoted wife and pillar of community, who secretly, will do anything - including murder - to maintain the facade of a wealthy lifestyle. A recent widow, Bridgette marries Ron Michaels (Timothy Carhart), a divorcee who works as the high school basketball coach. For the ensuing months, it is a marriage made in heaven: Bridgette works as a sales executive at the local TV station, refinancing their loans and investing their money.  In no time, the Michaels move into a larger luxurious home.  However, things start to go wrong when Ron discovers that they are seriously in debt.  Desperate for cash, Bridgette kills Ron for his hefty insurance policy. Just when you think Bridgette can get away scot-free, Ron’s ex-wife and good friend Joanne (Scarwid) tries to convince the cops with vital information that proves that Ron’s death, like the death of Bridgette’s first husband, was </Description>
+            <ExtendedInfo name="導演">Michael Scott</ExtendedInfo>
+            <ExtendedInfo name="演員">Jaclyn Smith、Diana Scarwid</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051127070001" duration="3600">
+        <EventId>L00000034250</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">00490CAD0142FF250EE81CC5D6385237DEA4B9E7E3BB13F2210FE024789C224B8A488160A7EF5CEB333B23455168305A1B1BC7F92C86441519379BF51DC6E1E68355FE1E170E</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="29" pdsValue="9">007996F91388031500490C138801656E67021A1AD1C50700010100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="29" pdsValue="9">0001000000492C0FA00300000160044D756C74694576656E74202D2032</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="17" pdsValue="9">0001000000490C13880300000160011A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="35" pdsValue="9">0001000000492C0FA00000000003000001600400004D756C74694576656E74202D2032</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="23" pdsValue="9">0001000000490C13880000000003000001600100001A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>殺妻</Name>
+            <Description>布萊斯塔柏（柯賓班森，「愛情不設防」）拋下妻子，搬去跟情人蓋兒（萊絲莉安華倫，「對不起，駭到你」）同居，法院因此而拒絕讓他探視他的兩個孩子；他對法院的判決感到忿忿不平，並且急著想搶回孩子的監護權，於是布萊斯便夥同蓋兒計畫殺掉他老婆好將孩子搶回來，但為了要讓計畫成功，他們得再另外找人幫忙，於是他們便內舉不避親地找上了蓋兒的孩子！這部帶點荒謬情節的影片是根據真人真事所改編的。</Description>
+            <ExtendedInfo name="導演">葛雷哥萊古德爾</ExtendedInfo>
+            <ExtendedInfo name="演員">萊絲莉安華倫、柯賓班森</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Murderous Intent</Name>
+            <Description>Based on actual events, this taut psychological thriller examines the extent of the human will to get what it wants.  Brice Talbot (Bernsen-Two of Hearts) abandons his wife to move in with his lover Gayle (Warren-Delivering Milo), but this act causes the courts to deny him the right to be with his two children.  Desperate to regain custody and furious at the results, Brice and Gayle plot to regain control by getting rid of Brice’s wife.  But in order for their plan to succeed, they have to recruit others into their plans, in this case Gayle’s own children!</Description>
+            <ExtendedInfo name="導演">Barry Levinson</ExtendedInfo>
+            <ExtendedInfo name="演員">Robert DeNiro、Dustin Hoffman、Anne Heche、Woody Harrelson</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051127080001" duration="3600">
+        <EventId>L00000034253</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">00490DAD014292FCC70DC5116EF43EA9993E3289BF4CFCD0B6A38A9094409C8D0CEC3F32CAE5A1F44C019FBD34EF418CA9FD7B8AFCA0C6695D6B4E9073D26EDF8C053D5F8004</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="30" pdsValue="9">0079BFF91388031600490D138801656E67031A1A1AD1C50800010100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="18" pdsValue="9">0001000000490D13880300000160011A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="24" pdsValue="9">0001000000490D13880000000003000001600100001A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>熱帶雪</Name>
+            <Description>塔佛（尼克柯瑞，「天人交戰」、「我吸我吸我吸吸吸」）和米蘭妲（麥德琳史道威，「將軍的女兒」、「未來總動員」）是一對居住於哥倫比亞波哥大的年輕戀人，兩人為維持家人生計而在機場當扒手為業，對他們倆來說，紐約是個能建立新生活的夢想城市；當地的毒梟歐斯卡（大衛卡拉定，「雙重麻煩」）以紐約之行為交換，說服他們以吞入腹中的方式，走私毒品闖過紐約機場的海關；由於米蘭妲的姊姊便是死於類似的情況，他們很清楚這種走私方式會有的風險，但為了實現夢想，兩人還是答應了歐斯卡的條件；然而抵達紐約機場後，兩人卻因過於緊張而引來警方注意，他們的夢想也漸漸隨之破碎…</Description>
+            <ExtendedInfo name="導演">西羅杜蘭</ExtendedInfo>
+            <ExtendedInfo name="演員">麥德琳史道威、大衛卡拉定、尼克柯瑞</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Body Snatchers</Name>
+            <Description>New York is the dream city of Tavo (Garcia, Traffic, Vampire In Brooklyn) and Marina (Stowe, The General’s Daughter, Twelve Monkeys), where the two young lovers hope to start a better life. At home in slum-ridden Bogota, Columbia, they have had to work as pickpockets at the airport to support their families.  Dealer Oskar (Carridine, Double Trouble) persuades them to smuggle drugs in their stomachs on a plane to New York - although both know of the risks, since Marina&apos;s sister died on a similar journey.   However on arrival at the airport in New York they show nerves and all their dreams start to shatter...</Description>
+            <ExtendedInfo name="導演">Ciro Durn</ExtendedInfo>
+            <ExtendedInfo name="演員">Mike Myers、Heather Graham、Robert Wagner、Elizabeth Hurley</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051127090001" duration="3600">
+        <EventId>L00000034256</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">00490EAD01021F1E167C7CD35487BA72197416937D5920E6FC589698329C91A0117930C11BAEEC2F54358F559F19F1654B6DD929154752CBD1FC40877F4ACC1FEC575B55991F</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">007920F91388031700490E138801656E67041A1A1A1AD1C50900010100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">0001000000490E13880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">0001000000490E13880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>異形基地</Name>
+            <Description>改編自傑克芬尼（Jack Finney）的知名科幻小說，本片是繼1956年和1978年後第三度搬上螢光幕之作，並將地點改到一向管制嚴格的軍事基地中；瑪蒂（嘉柏莉安沃，「女人香」、「小生護駕」）跟著醫生爸爸（泰瑞基尼，「大地英豪」）、繼母（梅提莉，「唐人街續集」、「上帝的女兒」）和弟弟一家四口搬到位於舊金山的一處軍事基地，渾然不知基地內最近發現的異象會為他們全家帶來什麼樣的巨變；原來外星人利用人們睡眠時侵入人腦中，複製其形體後便取代宿主生存，變成沒有情緒、沒有個人思想、有如機器人一般的行屍走肉；瑪蒂的家人和朋友一個個陸續被這些可怕的異形取代，只剩瑪蒂和她的新男友馬修（比利沃斯，「粗野少年族」）仍繼續對抗，但形單勢孤的兩人能躲過整個軍事基地異形的追捕嗎？他們能及時阻止這些異形佔領全美的邪惡陰謀嗎？</Description>
+            <ExtendedInfo name="導演">艾柏法瑞拉</ExtendedInfo>
+            <ExtendedInfo name="演員">嘉柏莉安沃、梅提莉、泰瑞基尼、比利沃斯</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Body Snatchers</Name>
+            <Description>A sci-fi thriller based on the novel of the same name by Jack Finney and inspired by the 1956 film version Invasion Of The Body Snatchers.  Something is happening to the Malone family – something bad – and its spreading. The lives of people they once knew and loved are drained by the Body Snatchers and replaced by soulless, emotionless aliens emerging from their cocoon-like pods and taking possession of their human hosts.  Starring Gabrielle Anwar (Without Malice, Scent Of A Woman, For Love Or Money), Meg Tilly (The Two Jakes, Agnes Of God) and Terry Kinney (The Last Of The Mohicians) as the Malone Family. A chilling and graphic portrayal of a desperate fight for human survival. </Description>
+            <ExtendedInfo name="導演">Abel Ferrara</ExtendedInfo>
+            <ExtendedInfo name="演員">Gabrielle Anwar、Meg Tilly、Terry Kinny</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051127100001" duration="3600">
+        <EventId>L00000034259</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">00490FAD0102C65B24F6005E1F60C730CF960E6897414FD4EB3B13BCCA9EFD688A7C2C55E562324F4B96F1BF6C683AAB8940BA21E26263E0512FBC746C29065DDE35A98E5B49</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">00793EF91388031700490F138801656E67041A1A1A1AD1C51000010100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">0001000000490F13880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">0001000000490F13880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>閻王索命</Name>
+            <Description>西元2002年，自殺在美國成為合法行為，卻因而產生了難以預料的後果，吉姆（艾瑞克羅勃茲，「莫名殺機」）為了替瀕死的兒子籌措手術費，而將自己的身體賣給一家仲介”多餘器官”的大公司；然而吉姆的兒子並未逃過死神召喚，而買下他身體的器官仲介公司又拒絕讓他退還訂金，痛失愛子的吉姆只得展開逃亡生涯，以躲避該公司派出的殺手追蹤；但吉姆很快便發現若想保住小命，唯一的方法便是從問題的源頭著手：找上該公司的總裁！本片導演是紐西蘭籍的傑夫墨菲，他另外的作品包括「少壯屠龍陣2」、「魔鬼戰將2」、「奪命12小時」等。</Description>
+            <ExtendedInfo name="導演">傑夫墨菲</ExtendedInfo>
+            <ExtendedInfo name="演員">艾瑞克羅勃茲、凱瑞艾文斯、莎拉溫特</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Race Against Time</Name>
+            <Description>
+In 2002, the United States legalizes suicide.  The consequences are unforseen.  Jim Gabriel (Roberts-No Alibi ) sells his body to a powerful organization called Lifecorps that buys people for their ‘spare parts’.  He needs to raise money to pay for the surgery that his dying son needs.  But when his son dies anyway, Lifecorps is not about to give refunds.  They want him bad.  His only option is to run and elude the trackers that have been sent from him.  But soon he realizes that to truly escape, he has to go for the source of his problems: the CEO of Lifecorps.</Description>
+            <ExtendedInfo name="導演">Geoff Murphy</ExtendedInfo>
+            <ExtendedInfo name="演員">Eric Roberts、Cary Elwes</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="6" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051127110001" duration="3600">
+        <EventId>L00000034262</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004910AD010298F7BC7C829A5602C2DD0136C63C2B9446BA126F8554AAB03E11224CB235E8A3D25D82DA71AD50D694A1C8378CB2DE9A2C88913F074723BC2DD6D600BD0C1442</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">00793FF913880317004910138801656E67041A1A1A1AD1C51100010100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">0001000000491013880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">0001000000491013880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>頭號潛艦</Name>
+            <Description>這部感人的戰爭片是根據一段美國內戰時的史實所改編，曾榮獲2000年艾美獎最佳音效剪接。西元1864年南北戰爭期間，南卡羅萊納州的查爾士敦遭北軍重重包圍，水陸交通皆與外界隔絕；面對戰力明顯優越許多的敵軍，城裡的南軍為突破重圍，因而建造了配備魚雷的史上第一艘潛水艇”CSS杭利號”，雖然最後並未達成使命，但船上的八名軍官所表現的袍澤之情，以及大無畏的軍人情操卻令他們名留青史。由演技派演員艾蒙亞森特（「超時空戰警」）和唐納蘇德蘭（「太空大哥大」、「神鬼任務」）領銜主演。</Description>
+            <ExtendedInfo name="導演">約翰葛雷</ExtendedInfo>
+            <ExtendedInfo name="演員">艾蒙亞森特、唐納蘇德蘭</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>The Hunley</Name>
+            <Description>The incredible true story of Confederate efforts to develop a submersible boat during the American Civil War. The story opens in Charleston S.C. during the 1864 seize and naval blockade of that city by the Yankees. The Confederates were attempting to develop a submarine with a torpedo to be used as a weapon to break the blockade. This movie follows the bravery and determination of the eight-member crew in developing the manually propelled submarine and its deployment into battle.  An exceptional story of heroism in the face of adversity. </Description>
+            <ExtendedInfo name="導演">John Gray</ExtendedInfo>
+            <ExtendedInfo name="演員">Armand Assante、Donald Sutherland</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051127120001" duration="3600">
+        <EventId>L00000034265</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004911AD0142B0CCE2BCB6BE8A5C067F95DFCBC1A6F4461365247E2B3900C192E58D877269723D71C696C634F8C7B21EA4CAD038DF13606BD16229F25FBA1EEBC7519624E51D</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="30" pdsValue="9">00792AF913880316004911138801656E67031A1A1AD1C51200010100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="18" pdsValue="9">0001000000491113880300000160011A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="24" pdsValue="9">0001000000491113880000000003000001600100001A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>熱帶雪</Name>
+            <Description>塔佛（尼克柯瑞，「天人交戰」、「我吸我吸我吸吸吸」）和米蘭妲（麥德琳史道威，「將軍的女兒」、「未來總動員」）是一對居住於哥倫比亞波哥大的年輕戀人，兩人為維持家人生計而在機場當扒手為業，對他們倆來說，紐約是個能建立新生活的夢想城市；當地的毒梟歐斯卡（大衛卡拉定，「雙重麻煩」）以紐約之行為交換，說服他們以吞入腹中的方式，走私毒品闖過紐約機場的海關；由於米蘭妲的姊姊便是死於類似的情況，他們很清楚這種走私方式會有的風險，但為了實現夢想，兩人還是答應了歐斯卡的條件；然而抵達紐約機場後，兩人卻因過於緊張而引來警方注意，他們的夢想也漸漸隨之破碎…</Description>
+            <ExtendedInfo name="導演">西羅杜蘭</ExtendedInfo>
+            <ExtendedInfo name="演員">麥德琳史道威、大衛卡拉定、尼克柯瑞</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Body Snatchers</Name>
+            <Description>New York is the dream city of Tavo (Garcia, Traffic, Vampire In Brooklyn) and Marina (Stowe, The General’s Daughter, Twelve Monkeys), where the two young lovers hope to start a better life. At home in slum-ridden Bogota, Columbia, they have had to work as pickpockets at the airport to support their families.  Dealer Oskar (Carridine, Double Trouble) persuades them to smuggle drugs in their stomachs on a plane to New York - although both know of the risks, since Marina&apos;s sister died on a similar journey.   However on arrival at the airport in New York they show nerves and all their dreams start to shatter...</Description>
+            <ExtendedInfo name="導演">Ciro Durn</ExtendedInfo>
+            <ExtendedInfo name="演員">Mike Myers、Heather Graham、Robert Wagner、Elizabeth Hurley</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051127130001" duration="3600">
+        <EventId>L00000034268</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004912AD0142EA2C2C4835ED109726F1CE3D07E57B19448BA1A62BF528B4982ACCF1BCEEED041A4FED7962A7366A3D341D43FDED308833A40CCE359C897FBFA72BED89AAFE09</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">0079B4F913880317004912138801656E67041A1A1A1AD1C51300010100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">0001000000491213880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">0001000000491213880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>異形基地</Name>
+            <Description>改編自傑克芬尼（Jack Finney）的知名科幻小說，本片是繼1956年和1978年後第三度搬上螢光幕之作，並將地點改到一向管制嚴格的軍事基地中；瑪蒂（嘉柏莉安沃，「女人香」、「小生護駕」）跟著醫生爸爸（泰瑞基尼，「大地英豪」）、繼母（梅提莉，「唐人街續集」、「上帝的女兒」）和弟弟一家四口搬到位於舊金山的一處軍事基地，渾然不知基地內最近發現的異象會為他們全家帶來什麼樣的巨變；原來外星人利用人們睡眠時侵入人腦中，複製其形體後便取代宿主生存，變成沒有情緒、沒有個人思想、有如機器人一般的行屍走肉；瑪蒂的家人和朋友一個個陸續被這些可怕的異形取代，只剩瑪蒂和她的新男友馬修（比利沃斯，「粗野少年族」）仍繼續對抗，但形單勢孤的兩人能躲過整個軍事基地異形的追捕嗎？他們能及時阻止這些異形佔領全美的邪惡陰謀嗎？</Description>
+            <ExtendedInfo name="導演">艾柏法瑞拉</ExtendedInfo>
+            <ExtendedInfo name="演員">嘉柏莉安沃、梅提莉、泰瑞基尼、比利沃斯</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Body Snatchers</Name>
+            <Description>A sci-fi thriller based on the novel of the same name by Jack Finney and inspired by the 1956 film version Invasion Of The Body Snatchers.  Something is happening to the Malone family – something bad – and its spreading. The lives of people they once knew and loved are drained by the Body Snatchers and replaced by soulless, emotionless aliens emerging from their cocoon-like pods and taking possession of their human hosts.  Starring Gabrielle Anwar (Without Malice, Scent Of A Woman, For Love Or Money), Meg Tilly (The Two Jakes, Agnes Of God) and Terry Kinney (The Last Of The Mohicians) as the Malone Family. A chilling and graphic portrayal of a desperate fight for human survival. </Description>
+            <ExtendedInfo name="導演">Abel Ferrara</ExtendedInfo>
+            <ExtendedInfo name="演員">Gabrielle Anwar、Meg Tilly、Terry Kinny</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051127140001" duration="3600">
+        <EventId>L00000034554</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004931AD0142C58BC41F49383AE36D353BE5AD014160D556FCB9A556203ACBC80BC9814BB18997CDEF96D77CDB9E4C1F2CC4C959F219CD69724ADFCD9303147869D4665EE43A</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="36" pdsValue="9">0079DDF91388031C004931138801656E67091A1A1A1A2D2D1A1A1AD1C51400010100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="24" pdsValue="9">0001000000493113880300000160011A1A1A1A2D2D1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="30" pdsValue="9">0001000000493113880000000003000001600100001A1A1A1A2D2D1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>桃色風雲--搖擺狗</Name>
+            <Description>美國總統鬧出性醜聞，面對著醜聞成為頭條新聞的壓力，及兩週後的總統大選，白宮這回該怎麼做呢？簡單，發動一場戰爭！白宮危機處理專家康洛德（勞勃狄尼洛，「老大靠邊閃」）受命替總統解圍，轉移民眾注意力，於是他找來了好萊塢大製片家史丹利（達斯汀霍夫曼，「地動天驚」、「雨人」），虛擬一場在阿爾巴尼亞的戰爭，但這場戰爭不是發生在真實的戰場，而是在攝影棚當中，不用任何真槍實彈，他們製造各種有關戰爭的新聞片段，甚至趁機推出愛國歌曲大撈一筆。起初一切都進行地很順利，廣大民眾的心，隨著真真假假的戰爭新聞而起伏，但不久後卻漏洞百出，假的戰區英雄意外死亡，製片史丹利為了居功而不願保密，中情局也開始懷疑這場美國總統的桃色風雲該如何圓滿收場？導演巴瑞李文遜曾以「雨人」、「早安越南」、「豪情四兄弟」等片獲得空前的成功。</Description>
+            <ExtendedInfo name="導演">巴瑞李文遜</ExtendedInfo>
+            <ExtendedInfo name="演員">勞勃狄尼洛、達斯汀霍夫曼、安海契、伍迪哈里遜</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Wag The Dog</Name>
+            <Description>What do the President’s advisers do when a sex scandal threatens to explode across front pages nationwide, with the election is only 14 days away? Simple. Start a war! Faced with this dilemma, a ‘spin-doctor’ (DeNiro, Men Of Honor, Meet The Parents, The Adventures of Rocky &amp; Bullwinkle ) is called in to fabricate a nonexistent war for the President to win, and to distract the American public. Wars are no longer fought on battlefields but on TV, so naturally a hotshot Hollywood producer (Hoffman, Being John Malcovich, Cosm) is hired to manufacture a war in distant Albania — without a shot being fired. With its first-class cast and ascerbic humour, Wag the Dog is a biting satire that has never been more appropriate.</Description>
+            <ExtendedInfo name="導演">Barry Levinson</ExtendedInfo>
+            <ExtendedInfo name="演員">Robert DeNiro、Dustin Hoffman、Anne Heche、Woody Harrelson</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051127180000" duration="3600">
+        <EventId>L00000034277</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004915AD01024848EF17023E5F07079FBE20A5C32A9E2AD991AB08D157D44158DE45C51678D78D4BAAF978F1905C1DE791D5D1D5191FCD6C33AA56F820F782B8E96BC8B5F560</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">007993F913880317004915138801656E67041A1A1A1AD1C51800000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">0001000000491513880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">0001000000491513880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>捍衛正義</Name>
+            <Description>牶擊手魯賓卡特【丹佐華盛頓飾】希望拿下世界中量級牶王頭銜前夕，卻在紐澤西酒吧的槍擊案中以謀殺起訴，被判三無期徒刑，終生監禁．在獄中，卡特為了表示自己的清白，拒絕穿上罪犯的囚衣．並多次上訴，但全數被駁回．他逐漸灰心只能將冤屈訴諸於自傳當中，卡特的自傳感動了一名年輕黑人，於是在年輕人的幫肋下，他決定上訴到聯邦法院．．</Description>
+            <ExtendedInfo name="導演">諾曼傑維生</ExtendedInfo>
+            <ExtendedInfo name="演員">丹佐華盛頓, 約翰漢納</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>捍衛正義</Name>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>6</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051127190000" duration="3600">
+        <EventId>L00000034280</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004916AD01424C2BE85EA5EE9D7E86C934489FA1C1601159D1F92CEC753B9C3949D79BE53607AAF96007C975A5204CCC43E1A81D8D7F3091F9FF4F5696753BAB23A862B84D4C</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="32" pdsValue="9">007935F913880318004916138801656E67051A1A1A1A1AD1C51900000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="20" pdsValue="9">0001000000491613880300000160011A1A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="26" pdsValue="9">0001000000491613880000000003000001600100001A1A1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>六壯士續集</Name>
+            <Description>這部絕無冷場的動作片，是007系列「金手指」、「金剛鑽」的導演蓋漢米頓繼1961年的動作片經典「六壯士」，在17年後延續原來的劇情所拍的續集。馬洛利少校（羅勃蕭 飾，「大白鯊」）和爆破專家米勒（愛德華福克斯 飾，「LIS太空號」）是上次任務的倖存者，這次第十中隊則是奉命到巴爾幹半島，去摧毀一座足以左右盟軍對抗納粹德軍勝負關鍵的重要橋樑；這次的突擊隊成員包括哈里遜福特飾演的巴斯比上校，及卡爾威德斯飾演的韋佛上士等人，除了炸橋這項任務外，他們還得先除掉殘酷無情的德國間諜雷斯柯瓦（法蘭柯尼洛 飾，「終極警探2」），也就是在第一集中出賣馬洛利的壞蛋，只是如今他轉而在南斯拉夫境內活動。</Description>
+            <ExtendedInfo name="導演">蓋漢米頓</ExtendedInfo>
+            <ExtendedInfo name="演員">羅勃蕭、愛德華福克斯、哈里遜福特</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Force 10 From Navarone</Name>
+            <Description>From Guy Hamilton, the veteran director of Goldfinger and Diamonds Are Forever, comes this adrenaline-gushing, nail-biting follow-up to the 1961 classic, The Guns Of Navarone. Major Mallory (Shaw- Jaws) and demolition expert Miller (Fox - Lost in Space) are the two survivors from the previous mission and this time round, Force 10 is assigned to the Balkans to destroy a bridge that could make a difference between victory and failure for the Allies’ campaign against Nazi Germany. That’s just the first part, the commando squad - which also comprises Harrison Ford as US Colonel Barnsby and Carl Weathers as Sgt. Weaver - must first eliminate a ruthless German agent Lescovar (Franco Nero, Die Hard 2:Die Harder), the same man who betrayed Mallory at Navarone and is presently operating in Yugoslavia.</Description>
+            <ExtendedInfo name="導演">Guy Hamilton</ExtendedInfo>
+            <ExtendedInfo name="演員">Robert Shaw、Edward Fox、Harrison Ford</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051127200000" duration="3600">
+        <EventId>L00000034283</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004917AD0142E646356CF2ECB6CF292B00AE0F00EEA57D57D8CE3890DC87A6BA51A3F61A047AC28C912E24BE078A5AEC43D02B99559434167534DE09267DE3B732ABFE86F10B</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="32" pdsValue="9">00798EF913880318004917138801656E67051A1A1A1A1AD1C52000000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="20" pdsValue="9">0001000000491713880300000160011A1A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="26" pdsValue="9">0001000000491713880000000003000001600100001A1A1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>愛情另一章</Name>
+            <Description>莎拉（凱拉塞吉維克 飾，「第三類奇蹟」）跟男友萊恩（羅柏莫洛 飾，「益智遊戲」）在同居的當天大吵一架而分手，但一星期後莎拉卻發現自己懷孕了，雖然她仍愛著萊恩，卻無法接受他不願承諾的性格，於是決定不跟萊恩和大家說出她懷孕的消息，只告訴了她的好友露露（莉拉羅尚 飾，「挑戰星期天」），直到莎拉即將分娩之前都沒人知道這個消息，此時她的好友覺得有責任將這個好消息告知眾家親友，於是在產房內引發了一場大混亂！</Description>
+            <ExtendedInfo name="導演">崔西艾力克森</ExtendedInfo>
+            <ExtendedInfo name="演員">凱拉塞吉維克、羅柏莫洛、莉拉羅尚</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Labor Pains</Name>
+            <Description>Sarah (Sedgwick- Twelfth Night) breaks up with Ryan (Morrow-Quiz Show) on the day they are to move in together, only to realize a week later that she is pregnant. Still in love with him but unable to take his inability to commit, she keeps the news from him and everyone else but her best friend Lulu (Rochon-Any Given Sunday). The secret is well kept until Sarah goes into labor and her friend takes it upon herself to call everyone to the hospital. What ensues LS a hilarious mess right in the middle of childbirth!</Description>
+            <ExtendedInfo name="導演">Tracy Alexson</ExtendedInfo>
+            <ExtendedInfo name="演員">Kyra Sedgwick、Rob Morrow、Leia Rochon</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051127210000" duration="3600">
+        <EventId>L00000034286</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004918AD01029E574EFEFB20FF95CD486A73DCD099A6B1B00FDA4BED95E3C8FB15DE40B341FFCDB9016162889E297E205914282B9F3BBF47D5B48F7D36EE969D09E26C17D727</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="34" pdsValue="9">00798BF91388031A004918138801656E67071A1A1A1A303037D1C52100000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="22" pdsValue="9">0001000000491813880300000160011A1A1A1A303037</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="29" pdsValue="9">0001000000492D0FA00300000160044D756C74694576656E74202D2033</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="28" pdsValue="9">0001000000491813880000000003000001600100001A1A1A1A303037</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="35" pdsValue="9">0001000000492D0FA00000000003000001600400004D756C74694576656E74202D2033</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>時空賤諜007</Name>
+            <Description>史上最賤的王牌間諜奧斯汀鮑威（麥克麥爾斯，「王牌大賤諜」、「反斗智多星」）回來啦！還記得在第一集的故事中，萬惡罪魁”邪惡博士”（也是麥克麥爾斯）被智勇雙全的奧斯汀打敗後，最後還是乘亂逃走了，他如今又捲土重來，派遣手下肥霸（還是麥克麥爾斯）乘時光機器回到1969年偷了奧斯汀的活力泉源”魔酒”，另一方面則在月球上裝設威力強大的雷射砲對準華府，威脅美國政府交出鉅額贖金，否則便…嘿～嘿～嘿。英國情報局為此派出了多位菁英探員，卻總是被邪惡博士給識破而慘遭毒手，於是這個拯救世界的任務自然落到全英國最賤…不，是最厲害的王牌間諜奧斯汀鮑威出馬了。然而失去魔酒的奧斯汀因無法對漂亮美眉一展男性雄風而失去自信，英國情報局的專家研究後發現魔酒的失蹤又是邪惡博士搞的鬼，因而讓奧斯汀乘坐超時光金龜車回到1969年阻止魔酒被偷；然而此舉卻早在邪惡博士的預料中，因而派出一流殺手來給他好好”照顧”一下。想看奧斯汀鮑威如何打敗惡勢力、拯救世界、順便泡身材火辣辣的間諜美眉（海瑟葛萊罕，「大製騙家」、「不羈夜」）嗎？那就千萬不能錯過精彩絕倫的「時空賤諜007」！片中令人目眩的各種復古造型還曾入圍奧斯卡最佳化裝。</Description>
+            <ExtendedInfo name="導演">傑羅區</ExtendedInfo>
+            <ExtendedInfo name="演員">麥克麥爾斯、海瑟葛萊罕、伊莉莎白赫蕾</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Austin Powers: The Spy Who Shagged Me</Name>
+            <Description>Dr. Evil (Myers, Austin Powers: International Man of Mystery, Wayne’s World) returns from space just as British spy Austin Powers learns on his honeymoon that his wife, Vanessa (Hurley, Bedazzled) is a fembot under  Dr Evil&apos;s control.  Back on the singles scene, Powers discovers he&apos;s impotent because Evil has used a time machine to return to the late 60s and steal his libido. British intelligence also has a time portal, so Powers goes back to 1969 to recapture his “mojo” and, teams with agent Felicity Shagwell (Graham, Bowfinger, Boogie Nights), to stop another Evil plot to take over the world, this time with a &quot;laser&quot; beamed from the moon! Yeeeeah Baby – Myers is at his best again and don’t miss out on the brilliant collection of 60’s one-liners!</Description>
+            <ExtendedInfo name="導演">Jay Roach</ExtendedInfo>
+            <ExtendedInfo name="演員">Mike Myers、Heather Graham、Robert Wagner、Elizabeth Hurley</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051127220000" duration="3600">
+        <EventId>L00000034289</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004919AD01423266596715C4EF8A6A85559B24C8D94B1B3FF6E5A67BFB12EB6EE49D7CD7CA60A57147984455B55C626256D09385C22147652EC35D5097BDC7593ACA95CCAF64</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="36" pdsValue="9">00798AF91388031C004919138801656E67091A1A1A1A2D2D1A1A1AD1C52200000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="24" pdsValue="9">0001000000491913880300000160011A1A1A1A2D2D1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="29" pdsValue="9">0001000000492D0FA00300000160044D756C74694576656E74202D2033</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="30" pdsValue="9">0001000000491913880000000003000001600100001A1A1A1A2D2D1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="35" pdsValue="9">0001000000492D0FA00000000003000001600400004D756C74694576656E74202D2033</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>桃色風雲--搖擺狗</Name>
+            <Description>美國總統鬧出性醜聞，面對著醜聞成為頭條新聞的壓力，及兩週後的總統大選，白宮這回該怎麼做呢？簡單，發動一場戰爭！白宮危機處理專家康洛德（勞勃狄尼洛，「老大靠邊閃」）受命替總統解圍，轉移民眾注意力，於是他找來了好萊塢大製片家史丹利（達斯汀霍夫曼，「地動天驚」、「雨人」），虛擬一場在阿爾巴尼亞的戰爭，但這場戰爭不是發生在真實的戰場，而是在攝影棚當中，不用任何真槍實彈，他們製造各種有關戰爭的新聞片段，甚至趁機推出愛國歌曲大撈一筆。起初一切都進行地很順利，廣大民眾的心，隨著真真假假的戰爭新聞而起伏，但不久後卻漏洞百出，假的戰區英雄意外死亡，製片史丹利為了居功而不願保密，中情局也開始懷疑這場美國總統的桃色風雲該如何圓滿收場？導演巴瑞李文遜曾以「雨人」、「早安越南」、「豪情四兄弟」等片獲得空前的成功。</Description>
+            <ExtendedInfo name="導演">巴瑞李文遜</ExtendedInfo>
+            <ExtendedInfo name="演員">勞勃狄尼洛、達斯汀霍夫曼、安海契、伍迪哈里遜</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Wag The Dog</Name>
+            <Description>What do the President’s advisers do when a sex scandal threatens to explode across front pages nationwide, with the election is only 14 days away? Simple. Start a war! Faced with this dilemma, a ‘spin-doctor’ (DeNiro, Men Of Honor, Meet The Parents, The Adventures of Rocky &amp; Bullwinkle ) is called in to fabricate a nonexistent war for the President to win, and to distract the American public. Wars are no longer fought on battlefields but on TV, so naturally a hotshot Hollywood producer (Hoffman, Being John Malcovich, Cosm) is hired to manufacture a war in distant Albania — without a shot being fired. With its first-class cast and ascerbic humour, Wag the Dog is a biting satire that has never been more appropriate.</Description>
+            <ExtendedInfo name="導演">Barry Levinson</ExtendedInfo>
+            <ExtendedInfo name="演員">Robert DeNiro、Dustin Hoffman、Anne Heche、Woody Harrelson</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051127230000" duration="3600">
+        <EventId>L00000034292</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">00491AAD0182E7436AD60421D6BAEE5392EA511AC9146EB30B23B17A583200945A0CED9F41760D7C3D09D783C3DC40CB7A6652EEE775F8E715D8DA6E8D766FF0069C780B252E</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="30" pdsValue="9">007987F91388031600491A138801656E67031A1A1AD1C52300000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="18" pdsValue="9">0001000000491A13880300000160011A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="29" pdsValue="9">0001000000492D0FA00300000160044D756C74694576656E74202D2033</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="24" pdsValue="9">0001000000491A13880000000003000001600100001A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="35" pdsValue="9">0001000000492D0FA00000000003000001600400004D756C74694576656E74202D2033</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>熱帶雪</Name>
+            <Description>塔佛（尼克柯瑞，「天人交戰」、「我吸我吸我吸吸吸」）和米蘭妲（麥德琳史道威，「將軍的女兒」、「未來總動員」）是一對居住於哥倫比亞波哥大的年輕戀人，兩人為維持家人生計而在機場當扒手為業，對他們倆來說，紐約是個能建立新生活的夢想城市；當地的毒梟歐斯卡（大衛卡拉定，「雙重麻煩」）以紐約之行為交換，說服他們以吞入腹中的方式，走私毒品闖過紐約機場的海關；由於米蘭妲的姊姊便是死於類似的情況，他們很清楚這種走私方式會有的風險，但為了實現夢想，兩人還是答應了歐斯卡的條件；然而抵達紐約機場後，兩人卻因過於緊張而引來警方注意，他們的夢想也漸漸隨之破碎…</Description>
+            <ExtendedInfo name="導演">西羅杜蘭</ExtendedInfo>
+            <ExtendedInfo name="演員">麥德琳史道威、大衛卡拉定、尼克柯瑞</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Body Snatchers</Name>
+            <Description>New York is the dream city of Tavo (Garcia, Traffic, Vampire In Brooklyn) and Marina (Stowe, The General’s Daughter, Twelve Monkeys), where the two young lovers hope to start a better life. At home in slum-ridden Bogota, Columbia, they have had to work as pickpockets at the airport to support their families.  Dealer Oskar (Carridine, Double Trouble) persuades them to smuggle drugs in their stomachs on a plane to New York - although both know of the risks, since Marina&apos;s sister died on a similar journey.   However on arrival at the airport in New York they show nerves and all their dreams start to shatter...</Description>
+            <ExtendedInfo name="導演">Ciro Durn</ExtendedInfo>
+            <ExtendedInfo name="演員">Mike Myers、Heather Graham、Robert Wagner、Elizabeth Hurley</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051128000000" duration="3600">
+        <EventId>L00000034295</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">00491BAD0102861EDB39458F957694BDEDB65F75AE5B8051D17060E35A4A9B2648549FA096ED2AF8DF06FE1AC6F6F6BE522E163EFCB22A000B01190A7CC6974A2B40A4B7C404</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">007989F91388031700491B138801656E67041A1A1A1AD1C60000000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="29" pdsValue="9">0001000000492D0FA00300000160044D756C74694576656E74202D2033</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">0001000000491B13880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="35" pdsValue="9">0001000000492D0FA00000000003000001600400004D756C74694576656E74202D2033</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">0001000000491B13880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>異形基地</Name>
+            <Description>改編自傑克芬尼（Jack Finney）的知名科幻小說，本片是繼1956年和1978年後第三度搬上螢光幕之作，並將地點改到一向管制嚴格的軍事基地中；瑪蒂（嘉柏莉安沃，「女人香」、「小生護駕」）跟著醫生爸爸（泰瑞基尼，「大地英豪」）、繼母（梅提莉，「唐人街續集」、「上帝的女兒」）和弟弟一家四口搬到位於舊金山的一處軍事基地，渾然不知基地內最近發現的異象會為他們全家帶來什麼樣的巨變；原來外星人利用人們睡眠時侵入人腦中，複製其形體後便取代宿主生存，變成沒有情緒、沒有個人思想、有如機器人一般的行屍走肉；瑪蒂的家人和朋友一個個陸續被這些可怕的異形取代，只剩瑪蒂和她的新男友馬修（比利沃斯，「粗野少年族」）仍繼續對抗，但形單勢孤的兩人能躲過整個軍事基地異形的追捕嗎？他們能及時阻止這些異形佔領全美的邪惡陰謀嗎？</Description>
+            <ExtendedInfo name="導演">艾柏法瑞拉</ExtendedInfo>
+            <ExtendedInfo name="演員">嘉柏莉安沃、梅提莉、泰瑞基尼、比利沃斯</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Body Snatchers</Name>
+            <Description>A sci-fi thriller based on the novel of the same name by Jack Finney and inspired by the 1956 film version Invasion Of The Body Snatchers.  Something is happening to the Malone family – something bad – and its spreading. The lives of people they once knew and loved are drained by the Body Snatchers and replaced by soulless, emotionless aliens emerging from their cocoon-like pods and taking possession of their human hosts.  Starring Gabrielle Anwar (Without Malice, Scent Of A Woman, For Love Or Money), Meg Tilly (The Two Jakes, Agnes Of God) and Terry Kinney (The Last Of The Mohicians) as the Malone Family. A chilling and graphic portrayal of a desperate fight for human survival. </Description>
+            <ExtendedInfo name="導演">Abel Ferrara</ExtendedInfo>
+            <ExtendedInfo name="演員">Gabrielle Anwar、Meg Tilly、Terry Kinny</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051128010000" duration="3600">
+        <EventId>L00000034298</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">00491CAD01420DC5559B4F54EA720918F67FB512380964FFC3A84ACDB3626C5C2107F394CCFCF93B6A138EACDBBDC084AEA6AEC02D2377D443B4F15595232D1AC3E90D0B9342</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">007988F91388031700491C138801656E67041A1A1A1AD1C60100000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">0001000000491C13880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="29" pdsValue="9">0001000000492D0FA00300000160044D756C74694576656E74202D2033</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">0001000000491C13880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="35" pdsValue="9">0001000000492D0FA00000000003000001600400004D756C74694576656E74202D2033</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>閻王索命</Name>
+            <Description>西元2002年，自殺在美國成為合法行為，卻因而產生了難以預料的後果，吉姆（艾瑞克羅勃茲，「莫名殺機」）為了替瀕死的兒子籌措手術費，而將自己的身體賣給一家仲介”多餘器官”的大公司；然而吉姆的兒子並未逃過死神召喚，而買下他身體的器官仲介公司又拒絕讓他退還訂金，痛失愛子的吉姆只得展開逃亡生涯，以躲避該公司派出的殺手追蹤；但吉姆很快便發現若想保住小命，唯一的方法便是從問題的源頭著手：找上該公司的總裁！本片導演是紐西蘭籍的傑夫墨菲，他另外的作品包括「少壯屠龍陣2」、「魔鬼戰將2」、「奪命12小時」等。</Description>
+            <ExtendedInfo name="導演">傑夫墨菲</ExtendedInfo>
+            <ExtendedInfo name="演員">艾瑞克羅勃茲、凱瑞艾文斯、莎拉溫特</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Race Against Time</Name>
+            <Description>
+In 2002, the United States legalizes suicide.  The consequences are unforseen.  Jim Gabriel (Roberts-No Alibi ) sells his body to a powerful organization called Lifecorps that buys people for their ‘spare parts’.  He needs to raise money to pay for the surgery that his dying son needs.  But when his son dies anyway, Lifecorps is not about to give refunds.  They want him bad.  His only option is to run and elude the trackers that have been sent from him.  But soon he realizes that to truly escape, he has to go for the source of his problems: the CEO of Lifecorps.</Description>
+            <ExtendedInfo name="導演">Geoff Murphy</ExtendedInfo>
+            <ExtendedInfo name="演員">Eric Roberts、Cary Elwes</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="6" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051128020000" duration="3600">
+        <EventId>L00000034301</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">00491DAD0142219C539A88E6CA797960252F0DA601EF9415DBAE4B8779A2B9B86E4C6CBB0E8EB746EB16888FB7145FFEA8896F24698EE533BCADAD53E31E4AC4540E0EA9A54D</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">00795BF91388031700491D138801656E67041A1A1A1AD1C60200000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">0001000000491D13880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">0001000000491D13880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>頭號潛艦</Name>
+            <Description>這部感人的戰爭片是根據一段美國內戰時的史實所改編，曾榮獲2000年艾美獎最佳音效剪接。西元1864年南北戰爭期間，南卡羅萊納州的查爾士敦遭北軍重重包圍，水陸交通皆與外界隔絕；面對戰力明顯優越許多的敵軍，城裡的南軍為突破重圍，因而建造了配備魚雷的史上第一艘潛水艇”CSS杭利號”，雖然最後並未達成使命，但船上的八名軍官所表現的袍澤之情，以及大無畏的軍人情操卻令他們名留青史。由演技派演員艾蒙亞森特（「超時空戰警」）和唐納蘇德蘭（「太空大哥大」、「神鬼任務」）領銜主演。</Description>
+            <ExtendedInfo name="導演">約翰葛雷</ExtendedInfo>
+            <ExtendedInfo name="演員">艾蒙亞森特、唐納蘇德蘭</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>The Hunley</Name>
+            <Description>The incredible true story of Confederate efforts to develop a submersible boat during the American Civil War. The story opens in Charleston S.C. during the 1864 seize and naval blockade of that city by the Yankees. The Confederates were attempting to develop a submarine with a torpedo to be used as a weapon to break the blockade. This movie follows the bravery and determination of the eight-member crew in developing the manually propelled submarine and its deployment into battle.  An exceptional story of heroism in the face of adversity. </Description>
+            <ExtendedInfo name="導演">John Gray</ExtendedInfo>
+            <ExtendedInfo name="演員">Armand Assante、Donald Sutherland</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051128030000" duration="3600">
+        <EventId>L00000034304</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">00491EAD0102A022EA0C79C0E7BE2B0147CFF0E4EBBC17C8AD14A5DD96EB68069FE52CFDE46F4386397DAAFBCF60EB6BF555AE7DEA179B5D7A50BB88AF2A8A1B80A5B586D049</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">007932F91388031700491E138801656E67041A1A1A1AD1C60300000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">0001000000491E13880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">0001000000491E13880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>戰慄之旅</Name>
+            <Description>來自不同地方的七個人，為了不同的目的，各路人馬不約而同的在一家餐館休憩：有進來喝杯咖啡的寂寞卡車司機（勞勃佛斯特）、陪瀕死祖母做最後旅程的印第安婦女、被解雇的馬戲團小丑（凱文波拉克）和他的脫衣舞孃女友（潘妮洛普安米勒）、以及趕去參加父親喪禮的姊妹花；這七個人收聽著同一個音樂頻道，前往一樣的目的地，並成為同一個連續殺人狂的下一個目標…</Description>
+            <ExtendedInfo name="導演">JS卡多尼</ExtendedInfo>
+            <ExtendedInfo name="演員">麥德琳史道威、大衛卡拉定、尼克柯瑞</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Outside Ozona</Name>
+            <Description>A group of people unite over the airwaves as they drive down lonesome highways into an uncertain future outside Ozona, Texas.  There’s the irritated disc jockey (Taj Mahal) who is determined to share his angst with the world in general and the station manager (Meat Loaf) who would rather he didn’t.  There’s the abusive, unemployed circus clown and his sexy white-trash girlfriend fleeing the scene of his latest act of rage.  Then there’s the shy and lonely trucker who helps a stranded Navajo lady and her grandmother in an act of kindness and affection.  As these unusual people follow they own destinies, they are, unknown to them, speeding towards a place where they worlds will collide.</Description>
+            <ExtendedInfo name="導演">J.S. Cardone</ExtendedInfo>
+            <ExtendedInfo name="演員">Madeleine Stowe、David Carridine、Jsu Garcia</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051128040000" duration="3601">
+        <EventId>L00000034307</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">00491FAD0102BD8B3B43EC2D2F7214AD90C2D91080EBDAF2DBB7F52AF08B3EA8995EBC588EAD96BD629386DE585A78D1802EE9319E81C26B1ADA9243B2239C71C63A7F225541</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">0079AFF91388031700491F138801656E67041A1A1A1AD1C60400000100013C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">0001000000491F13880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">0001000000491F13880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>魔鬼獵殺</Name>
+            <Description>仍尚未自喪子之慟中恢復的刑事組警官巴恩斯（史蒂芬鮑德溫，「刺激驚爆點」）奉命追查一樁詭異的連續殺人案，當他慢慢克服驟失獨子的悲劇之時，另一方面卻日漸沈迷於追查該宗神祕案件，然而此舉卻危害到他早已亮起紅燈的婚姻；當兇手的動機逐漸明朗之際，巴恩斯發現自己的生活也日漸分崩離析，他不只被迫質疑自己的信仰和原則，最後還必須和身邊潛藏的邪惡正面衝突！</Description>
+            <ExtendedInfo name="導演">約翰弗林</ExtendedInfo>
+            <ExtendedInfo name="演員">史蒂芬鮑德溫、法蘭克吉瑞許、泰恩黛莉</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Absence Of The Good</Name>
+            <Description>Homicide detective Caleb Barnes (Baldwin, The Usual Suspects) is brought in to investigate a series of bizarre murders.  Still wracked by the death of his only child, Barnes becomes increasingly obsessed with the case at the same time as he is trying to come to terms with his own personal tragedy.  He does this at the cost of his marriage, which is already strained to begin with.  As the killing spree intensifies, Barnes finds his life disintegrating around him and he is forced to question his own principles and beliefs as well as come face to face with the evil that surrounds him.</Description>
+            <ExtendedInfo name="導演">John Flynn</ExtendedInfo>
+            <ExtendedInfo name="演員">Stephen Baldwin、Tyne Daly</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051128050001" duration="3600">
+        <EventId>L00000034310</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004920AD01424E092208000D103B50C94AF43A90A5BEB289877F9E4F7EDE8CD735504897FF16315E78C91AD291E3E2692891D6ED989CB12B218DF3C879E8D93DC8CA84C88450</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="32" pdsValue="9">00791AF913880318004920138801656E67051A1A1A1A1AD1C60500010100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="20" pdsValue="9">0001000000492013880300000160011A1A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="26" pdsValue="9">0001000000492013880000000003000001600100001A1A1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>奪命黑寡婦</Name>
+            <Description>曾有&quot;迷你影集之后&quot;雅稱的賈桂琳史密斯在本片中飾演布莉姬，一位為家庭盡心盡力的妻子、社區的楷模，但實際上卻是個為保有優渥的生活而不計一切代價的蛇蠍女子—即使必須殺人亦在所不惜。新寡的布莉姬嫁給曾結過一次婚的高中棒球教練朗恩（提摩西卡哈特）為妻，他們在新婚期間有如一對神仙眷屬：布莉姬在當地電視台當行銷經理，並掌管兩人財務上的投資極各項貸款，不久後夫妻倆便搬進豪宅，過著優裕的生活；然而當朗恩發現他們債台高築時事情就全走了樣，而為了急於拿到現金，布莉姬設計&quot;意外&quot;開槍射死朗恩好領取他的保險金，但朗恩的前妻與其好友瓊安（黛安娜史卡威）卻查出布莉姬的前夫也是死於跟朗恩類似的&quot;意外&quot;…這部影片是改編自傑瑞布雷索（Jerry Bledsoe）根據真實事件所寫成的暢銷小說。</Description>
+            <ExtendedInfo name="導演">麥可史考特</ExtendedInfo>
+            <ExtendedInfo name="演員">賈桂琳史密斯、黛安娜史卡威、提摩西卡哈特</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Before He Wakes</Name>
+            <Description>The one-time Queen of TV Mini-Series, Jaclyn Smith plays Bridgette, an outwardly devoted wife and pillar of community, who secretly, will do anything - including murder - to maintain the facade of a wealthy lifestyle. A recent widow, Bridgette marries Ron Michaels (Timothy Carhart), a divorcee who works as the high school basketball coach. For the ensuing months, it is a marriage made in heaven: Bridgette works as a sales executive at the local TV station, refinancing their loans and investing their money.  In no time, the Michaels move into a larger luxurious home.  However, things start to go wrong when Ron discovers that they are seriously in debt.  Desperate for cash, Bridgette kills Ron for his hefty insurance policy. Just when you think Bridgette can get away scot-free, Ron’s ex-wife and good friend Joanne (Scarwid) tries to convince the cops with vital information that proves that Ron’s death, like the death of Bridgette’s first husband, was </Description>
+            <ExtendedInfo name="導演">Michael Scott</ExtendedInfo>
+            <ExtendedInfo name="演員">Jaclyn Smith、Diana Scarwid</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051128060001" duration="3600">
+        <EventId>L00000034313</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004921AD0142A9E4E2AD08D2719D4E7562ADF422B60A7D5DC9FF23AE04E5B27B60719D9D021F05EE157661AA66D36914C9382D8DE062A0669F3567043F15AFB1BB22B0C6EF01</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="29" pdsValue="9">007990F913880315004921138801656E67021A1AD1C60600010100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="17" pdsValue="9">0001000000492113880300000160011A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="23" pdsValue="9">0001000000492113880000000003000001600100001A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>殺妻</Name>
+            <Description>布萊斯塔柏（柯賓班森，「愛情不設防」）拋下妻子，搬去跟情人蓋兒（萊絲莉安華倫，「對不起，駭到你」）同居，法院因此而拒絕讓他探視他的兩個孩子；他對法院的判決感到忿忿不平，並且急著想搶回孩子的監護權，於是布萊斯便夥同蓋兒計畫殺掉他老婆好將孩子搶回來，但為了要讓計畫成功，他們得再另外找人幫忙，於是他們便內舉不避親地找上了蓋兒的孩子！這部帶點荒謬情節的影片是根據真人真事所改編的。</Description>
+            <ExtendedInfo name="導演">葛雷哥萊古德爾</ExtendedInfo>
+            <ExtendedInfo name="演員">萊絲莉安華倫、柯賓班森</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Murderous Intent</Name>
+            <Description>Based on actual events, this taut psychological thriller examines the extent of the human will to get what it wants.  Brice Talbot (Bernsen-Two of Hearts) abandons his wife to move in with his lover Gayle (Warren-Delivering Milo), but this act causes the courts to deny him the right to be with his two children.  Desperate to regain custody and furious at the results, Brice and Gayle plot to regain control by getting rid of Brice’s wife.  But in order for their plan to succeed, they have to recruit others into their plans, in this case Gayle’s own children!</Description>
+            <ExtendedInfo name="導演">Barry Levinson</ExtendedInfo>
+            <ExtendedInfo name="演員">Robert DeNiro、Dustin Hoffman、Anne Heche、Woody Harrelson</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051128070001" duration="3600">
+        <EventId>L00000034316</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004922AD01420C87F8ABC7F55C85F5B894C55220024217AA8FF09361CBEFDF9B4634B0CC8BCC068550958D9E43B8F5A74493D4EA600895BF123BDA566FA348F4FBAB98BE462F</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="30" pdsValue="9">00791EF913880316004922138801656E67031A1A1AD1C60700010100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="18" pdsValue="9">0001000000492213880300000160011A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="24" pdsValue="9">0001000000492213880000000003000001600100001A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>熱帶雪</Name>
+            <Description>塔佛（尼克柯瑞，「天人交戰」、「我吸我吸我吸吸吸」）和米蘭妲（麥德琳史道威，「將軍的女兒」、「未來總動員」）是一對居住於哥倫比亞波哥大的年輕戀人，兩人為維持家人生計而在機場當扒手為業，對他們倆來說，紐約是個能建立新生活的夢想城市；當地的毒梟歐斯卡（大衛卡拉定，「雙重麻煩」）以紐約之行為交換，說服他們以吞入腹中的方式，走私毒品闖過紐約機場的海關；由於米蘭妲的姊姊便是死於類似的情況，他們很清楚這種走私方式會有的風險，但為了實現夢想，兩人還是答應了歐斯卡的條件；然而抵達紐約機場後，兩人卻因過於緊張而引來警方注意，他們的夢想也漸漸隨之破碎…</Description>
+            <ExtendedInfo name="導演">西羅杜蘭</ExtendedInfo>
+            <ExtendedInfo name="演員">麥德琳史道威、大衛卡拉定、尼克柯瑞</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Body Snatchers</Name>
+            <Description>New York is the dream city of Tavo (Garcia, Traffic, Vampire In Brooklyn) and Marina (Stowe, The General’s Daughter, Twelve Monkeys), where the two young lovers hope to start a better life. At home in slum-ridden Bogota, Columbia, they have had to work as pickpockets at the airport to support their families.  Dealer Oskar (Carridine, Double Trouble) persuades them to smuggle drugs in their stomachs on a plane to New York - although both know of the risks, since Marina&apos;s sister died on a similar journey.   However on arrival at the airport in New York they show nerves and all their dreams start to shatter...</Description>
+            <ExtendedInfo name="導演">Ciro Durn</ExtendedInfo>
+            <ExtendedInfo name="演員">Mike Myers、Heather Graham、Robert Wagner、Elizabeth Hurley</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051128080001" duration="3600">
+        <EventId>L00000034319</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004923AD0142A7AFE9762893E0B89627BDDE3E4AC739DAC08DE5BD30C5859DB42ABD408A72B27F76BD24248ACEB8FB7B95429691FCE7F26CF5266766B27749295C54C459753A</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">0079AEF913880317004923138801656E67041A1A1A1AD1C60800010100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">0001000000492313880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">0001000000492313880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>異形基地</Name>
+            <Description>改編自傑克芬尼（Jack Finney）的知名科幻小說，本片是繼1956年和1978年後第三度搬上螢光幕之作，並將地點改到一向管制嚴格的軍事基地中；瑪蒂（嘉柏莉安沃，「女人香」、「小生護駕」）跟著醫生爸爸（泰瑞基尼，「大地英豪」）、繼母（梅提莉，「唐人街續集」、「上帝的女兒」）和弟弟一家四口搬到位於舊金山的一處軍事基地，渾然不知基地內最近發現的異象會為他們全家帶來什麼樣的巨變；原來外星人利用人們睡眠時侵入人腦中，複製其形體後便取代宿主生存，變成沒有情緒、沒有個人思想、有如機器人一般的行屍走肉；瑪蒂的家人和朋友一個個陸續被這些可怕的異形取代，只剩瑪蒂和她的新男友馬修（比利沃斯，「粗野少年族」）仍繼續對抗，但形單勢孤的兩人能躲過整個軍事基地異形的追捕嗎？他們能及時阻止這些異形佔領全美的邪惡陰謀嗎？</Description>
+            <ExtendedInfo name="導演">艾柏法瑞拉</ExtendedInfo>
+            <ExtendedInfo name="演員">嘉柏莉安沃、梅提莉、泰瑞基尼、比利沃斯</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Body Snatchers</Name>
+            <Description>A sci-fi thriller based on the novel of the same name by Jack Finney and inspired by the 1956 film version Invasion Of The Body Snatchers.  Something is happening to the Malone family – something bad – and its spreading. The lives of people they once knew and loved are drained by the Body Snatchers and replaced by soulless, emotionless aliens emerging from their cocoon-like pods and taking possession of their human hosts.  Starring Gabrielle Anwar (Without Malice, Scent Of A Woman, For Love Or Money), Meg Tilly (The Two Jakes, Agnes Of God) and Terry Kinney (The Last Of The Mohicians) as the Malone Family. A chilling and graphic portrayal of a desperate fight for human survival. </Description>
+            <ExtendedInfo name="導演">Abel Ferrara</ExtendedInfo>
+            <ExtendedInfo name="演員">Gabrielle Anwar、Meg Tilly、Terry Kinny</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051128090001" duration="3600">
+        <EventId>L00000034322</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004924AD0102F6B68448CCBD9B755733C0143A7C8663B8738A42E2C506EDCB2968B1255FBE08B92F00892270A68B4E1427009A3103A586732A9A2930D37531B736A327E71160</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">0079C2F913880317004924138801656E67041A1A1A1AD1C60900010100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">0001000000492413880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="29" pdsValue="9">0001000000492E0FA00300000160044D756C74694576656E74202D2034</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">0001000000492413880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="35" pdsValue="9">0001000000492E0FA00000000003000001600400004D756C74694576656E74202D2034</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>閻王索命</Name>
+            <Description>西元2002年，自殺在美國成為合法行為，卻因而產生了難以預料的後果，吉姆（艾瑞克羅勃茲，「莫名殺機」）為了替瀕死的兒子籌措手術費，而將自己的身體賣給一家仲介”多餘器官”的大公司；然而吉姆的兒子並未逃過死神召喚，而買下他身體的器官仲介公司又拒絕讓他退還訂金，痛失愛子的吉姆只得展開逃亡生涯，以躲避該公司派出的殺手追蹤；但吉姆很快便發現若想保住小命，唯一的方法便是從問題的源頭著手：找上該公司的總裁！本片導演是紐西蘭籍的傑夫墨菲，他另外的作品包括「少壯屠龍陣2」、「魔鬼戰將2」、「奪命12小時」等。</Description>
+            <ExtendedInfo name="導演">傑夫墨菲</ExtendedInfo>
+            <ExtendedInfo name="演員">艾瑞克羅勃茲、凱瑞艾文斯、莎拉溫特</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Race Against Time</Name>
+            <Description>
+In 2002, the United States legalizes suicide.  The consequences are unforseen.  Jim Gabriel (Roberts-No Alibi ) sells his body to a powerful organization called Lifecorps that buys people for their ‘spare parts’.  He needs to raise money to pay for the surgery that his dying son needs.  But when his son dies anyway, Lifecorps is not about to give refunds.  They want him bad.  His only option is to run and elude the trackers that have been sent from him.  But soon he realizes that to truly escape, he has to go for the source of his problems: the CEO of Lifecorps.</Description>
+            <ExtendedInfo name="導演">Geoff Murphy</ExtendedInfo>
+            <ExtendedInfo name="演員">Eric Roberts、Cary Elwes</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="6" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051128100001" duration="3600">
+        <EventId>L00000034325</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004925AD01428C290B2B078D899E41CBD4619212594A5576755B2E77DD84BB44CEAC578A47C26264FEFCA28F2CC184CC024C6215769C8D8B411E15E894FB4BEF7ED51E9D1B81</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">0079C3F913880317004925138801656E67041A1A1A1AD1C61000010100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="29" pdsValue="9">0001000000492E0FA00300000160044D756C74694576656E74202D2034</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">0001000000492513880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="35" pdsValue="9">0001000000492E0FA00000000003000001600400004D756C74694576656E74202D2034</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">0001000000492513880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>頭號潛艦</Name>
+            <Description>這部感人的戰爭片是根據一段美國內戰時的史實所改編，曾榮獲2000年艾美獎最佳音效剪接。西元1864年南北戰爭期間，南卡羅萊納州的查爾士敦遭北軍重重包圍，水陸交通皆與外界隔絕；面對戰力明顯優越許多的敵軍，城裡的南軍為突破重圍，因而建造了配備魚雷的史上第一艘潛水艇”CSS杭利號”，雖然最後並未達成使命，但船上的八名軍官所表現的袍澤之情，以及大無畏的軍人情操卻令他們名留青史。由演技派演員艾蒙亞森特（「超時空戰警」）和唐納蘇德蘭（「太空大哥大」、「神鬼任務」）領銜主演。</Description>
+            <ExtendedInfo name="導演">約翰葛雷</ExtendedInfo>
+            <ExtendedInfo name="演員">艾蒙亞森特、唐納蘇德蘭</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>The Hunley</Name>
+            <Description>The incredible true story of Confederate efforts to develop a submersible boat during the American Civil War. The story opens in Charleston S.C. during the 1864 seize and naval blockade of that city by the Yankees. The Confederates were attempting to develop a submarine with a torpedo to be used as a weapon to break the blockade. This movie follows the bravery and determination of the eight-member crew in developing the manually propelled submarine and its deployment into battle.  An exceptional story of heroism in the face of adversity. </Description>
+            <ExtendedInfo name="導演">John Gray</ExtendedInfo>
+            <ExtendedInfo name="演員">Armand Assante、Donald Sutherland</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051128110001" duration="3600">
+        <EventId>L00000034328</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004926AD0142789553DA98421C02AAA153BA83C346426B4703BDB99F4801AAFB0FF887ECFF4C2F68CD89BE2F50ED391EA3947E07E08F2159B8B623792518162CB86B7ACFCA32</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="30" pdsValue="9">0079D5F913880316004926138801656E67031A1A1AD1C61100010100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="29" pdsValue="9">0001000000492E0FA00300000160044D756C74694576656E74202D2034</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="18" pdsValue="9">0001000000492613880300000160011A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="35" pdsValue="9">0001000000492E0FA00000000003000001600400004D756C74694576656E74202D2034</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="24" pdsValue="9">0001000000492613880000000003000001600100001A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>熱帶雪</Name>
+            <Description>塔佛（尼克柯瑞，「天人交戰」、「我吸我吸我吸吸吸」）和米蘭妲（麥德琳史道威，「將軍的女兒」、「未來總動員」）是一對居住於哥倫比亞波哥大的年輕戀人，兩人為維持家人生計而在機場當扒手為業，對他們倆來說，紐約是個能建立新生活的夢想城市；當地的毒梟歐斯卡（大衛卡拉定，「雙重麻煩」）以紐約之行為交換，說服他們以吞入腹中的方式，走私毒品闖過紐約機場的海關；由於米蘭妲的姊姊便是死於類似的情況，他們很清楚這種走私方式會有的風險，但為了實現夢想，兩人還是答應了歐斯卡的條件；然而抵達紐約機場後，兩人卻因過於緊張而引來警方注意，他們的夢想也漸漸隨之破碎…</Description>
+            <ExtendedInfo name="導演">西羅杜蘭</ExtendedInfo>
+            <ExtendedInfo name="演員">麥德琳史道威、大衛卡拉定、尼克柯瑞</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Body Snatchers</Name>
+            <Description>New York is the dream city of Tavo (Garcia, Traffic, Vampire In Brooklyn) and Marina (Stowe, The General’s Daughter, Twelve Monkeys), where the two young lovers hope to start a better life. At home in slum-ridden Bogota, Columbia, they have had to work as pickpockets at the airport to support their families.  Dealer Oskar (Carridine, Double Trouble) persuades them to smuggle drugs in their stomachs on a plane to New York - although both know of the risks, since Marina&apos;s sister died on a similar journey.   However on arrival at the airport in New York they show nerves and all their dreams start to shatter...</Description>
+            <ExtendedInfo name="導演">Ciro Durn</ExtendedInfo>
+            <ExtendedInfo name="演員">Mike Myers、Heather Graham、Robert Wagner、Elizabeth Hurley</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+    </ChannelPeriod>
+    <ChannelPeriod beginTime="20051127140004" endTime="20051127150004">
+      <ChannelId>504</ChannelId>
+      <Event beginTime="20051127140004" duration="3600">
+        <EventId>L00000034552</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">00492FAD0142A53A26305912B4DCAF03F5A44EE16B368F1781C4CBE385A6591186DC901BD313B0610571DC0D997FB23FA3E08750ACFAC884793B3DDA742CA9C6F1B5E9A11328</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">0079DEF91388031700492F138801656E67041A1A1A1AD1C51400040100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D210FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">0001000000492F13880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">0001000000492F13880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>閻王索命</Name>
+            <Description>西元2002年，自殺在美國成為合法行為，卻因而產生了難以預料的後果，吉姆（艾瑞克羅勃茲，「莫名殺機」）為了替瀕死的兒子籌措手術費，而將自己的身體賣給一家仲介”多餘器官”的大公司；然而吉姆的兒子並未逃過死神召喚，而買下他身體的器官仲介公司又拒絕讓他退還訂金，痛失愛子的吉姆只得展開逃亡生涯，以躲避該公司派出的殺手追蹤；但吉姆很快便發現若想保住小命，唯一的方法便是從問題的源頭著手：找上該公司的總裁！本片導演是紐西蘭籍的傑夫墨菲，他另外的作品包括「少壯屠龍陣2」、「魔鬼戰將2」、「奪命12小時」等。</Description>
+            <ExtendedInfo name="導演">傑夫墨菲</ExtendedInfo>
+            <ExtendedInfo name="演員">艾瑞克羅勃茲、凱瑞艾文斯、莎拉溫特</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Race Against Time</Name>
+            <Description>
+In 2002, the United States legalizes suicide.  The consequences are unforseen.  Jim Gabriel (Roberts-No Alibi ) sells his body to a powerful organization called Lifecorps that buys people for their ‘spare parts’.  He needs to raise money to pay for the surgery that his dying son needs.  But when his son dies anyway, Lifecorps is not about to give refunds.  They want him bad.  His only option is to run and elude the trackers that have been sent from him.  But soon he realizes that to truly escape, he has to go for the source of his problems: the CEO of Lifecorps.</Description>
+            <ExtendedInfo name="導演">Geoff Murphy</ExtendedInfo>
+            <ExtendedInfo name="演員">Eric Roberts、Cary Elwes</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="6" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+    </ChannelPeriod>
+  </ScheduleData>
+</BroadcastData>

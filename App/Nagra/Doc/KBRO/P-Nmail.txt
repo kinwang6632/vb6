@@ -1,0 +1,146 @@
+Quesions for SMS and CA integration
+===================================
+
+1. SMS high-level functions: specified in
+"SMS_STB_High_level_function_0710(English).doc"
+        Q1.1. Does Nagravison's CA system can support all SMS high-level functions?
+                Or, what part of these high-level functions are not support?
+        Q1.2. What part of these functions are related to STB vendor, not Nagra?
+
+[NicM] All IRD commands.
+
+
+        Q1.3. What part of functions are goal of phase 1? What are for other phases?
+                Schedule? (Phase 1: Launch at Oct, 1 2002)
+
+2. For PPV business:
+        Q2.1. What is the business model? IPPV first? Then, PPV service?
+        Q2.2. Does Nagra support pre-paid or post-paid model for IPPV service?
+
+[NicM] Contrary to what I said during the conf call this morning (afternoon for you), today we only support a post-paid model. Pre-paid might be implemented in the near future.
+
+                Pre-paid model:
+                        (1) Customer purchase IPPV credit
+                        (2) CSR download IPPV credit
+                        (3) Customers watch PPV programs by IPPV
+                        (4) SMS read IPPV history
+                Post-paid model:
+                        (1) Customers watch PPV programs by IPPV
+                        (2) SMS read IPPV history
+                        (3) SMS charge the customers
+
+3. How to handle with these functions?
+        Q3.1. Clean PIN code?
+        Q3.2. Send message?
+        Q3.3. Force tune?
+        Q3.4. Master/slave pairing?
+
+4. The STB vendor:
+        Q4.1. What CA related functions are provided by STB vendor?
+        Q4.2. Who will be the STB vendor?
+        Q4.3. Who will arrange the meeting with STB vendor?
+        Q4.4. What is the command format for those functions related to STB?
+                (Because Nagra's command 69 act as a secure transport for some commands
+                defined by STB vendor, and Cablesoft should know these format)
+
+5. Asynchronous mode (transactions) for SMS and CA communication:
+        The relationship between modules of Cablesoft and Nagra:
+                (*)SMS client(s) <--> (*)CA command gateway <--> SMS gateway <-->CA
+                (*) means modules provided by Cablesoft.
+
+        The features of Cablesoft's CA command gateway:
+        1. Can folk max 10 processes at a time to handle 10 high-level functions
+                request by SMS clients. Each process will setup a connection to
+                Nagra's SMS gateway.
+[NicM] The CAS has been tested with 20 (10+10) connections, but is not designed to handle more than that. I advise you to use 2 (1+1) connections to the SMS gateway per server, or you will bring the system to its knees. That is 4 connections, not more. You may wonder why I'm adding connections: there is always one for commands (0nn, 1nn, 1nnn) and one for feedbacks (2nn, 1nnn).
+
+        2. Each high-level function will be mapped into low-level commands and send
+                to CA gateway module one by one. These mapping relationships are
+                defined in SMS command matrix approved by Nagra.
+        3. Can show the communication status with Nagra's SMS gateway module.
+
+        4. By setting system parameters, can customize the communication between
+                SMS clients and Nagra's CA gateway module.
+[NicM] The SMS clients will not connect to the SMS gateway. I assume they will be piping their commands to the server that will handle the communication details and direct all the commands through one (+ one for feedback) TCP connection.
+
+
+        Q5.1. How many Cablesoft's CA command gateway can connect to Nagra's CA?
+
+[NicM] 10+10 TCP connections is the maximum number of TCP connections the SMS gateway can handle. Over this number, we don't guarantee its behavior.
+
+
+        Q5.2. Cablesoft suggest install 2 CA command gateway, one for each data center.
+                Is this been approved?
+
+[NicM] No problem for us. There is one thing that must be implemented in this case: the routing of feedback commands:
+
+A command 1002 shall be sent on the feedback port just after the communication has been established in order to associate a source identifier to the connection. The source identifier is used for routeing the feedback commands to the right SMS
+
+
+        Q5.3. Since the communications are using TCP/IP protocol, and there are max
+                10 processes invoked in a CA command gateway. If there are more than
+                one SMS client send CA request at the same time. The CA command gateway
+                will let each process to handle one high-level function. But there is
+                only one connection in CA command gateway, to listen to the response
+                port connect to Nagra's SMS gateway. Your SMS gateway may send back
+                responses asynchronously. Our CA command gateway will handle these
+                responses asybchronously too. Is this what you mean "asybchronous"?
+
+[NicM] Each message is tagged with a transaction number which is used to correlate commands and acknowledges. It means that if you're sending command C1, then C2, then C3, you may well get the following Acknowleges (commands 1001 and 1002) in this order: A2, A3, A1.
+
+6. New STB/ICC installation:
+        Q6.1. Is step 3 necessary ? (Create ICC on call collector, command 104)
+
+[NicM] Yes.
+
+        Q6.2. Is step 4 necessary ? (Set Zip code, command 48)
+                What if SMS don't have Zip code information for that customer?
+
+[NicM] Zip code is only used for blackouts, not for sending commands to a population of boxes.
+
+        Q6.3. Is step 5 necessary ? (Suspend impulse purchase, command 14)
+
+[NicM] Yes, because you don't know the initial state of the card. I assume that the operator doesn't want this feature to be enabled from the start.
+
+        Q6.4. Is step 6 necessary ? (Redefine credit limit, command 100)
+
+[NicM] Yes. 
+
+
+        Q6.5. Is step 7 necessary ? (Set authorized phone number, command 101)
+
+[NicM] No. It is up to the operator to decide if they want to (and can) enforce this check.
+
+        Q6.6. Is step 8 necessary ? (Set callback phone number, command 49)
+ 
+[NicM] Yes, if the return path is by telephone line.
+
+        Q6.7. Is step 8' necessary ? (Set callback IP address, command 54)
+ 
+[NicM] Yes, if the return path is by cable.
+
+        Q6.8. Is step 9 necessary ? (Enable automatic callback, command 60)
+
+[NicM] Yes, although it could be set as the default value. I'll check this.
+
+7. Disconnection of STB/ICC:
+        Q7.1. Does Suspend subscriber ICC(command 20) should be sent while
+                the STB/ICC is still connect to cable? Or, no need to?
+[NicM] Commands issued from the SMS stay in the air for a pre-defined amount of time (they are carouseled).
+N.B.: A suspended card still allows watching of free access channels. 
+
+        Q7.2. What commands should be sent from SMS to CA when the STB/ICC still
+                connect to cable, and what commands don't need to?
+[NicM] None. Commands are repeated.
+
+8. System integration test: (SMS communicate with CA)
+        Q8.1. When is the proper schedule for system integration test? 09/12? or earlier?
+        Q8.2. If can be earlier, how to setup the test environment that
+	      Nagra said "connect over phone line"? Who can tell us more about this?
+[NicM] You will dial-in to our lab. I'll give you more details when our lab will be ready, that is in about 3 weeks. 
+
+        Q8.3. If Cablesoft need 3 weeks for system integration test, is this will affect
+                overall schedule?
+[NicM] We need to get a detailed test plan from the integrator at least two weeks before the tests begin.
+
+

@@ -1,0 +1,79 @@
+<<< 每月自動產生加值頻道單項產品分析資料Night-run機制討論 >>> Date: 2003.05.05
+
+* 需求: (批次作業)每月自動產生加值頻道單項產品分析資料. 使用A1報表後端程式, 客
+	戶需每月定時執行A1報表, 將結果彙總統計後, 存於A1每月資料檔中, 供前端統
+	計報表程式用.
+
+* 參與人員:
+	. KC: 提供需求與報表格式規劃
+	. Pierre: 負責後端程式的設計
+	. William: 負責前端程式的設計
+	. Lawrence: release此機制所需新檔案結構
+
+* A1報表Night-run執行時間 ==> 每月的那一天, 幾點執行 ?
+  答: 每月5日 23:00
+
+* A1每月資料檔[SO508]: 供前端程式所需之統計資料檔, 每個月的A1 night-run執行結果儲存於此檔中
+  答: 
+	RptYM 		number(6)	歸屬年月, 西曆YYYYMM
+	CompCode	number(3)	公司別
+	ServiceType	char(1)		服務別
+	CitemCode	number(3)	收費項目代碼
+	CitemName	varchar2(20)	收費項目名稱
+	RealAmt		number(10)	實收金額
+	MonthPast	number(10)	過去實現
+	Month01		number(10)	本月實現
+	CustCnt		number(8)	客戶數
+
+* 異常資料檔[SO508A]: 每次執行A1後端程式時, 若有錯誤資料, 則記錄於此檔中
+  答: 檔案結構完全同SO090
+
+* 客戶是執行那一支A1報表後端程式? (A1後端有二支, SF_RptA1, SF_RptA1_2)
+  答: 可根據收費參數檔的收費平均法欄位值(SO043.Para16)來決定, 0=日平均法, 1=月平均法
+
+* 後端程式的輸入參數如何決定? 應分成兩種, 一為固定參數, 另一為隨時間改變之參數(需說明如何決定)
+  答:
+	v_RealDate1 varchar2: 	收費日起始, 'YYYYMMDD'		==> '20030101'
+	v_RealDate2 varchar2:	收費日截止, 'YYYYMMDD'		==> 執行當時之上月月底
+	v_RefDate varchar2:	參考日期, 'YYYYMMDD'		==> 執行當時之上月月底
+	v_ServiceType char(1):	服務類別			==> SO501A.ServiceType
+	v_CompCode number:	公司別				==> SO501A.CompCode
+	v_CustId number:	客戶編號			==> null
+	v_CustIdOp varchar2:	客戶編號比較元			==> '='
+	v_ShouldDate1 varchar2:	應收日起始, 'YYYYMMDD'		==> null
+	v_ShouldDate2 varchar2:	應收日截止, 'YYYYMMDD'		==> null
+	v_CitemSQL varchar2:	收費項目SQL條件字串		==> Refo=2 (含會員費)
+	v_ClassSQL varchar2:	客戶類別SQL條件字串		==> null
+	v_BillTypeSQL varchar2: 單據類別SQL條件字串		==> null
+	v_ServSQL varchar2:	服務SQL條件字串			==> null
+	v_AreaSQL varchar2:	行政區SQL條件字串		==> null
+	v_StrtSQL varchar2:	街道SQL條件字串			==> null
+	v_CircuitNo varchar2:	網路編號條件			==> null
+	v_TaxMode number:	稅率計算方式, 1=未稅, 2=已稅	==> 2 
+	v_ErrYear number:	計費起始日超過幾年視為錯誤期限	==> 5
+	v_MDUSQL varchar2:	大樓編號SQL條件字串		==> null
+	v_Citem2SQL varchar2:	非週期收費項目SQL條件字串	==> '=998'
+
+* RD提供二支後端程式:
+  (1) SP_MonthlyRptA1.sql: 自動取足夠參數, 執行A1報表程式, 並將結果存於資料檔中, 供統計報表程式用
+	流程:
+		. 取執行參數
+		. 呼叫A1報表後端程式
+		. 刪除同一月份的過去統計資料
+		. 將結果彙集成統計用資料, 並複製到A1每月資料檔中
+		. 將異常資料複製到SO508B
+		. log執行結果
+
+  (2) StartMonthlyRptA1.sql: 將SP_MonthlyRptA1掛上Oracle排程
+	流程:
+		. 設定執行參數
+		. 移除同名之舊night-run程式
+		. 定義此night-run程式
+
+* 當RD release程式後, PM如何將此night-run機制啟動? (以下使用SQL*plus)
+	. 步驟1: compile SP_MonthlyRptA1.sql
+	. 步驟2: 確定StartMonthlyRptA1.sql的排程時間是正確後, 執行此程式
+
+
+select 200305, 7, 'C', CitemCode, b.Description, sum(nvl(RealAmt,0)), sum(nvl(MonthPast,0)), sum(nvl(Month01,0)),
+count(distinct CustId) from SO089 a, Cd019 b where a.CitemCode=b.CodeNo group by a.CitemCode, b.Description;

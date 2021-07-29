@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by OSX (None) -->
+<ProductManagementData creationDate="20030110095133" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ProviderInfo>
+		<ProviderId>IMS Nagra</ProviderId>
+		<ProviderName>IMS Nagravision S.A.</ProviderName>
+		<DtdVersion>1.1.1</DtdVersion>
+	</ProviderInfo>
+	<ProductChangeNotification>
+		<ProductData>
+			<Product>
+				<ProductId>2</ProductId>
+				<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+				<ProductStatus suspendedFlag="0" soldFlag="0"/>
+				<ProductText language="eng">
+					<ProductName>iPPV Test</ProductName>
+					<ProductDescription>TEST PPV</ProductDescription>
+				</ProductText>
+				<SalePeriod beginTime="20030116040747" endTime="20030121040751"/>
+				<EpgPrice>10</EpgPrice>
+				<PpvData>
+					<ValidityPeriod beginTime="20030116040710" endTime="20030121040722"/>
+					<Event beginTime="20030118060000" duration="1800">
+						<EventId>2050</EventId>
+						<EpgText language="eng">
+							<ShortName>Ev2050</ShortName>
+							<Name>Name of event 2050 (eng)</Name>
+						</EpgText>
+						<ChannelNumber>2</ChannelNumber>
+					</Event>
+				</PpvData>
+			</Product>
+			<Product>
+				<ProductId>3</ProductId>
+				<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+				<ProductStatus suspendedFlag="0" soldFlag="0"/>
+				<ProductText language="eng">
+					<ProductName>HOT</ProductName>
+					<ProductDescription>HOT</ProductDescription>
+				</ProductText>
+				<SalePeriod beginTime="20030111000000" endTime="20030114000000"/>
+				<ProductCategory>0</ProductCategory>
+				<EpgPrice>10.5</EpgPrice>
+				<PpvData>
+					<ValidityPeriod beginTime="20030112000000" endTime="20030114000000"/>
+					<Event beginTime="20030112000000" duration="86400">
+						<EventId>296030101001</EventId>
+						<EpgText language="eng">
+							<Name>HOT</Name>
+							<Description>HOT</Description>
+						</EpgText>
+						<ParentalRating>15</ParentalRating>
+						<ChannelNumber>1</ChannelNumber>
+					</Event>
+				</PpvData>
+			</Product>
+		</ProductData>
+	</ProductChangeNotification>
+</ProductManagementData>

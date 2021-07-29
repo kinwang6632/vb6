@@ -1,0 +1,21 @@
+報表主機: 172.16.12.3 SID:catvnr
+一般 user: emcyms, emcnyp.....
+報表 user: emcrpt/emcrpt
+
+
+select ... from user1.so030a where jobid=999993 and BeginExecTime=使用者指定的日期
+union ALL
+(select ... from user2.so030a where jobid=999993 and BeginExecTime=使用者指定的日期) 
+union ALL
+(select ... from user3.so030a where jobid=999993 and BeginExecTime=使用者指定的日期)
+
+
+select c.Description,b.DESCRIPTION,count(*) from v30.so001 a,v30.cd039 b,v30.cd004 c where c.CodeNo=a.ClassCode1 and b.CODENO=a.compcode group by c.Description,b.DESCRIPTION
+union ALL
+select c.Description,b.DESCRIPTION,count(*) from ncc.so001 a,ncc.cd039 b,ncc.cd004 c where c.CodeNo=a.ClassCode1 and b.CODENO=a.compcode group by c.Description,b.DESCRIPTION
+
+
+select CustId,ClassCode1,ClassCode2,ClassCode3 from so001 order by ClassCode1,ClassCode2,ClassCode3
+
+
+

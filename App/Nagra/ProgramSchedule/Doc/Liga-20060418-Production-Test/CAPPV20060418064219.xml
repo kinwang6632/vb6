@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ProductManagementData SYSTEM "ProductManagementData.dtd">
+<ProductManagementData creationDate="20060418064219">
+<ProviderInfo>
+<ProviderId>IMS Nagra</ProviderId>
+<ProviderName>IMS Nagravision S.A.</ProviderName>
+<DtdVersion>1.1.1</DtdVersion>
+</ProviderInfo>
+<ProductChangeNotification>
+
+<ProductData>
+<Product>
+<ProductId>13539</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>天王星攝影機</ProductName>
+<ProductDescription>天王星攝影機</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060416102502" endTime="20060417103502"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20060416000000" endTime="20060419000000"/>
+<Event beginTime="20060417102502" duration="4800">
+<EventId>L00000081925</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>天王星攝影機</Name>
+<Description>這是一個多功能且功能強大又符合人性話的數位攝影機</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>start of the digital camer</Name>
+<Description>yhis is friendly digital camer</Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="a" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>302</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>13660</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>天王星攝影機</ProductName>
+<ProductDescription>天王星攝影機</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060415123713" endTime="20060416124713"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20060415000000" endTime="20060418000000"/>
+<Event beginTime="20060416123713" duration="4800">
+<EventId>L00000083217</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>天王星攝影機</Name>
+<Description>這是一個多功能且功能強大又符合人性話的數位攝影機</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>start of the digital camer</Name>
+<Description>yhis is friendly digital camer</Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="a" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>304</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>13676</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>風火連天</ProductName>
+<ProductDescription>風火連天</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060416075459" endTime="20060417080459"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20060416000000" endTime="20060419000000"/>
+<Event beginTime="20060417075459" duration="3601">
+<EventId>L00000083297</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>風火連天</Name>
+</EpgText>
+<EpgText language="eng">
+<Name>風火連天</Name>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="1" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>304</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>13677</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>天王星攝影機</ProductName>
+<ProductDescription>天王星攝影機</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060416090000" endTime="20060417091000"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20060416000000" endTime="20060419000000"/>
+<Event beginTime="20060417090000" duration="4800">
+<EventId>L00000083302</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>天王星攝影機</Name>
+<Description>這是一個多功能且功能強大又符合人性話的數位攝影機</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>start of the digital camer</Name>
+<Description>yhis is friendly digital camer</Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="a" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>304</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>13804</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>天王星攝影機</ProductName>
+<ProductDescription>天王星攝影機</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060415090000" endTime="20060416091000"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20060415000000" endTime="20060418000000"/>
+<Event beginTime="20060416090000" duration="4800">
+<EventId>L00000082502</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>天王星攝影機</Name>
+<Description>這是一個多功能且功能強大又符合人性話的數位攝影機</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>start of the digital camer</Name>
+<Description>yhis is friendly digital camer</Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="a" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>303</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>13809</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>風雲錄</ProductName>
+<ProductDescription>風雲錄</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060415145500" endTime="20060416150500"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20060415000000" endTime="20060418000000"/>
+<Event beginTime="20060416145500" duration="3600">
+<EventId>L00000082527</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>風雲錄</Name>
+</EpgText>
+<EpgText language="eng">
+<Name>風雲錄</Name>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="2" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>303</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>13821</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>天王星攝影機</ProductName>
+<ProductDescription>天王星攝影機</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060416052000" endTime="20060417053000"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20060416000000" endTime="20060419000000"/>
+<Event beginTime="20060417052000" duration="4800">
+<EventId>L00000082587</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>天王星攝影機</Name>
+<Description>這是一個多功能且功能強大又符合人性話的數位攝影機</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>start of the digital camer</Name>
+<Description>yhis is friendly digital camer</Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="a" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>303</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+</ProductData>
+</ProductChangeNotification>
+</ProductManagementData>

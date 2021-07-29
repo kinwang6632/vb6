@@ -1,0 +1,24 @@
+1. 每個資料庫中,只要有一個user掛上此後端即可
+   Ex: 北平台資料庫中有6個tablespace(即6個user), 
+       則只要從這6個user中挑選任一個user來執行此procedure 即可.
+
+2. 要 grant select v$session 的權限給執行 procedure 的 user(假設是EMCYMS)
+	Ex: GRANT SELECT ON "SYS"."V_$SESSION" TO "EMCYMS";
+
+3. 要用將執行 procedure 的 user連線到資料庫,並建立 table SessionCountTab(執行SessionCountTab.sql即可)
+
+
+4. 要用將執行 procedure 的 user連線到資料庫,並 compile procedure (執行SP_ComputeSession.SQL即可)
+
+5. 將 procedure 掛上 job, 使得每固定一段時間就執行一次 procedure
+
+6. procedure 執行過後,會將session的統計資料存放在 table SessionCountTab 中
+   若要取出統計資料, 建議可用如下之 SQL:(舉例而已,僅供參考)
+   	select username "帳號", status "狀態",sum(sessioncount) "session 數量" from sessioncounttab 
+	where computedate between to_date('2004/02/03 17:00:00','YYYY/MM/DD HH24:MI:SS')
+	and to_date('2004/02/03 18:00:00','YYYY/MM/DD HH24:MI:SS')
+	group by username, status;
+
+   上述之 SQL 表示要取出2004/02/03 從 17:00 到 18:00  間的統計資料
+
+

@@ -1,0 +1,22 @@
+/*
+  說明: 建立 EMC 之資料庫-公用區(Table space) script files
+	Use 'SYSTEM' to login SQL*plus and run this file
+  檔名: create_tablespace.sql
+  Date: 2002.07.31
+*/
+
+-- 1. 建立 table spaces
+CREATE TABLESPACE "COM" 
+    LOGGING 
+    DATAFILE 'C:\ORACLE\ORADATA\RD\COM.ora' SIZE 1000M EXTENT 
+    MANAGEMENT LOCAL;
+
+CREATE TABLESPACE "COM_NDX" 
+    NOLOGGING 
+    DATAFILE 'C:\ORACLE\ORADATA\RD\CMD_NDX.ora' SIZE 1000M EXTENT 
+    MANAGEMENT LOCAL;
+
+CREATE TEMPORARY 
+    TABLESPACE "COM_TMP" TEMPFILE 'C:\ORACLE\ORADATA\RD\CMD_TMP.ora' 
+    SIZE 1000M EXTENT MANAGEMENT LOCAL UNIFORM SIZE 64K;
+

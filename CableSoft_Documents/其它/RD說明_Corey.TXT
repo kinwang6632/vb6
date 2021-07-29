@@ -1,0 +1,71 @@
+#3705 異動紀錄 花費時間:20小時
+程式:SO5000.EXE(SO5610,SO5620,SO5630,SO5640,SO5650,SO5660,SO5710,SO5790)
+報表:SO56102AE.rpt ,SO5610Sub1.rpt ,SO56302A1.rpt ,SO56302AE2.rpt 
+     SO56102AESub1.rpt ,SO56102AESub2.rpt ,SO56102AESub3.rpt ,SO56102AESub4.rpt
+     SO56102AESub5.rpt ,SO56102AESub6.rpt ,SO56102AESub7.rpt ,SO56102AESub8.rpt
+     SO56102AESub9.rpt ,SO56102AESub10.rpt ,SO56102AESub11.rpt ,SO56102AESub12.rpt
+     SO56102AESub13.rpt ,SO56102AESub4.rpt ,SO56302A.rpt ,SO56302A1.rpt ,SO56302A2.rpt 
+     SO56302A3.rpt ,SO5640A.rpt ,SO56402A.rpt ,SO5640Ae.rpt ,SO5650A.rpt ,SO5650AE.rpt 
+     SO56502A.rpt ,SO56602A.rpt ,SO5660A1.rpt ,SO5660AE.rpt ,SO5660A.rpt 
+     SO56202A.rpt ,SO56202AE.rpt ,SO56202AE1.rpt ,SO56202AE2.rpt 
+     SO5710A.rpt ,SO5710A2.rpt ,SO5710A3.rpt 
+
+
+二、	需求目的與範圍
+3.SO5610報表如有勾選『是否顯示工單備註』，則匯出Exccel時，需提供可匯出工單『備註』欄位。
+SO56102AE.rpt 增加一判斷是否有勾選顯示工單備註，匯出EXCEL則也會判斷。
+4.SO5630統計，所有的派工狀態，都要能勾選『印出備註欄位選項』，列印或匯出Excel都需要有工單『備註』欄位
+SO5630A所有的派工狀態，都要能勾選『印出備註欄位選項』
+
+匯出Excel
+SO56302AE.rpt原本已有這功能。
+SO56302AE2.rpt 增加一判斷是否有勾選顯示工單備註，匯出EXCEL則也會判斷。
+SO56302A1.rpt 增加一判斷是否有勾選顯示工單備註，匯出EXCEL則也會判斷。
+
+列印
+SO56302A.rpt 增加一判斷是否有勾選顯示工單備註，匯出EXCEL則也會判斷。
+SO56302A1.rpt 增加一判斷是否有勾選顯示工單備註，匯出EXCEL則也會判斷。
+SO56302A2.rpt 增加一判斷是否有勾選顯示工單備註，匯出EXCEL則也會判斷。
+SO56302A3.rpt 印表機重新對應。
+
+5.SO5640、SO5650、SO5660等報表點選明細檔，列印或匯出Exccel時，需增加退單分類的欄位，在退單原因前面。
+SO5640A1.rpt 是未完工、不用修改。
+SO5640A3.rpt 匯總表、不用修改。
+SO5640A.rpt 增加退單類別
+SO56402A.rpt 增加退單類別
+SO56402A1.rpt 是未完工、不用修改。
+SO56402A3.rpt 匯總表、不用修改。
+SO5640Ae.rpt 增加退單類別
+SO5650A1.rpt 是未完工、不用修改。
+SO5650A3.rpt 匯總表、不用修改。
+SO5650A.rpt 增加退單類別
+SO5650AE.rpt 增加退單類別
+SO56502A1.rpt 是未完工、不用修改。
+SO56502A3.rpt 匯總表、不用修改。
+SO56502A.rpt 增加退單類別
+SO56602A1.rpt 是未完工、不用修改。
+SO56602A3.rpt 匯總表、不用修改。
+SO56602A.rpt 增加退單類別
+SO5660A1.rpt 增加退單類別
+SO5660A3.rpt 匯總表、不用修改。
+SO5660AE.rpt 增加退單類別
+SO5660A.rpt 增加退單類別
+
+Kobe 提出
+請於SO56202A.rpt報表加入加入工單簽收人員欄位、原設備序號及新設備序號欄位，並於匯出excel檔時，一併加入此欄位(原設備序號為工單所指定之設備序號，由SO004D取得；新設備序號為維修換拆時新的設備序號，由SO004取得。)
+so5000.exe(SO5620A)
+SO56202A.rpt 增加原設備序號、新設備序號
+SO56202AE1.rpt 匯出EXCEL增加原設備序號、新設備序號
+SO56202AE2.rpt 匯出EXCEL增加原設備序號、新設備序號
+SO56202AE.rpt 匯出EXCEL增加原設備序號、新設備序號
+
+Debby 提出
+1.[SO5790A]畫面條件請增加客戶狀態、收費項目二個篩選條件。
+2.收費項目需為下圖之複選元件(收費項目可勾選之內容值，需依服務類別做篩選，例如：若服務別為C，則僅顯示收費項目服務別為C的項目即可) 。
+
+Kelly 提出
+1.請在SO5610表尾增加總客戶數的顯示，不論是以哪種分類做統計，若單一客編有一筆以上的裝機退單記錄，請以一個客編做計算。
+SO5000.EXE (SO5710A)增加計算總客戶數傳入RPT檔內。
+SO5710A2.rpt 增加FORMULA=TOTALCUSTID 計算總客戶數。
+SO5710A3.rpt 增加FORMULA=TOTALCUSTID 計算總客戶數。
+SO5710A.rpt 增加FORMULA=TOTALCUSTID 計算總客戶數。

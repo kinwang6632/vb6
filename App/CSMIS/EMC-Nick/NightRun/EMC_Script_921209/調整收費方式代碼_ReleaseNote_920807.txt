@@ -1,0 +1,41 @@
+* Release note: EMC收費方式代碼檔(CD031)統一化之資料整批調整程式
+
+* 緣由:
+  根據EMC黃斗南提供之收費方式代碼新舊對照表, 將各SO資料庫中有用到收費方式代碼的檔案內容
+  調整成新代碼與新名稱, 最後再調整收費方式代碼檔(CD031)內容. 
+
+* 說明:
+  1. 雖是night-run, 但此程式只於92.08.10 23:30 執行一次
+  2. 待調SO:
+	1=觀昇, 2=屏南, 3=南天, 5=新頻道, 6=豐盟, 7=振道, 8=全聯, 9=陽明山, 
+	10=新台北, 11=金頻道, 12=大安文山, 13=新唐城, 14=大新店, 16=北桃園
+  3. 調整內容:
+     1. 調整檔案list (以下都含欄位CMCode, CMName)
+	SO002, SO003, SO033, SO033DEBT, SO034, SO035, SO036, SO050, SO051, SO061, SO106
+     2. 不調整檔案list (除了SO044只含CMCode, 以下都含欄位CMCode, CMName)
+	SO032, SO044, SO067, SO074, SO077
+     3. CD031 收費方式代碼檔內容全部SO統一, 但新唐城與大新店保留CodeNo=9的該筆資料
+  4. 若此支程式於Oracle 9i平台的SQL*plus上執行, 因為並無RBS27此rollback segment,
+	則會出現以下的錯誤訊息, 但不影響程式的正常執行, 仍會調整資料, 請忽略這些訊息:
+	SQLCODE=-1534 SQLERRM=ORA-01534: 倒回區段 'RBS27' 不存在
+	SQLCODE=-1453 SQLERRM=ORA-01453: SET TRANSACTION 必須是交易中的第一個敘述句
+	SQLCODE=-1534 SQLERRM=ORA-01534: 倒回區段 'RBS27' 不存在
+
+* RD提供程式:
+  1. SP_UpdCMCode.sql EMC收費方式代碼檔(CD031)統一化之資料整批調整程式
+  2. StartUpdCMCode_920807.sql 將SP_UpdCMCode.sql掛上Oracle night-run的程式,
+     修改此檔內容可改變Night-run相關參數
+
+* PM動作: (請指派專人至各家執行以下步驟, 需於92.08.08下班前做完)
+  1. compile SP_UpdCMCode.sql
+  2. 執行 StartUpdCMCode_920807.sql
+
+* Lawrence動作:
+  . 將此程式存放至script檔路徑中
+
+* 如何驗證已掛上Oracle night-run?
+  執行 select * from User_Jobs指令, 看看是否有該SP_UpdCMCode的job
+
+* 如何檢查每次night-run的結果?
+  執行 select * from SO030A where JobId=0
+

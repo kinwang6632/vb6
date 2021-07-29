@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ProductManagementData SYSTEM "ProductManagementData.dtd">
+<ProductManagementData creationDate="20060426070359">
+<ProviderInfo>
+<ProviderId>IMS Nagra</ProviderId>
+<ProviderName>IMS Nagravision S.A.</ProviderName>
+<DtdVersion>1.1.1</DtdVersion>
+</ProviderInfo>
+<ProductChangeNotification>
+
+<ProductData>
+<Product>
+<ProductId>14102</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>尼可測試影片(15分)</ProductName>
+<ProductDescription>尼可測試影片(15分)</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060426071505" endTime="20060427072505"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">40</EpgPrice>
+<Pricing/>
+<PpvData>
+<ValidityPeriod beginTime="20060426000000" endTime="20060429000000"/>
+<Event beginTime="20060427071505" duration="900">
+<EventId>L00000085663</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>尼可測試影片(15分)</Name>
+<Description>故事大綱 2</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>尼可測試影片(15分)</Name>
+<Description>故事大綱 2</Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="1" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>303</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>14109</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>慈濟測試影片(60分)</ProductName>
+<ProductDescription>慈濟測試影片(60分)</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060425200000" endTime="20060426201000"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">60</EpgPrice>
+<Pricing/>
+<PpvData>
+<ValidityPeriod beginTime="20060425000000" endTime="20060428000000"/>
+<Event beginTime="20060426200000" duration="3601">
+<EventId>L00000086265</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>慈濟3</Name>
+<Description>故事大綱 12</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>慈濟3</Name>
+<Description>故事大綱 12</Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="1" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>304</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>14171</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>HBO測試影片(15分)</ProductName>
+<ProductDescription>HBO測試影片(15分)</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060427064504" endTime="20060428065504"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<Pricing/>
+<PpvData>
+<ValidityPeriod beginTime="20060427000000" endTime="20060430000000"/>
+<Event beginTime="20060428064504" duration="901">
+<EventId>L00000086487</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>HBO1</Name>
+<Description>故事大綱 1</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>HBO1</Name>
+<Description>故事大綱 1</Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="1" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>304</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>14204</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>緯來體育測試影片(15分)</ProductName>
+<ProductDescription>緯來體育測試影片(15分)</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060428041503" endTime="20060429042503"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<Pricing/>
+<PpvData>
+<ValidityPeriod beginTime="20060428000000" endTime="20060501000000"/>
+<Event beginTime="20060429041503" duration="900">
+<EventId>L00000086588</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>緯來體育1</Name>
+<Description>故事大綱 3</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>緯來體育1</Name>
+<Description>故事大綱 3</Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="1" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>304</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>14236</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>尼可測試影片(60分)</ProductName>
+<ProductDescription>尼可測試影片(60分)</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060428180000" endTime="20060429181000"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<Pricing/>
+<PpvData>
+<ValidityPeriod beginTime="20060428000000" endTime="20060501000000"/>
+<Event beginTime="20060429180000" duration="3600">
+<EventId>L00000086686</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>尼可3</Name>
+<Description>故事大綱 10</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>尼可3</Name>
+<Description>故事大綱 10</Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="1" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>304</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>14306</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>緯來體育測試影片(15分)</ProductName>
+<ProductDescription>緯來體育測試影片(15分)</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060430081505" endTime="20060501082505"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<Pricing/>
+<PpvData>
+<ValidityPeriod beginTime="20060430000000" endTime="20060503000000"/>
+<Event beginTime="20060501081505" duration="901">
+<EventId>L00000086898</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>緯來體育1</Name>
+<Description>故事大綱 3</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>緯來體育1</Name>
+<Description>故事大綱 3</Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="1" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>304</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>14428</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>慈濟測試影片(60分)</ProductName>
+<ProductDescription>慈濟測試影片(60分)</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060428230001" endTime="20060429231001"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">60</EpgPrice>
+<Pricing/>
+<PpvData>
+<ValidityPeriod beginTime="20060428000000" endTime="20060502000000"/>
+<Event beginTime="20060429230001" duration="3600">
+<EventId>L00000086008</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>慈濟測試影片(60分)</Name>
+<Description>故事大綱 12</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>慈濟測試影片(60分)</Name>
+<Description>故事大綱 12</Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="1" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>303</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+</ProductData>
+</ProductChangeNotification>
+</ProductManagementData>

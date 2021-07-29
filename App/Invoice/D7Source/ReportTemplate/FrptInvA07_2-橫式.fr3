@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Name="" Version="3.15" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="2047" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" ReportOptions.CreateDate="38845.6889914352" ReportOptions.Description.Text="" ReportOptions.LastChange="42594.7514277662" ScriptLanguage="PascalScript" ScriptText.Text="procedure MasterData1OnBeforePrint(Sender: TfrxComponent);&#13;&#10;var&#13;&#10;  aText: String;&#13;&#10;begin&#13;&#10;&#13;&#10;  if ( &#60;frxA07_2.&#34;發票種類&#34;&#62;  = '1' ) then&#13;&#10;    aText := '電子'&#13;&#10;  else if ( &#60;frxA07_2.&#34;發票種類&#34;&#62;  = '2' ) then&#13;&#10;    aText := '手二'&#13;&#10;  else if ( &#60;frxA07_2.&#34;發票種類&#34;&#62;  = '3' ) then&#13;&#10;    aText := '手三';&#13;&#10;  Set( '發票種類(說明)', '''' + aText + '''' );&#13;&#10;  {}&#13;&#10;  {&#13;&#10;  if ( &#60;frxA07_2.&#34;稅別&#34;&#62;  = '1' ) then&#13;&#10;    aText := '應稅'&#13;&#10;  else if ( &#60;frxA07_2.&#34;稅別&#34;&#62;  = '2' ) then&#13;&#10;    aText := '零稅'&#13;&#10;  else if ( &#60;frxA07_2.&#34;稅別&#34;&#62;  = '3' ) then&#13;&#10;    aText := '免稅';&#13;&#10;  Set( '稅別(說明)', '''' + aText + '''' ); }&#13;&#10;end;&#13;&#10;&#13;&#10;begin&#13;&#10;&#13;&#10;end." PropData="044C656674022C03546F70021A08446174617365747301010C2A00000020446174615365743D226672784130375F322220446174615365744E616D653D226672784130375F32220000095661726961626C657301010C11000000204E616D653D2220AC64B8DFB1F8A5F32200010C0E000000204E616D653D22A4BDA571A74F2200010C0D000000204E616D653D2220A8E4A5A62200010C16000000204E616D653D22B56FB2BCBAD8C3FE28BBA1A9FA292200010C12000000204E616D653D22B57CA74F28BBA1A9FA29220000055374796C650100">
+  <TfrxReportPage Name="Page1" Font.Charset="0" Font.Color="0" Font.Height="-13" Font.Name="標楷體" Font.Style="0" Orientation="poLandscape" PaperWidth="297" PaperHeight="210" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxMasterData Name="MasterData1" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="新細明體" Font.Style="0" Height="574.48856" Left="0" ParentFont="False" Top="18.89765" Width="1046.92981" OnBeforePrint="MasterData1OnBeforePrint" ColumnWidth="0" ColumnGap="0" DataSet="frxA07_2" DataSetName="frxA07_2" RowCount="0" StartNewPage="True">
+      <TfrxShapeView Name="Shape1" Left="15.11812" Top="94.48825" Width="480.00031" Height="105.82684" Frame.Width="2"/>
+      <TfrxLineView Name="Line3" Left="41.57483" Top="94.48825" Width="0" Height="105.82684" Frame.Typ="1" Frame.Width="2"/>
+      <TfrxMemoView Name="Memo32" Left="18.89765" Top="102.04731" Width="22.67718" Height="83.14966" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="新細明體" Font.Style="0" Memo.Text="原&#13;&#10;開&#13;&#10;立&#13;&#10;銷&#13;&#10;貨" ParentFont="False"/>
+      <TfrxLineView Name="Line4" Left="68.03154" Top="94.48825" Width="0" Height="105.82684" Frame.Typ="1" Frame.Width="2"/>
+      <TfrxLineView Name="Line5" Left="158.74026" Top="94.48825" Width="0" Height="105.82684" Frame.Typ="1" Frame.Width="2"/>
+      <TfrxLineView Name="Line6" Left="68.03154" Top="120.94496" Width="427.08689" Height="0" Frame.Typ="4" Frame.Width="2"/>
+      <TfrxLineView Name="Line7" Left="68.03154" Top="158.74026" Width="427.08689" Height="0" Frame.Typ="4" Frame.Width="2"/>
+      <TfrxMemoView Name="Memo2" Left="45.35436" Top="109.60637" Width="22.67718" Height="68.03154" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="新細明體" Font.Style="0" Memo.Text="發&#13;&#10;票&#13;&#10;單&#13;&#10;位" ParentFont="False"/>
+      <TfrxMemoView Name="Memo3" Left="79.37013" Top="98.26778" Width="68.03154" Height="15.11812" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="新細明體" Font.Style="0" Memo.Text="名　　稱" ParentFont="False"/>
+      <TfrxMemoView Name="Memo4" Left="79.37013" Top="124.72449" Width="68.03154" Height="34.01577" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="新細明體" Font.Style="0" Memo.Text="營利事業&#13;&#10;統一編號" ParentFont="False"/>
+      <TfrxMemoView Name="Memo5" Left="79.37013" Top="162.51979" Width="68.03154" Height="34.01577" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="新細明體" Font.Style="0" Memo.Text="營  業  所&#13;&#10;在  地  址" ParentFont="False"/>
+      <TfrxMemoView Name="Memo10" Left="162.51979" Top="98.26778" Width="328.81911" Height="22.67718" DataField="公司全名" DataSet="frxA07_2" DataSetName="frxA07_2" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="新細明體" Font.Style="0" Memo.Text="[frxA07_2.&#34;公司全名&#34;]" ParentFont="False"/>
+      <TfrxMemoView Name="Memo1" Left="162.51979" Top="132.28355" Width="249.44898" Height="18.89765" DataField="公司統編" DataSet="frxA07_2" DataSetName="frxA07_2" Memo.Text="[frxA07_2.&#34;公司統編&#34;]"/>
+      <TfrxMemoView Name="Memo6" Left="162.51979" Top="162.51979" Width="328.81911" Height="34.01577" DataField="公司營業地址" DataSet="frxA07_2" DataSetName="frxA07_2" Memo.Text="[frxA07_2.&#34;公司營業地址&#34;]"/>
+      <TfrxMemoView Name="Memo7" Left="510.23655" Top="102.04731" Width="321.26005" Height="18.89765" Font.Charset="0" Font.Color="0" Font.Height="-19" Font.Name="新細明體" Font.Style="1" Memo.Text="營業人銷貨退回進貨退出或折讓證明單" ParentFont="False"/>
+      <TfrxMemoView Name="Memo8" Left="888.18955" Top="102.04731" Width="79.37013" Height="18.89765" DataField="列印人員" DataSet="frxA07_2" DataSetName="frxA07_2" Memo.Text="[frxA07_2.&#34;列印人員&#34;]"/>
+      <TfrxMemoView Name="Memo9" Left="1024.25263" Top="98.26778" Width="18.89765" Height="272.12616" Font.Charset="0" Font.Color="0" Font.Height="-11" Font.Name="新細明體" Font.Style="1" Memo.Text="第&#13;&#10;一&#13;&#10;聯&#13;&#10;：&#13;&#10;交&#13;&#10;付&#13;&#10;原&#13;&#10;銷&#13;&#10;貨&#13;&#10;人&#13;&#10;作&#13;&#10;為&#13;&#10;銷&#13;&#10;項&#13;&#10;稅&#13;&#10;額&#13;&#10;之&#13;&#10;扣&#13;&#10;款&#13;&#10;憑&#13;&#10;證" ParentFont="False"/>
+      <TfrxMemoView Name="Memo11" Left="510.23655" Top="170.07885" Width="64.25201" Height="15.11812" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="新細明體" Font.Style="0" Memo.Text="中華民國" ParentFont="False"/>
+      <TfrxMemoView Name="Memo12" Left="578.26809" Top="170.07885" Width="30.23624" Height="15.11812" Memo.Text="[IntToStr(StrToInt(&#60;frxA07_2.&#34;折讓單日期(年)&#34;&#62;) - 1911)]"/>
+      <TfrxMemoView Name="Memo13" Left="604.7248" Top="170.07885" Width="18.89765" Height="18.89765" Memo.Text="年"/>
+      <TfrxMemoView Name="Memo14" Left="627.40198" Top="170.07885" Width="22.67718" Height="18.89765" DataField="折讓單日期(月)" DataSet="frxA07_2" DataSetName="frxA07_2" Memo.Text="[frxA07_2.&#34;折讓單日期(月)&#34;]"/>
+      <TfrxMemoView Name="Memo15" Left="650.07916" Top="170.07885" Width="18.89765" Height="18.89765" Memo.Text="月"/>
+      <TfrxMemoView Name="Memo16" Left="668.97681" Top="170.07885" Width="22.67718" Height="18.89765" DataField="折讓單日期(日)" DataSet="frxA07_2" DataSetName="frxA07_2" Memo.Text="[frxA07_2.&#34;折讓單日期(日)&#34;]"/>
+      <TfrxMemoView Name="Memo17" Left="691.65399" Top="170.07885" Width="18.89765" Height="18.89765" Memo.Text="日"/>
+      <TfrxMemoView Name="Memo18" Left="737.00835" Top="143.62214" Width="49.13389" Height="15.11812" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="新細明體" Font.Style="0" Memo.Text="序號：" ParentFont="False"/>
+      <TfrxMemoView Name="Memo19" Left="737.00835" Top="170.07885" Width="49.13389" Height="15.11812" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="新細明體" Font.Style="0" Memo.Text="客編：" ParentFont="False"/>
+      <TfrxMemoView Name="Memo20" Left="782.36271" Top="170.07885" Width="79.37013" Height="18.89765" DataField="客編" DataSet="frxA07_2" DataSetName="frxA07_2" Memo.Text="[frxA07_2.&#34;客編&#34;]"/>
+      <TfrxShapeView Name="Shape2" Left="15.11812" Top="226.7718" Width="994.01639" Height="204.09462" Frame.Width="2"/>
+      <TfrxLineView Name="Line1" Left="15.11812" Top="253.22851" Width="823.93754" Height="0" Frame.Typ="4" Frame.Width="2"/>
+      <TfrxLineView Name="Line2" Left="839.05566" Top="226.7718" Width="0" Height="204.09462" Frame.Typ="1" Frame.Width="2"/>
+      <TfrxLineView Name="Line8" Left="15.11812" Top="332.59864" Width="994.01639" Height="0" Frame.Typ="4" Frame.Width="2"/>
+      <TfrxLineView Name="Line9" Left="15.11812" Top="298.58287" Width="994.01639" Height="0" Frame.Typ="4" Frame.Width="2"/>
+      <TfrxLineView Name="Line10" Left="895.74861" Top="298.58287" Width="0" Height="132.28355" Frame.Typ="1" Frame.Width="2"/>
+      <TfrxLineView Name="Line11" Left="952.44156" Top="298.58287" Width="0" Height="132.28355" Frame.Typ="1" Frame.Width="2"/>
+      <TfrxMemoView Name="Memo21" Left="888.18955" Top="245.66945" Width="83.14966" Height="22.67718" Font.Charset="0" Font.Color="0" Font.Height="-16" Font.Name="新細明體" Font.Style="1" Memo.Text="打 ( V ) 處" ParentFont="False"/>
+      <TfrxMemoView Name="Memo22" Left="888.18955" Top="268.34663" Width="83.14966" Height="22.67718" Font.Charset="0" Font.Color="0" Font.Height="-16" Font.Name="新細明體" Font.Style="1" Memo.Text="備         註" ParentFont="False"/>
+      <TfrxMemoView Name="Memo23" Left="854.17378" Top="306.14193" Width="37.7953" Height="15.11812" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="新細明體" Font.Style="0" Memo.Text="應稅" ParentFont="False"/>
+      <TfrxMemoView Name="Memo24" Left="903.30767" Top="306.14193" Width="49.13389" Height="15.11812" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="新細明體" Font.Style="0" Memo.Text="零稅率" ParentFont="False"/>
+      <TfrxMemoView Name="Memo25" Left="963.78015" Top="306.14193" Width="37.7953" Height="15.11812" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="新細明體" Font.Style="0" Memo.Text="免稅" ParentFont="False"/>
+      <TfrxMemoView Name="Memo26" Left="865.51237" Top="336.37817" Width="18.89765" Height="15.11812" Memo.Text="[IIF(&#60;frxA07_2.&#34;稅別&#34;&#62;=1,'V','')]"/>
+      <TfrxMemoView Name="Memo27" Left="910.86673" Top="336.37817" Width="34.01577" Height="15.11812" Memo.Text="[IIF(&#60;frxA07_2.&#34;稅別&#34;&#62;=2,'V','')]"/>
+      <TfrxMemoView Name="Memo28" Left="971.33921" Top="336.37817" Width="18.89765" Height="15.11812" Memo.Text="[IIF(&#60;frxA07_2.&#34;稅別&#34;&#62;=3,'V','')]"/>
+      <TfrxLineView Name="Line12" Left="56.69295" Top="253.22851" Width="0" Height="132.28355" Frame.Typ="1" Frame.Width="2"/>
+      <TfrxLineView Name="Line13" Left="90.70872" Top="253.22851" Width="0" Height="132.28355" Frame.Typ="1" Frame.Width="2"/>
+      <TfrxLineView Name="Line14" Left="128.50402" Top="253.22851" Width="0" Height="132.28355" Frame.Typ="1" Frame.Width="2"/>
+      <TfrxLineView Name="Line15" Left="162.51979" Top="253.22851" Width="0" Height="132.28355" Frame.Typ="1" Frame.Width="2"/>
+      <TfrxLineView Name="Line16" Left="279.68522" Top="226.7718" Width="0" Height="158.74026" Frame.Typ="1" Frame.Width="2"/>
+      <TfrxMemoView Name="Memo29" Left="79.37013" Top="230.55133" Width="151.1812" Height="18.89765" Font.Charset="0" Font.Color="0" Font.Height="-19" Font.Name="新細明體" Font.Style="1" Memo.Text="開　立　發　票" ParentFont="False"/>
+      <TfrxMemoView Name="Memo30" Left="22.67718" Top="260.78757" Width="18.89765" Height="30.23624" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="新細明體" Font.Style="0" Memo.Text="聯&#13;&#10;式" ParentFont="False"/>
+      <TfrxMemoView Name="Memo31" Left="64.25201" Top="272.12616" Width="18.89765" Height="22.67718" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="新細明體" Font.Style="0" Memo.Text="年" ParentFont="False"/>
+      <TfrxMemoView Name="Memo33" Left="98.26778" Top="272.12616" Width="18.89765" Height="22.67718" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="新細明體" Font.Style="0" Memo.Text="月" ParentFont="False"/>
+      <TfrxMemoView Name="Memo34" Left="136.06308" Top="272.12616" Width="18.89765" Height="22.67718" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="新細明體" Font.Style="0" Memo.Text="日" ParentFont="False"/>
+      <TfrxMemoView Name="Memo35" Left="60.47248" Top="306.14193" Width="30.23624" Height="15.11812" Memo.Text="[IntToStr(StrToInt(&#60;frxA07_2.&#34;折讓單日期(年)&#34;&#62;) - 1911)]"/>
+      <TfrxMemoView Name="Memo36" Left="98.26778" Top="306.14193" Width="22.67718" Height="18.89765" DataField="折讓單日期(月)" DataSet="frxA07_2" DataSetName="frxA07_2" Memo.Text="[frxA07_2.&#34;折讓單日期(月)&#34;]"/>
+      <TfrxMemoView Name="Memo37" Left="136.06308" Top="306.14193" Width="22.67718" Height="18.89765" DataField="折讓單日期(日)" DataSet="frxA07_2" DataSetName="frxA07_2" Memo.Text="[frxA07_2.&#34;折讓單日期(日)&#34;]"/>
+      <TfrxLineView Name="Line17" Left="207.87415" Top="253.22851" Width="0" Height="132.28355" Frame.Typ="1" Frame.Width="2"/>
+      <TfrxMemoView Name="Memo38" Left="170.07885" Top="272.12616" Width="34.01577" Height="22.67718" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="新細明體" Font.Style="0" Memo.Text="字軌" ParentFont="False"/>
+      <TfrxMemoView Name="Memo39" Left="173.85838" Top="306.14193" Width="26.45671" Height="18.89765" DataField="開立發票字軌" DataSet="frxA07_2" DataSetName="frxA07_2" Memo.Text="[frxA07_2.&#34;開立發票字軌&#34;]"/>
+      <TfrxMemoView Name="Memo40" Left="215.43321" Top="272.12616" Width="60.47248" Height="22.67718" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="新細明體" Font.Style="0" Memo.Text="號       碼" ParentFont="False"/>
+      <TfrxMemoView Name="Memo41" Left="215.43321" Top="306.14193" Width="56.69295" Height="18.89765" DataField="開立發票號碼" DataSet="frxA07_2" DataSetName="frxA07_2" Memo.Text="[frxA07_2.&#34;開立發票號碼&#34;]"/>
+      <TfrxMemoView Name="Memo42" Left="18.89765" Top="306.14193" Width="34.01577" Height="22.67718" Memo.Text="[發票種類(說明)]"/>
+      <TfrxMemoView Name="Memo43" Left="430.86642" Top="230.55133" Width="275.90569" Height="18.89765" Font.Charset="0" Font.Color="0" Font.Height="-19" Font.Name="新細明體" Font.Style="1" Memo.Text="退　貨　或　折　讓　內　容" ParentFont="False"/>
+      <TfrxLineView Name="Line18" Left="472.44125" Top="253.22851" Width="0" Height="177.63791" Frame.Typ="1" Frame.Width="2"/>
+      <TfrxMemoView Name="Memo44" Left="332.59864" Top="272.12616" Width="94.48825" Height="22.67718" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="新細明體" Font.Style="0" Memo.Text="品　　       名" ParentFont="False"/>
+      <TfrxMemoView Name="Memo45" Left="287.24428" Top="306.14193" Width="177.63791" Height="18.89765" DataField="發票品名" DataSet="frxA07_2" DataSetName="frxA07_2" Memo.Text="[frxA07_2.&#34;發票品名&#34;]"/>
+      <TfrxLineView Name="Line19" Left="521.57514" Top="253.22851" Width="0" Height="177.63791" Frame.Typ="1" Frame.Width="2"/>
+      <TfrxLineView Name="Line20" Left="574.48856" Top="253.22851" Width="0" Height="177.63791" Frame.Typ="1" Frame.Width="2"/>
+      <TfrxMemoView Name="Memo46" Left="480.00031" Top="272.12616" Width="34.01577" Height="22.67718" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="新細明體" Font.Style="0" Memo.Text="數量" ParentFont="False"/>
+      <TfrxMemoView Name="Memo47" Left="532.91373" Top="272.12616" Width="34.01577" Height="22.67718" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="新細明體" Font.Style="0" Memo.Text="單價" ParentFont="False"/>
+      <TfrxLineView Name="Line21" Left="574.48856" Top="275.90569" Width="264.5671" Height="0" Frame.Typ="4" Frame.Width="2"/>
+      <TfrxMemoView Name="Memo48" Left="638.74057" Top="257.00804" Width="136.06308" Height="22.67718" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="新細明體" Font.Style="0" Memo.Text="退　出　或　折　讓" ParentFont="False"/>
+      <TfrxMemoView Name="Memo49" Left="578.26809" Top="279.68522" Width="177.63791" Height="22.67718" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="新細明體" Font.Style="0" Memo.Text="金額（不含稅之進貨額）" ParentFont="False"/>
+      <TfrxLineView Name="Line22" Left="763.46506" Top="275.90569" Width="0" Height="154.96073" Frame.Typ="1" Frame.Width="2"/>
+      <TfrxMemoView Name="Memo50" Left="771.02412" Top="279.68522" Width="56.69295" Height="22.67718" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="新細明體" Font.Style="0" Memo.Text="營 業 稅" ParentFont="False"/>
+      <TfrxMemoView Name="Memo51" Left="578.26809" Top="306.14193" Width="177.63791" Height="18.89765" DataField="銷售額" DataSet="frxA07_2" DataSetName="frxA07_2" HAlign="haRight" Memo.Text="[frxA07_2.&#34;銷售額&#34;]"/>
+      <TfrxMemoView Name="Memo52" Left="767.24459" Top="306.14193" Width="68.03154" Height="18.89765" DataField="稅額" DataSet="frxA07_2" DataSetName="frxA07_2" HAlign="haRight" Memo.Text="[frxA07_2.&#34;稅額&#34;]"/>
+      <TfrxLineView Name="Line23" Left="15.11812" Top="359.05535" Width="994.01639" Height="0" Frame.Typ="4" Frame.Width="2"/>
+      <TfrxLineView Name="Line24" Left="15.11812" Top="385.51206" Width="994.01639" Height="0" Frame.Typ="4" Frame.Width="2"/>
+      <TfrxMemoView Name="Memo53" Left="287.24428" Top="396.85065" Width="139.84261" Height="18.89765" Font.Charset="0" Font.Color="0" Font.Height="-19" Font.Name="新細明體" Font.Style="1" Memo.Text="合　　　　計" ParentFont="False"/>
+      <TfrxMemoView Name="Memo54" Left="865.51237" Top="400.63018" Width="18.89765" Height="15.11812" Memo.Text="[IIF(&#60;frxA07_2.&#34;稅別&#34;&#62;=1,'V','')]"/>
+      <TfrxMemoView Name="Memo55" Left="910.86673" Top="400.63018" Width="34.01577" Height="15.11812" Memo.Text="[IIF(&#60;frxA07_2.&#34;稅別&#34;&#62;=2,'V','')]"/>
+      <TfrxMemoView Name="Memo56" Left="971.33921" Top="400.63018" Width="18.89765" Height="15.11812" Memo.Text="[IIF(&#60;frxA07_2.&#34;稅別&#34;&#62;=3,'V','')]"/>
+      <TfrxMemoView Name="Memo57" Left="767.24459" Top="396.85065" Width="68.03154" Height="18.89765" DataField="稅額" DataSet="frxA07_2" DataSetName="frxA07_2" HAlign="haRight" Memo.Text="[frxA07_2.&#34;稅額&#34;]"/>
+      <TfrxMemoView Name="Memo58" Left="574.48856" Top="396.85065" Width="177.63791" Height="18.89765" DataField="銷售額" DataSet="frxA07_2" DataSetName="frxA07_2" HAlign="haRight" Memo.Text="[frxA07_2.&#34;銷售額&#34;]"/>
+      <TfrxMemoView Name="Memo59" Left="15.11812" Top="438.42548" Width="438.42548" Height="15.11812" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="新細明體" Font.Style="0" Memo.Text="本證明單所列銷貨退回進貨退出或折讓，確實屬實，特此證明。" ParentFont="False"/>
+      <TfrxMemoView Name="Memo60" Left="15.11812" Top="461.10266" Width="98.26778" Height="37.7953" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="新細明體" Font.Style="0" Memo.Text="原進貨營業人&#13;&#10;(或原買受人)" ParentFont="False"/>
+      <TfrxMemoView Name="Memo61" Left="143.62214" Top="472.44125" Width="49.13389" Height="15.11812" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="新細明體" Font.Style="0" Memo.Text="名稱：" ParentFont="False"/>
+      <TfrxMemoView Name="Memo62" Left="495.11843" Top="472.44125" Width="192.75603" Height="15.11812" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="新細明體" Font.Style="0" Memo.Text="(蓋章)　　　　　地　址：" ParentFont="False"/>
+      <TfrxMemoView Name="Memo63" Left="15.11812" Top="506.45702" Width="147.40167" Height="15.11812" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="新細明體" Font.Style="0" Memo.Text="營業事業統一編號：" ParentFont="False"/>
+      <TfrxMemoView Name="Memo64" Left="170.07885" Top="506.45702" Width="207.87415" Height="18.89765" DataField="統編" DataSet="frxA07_2" DataSetName="frxA07_2" Memo.Text="[frxA07_2.&#34;統編&#34;]"/>
+    </TfrxMasterData>
+  </TfrxReportPage>
+</TfrxReport>

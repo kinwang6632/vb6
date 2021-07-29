@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BroadcastData SYSTEM "BroadcastData.dtd">
+<BroadcastData creationDate="20051124101849">
+  <ProviderInfo>
+    <ProviderId>Nagra</ProviderId>
+    <ProviderName>Nagravision S.A.</ProviderName>
+  </ProviderInfo>
+  <ScheduleData>
+    <Channel>
+      <ChannelId>503</ChannelId>
+      <ChannelNumber>503</ChannelNumber>
+      <EitStatus>0</EitStatus>
+      <Unscrambled>0</Unscrambled>
+      <ChannelText language="eng">
+        <ChannelShortName>PPV3</ChannelShortName>
+        <ChannelName>PPV3</ChannelName>
+      </ChannelText>
+      <ChannelText language="chi">
+        <ChannelShortName>PPV3</ChannelShortName>
+        <ChannelName>PPV3</ChannelName>
+      </ChannelText>
+      <ChannelActivationMode>0</ChannelActivationMode>
+      <PrivateDescriptor tag="132" length="9" pdsValue="1162691328">000000000004000000</PrivateDescriptor>
+      <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D300FC</PrivateDescriptor>
+      <PhysicalServiceId>
+        <DvbServiceId>503</DvbServiceId>
+        <TransportId originalNetworkId="1">4</TransportId>
+      </PhysicalServiceId>
+    </Channel>
+  </ScheduleData>
+</BroadcastData>

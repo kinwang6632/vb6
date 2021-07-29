@@ -1,0 +1,36 @@
+﻿
+.tableBorder1 {
+	BORDER-RIGHT: 1px; BORDER-TOP: 1px; BORDER-LEFT: 1px; WIDTH: 100%; BORDER-BOTTOM: 1px; BACKGROUND-COLOR: #ffffff;
+}
+.tableBorder2
+{
+    border-right: #6595d6 1px solid;
+    border-top: #6595d6 1px solid;
+    border-left: green 2px dotted;
+    border-bottom: #6595d6 1px solid;
+    background-color: #d6e0ef;
+}
+TD.TableBody1
+{
+    line-height: normal;
+    background-color: #f8f8f8;
+    border-bottom-color: green;
+    border-bottom-style: dotted;
+}
+TD.TableBody2
+{
+    background-color: #ecf4fa;
+    border-left: green thin dotted;
+}
+BODY
+{
+    background-color: yellow;
+}
+#title
+{
+    background-color: transparent;
+    vertical-align: middle;
+    color: blue;
+    font-family: Arial;
+    text-align: center;
+}

@@ -1,0 +1,237 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{8906e841-3522-439a-bb85-1f47ca655fe7}</ProjectGuid>
+    <MainSource>prjCommAP.dpr</MainSource>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>prjCommAP.exe</DCC_DependencyCheckOutputName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_DcuOutput>D:\Temp\Dcu</DCC_DcuOutput>
+    <DCC_ObjOutput>D:\Temp\Dcu</DCC_ObjOutput>
+    <DCC_HppOutput>D:\Temp\Dcu</DCC_HppOutput>
+    <DCC_Define>RELEASE</DCC_Define>
+    <DCC_UNSAFE_TYPE>True</DCC_UNSAFE_TYPE>
+    <DCC_UNSAFE_CODE>True</DCC_UNSAFE_CODE>
+    <DCC_UNSAFE_CAST>True</DCC_UNSAFE_CAST>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_DcuOutput>D:\Temp\Dcu</DCC_DcuOutput>
+    <DCC_ObjOutput>D:\Temp\Dcu</DCC_ObjOutput>
+    <DCC_HppOutput>D:\Temp\Dcu</DCC_HppOutput>
+    <DCC_Define>DEBUG</DCC_Define>
+    <DCC_Optimize>False</DCC_Optimize>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Delphi.Personality</Borland.Personality>
+    <Borland.ProjectType>VCLApplication</Borland.ProjectType>
+    <BorlandProject>
+<BorlandProject><Delphi.Personality><Parameters><Parameters Name="RunParams">Y MAINTAIN Admin 6 豐盟 EMCFM EMCFM miscable C 127.0.0.1 N 0</Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><VersionInfo><VersionInfo Name="IncludeVerInfo">False</VersionInfo><VersionInfo Name="AutoIncBuild">False</VersionInfo><VersionInfo Name="MajorVer">1</VersionInfo><VersionInfo Name="MinorVer">0</VersionInfo><VersionInfo Name="Release">0</VersionInfo><VersionInfo Name="Build">0</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">1028</VersionInfo><VersionInfo Name="CodePage">950</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName"></VersionInfoKeys><VersionInfoKeys Name="FileDescription"></VersionInfoKeys><VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="InternalName"></VersionInfoKeys><VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName"></VersionInfoKeys><VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="Comments"></VersionInfoKeys></VersionInfoKeys><Source><Source Name="MainSource">prjCommAP.dpr</Source></Source><Excluded_Packages>
+      
+      
+      
+      
+      <Excluded_Packages Name="$(BDS)\bin\dcloffice2k100.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
+      <Excluded_Packages Name="$(BDS)\bin\dclofficexp100.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
+    </Excluded_Packages></Delphi.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+  <ItemGroup>
+    <DelphiCompile Include="prjCommAP.dpr">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="..\Common\DevPower_TLB.pas" />
+    <DCCReference Include="..\Common\fraChineseYMDU.pas">
+      <Form>fraChineseYMD</Form>
+      <DesignClass>TFrame</DesignClass>
+    </DCCReference>
+    <DCCReference Include="..\Common\fraChineseYMU.pas">
+      <Form>fraChineseYM</Form>
+      <DesignClass>TFrame</DesignClass>
+    </DCCReference>
+    <DCCReference Include="..\Common\frmDbMultiSelectu.pas">
+      <Form>frmDbMultiSelect</Form>
+    </DCCReference>
+    <DCCReference Include="..\Common\frmDbSelectu.pas">
+      <Form>frmDbSelect</Form>
+    </DCCReference>
+    <DCCReference Include="..\Common\frmRptPreviewU.pas">
+      <Form>frmRptPreView</Form>
+    </DCCReference>
+    <DCCReference Include="..\Common\scExcelExport.pas" />
+    <DCCReference Include="..\Common\UCommonU.pas" />
+    <DCCReference Include="..\Common\UdateTimeu.pas" />
+    <DCCReference Include="..\Common\UdbU.pas" />
+    <DCCReference Include="..\Common\UObjectu.pas" />
+    <DCCReference Include="..\Common\Ustru.pas" />
+    <DCCReference Include="..\Common\XLSFile.pas" />
+    <DCCReference Include="..\Common\xmlU.pas" />
+    <DCCReference Include="..\Server\Emc_Separate_TLB.pas" />
+    <DCCReference Include="dtmMain1U.pas">
+      <Form>dtmMain1</Form>
+      <DesignClass>TDataModule</DesignClass>
+    </DCCReference>
+    <DCCReference Include="dtmMain2U.pas">
+      <Form>dtmMain2</Form>
+      <DesignClass>TDataModule</DesignClass>
+    </DCCReference>
+    <DCCReference Include="dtmMain3U.pas">
+      <Form>dtmMain3</Form>
+      <DesignClass>TDataModule</DesignClass>
+    </DCCReference>
+    <DCCReference Include="dtmMain4U.pas">
+      <Form>dtmMain4</Form>
+      <DesignClass>TDataModule</DesignClass>
+    </DCCReference>
+    <DCCReference Include="frmDualListDlgU.pas">
+      <Form>frmDualListDlg</Form>
+    </DCCReference>
+    <DCCReference Include="frmLoginU.pas">
+      <Form>frmLogin</Form>
+    </DCCReference>
+    <DCCReference Include="frmMainMenuU.pas">
+      <Form>frmMainMenu</Form>
+    </DCCReference>
+    <DCCReference Include="frmSO8A10U.pas">
+      <Form>frmSO8A10</Form>
+    </DCCReference>
+    <DCCReference Include="frmSO8A20U.pas">
+      <Form>frmSO8A20</Form>
+    </DCCReference>
+    <DCCReference Include="frmSO8A3011U.pas">
+      <Form>frmSO8A3011</Form>
+    </DCCReference>
+    <DCCReference Include="frmSO8A301U.pas">
+      <Form>frmSO8A301</Form>
+    </DCCReference>
+    <DCCReference Include="frmSO8A30U.pas">
+      <Form>frmSO8A30</Form>
+    </DCCReference>
+    <DCCReference Include="frmSO8A40U.pas">
+      <Form>frmSO8A40</Form>
+    </DCCReference>
+    <DCCReference Include="frmSO8A50U.pas">
+      <Form>frmSO8A50</Form>
+    </DCCReference>
+    <DCCReference Include="frmSO8A60U.pas">
+      <Form>frmSO8A60</Form>
+    </DCCReference>
+    <DCCReference Include="frmSO8B10U.pas">
+      <Form>frmSO8B10</Form>
+    </DCCReference>
+    <DCCReference Include="frmSO8B20U.pas">
+      <Form>frmSO8B20</Form>
+    </DCCReference>
+    <DCCReference Include="frmSO8B20_1U.pas">
+      <Form>frmSO8B20_1</Form>
+    </DCCReference>
+    <DCCReference Include="frmSO8B30U.pas">
+      <Form>frmSO8B30</Form>
+    </DCCReference>
+    <DCCReference Include="frmSO8B40U.pas">
+      <Form>frmSO8B40</Form>
+    </DCCReference>
+    <DCCReference Include="frmSO8B50U.pas">
+      <Form>frmSO8B50</Form>
+    </DCCReference>
+    <DCCReference Include="frmSO8C10U.pas">
+      <Form>frmSO8C10</Form>
+    </DCCReference>
+    <DCCReference Include="frmSO8C20U.pas">
+      <Form>frmSO8C20</Form>
+    </DCCReference>
+    <DCCReference Include="frmSO8C30U.pas">
+      <Form>frmSO8C30</Form>
+    </DCCReference>
+    <DCCReference Include="frmSO8C40_1U.pas">
+      <Form>frmSO8C40_1</Form>
+    </DCCReference>
+    <DCCReference Include="frmSO8C40_2U.pas">
+      <Form>frmSO8C40_2</Form>
+    </DCCReference>
+    <DCCReference Include="frmSo8C60U.pas">
+      <Form>frmSo8C60</Form>
+    </DCCReference>
+    <DCCReference Include="frmSO8F10_1U.pas">
+      <Form>frmSO8F10_1</Form>
+    </DCCReference>
+    <DCCReference Include="frmSO8F10_2U.pas">
+      <Form>frmSO8F10_2</Form>
+    </DCCReference>
+    <DCCReference Include="frmSO8F10_3U.pas">
+      <Form>frmSO8F10_3</Form>
+    </DCCReference>
+    <DCCReference Include="frmSO8F10_4U.pas">
+      <Form>frmSO8F10_4</Form>
+    </DCCReference>
+    <DCCReference Include="frmSO8F20U.pas">
+      <Form>frmSO8F20</Form>
+    </DCCReference>
+    <DCCReference Include="rptSO8A40AU.pas">
+      <Form>rptSO8A40A</Form>
+      <DesignClass>TQuickRep</DesignClass>
+    </DCCReference>
+    <DCCReference Include="rptSO8A40BU.pas">
+      <Form>rptSO8A40B</Form>
+      <DesignClass>TQuickRep</DesignClass>
+    </DCCReference>
+    <DCCReference Include="rptSO8A40CU.pas">
+      <Form>rptSO8A40C</Form>
+      <DesignClass>TQuickRep</DesignClass>
+    </DCCReference>
+    <DCCReference Include="rptSO8B20AU.pas">
+      <Form>rptSO8B20A</Form>
+      <DesignClass>TQuickRep</DesignClass>
+    </DCCReference>
+    <DCCReference Include="rptSO8B20B_1U.pas">
+      <Form>rptSO8B20B_1</Form>
+      <DesignClass>TQuickRep</DesignClass>
+    </DCCReference>
+    <DCCReference Include="rptSO8B20B_2U.pas">
+      <Form>rptSO8B20B_2</Form>
+      <DesignClass>TQuickRep</DesignClass>
+    </DCCReference>
+    <DCCReference Include="rptSO8B20B_3U.pas">
+      <Form>rptSO8B20B_3</Form>
+      <DesignClass>TQuickRep</DesignClass>
+    </DCCReference>
+    <DCCReference Include="rptSO8B20B_4U.pas">
+      <Form>rptSO8B20B_4</Form>
+      <DesignClass>TQuickRep</DesignClass>
+    </DCCReference>
+    <DCCReference Include="rptSO8C10U.pas">
+      <Form>rptSO8C10</Form>
+      <DesignClass>TQuickRep</DesignClass>
+    </DCCReference>
+    <DCCReference Include="rptSO8C30_1U.pas">
+      <Form>rptSO8C30_1</Form>
+      <DesignClass>TQuickRep</DesignClass>
+    </DCCReference>
+    <DCCReference Include="rptSO8C30_2U.pas">
+      <Form>rptSO8C30_2</Form>
+      <DesignClass>TQuickRep</DesignClass>
+    </DCCReference>
+    <DCCReference Include="rptSO8C30_3U.pas">
+      <Form>rptSO8C30_3</Form>
+      <DesignClass>TQuickRep</DesignClass>
+    </DCCReference>
+    <DCCReference Include="rptSO8C30_4U.pas">
+      <Form>rptSO8C30_4</Form>
+      <DesignClass>TQuickRep</DesignClass>
+    </DCCReference>
+    <DCCReference Include="rptSO8C40U.pas">
+      <Form>rptSO8C40</Form>
+      <DesignClass>TQuickRep</DesignClass>
+    </DCCReference>
+    <DCCReference Include="rptSO8F20U.pas">
+      <Form>rptSO8F20</Form>
+      <DesignClass>TQuickRep</DesignClass>
+    </DCCReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{E62EA88E-7861-4CEE-B3EE-1304F659EC96}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>CableSoft.NSTV.Gateway.svcNstv</StartupObject>
+    <RootNamespace>CableSoft.NSTV.Gateway</RootNamespace>
+    <AssemblyName>CableSoft.NSTV.Gateway</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Console</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>CableSoft.NSTV.Gateway.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>CableSoft.NSTV.Gateway.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>1369736875_8840.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="svcNstInstaller.Designer.vb">
+      <DependentUpon>svcNstInstaller.vb</DependentUpon>
+    </Compile>
+    <Compile Include="svcNstInstaller.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="svcNstv.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="svcNstv.Designer.vb">
+      <DependentUpon>svcNstv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="svcNstInstaller.resx">
+      <DependentUpon>svcNstInstaller.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CableSoft.CAS.BuilderLowerCmd\CableSoft.CardLess.BuilderLowerCmd.vbproj">
+      <Project>{8C4D84C9-167F-4AC7-82E3-C4D12ABD0917}</Project>
+      <Name>CableSoft.CardLess.BuilderLowerCmd</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CableSoft.CAS.Encry\CableSoft.CAS.Encry\CableSoft.NSTV.Encry.vbproj">
+      <Project>{09D9F83C-B5EA-4253-AE31-3BA6BE8824FA}</Project>
+      <Name>CableSoft.NSTV.Encry</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CableSoft.CAS.SocketClient\CableSoft.CardLess.SocketClient.vbproj">
+      <Project>{483DD401-AE73-400D-B2C1-A973FCDA10AF}</Project>
+      <Name>CableSoft.CardLess.SocketClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CableSoft.CAS.XMLFileIO\CableSoft.CardLess.XMLFileIO.vbproj">
+      <Project>{3601D83C-8B2D-4FF2-B3AD-80D0B61C3A0F}</Project>
+      <Name>CableSoft.CardLess.XMLFileIO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CableSoft.NSTV.BuilderHighCmd\CableSoft.NSTV.BuilderHighCmd.vbproj">
+      <Project>{5D42CD7D-1FD2-48B3-BFC4-B4A984D5E845}</Project>
+      <Name>CableSoft.NSTV.BuilderHighCmd</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CableSoft.Nstv.Process\CableSoft.CardLess.Process.vbproj">
+      <Project>{8F638364-45AA-4CF3-8049-F55D2EEBDEE8}</Project>
+      <Name>CableSoft.CardLess.Process</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CableSoft.Nstv.SO\CableSoft.CardLess.SODB.vbproj">
+      <Project>{E155CEF5-39AF-40A0-8927-2AFCF7FF6413}</Project>
+      <Name>CableSoft.CardLess.SODB</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1369736875_8840.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

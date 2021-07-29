@@ -1,0 +1,57 @@
+[SearchSO0102] 找不正常戶!
+[SearchSO0102] strQry=Select Distinct A.CustId,A.CustName,A.Tel1,B.CustStatusCode,A.InstAddrNo From EMCNCC.SO001 A,EMCNCC.SO002 B Where (A.Tel1='8357828' Or A.Tel2='8357828' Or A.Tel3='8357828' Or B.ContTel='8357828') And B.ServiceType IN('I','P') And A.CompCode=5 And A.CompCode=B.CompCode And A.CustId=B.CustId
+[SearchSO014] Return:True strQry:Select Flour,NodeNo,CircuitNo From EMCNCC.SO014 Where CompCode=5 And AddrNo=306968
+[SearchSO0102] Return:True  strQry:Select Distinct A.CustId,A.CustName,A.Tel1,B.CustStatusCode,A.InstAddrNo From EMCNCC.SO001 A,EMCNCC.SO002 B Where (A.Tel1='8357828' Or A.Tel2='8357828' Or A.Tel3='8357828' Or B.ContTel='8357828') And B.ServiceType IN('I','P') And A.CompCode=5 And A.CompCode=B.CompCode And A.CustId=B.CustId
+[SearchSO004] Return:True stQry:Select CustId,PRDate From EMCNCC.SO004 Where (ContTel='8357828' Or ContTel2='8357828' Or AgentTel='8357828') And CompCode=5 And ServiceType In('I','P') And FaciCode In ( Select CodeNo From CD022 Where RefNo In(2,5))
+[SF_GETMFMSG] 失敗 p_addrNo:306968 p_CompCode:5 p_ServiceType:I
+[InsertSO006] 成功 
+[InsertSO552] 成功 CmdID:N26 CompCode:5 SerViceType:I CustID:3 ErrorTime:2008/4/29 下午 05:59:15 CircuitNo:
+[InsertSO551] 成功 strInsert:Insert Into EMCNCC.SO551 (ExchTime,CmdID,CompCode,CustID,XML_In,XML_Out) Values (To_Date('20080429175915','yyyymmddhh24miss'),'N26',5,3,'?Company=5&Language=1&Func=2&History=2,1&Tel=8357828&Floor=3&CMD=N26&IVRDebug=6632','<?xml version="1.0" encoding="UTF-8"?>
+<CableSoft>
+  <AGENT_ID>
+  </AGENT_ID>
+  <EXT>
+  </EXT>
+  <PORT>
+  </PORT>
+  <RecURL>
+  </RecURL>
+  <InTel>
+  </InTel>
+  <ObTel>
+  </ObTel>
+  <CustID>
+  </CustID>
+  <CMD>N26</CMD>
+  <CMD_Value>
+  </CMD_Value>
+  <S-EXT>
+  </S-EXT>
+  <D-EXT>
+  </D-EXT>
+  <CSID>
+  </CSID>
+  <SERVICETYPE>
+  </SERVICETYPE>
+  <SEQNO>
+  </SEQNO>
+  <EXTLOG>
+  </EXTLOG>
+  <Para1>
+  </Para1>
+  <Para2>
+  </Para2>
+  <Para3>
+  </Para3>
+  <Company>5</Company>
+  <Language>1</Language>
+  <Func>2</Func>
+  <History>2,1</History>
+  <Tel>8357828</Tel>
+  <Floor>3</Floor>
+  <Status>1</Status>
+  <Audio>
+  </Audio>
+  <Payment>
+  </Payment>
+</CableSoft>')

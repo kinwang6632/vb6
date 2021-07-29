@@ -1,0 +1,15 @@
+PROMPT *** SessionCountTab ¬ö¿ýsession countªºtable ***
+
+DROP TABLE SessionCountTab CASCADE CONSTRAINT;
+
+CREATE TABLE SessionCountTab (
+	COMPUTEDATE DATE,
+	USERNAME VARCHAR2(30),
+	STATUS  VARCHAR2(8),
+	SESSIONCOUNT  Number(8)	
+	);
+
+drop INDEX I_SessionCountTab_1;
+
+CREATE INDEX I_SessionCountTab_1 ON SessionCountTab (COMPUTEDATE,USERNAME,STATUS,SESSIONCOUNT)
+TABLESPACE EMCYMS_NDX;

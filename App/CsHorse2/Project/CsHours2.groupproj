@@ -1,0 +1,44 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{fc2da8fa-7c88-4f67-8373-142378b1b299}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Projects Include="Client\cbHr2.dproj" />
+    <Projects Include="Server\cbHrSrv.dproj" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+<BorlandProject xmlns=""><Default.Personality></Default.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="cbHrSrv">
+    <MSBuild Projects="Server\cbHrSrv.dproj" Targets="" />
+  </Target>
+  <Target Name="cbHrSrv:Clean">
+    <MSBuild Projects="Server\cbHrSrv.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="cbHrSrv:Make">
+    <MSBuild Projects="Server\cbHrSrv.dproj" Targets="Make" />
+  </Target>
+  <Target Name="cbHr2">
+    <MSBuild Projects="Client\cbHr2.dproj" Targets="" />
+  </Target>
+  <Target Name="cbHr2:Clean">
+    <MSBuild Projects="Client\cbHr2.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="cbHr2:Make">
+    <MSBuild Projects="Client\cbHr2.dproj" Targets="Make" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="cbHrSrv;cbHr2" />
+  </Target>
+  <Target Name="Clean">
+    <CallTarget Targets="cbHrSrv:Clean;cbHr2:Clean" />
+  </Target>
+  <Target Name="Make">
+    <CallTarget Targets="cbHrSrv:Make;cbHr2:Make" />
+  </Target>
+  <Import Condition="Exists('$(MSBuildBinPath)\Borland.Group.Targets')" Project="$(MSBuildBinPath)\Borland.Group.Targets" />
+</Project>

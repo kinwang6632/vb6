@@ -1,0 +1,46 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{bc1f1b0d-bc1a-4817-b9e3-b39d2d62009e}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Projects Include="CM2CTClientTest\CM2CTClientTest.dproj">
+      <Dependencies>CM2CT\LibCM2CT.dproj</Dependencies>
+    </Projects>
+    <Projects Include="CM2CT\LibCM2CT.dproj" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+<BorlandProject xmlns=""><Default.Personality></Default.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="LibCM2CT">
+    <MSBuild Projects="CM2CT\LibCM2CT.dproj" Targets="" />
+  </Target>
+  <Target Name="LibCM2CT:Clean">
+    <MSBuild Projects="CM2CT\LibCM2CT.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="LibCM2CT:Make">
+    <MSBuild Projects="CM2CT\LibCM2CT.dproj" Targets="Make" />
+  </Target>
+  <Target Name="CM2CTClientTest" DependsOnTargets="LibCM2CT">
+    <MSBuild Projects="CM2CTClientTest\CM2CTClientTest.dproj" Targets="" />
+  </Target>
+  <Target Name="CM2CTClientTest:Clean" DependsOnTargets="LibCM2CT:Clean">
+    <MSBuild Projects="CM2CTClientTest\CM2CTClientTest.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="CM2CTClientTest:Make" DependsOnTargets="LibCM2CT:Make">
+    <MSBuild Projects="CM2CTClientTest\CM2CTClientTest.dproj" Targets="Make" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="LibCM2CT;CM2CTClientTest" />
+  </Target>
+  <Target Name="Clean">
+    <CallTarget Targets="LibCM2CT:Clean;CM2CTClientTest:Clean" />
+  </Target>
+  <Target Name="Make">
+    <CallTarget Targets="LibCM2CT:Make;CM2CTClientTest:Make" />
+  </Target>
+  <Import Condition="Exists('$(MSBuildBinPath)\Borland.Group.Targets')" Project="$(MSBuildBinPath)\Borland.Group.Targets" />
+</Project>

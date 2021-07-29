@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BroadcastData SYSTEM "BroadcastData.dtd">
+<BroadcastData creationDate="20051124112217">
+  <ProviderInfo>
+    <ProviderId>Nagra</ProviderId>
+    <ProviderName>Nagravision S.A.</ProviderName>
+  </ProviderInfo>
+  <ScheduleData>
+    <ChannelPeriod beginTime="20051128110001" endTime="20051128140001">
+      <ChannelId>503</ChannelId>
+      <Event beginTime="20051128110001" duration="3600">
+        <EventId>L00000034322</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004924AD0102F6B68448CCBD9B755733C0143A7C8663B8738A42E2C506EDCB2968B1255FBE08B92F00892270A68B4E1427009A3103A586732A9A2930D37531B736A327E71160</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">0079C2F913880317004924138801656E67041A1A1A1AD1C61100010100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">0001000000492413880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">0001000000492413880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>閻王索命</Name>
+            <Description>西元2002年，自殺在美國成為合法行為，卻因而產生了難以預料的後果，吉姆（艾瑞克羅勃茲，「莫名殺機」）為了替瀕死的兒子籌措手術費，而將自己的身體賣給一家仲介”多餘器官”的大公司；然而吉姆的兒子並未逃過死神召喚，而買下他身體的器官仲介公司又拒絕讓他退還訂金，痛失愛子的吉姆只得展開逃亡生涯，以躲避該公司派出的殺手追蹤；但吉姆很快便發現若想保住小命，唯一的方法便是從問題的源頭著手：找上該公司的總裁！本片導演是紐西蘭籍的傑夫墨菲，他另外的作品包括「少壯屠龍陣2」、「魔鬼戰將2」、「奪命12小時」等。</Description>
+            <ExtendedInfo name="導演">傑夫墨菲</ExtendedInfo>
+            <ExtendedInfo name="演員">艾瑞克羅勃茲、凱瑞艾文斯、莎拉溫特</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Race Against Time</Name>
+            <Description>
+In 2002, the United States legalizes suicide.  The consequences are unforseen.  Jim Gabriel (Roberts-No Alibi ) sells his body to a powerful organization called Lifecorps that buys people for their ‘spare parts’.  He needs to raise money to pay for the surgery that his dying son needs.  But when his son dies anyway, Lifecorps is not about to give refunds.  They want him bad.  His only option is to run and elude the trackers that have been sent from him.  But soon he realizes that to truly escape, he has to go for the source of his problems: the CEO of Lifecorps.</Description>
+            <ExtendedInfo name="導演">Geoff Murphy</ExtendedInfo>
+            <ExtendedInfo name="演員">Eric Roberts、Cary Elwes</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="6" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051128120001" duration="3600">
+        <EventId>L00000034325</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004925AD01428C290B2B078D899E41CBD4619212594A5576755B2E77DD84BB44CEAC578A47C26264FEFCA28F2CC184CC024C6215769C8D8B411E15E894FB4BEF7ED51E9D1B81</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">0079C3F913880317004925138801656E67041A1A1A1AD1C61200010100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">0001000000492513880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">0001000000492513880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>頭號潛艦</Name>
+            <Description>這部感人的戰爭片是根據一段美國內戰時的史實所改編，曾榮獲2000年艾美獎最佳音效剪接。西元1864年南北戰爭期間，南卡羅萊納州的查爾士敦遭北軍重重包圍，水陸交通皆與外界隔絕；面對戰力明顯優越許多的敵軍，城裡的南軍為突破重圍，因而建造了配備魚雷的史上第一艘潛水艇”CSS杭利號”，雖然最後並未達成使命，但船上的八名軍官所表現的袍澤之情，以及大無畏的軍人情操卻令他們名留青史。由演技派演員艾蒙亞森特（「超時空戰警」）和唐納蘇德蘭（「太空大哥大」、「神鬼任務」）領銜主演。</Description>
+            <ExtendedInfo name="導演">約翰葛雷</ExtendedInfo>
+            <ExtendedInfo name="演員">艾蒙亞森特、唐納蘇德蘭</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>The Hunley</Name>
+            <Description>The incredible true story of Confederate efforts to develop a submersible boat during the American Civil War. The story opens in Charleston S.C. during the 1864 seize and naval blockade of that city by the Yankees. The Confederates were attempting to develop a submarine with a torpedo to be used as a weapon to break the blockade. This movie follows the bravery and determination of the eight-member crew in developing the manually propelled submarine and its deployment into battle.  An exceptional story of heroism in the face of adversity. </Description>
+            <ExtendedInfo name="導演">John Gray</ExtendedInfo>
+            <ExtendedInfo name="演員">Armand Assante、Donald Sutherland</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051128130001" duration="3600">
+        <EventId>L00000034328</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004926AD0142789553DA98421C02AAA153BA83C346426B4703BDB99F4801AAFB0FF887ECFF4C2F68CD89BE2F50ED391EA3947E07E08F2159B8B623792518162CB86B7ACFCA32</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="30" pdsValue="9">0079D5F913880316004926138801656E67031A1A1AD1C61300010100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="18" pdsValue="9">0001000000492613880300000160011A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="24" pdsValue="9">0001000000492613880000000003000001600100001A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>熱帶雪</Name>
+            <Description>塔佛（尼克柯瑞，「天人交戰」、「我吸我吸我吸吸吸」）和米蘭妲（麥德琳史道威，「將軍的女兒」、「未來總動員」）是一對居住於哥倫比亞波哥大的年輕戀人，兩人為維持家人生計而在機場當扒手為業，對他們倆來說，紐約是個能建立新生活的夢想城市；當地的毒梟歐斯卡（大衛卡拉定，「雙重麻煩」）以紐約之行為交換，說服他們以吞入腹中的方式，走私毒品闖過紐約機場的海關；由於米蘭妲的姊姊便是死於類似的情況，他們很清楚這種走私方式會有的風險，但為了實現夢想，兩人還是答應了歐斯卡的條件；然而抵達紐約機場後，兩人卻因過於緊張而引來警方注意，他們的夢想也漸漸隨之破碎…</Description>
+            <ExtendedInfo name="導演">西羅杜蘭</ExtendedInfo>
+            <ExtendedInfo name="演員">麥德琳史道威、大衛卡拉定、尼克柯瑞</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Body Snatchers</Name>
+            <Description>New York is the dream city of Tavo (Garcia, Traffic, Vampire In Brooklyn) and Marina (Stowe, The General’s Daughter, Twelve Monkeys), where the two young lovers hope to start a better life. At home in slum-ridden Bogota, Columbia, they have had to work as pickpockets at the airport to support their families.  Dealer Oskar (Carridine, Double Trouble) persuades them to smuggle drugs in their stomachs on a plane to New York - although both know of the risks, since Marina&apos;s sister died on a similar journey.   However on arrival at the airport in New York they show nerves and all their dreams start to shatter...</Description>
+            <ExtendedInfo name="導演">Ciro Durn</ExtendedInfo>
+            <ExtendedInfo name="演員">Mike Myers、Heather Graham、Robert Wagner、Elizabeth Hurley</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+    </ChannelPeriod>
+  </ScheduleData>
+</BroadcastData>

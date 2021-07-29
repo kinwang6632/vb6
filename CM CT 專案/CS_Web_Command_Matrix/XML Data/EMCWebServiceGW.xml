@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://tempuri.org/CMWebServiceGW/EMCWebServiceGW" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/CMWebServiceGW/EMCWebServiceGW" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/CMWebServiceGW/EMCWebServiceGW">
+      <s:import namespace="http://www.w3.org/2001/XMLSchema" />
+      <s:element name="CMStatusQuery">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WORKID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CUSSO" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CUSID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CMMAC" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CMStatusQueryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CMStatusQueryResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ResetCM">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WORKID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CUSSO" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CUSID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CMMAC" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ResetCMResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ResetCMResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ClearCPE">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WORKID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CUSSO" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CUSID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CMMAC" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ClearCPEResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ClearCPEResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PingCM">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WORKID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CUSSO" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CUSID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CMMAC" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PingCMResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PingCMResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="HFCTypeQuery">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WORKID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CUSSO" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Zone" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Lin" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Section" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Lane" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Alley" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SubAlley" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NO1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NO2" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="HFCTypeQueryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HFCTypeQueryResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CPIPReg">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WORKID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CUSSO" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CUSID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CMMAC" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EMTAMAC" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EMTAPort" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CPNO" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Zone" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Lin" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Section" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Lane" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Alley" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SubAlley" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NO1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NO2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="OPERTYPE" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CPIPRegResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CPIPRegResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CMReg">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WORKID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CUSSO" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CUSID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CMMAC" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EMTAMAC" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CLASSID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PCIPNO" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="OPERTYPE" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CMRegResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CMRegResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CMConnLog">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WORKID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CUSSO" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CUSID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CMMAC" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StartDateTime" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EndDateTime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CMConnLogResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CMConnLogResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CMQALog">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WORKID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CUSSO" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CUSID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CMMAC" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StartDateTime" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EndDateTime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CMQALogResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CMQALogResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CMPCLog">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WORKID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CUSSO" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CUSID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PCIP" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StartDateTime" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EndDateTime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CMPCLogResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CMPCLogResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </types>
+  <message name="CMStatusQuerySoapIn">
+    <part name="parameters" element="s0:CMStatusQuery" />
+  </message>
+  <message name="CMStatusQuerySoapOut">
+    <part name="parameters" element="s0:CMStatusQueryResponse" />
+  </message>
+  <message name="ResetCMSoapIn">
+    <part name="parameters" element="s0:ResetCM" />
+  </message>
+  <message name="ResetCMSoapOut">
+    <part name="parameters" element="s0:ResetCMResponse" />
+  </message>
+  <message name="ClearCPESoapIn">
+    <part name="parameters" element="s0:ClearCPE" />
+  </message>
+  <message name="ClearCPESoapOut">
+    <part name="parameters" element="s0:ClearCPEResponse" />
+  </message>
+  <message name="PingCMSoapIn">
+    <part name="parameters" element="s0:PingCM" />
+  </message>
+  <message name="PingCMSoapOut">
+    <part name="parameters" element="s0:PingCMResponse" />
+  </message>
+  <message name="HFCTypeQuerySoapIn">
+    <part name="parameters" element="s0:HFCTypeQuery" />
+  </message>
+  <message name="HFCTypeQuerySoapOut">
+    <part name="parameters" element="s0:HFCTypeQueryResponse" />
+  </message>
+  <message name="CPIPRegSoapIn">
+    <part name="parameters" element="s0:CPIPReg" />
+  </message>
+  <message name="CPIPRegSoapOut">
+    <part name="parameters" element="s0:CPIPRegResponse" />
+  </message>
+  <message name="CMRegSoapIn">
+    <part name="parameters" element="s0:CMReg" />
+  </message>
+  <message name="CMRegSoapOut">
+    <part name="parameters" element="s0:CMRegResponse" />
+  </message>
+  <message name="CMConnLogSoapIn">
+    <part name="parameters" element="s0:CMConnLog" />
+  </message>
+  <message name="CMConnLogSoapOut">
+    <part name="parameters" element="s0:CMConnLogResponse" />
+  </message>
+  <message name="CMQALogSoapIn">
+    <part name="parameters" element="s0:CMQALog" />
+  </message>
+  <message name="CMQALogSoapOut">
+    <part name="parameters" element="s0:CMQALogResponse" />
+  </message>
+  <message name="CMPCLogSoapIn">
+    <part name="parameters" element="s0:CMPCLog" />
+  </message>
+  <message name="CMPCLogSoapOut">
+    <part name="parameters" element="s0:CMPCLogResponse" />
+  </message>
+  <portType name="EMCWebServiceGWSoap">
+    <operation name="CMStatusQuery">
+      <input message="s0:CMStatusQuerySoapIn" />
+      <output message="s0:CMStatusQuerySoapOut" />
+    </operation>
+    <operation name="ResetCM">
+      <input message="s0:ResetCMSoapIn" />
+      <output message="s0:ResetCMSoapOut" />
+    </operation>
+    <operation name="ClearCPE">
+      <input message="s0:ClearCPESoapIn" />
+      <output message="s0:ClearCPESoapOut" />
+    </operation>
+    <operation name="PingCM">
+      <input message="s0:PingCMSoapIn" />
+      <output message="s0:PingCMSoapOut" />
+    </operation>
+    <operation name="HFCTypeQuery">
+      <input message="s0:HFCTypeQuerySoapIn" />
+      <output message="s0:HFCTypeQuerySoapOut" />
+    </operation>
+    <operation name="CPIPReg">
+      <input message="s0:CPIPRegSoapIn" />
+      <output message="s0:CPIPRegSoapOut" />
+    </operation>
+    <operation name="CMReg">
+      <input message="s0:CMRegSoapIn" />
+      <output message="s0:CMRegSoapOut" />
+    </operation>
+    <operation name="CMConnLog">
+      <input message="s0:CMConnLogSoapIn" />
+      <output message="s0:CMConnLogSoapOut" />
+    </operation>
+    <operation name="CMQALog">
+      <input message="s0:CMQALogSoapIn" />
+      <output message="s0:CMQALogSoapOut" />
+    </operation>
+    <operation name="CMPCLog">
+      <input message="s0:CMPCLogSoapIn" />
+      <output message="s0:CMPCLogSoapOut" />
+    </operation>
+  </portType>
+  <binding name="EMCWebServiceGWSoap" type="s0:EMCWebServiceGWSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="CMStatusQuery">
+      <soap:operation soapAction="http://tempuri.org/CMWebServiceGW/EMCWebServiceGW/CMStatusQuery" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ResetCM">
+      <soap:operation soapAction="http://tempuri.org/CMWebServiceGW/EMCWebServiceGW/ResetCM" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ClearCPE">
+      <soap:operation soapAction="http://tempuri.org/CMWebServiceGW/EMCWebServiceGW/ClearCPE" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="PingCM">
+      <soap:operation soapAction="http://tempuri.org/CMWebServiceGW/EMCWebServiceGW/PingCM" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="HFCTypeQuery">
+      <soap:operation soapAction="http://tempuri.org/CMWebServiceGW/EMCWebServiceGW/HFCTypeQuery" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="CPIPReg">
+      <soap:operation soapAction="http://tempuri.org/CMWebServiceGW/EMCWebServiceGW/CPIPReg" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="CMReg">
+      <soap:operation soapAction="http://tempuri.org/CMWebServiceGW/EMCWebServiceGW/CMReg" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="CMConnLog">
+      <soap:operation soapAction="http://tempuri.org/CMWebServiceGW/EMCWebServiceGW/CMConnLog" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="CMQALog">
+      <soap:operation soapAction="http://tempuri.org/CMWebServiceGW/EMCWebServiceGW/CMQALog" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="CMPCLog">
+      <soap:operation soapAction="http://tempuri.org/CMWebServiceGW/EMCWebServiceGW/CMPCLog" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="EMCWebServiceGW">
+    <port name="EMCWebServiceGWSoap" binding="s0:EMCWebServiceGWSoap">
+      <soap:address location="http://210.202.146.97:9090/CMWebServiceGWDemo/EMCWebServiceGW.asmx" />
+    </port>
+  </service>
+</definitions>

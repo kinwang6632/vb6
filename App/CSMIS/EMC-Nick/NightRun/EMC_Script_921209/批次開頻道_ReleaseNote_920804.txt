@@ -1,0 +1,36 @@
+Release note: 批次為數家SO開"境外頻道"的後端程式
+
+* 緣由:	根據92.08.01 EMC正式發mail至各家SO, 將"境外頻道"列為STB的基本頻道(免費的), EMC行企部
+	要求開博幫忙將7家SO的所有有效STB都開啟此頻道.  
+
+* 標的:	SO: 北桃園, 振道, 豐盟, 新頻道, 南天, 觀昇, 屏南
+	頻道: "境外頻道"(Product Id. = 60)
+	整批Send_Nagra指令真正被執行的時間: 此支後端程式被執行之當天晚上23:30
+
+* 程式流程: 
+   Loop所有使用中的STB 
+	. 新增一筆定時執行的開頻道指令資料至Com.Send_nagra
+	. 若SO005無該筆頻道資料, 則新增一筆
+	. log一筆設定記錄資料至SOAC0202
+
+* EMC設定動作: 請PM檢查此設定是否有做 ?
+	應該將此頻道設定至STB的基本頻道, 也就是說, CD019A之STB賣/租/...的免費頻道中, 應包括此筆 !!!
+
+* RD提供以下程式: SP_OpenChannel.sql
+	
+* PM動作: (針對以上每一SO, 於SQL*plus下執行以下動作)
+	1. compile SP_OpenChannel.sql
+	2. 執行SP_OpenChanne.SQL, 例:
+		set serveroutput on
+		variable p_RetCode number
+		variable p_RetMsg varchar2(500)
+		exec  SP_OpenChannel(:p_RetCode,:p_RetMsg);
+		print P_Retcode
+		print p_RetMsg
+
+* Lawrence動作: 請將該支程式存放至script檔路徑中
+
+* 如何檢查此批次程式執行結果? 執行以下指令, 應該有一堆資料
+	select * from com.Send_Nagra where Cmd_Status='W' and Notes='A~60';
+
+Pierre

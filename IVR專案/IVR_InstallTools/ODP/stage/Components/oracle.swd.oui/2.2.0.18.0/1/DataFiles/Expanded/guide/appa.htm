@@ -1,0 +1,488 @@
+
+<!DOCTYPE html public "-//w3c//dtd html 3.2 transitional//en.us">
+<HTML lang="en.us">
+<HEAD>
+
+<META NAME="Generator" CONTENT="Quadralay WebWorks Publisher 5.0.4">
+<META NAME="Page" CONTENT="DefaultSingle">
+<META NAME="Title" CONTENT=" Sample Response File">
+
+
+<TITLE> Sample Response File</TITLE>
+	   
+
+<LINK REL="toc" HREF="toc.htm" TITLE="Contents">
+<LINK REL="index" HREF="index.htm" TITLE="Index">
+<LINK REL="copyright" HREF="cpyr.htm" TITLE="Copyright">
+<LINK REL="up" HREF="toc.htm" TITLE="Up">
+<LINK REL="next" HREF="appb.htm" TITLE="Next">
+<LINK REL="previous" HREF="rsp.htm" TITLE="Previous">
+
+
+</HEAD>
+       
+<BODY BGCOLOR="#ffffff">
+
+<A NAME="top"></A>
+
+
+
+
+<A HREF="#BEGIN">Skip Headers</A><BR><BR>
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+<TR>
+
+ 
+<TD ALIGN="LEFT" VALIGN="TOP"><FONT COLOR="#330099" FACE="Helvetica, Arial, sans-serif"><STRONG>Oracle Universal Installer Concepts Guide<BR>Release 2.2</STRONG><BR>Part Number A96697-01</FONT></TD>
+<TD VALIGN="BOTTOM" ALIGN="RIGHT" WIDTH="144">
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+<TR>
+
+
+
+
+
+
+
+
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"></TD>
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"></TD>
+
+
+
+
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"><A HREF="toc.htm"><IMG SRC="./conticon.gif" ALT="Go To Table Of Contents" BORDER="0" HEIGHT="30"
+WIDTH="30"><BR>
+<FONT SIZE="-2">Contents</FONT></A></TD>
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"><A HREF="index.htm"><IMG SRC="./indxicon.gif" ALT="Go To Index" BORDER="0" HEIGHT="30"
+WIDTH="30"><BR>
+<FONT SIZE="-2">Index</FONT></A></TD>
+
+</TR>
+</TABLE>
+</TD>
+</TR>
+</TABLE>
+<HR>
+<P>
+<A HREF="rsp.htm"><IMG SRC="./larrow.gif" ALT="Go to previous page" BORDER="0" HEIGHT="30" WIDTH="30"></A>
+
+<A HREF="appb.htm"><IMG SRC="./rarrow.gif" ALT="Go to next page" BORDER="0" HEIGHT="30" WIDTH="30"></A>
+    
+
+
+<A NAME="BEGIN"></A>
+
+
+
+<DIV CLASS="IND">
+<!-- End Header -->
+
+
+
+
+
+
+
+<A NAME="945627"></A>
+<!--TOC=Title-"945627"-->
+<H1 CLASS="Title"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099">A<BR> Sample Response File</FONT></H1>
+
+<!--/TOC=Title-->
+<A NAME="945629"></A>
+<P CLASS="BP">
+This chapter provides two samples that show how information is organized in a typical Oracle Universal Installer response file.
+</P>
+
+<A NAME="945630"></A>
+<!--TOC=h1-"945630"-->
+<H2 CLASS="H1"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Example 1</FONT></H2>
+
+
+<!--/TOC=h1-->
+    
+<PRE CLASS="CE">
+<A NAME="945310"></A>###############################################################
+<A NAME="945179"></A>## typical.rsp                                               ##
+<A NAME="945180"></A>## This is a sample responsefile for a typical EE install.   ##
+<A NAME="945181"></A>##                                    (minimal)              ##
+<A NAME="945182"></A>## Copyright(c) Oracle Corporation 2000. All rights reserved.##
+<A NAME="945183"></A>##                                                           ##
+<A NAME="945184"></A>## Specify values for the variables listed below to customize##
+<A NAME="945185"></A>## your installation.                                        ##
+<A NAME="945186"></A>##                                                           ##
+<A NAME="945187"></A>## Each variable is associated with a comment. The comment   ##
+<A NAME="945188"></A>## identifies the variable type.                             ##
+<A NAME="945189"></A>##                                                           ##
+<A NAME="945190"></A>## Please specify the values in the following format:        ##
+<A NAME="945191"></A>##                                                           ##
+<A NAME="945192"></A>##         Type         Example                              ##
+<A NAME="945193"></A>##         String       "Sample Value"                       ##
+<A NAME="945194"></A>##         Boolean      True or False                        ##
+<A NAME="945195"></A>##         Number       1000                                 ##
+<A NAME="945196"></A>##         StringList   {"String value 1","String Value 2"}  ##
+<A NAME="945197"></A>##                                                           ##
+<A NAME="945198"></A>##                                                           ##
+<A NAME="945199"></A>##          !!!!!IMPORTANT!!!!!                              ##
+<A NAME="945200"></A>##                                                           ##
+<A NAME="945201"></A>##  PLEASE VERIFY (CUSTOMIZE) THE VALUES FOR THE FOLLOWING   ##
+<A NAME="945202"></A>##  VARIABLES BEFORE USING THIS FILE FOR SILENT INSTALL.TKX! ##
+<A NAME="945203"></A>##                                                           ##
+<A NAME="945204"></A>##  1) UNIX_GROUP_NAME                                       ##
+<A NAME="945205"></A>##  2) ORACLE_HOME &amp;&amp; ORACLE_HOME_NAME                       ##
+<A NAME="945206"></A>##  3) s_GlobalDBName                                        ##
+<A NAME="945207"></A>##  4) s_dbSid                                               ##
+<A NAME="945208"></A>##  5) s_mountPoint                                          ##
+<A NAME="945209"></A>##                                                           ##
+<A NAME="945210"></A>##  ALSO, MAKE SURE /var/opt/oracle/oraInst.loc EXISTS.      ##
+<A NAME="945211"></A>##  TYPICAL ENTRY IN "oraInst.loc" LOOKS LIKE -              ##
+<A NAME="945212"></A>##  inventory_loc=/home/dba/oraInventory                     ##
+<A NAME="945213"></A>##  BASICALLY, WHEREVER INVENTORY NEEDS TO BE LOCATED.       ##
+<A NAME="945214"></A>##                                                           ##
+<A NAME="945215"></A>##  AT THE END OF SILENT INSTALL LOOK UP THE FOLLOWING LOGS: ##
+<A NAME="945216"></A>##  - oraInventory/logs/installActions.log                   ##
+<A NAME="945217"></A>##    (for $ORACLE_HOME/root.sh execution, etc.)             ##
+<A NAME="945218"></A>##  - /tmp/silentInstall.log                                 ##
+<A NAME="945219"></A>##                                                           ##
+<A NAME="945220"></A>###############################################################
+<A NAME="945221"></A>
+<A NAME="945222"></A>[General]
+<A NAME="945223"></A>
+<A NAME="945224"></A>RESPONSEFILE_VERSION=1.0.0.0.0
+<A NAME="945225"></A>
+<A NAME="945226"></A>[Session]
+<A NAME="945227"></A>
+<A NAME="945228"></A>#This entry is not used on Windows platforms
+<A NAME="945229"></A>#UNIX_GROUP_NAME;String;Used in Dialog
+<A NAME="945230"></A>#Group that the current user is part of, for ownership of the install files.
+<A NAME="945231"></A>#UNIX_GROUP_NAME="dba"
+<A NAME="945232"></A>
+<A NAME="945233"></A>#FROM_LOCATION;String;Used in Dialog
+<A NAME="945234"></A>#Full path for the products.jar file.
+<A NAME="945235"></A>#Replace the X: with the drive letter of your CD-ROM device.
+<A NAME="945236"></A>FROM_LOCATION="X:\stage\products.jar"
+<A NAME="945557"></A>
+<A NAME="945560"></A>#FROM_LOCATION_CD_LABEL;String:Used in multi-CD installations. 
+<A NAME="945580"></A>#It includes the label of the Compact Disk where the file "products.jar" exists. 
+#The label can be found in the file "disk.label" in the same directory as 
+#"products.jar".
+<A NAME="945237"></A>
+<A NAME="945238"></A>#ORACLE_HOME;String;Used in Dialog
+<A NAME="945239"></A>#Enter the path to your oracle home.  Replace the drive letter and optionally
+<A NAME="945240"></A>#alter the home path.
+<A NAME="945241"></A>ORACLE_HOME="X:\Oracle\Ora81"
+<A NAME="945242"></A>
+<A NAME="945243"></A>#ORACLE_HOME_NAME;String;Used in Dialog
+<A NAME="945244"></A>#Enter the name of this oracle home.  The name will be used to identify this
+<A NAME="945245"></A>#home.
+<A NAME="945246"></A>ORACLE_HOME_NAME="OraHome81"
+<A NAME="945247"></A>
+<A NAME="945248"></A>#TOPLEVEL_COMPONENT;StringList;Used in Dialog
+<A NAME="945249"></A>#Choices: "oracle.server", "8.1.5.0.0"
+<A NAME="945250"></A>TOPLEVEL_COMPONENT={"oracle.server", "8.1.5.0.0"}
+<A NAME="945251"></A>
+<A NAME="945252"></A>#SHOW_COMPONENT_LOCATIONS_PAGE;Boolean;Used in Dialog
+<A NAME="945253"></A>#Some components are flexible in where they are installed, although all have
+<A NAME="945254"></A># default locations. Set this to FALSE if you want to accept the default 
+locations
+<A NAME="945255"></A># and not show this page.
+<A NAME="945256"></A>SHOW_COMPONENT_LOCATIONS_PAGE=false
+<A NAME="945257"></A>
+<A NAME="945258"></A>#SHOW_SUMMARY_PAGE;Boolean;Used in Dialog &lt;---------------
+<A NAME="945259"></A>#MUST be &lt;false&gt; for "silent" install
+<A NAME="945260"></A>SHOW_SUMMARY_PAGE=false
+<A NAME="945261"></A>
+<A NAME="945262"></A>#SHOW_INSTALL_PROGRESS_PAGE;Boolean;Used in Dialog &lt;---------------
+<A NAME="945263"></A>#MUST be &lt;false&gt; for "silent" install
+<A NAME="945264"></A>SHOW_INSTALL_PROGRESS_PAGE=false
+<A NAME="945265"></A>
+<A NAME="945266"></A>#SHOW_REQUIRED_CONFIG_TOOL_PAGE;Boolean;Used in Dialog
+<A NAME="945267"></A>SHOW_REQUIRED_CONFIG_TOOL_PAGE=false
+<A NAME="945268"></A>
+<A NAME="945269"></A>#SHOW_OPTIONAL_CONFIG_TOOL_PAGE;Boolean;Used in Dialog
+<A NAME="945270"></A>SHOW_OPTIONAL_CONFIG_TOOL_PAGE=false
+<A NAME="945271"></A>
+<A NAME="945272"></A>#SHOW_END_SESSION_PAGE;Boolean;Used in Dialog &lt;---------------
+<A NAME="945273"></A>#MUST be &lt;false&gt; for "silent" install
+<A NAME="945274"></A>SHOW_END_SESSION_PAGE=false
+<A NAME="945275"></A>
+<A NAME="945459"></A>#Parameter : LOCATION_FOR_DISK2 
+<A NAME="945460"></A>#Type : String 
+<A NAME="945461"></A>#Description : Complete path to the other disks. 
+<A NAME="945462"></A>#Example : LOCATION_FOR_DISK2 = "..\..\Disk2" 
+<A NAME="945457"></A>LOCATION_FOR_DISK2="F:\teststage\cd\Disk3"
+<A NAME="945466"></A>
+<A NAME="945531"></A>#Parameter : NEXT_SESSION
+<A NAME="945532"></A>#Type : Boolean
+<A NAME="945533"></A>#Description : Set to true if the installer needs to go to the File
+<A NAME="945534"></A>Locations page for another installation.
+<A NAME="945535"></A>#Example : NEXT_SESSION = true
+<A NAME="945529"></A>NEXT_SESSION=true
+<A NAME="945489"></A>#Parameter : SHOW_SPLASH_SCREEN
+<A NAME="945490"></A>#Type : Boolean
+<A NAME="945491"></A>#Description : Set to true if the initial splash screen in the installer
+<A NAME="945492"></A>needs to be shown.
+<A NAME="945493"></A>#Example : SHOW_SPLASH_SCREEN = true
+<A NAME="945494"></A>SHOW_SPLASH_SCREEN=true
+<A NAME="945495"></A>
+<A NAME="945496"></A>#Parameter : SHOW_WELCOME_PAGE
+<A NAME="945497"></A>#Type : Boolean
+<A NAME="945498"></A>#Description : Set to true if the Welcome page in the installer needs to
+<A NAME="945499"></A>be shown.
+<A NAME="945500"></A>#Example : SHOW_WELCOME_PAGE = false
+<A NAME="945501"></A>SHOW_WELCOME_PAGE=false
+<A NAME="945502"></A>
+<A NAME="945503"></A>#Parameter : SHOW_ROOTSH_CONFIRMATION
+<A NAME="945504"></A>#Type : Boolean
+<A NAME="945505"></A>#Description : Set to true if the Confirmation dialog asking to run the
+<A NAME="945506"></A>root.sh script in the installer needs to be shown.
+<A NAME="945507"></A>#Valid only in Unix platforms.
+<A NAME="945508"></A>#Example : SHOW_ROOTSH_CONFIRMATION = true
+<A NAME="945509"></A>SHOW_ROOTSH_CONFIRMATION=true
+<A NAME="945510"></A>
+<A NAME="945511"></A>#Parameter : SHOW_EXIT_CONFIRMATION
+<A NAME="945512"></A>#Type : Boolean
+<A NAME="945513"></A>#Description : Set to true if the confirmation when exiting the
+<A NAME="945514"></A>installer needs to be shown.
+<A NAME="945515"></A>#Example : SHOW_EXIT_CONFIRMATION = true
+<A NAME="945516"></A>SHOW_EXIT_CONFIRMATION=true
+<A NAME="945517"></A>
+<A NAME="945276"></A>[oracle.server_8.1.5.0.0]
+<A NAME="945277"></A>#INSTALL_TYPE;String;Used in Dialog
+<A NAME="945278"></A># Minimal - Optional pre-configured DB (b_createDB), Networking services, Server 
+utilities
+<A NAME="945279"></A># Typical - Pre-configured starter DB, Licensable options and Cartridges,
+<A NAME="945280"></A>#           Networking services, Server utilities
+<A NAME="945281"></A>
+<A NAME="945282"></A>INSTALL_TYPE="Typical"
+<A NAME="945283"></A>
+<A NAME="945284"></A>[oracle.rdbms_8.1.5.0.0]
+<A NAME="945285"></A>
+<A NAME="945286"></A>#OPTIONAL_CONFIG_TOOLS;StringList
+<A NAME="945287"></A>#OPTIONAL_CONFIG_TOOLS={"dbassist"}  OR OPTIONAL_CONFIG_TOOLS={"Oracle Database 
+Configuration Assistant"}
+<A NAME="945288"></A>
+<A NAME="945289"></A>#s_GlobalDBName;String;Used in Dialog
+<A NAME="945290"></A>#This is the name of the database which will be created as part of the typical 
+install.
+<A NAME="945291"></A>#You should modify this string to use an appropriate name.
+<A NAME="945292"></A>s_GlobalDBName="acme.us.oracle.com"
+<A NAME="945293"></A>
+<A NAME="945294"></A>#This entry not needed for Windows installation.
+<A NAME="945295"></A>#s_mountPoint;String;Used in Dialog
+<A NAME="945296"></A>#Database file location: directory for datafiles, control files, redo logs
+<A NAME="945297"></A>#s_mountPoint="/home/oracle/dbs"
+<A NAME="945298"></A>
+<A NAME="945299"></A>#s_dbSid;String;Used in Dialog
+<A NAME="945300"></A>#Value for ORACLE_SID. Change this to an appropriate SID.
+<A NAME="945301"></A>s_dbSid="ORCL"
+<A NAME="945302"></A>
+<A NAME="945303"></A>#b_createDB;Boolean
+<A NAME="945304"></A>#Relevant only in MINIMAL, set to TRUE if you want a starter database, set to 
+FALSE if not.
+<A NAME="945305"></A>#b_createDB=true
+<A NAME="945306"></A>
+<A NAME="945117"></A>
+<A NAME="943732"></A>
+</PRE>    
+<A NAME="945318"></A>
+<!--TOC=h1-"945318"-->
+<H2 CLASS="H1"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Example 2</FONT></H2>
+
+
+<!--/TOC=h1-->
+    
+<PRE CLASS="CE">
+<A NAME="945324"></A>###############################################################
+<A NAME="945325"></A>## typical.rsp                                               ##
+<A NAME="945326"></A>## This is a sample responsefile for a typical EE install.   ##
+<A NAME="945327"></A>##                                    (minimal)              ##
+<A NAME="945328"></A>## Copyright(c) Oracle Corporation 1998. All rights reserved.##
+<A NAME="945329"></A>##                                                           ##
+<A NAME="945330"></A>## Specify values for the variables listed below to customize##
+<A NAME="945331"></A>## your installation.                                        ##
+<A NAME="945332"></A>##                                                           ##
+<A NAME="945333"></A>## Each variable is associated with a comment. The comment   ##
+<A NAME="945334"></A>## identifies the variable type.                             ##
+<A NAME="945335"></A>##                                                           ##
+<A NAME="945336"></A>## Please specify the values in the following format:        ##
+<A NAME="945337"></A>##                                                           ##
+<A NAME="945338"></A>##         Type         Example                              ##
+<A NAME="945339"></A>##         String       "Sample Value"                       ##
+<A NAME="945340"></A>##         Boolean      True or False                        ##
+<A NAME="945341"></A>##         Number       1000                                 ##
+<A NAME="945342"></A>##         StringList   {"String value 1","String Value 2"}  ##
+<A NAME="945343"></A>##                                                           ##
+<A NAME="945344"></A>##                                                           ##
+<A NAME="945345"></A>##          !!!!!IMPORTANT!!!!!                              ##
+<A NAME="945346"></A>##                                                           ##
+<A NAME="945347"></A>##  PLEASE VERIFY (CUSTOMISE) THE VALUES FOR THE FOLLOWING   ##
+<A NAME="945348"></A>##  VARIABLES BEFORE USING THIS FILE FOR SILENT INSTALL.TKX! ##
+<A NAME="945349"></A>##                                                           ##
+<A NAME="945350"></A>##  1) UNIX_GROUP_NAME                                       ##
+<A NAME="945351"></A>##  2) ORACLE_HOME &amp;&amp; ORACLE_HOME_NAME                       ##
+<A NAME="945352"></A>##  3) s_GlobalDBName                                        ##
+<A NAME="945353"></A>##  4) s_dbSid                                               ##
+<A NAME="945354"></A>##  5) s_mountPoint                                          ##
+<A NAME="945355"></A>##                                                           ##
+<A NAME="945356"></A>##  ALSO, MAKE SURE /var/opt/oracle/oraInst.loc EXISTS.      ##
+<A NAME="945357"></A>##  TYPICAL ENTRY IN "oraInst.loc" LOOKS LIKE -              ##
+<A NAME="945358"></A>##  inventory_loc=/home/dba/oraInventory                     ##
+<A NAME="945359"></A>##  BASICALLY, WHEREVER INVENTORY NEEDS TO BE LOCATED.       ##
+<A NAME="945360"></A>##                                                           ##
+<A NAME="945361"></A>##  AT THE END OF SILENT INSTALL LOOK UP THE FOLLOWING LOGS: ##
+<A NAME="945362"></A>##  - oraInventory/logs/installActions.log                   ##
+<A NAME="945363"></A>##    (for $ORACLE_HOME/root.sh execution, etc.)             ##
+<A NAME="945364"></A>##  - /tmp/silentInstall.log                                 ##
+<A NAME="945365"></A>##                                                           ##
+<A NAME="945366"></A>###############################################################
+<A NAME="945367"></A>
+<A NAME="945368"></A>[General]
+<A NAME="945369"></A>
+<A NAME="945370"></A>RESPONSEFILE_VERSION=1.0.0.0.0
+<A NAME="945371"></A>
+<A NAME="945372"></A>[Session]
+<A NAME="945373"></A>
+<A NAME="945374"></A>#This entry is not used on Windows platforms
+<A NAME="945375"></A>#UNIX_GROUP_NAME;String;Used in Dialog
+<A NAME="945376"></A>#Group that the current user is part of, for ownership of the install files.
+<A NAME="945377"></A>#UNIX_GROUP_NAME="dba"
+<A NAME="945378"></A>
+<A NAME="945379"></A>#FROM_LOCATION;String;Used in Dialog
+<A NAME="945380"></A>#Full path for the products.jar file.
+<A NAME="945381"></A>#Replace the X: with the drive letter of your CD-ROM device.
+<A NAME="945382"></A>FROM_LOCATION="G:\81500\EEdition\990211_CDM2\stage\products.jar"
+<A NAME="945598"></A>
+<A NAME="945384"></A>#ORACLE_HOME;String;Used in Dialog
+<A NAME="945385"></A>#Enter the path to your oracle home.  Replace the drive letter and optionally
+<A NAME="945386"></A>#alter the home path.
+<A NAME="945387"></A>ORACLE_HOME="E:\16080_2.12\815Sil"
+<A NAME="945388"></A>
+<A NAME="945389"></A>#ORACLE_HOME_NAME;String;Used in Dialog
+<A NAME="945390"></A>#Enter the name of this oracle home.  The name will be used to identify this
+<A NAME="945391"></A>#home.
+<A NAME="945392"></A>ORACLE_HOME_NAME="OraHome81"
+<A NAME="945393"></A>
+<A NAME="945394"></A>#TOPLEVEL_COMPONENT;StringList;Used in Dialog
+<A NAME="945395"></A>#Choices: "oracle.server", "8.1.5.0.0"
+<A NAME="945396"></A>TOPLEVEL_COMPONENT={"oracle.server", "8.1.5.0.0"}
+<A NAME="945397"></A>
+<A NAME="945398"></A>#SHOW_COMPONENT_LOCATIONS_PAGE;Boolean;Used in Dialog
+<A NAME="945399"></A>#Some components are flexible in where they are installed, although all have
+<A NAME="945400"></A># default locations. Set this to FALSE if you want to accept the default 
+locations
+<A NAME="945401"></A># and not show this page.
+<A NAME="945402"></A>SHOW_COMPONENT_LOCATIONS_PAGE=false
+<A NAME="945403"></A>
+<A NAME="945404"></A>#SHOW_SUMMARY_PAGE;Boolean;Used in Dialog &lt;---------------
+<A NAME="945405"></A>#MUST be &lt;false&gt; for "silent" install
+<A NAME="945406"></A>SHOW_SUMMARY_PAGE=false
+<A NAME="945407"></A>
+<A NAME="945408"></A>#SHOW_INSTALL_PROGRESS_PAGE;Boolean;Used in Dialog &lt;---------------
+<A NAME="945409"></A>#MUST be &lt;false&gt; for "silent" install
+<A NAME="945410"></A>SHOW_INSTALL_PROGRESS_PAGE=false
+<A NAME="945411"></A>
+<A NAME="945412"></A>#SHOW_REQUIRED_CONFIG_TOOL_PAGE;Boolean;Used in Dialog
+<A NAME="945413"></A>SHOW_REQUIRED_CONFIG_TOOL_PAGE=false
+<A NAME="945414"></A>
+<A NAME="945415"></A>#SHOW_OPTIONAL_CONFIG_TOOL_PAGE;Boolean;Used in Dialog
+<A NAME="945416"></A>SHOW_OPTIONAL_CONFIG_TOOL_PAGE=false
+<A NAME="945417"></A>
+<A NAME="945418"></A>#SHOW_END_SESSION_PAGE;Boolean;Used in Dialog &lt;---------------
+<A NAME="945419"></A>#MUST be &lt;false&gt; for "silent" install
+<A NAME="945420"></A>SHOW_END_SESSION_PAGE=false
+<A NAME="945421"></A>
+<A NAME="945422"></A>[oracle.server_8.1.5.0.0]
+<A NAME="945423"></A>#INSTALL_TYPE;String;Used in Dialog
+<A NAME="945424"></A># Minimal - Optional pre-configured DB (b_createDB), Networking services, Server 
+utilities
+<A NAME="945425"></A># Typical - Pre-configured starter DB, Licensable options and Cartridges,
+<A NAME="945426"></A>#           Networking services, Server utilities
+<A NAME="945427"></A>
+<A NAME="945428"></A>INSTALL_TYPE="Typical"
+<A NAME="945429"></A>
+<A NAME="945430"></A>[oracle.rdbms_8.1.5.0.0]
+<A NAME="945431"></A>
+<A NAME="945432"></A>#OPTIONAL_CONFIG_TOOLS;StringList
+<A NAME="945433"></A>#OPTIONAL_CONFIG_TOOLS={"dbassist"}  OR OPTIONAL_CONFIG_TOOLS={"Oracle Database 
+Configuration Assistant"}
+<A NAME="945434"></A>
+<A NAME="945435"></A>#s_GlobalDBName;String;Used in Dialog
+<A NAME="945436"></A>#This is the name of the database which will be created as part of the typical 
+install.
+<A NAME="945437"></A>#You should modify this string to use an appropriate name.
+<A NAME="945438"></A>s_GlobalDBName="B815.us.oracle.com"
+<A NAME="945439"></A>
+<A NAME="945440"></A>#This entry not needed for Windows installation.
+<A NAME="945441"></A>#s_mountPoint;String;Used in Dialog
+<A NAME="945442"></A>#Database file location: directory for datafiles, control files, redo logs
+<A NAME="945443"></A>#s_mountPoint="/home/oracle/dbs"
+<A NAME="945444"></A>
+<A NAME="945445"></A>#s_dbSid;String;Used in Dialog
+<A NAME="945446"></A>#Value for ORACLE_SID. Change this to an appropriate SID.
+<A NAME="945447"></A>s_dbSid="B815"
+<A NAME="945448"></A>
+<A NAME="945449"></A>#b_createDB;Boolean
+<A NAME="945450"></A>#Relevant only in MINIMAL, set to TRUE if you want a starter database, set to 
+FALSE if not.
+<A NAME="945451"></A>b_createDB=true
+</PRE>    
+
+
+
+
+
+<!-- Start Footer -->
+</DIV>
+
+<DIV CLASS="OUTD">
+<HR>
+
+
+
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+<TR>
+<TD VALIGN="BOTTOM" WIDTH="33%">
+<TABLE CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD ALIGN="CENTER"><A HREF="rsp.htm"><IMG SRC="./larrow.gif" ALT="Go to previous page" BORDER="0" HEIGHT="30" WIDTH="30"></A></TD>
+
+<TD ALIGN="CENTER"><A HREF="appb.htm"><IMG SRC="./rarrow.gif" ALT="Go to next page" BORDER="0" HEIGHT="30" WIDTH="30"></A></TD>
+    
+</TR>
+</TABLE>
+</TD>
+<TD ALIGN="CENTER" WIDTH="34%">
+<A HREF="cpyr.htm"><IMG SRC="./oracle.gif" ALT="Oracle" BORDER="0"><BR>
+<FONT SIZE="-2">Copyright &copy; 1996&#044; 2002 Oracle Corporation.</FONT></A>
+<BR>
+<FONT SIZE="-2">All Rights Reserved.</FONT>
+</TD>
+<TD VALIGN="BOTTOM" ALIGN="RIGHT" WIDTH="33%"> 
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="144">
+<TR>
+
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"></TD>
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"></TD>
+
+
+
+
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"><A HREF="toc.htm"><IMG SRC="./conticon.gif" ALT="Go To Table Of Contents" BORDER="0" HEIGHT="30"
+WIDTH="30"><BR>
+<FONT SIZE="-2">Contents</FONT></A></TD>
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"><A HREF="index.htm"><IMG SRC="./indxicon.gif" ALT="Go To Index" BORDER="0" HEIGHT="30"
+WIDTH="30"><BR>
+<FONT SIZE="-2">Index</FONT></A></TD>
+
+</TR>
+</TABLE>
+</TD>
+</TR>
+</TABLE>
+  
+</DIV>
+
+</BODY>
+</HTML>
+

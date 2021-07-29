@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BroadcastData SYSTEM "BroadcastData.dtd">
+<BroadcastData creationDate="20060426065920">
+  <ProviderInfo>
+    <ProviderId>Nagra</ProviderId>
+    <ProviderName>Nagravision S.A.</ProviderName>
+  </ProviderInfo>
+  <ScheduleData>
+    <ChannelPeriod beginTime="20060429081505" endTime="20060429083006">
+      <ChannelId>303</ChannelId>
+      <Event beginTime="20060429081505" duration="901">
+        <EventId>L00000085943</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">003847AD01829E3D6B067742CBD258E011FA262E54CDF047DE6E162A24896A621412E90AD22F41944A6ACB69DCA27B1FAE33FA17BC9DCA95A582D102E3235BC577DA0C5C8B63</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="38" pdsValue="9">002F4FF90FA0031E0038470FA001656E670B1A1A1A1A1A1A2831351A29D25E0815050015010F</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD01000010FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="26" pdsValue="9">000100000038470FA00300000160011A1A1A1A1A1A2831351A29</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="32" pdsValue="9">000100000038470FA00000000003000001600100001A1A1A1A1A1A2831351A29</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>尼可測試影片(15分)</Name>
+            <Description>故事大綱 2</Description>
+            <ExtendedInfo name="導演">導演 2</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 2</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>尼可測試影片(15分)</Name>
+            <Description>故事大綱 2</Description>
+            <ExtendedInfo name="演員">演員 2</ExtendedInfo>
+            <ExtendedInfo name="導演">導演 2</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">40.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+    </ChannelPeriod>
+  </ScheduleData>
+</BroadcastData>

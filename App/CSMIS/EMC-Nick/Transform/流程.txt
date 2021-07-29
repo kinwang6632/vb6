@@ -1,0 +1,24 @@
+A.建立代碼對照表,將需要轉換的代碼,轉成文字檔
+  ..Excel 轉成 -->> YMS_CD007_Map.txt
+    ..YMS_CD007_Map.ctl  -->>  撰寫將文字檔資料轉至 Table 程式
+
+  ..Excel 轉成 -->> YMS_CD007_New.txt
+    ..YMS_CD007_New.ctl  -->>  撰寫將文字檔資料轉至 Table 程式
+
+
+B.YMS_LoadCode.bat
+  ..AddTmpTable.sql   
+    ..建立新舊代碼對照 Table
+    ..新代碼 Table
+    ..備份舊代碼Table
+  ..sqlldr userid=v30/v30@emc control=YMS_CD007_Map.ctl  log=YMS_CD007_Map.log
+  ..sqlldr userid=v30/v30@emc control=YMS_CD007_New.ctl  log=YMS_CD007_New.log
+    ( 執行將文字檔資料轉至 Table 程式)
+
+
+C.YMS_CodeCvt.bat
+  ..指定RollBack segment rbS27 OnLine
+  ..YMS_UpdData_CD007.SQL  
+    ..更新原代碼檔
+    ..如果原代碼檔沒有則新增一筆
+    ..更新原代碼檔會用到的相關 Table

@@ -1,0 +1,100 @@
+unit cbUtilis;
+
+interface
+
+uses
+  Windows, SysUtils, Forms;
+  
+
+function RPad (AIn: String; ALen: Integer; ACh: Char): String;
+function LPad (AIn: String; ALen: Integer; ACh: Char): String;
+function Nvl(AIn: String; AOut: String): String;
+function ExtractValue(var AValue: String; ASeparator: String = ','): String;
+function BinToInt(const AValue: String): Integer;
+procedure ErrorMsg(const AMsg: String);
+function ConfirmMsg(const AMsg: String): Boolean;
+procedure Delay(const AValue: Integer);
+
+
+implementation
+
+uses cbResStr;
+
+function RPad (AIn: String; ALen: Integer; ACh: Char): String;
+begin
+  Result := AIn;
+  while Length(Result) < ALen do
+  begin
+    Result := ( Result + ACh );
+  end;
+end;
+
+function LPad (AIn: String; ALen: Integer; ACh: Char): String;
+begin
+  Result := AIn;
+  while Length (Result) < ALen do
+  begin
+    Result := ( ACh + Result );
+  end;
+end;
+
+function Nvl(AIn: String; AOut: String): String;
+begin
+  Result := AIn;
+  if ( AIn = EmptyStr ) then Result := AOut;
+end;
+
+function ExtractValue(var AValue: String; ASeparator: String = ','): String;
+var
+  aPos: Integer;
+begin
+  aPos := AnsiPos( aSeparator, aValue );
+  if aPos = 0 then
+  begin
+    Result := aValue;
+    aValue := EmptyStr;
+  end else
+  begin
+    Result := Copy( aValue, 1, aPos - 1 );
+    Delete( aValue, 1, aPos );
+  end;
+end;
+
+function BinToInt(const AValue: String): Integer;
+var
+  aIndex: Integer;
+begin
+  Result := 0;
+  for aIndex := 1 to Length( AValue ) do
+  begin
+    if AValue[aIndex] = '0' then
+      Result := Result * 2
+    else
+      if AValue[aIndex] = '1' then
+        Result := Result * 2 + 1
+      else
+        Break;
+  end;
+end;
+
+procedure ErrorMsg(const AMsg: String);
+begin
+  Application.MessageBox( PChar( AMsg ), PChar( SDlgError ), MB_OK + MB_ICONERROR );
+end;
+
+function ConfirmMsg(const AMsg: String): Boolean;
+begin
+  Result := ( Application.MessageBox(  PChar( AMsg ), PChar( SDlgError ),
+    MB_OKCANCEL + MB_ICONQUESTION ) = MB_OK );
+end;
+
+procedure Delay(const AValue: Integer);
+var
+  aFirstTime: Cardinal;
+begin
+  aFirstTime := GetTickCount;
+  while ( ( GetTickCount - aFirstTime ) <= AValue ) do
+    Application.ProcessMessages;
+end;
+
+end.

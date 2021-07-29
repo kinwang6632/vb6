@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BroadcastData SYSTEM "BroadcastData.dtd">
+<BroadcastData creationDate="20051124061732">
+  <ProviderInfo>
+    <ProviderId>Nagra</ProviderId>
+    <ProviderName>Nagravision S.A.</ProviderName>
+  </ProviderInfo>
+  <ScheduleData>
+    <ChannelPeriod beginTime="20051125180000" endTime="20051128160000">
+      <ChannelId>223</ChannelId>
+      <Event beginTime="20051125180000" duration="3600">
+        <EventId>22300004</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>風流女房東 (普) </Name>
+            <Description>威廉葛瑞利（傑克李蒙 飾）是一名年輕的外交官，甫從美國抵達倫敦任職，他向美麗的女房東卡莉哈維克（金露華 飾）租了公寓，兩人很快的墜入了情網，但是威廉不知道，卡莉的丈夫神秘失蹤，所有的人都認為，她是為了一些珠寶而謀殺了親夫。威廉的老闆英國大使知道此事後，覺得很在意，認定卡莉是法律誤判下的僥倖者，為了消弭老闆對卡莉的敵意，威廉介紹兩人認識，沒想到，老闆也被風情萬種的卡莉迷住了，竟然答應幫她脫罪！不久後，一名英國警探接手此案，想查出卡莉丈夫失蹤之謎，威廉與老闆兩人決定幫助她，一連串的烏龍狀況隨之而起……到底卡莉有沒有殺了自己的丈夫呢？此部1962年的經典謀殺片，融合了懸疑與笑料，是導演李察昆的作品，他擅導輕鬆喜劇片與浪漫愛情片，另有「奪情記」、「相逢何必曾相識」等代表作。 </Description>
+            <ExtendedInfo name="導演:">李察昆 </ExtendedInfo>
+            <ExtendedInfo name="演員:">金露華、傑克李蒙、佛瑞德艾斯泰瑞 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051125190000" duration="3600">
+        <EventId>22300005</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>原野鐵漢 (普) </Name>
+            <Description>此片是根據賴瑞麥莫崔（Larry McMurtry）的小說&quot;Horseman Pass By&quot;所改編而成。哈德班諾（保羅紐曼 飾）是一名年輕的德州牧場主人，與父親霍姆（梅文道格拉斯 飾）、姪子隆恩（布蘭登迪懷德 飾）、女管家艾瑪（派屈西妮兒 飾）住在一起。哈德是一個自私冷血的年輕人，喝酒、鬧事、玩女人是他最常做的事，和他父親純樸踏實的行事作風完全不一樣。一日，牧場中有一隻牛染上了致命的口蹄疫，不負責的哈德打算在政府單位沒有發現之前，將牛隻全部賣掉，但是父親霍姆卻下令將全部牛隻撲殺，於是父子兩人之間的隔閡越裂越大……保羅紐曼在此片中將罪孽深重的哈德，詮釋得淋漓盡致，獲得當年奧斯卡最佳男主角的提名，後來雖然敗給了薛尼鮑迪的「流浪漢」，但是奧斯卡還是將最佳女主角頒給了派屈西妮兒、梅文道格拉斯拿下了最佳男配角，另外還獲得了最佳攝影獎。導演馬丁瑞特是好萊塢紐約派的領導人之一，技法外柔內剛，最能發掘演員的演技潛力，另有「諾瑪瑞」、「溫柔的慈悲」、「我要求審判」等作品。 </Description>
+            <ExtendedInfo name="導演:">馬丁瑞特 </ExtendedInfo>
+            <ExtendedInfo name="演員:">派屈西妮兒、保羅紐曼、梅文道格拉斯 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051125200000" duration="3600">
+        <EventId>22300006</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>寄居小奇兵 (普) </Name>
+            <Description>此片是根據瑪麗諾頓的經典童書所改編而成，描寫一群只有四吋高的小小人，住在一棟英式小屋中的生活。這群迷你小小人是克拉克家族，由爸爸波德克拉克（吉姆布洛班特 飾）、媽媽荷姆莉（賽莉亞艾琳 飾），與兩個孩子愛綠蒂（芙蘿拉紐碧姬 飾）、皮葛林（湯姆費頓 飾）所組成，他們住在蘭德家族的地板下，你可以稱他們為「寄居小奇兵」，因為他們總是「借用」蘭德家的線、安全別針或食物的碎屑為生，兩家就這樣相安無事的過日子。直到有一天，邪惡的律師波特（約翰古德曼 飾，「謀殺綠腳趾」）破壞了平靜的生活，他發現這棟英式小屋的所有權人已死，所以他打算摧毀小屋，建築高樓以謀取厚利，如此一來，蘭德家面臨了無家可歸的命運，而迷你的克拉克家，也可能被迫在人類世界中曝光...... </Description>
+            <ExtendedInfo name="導演:">彼得海威特 </ExtendedInfo>
+            <ExtendedInfo name="演員:">約翰古德曼、吉姆布洛班特、賽莉亞艾琳、湯姆費頓 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051125210000" duration="3600">
+        <EventId>22300007</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>浴火英雌 (普) </Name>
+            <Description>本片可說是名導朗霍華「浴火赤子情」的女性版，羅勃麥可路易斯成功地刻畫出一位女性消防隊員，如何在第一線的救火工作上闖出自己的一片天。辛蒂（南茜麥肯）是聲名卓著的洛杉磯消防隊中第一位女性消防隊員，但她很快就發現除非她能證明自己的實力，否則隊上的其他--或者該說是男性--成員絕不會把她當成消防隊員看待。本片演員演出陣容堅強，並有出人意料的結局。 </Description>
+            <ExtendedInfo name="導演:">羅勃麥可路易斯 </ExtendedInfo>
+            <ExtendedInfo name="演員:">巴瑞柯賓、南茜麥肯 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051125220000" duration="3600">
+        <EventId>22300008</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>一級追捕令 3(上) (護) </Name>
+            <Description>此片出自於艾美獎加冠之作「頭號嫌疑犯」（&quot;Prime Suspect&quot;）幕後功臣之手，描寫警察局長麥可華肯（大衛海曼 飾）帶領頂尖緝捕小隊，打擊犯罪的精彩過程。在此集中，一個15歲大的女孩無故失蹤，警長麥可很快的找到了嫌疑犯卡爾懷汀（安東尼席金斯 飾），卻苦於無證據逮捕他。此時，警員派特諾斯（凱特芭佛瑞 飾）找到了另一名嫌疑犯史蒂芬華林頓（李察葛蘭 飾，「純真年代」、「伴我一世情」），史蒂芬的行為舉止相當怪異，經由派特深入調查後，赫然發現兩件案子之間驚人的關係。 </Description>
+            <ExtendedInfo name="導演:">裘強森 </ExtendedInfo>
+            <ExtendedInfo name="演員:">李察葛蘭、大衛海曼、凱特芭佛瑞、安東尼席金斯 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051125230000" duration="3600">
+        <EventId>22300009</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>一級追捕令 3(下) (護) </Name>
+            <Description>在第一集中，一個15歲的女孩無故失蹤，警察局長麥可華肯（大衛海曼 飾）帶領頂尖緝捕小隊展開調查，很快的找出了兩名嫌疑犯史蒂芬與卡爾。史蒂芬的行為怪異，是警方眼中的頭號嫌疑犯，他的反應緊張又激動，但是仍提出了無懈可擊的不在場證明。此時，新的證據出現，對兩個嫌疑犯都相當不利，因此在法庭上引起了令人錯愕的結果。這一回，法官與陪審團是否能解開這個真偽虛實交錯的謎，讓正義伸張呢？ </Description>
+            <ExtendedInfo name="導演:">裘強森 </ExtendedInfo>
+            <ExtendedInfo name="演員:">李察葛蘭、大衛海曼、凱特芭佛瑞、安東尼席金斯 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126000000" duration="3600">
+        <EventId>22300010</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>零號禁地 (普) </Name>
+            <Description>洛杉磯發生了一連串不尋常的地震，頂尖地震學家金柏莉（珍娜崗恩）因而帶著兒子賈斯汀（史考特泰拉）住在國家公園境內的偏僻小屋，好調查神祕地震的起因；在一位神祕陌生人闖入他們的營地後不久，賈斯汀接著便失蹤了，隨著事情急速明朗化，金柏莉在偶然間發現了這位神祕陌生人的祕密，因而被捲入一場必須跟時間賽跑的重要任務，否則將會發生一場無與倫比的世紀大地震！本片導演理查佛萊德曼擅長拍攝動作片，作品以電視影集為主，例如：「十三號星期五」、「危情殺機」、「新超人」等在國內都有上映過的知名動作影集。 </Description>
+            <ExtendedInfo name="導演:">理查佛萊德曼 </ExtendedInfo>
+            <ExtendedInfo name="演員:">傑克史考利亞、珍娜崗恩、瑞琪娜薇強森 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126010000" duration="3600">
+        <EventId>22300011</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>魔鬼先鋒 2 (護) </Name>
+            <Description>本片是96年由湯姆貝林傑主演的「魔鬼先鋒」續集。 卡爾湯瑪森（特瑞威廉斯飾，「深海攔截大海怪」）是一名職業傭兵，哥哥蘭道爾則是在紐約布魯克林區一所高中教歷史，兩人雖不常見面但感情相當深厚。 一日，蘭道爾為阻止一場劫車事件，慘遭街頭幫派殺害。 心痛欲絕的卡爾為就近保護哥哥的愛女安雅，並找出兇手以報殺兄之仇，遂偽裝成代課老師至蘭道爾的高中追查線索。 當他愈深入調查，愈發現事情的真相並不單純，以”小B”為首的幫派組織正籌畫一場更大的陰謀，而卡爾同校的老師華倫（B.D. 王 飾，「747絕地悍將」）行蹤詭異，似乎也不是個簡單的人物…在內外強敵環伺下，卡爾與安雅能平安地逃過這一劫嗎？ </Description>
+            <ExtendedInfo name="導演:">史蒂芬波爾 </ExtendedInfo>
+            <ExtendedInfo name="演員:">特瑞威廉斯、B.D. 王 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126020000" duration="3600">
+        <EventId>22300012</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>威震新天堂 (普) </Name>
+            <Description>西元2237年，經歷一場毀滅性的大戰後，有兩個人被放逐到沙漠盜匪肆虐的星球上，史蒂芬鮑德溫（演藝圈頗負盛名的鮑德溫家族之么弟，「賭城萬歲」）飾演其中一位人犯；在押解途中他試圖脫逃未果，因而被賣給一群遊牧民族為奴，沒想到他後來卻愛上了他的新主人莉莉（麗莎波奈，「全民公敵」），而為了保有這份珍貴的愛情，他必須保護心上人遠離殘忍而嗜血的盜匪魔掌。 </Description>
+            <ExtendedInfo name="導演:">亞倫梅傑 </ExtendedInfo>
+            <ExtendedInfo name="演員:">史蒂芬鮑德溫、麗莎波奈 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126030000" duration="3600">
+        <EventId>22300013</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>愛之囚 (護) </Name>
+            <Description>以豐滿上圍聞名國際伸展台的世界超級名模娜歐蜜坎貝爾這回不走台步了，她決定轉換舞台跨界演起電影。一日，艾瑞克薩爾（「終極女郎」）所飾演的殺手出任務時，被美麗的崔茜（娜歐蜜坎貝爾）無意間看到，因而黑幫下令要殺人滅口，然而這位殺手卻對崔茜一見鍾情，為了保住她的性命，他只好帶著她一起躲避黑幫打手的追殺；由於患難見真情，崔茜終於接受了他的求愛，但他們真能從此長相廝守嗎？ </Description>
+            <ExtendedInfo name="導演:">史提夫狄瑪寇 </ExtendedInfo>
+            <ExtendedInfo name="演員:">娜歐蜜坎貝爾、艾瑞克薩爾 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126040000" duration="3600">
+        <EventId>22300014</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>獨眼巨人 (普) </Name>
+            <Description>蘇珊決定出發前往墨西哥尋找因飛機失事而失蹤的未婚夫布魯斯，由於失事的該地區可能富含豐富的鈾礦，蘇珊說服富翁馬丁資助她此行的花費，隨行的除了馬丁本人，還有導遊羅斯及飛機駕駛李；然而無獨有偶地，他們的飛機竟然也失事了，迫降在一處與世獨立的山谷中，他們很快便發現這處山谷輻射量高得離譜，且居住在谷中的都是突變生物：巨型昆蟲、超級大蜥蜴、還有一位25呎高的獨眼巨人！ </Description>
+            <ExtendedInfo name="導演:">伯特高登 </ExtendedInfo>
+            <ExtendedInfo name="演員:">葛蘿莉亞塔柏特、朗錢寧二世 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126050000" duration="3600">
+        <EventId>22300015</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>魔鬼先鋒 2 (護) </Name>
+            <Description>本片是96年由湯姆貝林傑主演的「魔鬼先鋒」續集。 卡爾湯瑪森（特瑞威廉斯飾，「深海攔截大海怪」）是一名職業傭兵，哥哥蘭道爾則是在紐約布魯克林區一所高中教歷史，兩人雖不常見面但感情相當深厚。 一日，蘭道爾為阻止一場劫車事件，慘遭街頭幫派殺害。 心痛欲絕的卡爾為就近保護哥哥的愛女安雅，並找出兇手以報殺兄之仇，遂偽裝成代課老師至蘭道爾的高中追查線索。 當他愈深入調查，愈發現事情的真相並不單純，以”小B”為首的幫派組織正籌畫一場更大的陰謀，而卡爾同校的老師華倫（B.D. 王 飾，「747絕地悍將」）行蹤詭異，似乎也不是個簡單的人物…在內外強敵環伺下，卡爾與安雅能平安地逃過這一劫嗎？ </Description>
+            <ExtendedInfo name="導演:">史蒂芬波爾 </ExtendedInfo>
+            <ExtendedInfo name="演員:">特瑞威廉斯、B.D. 王 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126060000" duration="3600">
+        <EventId>22300016</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>危險情人夢 (普) </Name>
+            <Description>瑪姬（珍妮佛歐尼爾 飾）是一名新喪偶的寡婦，雇請了一對兄妹艾倫（布魯斯巴克斯萊納 飾）與珍妮（瓊安娜卡西迪 飾）幫忙照顧家事與兩個年幼的女兒。艾倫因為走不出妻子與女兒之死，終日藉酒澆愁度日，但是在遇到瑪姬之後，兩人之間擦出了愛情的火花，此事讓珍妮心中相當不安。隨著時間的流逝，慢慢的，艾倫致命而晦澀的過去傾囊而出….. </Description>
+            <ExtendedInfo name="導演:">E.W.史瓦克漢蒙 </ExtendedInfo>
+            <ExtendedInfo name="演員:">布魯斯巴克斯萊納、珍妮佛歐尼爾 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126070000" duration="3600">
+        <EventId>22300017</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>落伍條子 (普) </Name>
+            <Description>在西元2088年的洛杉磯，警方正全面緊急追捕一個危險的殺手理查，跟現代唯一的不同點是…這個搜索行動是由機器而非人類所指揮，因為”過去的”年代，人類的錯誤已經造成太多危機，因而將此類工作交由機器執行。但泰勒警官卻仍堅持採用傳統的辦案方法，他是個特立獨行的強悍警察，但卻生活在他爺爺的陰影下，因為他爺爺是當代打擊犯罪科技的先趨。如今泰勒的第一要務是將理查繩之以法，但更重要的是，他必須證明他並非家族或警界中的”害群之馬”… </Description>
+            <ExtendedInfo name="導演:">羅勃巴特勒 </ExtendedInfo>
+            <ExtendedInfo name="演員:">布魯斯艾伯特、比爾麥赫、亞當安特 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126080000" duration="3600">
+        <EventId>22300018</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>艾德私人頻道 (普) </Name>
+            <Description>最近幾年在美國電視界流行一種以記錄真實事件、不經剪接等任何攝影技巧的電視節目，本片靈感便是由此風潮所引發的；根據法國喜劇” Louis 19: King of the Airwaves”所改編，知名大導演朗霍華（「美人魚」、「遠離家園」）執導，本片敘述一個電視台節目總監辛西亞（艾倫狄珍妮絲，「美麗壞美眉」）因急著挽救下滑的收視率，於是在千挑萬選下，找上了在錄影帶店當店員的艾德（馬修麥康納，「接觸未來」）作為新節目的男主角，每天24小時記錄他的一舉一動；這位30歲出頭、帶點孩子氣的艾德在短短的一週時間內便成為電視界中最閃亮的新星，也成功地大幅提高電視台的收視率，然而艾德不久後便發現自己竟然成了別人的搖錢樹：他的哥哥雷靠他的名氣出書抨擊他、一位工於心計的美麗模特兒利用無辜的艾德為自己打知名度、父親的合夥人也因自己的關係使得私事被公諸於電視機前…這些伴隨成功而來的隱私權喪失和自我迷失，漸漸令艾德開始想念以前自由自在的日子，但他能如願恢復往日平凡卻無憂無慮的生活嗎？參與本片演出的還有名脫口秀主持人傑雷諾、奧斯卡得主馬丁蘭道、名模特兒伊莉莎白赫蕾等人，大導演羅伯雷納（「軍官與魔鬼」、「當哈利碰上莎莉」）也在片中有精彩客串。 </Description>
+            <ExtendedInfo name="導演:">朗霍華 </ExtendedInfo>
+            <ExtendedInfo name="演員:">馬修麥康納、伍迪哈里遜、珍娜艾芙曼 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126090000" duration="3600">
+        <EventId>22300019</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>限時索命 (護) </Name>
+            <Description>魯格豪爾（「剝皮駭客」）飾演殺妻罪犯班喬登，十五年後假釋出獄。 保釋官蘿拉（娜塔莎李察遜 飾）開始深入調查他的案子，竟發現自己不自覺地墜入情網，她竟然愛上了這個男人！ 儘管班的親友們警告他是個危險人物，但已被愛情沖昏頭的蘿拉，開始懷疑班才是清白無辜的受害者…..來自荷蘭的魯格豪爾與來自英國的娜塔莎李察遜為了本片，特地學了一口漂亮標準的美國腔英語，令人不得不佩服他們的敬業態度。 </Description>
+            <ExtendedInfo name="導演:">揚伊利亞伯格 </ExtendedInfo>
+            <ExtendedInfo name="演員:">魯格豪爾、娜塔莎李察遜 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126100000" duration="3600">
+        <EventId>22300020</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>姻緣搭錯線？ (普) </Name>
+            <Description>瑪西（珍妮嘉洛法羅 飾，「愛情叩應」）是一個獨立聰明的現代新女性。為了協助麻州參議員麥葛利打贏選戰，毅然答應選舉總幹事尼克（丹尼斯賴瑞 飾，「天羅地網」）的建議—到參議員的故鄉愛爾蘭找尋族譜，以藉此贏得美籍愛裔選民的支持。 風塵僕僕地到了目的地，瑪西赫然發現在愛爾蘭的習俗中，居然有一條「男人與女人不能共同旅行」的不成文規定！ 讓自詡新女性的她啼笑皆非。 加上剛好碰上當地一年一度的「媒人節」， 單身的瑪西很快地成為注目的焦點。 此時，年輕的調酒員尚恩（大衛歐哈拉飾，「英雄本色」）出現在她的身邊，兩個好事的職業媒人遂以100英鎊為賭注，打賭誰先能成就瑪西和尚恩這段姻緣。 這一對背景文化完全不同的年輕人是否能如願地迸出愛情火花呢？ 除了劇中俏皮雋永的對白另人發噱之外，至愛爾蘭實地拍攝的鄉野風光，美不勝收的令人歎為觀止！ </Description>
+            <ExtendedInfo name="導演:">馬克傑菲 </ExtendedInfo>
+            <ExtendedInfo name="演員:">珍妮嘉洛法羅、大衛歐哈拉、丹尼斯賴瑞 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126110000" duration="3600">
+        <EventId>22300021</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>錯中錯 (普) </Name>
+            <Description>在北卡羅萊納州的傑佛遜溪，丹尼（彼得費西柰利 飾，「等不及說愛你」）是鎮上高中的明星四分衛，他一心想得到大學的足球獎學金，但他的女友凱莉希望他留在鎮上而對他施加壓力；亞倫（羅尼伊斯曼 飾，「霹靂狂花」）是個心思單純、頗有藝術細胞的學生，丹尼與其死黨塔茲（威爾艾斯特 飾，「獵殺U-571」）尚恩（傑佛格森 飾，「少女的抉擇」）是他的朋友，但在家中他卻有個會施虐的父親；長期受虐的亞倫終於忍無可忍，因而犯下不可彌補的罪行—弒父。為了保護亞倫，丹尼三人發誓保密並幫忙湮滅證據，不料竟有目擊證人意外死亡，他們被迫必須藏起兩具屍體，並暗中祈禱這場惡夢就此結束。當第二具屍體被意外發現時，一位無辜的足球隊員被誤當成嫌犯，丹尼承受不了讓隊友成為代罪羔羊的罪惡感，因而留下能讓警方轉移調查方向的線索；於是矛頭開始指向丹尼等人，真相也逐漸大白，他們便開始逃亡，但這四人能逃過警方的追捕嗎？克里斯艾薩克、艾美歐文及湯姆阿諾也在片中客串一角。 </Description>
+            <ExtendedInfo name="導演:">詹姆斯洛威 </ExtendedInfo>
+            <ExtendedInfo name="演員:">彼得費西柰利 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126120000" duration="3600">
+        <EventId>22300022</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>吸血鬼復仇記續集 (護) </Name>
+            <Description>人類學家喬韋伯（麥可莫瑞提 飾，「火線勇氣」）為了拉近與兒子日漸疏遠的關係，遂趁著假期帶兒子回到緬因州的老家。 回到故鄉後，卻發現景物依舊，所有的鄉民卻已變成駭人的吸血鬼！ 這些有300年歷史的老吸血鬼告訴喬一個不可告人的秘密，並要求他為他們寫一部聖經… </Description>
+            <ExtendedInfo name="導演:">賴瑞柯恩 </ExtendedInfo>
+            <ExtendedInfo name="演員:">麥可莫瑞提、山繆富勒 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126130000" duration="3600">
+        <EventId>22300023</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>艾德私人頻道 (普) </Name>
+            <Description>最近幾年在美國電視界流行一種以記錄真實事件、不經剪接等任何攝影技巧的電視節目，本片靈感便是由此風潮所引發的；根據法國喜劇” Louis 19: King of the Airwaves”所改編，知名大導演朗霍華（「美人魚」、「遠離家園」）執導，本片敘述一個電視台節目總監辛西亞（艾倫狄珍妮絲，「美麗壞美眉」）因急著挽救下滑的收視率，於是在千挑萬選下，找上了在錄影帶店當店員的艾德（馬修麥康納，「接觸未來」）作為新節目的男主角，每天24小時記錄他的一舉一動；這位30歲出頭、帶點孩子氣的艾德在短短的一週時間內便成為電視界中最閃亮的新星，也成功地大幅提高電視台的收視率，然而艾德不久後便發現自己竟然成了別人的搖錢樹：他的哥哥雷靠他的名氣出書抨擊他、一位工於心計的美麗模特兒利用無辜的艾德為自己打知名度、父親的合夥人也因自己的關係使得私事被公諸於電視機前…這些伴隨成功而來的隱私權喪失和自我迷失，漸漸令艾德開始想念以前自由自在的日子，但他能如願恢復往日平凡卻無憂無慮的生活嗎？參與本片演出的還有名脫口秀主持人傑雷諾、奧斯卡得主馬丁蘭道、名模特兒伊莉莎白赫蕾等人，大導演羅伯雷納（「軍官與魔鬼」、「當哈利碰上莎莉」）也在片中有精彩客串。 </Description>
+            <ExtendedInfo name="導演:">朗霍華 </ExtendedInfo>
+            <ExtendedInfo name="演員:">馬修麥康納、伍迪哈里遜、珍娜艾芙曼 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126140000" duration="3600">
+        <EventId>22200024</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>陋巷風雲 (普) </Name>
+            <Description>1946年的紐約，一個惡名昭彰的「地獄」…席維斯史特龍（「警察帝國」）與艾蒙亞森特（「脫衣舞孃」）是一對在生存邊緣掙扎的兄弟，安妮亞契（「變臉」）則飾演他們的夢中情人。當他們兩人被捲入夜間俱樂部中殘忍的摔角比賽時，他們心中想一舉成名的慾望，頻頻在向他們呼喚，但是在當時，生活在戰前的紐約，可不是這麼簡單的事…本片是席維斯史特龍的導演處女作，他不但身兼編、導、演三職，甚至還參加了電影主題曲的演唱。 </Description>
+            <ExtendedInfo name="導演:">席維斯史特龍 </ExtendedInfo>
+            <ExtendedInfo name="演員:">席維斯史特龍、艾蒙亞森特 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126160000" duration="3600">
+        <EventId>22300026</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>原野奇兵 (普) </Name>
+            <Description>哈佛法律學院畢業生小布瑞斯柯康提（布魯斯坎貝爾 飾，「老爺潛艇少爺兵」），受西部某地強盜家族所雇，找尋惡名昭彰的約翰布萊幫派，當年也是這一幫人，殺死了布瑞斯柯的父親，他父親不僅是一個知名的警長，也是西部的傳奇人物。在朋友鮑勒（朱利斯凱瑞 飾）的幫助下，布瑞斯柯策馬橫越大西部，將殺父仇人緝捕到案！ </Description>
+            <ExtendedInfo name="導演:">丹尼爾艾提斯、葛瑞格畢曼 </ExtendedInfo>
+            <ExtendedInfo name="演員:">布魯斯坎貝爾 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126170000" duration="3600">
+        <EventId>22300027</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>威震新天堂 (普) </Name>
+            <Description>西元2237年，經歷一場毀滅性的大戰後，有兩個人被放逐到沙漠盜匪肆虐的星球上，史蒂芬鮑德溫（演藝圈頗負盛名的鮑德溫家族之么弟，「賭城萬歲」）飾演其中一位人犯；在押解途中他試圖脫逃未果，因而被賣給一群遊牧民族為奴，沒想到他後來卻愛上了他的新主人莉莉（麗莎波奈，「全民公敵」），而為了保有這份珍貴的愛情，他必須保護心上人遠離殘忍而嗜血的盜匪魔掌。 </Description>
+            <ExtendedInfo name="導演:">亞倫梅傑 </ExtendedInfo>
+            <ExtendedInfo name="演員:">史蒂芬鮑德溫、麗莎波奈 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126180000" duration="3600">
+        <EventId>22300028</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>激情殺人狂 (普) </Name>
+            <Description>馬修（艾瑞葛羅斯 飾，「烈焰狂飆」）是個旅館職員，一天，世界超級名模海西挪（克勞蒂雅克莉絲汀 飾，「地球保衛戰」）住進他所服務的旅館，而只要馬修假冒他人的身分，就有機會能跟她約會，一心想跟海西娜有更多相處的機會，馬修便欣然扮成他人前往約會，只不過這個約會有點與眾不同---馬修的女伴想殺了他！不久後便有數人喪生在這位瘋狂名模之手，不幸的是所有證據都指向無辜的馬修，只有一直暗戀馬修的葛蘿莉認為兇手另有其人；然而固執的佛格森警官卻緊咬著線索，一路追查到馬修身上… </Description>
+            <ExtendedInfo name="導演:">亞倫史賓賽 </ExtendedInfo>
+            <ExtendedInfo name="演員:">艾瑞葛羅斯、克勞蒂雅克莉絲汀、麥可柰特、諾曼費爾 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126190000" duration="3600">
+        <EventId>22300029</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>桃色吸引力 (護) </Name>
+            <Description>一名野心勃勃的年輕女服務生，為了實現成功的夢想，決定不惜任何代價，即使是犧牲她情人的婚姻與她朋友的生命…… </Description>
+            <ExtendedInfo name="導演:">奇庫歐卡瓦沙基 </ExtendedInfo>
+            <ExtendedInfo name="演員:">丹尼斯霍柏、泰莉雅席爾 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126200000" duration="3600">
+        <EventId>22300030</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>小迷糊當大兵 (普) </Name>
+            <Description>茱蒂班傑明（歌蒂韓，「大老婆俱樂部」）的老公在新婚之夜暴斃，使得她在傷心、震驚之餘決定加入軍隊。這個原本應該是再糟糕不過的決定，最後卻有著出人意料的好結果--直到她的上級對她性騷擾；於是茱蒂便被轉調到歐洲的北約聯防總部，她在歐陸和舊識法國人亨利重逢，兩人後來還論及婚嫁，但有過慘痛經驗的茱蒂這次的婚姻能圓滿收場嗎？”小迷糊”歌蒂韓以本片入圍1980年奧斯卡最佳女主角，而飾演她軍中指揮官的伊琳布萊納亦同時入圍最佳女配角。 </Description>
+            <ExtendedInfo name="導演:">霍華齊夫 </ExtendedInfo>
+            <ExtendedInfo name="演員:">歌蒂韓、艾蒙亞森特、伊琳布萊納 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126210000" duration="3600">
+        <EventId>22300031</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>甜蜜芳鄰 (普) </Name>
+            <Description>幾年前，一位19歲的女子（夏儂哈洛）在結婚禮壇前遭人拋棄，因而發誓再也不和男人扯上關係；十年後，她忽然決定要生個小孩，卻不想要婚姻的束縛，於是登報徵求人選，但前來應徵的人卻沒一個能符合她的條件，就在這時候，有兩位鄰居--一位婦科醫生（傑克韋伯）和一個職業小丑（唐納文李屈）--引起了她的注意，但這兩位男士能改變她對男人的觀念嗎？ </Description>
+            <ExtendedInfo name="導演:">強葛雷斯柯、約瑟夫皮爾森 </ExtendedInfo>
+            <ExtendedInfo name="演員:">夏儂哈洛、傑克韋伯、海瑟瑪塔拉佐 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126220000" duration="3600">
+        <EventId>22300032</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>等不及說愛你 (護) </Name>
+            <Description>好萊塢最近幾年開始吹起的YA（Young Adult）電影風似乎仍在方興未艾之際，本片便是趕搭這次風潮，又一部由新生代青春偶像主演的校園青春喜劇。故事情節是繞著高中畢業舞會為主，普里斯（伊森安柏瑞 飾，「賭城假期」）自校花愛曼達（珍妮佛樂芙休伊 飾，影集「五口之家」）高一時坐在他旁邊座位開始，就此為她神魂顛倒，但生性害羞的他卻只敢在心中暗戀，遲遲不敢表白；如今畢業舞會將至，愛曼達又正好剛和校隊男友德斯特（彼得費西柰利飾）分手，他會有機會將那封已改寫過幾百萬次的情書交給她，還是會帶著不敢表白的遺憾悔恨終生呢？本片就跟其他的校園青春喜劇一樣，也找了許多當紅歌手錄製電影原聲帶，包括澳洲新秀”眨眼182”及知名重金屬搖滾樂團”槍與玫瑰”都為此專輯獻唱。許多熟悉的面孔，像是珍娜艾芙曼（電視影集「老公老婆不登對」）、瑪莉莎瓊哈特（電視影集「少女魔法師」）、傑瑞歐康納（「火星任務」）都在片中客串演出。 </Description>
+            <ExtendedInfo name="導演:">哈利艾馮特、黛博拉卡普蘭 </ExtendedInfo>
+            <ExtendedInfo name="演員:">珍妮佛樂芙休伊、伊森安柏瑞、彼得費西柰利、賽斯葛林 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126230000" duration="3600">
+        <EventId>22300033</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>終極刺殺 (普) </Name>
+            <Description>瑞秋（娜塔莎韓翠琪，「異種」）是個研究肉食類猛禽的專家，她的人就和她所研究的鳥類一樣，從不輕易接納不熟悉的人或事；然而她平靜的世界卻因她接受一件請託而變成活生生的夢魘！當南非知名人權領袖曼德拉進城時，一群聯邦調查局的幹員在取得瑞秋同意後，將她家設為觀察據點，但她不久後便了解到這些人的真正企圖是要暗殺曼德拉！當瑞秋成功破壞該暗殺計畫後，她發現自己成了他們殺人滅口名單上的頭號目標，在四面楚歌的情況下，瑞秋必須智取殺人不眨眼的敵人，化身為她最鍾愛的猛禽為自己的性命奮鬥！ </Description>
+            <ExtendedInfo name="導演:">葛瑞姆克里佛 </ExtendedInfo>
+            <ExtendedInfo name="演員:">娜塔莎韓翠琪、強納森榭奇、蘿倫赫頓 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127000000" duration="3600">
+        <EventId>22300034</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>原野奇兵 (普) </Name>
+            <Description>哈佛法律學院畢業生小布瑞斯柯康提（布魯斯坎貝爾 飾，「老爺潛艇少爺兵」），受西部某地強盜家族所雇，找尋惡名昭彰的約翰布萊幫派，當年也是這一幫人，殺死了布瑞斯柯的父親，他父親不僅是一個知名的警長，也是西部的傳奇人物。在朋友鮑勒（朱利斯凱瑞 飾）的幫助下，布瑞斯柯策馬橫越大西部，將殺父仇人緝捕到案！ </Description>
+            <ExtendedInfo name="導演:">丹尼爾艾提斯、葛瑞格畢曼 </ExtendedInfo>
+            <ExtendedInfo name="演員:">布魯斯坎貝爾 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127010000" duration="3600">
+        <EventId>22300035</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>新紐倫堡大審(上) (護) </Name>
+            <Description>在1961年的奧斯卡頒獎典禮上，入圍十一項大獎的「紐倫堡大審」抱走了最佳男主角（麥斯米倫雪兒）及最佳改編劇本獎，這樣輝煌的成績，使得這部剛拍竣的迷你影集「新紐倫堡大審」更令人期待，但也相對地背負了更多的壓力；本片是改編自培西寇（Joseph E. Persico）的暢銷小說Nuremberg: Infamy on Trial，描寫1945年第二次世界大戰後，盟軍在打敗日、義、德三國後，假德國紐倫堡舉行對戰俘的大審判，亞歷鮑德溫（「魅影魔星」、「賊世至尊」）飾演羅勃傑克森，他代表當年的盟軍，肩負起控訴德軍戰時暴行的重責大任；本片的幕後工作人員不辭辛勞地前往紐倫堡做實地勘查，而為了增添真實性，片中有些精彩對白還是出自當年的法庭記錄，例如傑克森的開場陳詞便是一例，而所有參與演出的演員亦下了不少苦功揣摩當年那場世紀大審的真實情景；其他參與演出的還有飾演傑克森助理艾莎的吉兒漢尼詩（電視影集「法網遊龍」），飾演賀曼的布萊恩寇克斯（「梅爾吉勃遜之英雄本色」），以及飾演英國代表麥斯威爾費佛爵士的克里斯多夫普拉默（「驚爆內幕」）等一流演技派演員。執導本片的是加拿大籍導演伊夫茲席蒙諾，他另有「賭命36小時」等作品。 </Description>
+            <ExtendedInfo name="導演:">伊夫茲席蒙諾 </ExtendedInfo>
+            <ExtendedInfo name="演員:">亞歷鮑德溫、吉兒漢尼詩、克里斯多夫普拉默 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127020000" duration="3600">
+        <EventId>22300036</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>新紐倫堡大審(下) (護) </Name>
+            <Description>1945年，令全世界風雲變色的第二次世界大戰結束後，戰勝的盟軍便迫不及待地想討回公道，由美國最高法院法官羅勃傑克森（亞歷鮑德溫）領導律師代表團，控訴軸心三國令人髮指的罪狀，然而此時，在律師團的熱烈激辯下，讓人不由得不思考一個難解的課題：德軍戰犯是否該為他們屠殺猶太人之舉付出代價？抑或他們只是錯在不該聽從軍令，執行枉顧人道的屠殺任務？這是一場同盟國絕對不能輸、又不能只求讓戰犯付出慘烈代價而不顧正義的世紀大審判，當全世界都屏氣凝神觀望下，這場審判能兼顧公道與正義的原則嗎？本片除了在當年審判舉行的同一地點拍攝外，為了讓大家深切感受戰爭的殘酷，還展示了當年審判時，檢方所提供的幾處惡名昭彰的猶太人集中營裡的照片。 </Description>
+            <ExtendedInfo name="導演:">伊夫茲席蒙諾 </ExtendedInfo>
+            <ExtendedInfo name="演員:">亞歷鮑德溫、吉兒漢尼詩、克里斯多夫普拉默 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127030000" duration="3600">
+        <EventId>22300037</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>索命密使 (護) </Name>
+            <Description>本片是根據米奇史畢蘭（Mickey Spillane）的暢銷小說改編，在1953年便曾經搬上大銀幕，此為舊片重拍的新版本。漢默（艾蒙亞森特，「曼波狂潮」）與傑克是越戰袍澤，退伍後從事私家偵探之職；當漢默得知傑克在辦案時不幸身亡後，發誓要找出兇手為他復仇，遂展開調查。漢默追查到一家以專門治療性功能障礙的診所，卻發現這間診所大有文章，很可能和中情局大有關連… </Description>
+            <ExtendedInfo name="導演:">理查賀夫朗 </ExtendedInfo>
+            <ExtendedInfo name="演員:">艾蒙亞森特、巴巴拉卡瑞拉、亞倫金恩 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127040000" duration="3600">
+        <EventId>22300038</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>激情殺人狂 (普) </Name>
+            <Description>馬修（艾瑞葛羅斯 飾，「烈焰狂飆」）是個旅館職員，一天，世界超級名模海西挪（克勞蒂雅克莉絲汀 飾，「地球保衛戰」）住進他所服務的旅館，而只要馬修假冒他人的身分，就有機會能跟她約會，一心想跟海西娜有更多相處的機會，馬修便欣然扮成他人前往約會，只不過這個約會有點與眾不同---馬修的女伴想殺了他！不久後便有數人喪生在這位瘋狂名模之手，不幸的是所有證據都指向無辜的馬修，只有一直暗戀馬修的葛蘿莉認為兇手另有其人；然而固執的佛格森警官卻緊咬著線索，一路追查到馬修身上… </Description>
+            <ExtendedInfo name="導演:">亞倫史賓賽 </ExtendedInfo>
+            <ExtendedInfo name="演員:">艾瑞葛羅斯、克勞蒂雅克莉絲汀、麥可柰特、諾曼費爾 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127050000" duration="3600">
+        <EventId>22300039</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>神探史崔克:午夜列車 (普) </Name>
+            <Description>畢雷諾斯（「不羈夜」）再這部動作驚悚片中飾演私家偵探史崔克，他和他的跟班傑克森（歐西戴維斯飾，「淘氣老頑童」）必須保護一位親眼目睹母親被冷血殺害的小女孩。為了讓兇手伏法，她必須趕到華盛頓出庭作證，唯一的問題是 -她怕坐飛機，於是他們一行三人必須改搭火車，如此一來，使得史崔克的工作倍加困難。 </Description>
+            <ExtendedInfo name="導演:">威廉佛瑞克 </ExtendedInfo>
+            <ExtendedInfo name="演員:">畢雷諾斯、歐西戴維斯 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127060000" duration="3600">
+        <EventId>22300040</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>無罪的辯護 (普) </Name>
+            <Description>在這部不落俗套的懸疑驚悚片中，奧斯卡入圍者艾德哈里斯（「第三次奇蹟」）飾演一位憤世嫉俗的辯護律師，由於經常為明知有罪的當事人脫罪，在良心的譴責下以一樁又一樁的風流韻事作為發洩；當他最新一任床伴的丈夫被控謀殺一位臥底女警，他不情願地成為此案的辯護律師，但仍為良知所苦的他能勝任嗎？他和當事人妻子的關係又會對他自己的事業造成什麼影響？本片由羅傑史波提伍德（「飛離航道」、「縱橫天下」、「魔鬼複製人」）執導，由丹布朗森(Dan Bronson)執筆，改編自知名小說家/辯護律師菲利普馬高林的暢銷小說。 </Description>
+            <ExtendedInfo name="導演:">羅傑史波提伍德 </ExtendedInfo>
+            <ExtendedInfo name="演員:">艾德哈里斯、蘿珊娜哈特、布魯斯麥吉爾 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127070000" duration="3600">
+        <EventId>22300041</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>孤星淚 (普) </Name>
+            <Description>改編自法國大文豪雨果的史詩巨著“悲慘世界”， 本片由丹麥籍導演比爾奧古斯特執導，號召許多當今一流演員主演，這部片或許是所有原著改編版本中最精彩的一部。19世紀初正逢法國大革命，首都巴黎動盪不安，瓦爾(連恩尼遜 飾，「辛德勒的名單」)因為偷了一條麵包而入獄，過了19年艱苦的勞動生活後終於越獄成功；他出獄後遇貴人相助而洗心革面，十年後事業有成，還成為受人尊敬的鎮長。但是命運弄人，一位當年的獄警，如今則成為警探的傑維特(傑佛瑞羅許 飾，「莎翁情史」)認出了瓦爾，並決定將他送回牢裡，瓦爾只好步上逃亡之路。另一方面，瓦爾工廠的女工芳汀(鄔瑪舒曼 飾，「千鈞一髮」)因有私生女而遭解僱，隨即身染重病，瓦爾認為自己有愧於她們母女，於是便自願挑起照顧小女孩的責任。瓦爾跟芳汀的女兒蔻瑟(克萊兒丹絲 飾，「掃蕩三人組」)在修道院中待了九年，後來蔻瑟愛上了一名滿懷理想主義的年輕革命份子;不幸傑維特此時竟又發現瓦爾的行蹤，這次他決定絕不讓瓦爾輕易脫逃，瓦爾這次還能順利渡過危機嗎？在這革命亂世中，蔻瑟的愛情能夠喜劇收場嗎？ </Description>
+            <ExtendedInfo name="導演:">比爾奧古斯特 </ExtendedInfo>
+            <ExtendedInfo name="演員:">連恩尼遜、傑佛瑞羅許、鄔瑪舒嫚、克萊兒丹絲 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127080000" duration="3600">
+        <EventId>22300042</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>愛之囚 (護) </Name>
+            <Description>以豐滿上圍聞名國際伸展台的世界超級名模娜歐蜜坎貝爾這回不走台步了，她決定轉換舞台跨界演起電影。一日，艾瑞克薩爾（「終極女郎」）所飾演的殺手出任務時，被美麗的崔茜（娜歐蜜坎貝爾）無意間看到，因而黑幫下令要殺人滅口，然而這位殺手卻對崔茜一見鍾情，為了保住她的性命，他只好帶著她一起躲避黑幫打手的追殺；由於患難見真情，崔茜終於接受了他的求愛，但他們真能從此長相廝守嗎？ </Description>
+            <ExtendedInfo name="導演:">史提夫狄瑪寇 </ExtendedInfo>
+            <ExtendedInfo name="演員:">娜歐蜜坎貝爾、艾瑞克薩爾 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127090000" duration="3600">
+        <EventId>22300043</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>叛國者 (普) </Name>
+            <Description>本片根據美國史上最重大的間諜活動案件所改編而成。艾瑞奇（提摩西赫頓 飾，「叛國少年」）是一位平庸的CIA探員，他的酗酒問題和能力不足令他在局裡一直無法升職；然而他的工作—招募蘇俄的雙面諜並追蹤其下落—對中情局而言卻是無法或缺的。面對日漸增加的帳單和性好揮霍的妻子（伊莉莎白蓓娜 飾，「鬼使神差」），艾瑞奇決定洩漏幾個間諜姓名給蘇俄，好交換一些現金來支付帳單，不久後蘇俄方面便表示願意花大錢向他買更多的名單；艾瑞奇禁不住能夠手頭闊綽的誘惑而繼續交易，他的妻子對他的叛國行為先是感到震驚，但接著便決定她也喜歡金錢能買到的奢華；他們突然變得奢華的生活終於引起調查探員（瓊安普羅萊特 飾，「我真的愛死你」）的注意，而開始留意起艾瑞奇的活動。 </Description>
+            <ExtendedInfo name="導演:">約翰麥肯錫 </ExtendedInfo>
+            <ExtendedInfo name="演員:">提摩西赫頓 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127100000" duration="3600">
+        <EventId>22300044</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>限時索命 (護) </Name>
+            <Description>魯格豪爾（「剝皮駭客」）飾演殺妻罪犯班喬登，十五年後假釋出獄。 保釋官蘿拉（娜塔莎李察遜 飾）開始深入調查他的案子，竟發現自己不自覺地墜入情網，她竟然愛上了這個男人！ 儘管班的親友們警告他是個危險人物，但已被愛情沖昏頭的蘿拉，開始懷疑班才是清白無辜的受害者…..來自荷蘭的魯格豪爾與來自英國的娜塔莎李察遜為了本片，特地學了一口漂亮標準的美國腔英語，令人不得不佩服他們的敬業態度。 </Description>
+            <ExtendedInfo name="導演:">揚伊利亞伯格 </ExtendedInfo>
+            <ExtendedInfo name="演員:">魯格豪爾、娜塔莎李察遜 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127110000" duration="3600">
+        <EventId>22300045</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>鐵血暴警 (護) </Name>
+            <Description>如果你喜歡「火線追緝令」中令人喘不過氣的驚悚鬥智，那你絕對不能錯過這部同樣刺激的懸疑動作片！莫瑞警探（馬里歐范比柏斯，「時空英豪3」、「哈林悍將」）自從偵辦冷血的連續殺人犯惠特曼（詹姆斯雷馬，「魔宮帝國」）的案子後便經常被惡夢驚醒，在他親眼目睹惠特曼被送進毒氣室執行死刑後，決定將此案全都拋諸腦後；但莫瑞不知道的是，這個殺人魔王被選中進行一項祕密實驗，經過洗腦後他被給予一張新的臉孔，成為政府的祕密傭兵兼刺客；惠特曼的首次任務是刺殺一位參議員，不料他竟陣前抗命，在殺了保鏢後逃逸無蹤，此後更展開一連串殘忍而血腥的報復行動；莫瑞警探偕同新搭檔莫妮卡偵辦近來發生的多起命案，但他越深入調查就越覺得犯案手法與早已死亡的惠特曼極類似，在此同時，局裡來了一位神祕的調查局探員諾伍德協助調查，讓莫瑞更是滿心疑竇；隨著案情逐漸明朗，莫瑞發現這些滅絕人性的命案的確是惠特曼所為，他已殺害了判他死刑的陪審團、法官，還抓了莫瑞的前妻兼起訴他的檢察官夏綠蒂，就等著逮捕他入獄的莫瑞和他來一場最後的正邪對立、生死之戰！本片由以動作片見長的馬克賴斯特（「魔鬼基地」、「末路狂奔」）所執導。 </Description>
+            <ExtendedInfo name="導演:">馬克賴斯特 </ExtendedInfo>
+            <ExtendedInfo name="演員:">馬里歐范比柏斯、詹姆斯雷馬、史蒂芬卡佛瑞 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127120000" duration="3600">
+        <EventId>22300046</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>生化戰士 (護) </Name>
+            <Description>世界搏擊冠軍唐”龍”威爾森在這部快節奏的科幻動作驚悚片中，飾演一位半人、半機器的未來生化戰士，他受雇調查一位商人的死因，卻因而碰上心狠手辣的黑幫殺手，捲入一場至死方休的生死決鬥。 </Description>
+            <ExtendedInfo name="導演:">戴米恩克勞斯 </ExtendedInfo>
+            <ExtendedInfo name="演員:">唐威爾森、梅格佛斯特、艾柏洛提莫、克里斯潘 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127130000" duration="3600">
+        <EventId>22300047</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>無罪的辯護 (普) </Name>
+            <Description>在這部不落俗套的懸疑驚悚片中，奧斯卡入圍者艾德哈里斯（「第三次奇蹟」）飾演一位憤世嫉俗的辯護律師，由於經常為明知有罪的當事人脫罪，在良心的譴責下以一樁又一樁的風流韻事作為發洩；當他最新一任床伴的丈夫被控謀殺一位臥底女警，他不情願地成為此案的辯護律師，但仍為良知所苦的他能勝任嗎？他和當事人妻子的關係又會對他自己的事業造成什麼影響？本片由羅傑史波提伍德（「飛離航道」、「縱橫天下」、「魔鬼複製人」）執導，由丹布朗森(Dan Bronson)執筆，改編自知名小說家/辯護律師菲利普馬高林的暢銷小說。 </Description>
+            <ExtendedInfo name="導演:">羅傑史波提伍德 </ExtendedInfo>
+            <ExtendedInfo name="演員:">艾德哈里斯、蘿珊娜哈特、布魯斯麥吉爾 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127140000" duration="3600">
+        <EventId>22300048</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>孤星淚 (普) </Name>
+            <Description>改編自法國大文豪雨果的史詩巨著“悲慘世界”， 本片由丹麥籍導演比爾奧古斯特執導，號召許多當今一流演員主演，這部片或許是所有原著改編版本中最精彩的一部。19世紀初正逢法國大革命，首都巴黎動盪不安，瓦爾(連恩尼遜 飾，「辛德勒的名單」)因為偷了一條麵包而入獄，過了19年艱苦的勞動生活後終於越獄成功；他出獄後遇貴人相助而洗心革面，十年後事業有成，還成為受人尊敬的鎮長。但是命運弄人，一位當年的獄警，如今則成為警探的傑維特(傑佛瑞羅許 飾，「莎翁情史」)認出了瓦爾，並決定將他送回牢裡，瓦爾只好步上逃亡之路。另一方面，瓦爾工廠的女工芳汀(鄔瑪舒曼 飾，「千鈞一髮」)因有私生女而遭解僱，隨即身染重病，瓦爾認為自己有愧於她們母女，於是便自願挑起照顧小女孩的責任。瓦爾跟芳汀的女兒蔻瑟(克萊兒丹絲 飾，「掃蕩三人組」)在修道院中待了九年，後來蔻瑟愛上了一名滿懷理想主義的年輕革命份子;不幸傑維特此時竟又發現瓦爾的行蹤，這次他決定絕不讓瓦爾輕易脫逃，瓦爾這次還能順利渡過危機嗎？在這革命亂世中，蔻瑟的愛情能夠喜劇收場嗎？ </Description>
+            <ExtendedInfo name="導演:">比爾奧古斯特 </ExtendedInfo>
+            <ExtendedInfo name="演員:">連恩尼遜、傑佛瑞羅許、鄔瑪舒嫚、克萊兒丹絲 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127150000" duration="3600">
+        <EventId>22300049</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>一級追捕令 3(上) (護) </Name>
+            <Description>此片出自於艾美獎加冠之作「頭號嫌疑犯」（&quot;Prime Suspect&quot;）幕後功臣之手，描寫警察局長麥可華肯（大衛海曼 飾）帶領頂尖緝捕小隊，打擊犯罪的精彩過程。在此集中，一個15歲大的女孩無故失蹤，警長麥可很快的找到了嫌疑犯卡爾懷汀（安東尼席金斯 飾），卻苦於無證據逮捕他。此時，警員派特諾斯（凱特芭佛瑞 飾）找到了另一名嫌疑犯史蒂芬華林頓（李察葛蘭 飾，「純真年代」、「伴我一世情」），史蒂芬的行為舉止相當怪異，經由派特深入調查後，赫然發現兩件案子之間驚人的關係。 </Description>
+            <ExtendedInfo name="導演:">裘強森 </ExtendedInfo>
+            <ExtendedInfo name="演員:">李察葛蘭、大衛海曼、凱特芭佛瑞、安東尼席金斯 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127160000" duration="3600">
+        <EventId>22300050</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>一級追捕令 3(下) (護) </Name>
+            <Description>在第一集中，一個15歲的女孩無故失蹤，警察局長麥可華肯（大衛海曼 飾）帶領頂尖緝捕小隊展開調查，很快的找出了兩名嫌疑犯史蒂芬與卡爾。史蒂芬的行為怪異，是警方眼中的頭號嫌疑犯，他的反應緊張又激動，但是仍提出了無懈可擊的不在場證明。此時，新的證據出現，對兩個嫌疑犯都相當不利，因此在法庭上引起了令人錯愕的結果。這一回，法官與陪審團是否能解開這個真偽虛實交錯的謎，讓正義伸張呢？ </Description>
+            <ExtendedInfo name="導演:">裘強森 </ExtendedInfo>
+            <ExtendedInfo name="演員:">李察葛蘭、大衛海曼、凱特芭佛瑞、安東尼席金斯 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127170000" duration="3600">
+        <EventId>22300051</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>零號禁地 (普) </Name>
+            <Description>洛杉磯發生了一連串不尋常的地震，頂尖地震學家金柏莉（珍娜崗恩）因而帶著兒子賈斯汀（史考特泰拉）住在國家公園境內的偏僻小屋，好調查神祕地震的起因；在一位神祕陌生人闖入他們的營地後不久，賈斯汀接著便失蹤了，隨著事情急速明朗化，金柏莉在偶然間發現了這位神祕陌生人的祕密，因而被捲入一場必須跟時間賽跑的重要任務，否則將會發生一場無與倫比的世紀大地震！本片導演理查佛萊德曼擅長拍攝動作片，作品以電視影集為主，例如：「十三號星期五」、「危情殺機」、「新超人」等在國內都有上映過的知名動作影集。 </Description>
+            <ExtendedInfo name="導演:">理查佛萊德曼 </ExtendedInfo>
+            <ExtendedInfo name="演員:">傑克史考利亞、珍娜崗恩、瑞琪娜薇強森 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127180000" duration="3600">
+        <EventId>22300052</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>謀殺綠腳趾 (普) </Name>
+            <Description>導演柯恩兄弟再度以此片證明，他們是好萊塢黑色喜劇的箇中高手，此片與前作「冰血暴」有著異取同工之妙，以「大家來搶錢」為故事主軸，加入尖銳的人性嘲諷、與犀利的黑色幽默，曾獲柏林影展最佳導演獎提名。故事描寫大懶鬼傑佛瑞萊布斯基（傑夫布里吉 飾，「無懈可擊」）是全洛杉磯最倒楣的衰蛋，他與黑道大亨萊布斯基有著一樣的名字，因此招致兩個小混混向他勒索，還把他僅剩的家當搞的一團混亂，氣不過的傑佛瑞決定找上這名同姓的萊布斯基，討回個公道。沒想到事隔不到一天，大亨的情婦被綁架了，他直覺認定就是那兩個小混混幹的好事，於是以兩萬元的代價雇請傑佛瑞，幫他運送一百萬的贖金到歹徒手上。但是，傑佛瑞的好友卻慫恿他獨吞下這大筆贖金，管他人質的死活，沒想到此時，大亨的女兒也看上了這筆錢，另一幫綁匪也找上了門，事情變得一發不可收拾......此片卡司堅強，包括傑夫布里吉、約翰古德曼（「肥龍皇帝」）、史提夫巴賽米、茱莉安摩爾（「情人搭錯線」）等。 </Description>
+            <ExtendedInfo name="導演:">喬伊柯恩 </ExtendedInfo>
+            <ExtendedInfo name="演員:">傑夫布里吉、約翰古德曼、史提夫巴賽米、茱莉安摩爾 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127190000" duration="3600">
+        <EventId>22300053</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>愛上羅珊 (普) </Name>
+            <Description>本片是愛德蒙羅史坦斯所著的&quot;大鼻子情聖&quot;現代版。CD貝爾斯（史提夫馬丁，「大製&quot;騙&quot;家」）是鎮上的消防隊長，他允文允武、十八般武藝樣樣精通，唯一不夠完美的就是有個天生的大鼻子。貝爾斯愛上了鎮上剛搬來的美麗天文學家羅姍（黛瑞漢納，「美人魚」），羅姍卻對英俊的消防隊員克里斯（瑞克羅索維奇，「捍衛戰士」）有意。但一有美女想跟克里斯說話他就會舌頭打結，於是他便向貝爾斯求助，貝爾斯藉由教導克里斯如何追求羅姍而間接向羅姍表達說不出口的愛慕之意，但羅姍以為那些令人沈醉的愛語出自克里斯而… </Description>
+            <ExtendedInfo name="導演:">佛瑞德薛比西 </ExtendedInfo>
+            <ExtendedInfo name="演員:">史提夫馬丁、黛瑞漢納 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127200000" duration="3600">
+        <EventId>22300054</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>萊斯先生的祕密 (普) </Name>
+            <Description>歐文（比爾史威瑟）是個罹患何杰金氏病（Hodgkin’s disease，又名”惡性淋巴肉芽腫病”）的13歲少年，他最要好的朋友便是住在他家隔壁的萊斯先生（知名搖滾歌手/演員大衛鮑伊，「魔王迷宮」）；當萊斯先生神祕死亡後，歐文除了必須繼續與病魔對抗外，還得克服失去摯友的哀傷，他能學會如何再去愛人嗎？還是會因而加深對死亡的恐懼？這部備受好評的英國電影在今年的柏林影展中獲得許多喝采，是一部發人深省的溫馨佳片。 </Description>
+            <ExtendedInfo name="導演:">尼可拉斯肯道爾 </ExtendedInfo>
+            <ExtendedInfo name="演員:">大衛鮑伊、比爾史威瑟 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127210000" duration="3600">
+        <EventId>22300055</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>高空有難 (普) </Name>
+            <Description>雷蒙史東（喬曼泰納 飾）是一個富商，帶著被寵壞的13歲女兒妮可（伊莉莎卡斯柏特 飾）、與秘書登上私人小飛機飛往他地。沒想到，飛行途中遇到一陣強烈的風暴，閃電擊中了飛機，導致機體嚴重受損，所有的乘客與飛行員都驚嚇不已，沒想到此時，小小年紀的妮可竟然鎮定的坐上了駕駛座，遵守地面上的飛行指示，將飛機降落在鄰近的機場，拯救了全機乘客的性命！ </Description>
+            <ExtendedInfo name="導演:">勞勃提奈爾 </ExtendedInfo>
+            <ExtendedInfo name="演員:">喬曼泰納、伊莉莎卡斯柏特 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127220000" duration="3600">
+        <EventId>22300056</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>危險性遊戲 (輔) </Name>
+            <Description>凱薩琳（莎拉米雪兒吉蘭，「魔法奇兵」）和薩巴斯丁（雷恩菲利浦，「54激情俱樂部」）是一對富家異姓姊弟，由於凱薩琳在暑假時被花花公子寇特拋棄，只因他看上了天真無邪的瑟茜（莎瑪布萊兒，「煞到你」），凱薩琳遂慫恿薩巴斯丁去勾引瑟茜，把她教育成花痴，好報復寇特形容瑟茜的&quot;天真無邪&quot;，但由於薩巴斯丁&quot;閱人無數&quot;，因而對像瑟茜這種普通女孩興趣缺缺，而由於新校長的女兒安妮在雜誌上發表過文章，表示絕不從事婚前性行為，因此被薩巴斯丁視為有趣的挑戰，於是凱薩琳就跟薩巴斯丁打賭，若他能在開學前引誘安妮上床，凱薩琳便為薩巴斯丁提供一夜的性服務；反之，薩巴斯丁就得將他的名貴跑車送給凱薩琳，兩人就此玩起了這個危險的性遊戲…導演羅傑高寶另外還導過「阿呆與阿瓜」、「金剛戰士」、「王牌保齡球」等片。 </Description>
+            <ExtendedInfo name="導演:">羅傑高寶 </ExtendedInfo>
+            <ExtendedInfo name="演員:">莎拉蜜雪兒吉蘭、雷恩菲利普、瑞絲薇瑟斯本 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>2</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127230000" duration="3600">
+        <EventId>22300057</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>零號禁地 (普) </Name>
+            <Description>洛杉磯發生了一連串不尋常的地震，頂尖地震學家金柏莉（珍娜崗恩）因而帶著兒子賈斯汀（史考特泰拉）住在國家公園境內的偏僻小屋，好調查神祕地震的起因；在一位神祕陌生人闖入他們的營地後不久，賈斯汀接著便失蹤了，隨著事情急速明朗化，金柏莉在偶然間發現了這位神祕陌生人的祕密，因而被捲入一場必須跟時間賽跑的重要任務，否則將會發生一場無與倫比的世紀大地震！本片導演理查佛萊德曼擅長拍攝動作片，作品以電視影集為主，例如：「十三號星期五」、「危情殺機」、「新超人」等在國內都有上映過的知名動作影集。 </Description>
+            <ExtendedInfo name="演員:">傑克史考利亞、珍娜崗恩、瑞琪娜薇強森 </ExtendedInfo>
+            <ExtendedInfo name="導演:">理查佛萊德曼 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051128000000" duration="3600">
+        <EventId>22300058</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>浴火英雌 (普) </Name>
+            <Description>本片可說是名導朗霍華「浴火赤子情」的女性版，羅勃麥可路易斯成功地刻畫出一位女性消防隊員，如何在第一線的救火工作上闖出自己的一片天。辛蒂（南茜麥肯）是聲名卓著的洛杉磯消防隊中第一位女性消防隊員，但她很快就發現除非她能證明自己的實力，否則隊上的其他--或者該說是男性--成員絕不會把她當成消防隊員看待。本片演員演出陣容堅強，並有出人意料的結局。 </Description>
+            <ExtendedInfo name="導演:">羅勃麥可路易斯 </ExtendedInfo>
+            <ExtendedInfo name="演員:">巴瑞柯賓、南茜麥肯 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051128010000" duration="3600">
+        <EventId>22300059</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>謀殺綠腳趾 (普) </Name>
+            <Description>導演柯恩兄弟再度以此片證明，他們是好萊塢黑色喜劇的箇中高手，此片與前作「冰血暴」有著異取同工之妙，以「大家來搶錢」為故事主軸，加入尖銳的人性嘲諷、與犀利的黑色幽默，曾獲柏林影展最佳導演獎提名。故事描寫大懶鬼傑佛瑞萊布斯基（傑夫布里吉 飾，「無懈可擊」）是全洛杉磯最倒楣的衰蛋，他與黑道大亨萊布斯基有著一樣的名字，因此招致兩個小混混向他勒索，還把他僅剩的家當搞的一團混亂，氣不過的傑佛瑞決定找上這名同姓的萊布斯基，討回個公道。沒想到事隔不到一天，大亨的情婦被綁架了，他直覺認定就是那兩個小混混幹的好事，於是以兩萬元的代價雇請傑佛瑞，幫他運送一百萬的贖金到歹徒手上。但是，傑佛瑞的好友卻慫恿他獨吞下這大筆贖金，管他人質的死活，沒想到此時，大亨的女兒也看上了這筆錢，另一幫綁匪也找上了門，事情變得一發不可收拾......此片卡司堅強，包括傑夫布里吉、約翰古德曼（「肥龍皇帝」）、史提夫巴賽米、茱莉安摩爾（「情人搭錯線」）等。 </Description>
+            <ExtendedInfo name="導演:">喬伊柯恩 </ExtendedInfo>
+            <ExtendedInfo name="演員:">傑夫布里吉、約翰古德曼、史提夫巴賽米、茱莉安摩爾 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051128020000" duration="3600">
+        <EventId>22300060</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>獨眼巨人 (普) </Name>
+            <Description>蘇珊決定出發前往墨西哥尋找因飛機失事而失蹤的未婚夫布魯斯，由於失事的該地區可能富含豐富的鈾礦，蘇珊說服富翁馬丁資助她此行的花費，隨行的除了馬丁本人，還有導遊羅斯及飛機駕駛李；然而無獨有偶地，他們的飛機竟然也失事了，迫降在一處與世獨立的山谷中，他們很快便發現這處山谷輻射量高得離譜，且居住在谷中的都是突變生物：巨型昆蟲、超級大蜥蜴、還有一位25呎高的獨眼巨人！ </Description>
+            <ExtendedInfo name="導演:">伯特高登 </ExtendedInfo>
+            <ExtendedInfo name="演員:">葛蘿莉亞塔柏特、朗錢寧二世 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051128030000" duration="3600">
+        <EventId>22300061</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>太空走廊劫案 (普) </Name>
+            <Description>在浩瀚的宇宙中，有一塊荒涼危險的地區稱為「高速區」，每六個月就會有一艘載了上億元宇宙貨幣的太空船通過此地，負責運送各宇宙殖民地與地球中央銀行間的金錢往來。如今，有一群訓練有素的傭兵劫匪，計劃在這個證據與目擊者都無法生存的致命太空走廊，犯下最完美的劫案！此時，唯有一個人能阻止他們…… </Description>
+            <ExtendedInfo name="導演:">菲立普魯斯 </ExtendedInfo>
+            <ExtendedInfo name="演員:">奧立佛葛拉納、肯歐蘭特 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051128040000" duration="3600">
+        <EventId>22300062</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>寄居小奇兵 (普) </Name>
+            <Description>此片是根據瑪麗諾頓的經典童書所改編而成，描寫一群只有四吋高的小小人，住在一棟英式小屋中的生活。這群迷你小小人是克拉克家族，由爸爸波德克拉克（吉姆布洛班特 飾）、媽媽荷姆莉（賽莉亞艾琳 飾），與兩個孩子愛綠蒂（芙蘿拉紐碧姬 飾）、皮葛林（湯姆費頓 飾）所組成，他們住在蘭德家族的地板下，你可以稱他們為「寄居小奇兵」，因為他們總是「借用」蘭德家的線、安全別針或食物的碎屑為生，兩家就這樣相安無事的過日子。直到有一天，邪惡的律師波特（約翰古德曼 飾，「謀殺綠腳趾」）破壞了平靜的生活，他發現這棟英式小屋的所有權人已死，所以他打算摧毀小屋，建築高樓以謀取厚利，如此一來，蘭德家面臨了無家可歸的命運，而迷你的克拉克家，也可能被迫在人類世界中曝光...... </Description>
+            <ExtendedInfo name="導演:">彼得海威特 </ExtendedInfo>
+            <ExtendedInfo name="演員:">約翰古德曼、吉姆布洛班特、賽莉亞艾琳、湯姆費頓 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051128050000" duration="3600">
+        <EventId>22300063</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>魔鬼先鋒 2 (護) </Name>
+            <Description>本片是96年由湯姆貝林傑主演的「魔鬼先鋒」續集。 卡爾湯瑪森（特瑞威廉斯飾，「深海攔截大海怪」）是一名職業傭兵，哥哥蘭道爾則是在紐約布魯克林區一所高中教歷史，兩人雖不常見面但感情相當深厚。 一日，蘭道爾為阻止一場劫車事件，慘遭街頭幫派殺害。 心痛欲絕的卡爾為就近保護哥哥的愛女安雅，並找出兇手以報殺兄之仇，遂偽裝成代課老師至蘭道爾的高中追查線索。 當他愈深入調查，愈發現事情的真相並不單純，以”小B”為首的幫派組織正籌畫一場更大的陰謀，而卡爾同校的老師華倫（B.D. 王 飾，「747絕地悍將」）行蹤詭異，似乎也不是個簡單的人物…在內外強敵環伺下，卡爾與安雅能平安地逃過這一劫嗎？ </Description>
+            <ExtendedInfo name="導演:">史蒂芬波爾 </ExtendedInfo>
+            <ExtendedInfo name="演員:">特瑞威廉斯、B.D. 王 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051128060000" duration="3600">
+        <EventId>22300064</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>神劍 (普) </Name>
+            <Description>英王亞瑟戲劇性的一生再度被搬上螢幕。 殘暴的烏瑟（蓋布瑞爾伯恩 飾，「魔鬼末日」）從巫師處得到一把神奇的寶劍，烏瑟死前將其埋在一塊石頭中，而這把寶劍神秘之處，即誰能從石頭中拔起它，那人將可統治全英國。多年後，烏瑟的兒子亞瑟順利取得寶劍，並如願以償的當上了英國國王。 亞瑟以這把寶劍打敗外敵，並吸收了一群為其效命的圓桌武士。 在其治理下，英國歷經了一段平靜富裕的時期。 然而隨著其妻與親信的暗通款曲，及與同父異母姊姊不倫關係的曝光，亞瑟王逐漸走入毀滅的一途…本片於81年曾獲得坎城影展金棕櫚獎的提名，也於次年獲得奧斯卡獎的最佳攝影。 值得一提的是，本片是連恩尼遜（飾片中蓋文爵士，「豪情本色」）第一次大銀幕的演出，且讓為電影配樂的崔佛瓊斯一夕成名，其日後作品計有「大地英豪」與「極光追殺令」等片。 </Description>
+            <ExtendedInfo name="導演:">約翰布爾曼 </ExtendedInfo>
+            <ExtendedInfo name="演員:">奈吉爾泰瑞、海倫米蘭、尼可拉斯克萊、賽瑞朗西 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051128070000" duration="3600">
+        <EventId>22300065</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>太空走廊劫案 (普) </Name>
+            <Description>在浩瀚的宇宙中，有一塊荒涼危險的地區稱為「高速區」，每六個月就會有一艘載了上億元宇宙貨幣的太空船通過此地，負責運送各宇宙殖民地與地球中央銀行間的金錢往來。如今，有一群訓練有素的傭兵劫匪，計劃在這個證據與目擊者都無法生存的致命太空走廊，犯下最完美的劫案！此時，唯有一個人能阻止他們…… </Description>
+            <ExtendedInfo name="導演:">菲立普魯斯 </ExtendedInfo>
+            <ExtendedInfo name="演員:">奧立佛葛拉納、肯歐蘭特 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051128080000" duration="3600">
+        <EventId>22300066</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>魔鬼先鋒 2 (護) </Name>
+            <Description>本片是96年由湯姆貝林傑主演的「魔鬼先鋒」續集。 卡爾湯瑪森（特瑞威廉斯飾，「深海攔截大海怪」）是一名職業傭兵，哥哥蘭道爾則是在紐約布魯克林區一所高中教歷史，兩人雖不常見面但感情相當深厚。 一日，蘭道爾為阻止一場劫車事件，慘遭街頭幫派殺害。 心痛欲絕的卡爾為就近保護哥哥的愛女安雅，並找出兇手以報殺兄之仇，遂偽裝成代課老師至蘭道爾的高中追查線索。 當他愈深入調查，愈發現事情的真相並不單純，以”小B”為首的幫派組織正籌畫一場更大的陰謀，而卡爾同校的老師華倫（B.D. 王 飾，「747絕地悍將」）行蹤詭異，似乎也不是個簡單的人物…在內外強敵環伺下，卡爾與安雅能平安地逃過這一劫嗎？ </Description>
+            <ExtendedInfo name="導演:">史蒂芬波爾 </ExtendedInfo>
+            <ExtendedInfo name="演員:">特瑞威廉斯、B.D. 王 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051128090000" duration="3600">
+        <EventId>22300067</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>甜蜜芳鄰 (普) </Name>
+            <Description>幾年前，一位19歲的女子（夏儂哈洛）在結婚禮壇前遭人拋棄，因而發誓再也不和男人扯上關係；十年後，她忽然決定要生個小孩，卻不想要婚姻的束縛，於是登報徵求人選，但前來應徵的人卻沒一個能符合她的條件，就在這時候，有兩位鄰居--一位婦科醫生（傑克韋伯）和一個職業小丑（唐納文李屈）--引起了她的注意，但這兩位男士能改變她對男人的觀念嗎？ </Description>
+            <ExtendedInfo name="導演:">強葛雷斯柯、約瑟夫皮爾森 </ExtendedInfo>
+            <ExtendedInfo name="演員:">夏儂哈洛、傑克韋伯、海瑟瑪塔拉佐 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051128100000" duration="3600">
+        <EventId>22300068</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>冒牌將軍 (普) </Name>
+            <Description>丹尼凱在這部以二次大戰為背景的喜劇片中，飾演正準備和袍澤一起登陸諾曼第的美國步兵厄尼，由於他和英國的麥肯錫將軍長得有如雙胞胎一樣，因而在情報單位得知此事後，決定派他假冒將軍的身分來混淆德軍的耳目；但厄尼並不知道麥肯錫名列納粹的刺殺黑名單上，在他扮演冒牌將軍時，真正的將軍卻遇刺身亡，於是陸軍情報處便要求厄尼繼續這場騙局以穩定軍心。 </Description>
+            <ExtendedInfo name="導演:">梅維爾薛佛森 </ExtendedInfo>
+            <ExtendedInfo name="演員:">丹尼凱、黛娜溫特、黛安那朵絲 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051128110000" duration="3600">
+        <EventId>22300069</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>錯中錯 (普) </Name>
+            <Description>在北卡羅萊納州的傑佛遜溪，丹尼（彼得費西柰利 飾，「等不及說愛你」）是鎮上高中的明星四分衛，他一心想得到大學的足球獎學金，但他的女友凱莉希望他留在鎮上而對他施加壓力；亞倫（羅尼伊斯曼 飾，「霹靂狂花」）是個心思單純、頗有藝術細胞的學生，丹尼與其死黨塔茲（威爾艾斯特 飾，「獵殺U-571」）尚恩（傑佛格森 飾，「少女的抉擇」）是他的朋友，但在家中他卻有個會施虐的父親；長期受虐的亞倫終於忍無可忍，因而犯下不可彌補的罪行—弒父。為了保護亞倫，丹尼三人發誓保密並幫忙湮滅證據，不料竟有目擊證人意外死亡，他們被迫必須藏起兩具屍體，並暗中祈禱這場惡夢就此結束。當第二具屍體被意外發現時，一位無辜的足球隊員被誤當成嫌犯，丹尼承受不了讓隊友成為代罪羔羊的罪惡感，因而留下能讓警方轉移調查方向的線索；於是矛頭開始指向丹尼等人，真相也逐漸大白，他們便開始逃亡，但這四人能逃過警方的追捕嗎？克里斯艾薩克、艾美歐文及湯姆阿諾也在片中客串一角。 </Description>
+            <ExtendedInfo name="導演:">詹姆斯洛威 </ExtendedInfo>
+            <ExtendedInfo name="演員:">彼得費西柰利 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051128120000" duration="3600">
+        <EventId>22300070</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>叛國者 (普) </Name>
+            <Description>本片根據美國史上最重大的間諜活動案件所改編而成。艾瑞奇（提摩西赫頓 飾，「叛國少年」）是一位平庸的CIA探員，他的酗酒問題和能力不足令他在局裡一直無法升職；然而他的工作—招募蘇俄的雙面諜並追蹤其下落—對中情局而言卻是無法或缺的。面對日漸增加的帳單和性好揮霍的妻子（伊莉莎白蓓娜 飾，「鬼使神差」），艾瑞奇決定洩漏幾個間諜姓名給蘇俄，好交換一些現金來支付帳單，不久後蘇俄方面便表示願意花大錢向他買更多的名單；艾瑞奇禁不住能夠手頭闊綽的誘惑而繼續交易，他的妻子對他的叛國行為先是感到震驚，但接著便決定她也喜歡金錢能買到的奢華；他們突然變得奢華的生活終於引起調查探員（瓊安普羅萊特 飾，「我真的愛死你」）的注意，而開始留意起艾瑞奇的活動。 </Description>
+            <ExtendedInfo name="導演:">約翰麥肯錫 </ExtendedInfo>
+            <ExtendedInfo name="演員:">提摩西赫頓 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051128130000" duration="3600">
+        <EventId>22300071</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>桃色吸引力 (護) </Name>
+            <Description>一名野心勃勃的年輕女服務生，為了實現成功的夢想，決定不惜任何代價，即使是犧牲她情人的婚姻與她朋友的生命…… </Description>
+            <ExtendedInfo name="導演:">奇庫歐卡瓦沙基 </ExtendedInfo>
+            <ExtendedInfo name="演員:">丹尼斯霍柏、泰莉雅席爾 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051128140000" duration="3600">
+        <EventId>22300072</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>新紐倫堡大審(上) (護) </Name>
+            <Description>在1961年的奧斯卡頒獎典禮上，入圍十一項大獎的「紐倫堡大審」抱走了最佳男主角（麥斯米倫雪兒）及最佳改編劇本獎，這樣輝煌的成績，使得這部剛拍竣的迷你影集「新紐倫堡大審」更令人期待，但也相對地背負了更多的壓力；本片是改編自培西寇（Joseph E. Persico）的暢銷小說Nuremberg: Infamy on Trial，描寫1945年第二次世界大戰後，盟軍在打敗日、義、德三國後，假德國紐倫堡舉行對戰俘的大審判，亞歷鮑德溫（「魅影魔星」、「賊世至尊」）飾演羅勃傑克森，他代表當年的盟軍，肩負起控訴德軍戰時暴行的重責大任；本片的幕後工作人員不辭辛勞地前往紐倫堡做實地勘查，而為了增添真實性，片中有些精彩對白還是出自當年的法庭記錄，例如傑克森的開場陳詞便是一例，而所有參與演出的演員亦下了不少苦功揣摩當年那場世紀大審的真實情景；其他參與演出的還有飾演傑克森助理艾莎的吉兒漢尼詩（電視影集「法網遊龍」），飾演賀曼的布萊恩寇克斯（「梅爾吉勃遜之英雄本色」），以及飾演英國代表麥斯威爾費佛爵士的克里斯多夫普拉默（「驚爆內幕」）等一流演技派演員。執導本片的是加拿大籍導演伊夫茲席蒙諾，他另有「賭命36小時」等作品。 </Description>
+            <ExtendedInfo name="導演:">伊夫茲席蒙諾 </ExtendedInfo>
+            <ExtendedInfo name="演員:">亞歷鮑德溫、吉兒漢尼詩、克里斯多夫普拉默 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051128150000" duration="3600">
+        <EventId>22300073</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>新紐倫堡大審(下) (護) </Name>
+            <Description>1945年，令全世界風雲變色的第二次世界大戰結束後，戰勝的盟軍便迫不及待地想討回公道，由美國最高法院法官羅勃傑克森（亞歷鮑德溫）領導律師代表團，控訴軸心三國令人髮指的罪狀，然而此時，在律師團的熱烈激辯下，讓人不由得不思考一個難解的課題：德軍戰犯是否該為他們屠殺猶太人之舉付出代價？抑或他們只是錯在不該聽從軍令，執行枉顧人道的屠殺任務？這是一場同盟國絕對不能輸、又不能只求讓戰犯付出慘烈代價而不顧正義的世紀大審判，當全世界都屏氣凝神觀望下，這場審判能兼顧公道與正義的原則嗎？本片除了在當年審判舉行的同一地點拍攝外，為了讓大家深切感受戰爭的殘酷，還展示了當年審判時，檢方所提供的幾處惡名昭彰的猶太人集中營裡的照片。 </Description>
+            <ExtendedInfo name="導演:">伊夫茲席蒙諾 </ExtendedInfo>
+            <ExtendedInfo name="演員:">亞歷鮑德溫、吉兒漢尼詩、克里斯多夫普拉默 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+    </ChannelPeriod>
+  </ScheduleData>
+</BroadcastData>

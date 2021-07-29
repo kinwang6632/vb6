@@ -1,0 +1,4 @@
+VBGROUP 5.0
+StartupProject=prjTest.vbp
+Project=csControlPanelWeb.vbp
+Project=..\CS_Web_Command_Matrix\CS_Web.vbp

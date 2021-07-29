@@ -1,0 +1,35 @@
+PROMPT *** SO131   拆帳作業之應收應付明細 ***
+
+DROP TABLE SO131 CASCADE CONSTRAINT;
+
+CREATE TABLE SO131 (
+	ComputeYM VARCHAR2(5),
+	RealOrShouldDate NUMBER(1),
+	SeqNo NUMBER(8),
+	BillNo VARCHAR2(15),
+	Item NUMBER(3),
+	CustId NUMBER(8),
+	CitemCode NUMBER(3),
+	CitemName VARCHAR2(20),
+	ShouldDate DATE,
+	ShouldAmt NUMBER(8),
+	RealDate DATE,
+	RealAmt NUMBER(8),
+	RealPeriod NUMBER(2),
+	RealStartDate DATE,
+	RealStopDate DATE,
+	CompCode NUMBER(3),
+	OrderNo VARCHAR2(15),
+	SBillNo VARCHAR2(15),
+	SItem NUMBER(3),
+	MediaCode NUMBER(3),
+	MediaName VARCHAR2(20),
+	AcceptEn VARCHAR2(10),
+	AcceptName VARCHAR2(20),
+	IntroId VARCHAR2(10),
+	IntroName VARCHAR2(50),
+	Notes VARCHAR2(255),
+	RefNo NUMBER(3));
+
+CREATE INDEX I_SO131_Index1 ON SO131 (CompCode,ComputeYM,RealOrShouldDate)
+	PCTFREE 10 STORAGE (INITIAL 100K NEXT 300K MINEXTENTS 1 MAXEXTENTS 200) TABLESPACE KS_NDX;

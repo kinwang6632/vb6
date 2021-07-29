@@ -1,0 +1,1761 @@
+object frmCD078B6: TfrmCD078B6
+  Left = 184
+  Top = 75
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'frmCD078B6'
+  ClientHeight = 573
+  ClientWidth = 789
+  Color = clBtnFace
+  Font.Charset = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Icon.Data = {
+    0000010002002020100000000000E80200002600000010101000000000002801
+    00000E0300002800000020000000400000000100040000000000800200000000
+    0000000000000000000000000000000000000000800000800000008080008000
+    0000800080008080000080808000C0C0C0000000FF0000FF000000FFFF00FF00
+    0000FF00FF00FFFF0000FFFFFF00000000000000000000000000000000000000
+    00000000BBBBBBBB000000000000000000000BBBBBBBBBBBBBB0000000000000
+    0000BBBBBBBBBBBBBBBB00000000000000BBBBBBBBBBBBBBBBBBBB0000000000
+    0BBBBBBBBBBBBBBBBBBBBBB000000000BBBBBBBBB0000000BBBBBBBB00000000
+    BBBBBBB00BBBBBBB00BBBBBB0000000BBBBBBB00BBBBBBBBB00BBBBBB00000BB
+    BBBBB00BBBBBBBBBBB00BBBBBB0000BBBBBBB0BBBBBBBBBBBBB0BBBBBB0000BB
+    BBBB0BBBBBBBBBBBBBBB0BBBBB000BBBBBBB0BBBBBBBBBBBBBBB0BBBBBB00BBB
+    BBBB0BBBBBBBBBBBBBBB0BBBBBB00BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB00BBB
+    BBBBBBBBBBBBBBBBBBBBBBBBBBB00BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB00BBB
+    BBBBBBB00BBBBBB00BBBBBBBBBB00BBBBBBBBB0000BBBB0000BBBBBBBBB00BBB
+    BBBBBB0000BBBB0000BBBBBBBBB000BBBBBBBB0000BBBB0000BBBBBBBB0000BB
+    BBBBBB0000BBBB0000BBBBBBBB0000BBBBBBBB0000BBBB0000BBBBBBBB00000B
+    BBBBBBB00BBBBBB00BBBBBBBB0000000BBBBBBBBBBBBBBBBBBBBBBBB00000000
+    BBBBBBBBBBBBBBBBBBBBBBBB000000000BBBBBBBBBBBBBBBBBBBBBB000000000
+    00BBBBBBBBBBBBBBBBBBBB00000000000000BBBBBBBBBBBBBBBB000000000000
+    00000BBBBBBBBBBBBBB000000000000000000000BBBBBBBB0000000000000000
+    0000000000000000000000000000FFF00FFFFF8001FFFE00007FFC00003FF800
+    001FF000000FE0000007C0000003C00000038000000180000001800000010000
+    0000000000000000000000000000000000000000000000000000000000008000
+    00018000000180000001C0000003C0000003E0000007F000000FF800001FFC00
+    003FFE00007FFF8001FFFFF00FFF280000001000000020000000010004000000
+    0000C00000000000000000000000000000000000000000000000000080000080
+    00000080800080000000800080008080000080808000C0C0C0000000FF0000FF
+    000000FFFF00FF000000FF00FF00FFFF0000FFFFFF0000000000000000000000
+    0BBBBBB00000000BBBBBBBBBB00000BBB000003BBB0000BB00BBBB03BB000BBB
+    0BBBBBB0BBB00BBB0BBBBBB0BBB00BBBBBBBBBBBBBB00BBBB00BB00BBBB00BBB
+    B00BB00BBBB00BBBB00BB00BBBB000BBB00BB00BBB0000BBBBBBBBBBBB00000B
+    BBBBBBBBB00000000BBBBBB000000000000000000000F81F0000E0070000C003
+    0000840100008801000000000000000000000000000000000000000000000000
+    00008001000080010000C0030000E0070000F81F0000}
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 14
+  object Panel1: TPanel
+    Left = 0
+    Top = 541
+    Width = 789
+    Height = 32
+    Align = alBottom
+    BevelOuter = bvNone
+    TabOrder = 0
+    DesignSize = (
+      789
+      32)
+    object edtDML: TcxTextEdit
+      Left = 828
+      Top = -4
+      Anchors = [akRight, akBottom]
+      Enabled = False
+      ParentFont = False
+      Properties.Alignment.Horz = taCenter
+      Properties.ReadOnly = True
+      Style.Color = 16777111
+      Style.Font.Charset = ANSI_CHARSET
+      Style.Font.Color = clWindowText
+      Style.Font.Height = -13
+      Style.Font.Name = 'Tahoma'
+      Style.Font.Style = []
+      Style.StyleController = StyleController.EditorStyle
+      Style.IsFontAssigned = True
+      StyleDisabled.Color = 16777111
+      StyleDisabled.TextColor = clWindowText
+      TabOrder = 0
+      Width = 67
+    end
+    object btnSave: TButton
+      Left = 78
+      Top = 3
+      Width = 69
+      Height = 26
+      Action = actSave
+      TabOrder = 1
+    end
+    object Button1: TButton
+      Left = 158
+      Top = 3
+      Width = 69
+      Height = 26
+      Action = actCancel
+      Cancel = True
+      TabOrder = 2
+    end
+    object btnUpdate: TButton
+      Left = 6
+      Top = 3
+      Width = 69
+      Height = 26
+      Action = actUpdate
+      TabOrder = 3
+    end
+  end
+  object Panel3: TPanel
+    Left = 0
+    Top = 0
+    Width = 789
+    Height = 209
+    Align = alTop
+    BevelOuter = bvNone
+    TabOrder = 1
+    object Label3: TLabel
+      Left = 7
+      Top = 58
+      Width = 48
+      Height = 15
+      Caption = #25351#23450#35373#20633
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clRed
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label1: TLabel
+      Left = 7
+      Top = 33
+      Width = 48
+      Height = 14
+      Caption = #25910#36027#38917#30446
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clRed
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label2: TLabel
+      Left = 7
+      Top = 10
+      Width = 48
+      Height = 14
+      Caption = #26381#21209#39006#21029
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clRed
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Bevel2: TBevel
+      Left = 0
+      Top = 206
+      Width = 789
+      Height = 3
+      Align = alBottom
+      Shape = bsBottomLine
+    end
+    object Label4: TLabel
+      Left = 7
+      Top = 86
+      Width = 48
+      Height = 14
+      Caption = #40670#25976#35373#23450
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clRed
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+    inline FaciItem: TDataLookup
+      Left = 58
+      Top = 56
+      Width = 211
+      Height = 23
+      HorzScrollBar.Visible = False
+      VertScrollBar.Visible = False
+      TabOrder = 2
+      inherited CodeNo: TcxTextEdit
+        Left = 1
+        Properties.MaxLength = 2
+        Properties.OnChange = FaciItemCodeNoPropertiesChange
+      end
+      inherited CodeName: TcxLookupComboBox
+        Properties.OnChange = FaciItemCodeNamePropertiesChange
+        Properties.OnInitPopup = FaciItemCodeNamePropertiesInitPopup
+        Width = 148
+      end
+    end
+    inline CItem: TDataLookup
+      Left = 59
+      Top = 30
+      Width = 300
+      Height = 23
+      HorzScrollBar.Visible = False
+      VertScrollBar.Visible = False
+      TabOrder = 1
+      inherited CodeNo: TcxTextEdit
+        Properties.MaxLength = 5
+        Properties.OnChange = CItemCodeNoPropertiesChange
+        OnExit = CItemCodeNoExit
+      end
+      inherited CodeName: TcxLookupComboBox
+        Left = 61
+        Properties.OnChange = CItemCodeNamePropertiesChange
+        Properties.OnInitPopup = CItemCodeNamePropertiesInitPopup
+        Width = 235
+      end
+    end
+    inline ServiceType: TDataLookup
+      Left = 59
+      Top = 6
+      Width = 175
+      Height = 23
+      HorzScrollBar.Visible = False
+      VertScrollBar.Visible = False
+      TabOrder = 0
+      inherited CodeNo: TcxTextEdit
+        Properties.CharCase = ecUpperCase
+        Properties.MaxLength = 1
+        Properties.OnChange = ServiceTypeCodeNoPropertiesChange
+      end
+      inherited CodeName: TcxLookupComboBox
+        Left = 61
+        Properties.OnChange = ServiceTypeCodeNamePropertiesChange
+        Properties.OnInitPopup = ServiceTypeCodeNamePropertiesInitPopup
+        Width = 110
+      end
+    end
+    object btnPrClass: TButton
+      Left = 9
+      Top = 111
+      Width = 89
+      Height = 25
+      Caption = #25351#23450#27966#24037#39006#21029
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clRed
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 3
+    end
+    object cxButton1: TcxButton
+      Left = 100
+      Top = 112
+      Width = 25
+      Height = 25
+      TabOrder = 4
+      OnClick = cxButton1Click
+      Glyph.Data = {
+        72020000424D720200000000000036000000280000000E0000000D0000000100
+        1800000000003C020000C40E0000C40E00000000000000000000C8D0D4C8D0D4
+        C8D0D4C8D0D4C8D0D4C8D0D4C8D0D4C8D0D4C8D0D4C8D0D4C8D0D4C8D0D40000
+        80FFFFFF0000C8D0D4C8D0D4000080FFFFFFC8D0D4C8D0D4C8D0D4C8D0D4C8D0
+        D4C8D0D4C8D0D4C8D0D4C8D0D4C8D0D40000C8D0D4000080000080000080FFFF
+        FFC8D0D4C8D0D4C8D0D4C8D0D4C8D0D4C8D0D4000080FFFFFFC8D0D40000C8D0
+        D4000080000080000080FFFFFFC8D0D4C8D0D4C8D0D4C8D0D4C8D0D4000080FF
+        FFFFC8D0D4C8D0D40000C8D0D4C8D0D4000080000080000080FFFFFFC8D0D4C8
+        D0D4C8D0D4000080000080FFFFFFC8D0D4C8D0D40000C8D0D4C8D0D4C8D0D400
+        0080000080000080FFFFFFC8D0D4000080000080FFFFFFC8D0D4C8D0D4C8D0D4
+        0000C8D0D4C8D0D4C8D0D4C8D0D4000080000080000080000080000080FFFFFF
+        C8D0D4C8D0D4C8D0D4C8D0D40000C8D0D4C8D0D4C8D0D4C8D0D4C8D0D4000080
+        000080000080FFFFFFC8D0D4C8D0D4C8D0D4C8D0D4C8D0D40000C8D0D4C8D0D4
+        C8D0D4C8D0D4000080000080000080000080000080FFFFFFC8D0D4C8D0D4C8D0
+        D4C8D0D40000C8D0D4C8D0D4C8D0D4000080000080000080FFFFFFC8D0D40000
+        80FFFFFFC8D0D4C8D0D4C8D0D4C8D0D40000C8D0D40000800000800000800000
+        80FFFFFFC8D0D4C8D0D4C8D0D4000080000080FFFFFFC8D0D4C8D0D400000000
+        80000080000080000080FFFFFFC8D0D4C8D0D4C8D0D4C8D0D4C8D0D400008000
+        0080FFFFFFC8D0D40000000080000080FFFFFFC8D0D4C8D0D4C8D0D4C8D0D4C8
+        D0D4C8D0D4C8D0D4C8D0D4000080000080FFFFFF0000}
+      LookAndFeel.Kind = lfStandard
+    end
+    object edtPrClassCodeStr: TcxTextEdit
+      Left = 128
+      Top = 112
+      Enabled = False
+      ParentFont = False
+      Style.StyleController = StyleController.EditorStyle
+      TabOrder = 5
+      Width = 409
+    end
+    inline DataLookup1: TDataLookup
+      Left = 59
+      Top = 82
+      Width = 298
+      Height = 23
+      HorzScrollBar.Visible = False
+      VertScrollBar.Visible = False
+      TabOrder = 6
+      inherited CodeNo: TcxTextEdit
+        Properties.MaxLength = 5
+      end
+      inherited CodeName: TcxLookupComboBox
+        Left = 61
+        Width = 236
+      end
+    end
+  end
+  object Panel4: TPanel
+    Left = 0
+    Top = 209
+    Width = 789
+    Height = 332
+    Align = alClient
+    BevelOuter = bvNone
+    TabOrder = 2
+    object Bevel1: TBevel
+      Left = 0
+      Top = 329
+      Width = 789
+      Height = 3
+      Align = alBottom
+      Shape = bsBottomLine
+    end
+    object cxGroupBox4: TcxGroupBox
+      Left = 320
+      Top = 2
+      Caption = #38542#27573#24335#20778#24800#21443#25976
+      ParentFont = False
+      Style.StyleController = StyleController.EditorStyle
+      Style.TextColor = clBlue
+      Style.TextStyle = [fsBold]
+      TabOrder = 0
+      Height = 309
+      Width = 466
+      object pnlRank: TPanel
+        Left = 2
+        Top = 18
+        Width = 462
+        Height = 289
+        Align = alClient
+        BevelOuter = bvNone
+        TabOrder = 0
+        object Label23: TLabel
+          Left = 31
+          Top = 29
+          Width = 48
+          Height = 14
+          Caption = #20351#29992#26376#25976
+        end
+        object Label24: TLabel
+          Left = 15
+          Top = 47
+          Width = 16
+          Height = 14
+          Caption = #19968'.'
+        end
+        object Label26: TLabel
+          Left = 15
+          Top = 68
+          Width = 16
+          Height = 14
+          Caption = #20108'.'
+        end
+        object lblMon1: TLabel
+          Left = 62
+          Top = 48
+          Width = 68
+          Height = 17
+          Alignment = taCenter
+          AutoSize = False
+          Caption = '1~12'
+        end
+        object lblMon2: TLabel
+          Left = 62
+          Top = 68
+          Width = 68
+          Height = 17
+          Alignment = taCenter
+          AutoSize = False
+          Caption = '13~24'
+        end
+        object Label32: TLabel
+          Left = 15
+          Top = 88
+          Width = 16
+          Height = 14
+          Caption = #19977'.'
+        end
+        object lblMon3: TLabel
+          Left = 62
+          Top = 89
+          Width = 68
+          Height = 17
+          Alignment = taCenter
+          AutoSize = False
+          Caption = '13~24'
+        end
+        object Label35: TLabel
+          Left = 15
+          Top = 109
+          Width = 16
+          Height = 14
+          Caption = #22235'.'
+        end
+        object Label37: TLabel
+          Left = 15
+          Top = 129
+          Width = 16
+          Height = 14
+          Caption = #20116'.'
+        end
+        object lblMon4: TLabel
+          Left = 62
+          Top = 110
+          Width = 68
+          Height = 17
+          Alignment = taCenter
+          AutoSize = False
+          Caption = '1~12'
+        end
+        object lblMon5: TLabel
+          Left = 62
+          Top = 130
+          Width = 68
+          Height = 17
+          Alignment = taCenter
+          AutoSize = False
+          Caption = '13~24'
+        end
+        object Label43: TLabel
+          Left = 15
+          Top = 149
+          Width = 16
+          Height = 14
+          Caption = #20845'.'
+        end
+        object lblMon6: TLabel
+          Left = 62
+          Top = 149
+          Width = 68
+          Height = 17
+          Alignment = taCenter
+          AutoSize = False
+          Caption = '13~24'
+        end
+        object Label45: TLabel
+          Left = 15
+          Top = 170
+          Width = 16
+          Height = 14
+          Caption = #19971'.'
+        end
+        object Label46: TLabel
+          Left = 15
+          Top = 189
+          Width = 16
+          Height = 14
+          Caption = #20843'.'
+        end
+        object lblMon7: TLabel
+          Left = 62
+          Top = 169
+          Width = 68
+          Height = 17
+          Alignment = taCenter
+          AutoSize = False
+          Caption = '1~12'
+        end
+        object lblMon8: TLabel
+          Left = 62
+          Top = 189
+          Width = 68
+          Height = 17
+          Alignment = taCenter
+          AutoSize = False
+          Caption = '13~24'
+        end
+        object Label49: TLabel
+          Left = 15
+          Top = 209
+          Width = 16
+          Height = 14
+          Caption = #20061'.'
+        end
+        object lblMon9: TLabel
+          Left = 62
+          Top = 209
+          Width = 68
+          Height = 17
+          Alignment = taCenter
+          AutoSize = False
+          Caption = '13~24'
+        end
+        object Label51: TLabel
+          Left = 15
+          Top = 229
+          Width = 16
+          Height = 14
+          Caption = #21313'.'
+        end
+        object Label52: TLabel
+          Left = 4
+          Top = 248
+          Width = 28
+          Height = 14
+          Caption = #21313#19968'.'
+        end
+        object lblMon10: TLabel
+          Left = 62
+          Top = 230
+          Width = 68
+          Height = 17
+          Alignment = taCenter
+          AutoSize = False
+          Caption = '1~12'
+        end
+        object lblMon11: TLabel
+          Left = 62
+          Top = 249
+          Width = 68
+          Height = 17
+          Alignment = taCenter
+          AutoSize = False
+          Caption = '13~24'
+        end
+        object Label55: TLabel
+          Left = 4
+          Top = 270
+          Width = 28
+          Height = 14
+          Caption = #21313#20108'.'
+        end
+        object lblMon12: TLabel
+          Left = 63
+          Top = 270
+          Width = 68
+          Height = 17
+          Alignment = taCenter
+          AutoSize = False
+          Caption = '999~999'
+        end
+        object Label57: TLabel
+          Left = 117
+          Top = 29
+          Width = 48
+          Height = 14
+          Caption = #32371#36027#26399#25976
+        end
+        object Label58: TLabel
+          Left = 188
+          Top = 29
+          Width = 48
+          Height = 14
+          Caption = #36027#29575#20381#25818
+        end
+        object Label61: TLabel
+          Left = 266
+          Top = 29
+          Width = 48
+          Height = 14
+          Caption = #20778#24800#37329#38989
+        end
+        object Label62: TLabel
+          Left = 324
+          Top = 29
+          Width = 48
+          Height = 14
+          Caption = #21934#26376#37329#38989
+        end
+        object Label63: TLabel
+          Left = 379
+          Top = 29
+          Width = 48
+          Height = 14
+          Caption = #21934#26085#37329#38989
+        end
+        object Label30: TLabel
+          Tag = 1
+          Left = 48
+          Top = 7
+          Width = 48
+          Height = 14
+          Caption = #22810#38542#26041#26696
+        end
+        object edtMon1: TcxMaskEdit
+          Left = 33
+          Top = 46
+          AutoSize = False
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.MaskKind = emkRegExpr
+          Properties.EditMask = '[0-9]?[0-9]?[0-9]'
+          Properties.MaxLength = 0
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 0
+          Height = 20
+          Width = 35
+        end
+        object edtMon2: TcxMaskEdit
+          Left = 33
+          Top = 66
+          AutoSize = False
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.MaskKind = emkRegExpr
+          Properties.EditMask = '[0-9]?[0-9]?[0-9]'
+          Properties.MaxLength = 0
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 1
+          Height = 20
+          Width = 35
+        end
+        object edtMon3: TcxMaskEdit
+          Left = 33
+          Top = 86
+          AutoSize = False
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.MaskKind = emkRegExpr
+          Properties.EditMask = '[0-9]?[0-9]?[0-9]'
+          Properties.MaxLength = 0
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 2
+          Height = 20
+          Width = 35
+        end
+        object edtMon4: TcxMaskEdit
+          Left = 33
+          Top = 106
+          AutoSize = False
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.MaskKind = emkRegExpr
+          Properties.EditMask = '[0-9]?[0-9]?[0-9]'
+          Properties.MaxLength = 0
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 3
+          Height = 20
+          Width = 35
+        end
+        object edtMon5: TcxMaskEdit
+          Left = 33
+          Top = 126
+          AutoSize = False
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.MaskKind = emkRegExpr
+          Properties.EditMask = '[0-9]?[0-9]?[0-9]'
+          Properties.MaxLength = 0
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 4
+          Height = 20
+          Width = 35
+        end
+        object edtMon6: TcxMaskEdit
+          Left = 33
+          Top = 146
+          AutoSize = False
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.MaskKind = emkRegExpr
+          Properties.EditMask = '[0-9]?[0-9]?[0-9]'
+          Properties.MaxLength = 0
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 5
+          Height = 20
+          Width = 35
+        end
+        object edtMon7: TcxMaskEdit
+          Left = 33
+          Top = 166
+          AutoSize = False
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.MaskKind = emkRegExpr
+          Properties.EditMask = '[0-9]?[0-9]?[0-9]'
+          Properties.MaxLength = 0
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 6
+          Height = 20
+          Width = 35
+        end
+        object edtMon8: TcxMaskEdit
+          Left = 33
+          Top = 186
+          AutoSize = False
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.MaskKind = emkRegExpr
+          Properties.EditMask = '[0-9]?[0-9]?[0-9]'
+          Properties.MaxLength = 0
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 7
+          Height = 20
+          Width = 35
+        end
+        object edtMon9: TcxMaskEdit
+          Left = 33
+          Top = 206
+          AutoSize = False
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.MaskKind = emkRegExpr
+          Properties.EditMask = '[0-9]?[0-9]?[0-9]'
+          Properties.MaxLength = 0
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 8
+          Height = 20
+          Width = 35
+        end
+        object edtMon10: TcxMaskEdit
+          Left = 33
+          Top = 226
+          AutoSize = False
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.MaskKind = emkRegExpr
+          Properties.EditMask = '[0-9]?[0-9]?[0-9]'
+          Properties.MaxLength = 0
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 9
+          Height = 20
+          Width = 35
+        end
+        object edtMon11: TcxMaskEdit
+          Left = 33
+          Top = 246
+          AutoSize = False
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.MaskKind = emkRegExpr
+          Properties.EditMask = '[0-9]?[0-9]?[0-9]'
+          Properties.MaxLength = 0
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 10
+          Height = 20
+          Width = 35
+        end
+        object edtMon12: TcxMaskEdit
+          Left = 33
+          Top = 266
+          AutoSize = False
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.MaskKind = emkRegExpr
+          Properties.EditMask = '[0-9]?[0-9]?[0-9]'
+          Properties.MaxLength = 0
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 11
+          Height = 20
+          Width = 35
+        end
+        object edtPeriod1: TcxMaskEdit
+          Left = 123
+          Top = 46
+          AutoSize = False
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.MaskKind = emkRegExpr
+          Properties.EditMask = '[0-9]?[0-9]'
+          Properties.MaxLength = 0
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 12
+          Height = 20
+          Width = 35
+        end
+        object edtPeriod2: TcxMaskEdit
+          Left = 123
+          Top = 66
+          AutoSize = False
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.MaskKind = emkRegExpr
+          Properties.EditMask = '[0-9]?[0-9]'
+          Properties.MaxLength = 0
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 13
+          Height = 20
+          Width = 35
+        end
+        object edtPeriod3: TcxMaskEdit
+          Left = 123
+          Top = 86
+          AutoSize = False
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.MaskKind = emkRegExpr
+          Properties.EditMask = '[0-9]?[0-9]'
+          Properties.MaxLength = 0
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 14
+          Height = 20
+          Width = 35
+        end
+        object edtPeriod4: TcxMaskEdit
+          Left = 123
+          Top = 106
+          AutoSize = False
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.MaskKind = emkRegExpr
+          Properties.EditMask = '[0-9]?[0-9]'
+          Properties.MaxLength = 0
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 15
+          Height = 20
+          Width = 35
+        end
+        object edtPeriod5: TcxMaskEdit
+          Left = 123
+          Top = 126
+          AutoSize = False
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.MaskKind = emkRegExpr
+          Properties.EditMask = '[0-9]?[0-9]'
+          Properties.MaxLength = 0
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 16
+          Height = 20
+          Width = 35
+        end
+        object edtPeriod6: TcxMaskEdit
+          Left = 123
+          Top = 146
+          AutoSize = False
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.MaskKind = emkRegExpr
+          Properties.EditMask = '[0-9]?[0-9]'
+          Properties.MaxLength = 0
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 17
+          Height = 20
+          Width = 35
+        end
+        object edtPeriod7: TcxMaskEdit
+          Left = 123
+          Top = 166
+          AutoSize = False
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.MaskKind = emkRegExpr
+          Properties.EditMask = '[0-9]?[0-9]'
+          Properties.MaxLength = 0
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 18
+          Height = 20
+          Width = 35
+        end
+        object edtPeriod8: TcxMaskEdit
+          Left = 123
+          Top = 186
+          AutoSize = False
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.MaskKind = emkRegExpr
+          Properties.EditMask = '[0-9]?[0-9]'
+          Properties.MaxLength = 0
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 19
+          Height = 20
+          Width = 35
+        end
+        object edtPeriod9: TcxMaskEdit
+          Left = 123
+          Top = 206
+          AutoSize = False
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.MaskKind = emkRegExpr
+          Properties.EditMask = '[0-9]?[0-9]'
+          Properties.MaxLength = 0
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 20
+          Height = 20
+          Width = 35
+        end
+        object edtPeriod10: TcxMaskEdit
+          Left = 123
+          Top = 226
+          AutoSize = False
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.MaskKind = emkRegExpr
+          Properties.EditMask = '[0-9]?[0-9]'
+          Properties.MaxLength = 0
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 21
+          Height = 20
+          Width = 35
+        end
+        object edtPeriod11: TcxMaskEdit
+          Left = 123
+          Top = 246
+          AutoSize = False
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.MaskKind = emkRegExpr
+          Properties.EditMask = '[0-9]?[0-9]'
+          Properties.MaxLength = 0
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 22
+          Height = 20
+          Width = 35
+        end
+        object edtPeriod12: TcxMaskEdit
+          Left = 123
+          Top = 266
+          AutoSize = False
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.MaskKind = emkRegExpr
+          Properties.EditMask = '[0-9]?[0-9]'
+          Properties.MaxLength = 0
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 23
+          Height = 20
+          Width = 35
+        end
+        object cmbRateType1: TcxComboBox
+          Left = 158
+          Top = 46
+          AutoSize = False
+          ParentFont = False
+          Properties.DropDownListStyle = lsEditFixedList
+          Properties.Items.Strings = (
+            ''
+            '1.'#20381#36027#29575#34920
+            '2.'#20381#20778#24800#37329#38989)
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 24
+          Height = 20
+          Width = 105
+        end
+        object cmbRateType2: TcxComboBox
+          Left = 158
+          Top = 66
+          AutoSize = False
+          ParentFont = False
+          Properties.DropDownListStyle = lsEditFixedList
+          Properties.Items.Strings = (
+            ''
+            '1.'#20381#36027#29575#34920
+            '2.'#20381#20778#24800#37329#38989)
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 25
+          Height = 20
+          Width = 105
+        end
+        object cmbRateType3: TcxComboBox
+          Left = 158
+          Top = 86
+          AutoSize = False
+          ParentFont = False
+          Properties.DropDownListStyle = lsEditFixedList
+          Properties.Items.Strings = (
+            ''
+            '1.'#20381#36027#29575#34920
+            '2.'#20381#20778#24800#37329#38989)
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 26
+          Height = 20
+          Width = 105
+        end
+        object cmbRateType4: TcxComboBox
+          Left = 158
+          Top = 106
+          AutoSize = False
+          ParentFont = False
+          Properties.DropDownListStyle = lsEditFixedList
+          Properties.Items.Strings = (
+            ''
+            '1.'#20381#36027#29575#34920
+            '2.'#20381#20778#24800#37329#38989)
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 27
+          Height = 20
+          Width = 105
+        end
+        object cmbRateType5: TcxComboBox
+          Left = 158
+          Top = 126
+          AutoSize = False
+          ParentFont = False
+          Properties.DropDownListStyle = lsEditFixedList
+          Properties.Items.Strings = (
+            ''
+            '1.'#20381#36027#29575#34920
+            '2.'#20381#20778#24800#37329#38989)
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 28
+          Height = 20
+          Width = 105
+        end
+        object cmbRateType6: TcxComboBox
+          Left = 158
+          Top = 146
+          AutoSize = False
+          ParentFont = False
+          Properties.DropDownListStyle = lsEditFixedList
+          Properties.Items.Strings = (
+            ''
+            '1.'#20381#36027#29575#34920
+            '2.'#20381#20778#24800#37329#38989)
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 29
+          Height = 20
+          Width = 105
+        end
+        object cmbRateType7: TcxComboBox
+          Left = 158
+          Top = 166
+          AutoSize = False
+          ParentFont = False
+          Properties.DropDownListStyle = lsEditFixedList
+          Properties.Items.Strings = (
+            ''
+            '1.'#20381#36027#29575#34920
+            '2.'#20381#20778#24800#37329#38989)
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 30
+          Height = 20
+          Width = 105
+        end
+        object cmbRateType8: TcxComboBox
+          Left = 158
+          Top = 186
+          AutoSize = False
+          ParentFont = False
+          Properties.DropDownListStyle = lsEditFixedList
+          Properties.Items.Strings = (
+            ''
+            '1.'#20381#36027#29575#34920
+            '2.'#20381#20778#24800#37329#38989)
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 31
+          Height = 20
+          Width = 105
+        end
+        object cmbRateType9: TcxComboBox
+          Left = 158
+          Top = 206
+          AutoSize = False
+          ParentFont = False
+          Properties.DropDownListStyle = lsEditFixedList
+          Properties.Items.Strings = (
+            ''
+            '1.'#20381#36027#29575#34920
+            '2.'#20381#20778#24800#37329#38989)
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 32
+          Height = 20
+          Width = 105
+        end
+        object cmbRateType10: TcxComboBox
+          Left = 158
+          Top = 226
+          AutoSize = False
+          ParentFont = False
+          Properties.DropDownListStyle = lsEditFixedList
+          Properties.Items.Strings = (
+            ''
+            '1.'#20381#36027#29575#34920
+            '2.'#20381#20778#24800#37329#38989)
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 33
+          Height = 20
+          Width = 105
+        end
+        object cmbRateType11: TcxComboBox
+          Left = 158
+          Top = 246
+          AutoSize = False
+          ParentFont = False
+          Properties.DropDownListStyle = lsEditFixedList
+          Properties.Items.Strings = (
+            ''
+            '1.'#20381#36027#29575#34920
+            '2.'#20381#20778#24800#37329#38989)
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 34
+          Height = 20
+          Width = 105
+        end
+        object cmbRateType12: TcxComboBox
+          Left = 158
+          Top = 266
+          AutoSize = False
+          ParentFont = False
+          Properties.DropDownListStyle = lsEditFixedList
+          Properties.Items.Strings = (
+            ''
+            '1.'#20381#36027#29575#34920
+            '2.'#20381#20778#24800#37329#38989)
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 35
+          Height = 20
+          Width = 105
+        end
+        object edtDiscountAmt1: TcxCurrencyEdit
+          Left = 263
+          Top = 46
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 0
+          Properties.DisplayFormat = ',0;-,0'
+          Properties.MaxValue = 99999999.000000000000000000
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 36
+          Height = 20
+          Width = 56
+        end
+        object edtMonthAmt1: TcxCurrencyEdit
+          Left = 319
+          Top = 46
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 3
+          Properties.DisplayFormat = ',0.000;-,0.000'
+          Properties.MaxValue = 99999999.999000000000000000
+          Properties.NullString = '0'
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 37
+          Height = 20
+          Width = 56
+        end
+        object edtDayAmt1: TcxCurrencyEdit
+          Left = 375
+          Top = 46
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 3
+          Properties.DisplayFormat = ',0.000;-,0.000'
+          Properties.MaxValue = 9999.999000000000000000
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 38
+          Height = 20
+          Width = 56
+        end
+        object edtDiscountAmt2: TcxCurrencyEdit
+          Left = 263
+          Top = 66
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 0
+          Properties.DisplayFormat = ',0;-,0'
+          Properties.MaxValue = 99999999.000000000000000000
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 39
+          Height = 20
+          Width = 56
+        end
+        object edtMonthAmt2: TcxCurrencyEdit
+          Left = 319
+          Top = 66
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 3
+          Properties.DisplayFormat = ',0.000;-,0.000'
+          Properties.MaxValue = 99999999.999000000000000000
+          Properties.NullString = '0'
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 40
+          Height = 20
+          Width = 56
+        end
+        object edtDayAmt2: TcxCurrencyEdit
+          Left = 375
+          Top = 66
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 3
+          Properties.DisplayFormat = ',0.000;-,0.000'
+          Properties.MaxValue = 9999.999000000000000000
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 41
+          Height = 20
+          Width = 56
+        end
+        object edtDiscountAmt3: TcxCurrencyEdit
+          Left = 263
+          Top = 86
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 0
+          Properties.DisplayFormat = ',0;-,0'
+          Properties.MaxValue = 99999999.000000000000000000
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 42
+          Height = 20
+          Width = 56
+        end
+        object edtMonthAmt3: TcxCurrencyEdit
+          Left = 319
+          Top = 86
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 3
+          Properties.DisplayFormat = ',0.000;-,0.000'
+          Properties.MaxValue = 99999999.999000000000000000
+          Properties.NullString = '0'
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 43
+          Height = 20
+          Width = 56
+        end
+        object edtDayAmt3: TcxCurrencyEdit
+          Left = 375
+          Top = 86
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 3
+          Properties.DisplayFormat = ',0.000;-,0.000'
+          Properties.MaxValue = 9999.999000000000000000
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 44
+          Height = 20
+          Width = 56
+        end
+        object edtDiscountAmt4: TcxCurrencyEdit
+          Left = 263
+          Top = 106
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 0
+          Properties.DisplayFormat = ',0;-,0'
+          Properties.MaxValue = 99999999.000000000000000000
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 45
+          Height = 20
+          Width = 56
+        end
+        object edtMonthAmt4: TcxCurrencyEdit
+          Left = 319
+          Top = 106
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 3
+          Properties.DisplayFormat = ',0.000;-,0.000'
+          Properties.MaxValue = 99999999.999000000000000000
+          Properties.NullString = '0'
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 46
+          Height = 20
+          Width = 56
+        end
+        object edtDayAmt4: TcxCurrencyEdit
+          Left = 375
+          Top = 106
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 3
+          Properties.DisplayFormat = ',0.000;-,0.000'
+          Properties.MaxValue = 9999.999000000000000000
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 47
+          Height = 20
+          Width = 56
+        end
+        object edtDiscountAmt5: TcxCurrencyEdit
+          Left = 263
+          Top = 126
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 0
+          Properties.DisplayFormat = ',0;-,0'
+          Properties.MaxValue = 99999999.000000000000000000
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 48
+          Height = 20
+          Width = 56
+        end
+        object edtMonthAmt5: TcxCurrencyEdit
+          Left = 319
+          Top = 126
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 3
+          Properties.DisplayFormat = ',0.000;-,0.000'
+          Properties.MaxValue = 99999999.999000000000000000
+          Properties.NullString = '0'
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 49
+          Height = 20
+          Width = 56
+        end
+        object edtDayAmt5: TcxCurrencyEdit
+          Left = 375
+          Top = 126
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 3
+          Properties.DisplayFormat = ',0.000;-,0.000'
+          Properties.MaxValue = 9999.999000000000000000
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 50
+          Height = 20
+          Width = 56
+        end
+        object edtDiscountAmt6: TcxCurrencyEdit
+          Left = 263
+          Top = 146
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 0
+          Properties.DisplayFormat = ',0;-,0'
+          Properties.MaxValue = 99999999.000000000000000000
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 51
+          Height = 20
+          Width = 56
+        end
+        object edtMonthAmt6: TcxCurrencyEdit
+          Left = 319
+          Top = 146
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 3
+          Properties.DisplayFormat = ',0.000;-,0.000'
+          Properties.MaxValue = 99999999.999000000000000000
+          Properties.NullString = '0'
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 52
+          Height = 20
+          Width = 56
+        end
+        object edtDayAmt6: TcxCurrencyEdit
+          Left = 375
+          Top = 146
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 3
+          Properties.DisplayFormat = ',0.000;-,0.000'
+          Properties.MaxValue = 9999.999000000000000000
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 53
+          Height = 20
+          Width = 56
+        end
+        object edtDiscountAmt7: TcxCurrencyEdit
+          Left = 263
+          Top = 166
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 0
+          Properties.DisplayFormat = ',0;-,0'
+          Properties.MaxValue = 99999999.000000000000000000
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 54
+          Height = 20
+          Width = 56
+        end
+        object edtMonthAmt7: TcxCurrencyEdit
+          Left = 319
+          Top = 166
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 3
+          Properties.DisplayFormat = ',0.000;-,0.000'
+          Properties.MaxValue = 99999999.999000000000000000
+          Properties.NullString = '0'
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 55
+          Height = 20
+          Width = 56
+        end
+        object edtDayAmt7: TcxCurrencyEdit
+          Left = 375
+          Top = 166
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 3
+          Properties.DisplayFormat = ',0.000;-,0.000'
+          Properties.MaxValue = 9999.999000000000000000
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 56
+          Height = 20
+          Width = 56
+        end
+        object edtDiscountAmt8: TcxCurrencyEdit
+          Left = 263
+          Top = 186
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 0
+          Properties.DisplayFormat = ',0;-,0'
+          Properties.MaxValue = 99999999.000000000000000000
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 57
+          Height = 20
+          Width = 56
+        end
+        object edtMonthAmt8: TcxCurrencyEdit
+          Left = 319
+          Top = 186
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 3
+          Properties.DisplayFormat = ',0.000;-,0.000'
+          Properties.MaxValue = 99999999.999000000000000000
+          Properties.NullString = '0'
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 58
+          Height = 20
+          Width = 56
+        end
+        object edtDayAmt8: TcxCurrencyEdit
+          Left = 375
+          Top = 186
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 3
+          Properties.DisplayFormat = ',0.000;-,0.000'
+          Properties.MaxValue = 9999.999000000000000000
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 59
+          Height = 20
+          Width = 56
+        end
+        object edtDiscountAmt9: TcxCurrencyEdit
+          Left = 263
+          Top = 206
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 0
+          Properties.DisplayFormat = ',0;-,0'
+          Properties.MaxValue = 99999999.000000000000000000
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 60
+          Height = 20
+          Width = 56
+        end
+        object edtMonthAmt9: TcxCurrencyEdit
+          Left = 319
+          Top = 206
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 3
+          Properties.DisplayFormat = ',0.000;-,0.000'
+          Properties.MaxValue = 99999999.999000000000000000
+          Properties.NullString = '0'
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 61
+          Height = 20
+          Width = 56
+        end
+        object edtDayAmt9: TcxCurrencyEdit
+          Left = 375
+          Top = 206
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 3
+          Properties.DisplayFormat = ',0.000;-,0.000'
+          Properties.MaxValue = 9999.999000000000000000
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 62
+          Height = 20
+          Width = 56
+        end
+        object edtDiscountAmt10: TcxCurrencyEdit
+          Left = 263
+          Top = 226
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 0
+          Properties.DisplayFormat = ',0;-,0'
+          Properties.MaxValue = 99999999.000000000000000000
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 63
+          Height = 20
+          Width = 56
+        end
+        object edtMonthAmt10: TcxCurrencyEdit
+          Left = 319
+          Top = 226
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 3
+          Properties.DisplayFormat = ',0.000;-,0.000'
+          Properties.MaxValue = 99999999.999000000000000000
+          Properties.NullString = '0'
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 64
+          Height = 20
+          Width = 56
+        end
+        object edtDayAmt10: TcxCurrencyEdit
+          Left = 375
+          Top = 226
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 3
+          Properties.DisplayFormat = ',0.000;-,0.000'
+          Properties.MaxValue = 9999.999000000000000000
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 65
+          Height = 20
+          Width = 56
+        end
+        object edtDiscountAmt11: TcxCurrencyEdit
+          Left = 263
+          Top = 246
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 0
+          Properties.DisplayFormat = ',0;-,0'
+          Properties.MaxValue = 99999999.000000000000000000
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 66
+          Height = 20
+          Width = 56
+        end
+        object edtMonthAmt11: TcxCurrencyEdit
+          Left = 319
+          Top = 246
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 3
+          Properties.DisplayFormat = ',0.000;-,0.000'
+          Properties.MaxValue = 99999999.999000000000000000
+          Properties.NullString = '0'
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 67
+          Height = 20
+          Width = 56
+        end
+        object edtDayAmt11: TcxCurrencyEdit
+          Left = 375
+          Top = 246
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 3
+          Properties.DisplayFormat = ',0.000;-,0.000'
+          Properties.MaxValue = 9999.999000000000000000
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 68
+          Height = 20
+          Width = 56
+        end
+        object edtDiscountAmt12: TcxCurrencyEdit
+          Left = 263
+          Top = 266
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 0
+          Properties.DisplayFormat = ',0;-,0'
+          Properties.MaxValue = 99999999.000000000000000000
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 69
+          Height = 20
+          Width = 56
+        end
+        object edtMonthAmt12: TcxCurrencyEdit
+          Left = 319
+          Top = 266
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 3
+          Properties.DisplayFormat = ',0.000;-,0.000'
+          Properties.MaxValue = 99999999.999000000000000000
+          Properties.NullString = '0'
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 70
+          Height = 20
+          Width = 56
+        end
+        object edtDayAmt12: TcxCurrencyEdit
+          Left = 375
+          Top = 266
+          AutoSize = False
+          EditValue = 0.000000000000000000
+          ParentFont = False
+          Properties.Alignment.Horz = taRightJustify
+          Properties.DecimalPlaces = 3
+          Properties.DisplayFormat = ',0.000;-,0.000'
+          Properties.MaxValue = 9999.999000000000000000
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 71
+          Height = 20
+          Width = 56
+        end
+        object edtStepNo: TcxTextEdit
+          Tag = 1
+          Left = 101
+          Top = 4
+          ParentFont = False
+          Properties.ReadOnly = True
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 72
+          Width = 62
+        end
+        object chkMasterSale: TcxCheckBox
+          Tag = 1
+          Left = 378
+          Top = 4
+          Caption = #20027#25512#22810#38542
+          Properties.NullStyle = nssUnchecked
+          Properties.ReadOnly = True
+          Style.StyleController = StyleController.CheckBoxStyle
+          TabOrder = 73
+          Width = 74
+        end
+        object edtDescription: TcxTextEdit
+          Tag = 1
+          Left = 165
+          Top = 4
+          ParentFont = False
+          Properties.ReadOnly = True
+          Style.StyleController = StyleController.EditorStyle
+          TabOrder = 74
+          Width = 207
+        end
+        object btnRankList: TBitBtn
+          Left = 16
+          Top = 2
+          Width = 26
+          Height = 24
+          Hint = #39023#31034#22810#38542#20778#24800#21443#25976#26126#32048
+          ParentShowHint = False
+          ShowHint = True
+          TabOrder = 75
+          OnClick = btnRankListClick
+          Glyph.Data = {
+            36040000424D3604000000000000360000002800000010000000100000000100
+            2000000000000004000000000000000000000000000000000000000000000000
+            0000000000000000000000000000000000000000000000000000000000000000
+            0000000000000000000000000000000000000000000000000000000000000000
+            0000A27A66CCC9967EFFC5927CFFC18E7AFFBD8A78FFB98676FFB58274FFB17E
+            72FFAD7A70FFA9766EFFA5726CFF845B56CC000000000000000000000000A57C
+            66CCEEDACEFFF9F9F9FFF9F9F9FFFAFAFAFFFCFCFCFFFEFEFEFFFFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFDBC7C4FF845B56CC0000000000000000D29F
+            82FFFFFFFFFF0033FFFF0033FFFF0033FFFF0033FFFF0033FFFFFDFDFDFFF38D
+            00FFF48E00FFF69000FFF89200FFFFFFFFFFA5726CFF0000000000000000D7A4
+            84FFFFFFFFFFF3F3F3FFF4F4F4FFF5F5F5FFF6F6F6FFF8F8F8FFF9F9F9FFF18B
+            00FFF38D00FFF48E00FFF69000FFFFFFFFFFA9766EFF0000000000000000DCA9
+            87FFFFFFFFFF00BFF2FF00BFF2FF00BFF2FF00BFF2FF00BFF2FFF7F7F7FFEF89
+            00FFF18B00FFF38D00FFF48E00FFFFFFFFFFAE7B70FF0000000000000000E1AE
+            8AFFFFFFFFFFECECECFFEDEDEDFFEEEEEEFFF1F1F1FFF3F3F3FFF5F5F5FFF7F7
+            F7FFF9F9F9FFFCFCFCFFFFFFFFFFFFFFFFFFB38073FF0000000000000000E5B2
+            8CFFFFFFFFFFE37D00FFE47E00FFE57F00FFE78100FFE88200FFF2F2F2FF0033
+            FFFF0033FFFF0033FFFF0033FFFFFFFFFFFFB78475FF0000000000000000E9B6
+            8EFFFFFFFFFFE17B00FFE37D00FFE37D00FFE57F00FFE68000FFEFEFEFFFF3F3
+            F3FFF5F5F5FFF8F8F8FFFAFAFAFFFEFEFEFFBA8777FF0000000000000000EDBA
+            90FFFFFFFFFFDF7900FFE07A00FFE27C00FFE37D00FFE57F00FFEEEEEEFF00A9
+            DCFF00A9DCFF00A9DCFF00A9DCFFFCFCFCFFBE8B79FF0000000000000000F1BE
+            92FFFFFFFFFFE0E0E0FFE3E3E3FFE5E5E5FFE7E7E7FFE9E9E9FFECECECFFEEEE
+            EEFFF2F2F2FFF5F5F5FFF8F8F8FFFAFAFAFFC28F7BFF0000000000000000F5C2
+            94FFFFFFFFFF0EA71CFF0FA81EFF12AB24FF14AD28FF17B02EFF18B131FF1AB3
+            36FF1DB63BFF1FB83FFF21BA43FFF9F9F9FFC6937DFF0000000000000000F9C6
+            96FFFFFFFFFF0BA417FF0EA71CFF10A920FF13AC26FF15AE2AFF17B02FFF19B2
+            34FF1CB539FF1EB73EFF21BA43FFF9F9F9FFC9967EFF0000000000000000C29A
+            76CCFDE8D5FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFEEDACEFF885F58CC00000000000000000000
+            0000BE9673CCF9C696FFF5C294FFF1BE92FFEDBA90FFE9B68EFFE5B28CFFE1AE
+            8AFFDDAA88FFD9A686FFD5A284FF885F58CC0000000000000000000000000000
+            0000000000000000000000000000000000000000000000000000000000000000
+            0000000000000000000000000000000000000000000000000000}
+        end
+      end
+    end
+  end
+  object ActionList1: TActionList
+    Left = 36
+    Top = 364
+    object actSave: TAction
+      Caption = 'F2.'#23384#27284
+      ShortCut = 113
+      OnExecute = actSaveExecute
+    end
+    object actCancel: TAction
+      Caption = #21462#28040'(&X)'
+      ShortCut = 32856
+      OnExecute = actCancelExecute
+    end
+    object actUpdate: TAction
+      Caption = 'F11.'#20462#25913
+      ShortCut = 122
+      OnExecute = actUpdateExecute
+    end
+  end
+  object dsCD078A3: TDataSource
+    Left = 72
+    Top = 364
+  end
+end

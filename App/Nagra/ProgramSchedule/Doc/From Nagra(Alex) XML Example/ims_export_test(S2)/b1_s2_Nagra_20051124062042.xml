@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BroadcastData SYSTEM "BroadcastData.dtd">
+<BroadcastData creationDate="20051124062042">
+  <ProviderInfo>
+    <ProviderId>Nagra</ProviderId>
+    <ProviderName>Nagravision S.A.</ProviderName>
+  </ProviderInfo>
+  <ScheduleData>
+    <ChannelPeriod beginTime="20051125160000" endTime="20051128160000">
+      <ChannelId>222</ChannelId>
+      <Event beginTime="20051125160000" duration="3600">
+        <EventId>22200003</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>危險枕邊人 (普) </Name>
+            <Description>一位生性害羞的菜鳥警探奉命追查一個危險的連續殺人狂，與他搭檔的是以鐵娘子作風聞名的女警探。在調查過程中，菜鳥警探與他的美麗搭檔一時天雷勾動地火而發展出一段情，但這份感情卻可能妨害到他們辦案—因為菜鳥警探發現他的枕邊人可能就是他所要抓的危險殺人狂。 </Description>
+            <ExtendedInfo name="導演:">尤利柴瑟 </ExtendedInfo>
+            <ExtendedInfo name="演員:">吉娜葛森、馬歇爾貝爾 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051125170000" duration="3600">
+        <EventId>22200002</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>桃色吸引力 (護) </Name>
+            <Description>一名野心勃勃的年輕女服務生，為了實現成功的夢想，決定不惜任何代價，即使是犧牲她情人的婚姻與她朋友的生命…… </Description>
+            <ExtendedInfo name="導演:">奇庫歐卡瓦沙基 </ExtendedInfo>
+            <ExtendedInfo name="演員:">丹尼斯霍柏、泰莉雅席爾 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051125180000" duration="3600">
+        <EventId>22200004</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>天堂過客 (普) </Name>
+            <Description>還記得「火山爆發」及災難片始祖「火燒摩天樓」嗎？若你是這些災難片的愛好者，那你更不能錯過這部「天翻地覆」！正如同恐怖片有個公式，災難片也有個大致的脈絡可遵循：發現、一些小徵兆、調查、官僚制度、災難發生、極度的驚恐等，當然本片也不例外。一位大城市的官員愛莉森（潔西卡史汀，「世界末日」）對城鎮周圍下陷造成的災害感到憂心，於是找來她的未婚夫地質學家麥特（約翰高柏特，「火山爆發」），想借重一下他的專業知識看看，也好讓自己安心。然而麥特卻發現地面將會有個足以吞噬數萬居民的大洞，而他必須趕在災難發生前設法阻止！片中還有許多災難片必備的視覺特效，絕對精彩可期。 </Description>
+            <ExtendedInfo name="導演:">馬利歐阿索帕帝 </ExtendedInfo>
+            <ExtendedInfo name="演員:">約翰高柏特、潔西卡史汀、布蘭妮丹尼爾 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051125190000" duration="3600">
+        <EventId>22200005</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>老大靠邊閃 (護) </Name>
+            <Description>這是一部令人笑中帶淚的溫馨喜劇。 四個毫不相關、職業各異的男女在一場巴士車禍中喪生，而就在他們魂歸西天的同時，一個男嬰正好出世，這四個人相繼附身在這男嬰身上，欲藉由這個小新生命完成他們生前的遺願。 多年後，小男嬰長大變成一個自私自利、善於操縱別人的青年，四個鬼魂決定要有所行動…男主角湯瑪斯由小勞勃道尼（「絕命追殺令2：就地正法」）所飾演，幾場他被鬼魂附身的戲讓人拍案叫絕！ 看他忽男忽女，其中表情與情緒的轉折在在證明小勞勃道尼的喜劇天分！ 導演朗昂德伍以拍輕鬆喜劇見長，其他知名作品有：「巨星喬揚」、「愛得沒話說」、「城市鄉巴佬」等片。 </Description>
+            <ExtendedInfo name="導演:">哈洛雷米斯 </ExtendedInfo>
+            <ExtendedInfo name="演員:">勞勃狄尼洛、比利克里斯托、麗莎庫卓 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051125200000" duration="3600">
+        <EventId>22200006</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>流星撞地球 (普) </Name>
+            <Description>湯姆（湯姆伍派特）曾是警方的炸彈拆除專家，但是一次意外奪去了工作夥伴的命，從此他活在悔恨中無法自拔。為了找尋內心的平靜，他與妻子（羅珊娜哈特）搬到了一個小鎮，沒想到小鎮竟發生了神秘爆炸案，爆炸的破壞力是湯姆前所未見的。經由湯姆與妻子的調查，他們赫然發現一場浩大的流星雨將朝著地球而來，而目標便是他們居住的小鎮！湯姆試著警告小鎮鎮長，疏散鎮民到安全的地方，但鎮長卻不願公開此事，堅持要等小鎮的年度狂歡會結束後再說，問題是到時鎮上還會有人活著嗎？對「世界末日」與「彗星撞地球」的影迷而言，這是一齣不容錯過的災難電影！          科幻 </Description>
+            <ExtendedInfo name="導演:">朗昂德伍 </ExtendedInfo>
+            <ExtendedInfo name="演員:">羅珊娜哈特、湯姆伍派特、克里斯湯普森 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051125210000" duration="3600">
+        <EventId>22200007</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>蝙蝠俠 (普) </Name>
+            <Description>高譚市，罪惡的淵藪、犯罪者的天堂，雖有地檢署的丹特與警政署長高登努力掃蕩街頭，犯罪率卻居高不下，甚至有日益攀升的趨勢。由於童年時親眼目睹雙親被暴徒殺害，百萬富翁布魯斯韋恩（米高基頓）在長大成人後便化身正義使者--蝙蝠俠，運用高科技的各式精巧機關，在入夜的高譚市街頭掃蕩犯罪；然而，布魯斯的雙重身分在認識美麗的記者薇琪（金貝辛格，「夢憶非洲」）後，便面臨曝光的危險，但此時更令他擔憂的，是個綽號”小丑”的大壞蛋（傑克尼柯遜，「愛在心裡口難開」），小丑原本只是個黑幫打手，但由於意外掉進化學藥物中，造成全身灼傷，從此性情變得偏激而瀕於瘋狂，並因而殺掉自己的老闆取而代之，控制住高譚市的地下犯罪帝國，而蝙蝠俠正是阻礙他野心的最大障礙！布魯斯韋恩如今最大的難題，便是如何一面阻止心儀的薇琪發現他的祕密身分，另一方面還要設法破壞小丑控制整個高譚市的大陰謀…鬼才導演提姆波頓（「陰間大法師」、「剪刀手愛德華」、「星戰毀滅者」、「斷頭谷」）一向以詭異而充滿想像力的陰暗影像風格著稱影壇，本片是他第一次將漫畫英雄蝙蝠俠搬上大銀幕的作品，至今全球已有超過四億美金的票房，是一部極具娛樂價值的科幻動作強片。 </Description>
+            <ExtendedInfo name="導演:">提姆波頓 </ExtendedInfo>
+            <ExtendedInfo name="演員:">小勞勃道尼、查理葛洛汀 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051125220000" duration="3600">
+        <EventId>22200008</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>好萊塢威龍05:前進華盛頓 (護) </Name>
+            <Description>因為電影中的暴力情節被起訴，彼得千里迢迢到華盛頓上法庭作證，原本以為可以和解收場，彼得的言行卻惹毛了保守黨的參議員。 這位好萊塢的夢想家要如何重建正公眾形象，答案是：公益活動！ </Description>
+            <ExtendedInfo name="導演:">亞當柏恩斯坦、泰德丹米等 </ExtendedInfo>
+            <ExtendedInfo name="演員:">傑摩爾 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>6</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051125230000" duration="3000">
+        <EventId>22200009</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>超能力煞星 (普) </Name>
+            <Description>傑洛米狄倫（藍迪奎德 飾，「驚濤毀滅者」）是一個罪大惡極的連續強暴犯，即使被判死刑，仍對其所作所為無絲毫悔意。 當他被送上電椅伏法時，傑洛居然奇蹟似的存活下來！ 更奇怪的是在後頭，傑洛米居然不記得過去所做的一切！ 正當警方煩惱該怎麼處置他時，居然發現傑洛米不但變成了一個溫和、毫無暴力傾向的人，更可預知未來，甚至幫助警方破了好幾個棘手的刑事案件！ 但不是每個人都驚喜他的轉變，之前被害人之一的姊姊，到處奔走陳情，為的就是再將他送上死刑台！ 而一位專研究犯罪心理學的女醫師（安蓓黛薇絲 飾）也嘗試著找出傑洛米轉變性情的原因，甚至懷疑他是為了求存活而裝假… </Description>
+            <ExtendedInfo name="導演:">凱文道寧 </ExtendedInfo>
+            <ExtendedInfo name="演員:">藍迪奎德、安蓓黛薇絲 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051125235000" duration="600">
+        <EventId>22300074</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>叛國者 (普) </Name>
+            <Description>本片根據美國史上最重大的間諜活動案件所改編而成。艾瑞奇（提摩西赫頓 飾，「叛國少年」）是一位平庸的CIA探員，他的酗酒問題和能力不足令他在局裡一直無法升職；然而他的工作—招募蘇俄的雙面諜並追蹤其下落—對中情局而言卻是無法或缺的。面對日漸增加的帳單和性好揮霍的妻子（伊莉莎白蓓娜 飾，「鬼使神差」），艾瑞奇決定洩漏幾個間諜姓名給蘇俄，好交換一些現金來支付帳單，不久後蘇俄方面便表示願意花大錢向他買更多的名單；艾瑞奇禁不住能夠手頭闊綽的誘惑而繼續交易，他的妻子對他的叛國行為先是感到震驚，但接著便決定她也喜歡金錢能買到的奢華；他們突然變得奢華的生活終於引起調查探員（瓊安普羅萊特 飾，「我真的愛死你」）的注意，而開始留意起艾瑞奇的活動。 </Description>
+            <ExtendedInfo name="導演:">約翰麥肯錫 </ExtendedInfo>
+            <ExtendedInfo name="演員:">提摩西赫頓 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126000000" duration="3600">
+        <EventId>22200010</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>何苦墜入愛河 (普) </Name>
+            <Description>本片根據1988年真實事件改編，一夕成名的搖滾歌手法蘭基李蒙（羅倫茲塔德飾，「2013終極神差」）因毒品結束了年輕的生命。 遺留在人間的除了膾炙人口的歌曲外，還有一大筆唱片版稅和三個皆自稱是他老婆的女人。一個是當紅的女歌手左拉（荷莉貝瑞 飾，本屆金球獎最佳女主角「Introducing Dorothy Dandridge」），一個是貌美的女神偷伊莉莎白（薇薇卡福克斯 飾，「蝙蝠俠4：急凍人」），一個是信仰虔誠的女服務生愛米拉（萊拉羅虹 飾，「等待夢醒時分」）。 本片即從三個女人在法庭爭取妻子的地位及遺產開始，從三方各說各話，到彼此由回憶中揭露與法蘭基相處的過程，她們發現到法蘭基不為人知的一面，也找到到暗藏在心靈深處的真正自我。 除動人的劇情外，本片最不能錯過的即是精彩的電影原聲帶，除法蘭基李蒙的歌聲外，還收錄了50、60年代當紅藝人的歌曲，如戴安娜羅絲、The Platters、黛比雷諾、奧提斯瑞汀、The Four Tops、詹姆斯布朗、史提夫汪達等靈魂樂歌手的作品。 </Description>
+            <ExtendedInfo name="導演:">葛雷葛利納瓦 </ExtendedInfo>
+            <ExtendedInfo name="演員:">荷莉貝瑞、薇薇卡福克斯、萊拉羅虹、羅倫茲塔德 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126010000" duration="3600">
+        <EventId>22200011</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>金臂神投 (普) </Name>
+            <Description>時間是1939年的棒球熱季，已在黑人國家聯盟打了15年棒球的黑人投手巴奈特”賓果”（比利迪威廉斯，「絕地殺手」），因不滿聯盟經理對球員的不公平待遇，因而決定自組球隊，他計畫帶著球隊在城鎮間打巡迴賽，並賺取些收入維持球隊生計；他的球隊不久後便造成轟動，受到許多球迷支持，卻也因此使得球隊老闆們極度不悅，因而意圖阻止他們；然而，當賓果決定和白人球隊對打時，整個局勢頓時改觀，因為這將會是一場”不成功便成仁”的賽事，也是黑白球隊間前所未有的龍虎之爭。為本片執導演筒的是名導約翰貝德漢（「驚弓之鳥」、「小生當差」、「緊急盯梢令」）。 </Description>
+            <ExtendedInfo name="導演:">約翰貝德漢 </ExtendedInfo>
+            <ExtendedInfo name="演員:">比利迪威廉斯、詹姆斯厄爾瓊斯、李察普萊爾 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126020000" duration="3600">
+        <EventId>22200012</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>心火 (護) </Name>
+            <Description>這部影片原本是知名編劇/導演諾拉艾芙蓉（「來電傳情」、「電子情書」）描寫她自己和作家老公卡爾伯恩斯坦（「大陰謀」原著小說）之間婚姻的暢銷自傳小說，由作者親自改編成劇本，而由金像獎影帝傑克尼柯遜和影后梅莉史翠普共同擔綱演出。瑞秋（梅莉史翠普，「心靈真愛」）是紐約雜誌的美食作家，她在參加一場婚禮時認識了華盛頓專欄作家馬克（傑克尼柯遜，「愛在心裡口難開」），兩人後來相戀而決定攜手步入禮堂；婚後他們買了房子，生了個女兒，過著令人稱羨的模範夫妻生活，然而這一切卻在瑞秋懷第二胎時發生了變故；當瑞秋因懷孕而身材日漸變形時，馬克竟然在外跟另一個女人有了婚外情…本片除了有知名編劇，以及由影帝影后擔綱主演之外，還請來了導過「上班女郎」、「來自邊緣的明信片」、「鳥籠」、「風起雲湧」等片的麥克尼可斯擔任導演，有這些堅強的目前幕後陣容，相信這是一部觀眾絕對不容錯過的精彩好片！ </Description>
+            <ExtendedInfo name="導演:">麥克尼可斯 </ExtendedInfo>
+            <ExtendedInfo name="演員:">梅莉史翠普、傑克尼柯遜 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126030000" duration="3600">
+        <EventId>22200013</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>電影奇譚 (普) </Name>
+            <Description>到好萊塢揚名立萬對尼克查普曼（凱文貝肯 飾，「野東西」）來說，似乎是件輕而易舉的事。 自在電影學校的學生習作得到電影獎後，好萊塢的製片人及經紀人即追在尼克的後面跑。 聰明又有才華的他，當然知道想在好萊塢成功除了要有專業本事外，還要瞭解好萊塢的政治遊戲，也就說要巴結某些深具影響力的大人物。 艾倫（J.T. Walsh 飾）是名呼風喚雨的製作人，搶先將尼克納入他的旗下。 但當艾倫對尼克第一部電影的劇本意見愈來愈多時，尼克發覺他的創作力開始一點一滴的流失…他失去了自信，也失去了摯友和愛人。 隨著電影公司的重新整頓計畫，尼克的地位一落千丈，昨日的金童變成今日的小弟。 然而尼克卻不打算放棄他的希望，重拾自信，準備東山再起…知名諧星馬丁蕭也在此片軋了一角。 </Description>
+            <ExtendedInfo name="導演:">克里斯多夫蓋斯特 </ExtendedInfo>
+            <ExtendedInfo name="演員:">凱文貝肯、珍妮佛傑森李 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126040000" duration="3600">
+        <EventId>22200014</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>午夜狂奔 (護) </Name>
+            <Description>影帝勞勃狄尼諾（「教父2」、「蠻牛」）飾演”賞金獵人”傑克--專門捉拿棄保潛逃人犯的前任芝加哥警探，當他奉派找出別號”公爵”的前任黑手黨會計師強納森（查爾斯葛洛汀，「我家也有貝多芬」系列）到案時，原本以為這只是一件稀鬆平常的任務，只要在找到人後將之押上紐約飛往洛杉磯的班機，便能領取十萬元賞金，但有些人卻對公爵另有打算：包括被公爵侵吞1500萬的黑手黨、屢次搜捕強納森失敗的聯邦調查局、以及傑克的競爭對手，同是賞金獵人的馬文；有這一干人的攪局，加上傑克和強納森從一照面便彼此厭惡處處針鋒相對，使得原本五小時的短短航程，變成了漫長的五天煉獄之旅，而傑克若想領取他的賞金，必須將公爵安然無恙地送達洛杉磯，在各方人馬的虎視眈眈下，傑克能夠成功達成任務嗎？本片由馬丁貝斯特（「女人香」、「第六感生死緣」）執導，勞勃狄尼洛還以本片的精彩演出入圍金球獎喜劇類最佳男主角。 </Description>
+            <ExtendedInfo name="導演:">馬丁貝斯特 </ExtendedInfo>
+            <ExtendedInfo name="演員:">勞勃狄尼洛、查爾斯葛洛汀 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126050000" duration="3600">
+        <EventId>22200015</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>槍口下的愛情 (普) </Name>
+            <Description>當一個FBI的探員和一名美麗的黑道女子相戀後，他們發現自己被困在殘忍的殺手、與無情的法律間，進退兩難…FBI警探狄恩（彼得杜布森，「往日情懷」）受命為一宗前所未有的黑道案件出庭作證，黑道派遣了美麗的莫妮卡（狄娜梅爾，「星艦戰將」）看守住他，直到殺手（強波利托）將他滅口。沒想到，共處一室的兩人，很快的愛上了對方，如今，莫妮卡希望狄恩活下來，黑道卻希望狄恩快死！在沒有任何人可以信任的狀況下，兩人只好相依為命，嘗試一切方法活下去。 </Description>
+            <ExtendedInfo name="導演:">魯波希茲格 </ExtendedInfo>
+            <ExtendedInfo name="演員:">彼得杜布森、狄娜梅爾、強波利托 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126060000" duration="3600">
+        <EventId>22200016</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>單身貴族 (普) </Name>
+            <Description>本片背景設在西雅圖的一棟公寓中，描述裡面的一群現代年輕男女的愛情觀，和他們如何追求愛情的故事。史提夫（坎貝爾史考特，「伴你一生」）對琳達（凱拉塞吉薇克，「愛情外一章」）一往情深，但她卻仍走不出之前所受的情傷而注意不到他的心意；而另一方面，克利夫（麥特狄倫，「哈拉瑪莉」）卻認為戀愛只會妨礙他的音樂事業，令願意為他付出一切的珍娜（布莉姬芳達，「史前巨鱷」）情路倍加坎坷；黛比（席拉凱莉，「一日鍾情」）認為拍攝性感錄影帶能吸引男人追求，而貝利（吉姆楚，「虐殺」）則安於給人愛情忠告，卻無意體驗愛情。劇中對現代男女的愛情有諸多深刻的描寫，大多數的人都能在這六個主角身上或多或少地看到自己的影子。本片是由柯麥隆克洛自編自導，而他本人甚至還在片中插了一角，「情到深處」及「征服情海」等片也是由柯麥隆克洛自編自導的作品。 </Description>
+            <ExtendedInfo name="導演:">柯麥隆克洛 </ExtendedInfo>
+            <ExtendedInfo name="演員:">布莉姬芳達、麥特狄倫、坎貝爾史考特、凱拉塞吉薇克 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126070000" duration="3600">
+        <EventId>22200017</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>人間有溫情 (普) </Name>
+            <Description>本片是根據克萊德愛格頓(Clyde Edgerton)的小說改編而成。艾倫鮑絲汀（「隨心所慾」）飾演一個住在喬治亞州的寡婦瑪蒂，食物是瑪蒂生活的重心，因為她從不拒絕任何一張挨餓的嘴，也絕不會讓走過她面前的人肚子空空；她甚至利用食物來解決問題，幫助一位逃出少年犯拘留中心的年輕人。本片配角演員皆是電視影集常客，黛娜艾薇、葛雯佛登、派特柯利（電視影集「風雲女郎」那位酒館主人&quot;菲爾&quot;）以及強納生泰勒湯瑪斯（影集「歡樂DIY」）等，片終場景刻意表現南方小鎮獨有的風情，和新舊南方人的不同。 </Description>
+            <ExtendedInfo name="導演:">亞瑟艾倫賽德曼 </ExtendedInfo>
+            <ExtendedInfo name="演員:">艾倫保絲汀、強納生泰勒湯瑪斯 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126080000" duration="3600">
+        <EventId>22200018</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>我的老公是異形 (護) </Name>
+            <Description>尼克（理查柏吉）和凱莉（蘇珊華特斯）是一對即將在中西部小鎮，舉行完美婚禮的準新人，然而，就在婚禮的前一天晚上，在尼克駕車返家途中，赫然遭遇一艘發光的外星船艦，從此發生了一連串的轉變--他開始戒酒、老是”黏”在電視機前、變得熱中於性事、並忽然間急於生個孩子，這些事情引起了新婚妻子凱莉的懷疑；不久後，許多鎮民也變得和尼克一樣急於生小孩，滿心疑雲的凱莉因而向保羅叔叔求助，請他幫忙追查鎮民最近的怪異舉止，沒想到卻現了一項驚人的祕密… </Description>
+            <ExtendedInfo name="導演:">南茜馬隆 </ExtendedInfo>
+            <ExtendedInfo name="演員:">理查柏吉、蘇珊華特斯、提姆萊恩 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126090000" duration="3600">
+        <EventId>22200019</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>風月俏佳人 (普) </Name>
+            <Description>12歲的法蘭克與他的朋友省吃儉用存錢，只為了一件事，就是親眼看到一個裸體的女人！好心的妓女葛瑞芬答應他們的請求，但是現在法蘭克有個更好的主意：她將會是他喪偶的爸爸的最佳太太人選*.於是他把梅蘭妮葛瑞芬的家搬回他們住的樹屋裡！這齣令人會心一笑的浪漫喜劇由李察班傑明（「精子也瘋狂」）所導。 </Description>
+            <ExtendedInfo name="導演:">理查班傑明 </ExtendedInfo>
+            <ExtendedInfo name="演員:">梅蘭妮葛莉芬、艾德哈里遜 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126100000" duration="3600">
+        <EventId>22200020</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>1999驚魂記 (護) </Name>
+            <Description>此部改編自Robert Bloch小說的希區考克經典作，將這位恐怖大師的名聲推向了最高點，為什麼呢？其一，是因為安東尼柏金斯飾演年輕變態房東的精湛演技；其二，片中對於精神病的描寫令人身歷其境、毛骨悚然。此片描述了一個小偷珍妮李，她偷了4萬元的公款逃亡，驚魂未定之際，選擇了一個錯誤的地方過夜：貝斯汽車旅館，因為它是由一個年輕男人諾曼貝斯（安東尼柏金斯 飾）、與他好幻想的老媽媽所經營*..希區考克被稱作恐怖大師可說是當之無愧，因為此片雖然經過這麼多年，一樣讓人心驚膽顫，而且對於看過的人，仍有同樣的效果，片中珍妮李在浴室中被殺的一場戲可謂經典。它曾獲四項奧斯卡提名，包括最佳導演、最佳場景設計、最佳攝影與最佳女配角。 </Description>
+            <ExtendedInfo name="導演:">希區考克 </ExtendedInfo>
+            <ExtendedInfo name="演員:">安東尼柏金斯、薇拉邁爾斯 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126110000" duration="3600">
+        <EventId>22200021</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>午夜狂奔 (護) </Name>
+            <Description>影帝勞勃狄尼諾（「教父2」、「蠻牛」）飾演”賞金獵人”傑克--專門捉拿棄保潛逃人犯的前任芝加哥警探，當他奉派找出別號”公爵”的前任黑手黨會計師強納森（查爾斯葛洛汀，「我家也有貝多芬」系列）到案時，原本以為這只是一件稀鬆平常的任務，只要在找到人後將之押上紐約飛往洛杉磯的班機，便能領取十萬元賞金，但有些人卻對公爵另有打算：包括被公爵侵吞1500萬的黑手黨、屢次搜捕強納森失敗的聯邦調查局、以及傑克的競爭對手，同是賞金獵人的馬文；有這一干人的攪局，加上傑克和強納森從一照面便彼此厭惡處處針鋒相對，使得原本五小時的短短航程，變成了漫長的五天煉獄之旅，而傑克若想領取他的賞金，必須將公爵安然無恙地送達洛杉磯，在各方人馬的虎視眈眈下，傑克能夠成功達成任務嗎？本片由馬丁貝斯特（「女人香」、「第六感生死緣」）執導，勞勃狄尼洛還以本片的精彩演出入圍金球獎喜劇類最佳男主角。 </Description>
+            <ExtendedInfo name="導演:">馬丁貝斯特 </ExtendedInfo>
+            <ExtendedInfo name="演員:">勞勃狄尼洛、查爾斯葛洛汀 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126120000" duration="3600">
+        <EventId>22200022</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>女子私校 (護) </Name>
+            <Description>這是一部青春洋溢的喜劇片。 克莉絲（菲比凱絲 飾，「小精靈第二集」）和吉姆（馬修莫汀 飾，「挑戰星期天」）是一對恩愛的小戀人。 可是兩人上的都是管教嚴格的女校和男校，不過，門禁森嚴的女生宿舍可檔阻不了他們的熱情。 小倆口恩愛的模樣讓女生宿舍著名的花蝴蝶蕎丹李（貝絲羅素 飾）頗不是滋味，平常就是克莉絲死對頭的她決定要把吉姆搶過來，使盡一切計謀破壞他們的好事。 克莉絲和吉姆只好跑到旅館約會，他們的愛情能戰勝這一切的阻撓嗎？本片的原聲帶也是相當精采，收錄了包括Stray Cats 的”Rock This Town”、Rick Springfield的”The American Girl”等80年代當紅的歌曲。 </Description>
+            <ExtendedInfo name="導演:">諾爾布萊克 </ExtendedInfo>
+            <ExtendedInfo name="演員:">馬修莫汀、貝絲羅素、菲比凱絲 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126130000" duration="3600">
+        <EventId>22200023</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>我的老公是異形 (護) </Name>
+            <Description>尼克（理查柏吉）和凱莉（蘇珊華特斯）是一對即將在中西部小鎮，舉行完美婚禮的準新人，然而，就在婚禮的前一天晚上，在尼克駕車返家途中，赫然遭遇一艘發光的外星船艦，從此發生了一連串的轉變--他開始戒酒、老是”黏”在電視機前、變得熱中於性事、並忽然間急於生個孩子，這些事情引起了新婚妻子凱莉的懷疑；不久後，許多鎮民也變得和尼克一樣急於生小孩，滿心疑雲的凱莉因而向保羅叔叔求助，請他幫忙追查鎮民最近的怪異舉止，沒想到卻現了一項驚人的祕密… </Description>
+            <ExtendedInfo name="導演:">南茜馬隆 </ExtendedInfo>
+            <ExtendedInfo name="演員:">理查柏吉、蘇珊華特斯、提姆萊恩 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126140000" duration="3600">
+        <EventId>22200074</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>錯中錯 (普) </Name>
+            <Description>在北卡羅萊納州的傑佛遜溪，丹尼（彼得費西柰利 飾，「等不及說愛你」）是鎮上高中的明星四分衛，他一心想得到大學的足球獎學金，但他的女友凱莉希望他留在鎮上而對他施加壓力；亞倫（羅尼伊斯曼 飾，「霹靂狂花」）是個心思單純、頗有藝術細胞的學生，丹尼與其死黨塔茲（威爾艾斯特 飾，「獵殺U-571」）尚恩（傑佛格森 飾，「少女的抉擇」）是他的朋友，但在家中他卻有個會施虐的父親；長期受虐的亞倫終於忍無可忍，因而犯下不可彌補的罪行—弒父。為了保護亞倫，丹尼三人發誓保密並幫忙湮滅證據，不料竟有目擊證人意外死亡，他們被迫必須藏起兩具屍體，並暗中祈禱這場惡夢就此結束。當第二具屍體被意外發現時，一位無辜的足球隊員被誤當成嫌犯，丹尼承受不了讓隊友成為代罪羔羊的罪惡感，因而留下能讓警方轉移調查方向的線索；於是矛頭開始指向丹尼等人，真相也逐漸大白，他們便開始逃亡，但這四人能逃過警方的追捕嗎？克里斯艾薩克、艾美歐文及湯姆阿諾也在片中客串一角。 </Description>
+            <ExtendedInfo name="導演:">詹姆斯洛威 </ExtendedInfo>
+            <ExtendedInfo name="演員:">彼得費西柰利 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126160000" duration="3600">
+        <EventId>22200026</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>秘密戀情 (普) </Name>
+            <Description>知名羅曼史作家芭芭拉泰勒布萊佛的暢銷小說曾不下十次被改編成迷你影集搬上螢幕，本片便是她再度被改編成電視電影的最新作品。故事女主角凡妮莎（珍妮透納，「巔峰戰士」）極具藝術天分，她在父親的百貨公司擔任採購經理，並已與人訂婚論及婚嫁，當她獨自到威尼斯渡假時，邂逅了也正好到西歐渡假的駐波士尼亞戰地記者比爾，在短短四天裡，兩人由相識到熱戀，凡妮莎還受到了比爾的鼓勵而了解到自己不該捨藝術而從商，兩人決定珍惜這段得來不易的感情，儘可能地相守在一起，因此，凡妮莎回國後便和未婚夫分手，接著前往約定的地點等候比爾完成報導後與她會合，沒想到此時卻傳來比爾的噩耗… </Description>
+            <ExtendedInfo name="導演:">鮑比羅斯 </ExtendedInfo>
+            <ExtendedInfo name="演員:">珍妮透納、鮑吉班漢 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126170000" duration="3600">
+        <EventId>22200027</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>殺機邊緣人 (護) </Name>
+            <Description>導演布萊恩狄帕瑪向來擅長執導這類型主題-分裂雙重人格、強烈佔有慾的懸疑驚悚劇。他的影片深受緊張大師希區考克的影響，本片也不例外地充滿了希區考克「驚魂記」與麥可鮑威爾「Peeping Tom」的影子。約翰李斯高（「外星人報到」）飾演傑出的兒童心理學家卡特，在外人眼中，他是個愛家、愛小孩的完美爸爸，大家皆公認他的妻子珍妮嫁了個完美的丈夫。然而卡特內心深處卻有為人所不知的黑暗面-卡特的父親多年前因偷竊嬰兒而喪失兒童心理醫師執照，原來他為了研究變態心理學，不惜對親生兒子卡特施虐，造成他多重分裂的人格，其中之一的人格是邪惡的肯恩。由於卡特的無可挑剔，讓其妻珍妮相對地比不上他的完美，因而轉向舊情人尋求慰藉，殊不知此舉竟引發了卡特體內邪惡的人格肯恩甦醒，並決定向珍妮與其情夫展開可怕的報復… </Description>
+            <ExtendedInfo name="導演:">布萊恩狄帕瑪 </ExtendedInfo>
+            <ExtendedInfo name="演員:">約翰李斯高 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126180000" duration="3600">
+        <EventId>22200028</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>絕代寵妓 (護) </Name>
+            <Description>本片片名提到的”寵妓(Courtesan)”其實以中國人的觀念來說，就是常出現在古裝連續劇中那些精通琴棋書畫，且頗有才學的名妓，也就是西洋人所知道的”茶花女”之流的交際花；在十六世紀文藝復興時期，”寵妓”是一種特殊的行業，在當時的威尼斯，門戶之見主宰著所有男女的婚姻，貴族和平民絕不通婚，然而出身蓬門的小家碧玉維諾妮卡（凱薩琳瑪寇梅可，「梅爾吉勃遜之英雄本色」）卻愛上了貴族公子馬可（魯夫席威爾，「極光追殺令」），懸殊的家世使得相愛的兩人無法結合，此時維諾妮卡的母親寶拉向她提出一個既可改善家境，又可讓她與馬可結合的方法--當寵妓。幾經內心掙扎後，維諾妮卡終於答應成為寵妓，得以和心愛的馬可出雙入對，並在貴族之間造成轟動；然而當鄰國企圖以武力進逼威尼斯時，又會對維諾妮卡和馬可這對愛侶造成什麼影響？ </Description>
+            <ExtendedInfo name="導演:">馬歇爾赫斯高維基 </ExtendedInfo>
+            <ExtendedInfo name="演員:">凱薩琳瑪寇梅可、魯夫席威爾 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126190000" duration="3600">
+        <EventId>22200029</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>邪魔上門 (護) </Name>
+            <Description>由於某種不知名的超自然力量在家中作祟，漢隆斯一家陷入極度恐慌，他們必須面對一隻憤怒的羅威納犬、滿天飛舞的刀子和書本、以及車庫門上的塗鴉等怪事；你或許會以為這是惡魔附身作祟，但事實可不是如此…這是個很可能發生在你或你家人身上的故事，千萬要提高警覺，小心別讓邪魔登堂入室！ </Description>
+            <ExtendedInfo name="導演:">諾爾諾賽克 </ExtendedInfo>
+            <ExtendedInfo name="演員:">柯斯塔曼德洛、艾莉喜迪 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126200000" duration="3600">
+        <EventId>22200030</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>風月俏佳人 (普) </Name>
+            <Description>12歲的法蘭克與他的朋友省吃儉用存錢，只為了一件事，就是親眼看到一個裸體的女人！好心的妓女葛瑞芬答應他們的請求，但是現在法蘭克有個更好的主意：她將會是他喪偶的爸爸的最佳太太人選*.於是他把梅蘭妮葛瑞芬的家搬回他們住的樹屋裡！這齣令人會心一笑的浪漫喜劇由李察班傑明（「精子也瘋狂」）所導。 </Description>
+            <ExtendedInfo name="導演:">理查班傑明 </ExtendedInfo>
+            <ExtendedInfo name="演員:">梅蘭妮葛莉芬、艾德哈里遜 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126210000" duration="3600">
+        <EventId>22200031</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>呆瓜情人 (普) </Name>
+            <Description>查理塔特（傑夫丹尼爾 飾，「歡樂谷」、「阿呆與阿瓜」）是洛杉磯一名年輕有為的律師，即將與老闆美麗的女兒步入禮堂，但是在婚禮舉行之前，他必須前往內華達州，幫老闆的大騙子親戚班尼（瑞普托恩 飾，「MIB星際戰警」）辯護脫罪。當塔特到達當地後，好朋友李察李耶提（麥克李查 飾，「歡樂單身派對」）為他費心的辦了一個婚前最後的單身漢派對，在所有的朋友起鬨下，幾杯黃湯下肚，塔特竟然醉的不醒人事，無法出席隔天早上的聽證會。於是，李耶提自告奮勇替好友解危，假冒塔特的身份出庭，他要做的事很簡單，只要向法官說：「庭上，我的客戶要求延後開庭。」這對以演戲糊口的李耶提來說，根本不成問題，但是沒想到，法官與陪審團皆不同意，這下可好了，他只好將錯就錯，拿出絕佳的演技當起了律師。隨著審判的進行，李耶提逐漸發現了美國司法制度的錯綜複雜，雖然他對法律一竅不通，但是在塔特的教導下，他一本演員本色，將大家唬的一楞一楞的，而塔特則在此時認識了一個純樸的女服務生比莉泰勒（莎莉賽隆 飾，「太空異種」），兩人之間的友誼，迫使他重新審視了自己生命的方向，以及他與未婚妻之間的關係。片中飾演李耶提的麥克李查，就是在電視影集「歡樂單身派對」中演出超級大懶鬼克拉瑪，此片是他首次領銜主演的電影作品。 </Description>
+            <ExtendedInfo name="導演:">強納森萊恩 </ExtendedInfo>
+            <ExtendedInfo name="演員:">傑夫丹尼爾、麥克李查、莎莉賽隆 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126220000" duration="3600">
+        <EventId>22200032</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>天翻地覆 (普) </Name>
+            <Description>還記得「火山爆發」及災難片始祖「火燒摩天樓」嗎？若你是這些災難片的愛好者，那你更不能錯過這部「天翻地覆」！正如同恐怖片有個公式，災難片也有個大致的脈絡可遵循：發現、一些小徵兆、調查、官僚制度、災難發生、極度的驚恐等，當然本片也不例外。一位大城市的官員愛莉森（潔西卡史汀，「世界末日」）對城鎮周圍下陷造成的災害感到憂心，於是找來她的未婚夫地質學家麥特（約翰高柏特，「火山爆發」），想借重一下他的專業知識看看，也好讓自己安心。然而麥特卻發現地面將會有個足以吞噬數萬居民的大洞，而他必須趕在災難發生前設法阻止！片中還有許多災難片必備的視覺特效，絕對精彩可期。 </Description>
+            <ExtendedInfo name="導演:">馬利歐阿索帕帝 </ExtendedInfo>
+            <ExtendedInfo name="演員:">約翰高柏特、潔西卡史汀、布蘭妮丹尼爾 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051126230000" duration="3600">
+        <EventId>22200033</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>風騷壞姊妹 (普) </Name>
+            <Description>本片的英文片名”Jawbreaker”其實指的是在美發售的一種大顆粒硬糖，不料在片中卻成了引發一連串事件的肇始原因。蔻妮、茱莉和芙絲是雷根高中裡鋒頭最健的三個女生，當她們三人決定假裝綁架一位朋友開個無傷的玩笑時，萬萬沒想到此事竟會變成她們這輩子最大的錯誤；為阻止友人尖叫招來不必要的注意，其中一人將糖球塞入她的口中，沒想到她卻意外吞入糖球窒息而死，這個惡作劇當下成了無可挽回的悲劇；為了保有在校內的地位，蔻妮說服其他兩人將此事弄成一樁意外，但這個計畫卻不小心被書呆子芬給發現了，為了讓芬閉嘴，三人提出交換條件：將芬改造成像她們一樣受歡迎的風雲人物以換取她的沈默。然而茱莉卻不斷受到良心的譴責，另一方面，偵辦本案的警探亦同時發現了一些疑點而懷疑這件意外其實並不單純，於是三個女孩為了自保而開始互扯後腿… </Description>
+            <ExtendedInfo name="導演:">達倫史坦 </ExtendedInfo>
+            <ExtendedInfo name="演員:">蘿絲麥高文、蕾貝嘉蓋哈特 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127000000" duration="3600">
+        <EventId>22200034</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>小精靈第二集 (護) </Name>
+            <Description>小精靈“魔怪”傷心地向比利到別的場面，相信看過第一集的觀眾都還印象深刻，在這部續集電影中會出現各種突變的小精靈。小精靈在比利的辦公大樓裡被人不小心濺到水，於是便不可避免地從本尊蹦出了分身，這些調皮的分身又意外地在這棟高科技大樓的基因實驗室中接觸到許多不同的化學藥品，因而變成各式各樣的魔怪，被分身們欺負的小精靈本尊最後終於起而反抗壞魔怪，而比利也和大樓主人合作對抗突變小精靈兵團。 </Description>
+            <ExtendedInfo name="導演:">喬丹堤 </ExtendedInfo>
+            <ExtendedInfo name="演員:">菲比凱絲、柴克葛利根 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127010000" duration="3600">
+        <EventId>22200035</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>女子私校 (護) </Name>
+            <Description>這是一部青春洋溢的喜劇片。 克莉絲（菲比凱絲 飾，「小精靈第二集」）和吉姆（馬修莫汀 飾，「挑戰星期天」）是一對恩愛的小戀人。 可是兩人上的都是管教嚴格的女校和男校，不過，門禁森嚴的女生宿舍可檔阻不了他們的熱情。 小倆口恩愛的模樣讓女生宿舍著名的花蝴蝶蕎丹李（貝絲羅素 飾）頗不是滋味，平常就是克莉絲死對頭的她決定要把吉姆搶過來，使盡一切計謀破壞他們的好事。 克莉絲和吉姆只好跑到旅館約會，他們的愛情能戰勝這一切的阻撓嗎？本片的原聲帶也是相當精采，收錄了包括Stray Cats 的”Rock This Town”、Rick Springfield的”The American Girl”等80年代當紅的歌曲。 </Description>
+            <ExtendedInfo name="導演:">諾爾布萊克 </ExtendedInfo>
+            <ExtendedInfo name="演員:">馬修莫汀、貝絲羅素、菲比凱絲 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127020000" duration="3600">
+        <EventId>22200036</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>冒牌君主 (護) </Name>
+            <Description>傑克（李察德瑞佛斯，「1996春風化雨」）是個總是只差臨門一腳便可能成為超級巨星的紐約演員，但他卻一直碰不到好的演出機會，但當他到加勒比海某個小島國出外景的時候，竟然被當地的警察局長（諾爾朱利亞，「阿達一族」）給綁架了！最出乎他意料的是警察局長還給了他一個畢生難得的演出機會--扮演該國的獨裁者總統，原來是因為該國總統心臟病發猝逝，為了防止大眾騷動或引發革命，警察局長只好出此下策；雖然假扮總統，欺騙社會大眾是一件不道德、非法、欺騙的行為，但…一個演員一生中能夠有幾次”當總統”的機會？這是一齣精彩而不落俗套的喜劇，還有迪克卡維特在片中惟妙惟肖地扮演已故老牌演員小山米戴維斯；導演保羅墨索斯基另外還有「莫斯科先生」、「乞丐皇帝」、「八卦先鋒」等作品。 </Description>
+            <ExtendedInfo name="導演:">保羅墨索斯基 </ExtendedInfo>
+            <ExtendedInfo name="演員:">李察德瑞佛斯、諾爾朱利亞、桑妮雅布拉嘉 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127030000" duration="3600">
+        <EventId>22200037</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>脫線雙警 (普) </Name>
+            <Description>這是一齣描寫&quot;警察配錯對&quot;的瘋狂動作喜劇。麥克（金哈克曼，「殺無赦」）為了偵辦一個離奇謀殺案，因此被上級分派了一個搭檔--艾利斯（丹艾克洛德，「福祿雙霸天2000」），他雖然是一個天才，但是卻患有精神分裂症…這樣瘋狂的組合，一個沒耐性、一個沒大腦，當壞人開始用槍射擊他們時，這一對寶該如何是好呢？導演鮑勃克拉克另有「留校查看」等作品。 </Description>
+            <ExtendedInfo name="導演:">鮑勃克拉克 </ExtendedInfo>
+            <ExtendedInfo name="演員:">金哈克曼、丹艾克洛德 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127040000" duration="3600">
+        <EventId>22200038</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>雙重身分 (普) </Name>
+            <Description>在這齣陰謀驚悚劇中，一個德州的家庭主婦，因長期受到一個攻擊者的精神迫害，因此決定以第二種身份展開報復行動，白天，她是個模範太太與媽媽，一到了晚上，她就變成了一個機智妖豔的女人，皮包裡帶著一支左輪手槍，她的雙重身份為此劇帶來了奇怪而恐怖的高潮！ </Description>
+            <ExtendedInfo name="導演:">安迪安德森 </ExtendedInfo>
+            <ExtendedInfo name="演員:">史黛芬妮洛斯柯、約翰戴維斯 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127050000" duration="3600">
+        <EventId>22200039</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>危險枕邊人 (普) </Name>
+            <Description>一位生性害羞的菜鳥警探奉命追查一個危險的連續殺人狂，與他搭檔的是以鐵娘子作風聞名的女警探。在調查過程中，菜鳥警探與他的美麗搭檔一時天雷勾動地火而發展出一段情，但這份感情卻可能妨害到他們辦案—因為菜鳥警探發現他的枕邊人可能就是他所要抓的危險殺人狂。 </Description>
+            <ExtendedInfo name="導演:">尤利柴瑟 </ExtendedInfo>
+            <ExtendedInfo name="演員:">吉娜葛森、馬歇爾貝爾 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127060000" duration="3600">
+        <EventId>22200040</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>超能力煞星 (普) </Name>
+            <Description>傑洛米狄倫（藍迪奎德 飾，「驚濤毀滅者」）是一個罪大惡極的連續強暴犯，即使被判死刑，仍對其所作所為無絲毫悔意。 當他被送上電椅伏法時，傑洛居然奇蹟似的存活下來！ 更奇怪的是在後頭，傑洛米居然不記得過去所做的一切！ 正當警方煩惱該怎麼處置他時，居然發現傑洛米不但變成了一個溫和、毫無暴力傾向的人，更可預知未來，甚至幫助警方破了好幾個棘手的刑事案件！ 但不是每個人都驚喜他的轉變，之前被害人之一的姊姊，到處奔走陳情，為的就是再將他送上死刑台！ 而一位專研究犯罪心理學的女醫師（安蓓黛薇絲 飾）也嘗試著找出傑洛米轉變性情的原因，甚至懷疑他是為了求存活而裝假… </Description>
+            <ExtendedInfo name="導演:">凱文道寧 </ExtendedInfo>
+            <ExtendedInfo name="演員:">藍迪奎德、安蓓黛薇絲 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127070000" duration="3600">
+        <EventId>22200041</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>天堂過客 (普) </Name>
+            <Description>這是一部令人笑中帶淚的溫馨喜劇。 四個毫不相關、職業各異的男女在一場巴士車禍中喪生，而就在他們魂歸西天的同時，一個男嬰正好出世，這四個人相繼附身在這男嬰身上，欲藉由這個小新生命完成他們生前的遺願。 多年後，小男嬰長大變成一個自私自利、善於操縱別人的青年，四個鬼魂決定要有所行動…男主角湯瑪斯由小勞勃道尼（「絕命追殺令2：就地正法」）所飾演，幾場他被鬼魂附身的戲讓人拍案叫絕！ 看他忽男忽女，其中表情與情緒的轉折在在證明小勞勃道尼的喜劇天分！ 導演朗昂德伍以拍輕鬆喜劇見長，其他知名作品有：「巨星喬揚」、「愛得沒話說」、「城市鄉巴佬」等片。 </Description>
+            <ExtendedInfo name="導演:">朗昂德伍 </ExtendedInfo>
+            <ExtendedInfo name="演員:">小勞勃道尼、查理葛洛汀 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127080000" duration="3600">
+        <EventId>22200042</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>暴雨狂情-雙面亞當 (普) </Name>
+            <Description>當謀殺和政治扯上關係時，往往一發不可收拾，不會有什麼好結局。退休女警瓊安（溫蒂克魯森，「變人」）與政壇人士安迪（羅勃海斯，「空前絕後滿天飛」）是舊識，然而這位仕途無量的明日之星卻捲入一場命案，還成了最大的嫌疑犯，而這位不幸的受害人正好是安迪所資助學院的女學生；在辦案過程中，瓊安逐漸發現安迪赫然有另一面全然不同的祕密生活，此事更隨著安迪遇害身亡而曝光！案情越來越撲朔迷離，瓊安到底還會發現什麼驚人的內幕嗎？ </Description>
+            <ExtendedInfo name="導演:">喬治布魯菲爾德 </ExtendedInfo>
+            <ExtendedInfo name="演員:">溫蒂克魯森、羅勃海斯 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127090000" duration="3600">
+        <EventId>22200043</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>流星撞地球 (普) </Name>
+            <Description>湯姆（湯姆伍派特）曾是警方的炸彈拆除專家，但是一次意外奪去了工作夥伴的命，從此他活在悔恨中無法自拔。為了找尋內心的平靜，他與妻子（羅珊娜哈特）搬到了一個小鎮，沒想到小鎮竟發生了神秘爆炸案，爆炸的破壞力是湯姆前所未見的。經由湯姆與妻子的調查，他們赫然發現一場浩大的流星雨將朝著地球而來，而目標便是他們居住的小鎮！湯姆試著警告小鎮鎮長，疏散鎮民到安全的地方，但鎮長卻不願公開此事，堅持要等小鎮的年度狂歡會結束後再說，問題是到時鎮上還會有人活著嗎？對「世界末日」與「彗星撞地球」的影迷而言，這是一齣不容錯過的災難電影！          科幻 </Description>
+            <ExtendedInfo name="導演:">克里斯湯普森 </ExtendedInfo>
+            <ExtendedInfo name="演員:">羅珊娜哈特、湯姆伍派特、克里斯湯普森 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127100000" duration="3600">
+        <EventId>22200044</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>黑幫風雲 (護) </Name>
+            <Description>影壇曾將多位著名黑幫領袖生平事蹟搬上螢光幕（”幸運”路奇安諾-「四海一家」、巴格西”小蟲”席格-「豪情四海」等），梅耶蘭斯基雖比不上他們著名，但他的”豐功偉業”在黑幫歷史上可說絲毫不比他們遜色；金獎影帝理察德瑞福斯（「第三類接觸」）飾演蘭斯基，一位出身猶太貧民區的年輕人，他憑著自身過人的天資，夥同好友席格和路奇安諾自紐約東區開始一起打天下，終於成為有史以來勢力最大的黑幫領袖，雖然後來席格遭亂槍打死、蘭斯基自己也因被通緝，而在海外四處尋找不會被美國政府引渡且願意收容他的國家，可說下場淒慘，但他們建立的黑幫帝國及多采多姿的奮鬥史常常是人們茶餘飯後閒聊的話題。HBO自製電影向來以情節嚴謹和堅強的演員陣容為特色，本片除了有金獎影帝理察德瑞福斯擔綱演出之外，曾入圍奧斯卡最佳男配角的艾力克羅勃茲（「滅」、「辣手美人心」）、澳籍演員安東尼拉帕利亞（「紐約的秋天」）、貝佛莉狄安姬洛（「美國X檔案」）、伊蓮娜道格拉斯（影集「慾望城市」）等一流演技派卡斯也都參與本片演出，並由「瘋狗馬子」、「野東西」導演約翰麥諾頓執導這部黑幫人物傳記電影。 </Description>
+            <ExtendedInfo name="導演:">約翰麥諾頓 </ExtendedInfo>
+            <ExtendedInfo name="演員:">理察德瑞福斯、艾力克羅勃茲 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127110000" duration="3600">
+        <EventId>22200045</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>蝙蝠俠 (普) </Name>
+            <Description>高譚市，罪惡的淵藪、犯罪者的天堂，雖有地檢署的丹特與警政署長高登努力掃蕩街頭，犯罪率卻居高不下，甚至有日益攀升的趨勢。由於童年時親眼目睹雙親被暴徒殺害，百萬富翁布魯斯韋恩（米高基頓）在長大成人後便化身正義使者--蝙蝠俠，運用高科技的各式精巧機關，在入夜的高譚市街頭掃蕩犯罪；然而，布魯斯的雙重身分在認識美麗的記者薇琪（金貝辛格，「夢憶非洲」）後，便面臨曝光的危險，但此時更令他擔憂的，是個綽號”小丑”的大壞蛋（傑克尼柯遜，「愛在心裡口難開」），小丑原本只是個黑幫打手，但由於意外掉進化學藥物中，造成全身灼傷，從此性情變得偏激而瀕於瘋狂，並因而殺掉自己的老闆取而代之，控制住高譚市的地下犯罪帝國，而蝙蝠俠正是阻礙他野心的最大障礙！布魯斯韋恩如今最大的難題，便是如何一面阻止心儀的薇琪發現他的祕密身分，另一方面還要設法破壞小丑控制整個高譚市的大陰謀…鬼才導演提姆波頓（「陰間大法師」、「剪刀手愛德華」、「星戰毀滅者」、「斷頭谷」）一向以詭異而充滿想像力的陰暗影像風格著稱影壇，本片是他第一次將漫畫英雄蝙蝠俠搬上大銀幕的作品，至今全球已有超過四億美金的票房，是一部極具娛樂價值的科幻動作強片。 </Description>
+            <ExtendedInfo name="導演:">提姆波頓 </ExtendedInfo>
+            <ExtendedInfo name="演員:">米高基頓、傑克尼柯遜、金貝辛格 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127120000" duration="3600">
+        <EventId>22200046</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>牠不皮, 牠是我寶貝 (普) </Name>
+            <Description>人類最好的朋友變成了最可怕的夢魘，至少對史考特華格納（麥特佛瑞爾飾，「大力士」配音）而言是如此；史考特的狗班尼害他搞砸了老闆和一位重要客戶的關係。這種混亂的情況一直到有位慧眼獨具的星探相中了班尼接任新的靈犬萊茜。但正當一切順利，電影也即將開拍之時，班尼卻被綁架了，史考特能趕在電影開拍前將班尼救回來嗎？ </Description>
+            <ExtendedInfo name="導演:">喬治米勒 </ExtendedInfo>
+            <ExtendedInfo name="演員:">瑞亞普曼、麥特佛瑞爾 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127130000" duration="3600">
+        <EventId>22200047</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>王牌對王牌 (護) </Name>
+            <Description>丹尼羅曼（山繆傑克森 飾，「水深火熱」）原是芝加哥警局最頂尖的談判高手，如今卻陷入生平最大的困境，他不但無故背負了盜用公款的罪名，還被陷害成為一宗警察謀殺案的頭號嫌疑犯，在申訴無門的情況下，迫使丹尼在20層樓高的芝加哥警局總部，綁架了一群人質。很快的，美國霹靂小組的狙擊手層層包圍了這棟大樓，所有的槍口都瞄準了丹尼，緊張的情勢似乎一觸即發，昔日的談判高手，竟淪落為挾持人質的歹徒……事到如今，為了在有限的時間內找出真兇，洗刷自己的罪名，丹尼要求和另一管區的談判專家克里斯史賓恩（奧斯卡最佳男配角凱文史派西 飾，「刺激驚爆點」、「美國心、玫瑰情」）談話，於是，兩位談判專家展開了面對面的接觸，一場意志力與言語的拉据戰就此上場，全部的人都屏氣凝神，王牌對王牌的結果，究竟是誰勝誰負呢？這齣節奏緊湊、毫無冷場的動作驚悚片，集結了90年代好萊塢兩大實力派男演員，由蓋瑞葛利（「辣姐妹」）所導。 </Description>
+            <ExtendedInfo name="導演:">蓋瑞葛利 </ExtendedInfo>
+            <ExtendedInfo name="演員:">凱文史派西、山繆傑克森 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127140000" duration="3600">
+        <EventId>22200048</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>單身貴族 (普) </Name>
+            <Description>本片背景設在西雅圖的一棟公寓中，描述裡面的一群現代年輕男女的愛情觀，和他們如何追求愛情的故事。史提夫（坎貝爾史考特，「伴你一生」）對琳達（凱拉塞吉薇克，「愛情外一章」）一往情深，但她卻仍走不出之前所受的情傷而注意不到他的心意；而另一方面，克利夫（麥特狄倫，「哈拉瑪莉」）卻認為戀愛只會妨礙他的音樂事業，令願意為他付出一切的珍娜（布莉姬芳達，「史前巨鱷」）情路倍加坎坷；黛比（席拉凱莉，「一日鍾情」）認為拍攝性感錄影帶能吸引男人追求，而貝利（吉姆楚，「虐殺」）則安於給人愛情忠告，卻無意體驗愛情。劇中對現代男女的愛情有諸多深刻的描寫，大多數的人都能在這六個主角身上或多或少地看到自己的影子。本片是由柯麥隆克洛自編自導，而他本人甚至還在片中插了一角，「情到深處」及「征服情海」等片也是由柯麥隆克洛自編自導的作品。 </Description>
+            <ExtendedInfo name="導演:">柯麥隆克洛 </ExtendedInfo>
+            <ExtendedInfo name="演員:">布莉姬芳達、麥特狄倫、坎貝爾史考特、凱拉塞吉薇克 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127150000" duration="3600">
+        <EventId>22200049</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>好萊塢威龍05:前進華盛頓 (護) </Name>
+            <Description>因為電影中的暴力情節被起訴，彼得千里迢迢到華盛頓上法庭作證，原本以為可以和解收場，彼得的言行卻惹毛了保守黨的參議員。 這位好萊塢的夢想家要如何重建正公眾形象，答案是：公益活動！ </Description>
+            <ExtendedInfo name="導演:">亞當柏恩斯坦、泰德丹米等?? </ExtendedInfo>
+            <ExtendedInfo name="演員:">傑摩爾 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127160000" duration="3600">
+        <EventId>22200050</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>何苦墜入愛河 (普) </Name>
+            <Description>本片根據1988年真實事件改編，一夕成名的搖滾歌手法蘭基李蒙（羅倫茲塔德飾，「2013終極神差」）因毒品結束了年輕的生命。 遺留在人間的除了膾炙人口的歌曲外，還有一大筆唱片版稅和三個皆自稱是他老婆的女人。一個是當紅的女歌手左拉（荷莉貝瑞 飾，本屆金球獎最佳女主角「Introducing Dorothy Dandridge」），一個是貌美的女神偷伊莉莎白（薇薇卡福克斯 飾，「蝙蝠俠4：急凍人」），一個是信仰虔誠的女服務生愛米拉（萊拉羅虹 飾，「等待夢醒時分」）。 本片即從三個女人在法庭爭取妻子的地位及遺產開始，從三方各說各話，到彼此由回憶中揭露與法蘭基相處的過程，她們發現到法蘭基不為人知的一面，也找到到暗藏在心靈深處的真正自我。 除動人的劇情外，本片最不能錯過的即是精彩的電影原聲帶，除法蘭基李蒙的歌聲外，還收錄了50、60年代當紅藝人的歌曲，如戴安娜羅絲、The Platters、黛比雷諾、奧提斯瑞汀、The Four Tops、詹姆斯布朗、史提夫汪達等靈魂樂歌手的作品。 </Description>
+            <ExtendedInfo name="導演:">葛雷葛利納瓦 </ExtendedInfo>
+            <ExtendedInfo name="演員:">荷莉貝瑞、薇薇卡福克斯、萊拉羅虹、羅倫茲塔德 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127170000" duration="3600">
+        <EventId>22200051</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>殺手悲歌 (護) </Name>
+            <Description>這部由HBO自製的戰爭電影是敘述兩位自小一起長大的好友，因殘酷的戰爭而逼於無奈地成為對立的敵人。維拉多（李納羅契，「慾望之翼」）和史拉柯（文森培瑞茲，「魔誡追緝令」）兩人是童年好友，長大後還一起進入南斯拉夫國家射擊隊；在1992年，波士尼亞內戰爆發時，由於兩人政治理念不同，史拉柯變成專為塞爾維亞訓練狙擊手的射擊教練，維拉多則因看不慣塞爾維亞狙擊手屠殺無辜百姓及婦孺，因而成為游擊隊的自由鬥士，兩人從朋友變成敵人，最後終於無可避免地在戰場上正面交鋒… </Description>
+            <ExtendedInfo name="導演:">大衛艾特伍 </ExtendedInfo>
+            <ExtendedInfo name="演員:">李納羅契、文森培瑞茲 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127180000" duration="3600">
+        <EventId>22200052</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>美蘇間諜戰 (護) </Name>
+            <Description>影壇上有不少才華洋溢卻英年早逝的明星，他們留下的作品或許不多，卻仍在影迷心中成為不朽的傳奇，威尼斯影帝瑞凡菲尼克斯（「不設限通緝」、「男人的一半還是男人」）便是其中之一，本片是他與奧斯卡黑人影帝薛尼鮑迪（「流浪漢」、「誰來晚餐」）在螢幕上互飆演技的精彩之作。洛伊（薛尼鮑迪）一位FBI探員，他的夥伴在20年前被一位綽號&quot;水肺&quot;的蘇聯間諜殺死，後他便矢志復仇，但卻一直沒有成功；如今，變節的&quot;水肺&quot;卻轉而向蘇聯勒索，為了證明他並非空言恫嚇，於是他逐一殺死蘇聯派駐潛伏在美國的間諜，包括那些已多年不曾活動過、完全融入美國社會的&quot;沈睡者&quot;；當洛伊面試一位申請加入美國空軍的青少年傑夫（瑞凡菲尼克斯）後，進行例行的背景調查，卻赫然發現傑夫的父母便是&quot;沈睡者&quot; 之一！洛伊必須查出傑夫是否也是間諜，並設法保護他們免於&quot;水肺&quot;的毒手，而傑夫也必須在對父母和對國家（美國）的愛之間做出痛苦的抉擇… </Description>
+            <ExtendedInfo name="導演:">理查班傑明 </ExtendedInfo>
+            <ExtendedInfo name="演員:">瑞凡菲尼克斯、薛尼鮑迪、理查布萊佛 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127190000" duration="3600">
+        <EventId>22200053</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>人間有溫情 (普) </Name>
+            <Description>本片是根據克萊德愛格頓(Clyde Edgerton)的小說改編而成。艾倫鮑絲汀（「隨心所慾」）飾演一個住在喬治亞州的寡婦瑪蒂，食物是瑪蒂生活的重心，因為她從不拒絕任何一張挨餓的嘴，也絕不會讓走過她面前的人肚子空空；她甚至利用食物來解決問題，幫助一位逃出少年犯拘留中心的年輕人。本片配角演員皆是電視影集常客，黛娜艾薇、葛雯佛登、派特柯利（電視影集「風雲女郎」那位酒館主人&quot;菲爾&quot;）以及強納生泰勒湯瑪斯（影集「歡樂DIY」）等，片終場景刻意表現南方小鎮獨有的風情，和新舊南方人的不同。 </Description>
+            <ExtendedInfo name="導演:">亞瑟艾倫賽德曼 </ExtendedInfo>
+            <ExtendedInfo name="演員:">艾倫保絲汀、強納生泰勒湯瑪斯 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127200000" duration="3600">
+        <EventId>22200054</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>情劫 (普) </Name>
+            <Description>這部電影所要傳達的訊息便是：愛情戰勝一切。安娜布魯斯特（珍寧透納 飾，「天才小麻煩」）就在要嫁給一位素昧平生男子的路上時，遭到蘇族印第安人的攻擊，當攻擊隊伍的領隊”米圖瓦”正要取她性命時，卻赫然發現安娜就是不斷出現在他夢中的女子。於是米圖瓦便是放了安娜，讓她去嫁給她的白人丈夫。然而這位蘇族勇士發現自己無法將安娜逐出心房，於是他便追蹤到安娜的新家，將她綁架回部落，並且宣稱安娜是他的人。隨著時光流逝，安娜發現她愛米圖瓦更勝於她的白人先生，但這段幸福的日子，卻因騎兵隊前來營救安娜而可能面臨結束的命運… </Description>
+            <ExtendedInfo name="導演:">傑瑞倫敦 </ExtendedInfo>
+            <ExtendedInfo name="演員:">珍寧透納、派崔克柏金 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127210000" duration="3600">
+        <EventId>22200055</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>冷暖天涯 (普) </Name>
+            <Description>在肯塔基成長的珊曼莎（艾蜜莉洛伊，「大河戀」、「藏錯屍體殺錯人」）是個有著堅強意志的少女，父親在她出生前便在越南戰場上失蹤；與珊相依為命的叔叔艾密（布魯斯威利，「靈異第六感」）為越戰夢魘所苦，因而往往喜怒無常；當珊忽然決定找出關於父親的一切事蹟，艾密雖然大力反對，但卻阻止不了珊的決心；珊的這場發現之旅，最後卻也成為艾密重新發現自我的旅程… </Description>
+            <ExtendedInfo name="導演:">諾曼傑維遜 </ExtendedInfo>
+            <ExtendedInfo name="演員:">布魯斯威利、艾蜜莉洛伊、瓊艾倫 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127220000" duration="3600">
+        <EventId>22200056</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>槍口下的愛情 (普) </Name>
+            <Description>當一個FBI的探員和一名美麗的黑道女子相戀後，他們發現自己被困在殘忍的殺手、與無情的法律間，進退兩難…FBI警探狄恩（彼得杜布森，「往日情懷」）受命為一宗前所未有的黑道案件出庭作證，黑道派遣了美麗的莫妮卡（狄娜梅爾，「星艦戰將」）看守住他，直到殺手（強波利托）將他滅口。沒想到，共處一室的兩人，很快的愛上了對方，如今，莫妮卡希望狄恩活下來，黑道卻希望狄恩快死！在沒有任何人可以信任的狀況下，兩人只好相依為命，嘗試一切方法活下去。 </Description>
+            <ExtendedInfo name="導演:">魯波希茲格 </ExtendedInfo>
+            <ExtendedInfo name="演員:">彼得杜布森、狄娜梅爾、強波利托 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127230000" duration="3600">
+        <EventId>22200057</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>激情案外案 (普) </Name>
+            <Description>伊莉莎白（瓊安娜帕庫拉，「異形總動員」）是個生活逐漸分崩離析的美麗藝術家，由於受困於不快樂的婚姻中，她向外尋求慰藉，和她先生柯爾（麥可莫瑞提，電視影集「法網遊龍」）事業上的夥伴湯尼（波伊德凱斯納，「將軍的女兒」）發展出婚外情，他們以為此事神不知鬼不覺，沒想到卻被一名叫威利的男子勒索，但當伊莉莎白殺死威利後，事情便急轉直下，惡夢一個接一個地到來，有人向柯爾密告關於伊莉莎白的婚外情後不久，柯爾便被人發現陳屍海邊，不難猜測警方的頭號嫌犯會是何許人…經由某個&quot;鬼魂&quot;的指引，伊莉莎白決心找出殺死柯爾的真兇。 </Description>
+            <ExtendedInfo name="導演:">魯本普瑞斯 </ExtendedInfo>
+            <ExtendedInfo name="演員:">麥可莫瑞提、瓊安娜帕庫拉、波伊德凱斯納 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051128000000" duration="3600">
+        <EventId>22200058</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>金臂神投 (普) </Name>
+            <Description>時間是1939年的棒球熱季，已在黑人國家聯盟打了15年棒球的黑人投手巴奈特”賓果”（比利迪威廉斯，「絕地殺手」），因不滿聯盟經理對球員的不公平待遇，因而決定自組球隊，他計畫帶著球隊在城鎮間打巡迴賽，並賺取些收入維持球隊生計；他的球隊不久後便造成轟動，受到許多球迷支持，卻也因此使得球隊老闆們極度不悅，因而意圖阻止他們；然而，當賓果決定和白人球隊對打時，整個局勢頓時改觀，因為這將會是一場”不成功便成仁”的賽事，也是黑白球隊間前所未有的龍虎之爭。為本片執導演筒的是名導約翰貝德漢（「驚弓之鳥」、「小生當差」、「緊急盯梢令」）。 </Description>
+            <ExtendedInfo name="導演:">約翰貝德漢 </ExtendedInfo>
+            <ExtendedInfo name="演員:">比利迪威廉斯、詹姆斯厄爾瓊斯、李察普萊爾 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051128010000" duration="3600">
+        <EventId>22200059</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>電影奇譚 (普) </Name>
+            <Description>到好萊塢揚名立萬對尼克查普曼（凱文貝肯 飾，「野東西」）來說，似乎是件輕而易舉的事。 自在電影學校的學生習作得到電影獎後，好萊塢的製片人及經紀人即追在尼克的後面跑。 聰明又有才華的他，當然知道想在好萊塢成功除了要有專業本事外，還要瞭解好萊塢的政治遊戲，也就說要巴結某些深具影響力的大人物。 艾倫（J.T. Walsh 飾）是名呼風喚雨的製作人，搶先將尼克納入他的旗下。 但當艾倫對尼克第一部電影的劇本意見愈來愈多時，尼克發覺他的創作力開始一點一滴的流失…他失去了自信，也失去了摯友和愛人。 隨著電影公司的重新整頓計畫，尼克的地位一落千丈，昨日的金童變成今日的小弟。 然而尼克卻不打算放棄他的希望，重拾自信，準備東山再起…知名諧星馬丁蕭也在此片軋了一角。 </Description>
+            <ExtendedInfo name="導演:">克里斯多夫蓋斯特 </ExtendedInfo>
+            <ExtendedInfo name="演員:">凱文貝肯、珍妮佛傑森李 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051128020000" duration="3600">
+        <EventId>22200060</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>LIS太空號 (普) </Name>
+            <Description>本片改編自60年代美國熱門電視影集「Lost In Space」，電影版延續原劇精神，大部分角色及人名皆不變，不同的是電視劇中紙漿做成的場景與錫箔紙做的太空裝換成了更炫的高科技佈景道具。 750個視覺特效使用，栩栩如生地呈現了外太空的景象。 本片敘述羅賓森（威廉赫特 飾）帶著一家大小被派遣至外太空尋找一處適合人類生存的星球，同行的還有領航員韋斯特（麥特拉布蘭克 飾， 「六人行」）。 羅賓森除了要面對瀕臨破碎的家庭關係外，還要對付邪惡的史密斯博士（蓋瑞歐德曼 飾，「空軍一號」、「第五元素」）。 在太空船遭史密斯博士的嚴重破壞，又加上不明外太空怪物的侵襲，孤立無援的羅賓森一家 人如何抵禦外侮，完成移民外星球的使命呢？ </Description>
+            <ExtendedInfo name="導演:">史蒂芬霍普金斯 </ExtendedInfo>
+            <ExtendedInfo name="演員:">威廉赫特、蓋瑞歐德曼、麥特拉布蘭克、希瑟葛拉罕 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051128030000" duration="3600">
+        <EventId>22200061</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>風騷壞姊妹 (普) </Name>
+            <Description>本片的英文片名”Jawbreaker”其實指的是在美發售的一種大顆粒硬糖，不料在片中卻成了引發一連串事件的肇始原因。蔻妮、茱莉和芙絲是雷根高中裡鋒頭最健的三個女生，當她們三人決定假裝綁架一位朋友開個無傷的玩笑時，萬萬沒想到此事竟會變成她們這輩子最大的錯誤；為阻止友人尖叫招來不必要的注意，其中一人將糖球塞入她的口中，沒想到她卻意外吞入糖球窒息而死，這個惡作劇當下成了無可挽回的悲劇；為了保有在校內的地位，蔻妮說服其他兩人將此事弄成一樁意外，但這個計畫卻不小心被書呆子芬給發現了，為了讓芬閉嘴，三人提出交換條件：將芬改造成像她們一樣受歡迎的風雲人物以換取她的沈默。然而茱莉卻不斷受到良心的譴責，另一方面，偵辦本案的警探亦同時發現了一些疑點而懷疑這件意外其實並不單純，於是三個女孩為了自保而開始互扯後腿… </Description>
+            <ExtendedInfo name="導演:">達倫史坦 </ExtendedInfo>
+            <ExtendedInfo name="演員:">蘿絲麥高文、蕾貝嘉蓋哈特 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051128040000" duration="3600">
+        <EventId>22200062</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>午夜狂奔 (護) </Name>
+            <Description>影帝勞勃狄尼諾（「教父2」、「蠻牛」）飾演”賞金獵人”傑克--專門捉拿棄保潛逃人犯的前任芝加哥警探，當他奉派找出別號”公爵”的前任黑手黨會計師強納森（查爾斯葛洛汀，「我家也有貝多芬」系列）到案時，原本以為這只是一件稀鬆平常的任務，只要在找到人後將之押上紐約飛往洛杉磯的班機，便能領取十萬元賞金，但有些人卻對公爵另有打算：包括被公爵侵吞1500萬的黑手黨、屢次搜捕強納森失敗的聯邦調查局、以及傑克的競爭對手，同是賞金獵人的馬文；有這一干人的攪局，加上傑克和強納森從一照面便彼此厭惡處處針鋒相對，使得原本五小時的短短航程，變成了漫長的五天煉獄之旅，而傑克若想領取他的賞金，必須將公爵安然無恙地送達洛杉磯，在各方人馬的虎視眈眈下，傑克能夠成功達成任務嗎？本片由馬丁貝斯特（「女人香」、「第六感生死緣」）執導，勞勃狄尼洛還以本片的精彩演出入圍金球獎喜劇類最佳男主角。 </Description>
+            <ExtendedInfo name="導演:">馬丁貝斯特 </ExtendedInfo>
+            <ExtendedInfo name="演員:">勞勃狄尼洛、查爾斯葛洛汀 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051128050000" duration="3600">
+        <EventId>22200063</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>1999驚魂記 (護) </Name>
+            <Description>此部改編自Robert Bloch小說的希區考克經典作，將這位恐怖大師的名聲推向了最高點，為什麼呢？其一，是因為安東尼柏金斯飾演年輕變態房東的精湛演技；其二，片中對於精神病的描寫令人身歷其境、毛骨悚然。此片描述了一個小偷珍妮李，她偷了4萬元的公款逃亡，驚魂未定之際，選擇了一個錯誤的地方過夜：貝斯汽車旅館，因為它是由一個年輕男人諾曼貝斯（安東尼柏金斯 飾）、與他好幻想的老媽媽所經營*..希區考克被稱作恐怖大師可說是當之無愧，因為此片雖然經過這麼多年，一樣讓人心驚膽顫，而且對於看過的人，仍有同樣的效果，片中珍妮李在浴室中被殺的一場戲可謂經典。它曾獲四項奧斯卡提名，包括最佳導演、最佳場景設計、最佳攝影與最佳女配角。 </Description>
+            <ExtendedInfo name="導演:">希區考克 </ExtendedInfo>
+            <ExtendedInfo name="演員:">安東尼柏金斯、薇拉邁爾斯 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051128060000" duration="3600">
+        <EventId>22200064</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>熱血飛車 (普) </Name>
+            <Description>本片是由昔日銀色夫妻擋畢雷諾斯和朗妮安德森共同領銜主演的動作片。畢雷諾斯飾演賽車明星史托克”王牌”，為了贏得舉世聞名的”達通那500大賽”而展開一段瘋狂大賽車；這場賽事從一開始便充滿緊張的氣氛，各路賽車好手為了贏得冠軍寶座，莫不使出渾身解數、花招百出；另一方面，史托克和他的贊助廠商（某家炸雞連鎖店）之間亦發生一些溝通上的問題；在這場萬眾注目的賽車盛事正進行得如火如荼之時，這位賽車明星除了必須設法應付所有競爭對手使出的各種詭計，還得設法將性感惹火的波霸美女（朗妮安德森）給弄上床，最後史托克是否能如願以償呢？他又有何袖裡乾坤能好事成雙呢？ </Description>
+            <ExtendedInfo name="導演:">哈爾尼德漢 </ExtendedInfo>
+            <ExtendedInfo name="演員:">畢雷諾斯、朗妮安德森 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051128070000" duration="3600">
+        <EventId>22200065</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>LIS太空號 (普) </Name>
+            <Description>本片改編自60年代美國熱門電視影集「Lost In Space」，電影版延續原劇精神，大部分角色及人名皆不變，不同的是電視劇中紙漿做成的場景與錫箔紙做的太空裝換成了更炫的高科技佈景道具。 750個視覺特效使用，栩栩如生地呈現了外太空的景象。 本片敘述羅賓森（威廉赫特 飾）帶著一家大小被派遣至外太空尋找一處適合人類生存的星球，同行的還有領航員韋斯特（麥特拉布蘭克 飾， 「六人行」）。 羅賓森除了要面對瀕臨破碎的家庭關係外，還要對付邪惡的史密斯博士（蓋瑞歐德曼 飾，「空軍一號」、「第五元素」）。 在太空船遭史密斯博士的嚴重破壞，又加上不明外太空怪物的侵襲，孤立無援的羅賓森一家 人如何抵禦外侮，完成移民外星球的使命呢？ </Description>
+            <ExtendedInfo name="導演:">史蒂芬霍普金斯 </ExtendedInfo>
+            <ExtendedInfo name="演員:">威廉赫特、蓋瑞歐德曼、麥特拉布蘭克、希瑟葛拉罕 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051128080000" duration="3600">
+        <EventId>22200066</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>殺機邊緣人 (護) </Name>
+            <Description>導演布萊恩狄帕瑪向來擅長執導這類型主題-分裂雙重人格、強烈佔有慾的懸疑驚悚劇。他的影片深受緊張大師希區考克的影響，本片也不例外地充滿了希區考克「驚魂記」與麥可鮑威爾「Peeping Tom」的影子。約翰李斯高（「外星人報到」）飾演傑出的兒童心理學家卡特，在外人眼中，他是個愛家、愛小孩的完美爸爸，大家皆公認他的妻子珍妮嫁了個完美的丈夫。然而卡特內心深處卻有為人所不知的黑暗面-卡特的父親多年前因偷竊嬰兒而喪失兒童心理醫師執照，原來他為了研究變態心理學，不惜對親生兒子卡特施虐，造成他多重分裂的人格，其中之一的人格是邪惡的肯恩。由於卡特的無可挑剔，讓其妻珍妮相對地比不上他的完美，因而轉向舊情人尋求慰藉，殊不知此舉竟引發了卡特體內邪惡的人格肯恩甦醒，並決定向珍妮與其情夫展開可怕的報復… </Description>
+            <ExtendedInfo name="導演:">布萊恩狄帕瑪 </ExtendedInfo>
+            <ExtendedInfo name="演員:">約翰李斯高 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051128090000" duration="3600">
+        <EventId>22200067</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>我的老公是異形 (護) </Name>
+            <Description>尼克（理查柏吉）和凱莉（蘇珊華特斯）是一對即將在中西部小鎮，舉行完美婚禮的準新人，然而，就在婚禮的前一天晚上，在尼克駕車返家途中，赫然遭遇一艘發光的外星船艦，從此發生了一連串的轉變--他開始戒酒、老是”黏”在電視機前、變得熱中於性事、並忽然間急於生個孩子，這些事情引起了新婚妻子凱莉的懷疑；不久後，許多鎮民也變得和尼克一樣急於生小孩，滿心疑雲的凱莉因而向保羅叔叔求助，請他幫忙追查鎮民最近的怪異舉止，沒想到卻現了一項驚人的祕密… </Description>
+            <ExtendedInfo name="導演:">南茜馬隆 </ExtendedInfo>
+            <ExtendedInfo name="演員:">理查柏吉、蘇珊華特斯、提姆萊恩 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051128100000" duration="3600">
+        <EventId>22200068</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>網路殺機 (普) </Name>
+            <Description>由於父母剛離婚不久，母親因而得時常加班，再加上剛被高中男友給甩了，16歲的瑪莎（喬丹賴德，「一吻定江山」）便開始在網路世界的聊天室中尋找慰藉；然而，單純的網路閒聊卻演變成致命的危機！瑪莎無意中吸引了網路綁架集團的注意，那是個利用網路挑選被害人，再加以綁架勒索贖金。瑪莎的母親康妮（雪莉賴德，電視影集「霹靂嬌娃」）為女兒的安危憂心如焚，並找來了警方、聯邦調查局、及一位駭客專家協助，好破獲這個網路綁票集團！當年以「霹靂嬌娃」走紅的雪莉賴德，在本片中和她的親生女兒喬丹賴德飾演一對母女，更為本片憑添一段佳話。 </Description>
+            <ExtendedInfo name="導演:">比爾諾頓 </ExtendedInfo>
+            <ExtendedInfo name="演員:">雪莉賴德、喬丹賴德、布蘭登費爾 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051128110000" duration="3600">
+        <EventId>22200069</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>雙重身分 (普) </Name>
+            <Description>在這齣陰謀驚悚劇中，一個德州的家庭主婦，因長期受到一個攻擊者的精神迫害，因此決定以第二種身份展開報復行動，白天，她是個模範太太與媽媽，一到了晚上，她就變成了一個機智妖豔的女人，皮包裡帶著一支左輪手槍，她的雙重身份為此劇帶來了奇怪而恐怖的高潮！ </Description>
+            <ExtendedInfo name="導演:">安迪安德森 </ExtendedInfo>
+            <ExtendedInfo name="演員:">史黛芬妮洛斯柯、約翰戴維斯 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051128120000" duration="3600">
+        <EventId>22200070</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>天堂過客 (普) </Name>
+            <Description>這是一部令人笑中帶淚的溫馨喜劇。 四個毫不相關、職業各異的男女在一場巴士車禍中喪生，而就在他們魂歸西天的同時，一個男嬰正好出世，這四個人相繼附身在這男嬰身上，欲藉由這個小新生命完成他們生前的遺願。 多年後，小男嬰長大變成一個自私自利、善於操縱別人的青年，四個鬼魂決定要有所行動…男主角湯瑪斯由小勞勃道尼（「絕命追殺令2：就地正法」）所飾演，幾場他被鬼魂附身的戲讓人拍案叫絕！ 看他忽男忽女，其中表情與情緒的轉折在在證明小勞勃道尼的喜劇天分！ 導演朗昂德伍以拍輕鬆喜劇見長，其他知名作品有：「巨星喬揚」、「愛得沒話說」、「城市鄉巴佬」等片。 </Description>
+            <ExtendedInfo name="導演:">朗昂德伍 </ExtendedInfo>
+            <ExtendedInfo name="演員:">小勞勃道尼、查理葛洛汀 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051128130000" duration="3600">
+        <EventId>22200071</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>冒牌君主 (護) </Name>
+            <Description>傑克（李察德瑞佛斯，「1996春風化雨」）是個總是只差臨門一腳便可能成為超級巨星的紐約演員，但他卻一直碰不到好的演出機會，但當他到加勒比海某個小島國出外景的時候，竟然被當地的警察局長（諾爾朱利亞，「阿達一族」）給綁架了！最出乎他意料的是警察局長還給了他一個畢生難得的演出機會--扮演該國的獨裁者總統，原來是因為該國總統心臟病發猝逝，為了防止大眾騷動或引發革命，警察局長只好出此下策；雖然假扮總統，欺騙社會大眾是一件不道德、非法、欺騙的行為，但…一個演員一生中能夠有幾次”當總統”的機會？這是一齣精彩而不落俗套的喜劇，還有迪克卡維特在片中惟妙惟肖地扮演已故老牌演員小山米戴維斯；導演保羅墨索斯基另外還有「莫斯科先生」、「乞丐皇帝」、「八卦先鋒」等作品。 </Description>
+            <ExtendedInfo name="導演:">保羅墨索斯基 </ExtendedInfo>
+            <ExtendedInfo name="演員:">李察德瑞佛斯、諾爾朱利亞、桑妮雅布拉嘉 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051128140000" duration="3600">
+        <EventId>22200072</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>妙探傳奇 (普) </Name>
+            <Description>本片是「靈犬妙探」系列的第二集，仍然由澳籍喜劇演員瑪格達蘇班斯基（「我很乖，因為我要出國」的哈葛太太）演出那位愛狗成痴的馴狗師瑪格麗特，這次她回到了家鄉，任務是要找出失蹤的愛狗人哈利，大多數的鎮民們相信哈利是被一種已絕種的野獸殺死的，但瑪格麗特卻認為是有人在背後搞的鬼；為了找出事實真相，瑪格麗特挖掘出一些有人希望埋葬的過去，因而引來了殺機… </Description>
+            <ExtendedInfo name="導演:">保羅馬隆尼 </ExtendedInfo>
+            <ExtendedInfo name="演員:">瑪格達蘇班斯基、泰拉茉莉斯 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051128150000" duration="3600">
+        <EventId>22200073</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>流星撞地球 (普) </Name>
+            <Description>湯姆（湯姆伍派特）曾是警方的炸彈拆除專家，但是一次意外奪去了工作夥伴的命，從此他活在悔恨中無法自拔。為了找尋內心的平靜，他與妻子（羅珊娜哈特）搬到了一個小鎮，沒想到小鎮竟發生了神秘爆炸案，爆炸的破壞力是湯姆前所未見的。經由湯姆與妻子的調查，他們赫然發現一場浩大的流星雨將朝著地球而來，而目標便是他們居住的小鎮！湯姆試著警告小鎮鎮長，疏散鎮民到安全的地方，但鎮長卻不願公開此事，堅持要等小鎮的年度狂歡會結束後再說，問題是到時鎮上還會有人活著嗎？對「世界末日」與「彗星撞地球」的影迷而言，這是一齣不容錯過的災難電影！          科幻 </Description>
+            <ExtendedInfo name="導演:">克里斯湯普森 </ExtendedInfo>
+            <ExtendedInfo name="演員:">羅珊娜哈特、湯姆伍派特、克里斯湯普森 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+    </ChannelPeriod>
+  </ScheduleData>
+</BroadcastData>

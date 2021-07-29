@@ -1,0 +1,18 @@
+PROMPT *** SO509B   用來紀錄每天各系統台與SnapShot table 資料筆數差異 ***
+
+DROP TABLE SO509B CASCADE CONSTRAINT;
+
+CREATE TABLE SO509B (
+	CompCode NUMBER(3),
+	CompName VARCHAR2(20),
+	TableCode VARCHAR2(30),
+	TableName VARCHAR2(60),
+	MasterComputeDate DATE,
+	MasterRecordCounts NUMBER(8),
+	SnapComputeDate DATE,
+	SnapRecordCounts NUMBER(8),
+	DiffCounts NUMBER(8),
+	ResultFlag NUMBER(1));
+
+CREATE INDEX I_SO509B_Index1 ON SO509B (CompCode,SnapComputeDate)
+	PCTFREE 10 STORAGE (INITIAL 100K NEXT 300K MINEXTENTS 1 MAXEXTENTS 200) TABLESPACE REPORT_NDX;

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ProductManagementData SYSTEM "ProductManagementData.dtd">
+<ProductManagementData creationDate="20060316024531">
+<ProviderInfo>
+<ProviderId>IMS Nagra</ProviderId>
+<ProviderName>IMS Nagravision S.A.</ProviderName>
+<DtdVersion>1.1.1</DtdVersion>
+</ProviderInfo>
+<ProductChangeNotification>
+
+<ProductData>
+<Product>
+<ProductId>21045</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>史瑞克</ProductName>
+<ProductDescription>史瑞克</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060320140000" endTime="20060321141000"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20060320000000" endTime="20060323000000"/>
+<Event beginTime="20060321140000" duration="5400">
+<EventId>L00000047471</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>史瑞克</Name>
+<Description>您將和史瑞克一同展開一場刺激的冒險,在一隻可愛但喋喋不休的驢子從旁幫助下,史瑞克將前往城堡拯救美麗的公主,好讓陰險的法克大人趕走一群惹人厭的童話故事人物,讓自己的沼澤家園恢復從前的清靜.</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>SHREK</Name>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="5" nibble2="5"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>506</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>21049</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>史瑞克2</ProductName>
+<ProductDescription>史瑞克2</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060315100000" endTime="20060316101000"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20060315000000" endTime="20060318000000"/>
+<Event beginTime="20060316100000" duration="5540">
+<EventId>L00000046741</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>史瑞克2</Name>
+</EpgText>
+<EpgText language="eng">
+<Name>SHREK-2</Name>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="5" nibble2="5"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>505</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>21064</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>史瑞克2</ProductName>
+<ProductDescription>史瑞克2</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060316160000" endTime="20060317161000"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20060316000000" endTime="20060319000000"/>
+<Event beginTime="20060317160000" duration="5540">
+<EventId>L00000046816</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>史瑞克2</Name>
+</EpgText>
+<EpgText language="eng">
+<Name>SHREK-2</Name>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="5" nibble2="5"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>505</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>21074</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>史瑞克2</ProductName>
+<ProductDescription>史瑞克2</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060317120000" endTime="20060318121000"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20060317000000" endTime="20060320000000"/>
+<Event beginTime="20060318120000" duration="5540">
+<EventId>L00000046866</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>史瑞克2</Name>
+</EpgText>
+<EpgText language="eng">
+<Name>SHREK-2</Name>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="5" nibble2="5"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>505</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>21092</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>史瑞克2</ProductName>
+<ProductDescription>史瑞克2</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060319000000" endTime="20060320001000"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20060319000000" endTime="20060322000000"/>
+<Event beginTime="20060320000000" duration="5540">
+<EventId>L00000046956</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>史瑞克2</Name>
+</EpgText>
+<EpgText language="eng">
+<Name>SHREK-2</Name>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="5" nibble2="5"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>505</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>21115</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>東森電影院-20</ProductName>
+<ProductDescription>東森電影院-20</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060318160000" endTime="20060319161000"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20060318000000" endTime="20060322000000"/>
+<Event beginTime="20060319160000" duration="86400">
+<EventId>L00000047494</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>東森電影院-20</Name>
+<Description>1.老大靠邊閃 (護)
+2.流星撞地球 (普)
+3.蝙蝠俠 (普)
+4.午夜狂奔 (護)
+5.心火 (護)
+6.電影奇譚 (普)</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>Movie Show - 20</Name>
+<Description>1.Analyze This (PP)
+2.Meteorites! (G)
+3.Batman (G)
+4.Midnight Run (PP)
+5.Heartburn (PP)
+6.The Big Picture (G)</Description>
+</EpgText>
+<ParentalRating>6</ParentalRating>
+<DvbContent>
+<Content nibble1="1" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>502</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>21120</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>東森電影院-20</ProductName>
+<ProductDescription>東森電影院-20</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060318160000" endTime="20060319161000"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20060318000000" endTime="20060322000000"/>
+<Event beginTime="20060319160000" duration="86400">
+<EventId>L00000047485</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>東森電影院-20</Name>
+<Description>1.老大靠邊閃 (護)
+2.流星撞地球 (普)
+3.蝙蝠俠 (普)
+4.午夜狂奔 (護)
+5.心火 (護)
+6.電影奇譚 (普)</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>Movie Show - 20</Name>
+<Description>1.Analyze This (PP)
+2.Meteorites! (G)
+3.Batman (G)
+4.Midnight Run (PP)
+5.Heartburn (PP)
+6.The Big Picture (G)</Description>
+</EpgText>
+<ParentalRating>6</ParentalRating>
+<DvbContent>
+<Content nibble1="1" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>501</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+</ProductData>
+</ProductChangeNotification>
+</ProductManagementData>

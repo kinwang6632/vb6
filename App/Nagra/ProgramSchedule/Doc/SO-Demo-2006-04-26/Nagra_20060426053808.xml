@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BroadcastData SYSTEM "BroadcastData.dtd">
+<BroadcastData creationDate="20060426053808">
+  <ProviderInfo>
+    <ProviderId>Nagra</ProviderId>
+    <ProviderName>Nagravision S.A.</ProviderName>
+  </ProviderInfo>
+  <ScheduleData>
+    <ChannelPeriod beginTime="20060426160000" endTime="20060427074505">
+      <ChannelId>303</ChannelId>
+      <Event beginTime="20060426160000" duration="3600">
+        <EventId>L00000085578</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>HBO測試影片(60分)</Name>
+            <Description>故事大綱 9</Description>
+            <ExtendedInfo name="導演">導演 9</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 9</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>HBO測試影片(60分)</Name>
+            <Description>故事大綱 9</Description>
+            <ExtendedInfo name="導演">導演 9</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 9</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060426170000" duration="3600">
+        <EventId>L00000085580</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>尼可測試影片(60分)</Name>
+            <Description>故事大綱 10</Description>
+            <ExtendedInfo name="導演">導演 10</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 10</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>尼可測試影片(60分)</Name>
+            <Description>故事大綱 10</Description>
+            <ExtendedInfo name="導演">導演 10</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 10</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060426180000" duration="3600">
+        <EventId>L00000085582</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>緯來體育測試影片(60分)</Name>
+            <Description>故事大綱 11</Description>
+            <ExtendedInfo name="導演">導演 11</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 11</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>緯來體育測試影片(60分)</Name>
+            <Description>故事大綱 11</Description>
+            <ExtendedInfo name="導演">導演 11</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 11</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060426190000" duration="3600">
+        <EventId>L00000085584</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>慈濟測試影片(60分)</Name>
+            <Description>故事大綱 12</Description>
+            <ExtendedInfo name="導演">導演 12</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 12</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>慈濟測試影片(60分)</Name>
+            <Description>故事大綱 12</Description>
+            <ExtendedInfo name="導演">導演 12</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 12</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060426200000" duration="3601">
+        <EventId>L00000085614</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>HBO測試影片(60分)</Name>
+            <Description>故事大綱 9</Description>
+            <ExtendedInfo name="導演">導演 9</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 9</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>HBO測試影片(60分)</Name>
+            <Description>故事大綱 9</Description>
+            <ExtendedInfo name="導演">導演 9</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 9</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060426210001" duration="3600">
+        <EventId>L00000085616</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>尼可測試影片(60分)</Name>
+            <Description>故事大綱 10</Description>
+            <ExtendedInfo name="導演">導演 10</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 10</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>尼可測試影片(60分)</Name>
+            <Description>故事大綱 10</Description>
+            <ExtendedInfo name="導演">導演 10</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 10</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060426220001" duration="3600">
+        <EventId>L00000085618</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>緯來體育測試影片(60分)</Name>
+            <Description>故事大綱 11</Description>
+            <ExtendedInfo name="導演">導演 11</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 11</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>緯來體育測試影片(60分)</Name>
+            <Description>故事大綱 11</Description>
+            <ExtendedInfo name="導演">導演 11</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 11</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060426230001" duration="3600">
+        <EventId>L00000085620</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>慈濟測試影片(60分)</Name>
+            <Description>故事大綱 12</Description>
+            <ExtendedInfo name="導演">導演 12</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 12</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>慈濟測試影片(60分)</Name>
+            <Description>故事大綱 12</Description>
+            <ExtendedInfo name="導演">導演 12</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 12</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427000001" duration="3601">
+        <EventId>L00000085629</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>HBO測試影片(60分)</Name>
+            <Description>故事大綱 9</Description>
+            <ExtendedInfo name="導演">導演 9</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 9</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>HBO測試影片(60分)</Name>
+            <Description>故事大綱 9</Description>
+            <ExtendedInfo name="導演">導演 9</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 9</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427010002" duration="3600">
+        <EventId>L00000085631</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>尼可測試影片(60分)</Name>
+            <Description>故事大綱 10</Description>
+            <ExtendedInfo name="導演">導演 10</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 10</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>尼可測試影片(60分)</Name>
+            <Description>故事大綱 10</Description>
+            <ExtendedInfo name="導演">導演 10</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 10</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427020002" duration="3600">
+        <EventId>L00000085633</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>緯來體育測試影片(60分)</Name>
+            <Description>故事大綱 11</Description>
+            <ExtendedInfo name="導演">導演 11</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 11</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>緯來體育測試影片(60分)</Name>
+            <Description>故事大綱 11</Description>
+            <ExtendedInfo name="導演">導演 11</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 11</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427030002" duration="3600">
+        <EventId>L00000085635</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>慈濟測試影片(60分)</Name>
+            <Description>故事大綱 12</Description>
+            <ExtendedInfo name="導演">導演 12</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 12</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>慈濟測試影片(60分)</Name>
+            <Description>故事大綱 12</Description>
+            <ExtendedInfo name="導演">導演 12</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 12</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427040002" duration="901">
+        <EventId>L00000085637</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>HBO測試影片(15分)</Name>
+            <Description>故事大綱 1</Description>
+            <ExtendedInfo name="導演">導演 1</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 1</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>HBO測試影片(15分)</Name>
+            <Description>故事大綱 1</Description>
+            <ExtendedInfo name="導演">導演 1</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 1</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427041503" duration="900">
+        <EventId>L00000085639</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>尼可測試影片(15分)</Name>
+            <Description>故事大綱 2</Description>
+            <ExtendedInfo name="導演">導演 2</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 2</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>尼可測試影片(15分)</Name>
+            <Description>故事大綱 2</Description>
+            <ExtendedInfo name="演員">演員 2</ExtendedInfo>
+            <ExtendedInfo name="導演">導演 2</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427043003" duration="900">
+        <EventId>L00000085641</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>緯來體育測試影片(15分)</Name>
+            <Description>故事大綱 3</Description>
+            <ExtendedInfo name="導演">導演 3</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 3</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>緯來體育測試影片(15分)</Name>
+            <Description>故事大綱 3</Description>
+            <ExtendedInfo name="導演">導演 3</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 3</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427044503" duration="900">
+        <EventId>L00000085643</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>慈濟測試影片(15分)</Name>
+            <Description>故事大綱 4</Description>
+            <ExtendedInfo name="導演">導演 4</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 4</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>慈濟測試影片(15分)</Name>
+            <Description>故事大綱 4</Description>
+            <ExtendedInfo name="導演">導演 4</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 4</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427050003" duration="900">
+        <EventId>L00000085645</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>HBO測試影片(15分)</Name>
+            <Description>故事大綱 1</Description>
+            <ExtendedInfo name="導演">導演 1</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 1</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>HBO測試影片(15分)</Name>
+            <Description>故事大綱 1</Description>
+            <ExtendedInfo name="導演">導演 1</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 1</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427051503" duration="900">
+        <EventId>L00000085647</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>尼可測試影片(15分)</Name>
+            <Description>故事大綱 2</Description>
+            <ExtendedInfo name="導演">導演 2</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 2</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>尼可測試影片(15分)</Name>
+            <Description>故事大綱 2</Description>
+            <ExtendedInfo name="導演">導演 2</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 2</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427053003" duration="901">
+        <EventId>L00000085649</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>緯來體育測試影片(15分)</Name>
+            <Description>故事大綱 3</Description>
+            <ExtendedInfo name="導演">導演 3</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 3</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>緯來體育測試影片(15分)</Name>
+            <Description>故事大綱 3</Description>
+            <ExtendedInfo name="導演">導演 3</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 3</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427054504" duration="900">
+        <EventId>L00000085651</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>慈濟測試影片(15分)</Name>
+            <Description>故事大綱 4</Description>
+            <ExtendedInfo name="導演">導演 4</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 4</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>慈濟測試影片(15分)</Name>
+            <Description>故事大綱 4</Description>
+            <ExtendedInfo name="導演">導演 4</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 4</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427060004" duration="900">
+        <EventId>L00000085653</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>HBO測試影片(15分)</Name>
+            <Description>故事大綱 1</Description>
+            <ExtendedInfo name="導演">導演 1</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 1</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>HBO測試影片(15分)</Name>
+            <Description>故事大綱 1</Description>
+            <ExtendedInfo name="導演">導演 1</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 1</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427061504" duration="900">
+        <EventId>L00000085655</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>尼可測試影片(15分)</Name>
+            <Description>故事大綱 2</Description>
+            <ExtendedInfo name="導演">導演 2</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 2</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>尼可測試影片(15分)</Name>
+            <Description>故事大綱 2</Description>
+            <ExtendedInfo name="導演">導演 2</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 2</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427063004" duration="900">
+        <EventId>L00000085657</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>緯來體育測試影片(15分)</Name>
+            <Description>故事大綱 3</Description>
+            <ExtendedInfo name="導演">導演 3</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 3</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>緯來體育測試影片(15分)</Name>
+            <Description>故事大綱 3</Description>
+            <ExtendedInfo name="導演">導演 3</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 3</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427064504" duration="901">
+        <EventId>L00000085659</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>慈濟測試影片(15分)</Name>
+            <Description>故事大綱 4</Description>
+            <ExtendedInfo name="導演">導演 4</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 4</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>慈濟測試影片(15分)</Name>
+            <Description>故事大綱 4</Description>
+            <ExtendedInfo name="導演">導演 4</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 4</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427070005" duration="900">
+        <EventId>L00000085661</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>HBO測試影片(15分)</Name>
+            <Description>故事大綱 1</Description>
+            <ExtendedInfo name="導演">導演 1</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 1</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>HBO測試影片(15分)</Name>
+            <Description>故事大綱 1</Description>
+            <ExtendedInfo name="導演">導演 1</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 1</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427071505" duration="900">
+        <EventId>L00000085663</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>尼可測試影片(15分)</Name>
+            <Description>故事大綱 2</Description>
+            <ExtendedInfo name="導演">導演 2</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 2</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>尼可測試影片(15分)</Name>
+            <Description>故事大綱 2</Description>
+            <ExtendedInfo name="導演">導演 2</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 2</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427073005" duration="900">
+        <EventId>L00000085665</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>緯來體育測試影片(15分)</Name>
+            <Description>故事大綱 3</Description>
+            <ExtendedInfo name="導演">導演 3</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 3</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>緯來體育測試影片(15分)</Name>
+            <Description>故事大綱 3</Description>
+            <ExtendedInfo name="導演">導演 3</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 3</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+    </ChannelPeriod>
+  </ScheduleData>
+</BroadcastData>

@@ -1,0 +1,9 @@
+2005-08-02 : Nick
+
+此資料夾下的程式已經完全無用, 除了以下程式
+
+1.簡易CA程式 ---> 給 EMC 倉管用
+2.簡易CA程式-For LAB ---> 給 EMC 的 Lab 實驗室用
+
+
+EMC 使用的 SMS CommandGateway 放在 Nagra2005 下

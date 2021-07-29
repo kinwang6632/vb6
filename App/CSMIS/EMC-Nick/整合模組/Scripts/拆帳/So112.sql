@@ -1,0 +1,19 @@
+PROMPT *** So112   拆帳作業之各產品資料檔 ***
+
+DROP TABLE So112 CASCADE CONSTRAINT;
+
+CREATE TABLE So112 (
+	PRODUCT_ID		VARCHAR2(4),
+	PRODUCT_NAME		VARCHAR2(30),
+	PROVIDER_ID		VARCHAR2(10),
+	TYPE			VARCHAR2(2),
+	FORMULA_ID		VARCHAR2(4),
+	REF_NO			Number(1),
+	Price			Number(6),
+	UseBaseFormula		Char(1),
+	Provider_Percent	Number(3),
+	So_Percent		Number(3),
+	OPERATOR		VARCHAR2(20),
+	UPDTIME			VARCHAR2(20),
+	CONSTRAINT PK_So112 PRIMARY KEY (PRODUCT_ID)
+       );

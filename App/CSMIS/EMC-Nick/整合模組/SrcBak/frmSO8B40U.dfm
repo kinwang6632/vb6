@@ -1,0 +1,115 @@
+object frmSO8B40: TfrmSO8B40
+  Left = 324
+  Top = 170
+  Width = 247
+  Height = 210
+  Caption = 'frmSO8B40'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnCreate = FormCreate
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 24
+    Top = 96
+    Width = 79
+    Height = 20
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = #37782#24115#24180#26376#65306
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = #32048#26126#39636
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 47
+    Top = 24
+    Width = 67
+    Height = 16
+    AutoSize = False
+    Caption = #20844#21496#21029#65306
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = #32048#26126#39636
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 16
+    Top = 64
+    Width = 86
+    Height = 20
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = #24050#37782#24115#24180#26376#65306
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clRed
+    Font.Height = -13
+    Font.Name = #32048#26126#39636
+    Font.Style = []
+    ParentFont = False
+  end
+  object lblBelongYM: TLabel
+    Left = 115
+    Top = 64
+    Width = 86
+    Height = 20
+    AutoSize = False
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clRed
+    Font.Height = -13
+    Font.Name = #32048#26126#39636
+    Font.Style = []
+    ParentFont = False
+  end
+  object stxCom: TStaticText
+    Left = 113
+    Top = 21
+    Width = 46
+    Height = 17
+    Caption = 'stxCom'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = #32048#26126#39636
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+  end
+  inline fraChineseYM1: TfraChineseYM
+    Left = 113
+    Top = 84
+    Width = 100
+    Height = 35
+    TabOrder = 1
+  end
+  object btnLock: TButton
+    Left = 39
+    Top = 133
+    Width = 75
+    Height = 25
+    Caption = #37782#24115
+    TabOrder = 2
+    OnClick = btnLockClick
+  end
+  object btnClose: TButton
+    Left = 140
+    Top = 133
+    Width = 75
+    Height = 25
+    Caption = #38626#38283
+    TabOrder = 3
+    OnClick = btnCloseClick
+  end
+end

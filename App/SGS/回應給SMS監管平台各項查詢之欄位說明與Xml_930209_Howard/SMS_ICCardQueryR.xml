@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="BIG5" standalone="yes" ?>
+
+<!-- xml version="1.0" encoding="GB2312" standalone="yes" -->
+<Msg Version="1" MsgID="2" Type="SMSUp"
+  DateTime="2002-08-17 15:30:00" SrcCode="110000S01"
+  DstCode="110000G01" ReplyID="1">
+  <Return Type="ICCardQuery" Value="0" Desc="成功" Redirect="">
+	<!-- 
+		屬性說明:
+		  Value: 執行的結果代碼
+		  Dest: 執行的結果說明
+		  Type: 固定為 ICCardQuery
+		  Redirect: 若欲傳回之檔案大於1MB, 則須將檔案壓縮放在某目錄下,然後回應給client,
+			    請client redirect 到該 URL 抓取檔案
+
+		只能有一個傳回值.可能的傳回值:
+		  0: 成功
+		  1: 沒有查到資料	
+		  2: 內部錯誤
+		  100 - 199: SMS 自訂之錯誤
+
+	--> 
+  </Return>
+  <ICCardQueryReport InstQuery="0" Date="2003-02-01" TotalICCardNum="10000" TotalSubNum="1000">
+	<!-- 
+		屬性說明:
+		  TotalICCardNum: 當前整個SMS內IC卡總數
+		  TotalSubNum: 當前整個SMS內用戶總數
+	-->
+
+	<ICCard DateTime="2003-02-01 12:00:00" Status="New"
+	 ICCardNo="1234567890123456" 
+	 ICCardID="0x010203040506" CASID="0x4A01"
+	 Feature="16KFlash" Version="2.1" SubName=""
+	 SubVocation="" SubAge="" SubIDCardNo="" />
+	<ICCard DateTime="2003-02-01 12:00:00" Status="Delete"
+	 ICCardNo="1234567890123457" 
+	 ICCardID="0x010203040507" CASID="0x4A01" />
+
+	<!-- 
+		屬性說明:
+  		  DateTime	必須存在(新加/做廢的IC卡資訊的時間)
+		  Status	必須存在,且值必須為:
+					New: 新加的IC Card
+					Delete: 刪除/做廢的 IC Card, 	此時沒有Feature、Version屬性
+		  ICCardNo	必須存在(IC卡的外部卡號[編號])
+		  CASID		必須存在(CAS的ID)
+		  ICCardID	必須存在, 允許為空(卡的內部卡號[地址號])
+		  Feature	Status為 New 時必須存在,  允許為空(IC卡的一些其他描述，包括卡片型號和性能參數)
+		  Version	Status為 New 時必須存在,  允許為空(IC卡的版本號)
+		  SubName	Status為 New 時必須存在,  允許為空(用戶姓名)
+		  SubVocation	Status為 New 時必須存在,  允許為空(職業)
+		  SubAge	Status為 New 時必須存在,  允許為空(年齡)
+		  SubIDCardNo	Status為 New 時必須存在,  允許為空(身分證號)
+	-->
+
+  </ICCardQueryReport>
+</Msg>

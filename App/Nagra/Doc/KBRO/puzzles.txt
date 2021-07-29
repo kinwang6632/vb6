@@ -1,0 +1,33 @@
+1. SMS Gateway回應的transaction number應該有幾bytes(文件上寫9bytes)
+2. source_id  and dest_id and mop_ppid各要填入何值? 
+3. creation_date 是不是就是傳送指令的日期?
+
+4. 我送了一個command : 000000003 01 0256 0257 23809 20010518 N 20010518 20010519 U 0668450482 0053
+	解析如下:
+	  000000003 : transaction number
+	  01 : command type		
+	  0256 : cource id
+	  0257 : dest id
+	  23809 : mop ppid
+	  20010518 : creation date
+	  N : boradcast mode
+	  20010518 : broadcast start date
+	  20010519 : broadcast end date
+	  U : address type
+	  0668450482 : UA
+	  0053 : command id
+	  	
+    而回應如下: 00012 05 0257 0256 23809 20010518 1000 000000003 000000000000 000000000000
+	解析如下:
+	  00012 :  transaction number 
+	  05 : command type
+	  0257 : source id
+	  0256 : dest id
+	  23809 : mop ppid
+	  20010518 : creation date
+	  1000 : command id
+	  000000003 : transaction number
+	  000000000000 : IMS product id
+	  000000000000 : SMS product id
+
+    這樣的執行結果,對不對?傳送的各個欄位,是否有錯?該如何設定?	

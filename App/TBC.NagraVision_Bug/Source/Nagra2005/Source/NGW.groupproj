@@ -1,0 +1,54 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{c22c8c0e-910a-49a5-a567-23f9857e856b}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Projects Include="Ngw.dproj" />
+    <Projects Include="NgwKeygen.dproj" />
+    <Projects Include="NgwProfileTool.dproj" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+<BorlandProject xmlns=""><Default.Personality></Default.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="Ngw">
+    <MSBuild Projects="Ngw.dproj" Targets="" />
+  </Target>
+  <Target Name="Ngw:Clean">
+    <MSBuild Projects="Ngw.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="Ngw:Make">
+    <MSBuild Projects="Ngw.dproj" Targets="Make" />
+  </Target>
+  <Target Name="NgwKeygen">
+    <MSBuild Projects="NgwKeygen.dproj" Targets="" />
+  </Target>
+  <Target Name="NgwKeygen:Clean">
+    <MSBuild Projects="NgwKeygen.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="NgwKeygen:Make">
+    <MSBuild Projects="NgwKeygen.dproj" Targets="Make" />
+  </Target>
+  <Target Name="NgwProfileTool">
+    <MSBuild Projects="NgwProfileTool.dproj" Targets="" />
+  </Target>
+  <Target Name="NgwProfileTool:Clean">
+    <MSBuild Projects="NgwProfileTool.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="NgwProfileTool:Make">
+    <MSBuild Projects="NgwProfileTool.dproj" Targets="Make" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="Ngw;NgwKeygen;NgwProfileTool" />
+  </Target>
+  <Target Name="Clean">
+    <CallTarget Targets="Ngw:Clean;NgwKeygen:Clean;NgwProfileTool:Clean" />
+  </Target>
+  <Target Name="Make">
+    <CallTarget Targets="Ngw:Make;NgwKeygen:Make;NgwProfileTool:Make" />
+  </Target>
+  <Import Condition="Exists('$(MSBuildBinPath)\Borland.Group.Targets')" Project="$(MSBuildBinPath)\Borland.Group.Targets" />
+</Project>

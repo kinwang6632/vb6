@@ -1,0 +1,119 @@
+--刪除檔案
+  drop table tempso5d01
+  drop table tempso5d01a
+
+--將33.34資料合在一個table
+/*條件是 so033.34中收費項目=301
+         有實收日期.實收金額
+         沒有未收原因
+         沒有短收原因或短收原因的參考號<>1
+         客戶狀態正常
+*/
+create table tempso5d01 as (    
+	select custid,billno,realstartdate,realstopdate,realdate,realperiod,realamt from so033
+      where citemcode=301 and realamt>0 and realdate is not null and 
+            (uccode=0 or uccode is null) and cancelflag=0 and 
+    		(stcode not in (select codeno from cd016 where refno=1) or stcode is null) and 
+    		custid in (select custid from so002 where custstatuscode=1)
+    union all
+    select custid,billno,realstartdate,realstopdate,realdate,realperiod,realamt from so034
+      where citemcode=301 and realamt>0 and realdate is not null and 
+            (uccode=0 or uccode is null) and cancelflag=0 and  
+    		(stcode not in (select codeno from cd016 where refno=1) or stcode is null) and 
+    		custid in (select custid from so002 where custstatuscode=1))
+			
+-------------------------------------------------------------------------------
+--從tempso5d01a中取出各客編有實收的最大單號
+create table tempso5d01a as(
+   select a.custid,a.billno,a.realstartdate,a.realstopdate,a.realdate,a.realperiod,a.realamt 
+     from tempso5d01 a,  
+          (select custid,max(billno) billno from tempso5d01 group by custid order by custid) b
+   	   where a.custid=b.custid and a.billno=b.billno)
+
+------------------------------------------------------------------------------
+--因為每個月要存一次,所以用公司別+系統日期的年月
+@name=compname+system
+
+CREATE TABLE @name (
+	CustId NUMBER(8),
+	CustName VARCHAR2(50) NOT NULL,
+	Tel1 VARCHAR2(20),
+	Tel2 VARCHAR2(20),
+	Tel3 VARCHAR2(20),
+        InstTime DATE,
+	StopTime DATE,
+        CustStatusCode NUMBER(3) DEFAULT 1 NOT NULL,
+	CustStatusName VARCHAR2(12),
+	ViewLevel CHAR(1),
+	InstCount NUMBER(4) DEFAULT 0,
+	ClassCode1 NUMBER(3),
+	ClassName1 VARCHAR2(20),
+	CMCode NUMBER(3) DEFAULT 1 NOT NULL,
+	CMName VARCHAR2(20),
+        CitemCode NUMBER(3),
+	CitemName VARCHAR2(20) NOT NULL,
+	Period NUMBER(2),
+	Amount NUMBER(8),
+	StartDate DATE,
+	StopDate DATE,
+	ClctDate DATE,
+	InstAddrNo NUMBER(8),
+	InstAddress VARCHAR2(60),
+	UPDDate DATE,
+	CompCode NUMBER(3) DEFAULT 1,
+	CompName VARCHAR2(20),
+	ServiceType VARCHAR2(50),
+	ServiceName VARCHAR2(150),
+        Billno VARCHAR(15),
+        Realstartdate DATE,
+        Realstopdate DATE,
+        Realdate DATE,
+        Realperiod NUMBER(2),
+        RealAmt NUMBER(8));
+--------------------------------------------------------------------
+--將so003及tempso5d01a的值塞入@name
+
+insert into @name  (select a.custid,
+       a.custname,
+	   a.tel1,
+	   a.tel2,
+	   a.tel3,
+	   b.insttime,
+	   b.stoptime,
+	   custstatuscode,
+	   custstatusname,
+	   a.viewlevel,
+	   a.instcount,
+	   a.classcode1,
+	   a.classname1,
+	   b.cmcode,
+	   b.cmname,
+	   c.citemcode,
+	   c.citemname,
+	   c.period,
+	   c.amount,
+	   c.startdate,
+	   c.stopdate,
+	   c.clctdate,
+	   a.instaddrno,
+	   a.instaddress,
+	   a.nextbcdate,
+	   a.compcode,
+	   a.compname,
+	   a.servicetype,
+	   a.servicename,
+           d.Billno,
+           d.Realstartdate,
+           d.Realstopdate,
+           d.Realdate,
+           d.Realperiod,
+           d.RealAmt
+from so001 a,so002 b,so003 c,tempso5d01a d
+  where a.custid=b.custid and b.custstatuscode=1 and 
+        a.custid=c.custid and c.citemcode=301 and 
+        a.custid=d.custid(+))
+
+---------------------------------------------------------
+--刪除中間檔
+  drop table tempso5d01
+  drop table tempso5d01a

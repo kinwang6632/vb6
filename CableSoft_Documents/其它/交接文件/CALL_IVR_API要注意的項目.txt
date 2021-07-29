@@ -1,0 +1,7 @@
+1.(CS)-SMS Web Gateway安裝說明_20060315_Lawrence.doc
+2.SetupPrg.exe ID: Maintain Pwd: SMSGateway
+3.SocketServer.exe 測試用
+4.prjEditIni.exe
+5.IVR API FORMAT v0.2.doc
+6.IVRScript.zip
+7.CallIVRApi

@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataSet xmlns="http://tempuri.org/CMWebServiceGW/CMWebServiceGW">
+  <xs:schema id="CMQALogDS" targetNamespace="http://tempuri.org/CMQALogDS.xsd" xmlns:mstns="http://tempuri.org/CMQALogDS.xsd" xmlns="http://tempuri.org/CMQALogDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+    <xs:element name="CMQALogDS" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="CMQALogDT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="QueryResult" type="xs:string" minOccurs="0" />
+                <xs:element name="FaultReason" type="xs:string" minOccurs="0" />
+                <xs:element name="DetectTime" type="xs:string" minOccurs="0" />
+                <xs:element name="CMTSRECPW" type="xs:string" minOccurs="0" />
+                <xs:element name="CMTSRXSNR" type="xs:string" minOccurs="0" />
+                <xs:element name="CMRECPW" type="xs:string" minOccurs="0" />
+                <xs:element name="CMTRANSPW" type="xs:string" minOccurs="0" />
+                <xs:element name="CMSNR" type="xs:string" minOccurs="0" />
+                <xs:element name="CMInOctets" type="xs:string" minOccurs="0" />
+                <xs:element name="CMOutOctets" type="xs:string" minOccurs="0" />
+                <xs:element name="CMInErrors" type="xs:string" minOccurs="0" />
+                <xs:element name="CMOutErrors" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+    <CMQALogDS xmlns="http://tempuri.org/CMQALogDS.xsd">
+      <CMQALogDT diffgr:id="CMQALogDT1" msdata:rowOrder="0">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-05 19:56:13</DetectTime>
+        <CMTSRECPW>0dBmv</CMTSRECPW>
+        <CMTSRXSNR>24.2dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>41dBmv</CMTRANSPW>
+        <CMSNR>37.2dB</CMSNR>
+        <CMInOctets>24564358Bytes</CMInOctets>
+        <CMOutOctets>345971364Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT2" msdata:rowOrder="1">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-05 20:36:35</DetectTime>
+        <CMTSRECPW>0dBmv</CMTSRECPW>
+        <CMTSRXSNR>23.9dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>41dBmv</CMTRANSPW>
+        <CMSNR>37.1dB</CMSNR>
+        <CMInOctets>24564358Bytes</CMInOctets>
+        <CMOutOctets>348501120Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT3" msdata:rowOrder="2">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-05 20:56:22</DetectTime>
+        <CMTSRECPW>0dBmv</CMTSRECPW>
+        <CMTSRXSNR>24dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>41dBmv</CMTRANSPW>
+        <CMSNR>37.2dB</CMSNR>
+        <CMInOctets>24564418Bytes</CMInOctets>
+        <CMOutOctets>349742630Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT4" msdata:rowOrder="3">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-05 21:26:27</DetectTime>
+        <CMTSRECPW>0dBmv</CMTSRECPW>
+        <CMTSRXSNR>24dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>41dBmv</CMTRANSPW>
+        <CMSNR>37.2dB</CMSNR>
+        <CMInOctets>24867404Bytes</CMInOctets>
+        <CMOutOctets>351798865Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT5" msdata:rowOrder="4">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-05 21:56:29</DetectTime>
+        <CMTSRECPW>-0.2dBmv</CMTSRECPW>
+        <CMTSRXSNR>24.8dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>41dBmv</CMTRANSPW>
+        <CMSNR>37.2dB</CMSNR>
+        <CMInOctets>26020817Bytes</CMInOctets>
+        <CMOutOctets>354863623Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT6" msdata:rowOrder="5">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-05 22:26:11</DetectTime>
+        <CMTSRECPW>-0.2dBmv</CMTSRECPW>
+        <CMTSRXSNR>25dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>41dBmv</CMTRANSPW>
+        <CMSNR>36.9dB</CMSNR>
+        <CMInOctets>31475972Bytes</CMInOctets>
+        <CMOutOctets>358317118Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT7" msdata:rowOrder="6">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-05 22:56:11</DetectTime>
+        <CMTSRECPW>-0.5dBmv</CMTSRECPW>
+        <CMTSRXSNR>25.2dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>41dBmv</CMTRANSPW>
+        <CMSNR>37.1dB</CMSNR>
+        <CMInOctets>31510375Bytes</CMInOctets>
+        <CMOutOctets>360289794Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT8" msdata:rowOrder="7">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-05 23:26:14</DetectTime>
+        <CMTSRECPW>-0.5dBmv</CMTSRECPW>
+        <CMTSRXSNR>25.1dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>41dBmv</CMTRANSPW>
+        <CMSNR>37.3dB</CMSNR>
+        <CMInOctets>31510375Bytes</CMInOctets>
+        <CMOutOctets>362251894Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT9" msdata:rowOrder="8">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-05 23:57:08</DetectTime>
+        <CMTSRECPW>0dBmv</CMTSRECPW>
+        <CMTSRXSNR>25dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>41dBmv</CMTRANSPW>
+        <CMSNR>37.2dB</CMSNR>
+        <CMInOctets>31510435Bytes</CMInOctets>
+        <CMOutOctets>364203440Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT10" msdata:rowOrder="9">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 00:27:07</DetectTime>
+        <CMTSRECPW>-1dBmv</CMTSRECPW>
+        <CMTSRXSNR>24.7dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>40dBmv</CMTRANSPW>
+        <CMSNR>37dB</CMSNR>
+        <CMInOctets>31510435Bytes</CMInOctets>
+        <CMOutOctets>365766686Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT11" msdata:rowOrder="10">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 00:57:06</DetectTime>
+        <CMTSRECPW>-0.7dBmv</CMTSRECPW>
+        <CMTSRXSNR>25dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>40dBmv</CMTRANSPW>
+        <CMSNR>37.1dB</CMSNR>
+        <CMInOctets>31510495Bytes</CMInOctets>
+        <CMOutOctets>366958668Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT12" msdata:rowOrder="11">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 01:27:06</DetectTime>
+        <CMTSRECPW>0.5dBmv</CMTSRECPW>
+        <CMTSRXSNR>24.9dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>40dBmv</CMTRANSPW>
+        <CMSNR>36.9dB</CMSNR>
+        <CMInOctets>31510495Bytes</CMInOctets>
+        <CMOutOctets>368254448Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT13" msdata:rowOrder="12">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 01:57:13</DetectTime>
+        <CMTSRECPW>0.2dBmv</CMTSRECPW>
+        <CMTSRXSNR>24.6dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>40dBmv</CMTRANSPW>
+        <CMSNR>36.9dB</CMSNR>
+        <CMInOctets>31510555Bytes</CMInOctets>
+        <CMOutOctets>369412706Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT14" msdata:rowOrder="13">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 02:27:12</DetectTime>
+        <CMTSRECPW>-0.7dBmv</CMTSRECPW>
+        <CMTSRXSNR>24.7dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>40dBmv</CMTRANSPW>
+        <CMSNR>36.9dB</CMSNR>
+        <CMInOctets>31510555Bytes</CMInOctets>
+        <CMOutOctets>370575356Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT15" msdata:rowOrder="14">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 02:57:08</DetectTime>
+        <CMTSRECPW>-0.7dBmv</CMTSRECPW>
+        <CMTSRXSNR>24.7dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>40dBmv</CMTRANSPW>
+        <CMSNR>37.1dB</CMSNR>
+        <CMInOctets>31510615Bytes</CMInOctets>
+        <CMOutOctets>371635858Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT16" msdata:rowOrder="15">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 03:27:11</DetectTime>
+        <CMTSRECPW>0dBmv</CMTSRECPW>
+        <CMTSRXSNR>25.2dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>40dBmv</CMTRANSPW>
+        <CMSNR>37.1dB</CMSNR>
+        <CMInOctets>31510615Bytes</CMInOctets>
+        <CMOutOctets>372642204Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT17" msdata:rowOrder="16">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 03:57:14</DetectTime>
+        <CMTSRECPW>0.2dBmv</CMTSRECPW>
+        <CMTSRXSNR>25.1dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>41dBmv</CMTRANSPW>
+        <CMSNR>37dB</CMSNR>
+        <CMInOctets>31510675Bytes</CMInOctets>
+        <CMOutOctets>373818800Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT18" msdata:rowOrder="17">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 04:27:12</DetectTime>
+        <CMTSRECPW>-0.5dBmv</CMTSRECPW>
+        <CMTSRXSNR>25.3dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>41dBmv</CMTRANSPW>
+        <CMSNR>36.9dB</CMSNR>
+        <CMInOctets>31510675Bytes</CMInOctets>
+        <CMOutOctets>374977772Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT19" msdata:rowOrder="18">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 04:57:12</DetectTime>
+        <CMTSRECPW>0.2dBmv</CMTSRECPW>
+        <CMTSRXSNR>25.4dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>41dBmv</CMTRANSPW>
+        <CMSNR>37dB</CMSNR>
+        <CMInOctets>31510735Bytes</CMInOctets>
+        <CMOutOctets>376199318Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT20" msdata:rowOrder="19">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 05:27:11</DetectTime>
+        <CMTSRECPW>1dBmv</CMTSRECPW>
+        <CMTSRXSNR>25.5dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>40dBmv</CMTRANSPW>
+        <CMSNR>36.9dB</CMSNR>
+        <CMInOctets>31510735Bytes</CMInOctets>
+        <CMOutOctets>377546334Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT21" msdata:rowOrder="20">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 05:57:12</DetectTime>
+        <CMTSRECPW>0.2dBmv</CMTSRECPW>
+        <CMTSRXSNR>25.4dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>41dBmv</CMTRANSPW>
+        <CMSNR>37.2dB</CMSNR>
+        <CMInOctets>31510795Bytes</CMInOctets>
+        <CMOutOctets>378917548Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT22" msdata:rowOrder="21">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 06:26:15</DetectTime>
+        <CMTSRECPW>0dBmv</CMTSRECPW>
+        <CMTSRXSNR>25.1dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>40dBmv</CMTRANSPW>
+        <CMSNR>37.1dB</CMSNR>
+        <CMInOctets>31510855Bytes</CMInOctets>
+        <CMOutOctets>380046170Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT23" msdata:rowOrder="22">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 06:56:16</DetectTime>
+        <CMTSRECPW>0dBmv</CMTSRECPW>
+        <CMTSRXSNR>25.2dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>41dBmv</CMTRANSPW>
+        <CMSNR>37dB</CMSNR>
+        <CMInOctets>31510915Bytes</CMInOctets>
+        <CMOutOctets>381147666Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT24" msdata:rowOrder="23">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 07:26:16</DetectTime>
+        <CMTSRECPW>1dBmv</CMTSRECPW>
+        <CMTSRXSNR>24.8dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>41dBmv</CMTRANSPW>
+        <CMSNR>37dB</CMSNR>
+        <CMInOctets>31511659Bytes</CMInOctets>
+        <CMOutOctets>382228200Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT25" msdata:rowOrder="24">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 07:56:15</DetectTime>
+        <CMTSRECPW>-0.2dBmv</CMTSRECPW>
+        <CMTSRXSNR>25dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>41dBmv</CMTRANSPW>
+        <CMSNR>36.9dB</CMSNR>
+        <CMInOctets>31511719Bytes</CMInOctets>
+        <CMOutOctets>383304118Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT26" msdata:rowOrder="25">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 08:27:09</DetectTime>
+        <CMTSRECPW>-0.2dBmv</CMTSRECPW>
+        <CMTSRXSNR>25.2dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>41dBmv</CMTRANSPW>
+        <CMSNR>36.9dB</CMSNR>
+        <CMInOctets>31511719Bytes</CMInOctets>
+        <CMOutOctets>384507070Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT27" msdata:rowOrder="26">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 08:57:12</DetectTime>
+        <CMTSRECPW>0dBmv</CMTSRECPW>
+        <CMTSRXSNR>25.6dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>41dBmv</CMTRANSPW>
+        <CMSNR>36.9dB</CMSNR>
+        <CMInOctets>31511779Bytes</CMInOctets>
+        <CMOutOctets>385627488Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT28" msdata:rowOrder="27">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 09:26:18</DetectTime>
+        <CMTSRECPW>0dBmv</CMTSRECPW>
+        <CMTSRXSNR>25.4dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>40dBmv</CMTRANSPW>
+        <CMSNR>36.9dB</CMSNR>
+        <CMInOctets>31511779Bytes</CMInOctets>
+        <CMOutOctets>386689876Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT29" msdata:rowOrder="28">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 09:56:16</DetectTime>
+        <CMTSRECPW>0.2dBmv</CMTSRECPW>
+        <CMTSRXSNR>25.1dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>40dBmv</CMTRANSPW>
+        <CMSNR>36.8dB</CMSNR>
+        <CMInOctets>31511839Bytes</CMInOctets>
+        <CMOutOctets>388064614Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT30" msdata:rowOrder="29">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 10:26:17</DetectTime>
+        <CMTSRECPW>0.5dBmv</CMTSRECPW>
+        <CMTSRXSNR>25.3dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>40dBmv</CMTRANSPW>
+        <CMSNR>36.9dB</CMSNR>
+        <CMInOctets>31511839Bytes</CMInOctets>
+        <CMOutOctets>389337174Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT31" msdata:rowOrder="30">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 10:56:17</DetectTime>
+        <CMTSRECPW>-0.7dBmv</CMTSRECPW>
+        <CMTSRXSNR>25.4dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>40dBmv</CMTRANSPW>
+        <CMSNR>36.8dB</CMSNR>
+        <CMInOctets>31511899Bytes</CMInOctets>
+        <CMOutOctets>390575346Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT32" msdata:rowOrder="31">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 11:26:20</DetectTime>
+        <CMTSRECPW>-1dBmv</CMTSRECPW>
+        <CMTSRXSNR>25.4dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>42dBmv</CMTRANSPW>
+        <CMSNR>36.9dB</CMSNR>
+        <CMInOctets>31511899Bytes</CMInOctets>
+        <CMOutOctets>391886698Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT33" msdata:rowOrder="32">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 11:56:11</DetectTime>
+        <CMTSRECPW>-0.5dBmv</CMTSRECPW>
+        <CMTSRXSNR>25.5dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>40dBmv</CMTRANSPW>
+        <CMSNR>36.7dB</CMSNR>
+        <CMInOctets>31511959Bytes</CMInOctets>
+        <CMOutOctets>393146108Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT34" msdata:rowOrder="33">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 12:26:14</DetectTime>
+        <CMTSRECPW>-0.7dBmv</CMTSRECPW>
+        <CMTSRXSNR>25.4dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>41dBmv</CMTRANSPW>
+        <CMSNR>36.9dB</CMSNR>
+        <CMInOctets>31511959Bytes</CMInOctets>
+        <CMOutOctets>394531814Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT35" msdata:rowOrder="34">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 12:56:16</DetectTime>
+        <CMTSRECPW>0.7dBmv</CMTSRECPW>
+        <CMTSRXSNR>25.4dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>42dBmv</CMTRANSPW>
+        <CMSNR>37dB</CMSNR>
+        <CMInOctets>31512019Bytes</CMInOctets>
+        <CMOutOctets>395943182Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT36" msdata:rowOrder="35">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 13:26:17</DetectTime>
+        <CMTSRECPW>-0.5dBmv</CMTSRECPW>
+        <CMTSRXSNR>25.3dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>40dBmv</CMTRANSPW>
+        <CMSNR>36.9dB</CMSNR>
+        <CMInOctets>31512019Bytes</CMInOctets>
+        <CMOutOctets>397448052Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT37" msdata:rowOrder="36">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 13:56:15</DetectTime>
+        <CMTSRECPW>0.5dBmv</CMTSRECPW>
+        <CMTSRXSNR>25.4dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>42dBmv</CMTRANSPW>
+        <CMSNR>37.1dB</CMSNR>
+        <CMInOctets>31512079Bytes</CMInOctets>
+        <CMOutOctets>398985318Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT38" msdata:rowOrder="37">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 14:26:15</DetectTime>
+        <CMTSRECPW>-0.5dBmv</CMTSRECPW>
+        <CMTSRXSNR>25.2dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>42dBmv</CMTRANSPW>
+        <CMSNR>36.9dB</CMSNR>
+        <CMInOctets>31512079Bytes</CMInOctets>
+        <CMOutOctets>400377880Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT39" msdata:rowOrder="38">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 14:56:17</DetectTime>
+        <CMTSRECPW>-1.2dBmv</CMTSRECPW>
+        <CMTSRXSNR>25dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>41dBmv</CMTRANSPW>
+        <CMSNR>37.1dB</CMSNR>
+        <CMInOctets>31512139Bytes</CMInOctets>
+        <CMOutOctets>401649972Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT40" msdata:rowOrder="39">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 15:26:17</DetectTime>
+        <CMTSRECPW>-1dBmv</CMTSRECPW>
+        <CMTSRXSNR>24.5dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>41dBmv</CMTRANSPW>
+        <CMSNR>37dB</CMSNR>
+        <CMInOctets>31512139Bytes</CMInOctets>
+        <CMOutOctets>403040898Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT41" msdata:rowOrder="40">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 15:56:19</DetectTime>
+        <CMTSRECPW>0.5dBmv</CMTSRECPW>
+        <CMTSRXSNR>24.4dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>41dBmv</CMTRANSPW>
+        <CMSNR>36.9dB</CMSNR>
+        <CMInOctets>31512199Bytes</CMInOctets>
+        <CMOutOctets>404442816Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT42" msdata:rowOrder="41">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 16:26:14</DetectTime>
+        <CMTSRECPW>0.2dBmv</CMTSRECPW>
+        <CMTSRXSNR>24.6dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>40dBmv</CMTRANSPW>
+        <CMSNR>36.9dB</CMSNR>
+        <CMInOctets>31512199Bytes</CMInOctets>
+        <CMOutOctets>405904516Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT43" msdata:rowOrder="42">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 16:56:18</DetectTime>
+        <CMTSRECPW>-0.5dBmv</CMTSRECPW>
+        <CMTSRXSNR>23dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>41dBmv</CMTRANSPW>
+        <CMSNR>36.9dB</CMSNR>
+        <CMInOctets>31512259Bytes</CMInOctets>
+        <CMOutOctets>407444800Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT44" msdata:rowOrder="43">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-10-06 17:26:12</DetectTime>
+        <CMTSRECPW>-0.2dBmv</CMTSRECPW>
+        <CMTSRXSNR>23.3dB</CMTSRXSNR>
+        <CMRECPW>0dBmv</CMRECPW>
+        <CMTRANSPW>41dBmv</CMTRANSPW>
+        <CMSNR>36.8dB</CMSNR>
+        <CMInOctets>31512425Bytes</CMInOctets>
+        <CMOutOctets>408900182Bytes</CMOutOctets>
+        <CMInErrors>0Packets</CMInErrors>
+        <CMOutErrors>0Packets</CMOutErrors>
+      </CMQALogDT>
+    </CMQALogDS>
+  </diffgr:diffgram>
+</DataSet>

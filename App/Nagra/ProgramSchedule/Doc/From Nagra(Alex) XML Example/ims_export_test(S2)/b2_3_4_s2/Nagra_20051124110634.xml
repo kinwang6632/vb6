@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BroadcastData SYSTEM "BroadcastData.dtd">
+<BroadcastData creationDate="20051124110634">
+  <ProviderInfo>
+    <ProviderId>Nagra</ProviderId>
+    <ProviderName>Nagravision S.A.</ProviderName>
+  </ProviderInfo>
+  <ScheduleData>
+    <ChannelPeriod beginTime="20051127220000" endTime="20051128040000">
+      <ChannelId>503</ChannelId>
+      <Event beginTime="20051127220000" duration="3600">
+        <EventId>L00000034598</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004947AD0142F9E6475FD74FC41214129CAE6D20418D745061D6E11D19AF2EA1804821A128B3EE1528BA469506863CE3F65254EEB148B34021CAA08FD884B438A8A2C158DF17</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="36" pdsValue="9">007978F91388031C004947138801656E67091A1A1A1A2D2D1A1A1AD1C52200000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="24" pdsValue="9">0001000000494713880300000160011A1A1A1A2D2D1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="29" pdsValue="9">0001000000492D27100300000160044D756C74694576656E74202D2033</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="30" pdsValue="9">0001000000494713880000000003000001600100001A1A1A1A2D2D1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="35" pdsValue="9">0001000000492D27100000000003000001600400004D756C74694576656E74202D2033</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>桃色風雲--搖擺狗</Name>
+            <Description>美國總統鬧出性醜聞，面對著醜聞成為頭條新聞的壓力，及兩週後的總統大選，白宮這回該怎麼做呢？簡單，發動一場戰爭！白宮危機處理專家康洛德（勞勃狄尼洛，「老大靠邊閃」）受命替總統解圍，轉移民眾注意力，於是他找來了好萊塢大製片家史丹利（達斯汀霍夫曼，「地動天驚」、「雨人」），虛擬一場在阿爾巴尼亞的戰爭，但這場戰爭不是發生在真實的戰場，而是在攝影棚當中，不用任何真槍實彈，他們製造各種有關戰爭的新聞片段，甚至趁機推出愛國歌曲大撈一筆。起初一切都進行地很順利，廣大民眾的心，隨著真真假假的戰爭新聞而起伏，但不久後卻漏洞百出，假的戰區英雄意外死亡，製片史丹利為了居功而不願保密，中情局也開始懷疑這場美國總統的桃色風雲該如何圓滿收場？導演巴瑞李文遜曾以「雨人」、「早安越南」、「豪情四兄弟」等片獲得空前的成功。</Description>
+            <ExtendedInfo name="導演">巴瑞李文遜</ExtendedInfo>
+            <ExtendedInfo name="演員">勞勃狄尼洛、達斯汀霍夫曼、安海契、伍迪哈里遜</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Wag The Dog</Name>
+            <Description>What do the President’s advisers do when a sex scandal threatens to explode across front pages nationwide, with the election is only 14 days away? Simple. Start a war! Faced with this dilemma, a ‘spin-doctor’ (DeNiro, Men Of Honor, Meet The Parents, The Adventures of Rocky &amp; Bullwinkle ) is called in to fabricate a nonexistent war for the President to win, and to distract the American public. Wars are no longer fought on battlefields but on TV, so naturally a hotshot Hollywood producer (Hoffman, Being John Malcovich, Cosm) is hired to manufacture a war in distant Albania — without a shot being fired. With its first-class cast and ascerbic humour, Wag the Dog is a biting satire that has never been more appropriate.</Description>
+            <ExtendedInfo name="導演">Barry Levinson</ExtendedInfo>
+            <ExtendedInfo name="演員">Robert DeNiro、Dustin Hoffman、Anne Heche、Woody Harrelson</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051127230000" duration="3600">
+        <EventId>L00000034286</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004918AD01422F3D5E89C2D1B546246BB6FB081EAAB39655742195C8A34CC41008889EC7BE248F54093E03126F9C7C3C0B99D1C61BF3C888B72346D074BF8A00BBA20C628229</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="34" pdsValue="9">00798BF91388031A004918138801656E67071A1A1A1A303037D1C52300000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="22" pdsValue="9">0001000000491813880300000160011A1A1A1A303037</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="29" pdsValue="9">0001000000492D27100300000160044D756C74694576656E74202D2033</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="28" pdsValue="9">0001000000491813880000000003000001600100001A1A1A1A303037</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="35" pdsValue="9">0001000000492D27100000000003000001600400004D756C74694576656E74202D2033</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>時空賤諜007</Name>
+            <Description>史上最賤的王牌間諜奧斯汀鮑威（麥克麥爾斯，「王牌大賤諜」、「反斗智多星」）回來啦！還記得在第一集的故事中，萬惡罪魁”邪惡博士”（也是麥克麥爾斯）被智勇雙全的奧斯汀打敗後，最後還是乘亂逃走了，他如今又捲土重來，派遣手下肥霸（還是麥克麥爾斯）乘時光機器回到1969年偷了奧斯汀的活力泉源”魔酒”，另一方面則在月球上裝設威力強大的雷射砲對準華府，威脅美國政府交出鉅額贖金，否則便…嘿～嘿～嘿。英國情報局為此派出了多位菁英探員，卻總是被邪惡博士給識破而慘遭毒手，於是這個拯救世界的任務自然落到全英國最賤…不，是最厲害的王牌間諜奧斯汀鮑威出馬了。然而失去魔酒的奧斯汀因無法對漂亮美眉一展男性雄風而失去自信，英國情報局的專家研究後發現魔酒的失蹤又是邪惡博士搞的鬼，因而讓奧斯汀乘坐超時光金龜車回到1969年阻止魔酒被偷；然而此舉卻早在邪惡博士的預料中，因而派出一流殺手來給他好好”照顧”一下。想看奧斯汀鮑威如何打敗惡勢力、拯救世界、順便泡身材火辣辣的間諜美眉（海瑟葛萊罕，「大製騙家」、「不羈夜」）嗎？那就千萬不能錯過精彩絕倫的「時空賤諜007」！片中令人目眩的各種復古造型還曾入圍奧斯卡最佳化裝。</Description>
+            <ExtendedInfo name="導演">傑羅區</ExtendedInfo>
+            <ExtendedInfo name="演員">風火 山林</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Austin Powers: The Spy Who Shagged Me</Name>
+            <Description>Dr. Evil (Myers, Austin Powers: International Man of Mystery, Wayne’s World) returns from space just as British spy Austin Powers learns on his honeymoon that his wife, Vanessa (Hurley, Bedazzled) is a fembot under  Dr Evil&apos;s control.  Back on the singles scene, Powers discovers he&apos;s impotent because Evil has used a time machine to return to the late 60s and steal his libido. British intelligence also has a time portal, so Powers goes back to 1969 to recapture his “mojo” and, teams with agent Felicity Shagwell (Graham, Bowfinger, Boogie Nights), to stop another Evil plot to take over the world, this time with a &quot;laser&quot; beamed from the moon! Yeeeeah Baby – Myers is at his best again and don’t miss out on the brilliant collection of 60’s one-liners!</Description>
+            <ExtendedInfo name="導演">Jay Roach</ExtendedInfo>
+            <ExtendedInfo name="演員">Annie kao</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051128000000" duration="3600">
+        <EventId>L00000034289</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004919AD0102DBF47867C71821E925D20E3F62E6A4D5F94D9BFF0C9DC7BF35B588B1E0AB38A361D105920213571BFD6F6CECB7C1DC1B08D0EEB4304DD4C2EA4CB700AD8AED07</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="36" pdsValue="9">00798AF91388031C004919138801656E67091A1A1A1A2D2D1A1A1AD1C60000000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="24" pdsValue="9">0001000000491913880300000160011A1A1A1A2D2D1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="29" pdsValue="9">0001000000492D27100300000160044D756C74694576656E74202D2033</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="30" pdsValue="9">0001000000491913880000000003000001600100001A1A1A1A2D2D1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="35" pdsValue="9">0001000000492D27100000000003000001600400004D756C74694576656E74202D2033</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>桃色風雲--搖擺狗</Name>
+            <Description>美國總統鬧出性醜聞，面對著醜聞成為頭條新聞的壓力，及兩週後的總統大選，白宮這回該怎麼做呢？簡單，發動一場戰爭！白宮危機處理專家康洛德（勞勃狄尼洛，「老大靠邊閃」）受命替總統解圍，轉移民眾注意力，於是他找來了好萊塢大製片家史丹利（達斯汀霍夫曼，「地動天驚」、「雨人」），虛擬一場在阿爾巴尼亞的戰爭，但這場戰爭不是發生在真實的戰場，而是在攝影棚當中，不用任何真槍實彈，他們製造各種有關戰爭的新聞片段，甚至趁機推出愛國歌曲大撈一筆。起初一切都進行地很順利，廣大民眾的心，隨著真真假假的戰爭新聞而起伏，但不久後卻漏洞百出，假的戰區英雄意外死亡，製片史丹利為了居功而不願保密，中情局也開始懷疑這場美國總統的桃色風雲該如何圓滿收場？導演巴瑞李文遜曾以「雨人」、「早安越南」、「豪情四兄弟」等片獲得空前的成功。</Description>
+            <ExtendedInfo name="導演">巴瑞李文遜</ExtendedInfo>
+            <ExtendedInfo name="演員">勞勃狄尼洛、達斯汀霍夫曼、安海契、伍迪哈里遜</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Wag The Dog</Name>
+            <Description>What do the President’s advisers do when a sex scandal threatens to explode across front pages nationwide, with the election is only 14 days away? Simple. Start a war! Faced with this dilemma, a ‘spin-doctor’ (DeNiro, Men Of Honor, Meet The Parents, The Adventures of Rocky &amp; Bullwinkle ) is called in to fabricate a nonexistent war for the President to win, and to distract the American public. Wars are no longer fought on battlefields but on TV, so naturally a hotshot Hollywood producer (Hoffman, Being John Malcovich, Cosm) is hired to manufacture a war in distant Albania — without a shot being fired. With its first-class cast and ascerbic humour, Wag the Dog is a biting satire that has never been more appropriate.</Description>
+            <ExtendedInfo name="導演">Barry Levinson</ExtendedInfo>
+            <ExtendedInfo name="演員">Robert DeNiro、Dustin Hoffman、Anne Heche、Woody Harrelson</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>15</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051128010000" duration="3600">
+        <EventId>L00000034292</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>熱帶雪</Name>
+            <Description>塔佛（尼克柯瑞，「天人交戰」、「我吸我吸我吸吸吸」）和米蘭妲（麥德琳史道威，「將軍的女兒」、「未來總動員」）是一對居住於哥倫比亞波哥大的年輕戀人，兩人為維持家人生計而在機場當扒手為業，對他們倆來說，紐約是個能建立新生活的夢想城市；當地的毒梟歐斯卡（大衛卡拉定，「雙重麻煩」）以紐約之行為交換，說服他們以吞入腹中的方式，走私毒品闖過紐約機場的海關；由於米蘭妲的姊姊便是死於類似的情況，他們很清楚這種走私方式會有的風險，但為了實現夢想，兩人還是答應了歐斯卡的條件；然而抵達紐約機場後，兩人卻因過於緊張而引來警方注意，他們的夢想也漸漸隨之破碎…</Description>
+            <ExtendedInfo name="導演">西羅杜蘭</ExtendedInfo>
+            <ExtendedInfo name="演員">麥德琳史道威、大衛卡拉定、尼克柯瑞</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Body Snatchers</Name>
+            <Description>New York is the dream city of Tavo (Garcia, Traffic, Vampire In Brooklyn) and Marina (Stowe, The General’s Daughter, Twelve Monkeys), where the two young lovers hope to start a better life. At home in slum-ridden Bogota, Columbia, they have had to work as pickpockets at the airport to support their families.  Dealer Oskar (Carridine, Double Trouble) persuades them to smuggle drugs in their stomachs on a plane to New York - although both know of the risks, since Marina&apos;s sister died on a similar journey.   However on arrival at the airport in New York they show nerves and all their dreams start to shatter...</Description>
+            <ExtendedInfo name="導演">Ciro Durn</ExtendedInfo>
+            <ExtendedInfo name="演員">Mike Myers、Heather Graham、Robert Wagner、Elizabeth Hurley</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051128020000" duration="3600">
+        <EventId>L00000034295</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">00491BAD0102861EDB39458F957694BDEDB65F75AE5B8051D17060E35A4A9B2648549FA096ED2AF8DF06FE1AC6F6F6BE522E163EFCB22A000B01190A7CC6974A2B40A4B7C404</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">007989F91388031700491B138801656E67041A1A1A1AD1C60200000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="29" pdsValue="9">0001000000492D27100300000160044D756C74694576656E74202D2033</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">0001000000491B13880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="35" pdsValue="9">0001000000492D27100000000003000001600400004D756C74694576656E74202D2033</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">0001000000491B13880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>異形基地</Name>
+            <Description>改編自傑克芬尼（Jack Finney）的知名科幻小說，本片是繼1956年和1978年後第三度搬上螢光幕之作，並將地點改到一向管制嚴格的軍事基地中；瑪蒂（嘉柏莉安沃，「女人香」、「小生護駕」）跟著醫生爸爸（泰瑞基尼，「大地英豪」）、繼母（梅提莉，「唐人街續集」、「上帝的女兒」）和弟弟一家四口搬到位於舊金山的一處軍事基地，渾然不知基地內最近發現的異象會為他們全家帶來什麼樣的巨變；原來外星人利用人們睡眠時侵入人腦中，複製其形體後便取代宿主生存，變成沒有情緒、沒有個人思想、有如機器人一般的行屍走肉；瑪蒂的家人和朋友一個個陸續被這些可怕的異形取代，只剩瑪蒂和她的新男友馬修（比利沃斯，「粗野少年族」）仍繼續對抗，但形單勢孤的兩人能躲過整個軍事基地異形的追捕嗎？他們能及時阻止這些異形佔領全美的邪惡陰謀嗎？</Description>
+            <ExtendedInfo name="導演">艾柏法瑞拉</ExtendedInfo>
+            <ExtendedInfo name="演員">嘉柏莉安沃、梅提莉、泰瑞基尼、比利沃斯</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Body Snatchers</Name>
+            <Description>A sci-fi thriller based on the novel of the same name by Jack Finney and inspired by the 1956 film version Invasion Of The Body Snatchers.  Something is happening to the Malone family – something bad – and its spreading. The lives of people they once knew and loved are drained by the Body Snatchers and replaced by soulless, emotionless aliens emerging from their cocoon-like pods and taking possession of their human hosts.  Starring Gabrielle Anwar (Without Malice, Scent Of A Woman, For Love Or Money), Meg Tilly (The Two Jakes, Agnes Of God) and Terry Kinney (The Last Of The Mohicians) as the Malone Family. A chilling and graphic portrayal of a desperate fight for human survival. </Description>
+            <ExtendedInfo name="導演">Abel Ferrara</ExtendedInfo>
+            <ExtendedInfo name="演員">Gabrielle Anwar、Meg Tilly、Terry Kinny</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051128030000" duration="3600">
+        <EventId>L00000034298</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">00491CAD01420DC5559B4F54EA720918F67FB512380964FFC3A84ACDB3626C5C2107F394CCFCF93B6A138EACDBBDC084AEA6AEC02D2377D443B4F15595232D1AC3E90D0B9342</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">007988F91388031700491C138801656E67041A1A1A1AD1C60300000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">0001000000491C13880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="29" pdsValue="9">0001000000492D27100300000160044D756C74694576656E74202D2033</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">0001000000491C13880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="35" pdsValue="9">0001000000492D27100000000003000001600400004D756C74694576656E74202D2033</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>閻王索命</Name>
+            <Description>西元2002年，自殺在美國成為合法行為，卻因而產生了難以預料的後果，吉姆（艾瑞克羅勃茲，「莫名殺機」）為了替瀕死的兒子籌措手術費，而將自己的身體賣給一家仲介”多餘器官”的大公司；然而吉姆的兒子並未逃過死神召喚，而買下他身體的器官仲介公司又拒絕讓他退還訂金，痛失愛子的吉姆只得展開逃亡生涯，以躲避該公司派出的殺手追蹤；但吉姆很快便發現若想保住小命，唯一的方法便是從問題的源頭著手：找上該公司的總裁！本片導演是紐西蘭籍的傑夫墨菲，他另外的作品包括「少壯屠龍陣2」、「魔鬼戰將2」、「奪命12小時」等。</Description>
+            <ExtendedInfo name="導演">傑夫墨菲</ExtendedInfo>
+            <ExtendedInfo name="演員">艾瑞克羅勃茲、凱瑞艾文斯、莎拉溫特</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Race Against Time</Name>
+            <Description>
+In 2002, the United States legalizes suicide.  The consequences are unforseen.  Jim Gabriel (Roberts-No Alibi ) sells his body to a powerful organization called Lifecorps that buys people for their ‘spare parts’.  He needs to raise money to pay for the surgery that his dying son needs.  But when his son dies anyway, Lifecorps is not about to give refunds.  They want him bad.  His only option is to run and elude the trackers that have been sent from him.  But soon he realizes that to truly escape, he has to go for the source of his problems: the CEO of Lifecorps.</Description>
+            <ExtendedInfo name="導演">Geoff Murphy</ExtendedInfo>
+            <ExtendedInfo name="演員">Eric Roberts、Cary Elwes</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="6" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+    </ChannelPeriod>
+  </ScheduleData>
+</BroadcastData>

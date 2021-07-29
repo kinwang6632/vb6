@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BroadcastData SYSTEM "BroadcastData.dtd">
+<BroadcastData creationDate="20060426063206">
+  <ProviderInfo>
+    <ProviderId>Nagra</ProviderId>
+    <ProviderName>Nagravision S.A.</ProviderName>
+  </ProviderInfo>
+  <ScheduleData>
+    <Channel>
+      <ChannelId>305</ChannelId>
+      <ChannelNumber>305</ChannelNumber>
+      <EitStatus>0</EitStatus>
+      <Unscrambled>0</Unscrambled>
+      <ChannelText language="chi">
+        <ChannelShortName>PPV 5 (TEST)</ChannelShortName>
+        <ChannelName>PPV 5 (TEST)</ChannelName>
+        <ChannelDescription>PPV 5 (TEST)</ChannelDescription>
+      </ChannelText>
+      <ChannelText language="eng">
+        <ChannelShortName>PPV 5 (TEST)</ChannelShortName>
+        <ChannelName>PPV 5 (TEST)</ChannelName>
+        <ChannelDescription>PPV 5 (TEST)</ChannelDescription>
+      </ChannelText>
+      <ChannelActivationMode>0</ChannelActivationMode>
+      <PrivateDescriptor tag="134" length="6" pdsValue="9">AD01000000FC</PrivateDescriptor>
+      <PhysicalServiceId>
+        <DvbServiceId>305</DvbServiceId>
+        <TransportId originalNetworkId="1">115</TransportId>
+      </PhysicalServiceId>
+    </Channel>
+    <ChannelPeriod beginTime="20060426070000" endTime="20060426105000">
+      <ChannelId>305</ChannelId>
+      <Event beginTime="20060426070000" duration="900">
+        <EventId>L00000088049</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">003987AD0142AAA8B60B56714E57290101F49B2BDEDAF470D6A6CBD18FC2C1D7ADC5DB854F68658E02BF948978CF2631A46DC704F1FAEB4E8C67F7646FC7BFDF609742546B79</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="39" pdsValue="9">0030B7F91388031F003987138801656E670C48424F1A1A1A1A2831351A29D25B0700000015000F</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD01000010FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="27" pdsValue="9">00010000003987138803000001600148424F1A1A1A1A2831351A29</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="33" pdsValue="9">00010000003987138800000000030000016001000048424F1A1A1A1A2831351A29</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>HBO測試影片(15分)</Name>
+            <Description>故事大綱 1</Description>
+            <ExtendedInfo name="導演">導演 1</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 1</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>HBO測試影片(15分)</Name>
+            <Description>故事大綱 1</Description>
+            <ExtendedInfo name="導演">導演 1</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 1</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20060426071500" duration="900">
+        <EventId>L00000088051</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">003988AD018290031D445A819A0453A8138CFABF32FCA9815F0E02E89A9B25B489F980FA0261B1B98940759A71B725F650DA0831399DAA9BF1720BFB79F39D3F851FDEF03633</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="38" pdsValue="9">0030B8F91388031E003988138801656E670B1A1A1A1A1A1A2831351A29D25B0715000015000F</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD01000010FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="26" pdsValue="9">0001000000398813880300000160011A1A1A1A1A1A2831351A29</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="32" pdsValue="9">0001000000398813880000000003000001600100001A1A1A1A1A1A2831351A29</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>尼可測試影片(15分)</Name>
+            <Description>故事大綱 2</Description>
+            <ExtendedInfo name="導演">導演 2</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 2</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>尼可測試影片(15分)</Name>
+            <Description>故事大綱 2</Description>
+            <ExtendedInfo name="導演">導演 2</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 2</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20060426073000" duration="900">
+        <EventId>L00000088053</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">003989AD01023301CBC80E21649CF48B45BBB4D7AA90127DF0343DD9DB1A61AFEFD2A1D22478249F5F12B6076A97A62F447D00C29239BB332742D91A1847E1C5F6894CB7B51C</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="40" pdsValue="9">0030BDF913880320003989138801656E670D1A1A1A1A1A1A1A1A2831351A29D25B0730000015000F</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD01000010FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="28" pdsValue="9">0001000000398913880300000160011A1A1A1A1A1A1A1A2831351A29</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="34" pdsValue="9">0001000000398913880000000003000001600100001A1A1A1A1A1A1A1A2831351A29</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>緯來體育測試影片(15分)</Name>
+            <Description>故事大綱 3</Description>
+            <ExtendedInfo name="導演">導演 3</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 3</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>緯來體育測試影片(15分)</Name>
+            <Description>故事大綱 3</Description>
+            <ExtendedInfo name="導演">導演 3</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 3</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20060426074500" duration="900">
+        <EventId>L00000088055</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">00398AAD01429BB88D6E889232793E15DB6312D18F75BAA6E53C7449C05C968C428158DB35750169E8D6E43065021515C7881D7BAEA5EB45409F43299DA72453F3254A5D7704</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="38" pdsValue="9">0030BCF91388031E00398A138801656E670B1A1A1A1A1A1A2831351A29D25B0745000015000F</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD01000010FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="26" pdsValue="9">0001000000398A13880300000160011A1A1A1A1A1A2831351A29</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="32" pdsValue="9">0001000000398A13880000000003000001600100001A1A1A1A1A1A2831351A29</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>慈濟測試影片(15分)</Name>
+            <Description>故事大綱 4</Description>
+            <ExtendedInfo name="導演">導演 4</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 4</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>慈濟測試影片(15分)</Name>
+            <Description>故事大綱 4</Description>
+            <ExtendedInfo name="導演">導演 4</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 4</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20060426080000" duration="1800">
+        <EventId>L00000088057</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">00398BAD01821F1937AF6F4205F1CA8F85ED6388555EE921822D902DF0783A9DF2B38441E2A96E50FE98F509F3BE22E6C5F5F11AAFADF605C28D0B461C0F4F92C6B1BB33B00D</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="38" pdsValue="9">0030BBF91388031E00398B138801656E670B1A1A1A1A1A1A2833301A29D25B0800000030001E</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD01000010FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="26" pdsValue="9">0001000000398B13880300000160011A1A1A1A1A1A2833301A29</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="32" pdsValue="9">0001000000398B13880000000003000001600100001A1A1A1A1A1A2833301A29</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>尼可測試影片(30分)</Name>
+            <Description>故事大綱 6</Description>
+            <ExtendedInfo name="導演">導演 6</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 6</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>尼可測試影片(30分)</Name>
+            <Description>故事大綱 6</Description>
+            <ExtendedInfo name="導演">導演 6</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 6</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20060426083500" duration="1800">
+        <EventId>L00000088059</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">00398CAD0102D576B2C06902F1BC6BC1AEE0C9FB9C92CB9B94057F6080C3288D93F97D8F69BFE2B51D48CAF6A25DF86347B3DFE4A3C7BE25349DE52ADA3625B1B9526241965C</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="40" pdsValue="9">0030BAF91388032000398C138801656E670D1A1A1A1A1A1A1A1A2833301A29D25B0835000030001E</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD01000010FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="28" pdsValue="9">0001000000398C13880300000160011A1A1A1A1A1A1A1A2833301A29</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="34" pdsValue="9">0001000000398C13880000000003000001600100001A1A1A1A1A1A1A1A2833301A29</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>緯來體育測試影片(30分)</Name>
+            <Description>故事大綱 7</Description>
+            <ExtendedInfo name="導演">導演 7</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 7</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>緯來體育測試影片(30分)</Name>
+            <Description>故事大綱 7</Description>
+            <ExtendedInfo name="演員">演員 7</ExtendedInfo>
+            <ExtendedInfo name="導演">導演 7</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20060426091000" duration="1800">
+        <EventId>L00000088063</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">00398DAD01426DE29E6AF5972B2D766B4FA894B17A513981AE31C3D0DBB68C83F07E2A54F55C5CB8331ABD852441960DE6D4DC72104C18F6F3682FAAAD8FBB84C5ACBC126B2D</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="38" pdsValue="9">0030BFF91388031E00398D138801656E670B1A1A1A1A1A1A2833301A29D25B0910000030001E</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD01000010FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="26" pdsValue="9">0001000000398D13880300000160011A1A1A1A1A1A2833301A29</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="32" pdsValue="9">0001000000398D13880000000003000001600100001A1A1A1A1A1A2833301A29</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>慈濟測試影片(30分)</Name>
+            <Description>故事大綱 8</Description>
+            <ExtendedInfo name="導演">導演 8</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 8</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>慈濟測試影片(30分)</Name>
+            <Description>故事大綱 8</Description>
+            <ExtendedInfo name="導演">導演 8</ExtendedInfo>
+            <ExtendedInfo name="演員">導演 8</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20060426094500" duration="1800">
+        <EventId>L00000088065</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">00398EAD0102B3959BAEAE0EC7E5B204D35FF2A59FB1E7A549445416B717D3F6E84028082C5C9BE3963888EB48D64A48F2683611F58706F6698219F28D4F587A35FB6D77780E</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="39" pdsValue="9">0030B9F91388031F00398E138801656E670C48424F1A1A1A1A2833301A29D25B0945000030001E</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD01000010FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="27" pdsValue="9">0001000000398E138803000001600148424F1A1A1A1A2833301A29</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="33" pdsValue="9">0001000000398E138800000000030000016001000048424F1A1A1A1A2833301A29</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>HBO測試影片(30分)</Name>
+            <Description>故事大綱 5</Description>
+            <ExtendedInfo name="導演">導演 5</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 5</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>HBO測試影片(30分)</Name>
+            <Description>故事大綱 5</Description>
+            <ExtendedInfo name="演員">演員 5</ExtendedInfo>
+            <ExtendedInfo name="導演">導演 5</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20060426101500" duration="300">
+        <EventId>L00000088067</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD01000000FD</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>Default promo</Name>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Default promo</Name>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060426102000" duration="1800">
+        <EventId>L00000088061</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">00398FAD01422949F79250E28CC1F0791365F9B9A772AC077DAE4EBF02DBD29DE43045185B5FD892FB534B912D39CAF3ABA660AFFDEFC524F57A894625B43731B1425A228146</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="40" pdsValue="9">0030BEF91388032000398F138801656E670D1A1A1A1A1A1A1A1A2833301A29D25B1020000030001E</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD01000010FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="28" pdsValue="9">0001000000398F13880300000160011A1A1A1A1A1A1A1A2833301A29</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="34" pdsValue="9">0001000000398F13880000000003000001600100001A1A1A1A1A1A1A1A2833301A29</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>緯來體育測試影片(30分)</Name>
+            <Description>故事大綱 7</Description>
+            <ExtendedInfo name="導演">導演 7</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 7</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>緯來體育測試影片(30分)</Name>
+            <Description>故事大綱 7</Description>
+            <ExtendedInfo name="演員">演員 7</ExtendedInfo>
+            <ExtendedInfo name="導演">導演 7</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+    </ChannelPeriod>
+  </ScheduleData>
+</BroadcastData>

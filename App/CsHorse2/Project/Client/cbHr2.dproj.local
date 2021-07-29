@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2007/12/28 18:28:46.640.dproj,D:\MyFolder\My Documents\RAD Studio\Projects\Project1.dproj=D:\App\CsHorse2\Project\Client\cbHr2.dproj</Transaction>
+    <Transaction>2007/12/28 18:28:56.328.pas,D:\App\CsHorse2\Project\Client\cbMain.pas=</Transaction>
+    <Transaction>2007/12/28 18:28:56.328.dfm,D:\App\CsHorse2\Project\Client\cbMain.dfm=</Transaction>
+    <Transaction>2008/01/02 10:40:58.843.pas,D:\App\CsHorse2\Project\Client\Unit1.pas=D:\App\CsHorse2\Project\Client\cbROClientModule.pas</Transaction>
+    <Transaction>2008/01/02 10:40:58.843.dfm,D:\App\CsHorse2\Project\Client\Unit1.dfm=D:\App\CsHorse2\Project\Client\cbROClientModule.dfm</Transaction>
+    <Transaction>2008/01/02 11:17:23.468.pas,D:\App\CsHorse2\Project\CsHorse2Library_Invk.pas=</Transaction>
+    <Transaction>2008/01/02 14:41:53.671.pas,D:\App\CsHorse2\Project\Client\Unit1.pas=D:\App\CsHorse2\Project\Client\cbClientThread.pas</Transaction>
+    <Transaction>2008/01/03 16:54:57.312.pas,D:\App\CsHorse2\Project\Client\Unit1.pas=D:\App\CsHorse2\Project\Client\cbAnnThread.pas</Transaction>
+    <Transaction>2008/01/10 13:06:00.125.pas,D:\App\CsHorse2\Project\Client\Unit1.pas=D:\App\CsHorse2\Project\cbHrHelper.pas</Transaction>
+  </Transactions>
+</BorlandProject>

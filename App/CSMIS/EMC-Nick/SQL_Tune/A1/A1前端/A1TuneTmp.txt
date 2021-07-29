@@ -1,0 +1,20 @@
+set time on
+set autotrace on explain statistics
+set heading off
+
+
+
+
+-- 以下是明細之 SQL 與 index...
+SELECT A.BILLNO,A.CUSTID, A.CITEMNAME,A.REALDATE, A.REALSTARTDATE,A.REALSTOPDATE,A.REALAMT,A.MONTH02,A.MONTH03 , A.MONTH04, A.MONTH05, A.MONTH06, A.MONTH07, A.MONTH08, A.MONTH09, A.MONTH10, A.MONTH11,A.MONTH12, A.MONTHELSE, SO001.CUSTNAME,A.ClctEn,A.AddrNo,A.ServCode From SO001, SO089 A Where SO001.CUSTID=A.CUSTID
+Order by A.CustId;
+
+create index I_SO089_RA1_1 on SO089 (BILLNO,CUSTID,CitemCode, CITEMNAME,REALDATE, REALSTARTDATE,REALSTOPDATE,REALAMT, MONTHPAST, MONTH01,MONTH02,MONTH03 , MONTH04, MONTH05, MONTH06, MONTH07, MONTH08, MONTH09, MONTH10, MONTH11,MONTH12, MONTHELSE, ClctEn,AddrNo,ServCode)
+tablespace GICMIS_NDX_V30 nologging;
+analyze index I_SO089_RA1_1 compute statistics;
+
+
+create index I_SO001_RA1_1 on SO001 (CUSTNAME, CUSTID) tablespace GICMIS_NDX_V30 nologging;
+analyze index I_SO001_RA1_1 compute statistics;
+
+==========================================================================

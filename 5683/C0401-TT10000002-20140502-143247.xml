@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Invoice xmlns="urn:GEINV:eInvoiceMessage:C0401:3.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:GEINV:eInvoiceMessage:C0401: 3.1 C0401.xsd">
+    <Main>
+        <InvoiceNumber>TT10000002</InvoiceNumber>
+        <InvoiceDate>20140418</InvoiceDate>
+        <InvoiceTime>20:00:00</InvoiceTime>
+        <Seller>
+            <Identifier>97175429</Identifier>
+            <Name>信和有線電視股份有限公司</Name>
+        </Seller>
+        <Buyer>
+            <Identifier>0000000000</Identifier>
+            <Name>0002</Name>
+        </Buyer>
+        <InvoiceType>05</InvoiceType>
+        <DonateMark>0</DonateMark>
+        <PrintMark>N</PrintMark>
+        <RandomNumber>1749</RandomNumber>
+    </Main>
+    <Details>
+        <ProductItem>
+            <Description>基本台訊號費</Description>
+            <Quantity>1</Quantity>
+            <UnitPrice>1800</UnitPrice>
+            <Amount>1800</Amount>
+            <SequenceNumber>1</SequenceNumber>
+        </ProductItem>
+    </Details>
+    <Amount>
+        <SalesAmount>1800</SalesAmount>
+        <FreeTaxSalesAmount>0</FreeTaxSalesAmount>
+        <ZeroTaxSalesAmount>0</ZeroTaxSalesAmount>
+        <TaxType>3</TaxType>
+        <TaxRate>0</TaxRate>
+        <TaxAmount>0</TaxAmount>
+        <TotalAmount>1800</TotalAmount>
+    </Amount>
+</Invoice>

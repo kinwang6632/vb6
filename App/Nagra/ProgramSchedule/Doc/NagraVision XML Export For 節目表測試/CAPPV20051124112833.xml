@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ProductManagementData SYSTEM "ProductManagementData.dtd">
+<ProductManagementData creationDate="20051124112833">
+<ProviderInfo>
+<ProviderId>IMS Nagra</ProviderId>
+<ProviderName>IMS Nagravision S.A.</ProviderName>
+<DtdVersion>1.1.1</DtdVersion>
+</ProviderInfo>
+<ProductChangeNotification>
+
+<ProductData>
+<Product>
+<ProductId>18765</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>Multievent - 8</ProductName>
+<ProductDescription>multievent #8</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051124112810" endTime="20051129112815"/>
+<EpgPrice>40</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051127000000" endTime="20051130000000"/>
+<Event beginTime="20051128120001" duration="3600">
+<EventId>L00000034325</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>頭號潛艦</Name>
+<Description>這部感人的戰爭片是根據一段美國內戰時的史實所改編，曾榮獲2000年艾美獎最佳音效剪接。西元1864年南北戰爭期間，南卡羅萊納州的查爾士敦遭北軍重重包圍，水陸交通皆與外界隔絕；面對戰力明顯優越許多的敵軍，城裡的南軍為突破重圍，因而建造了配備魚雷的史上第一艘潛水艇”CSS杭利號”，雖然最後並未達成使命，但船上的八名軍官所表現的袍澤之情，以及大無畏的軍人情操卻令他們名留青史。由演技派演員艾蒙亞森特（「超時空戰警」）和唐納蘇德蘭（「太空大哥大」、「神鬼任務」）領銜主演。</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>The Hunley</Name>
+<Description>The incredible true story of Confederate efforts to develop a submersible boat during the American Civil War. The story opens in Charleston S.C. during the 1864 seize and naval blockade of that city by the Yankees. The Confederates were attempting to develop a submarine with a torpedo to be used as a weapon to break the blockade. This movie follows the bravery and determination of the eight-member crew in developing the manually propelled submarine and its deployment into battle.  An exceptional story of heroism in the face of adversity. </Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="1" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>503</ChannelNumber>
+</Event>
+<Event beginTime="20051128130001" duration="3600">
+<EventId>L00000034328</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>熱帶雪</Name>
+<Description>塔佛（尼克柯瑞，「天人交戰」、「我吸我吸我吸吸吸」）和米蘭妲（麥德琳史道威，「將軍的女兒」、「未來總動員」）是一對居住於哥倫比亞波哥大的年輕戀人，兩人為維持家人生計而在機場當扒手為業，對他們倆來說，紐約是個能建立新生活的夢想城市；當地的毒梟歐斯卡（大衛卡拉定，「雙重麻煩」）以紐約之行為交換，說服他們以吞入腹中的方式，走私毒品闖過紐約機場的海關；由於米蘭妲的姊姊便是死於類似的情況，他們很清楚這種走私方式會有的風險，但為了實現夢想，兩人還是答應了歐斯卡的條件；然而抵達紐約機場後，兩人卻因過於緊張而引來警方注意，他們的夢想也漸漸隨之破碎…</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>Body Snatchers</Name>
+<Description>New York is the dream city of Tavo (Garcia, Traffic, Vampire In Brooklyn) and Marina (Stowe, The General’s Daughter, Twelve Monkeys), where the two young lovers hope to start a better life. At home in slum-ridden Bogota, Columbia, they have had to work as pickpockets at the airport to support their families.  Dealer Oskar (Carridine, Double Trouble) persuades them to smuggle drugs in their stomachs on a plane to New York - although both know of the risks, since Marina's sister died on a similar journey.   However on arrival at the airport in New York they show nerves and all their dreams start to shatter...</Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="1" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>503</ChannelNumber>
+</Event>
+<Event beginTime="20051128140001" duration="3601">
+<EventId>L00000034331</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>異形基地</Name>
+<Description>改編自傑克芬尼（Jack Finney）的知名科幻小說，本片是繼1956年和1978年後第三度搬上螢光幕之作，並將地點改到一向管制嚴格的軍事基地中；瑪蒂（嘉柏莉安沃，「女人香」、「小生護駕」）跟著醫生爸爸（泰瑞基尼，「大地英豪」）、繼母（梅提莉，「唐人街續集」、「上帝的女兒」）和弟弟一家四口搬到位於舊金山的一處軍事基地，渾然不知基地內最近發現的異象會為他們全家帶來什麼樣的巨變；原來外星人利用人們睡眠時侵入人腦中，複製其形體後便取代宿主生存，變成沒有情緒、沒有個人思想、有如機器人一般的行屍走肉；瑪蒂的家人和朋友一個個陸續被這些可怕的異形取代，只剩瑪蒂和她的新男友馬修（比利沃斯，「粗野少年族」）仍繼續對抗，但形單勢孤的兩人能躲過整個軍事基地異形的追捕嗎？他們能及時阻止這些異形佔領全美的邪惡陰謀嗎？</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>Body Snatchers</Name>
+<Description>A sci-fi thriller based on the novel of the same name by Jack Finney and inspired by the 1956 film version Invasion Of The Body Snatchers.  Something is happening to the Malone family – something bad – and its spreading. The lives of people they once knew and loved are drained by the Body Snatchers and replaced by soulless, emotionless aliens emerging from their cocoon-like pods and taking possession of their human hosts.  Starring Gabrielle Anwar (Without Malice, Scent Of A Woman, For Love Or Money), Meg Tilly (The Two Jakes, Agnes Of God) and Terry Kinney (The Last Of The Mohicians) as the Malone Family. A chilling and graphic portrayal of a desperate fight for human survival. </Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="1" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>503</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+</ProductData>
+</ProductChangeNotification>
+</ProductManagementData>

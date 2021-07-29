@@ -1,0 +1,113 @@
+1.CopyOrdre
+
+Dim objControl As New Global.CableSoft.SO.SL.Order.CopyOrder.SO1144J
+Dim aCollect As New System.Collections.Generic.Dictionary(Of String, Object)
+objControl.OrderNo = "200309150000516"		
+objControl.EditMode = IParams.EditModes.Edit
+objControl.LoginInfo = FLoginInfo
+ShowChildWindow(objControl, New Size(500, 300))
+
+*******************************
+必要參數 OrderNo (訂單單號)
+
+回傳 NewOrderNo (Property)
+******************************
+---------------------------------------------------------------------------------------
+2.ChangePeriod
+
+Dim objControl As New Global.CableSoft.SO.SL.Order.ChangePeriod.SO1144M
+Dim aCollect As New System.Collections.Generic.Dictionary(Of String, Object)
+aCollect.Add("Data".ToUpper, dsCollect)
+objControl.Parameters = aCollect '也可以用屬性方式給我 objControl.Charge=XXXX、objControl.Product =XXXXX
+objControl.EditMode = IParams.EditModes.Edit
+objControl.LoginInfo = FLoginInfo
+ShowChildWindow(objControl, New Size(500, 600))
+
+
+********************************************************
+aCollect = DataSet(要有2個Table)
+(1) TableName=Product (必要欄位 BPCode、CitemCode)
+(2) TableName=Charge (整個SO105B給我)
+(3) 回傳objControl.Charge 
+
+********************************************************
+
+
+------------------------------------------------------------------------------------------------------
+3.ChooseNextPeriod
+
+Dim objControl As New Global.CableSoft.SO.SL.Order.ChooseNextPeriod.SO1144N
+objControl.Charge = dtCharge(也可使用Parameters(DataSet)屬性方式傳入)
+objControl.EditMode = IParams.EditModes.Edit
+objControl.LoginInfo = FLoginInfo
+ShowChildWindow(objControl, New Size(500, 500))	
+******************************************************************************************************************
+(1) dtCharge=DataTabe(TableName=Charge)
+    必要欄位為CITEMNAME、SERVICETYPE、PERIOD、AMOUNT、NEXTPERIOD、CITEMCODE、REALPERIOD、SHOULDAMT、NEXTAMT
+(2) 回傳objControl.Charge
+*******************************************************************************************************************
+
+-------------------------------------------------------------------------------------------------------------
+4.CutDay
+
+Dim objControl As New Global.CableSoft.SO.SL.Order.CutDate.SO1144P
+Dim aCollect As New System.Collections.Generic.Dictionary(Of String, Object)
+Dim ds As New Silverlight.DataSet
+Dim dtCharge As New Silverlight.DataTable("Charge")
+dtCharge.Columns.Add(New Silverlight.DataColumn("STOPDATE", GetType(Date)))
+aCollect.Add("Data".ToUpper, ds)
+objControl.Parameters = aCollect(也可使用objControl.Charge=XXXX傳入)
+objControl.CustId = 600007
+objControl.EditMode = IParams.EditModes.Edit
+objControl.LoginInfo = FLoginInfo
+ShowChildWindow(objControl, New Size(500, 500))    
+********************************************************
+(1) aCollect = DataSet(TableName=Charge)
+    必要欄位=StopDate
+
+(2) 必要傳入屬性 CustId
+
+(3) 回傳objControl.Charge
+
+*******************************************************
+
+---------------------------------------------------------------------------------------------------------------
+5.Order Facility
+
+Dim objControl As New Global.CableSoft.SO.SL.Order.Facility.SO1144F()
+Dim aCollect As New System.Collections.Generic.Dictionary(Of String, Object)
+aCollect.Add("Data".ToUpper, ds)
+objControl.Parameters = aCollect (也可使用objControl.Facility=XXXX傳入)
+objControl.EditMode = IParams.EditModes.Edit
+objControl.LoginInfo = FLoginInfo
+ShowChildWindow(objControl, New Size(350, 200))
+
+*************************************************************************************
+aCollect = DataSet(要有1個Table)
+(1) TableName=Facility(SO105D)
+    必要欄位 SERVICETYPE、BUYCODE、BUYNAME、FACICODE、FACINAME、CODENO、DESCRIPTION
+(2) 回傳objControl.Facility
+**************************************************************************************
+
+----------------------------------------------------------------------------------------------------------------
+
+6.Deposit
+
+Dim objControl As New Global.CableSoft.SO.SL.Order.Deposit.SO1144Q
+Dim aCollect As New System.Collections.Generic.Dictionary(Of String, Object)
+aCollect.Add("Data".ToUpper, ds)
+objControl.Parameters = aCollect(也可使用objControl.Facility=XXXX、objControl.Charge=XXXX傳入)
+objControl.EditMode = IParams.EditModes.Edit
+objControl.LoginInfo = FLoginInfo
+ShowChildWindow(objControl, New Size(350, 250))
+
+*****************************************************
+aCollect = DataSet(要有2個Table)
+(1) TableName=Facility(so105d)
+    必要欄位FaciSeqNo、PTCODE、PTNAME、Deposit
+
+(2) TableName=Charge(so105b)
+    必要欄位PTCODE、PTNAME、CMCode、CMName、ContName、CheckNo、Amount、CitemCode、CitemName
+
+
+(3) 回傳bjControl.Facility、objControl.Charge

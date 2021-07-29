@@ -1,0 +1,34 @@
+佣金計算及佣金統合報表:
+(1) IsSupervisor
+(2) UserID
+(3) User
+(4) CompCode
+(5) CompName
+(6) DbUserName
+(7) DbPassword
+(8) DbAlias
+(9) ServiceType
+
+
+拆帳計算:
+(1) IsSupervisor
+(2) UserID
+(3) User
+(4) CompCode
+(5) CompName
+(6) DbUserName
+(7) DbPassword
+(8) DbAlias
+(9) ServiceType
+(10) Server_IP
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+Nagra命令加欄位時需要動的
+========================= 
+cbSoDbThread
+ AppendRecord
+ PrepareADOControl
+ AddToList
+ SendNagraSqlHeader
+  New( aObj );
+ aObj: PSendNagra;
+ cbClass.PSendNagra
+=========================
+1, AppendRecord
+2, PrepareADOControl
+3, AddToList
+4. cbClass.PSendNagra 
+5. CloneObj
+
+
+Nagra Gateway重設安裝序號
+1. delete Key.lic
+2. NGW.exe
+3. run NgwKeygen.exe

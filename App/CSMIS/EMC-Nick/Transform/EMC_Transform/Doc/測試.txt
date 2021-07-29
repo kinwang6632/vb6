@@ -1,0 +1,115 @@
+select * from so033 where cmcode=0
+select * from so034 where cmcode=0
+select * from so002 where MediaCode=13
+
+SELECT * FROM CODE_MAP2 WHERE CODETABLE='CD005' AND OLDRCDCNT<>NEWRCDCNT ORDER BY CODETABLE,DATATABLE,DATACOLUMN,NEWCODENO
+SELECT * FROM CODE_MAP2 WHERE NEWCODENO IS NULL AND OLDRCDCNT<>0 ORDER BY CODETABLE,DATATABLE,DATACOLUMN,OLDCODENO
+SELECT * FROM CODE_MAP2 WHERE CODETABLE='CD031' ORDER BY CODETABLE,DATATABLE,DATACOLUMN,NEWCODENO
+UPDATE CODE_MAP2 SET NEWRCDCNT=0 WHERE CODETABLE='CD034'
+
+DELETE CODE_MAP1 WHERE CODETABLE NOT IN('CD005')
+SELECT * FROM CODE_MAP1
+
+
+
+ALTER TABLE CD004 ADD CONSTRAINT PK_CD004 PRIMARY KEY (CodeNo);
+
+SELECT COUNT(*) FROM CD019;
+SELECT COUNT(*) FROM CD004 WHERE CODENO=13;
+
+
+SELECT * FROM user_indexes where table_name='CD004'
+DBMS_OUTPUT.PUT_LINE(v_OldCode||'--'||v_OldName||'--'||v_NewCode||'--'||v_NewName);
+
+drop table CD022_Old cascade constraint;
+create table CD022_Old as (select * from CD022);
+
+SELECT * FROM CD004 ORDER BY CODENO
+SELECT CODENO FROM CD004 ORDER BY CODENO
+
+DELETE CD009;
+COMMIT;
+INSERT INTO CD009 SELECT * FROM CD009_OLD;
+COMMIT;
+
+DELETE CD034;
+COMMIT;
+INSERT INTO CD034 SELECT * FROM CD034_OLD;
+COMMIT;
+
+
+
+SELECT COUNT(CODENO) AS COUNTS INTO v_ChgCnt FROM CD007 WHERE CodeNo=cr2.NewCode;
+
+
+
+DESC USER_INDEXES;
+SELECT INDEX_NAME,UNIQUENESS,TABLE_OWNER,TABLE_NAME FROM USER_INDEXES;
+
+
+SELECT * FROM USER_INDEXES WHERE ROWNUM<100
+
+
+
+      SELECT COUNT(CODENO) AS COUNTS INTO v_ChgCnt FROM CD007 WHERE CodeNo=cr2.NewCode;
+
+select oldcode,mark from cd005_map;
+
+
+insert into CD031(CODENO,DESCRIPTION,SERVICETYPE,STOPFLAG) values(13,'不寄劃撥','C',0);
+
+
+//***********************************************
+//***********************************************
+insert into cd031_map values(0,'往收',1,'往收',-1);
+insert into cd009_map values(13,'客戶介紹',1,'客戶介紹',-1);
+
+insert into cd007_map values(7,'欠費拆機',6,'欠費拆機',-1);
+insert into cd007_map values(10,'欠費拆機',6,'欠費拆機',-1);
+insert into cd007_map values(11,'欠費拆機',6,'欠費拆機',-1);
+insert into cd007_map values(12,'欠費拆機',6,'欠費拆機',-1);
+insert into cd007_map values(13,'欠費拆機',6,'欠費拆機',-1);
+
+insert into cd007_map values(14,'欠費拆機',6,'欠費拆機',-1);
+insert into cd007_map values(20,'欠費拆機',6,'欠費拆機',-1);
+insert into cd007_map values(21,'欠費拆機',6,'欠費拆機',-1);
+insert into cd007_map values(22,'欠費拆機',6,'欠費拆機',-1);
+insert into cd007_map values(23,'欠費拆機',6,'欠費拆機',-1);
+
+insert into cd007_map values(24,'欠費拆機',6,'欠費拆機',-1);
+insert into cd007_map values(25,'欠費拆機',6,'欠費拆機',-1);
+insert into cd007_map values(26,'欠費拆機',6,'欠費拆機',-1);
+insert into cd007_map values(27,'欠費拆機',6,'欠費拆機',-1);
+insert into cd007_map values(28,'欠費拆機',6,'欠費拆機',-1);
+
+insert into cd007_map values(29,'欠費拆機',6,'欠費拆機',-1);
+insert into cd007_map values(30,'欠費拆機',6,'欠費拆機',-1);
+insert into cd007_map values(31,'欠費拆機',6,'欠費拆機',-1);
+insert into cd007_map values(32,'欠費拆機',6,'欠費拆機',-1);
+insert into cd007_map values(36,'欠費拆機',6,'欠費拆機',-1);
+
+
+
+//*************************************
+update cd004_map set newcode=-999 where newcode=-99;
+update cd019_map set newcode=-999 where newcode=-99;
+update cd005_map set newcode=-999 where newcode=-99;
+update cd031_map set newcode=-999 where newcode=-99;
+update cd034_map set newcode=-999 where newcode=-99;
+update cd007_map set newcode=-999 where newcode=-99;
+update cd020_map set newcode=-999 where newcode=-99;
+update cd021_map set newcode=-999 where newcode=-99;
+update cd009_map set newcode=-999 where newcode=-99;
+
+update code_map2 set newcodeno=-999 where newcodeno=-99;
+
+
+
+
+
+
+
+
+
+
+

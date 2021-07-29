@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ProductManagementData SYSTEM "ProductManagementData.dtd">
+<ProductManagementData creationDate="20051124050914">
+<ProviderInfo>
+<ProviderId>IMS Nagra</ProviderId>
+<ProviderName>IMS Nagravision S.A.</ProviderName>
+<DtdVersion>1.1.1</DtdVersion>
+</ProviderInfo>
+<ProductPeriodicNotification>
+<ProductReportRequest>
+<SalePeriod beginTime="20051124000000" endTime="20051201000000"/>
+<ProductType productKind="Sub"/>
+</ProductReportRequest>
+<ProductReportReply>
+<ProductData>
+<Product>
+<ProductId>15220</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>Deutsche Welle</ProductName>
+<ProductDescription>Deutsche Welle</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050930160000" endTime="20051130160000"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>326</ChannelId>
+<ChannelNumber>326</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Deutsche Welle</ChannelShortName>
+<ChannelName>Deutsche Welle</ChannelName>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>德國DW電視台</ChannelShortName>
+<ChannelName>德國DW電視台</ChannelName>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>15653</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>CNN</ProductName>
+<ProductDescription>CNN</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050930160000" endTime="20051130160000"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>328</ChannelId>
+<ChannelNumber>328</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>CNN</ChannelShortName>
+<ChannelName>CNN</ChannelName>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>CNN</ChannelShortName>
+<ChannelName>CNN</ChannelName>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+</ProductData>
+</ProductReportReply>
+</ProductPeriodicNotification>
+</ProductManagementData>

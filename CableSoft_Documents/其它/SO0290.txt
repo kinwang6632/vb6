@@ -1,0 +1,12 @@
+   INSERT INTO SO029 (Mid, Layer, Prompt, Command, Link, FormatName)
+              VALUES ( 'SO114FA', null, '發票資料維護', '', 'SO1100', null);
+   INSERT INTO SO029 (Mid, Layer, Prompt, Command, Link, FormatName)
+              VALUES ( 'SO114FA1', null, '發票資料新增', '', 'SO114FA', null);
+   INSERT INTO SO029 (Mid, Layer, Prompt, Command, Link, FormatName)
+              VALUES ( 'SO114FA2', null, '發票資料修改', '', 'SO114FA', null);
+
+   INSERT INTO SO029 (Mid, Layer, Prompt, Command, Link, FormatName)
+              VALUES ( 'SO114FA3', null, '發票資料刪除', '', 'SO114FA', null);
+              
+   INSERT INTO SO029 (Mid, Layer, Prompt, Command, Link, FormatName)
+              VALUES ( 'SO1100F7', null, '發票資料刪除', '', 'SO1100F', null);

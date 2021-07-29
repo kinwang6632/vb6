@@ -1,0 +1,83 @@
+DELETE NDS001;
+COMMIT;
+
+..開頻道
+insert into NDS001(SeqNo,CompCode,CompName,CommandId,
+CmdStatus,Operator,ProcessingDate, UpdTime, Notes,SubscriberId)
+values('905',7,'吉隆','B1',
+'W','Howard',NULL,sysdate,'3~20040531~N','000009D2');
+commit;
+
+
+..關頻道
+insert into NDS001(SeqNo,CompCode,CompName,CommandId,
+CmdStatus,Operator,ProcessingDate, UpdTime, Notes,SubscriberId)
+values('908',7,'吉隆','B2',
+'W','Howard',NULL,sysdate,'3','000009D2');
+commit;
+
+
+..關所有頻道
+insert into NDS001(SeqNo,CompCode,CompName,CommandId,
+CmdStatus,Operator,ProcessingDate, UpdTime,SubscriberId)
+values('909',7,'吉隆','B4',
+'W','Howard',NULL,sysdate,'000009D2');
+commit;
+
+
+..停機
+insert into NDS001(SeqNo,CompCode,CompName,CommandId,
+CmdStatus,Operator,ProcessingDate, UpdTime,SubscriberId)
+values('904',7,'吉隆','A3',
+'W','Howard',NULL,sysdate,'000009D2');
+commit;
+
+..復機
+insert into NDS001(SeqNo,CompCode,CompName,CommandId,
+CmdStatus,Operator,ProcessingDate, UpdTime,SubscriberId)
+values('905',7,'吉隆','A4',
+'W','Howard',NULL,sysdate,'000009D2');
+commit;
+
+..resend all packets
+insert into NDS001(SeqNo,CompCode,CompName,CommandId,
+CmdStatus,Operator,ProcessingDate, UpdTime,SubscriberId)
+values('906',7,'吉隆','A5',
+'W','Howard',NULL,sysdate,'000009D2');
+commit;
+
+
+
+..設定親子密碼
+insert into NDS001(SeqNo,CompCode,CompName,CommandId,
+CmdStatus,Operator,ProcessingDate, UpdTime,SubscriberId,PINCODE, PINCONTROL)
+values('910',7,'吉隆','E1',
+'W','Howard',NULL,sysdate,'000009D2',9876,'L');
+commit;
+
+
+..拆機
+insert into NDS001(SeqNo,CompCode,CompName,CommandId,
+CmdStatus,Operator,ProcessingDate, UpdTime,SubscriberId)
+values('903',7,'吉隆','A2',
+'W','Howard',NULL,sysdate,'000009D2');
+commit;
+
+
+
+..開機
+insert into NDS001(SeqNo,CompCode,CompName,CommandId,IccNo,
+CmdStatus,Operator,ProcessingDate, UpdTime, RegionKey, ReportBackAvailability,
+ReportBackDate, PopulationId)
+values('902',7,'吉隆','A1','10522',
+'W','Howard',NULL,sysdate,'98760054','D',5,1);
+commit;
+
+
+
+
+
+..B6
+共四個欄位,每個欄位間以'@'為區隔. 第一個欄位是 :Start Services ID;第二個欄位是 :End Services ID;  第三個欄位是 :Service Type(C-Continuous/Subscription Services ONLY,O-OPPV Services ONLY,B-Both Continuous and OPPV Services); 第四個欄位是 : 視共有幾個Services ID 就設幾個B1(開頻道 6.2.8) 注意事項:第四個欄位內的組數,要等於End Services ID-Start Services ID的數量,且是要介於其範圍內的Services ID  範例: 4@5@C@4~20040531~N;5~20041231~A 
+
+

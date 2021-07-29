@@ -1,0 +1,305 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{eb89948b-d571-4e19-819f-1bf2e3063641}</ProjectGuid>
+    <MainSource>prjInvoice.dpr</MainSource>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>..\Bin\prjInvoice.exe</DCC_DependencyCheckOutputName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_Optimize>False</DCC_Optimize>
+    <DCC_IntegerOverflowCheck>True</DCC_IntegerOverflowCheck>
+    <DCC_RangeChecking>True</DCC_RangeChecking>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_ExeOutput>..\Bin</DCC_ExeOutput>
+    <DCC_DcuOutput>D:\Temp\Dcu</DCC_DcuOutput>
+    <DCC_ObjOutput>D:\Temp\Dcu</DCC_ObjOutput>
+    <DCC_HppOutput>D:\Temp\Dcu</DCC_HppOutput>
+    <DCC_Define>RELEASE</DCC_Define>
+    <DCC_SYMBOL_PLATFORM>False</DCC_SYMBOL_PLATFORM>
+    <DCC_UNIT_PLATFORM>False</DCC_UNIT_PLATFORM>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_Optimize>False</DCC_Optimize>
+    <DCC_IntegerOverflowCheck>True</DCC_IntegerOverflowCheck>
+    <DCC_RangeChecking>True</DCC_RangeChecking>
+    <DCC_ExeOutput>..\Bin</DCC_ExeOutput>
+    <DCC_DcuOutput>D:\Temp\Dcu</DCC_DcuOutput>
+    <DCC_ObjOutput>D:\Temp\Dcu</DCC_ObjOutput>
+    <DCC_HppOutput>D:\Temp\Dcu</DCC_HppOutput>
+    <DCC_Define>DEBUG</DCC_Define>
+    <DCC_SYMBOL_PLATFORM>False</DCC_SYMBOL_PLATFORM>
+    <DCC_UNIT_PLATFORM>False</DCC_UNIT_PLATFORM>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Delphi.Personality</Borland.Personality>
+    <Borland.ProjectType>VCLApplication</Borland.ProjectType>
+    <BorlandProject>
+<BorlandProject xmlns=""> <Delphi.Personality>   <Parameters>
+      <Parameters Name="UseLauncher">False</Parameters>
+      <Parameters Name="LoadAllSymbols">True</Parameters>
+      <Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+    </Parameters>
+    <Language>
+      <Language Name="RootDir">C:\Program Files\Borland\Delphi7\Bin\</Language>
+    </Language>
+    <VersionInfo>
+      <VersionInfo Name="IncludeVerInfo">False</VersionInfo>
+      <VersionInfo Name="AutoIncBuild">False</VersionInfo>
+      <VersionInfo Name="MajorVer">1</VersionInfo>
+      <VersionInfo Name="MinorVer">0</VersionInfo>
+      <VersionInfo Name="Release">0</VersionInfo>
+      <VersionInfo Name="Build">0</VersionInfo>
+      <VersionInfo Name="Debug">False</VersionInfo>
+      <VersionInfo Name="PreRelease">False</VersionInfo>
+      <VersionInfo Name="Special">False</VersionInfo>
+      <VersionInfo Name="Private">False</VersionInfo>
+      <VersionInfo Name="DLL">False</VersionInfo>
+      <VersionInfo Name="Locale">1028</VersionInfo>
+      <VersionInfo Name="CodePage">950</VersionInfo>
+    </VersionInfo>
+    <VersionInfoKeys>
+      <VersionInfoKeys Name="CompanyName"></VersionInfoKeys>
+      <VersionInfoKeys Name="FileDescription"></VersionInfoKeys>
+      <VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys>
+      <VersionInfoKeys Name="InternalName"></VersionInfoKeys>
+      <VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys>
+      <VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys>
+      <VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys>
+      <VersionInfoKeys Name="ProductName"></VersionInfoKeys>
+      <VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+      <VersionInfoKeys Name="Comments"></VersionInfoKeys>
+    </VersionInfoKeys>
+    <Source>
+      <Source Name="MainSource">prjInvoice.dpr</Source>
+    </Source>
+  </Delphi.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <ItemGroup />
+  <ItemGroup>
+    <DelphiCompile Include="prjInvoice.dpr">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="..\..\CommoUnit\cbUtilis.pas" />
+    <DCCReference Include="..\..\CommoUnit\WtsApi32.pas" />
+    <DCCReference Include="..\Common\Encryption_TLB.pas" />
+    <DCCReference Include="..\Common\fraYMDU.pas">
+      <Form>fraYMD</Form>
+      <DesignClass>TFrame</DesignClass>
+    </DCCReference>
+    <DCCReference Include="..\Common\fraYMU.pas">
+      <Form>fraYM</Form>
+      <DesignClass>TFrame</DesignClass>
+    </DCCReference>
+    <DCCReference Include="..\Common\frmDbSelectu.pas">
+      <Form>frmDbSelect</Form>
+    </DCCReference>
+    <DCCReference Include="..\Common\UCommonU.pas" />
+    <DCCReference Include="..\Common\UdateTimeu.pas" />
+    <DCCReference Include="..\Common\UmsgCodeu.pas" />
+    <DCCReference Include="..\Common\UObjectu.pas" />
+    <DCCReference Include="..\Common\UotherU.pas" />
+    <DCCReference Include="..\Common\Ustru.pas" />
+    <DCCReference Include="..\Common\XLSFile.pas" />
+    <DCCReference Include="..\Common\xmlU.pas" />
+    <DCCReference Include="cbAppClass.pas" />
+    <DCCReference Include="cbDataLookup.pas">
+      <Form>DataLookup</Form>
+      <DesignClass>TFrame</DesignClass>
+    </DCCReference>
+    <DCCReference Include="dtmMainHU.pas">
+      <Form>dtmMainH</Form>
+      <DesignClass>TDataModule</DesignClass>
+    </DCCReference>
+    <DCCReference Include="dtmMainJU.pas">
+      <Form>dtmMainJ</Form>
+      <DesignClass>TDataModule</DesignClass>
+    </DCCReference>
+    <DCCReference Include="dtmMainU.pas">
+      <Form>dtmMain</Form>
+      <DesignClass>TDataModule</DesignClass>
+    </DCCReference>
+    <DCCReference Include="dtmReportModule.pas">
+      <Form>dtmReport</Form>
+      <DesignClass>TDataModule</DesignClass>
+    </DCCReference>
+    <DCCReference Include="dtmSOU.pas">
+      <Form>dtmSO</Form>
+      <DesignClass>TDataModule</DesignClass>
+    </DCCReference>
+    <DCCReference Include="frmInvA01U.pas">
+      <Form>frmInvA01</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvA01_1U.pas">
+      <Form>frmInvA01_1</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvA02U.pas">
+      <Form>frmInvA02</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvA02_1U.pas">
+      <Form>frmInvA02_1</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvA02_4U.pas">
+      <Form>frmInvA02_4</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvA02_5U.pas">
+      <Form>frmInvA02_5</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvA02_6U.pas">
+      <Form>frmInvA02_6</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvA04U.pas">
+      <Form>frmInvA04</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvA05U.pas">
+      <Form>frmInvA05</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvA05_1U.pas">
+      <Form>frmInvA05_1</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvA05_2U.pas">
+      <Form>frmInvA05_2</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvA05_3U.pas">
+      <Form>frmInvA05_3</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvA06U.pas">
+      <Form>frmInvA06</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvA06_1U.pas">
+      <Form>frmInvA06_1</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvA07_1U.pas">
+      <Form>frmInvA07_1</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvA07_2U.pas">
+      <Form>frmInvA07_2</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvA08U.pas">
+      <Form>frmInvA08</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvA09U.pas">
+      <Form>frmInvA09</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvA09_1U.pas">
+      <Form>frmInvA09_1</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvA10U.pas">
+      <Form>frmInvA10</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvA10_1U.pas">
+      <Form>frmInvA10_1</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvA11U.pas">
+      <Form>frmInvA11</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvB01U.pas">
+      <Form>frmInvB01</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvB02U.pas">
+      <Form>frmInvB02</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvB03U.pas">
+      <Form>frmInvB03</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvB04U.pas">
+      <Form>frmInvB04</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvB05U.pas">
+      <Form>frmInvB05</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvC01U.pas">
+      <Form>frmInvC01</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvC02U.pas">
+      <Form>frmInvC02</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvC03U.pas">
+      <Form>frmInvC03</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvC04U.pas">
+      <Form>frmInvC04</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvC05U.pas">
+      <Form>frmInvC05</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvD01U.pas">
+      <Form>frmInvD01</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvD02U.pas">
+      <Form>frmInvD02</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvD02_1U.pas">
+      <Form>frmInvD02_1</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvD02_2U.pas">
+      <Form>frmInvD02_2</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvD03U.pas">
+      <Form>frmInvD03</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvD04U.pas">
+      <Form>frmInvD04</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvD05U.pas">
+      <Form>frmInvD05</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvD06U.pas">
+      <Form>frmInvD06</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvD07U.pas">
+      <Form>frmInvD07</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvD07_1U.pas">
+      <Form>frmInvD07_1</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvD08U.pas">
+      <Form>frmInvD08</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvE01U.pas">
+      <Form>frmInvE01</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvE02U.pas">
+      <Form>frmInvE02</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvE03U.pas">
+      <Form>frmInvE03</Form>
+    </DCCReference>
+    <DCCReference Include="frmInvE04U.pas">
+      <Form>frmInvE04</Form>
+    </DCCReference>
+    <DCCReference Include="frmLoginU.pas">
+      <Form>frmLogin</Form>
+    </DCCReference>
+    <DCCReference Include="frmMainU.pas">
+      <Form>frmMain</Form>
+    </DCCReference>
+    <DCCReference Include="frmMultiSelectU.pas">
+      <Form>frmMultiSelect</Form>
+    </DCCReference>
+    <DCCReference Include="frmRptPreviewU.pas">
+      <Form>frmRptPreView</Form>
+    </DCCReference>
+    <DCCReference Include="frmSearchCustU.pas">
+      <Form>frmSearchCust</Form>
+    </DCCReference>
+    <DCCReference Include="rptInvA07U.pas">
+      <Form>rptInvA07</Form>
+      <DesignClass>TQuickRep</DesignClass>
+    </DCCReference>
+    <DCCReference Include="rptInvC02_1U.pas">
+      <Form>rptInvC02_1</Form>
+      <DesignClass>TQuickRep</DesignClass>
+    </DCCReference>
+    <DCCReference Include="rptInvC03_1U.pas">
+      <Form>rptInvC03_1</Form>
+      <DesignClass>TQuickRep</DesignClass>
+    </DCCReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+</Project>

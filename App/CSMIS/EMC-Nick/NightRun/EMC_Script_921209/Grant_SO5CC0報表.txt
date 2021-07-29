@@ -1,0 +1,123 @@
+-- SO5CC0報表後端程式(SF_DailyOp3.sql)所需之grant指令
+-- 方式: 連至各家執行該家的程式片段.
+-- 版本: 2003.03.25 因應EMCDW加入, 需重新授權
+
+/*
+-- connect to EMCYMS
+grant SELECT on CD019 to "EMCKP";
+grant SELECT on CD039 to "EMCKP";
+grant SELECT on CM003 to "EMCKP";
+grant SELECT on SO007 to "EMCKP";
+grant SELECT on SO008 to "EMCKP";
+grant SELECT on SO009 to "EMCKP";
+grant SELECT on V_SO503Charge to "EMCKP";
+grant SELECT on SO041 to "EMCKP";
+
+grant SELECT on CD019 to "EMCDW";
+grant SELECT on CD039 to "EMCDW";
+grant SELECT on CM003 to "EMCDW";
+grant SELECT on SO007 to "EMCDW";
+grant SELECT on SO008 to "EMCDW";
+grant SELECT on SO009 to "EMCDW";
+grant SELECT on V_SO503Charge to "EMCDW";
+grant SELECT on SO041 to "EMCDW";
+
+grant SELECT on CD019 to "EMCNTP";
+grant SELECT on CD039 to "EMCNTP";
+grant SELECT on CM003 to "EMCNTP";
+grant SELECT on SO007 to "EMCNTP";
+grant SELECT on SO008 to "EMCNTP";
+grant SELECT on SO009 to "EMCNTP";
+grant SELECT on V_SO503Charge to "EMCNTP";
+grant SELECT on SO041 to "EMCNTP";
+*/
+
+/*
+-- connect to EMCDW
+grant SELECT on SO041 to "EMCYMS";
+grant SELECT on CD039 to "EMCYMS";
+grant SELECT on CM003 to "EMCYMS";
+grant SELECT on SO007 to "EMCYMS";
+grant SELECT on SO008 to "EMCYMS";
+grant SELECT on SO009 to "EMCYMS";
+grant SELECT on V_SO503Charge to "EMCYMS";
+grant SELECT on SO041 to "EMCYMS";
+
+grant SELECT on CD019 to "EMCKP";
+grant SELECT on CD039 to "EMCKP";
+grant SELECT on CM003 to "EMCKP";
+grant SELECT on SO007 to "EMCKP";
+grant SELECT on SO008 to "EMCKP";
+grant SELECT on SO009 to "EMCKP";
+grant SELECT on V_SO503Charge to "EMCKP";
+grant SELECT on SO041 to "EMCKP";
+
+grant SELECT on CD019 to "EMCNTP";
+grant SELECT on CD039 to "EMCNTP";
+grant SELECT on CM003 to "EMCNTP";
+grant SELECT on SO007 to "EMCNTP";
+grant SELECT on SO008 to "EMCNTP";
+grant SELECT on SO009 to "EMCNTP";
+grant SELECT on V_SO503Charge to "EMCNTP";
+grant SELECT on SO041 to "EMCNTP";
+*/
+
+/*
+-- connect to EMCKP
+grant SELECT on CD019 to "EMCYMS";
+grant SELECT on CD039 to "EMCYMS";
+grant SELECT on CM003 to "EMCYMS";
+grant SELECT on SO007 to "EMCYMS";
+grant SELECT on SO008 to "EMCYMS";
+grant SELECT on SO009 to "EMCYMS";
+grant SELECT on V_SO503Charge to "EMCYMS";
+grant SELECT on SO041 to "EMCYMS";
+
+grant SELECT on CD019 to "EMCDW";
+grant SELECT on CD039 to "EMCDW";
+grant SELECT on CM003 to "EMCDW";
+grant SELECT on SO007 to "EMCDW";
+grant SELECT on SO008 to "EMCDW";
+grant SELECT on SO009 to "EMCDW";
+grant SELECT on V_SO503Charge to "EMCDW";
+grant SELECT on SO041 to "EMCDW";
+
+grant SELECT on CD019 to "EMCNTP";
+grant SELECT on CD039 to "EMCNTP";
+grant SELECT on CM003 to "EMCNTP";
+grant SELECT on SO007 to "EMCNTP";
+grant SELECT on SO008 to "EMCNTP";
+grant SELECT on SO009 to "EMCNTP";
+grant SELECT on V_SO503Charge to "EMCNTP";
+grant SELECT on SO041 to "EMCNTP";
+*/
+
+/*
+-- connect to EMCNTP
+grant SELECT on CD019 to "EMCYMS";
+grant SELECT on CD039 to "EMCYMS";
+grant SELECT on CM003 to "EMCYMS";
+grant SELECT on SO007 to "EMCYMS";
+grant SELECT on SO008 to "EMCYMS";
+grant SELECT on SO009 to "EMCYMS";
+grant SELECT on V_SO503Charge to "EMCYMS";
+grant SELECT on SO041 to "EMCYMS";
+
+grant SELECT on CD019 to "EMCKP";
+grant SELECT on CD039 to "EMCKP";
+grant SELECT on CM003 to "EMCKP";
+grant SELECT on SO007 to "EMCKP";
+grant SELECT on SO008 to "EMCKP";
+grant SELECT on SO009 to "EMCKP";
+grant SELECT on V_SO503Charge to "EMCKP";
+grant SELECT on SO041 to "EMCKP";
+
+grant SELECT on CD019 to "EMCDW";
+grant SELECT on CD039 to "EMCDW";
+grant SELECT on CM003 to "EMCDW";
+grant SELECT on SO007 to "EMCDW";
+grant SELECT on SO008 to "EMCDW";
+grant SELECT on SO009 to "EMCDW";
+grant SELECT on V_SO503Charge to "EMCDW";
+grant SELECT on SO041 to "EMCDW";
+*/

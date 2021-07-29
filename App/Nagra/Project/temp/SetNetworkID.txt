@@ -1,0 +1,9 @@
+SEQNO => 讀 sequence object
+COMPCODE => 公司代碼
+High_Level_Cmd_ID => 'E4'
+ICC_NO => 卡號
+CMD_STATUS => 'W'
+MIS_IRD_CMD_ID => '4'
+PROCESSINGDATE => 2003/04/23 15:00:00
+OPERATOR => '批次作業'
+UPDTIME => 系統時間

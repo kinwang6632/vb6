@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ProductManagementData SYSTEM "ProductManagementData.dtd">
+<ProductManagementData creationDate="20051124104414">
+<ProviderInfo>
+<ProviderId>IMS Nagra</ProviderId>
+<ProviderName>IMS Nagravision S.A.</ProviderName>
+<DtdVersion>1.1.1</DtdVersion>
+</ProviderInfo>
+<ProductChangeNotification>
+
+<ProductData>
+<Product>
+<ProductId>18720</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>奪命黑寡婦</ProductName>
+<ProductDescription>奪命黑寡婦</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051123060001" endTime="20051128070001"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051127000000" endTime="20051130000000"/>
+<Event beginTime="20051128060001" duration="3600">
+<EventId>L00000034310</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>奪命黑寡婦</Name>
+<Description>曾有"迷你影集之后"雅稱的賈桂琳史密斯在本片中飾演布莉姬，一位為家庭盡心盡力的妻子、社區的楷模，但實際上卻是個為保有優渥的生活而不計一切代價的蛇蠍女子—即使必須殺人亦在所不惜。新寡的布莉姬嫁給曾結過一次婚的高中棒球教練朗恩（提摩西卡哈特）為妻，他們在新婚期間有如一對神仙眷屬：布莉姬在當地電視台當行銷經理，並掌管兩人財務上的投資極各項貸款，不久後夫妻倆便搬進豪宅，過著優裕的生活；然而當朗恩發現他們債台高築時事情就全走了樣，而為了急於拿到現金，布莉姬設計"意外"開槍射死朗恩好領取他的保險金，但朗恩的前妻與其好友瓊安（黛安娜史卡威）卻查出布莉姬的前夫也是死於跟朗恩類似的"意外"…這部影片是改編自傑瑞布雷索（Jerry Bledsoe）根據真實事件所寫成的暢銷小說。</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>Before He Wakes</Name>
+<Description>The one-time Queen of TV Mini-Series, Jaclyn Smith plays Bridgette, an outwardly devoted wife and pillar of community, who secretly, will do anything - including murder - to maintain the facade of a wealthy lifestyle. A recent widow, Bridgette marries Ron Michaels (Timothy Carhart), a divorcee who works as the high school basketball coach. For the ensuing months, it is a marriage made in heaven: Bridgette works as a sales executive at the local TV station, refinancing their loans and investing their money.  In no time, the Michaels move into a larger luxurious home.  However, things start to go wrong when Ron discovers that they are seriously in debt.  Desperate for cash, Bridgette kills Ron for his hefty insurance policy. Just when you think Bridgette can get away scot-free, Ron’s ex-wife and good friend Joanne (Scarwid) tries to convince the cops with vital information that proves that Ron’s death, like the death of Bridgette’s first husband, was </Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="1" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>503</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>18722</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>熱帶雪</ProductName>
+<ProductDescription>熱帶雪</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051123080001" endTime="20051128090001"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051127000000" endTime="20051130000000"/>
+<Event beginTime="20051128080001" duration="3600">
+<EventId>L00000034316</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>熱帶雪</Name>
+<Description>塔佛（尼克柯瑞，「天人交戰」、「我吸我吸我吸吸吸」）和米蘭妲（麥德琳史道威，「將軍的女兒」、「未來總動員」）是一對居住於哥倫比亞波哥大的年輕戀人，兩人為維持家人生計而在機場當扒手為業，對他們倆來說，紐約是個能建立新生活的夢想城市；當地的毒梟歐斯卡（大衛卡拉定，「雙重麻煩」）以紐約之行為交換，說服他們以吞入腹中的方式，走私毒品闖過紐約機場的海關；由於米蘭妲的姊姊便是死於類似的情況，他們很清楚這種走私方式會有的風險，但為了實現夢想，兩人還是答應了歐斯卡的條件；然而抵達紐約機場後，兩人卻因過於緊張而引來警方注意，他們的夢想也漸漸隨之破碎…</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>Body Snatchers</Name>
+<Description>New York is the dream city of Tavo (Garcia, Traffic, Vampire In Brooklyn) and Marina (Stowe, The General’s Daughter, Twelve Monkeys), where the two young lovers hope to start a better life. At home in slum-ridden Bogota, Columbia, they have had to work as pickpockets at the airport to support their families.  Dealer Oskar (Carridine, Double Trouble) persuades them to smuggle drugs in their stomachs on a plane to New York - although both know of the risks, since Marina's sister died on a similar journey.   However on arrival at the airport in New York they show nerves and all their dreams start to shatter...</Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="1" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>503</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+</ProductData>
+</ProductChangeNotification>
+</ProductManagementData>

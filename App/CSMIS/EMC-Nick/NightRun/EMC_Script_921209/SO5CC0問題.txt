@@ -1,0 +1,25 @@
+v_SQLcsr := 'select IntroId EmpNo, IntroName EmpName, MediaCode, MediaName from '||OwnerName(i)||'.SO007 where '||
+	v_SQL||' and FinTime is not null and (MediaCode=10 or MediaCode=18) and IntroId is not null'||
+	' group by MediaCode, MediaName, IntroId, IntroName';    -- All CSR and TM group
+
+
+	v_SQL2 := 'select SNo, InstCode WoCode from '||OwnerName(i)||'.SO007';
+        v_SQL2 := v_SQL2||' where '||v_SQL||' and FinTime is not null and IntroId='||c39||x_EmpNo||c39||
+
+
+select IntroId EmpNo, IntroName EmpName, MediaCode, MediaName from SO007 
+  where FinTime is not null and (MediaCode=10 or MediaCode=18) and IntroId is not null
+UNION
+select IntroId EmpNo, IntroName EmpName, MediaCode, MediaName from SO009
+  where FinTime is not null and IntroId is not null
+  group by MediaCode, MediaName, IntroId, IntroName
+
+
+Questions
+=====================================================================================
+* 如何取得SO007, SO009中的所有待統計的對象人員?
+  因為SO009無介紹人
+
+* 若以SO007的介紹人為主, 去SO009中找對應的"受理人", 是否可以?
+
+* SO009中的收費項目, 有那些可能會是此報表的統計標的?

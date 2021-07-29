@@ -1,0 +1,3421 @@
+/// <XRTypeInfo>
+///   <AssemblyFullName>DevExpress.XtraReports.v10.1, Version=10.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</AssemblyFullName>
+///   <AssemblyLocation>C:\GICMIS\INVOICE\DevExpress.XtraReports.v10.1.dll</AssemblyLocation>
+///   <TypeName>DevExpress.XtraReports.UI.XtraReport</TypeName>
+///   <Localization>zh-TW</Localization>
+///   <References>
+///     <Reference Path="C:\WINDOWS\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll" />
+///     <Reference Path="C:\WINDOWS\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll" />
+///     <Reference Path="C:\WINDOWS\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll" />
+///     <Reference Path="C:\WINDOWS\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll" />
+///     <Reference Path="C:\WINDOWS\assembly\GAC_MSIL\System.Data.SqlXml\2.0.0.0__b77a5c561934e089\System.Data.SqlXml.dll" />
+///     <Reference Path="C:\WINDOWS\assembly\GAC_MSIL\System.Security\2.0.0.0__b03f5f7f11d50a3a\System.Security.dll" />
+///     <Reference Path="C:\WINDOWS\assembly\GAC_MSIL\Microsoft.VisualC\8.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualC.dll" />
+///     <Reference Path="C:\WINDOWS\assembly\GAC_32\System.Transactions\2.0.0.0__b77a5c561934e089\System.Transactions.dll" />
+///     <Reference Path="C:\WINDOWS\assembly\GAC_32\System.EnterpriseServices\2.0.0.0__b03f5f7f11d50a3a\System.EnterpriseServices.dll" />
+///     <Reference Path="C:\WINDOWS\assembly\GAC_MSIL\System.DirectoryServices\2.0.0.0__b03f5f7f11d50a3a\System.DirectoryServices.dll" />
+///     <Reference Path="C:\WINDOWS\assembly\GAC_MSIL\System.Runtime.Remoting\2.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll" />
+///     <Reference Path="C:\WINDOWS\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll" />
+///     <Reference Path="C:\WINDOWS\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll" />
+///     <Reference Path="C:\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll" />
+///     <Reference Path="C:\WINDOWS\assembly\GAC_MSIL\System.Design\2.0.0.0__b03f5f7f11d50a3a\System.Design.dll" />
+///     <Reference Path="C:\WINDOWS\assembly\GAC_MSIL\System.Windows.Forms\2.0.0.0__b77a5c561934e089\System.Windows.Forms.dll" />
+///     <Reference Path="C:\WINDOWS\assembly\GAC_MSIL\Accessibility\2.0.0.0__b03f5f7f11d50a3a\Accessibility.dll" />
+///     <Reference Path="C:\WINDOWS\assembly\GAC_MSIL\System.Runtime.Serialization.Formatters.Soap\2.0.0.0__b03f5f7f11d50a3a\System.Runtime.Serialization.Formatters.Soap.dll" />
+///     <Reference Path="C:\WINDOWS\assembly\GAC_MSIL\System.Deployment\2.0.0.0__b03f5f7f11d50a3a\System.Deployment.dll" />
+///     <Reference Path="C:\WINDOWS\assembly\GAC_MSIL\System.Drawing.Design\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.Design.dll" />
+///     <Reference Path="C:\WINDOWS\assembly\GAC_32\System.Data.OracleClient\2.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll" />
+///     <Reference Path="C:\WINDOWS\assembly\GAC_MSIL\System.Web.RegularExpressions\2.0.0.0__b03f5f7f11d50a3a\System.Web.RegularExpressions.dll" />
+///     <Reference Path="C:\WINDOWS\assembly\GAC_MSIL\System.DirectoryServices.Protocols\2.0.0.0__b03f5f7f11d50a3a\System.DirectoryServices.Protocols.dll" />
+///     <Reference Path="C:\WINDOWS\assembly\GAC_MSIL\System.ServiceProcess\2.0.0.0__b03f5f7f11d50a3a\System.ServiceProcess.dll" />
+///     <Reference Path="C:\WINDOWS\assembly\GAC_MSIL\System.Configuration.Install\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.Install.dll" />
+///   </References>
+/// </XRTypeInfo>
+namespace XtraReportSerialization {
+    
+    public class rptC06_Details : DevExpress.XtraReports.UI.XtraReport {
+        private DevExpress.XtraReports.UI.TopMarginBand TopMargin;
+        private DevExpress.XtraReports.UI.DetailBand Detail;
+        private DevExpress.XtraReports.UI.XRLabel label32;
+        private DevExpress.XtraReports.UI.XRLabel label31;
+        private DevExpress.XtraReports.UI.XRLabel label30;
+        private DevExpress.XtraReports.UI.XRLabel label27;
+        private DevExpress.XtraReports.UI.XRLabel label25;
+        private DevExpress.XtraReports.UI.XRLabel label23;
+        private DevExpress.XtraReports.UI.XRLabel label21;
+        private DevExpress.XtraReports.UI.XRLabel label19;
+        private DevExpress.XtraReports.UI.XRLabel label17;
+        private DevExpress.XtraReports.UI.XRLabel label2;
+        private DevExpress.XtraReports.UI.XRLabel label15;
+        private DevExpress.XtraReports.UI.XRLabel label13;
+        private DevExpress.XtraReports.UI.XRLabel label11;
+        private DevExpress.XtraReports.UI.XRLabel label7;
+        private DevExpress.XtraReports.UI.XRLabel lblGiveFlag;
+        private DevExpress.XtraReports.UI.XRLabel lblObsoleteFlag;
+        private DevExpress.XtraReports.UI.XRLabel lblUploadFlag;
+        private DevExpress.XtraReports.UI.XRLabel lblInvId;
+        private DevExpress.XtraReports.UI.XRLabel lblInvDate;
+        private DevExpress.XtraReports.UI.BottomMarginBand BottomMargin;
+        private DevExpress.XtraReports.UI.ReportHeaderBand ReportHeader;
+        private DevExpress.XtraReports.UI.XRLabel lblTitle;
+        private DevExpress.XtraReports.UI.PageHeaderBand PageHeader;
+        private DevExpress.XtraReports.UI.XRLabel label29;
+        private DevExpress.XtraReports.UI.XRLabel label28;
+        private DevExpress.XtraReports.UI.XRLabel label26;
+        private DevExpress.XtraReports.UI.XRLabel label24;
+        private DevExpress.XtraReports.UI.XRLabel label22;
+        private DevExpress.XtraReports.UI.XRLabel label20;
+        private DevExpress.XtraReports.UI.XRLabel label18;
+        private DevExpress.XtraReports.UI.XRLabel label16;
+        private DevExpress.XtraReports.UI.XRLabel label1;
+        private DevExpress.XtraReports.UI.XRLabel label14;
+        private DevExpress.XtraReports.UI.XRLabel label12;
+        private DevExpress.XtraReports.UI.XRLabel label10;
+        private DevExpress.XtraReports.UI.XRLabel label3;
+        private DevExpress.XtraReports.UI.XRLabel label9;
+        private DevExpress.XtraReports.UI.XRLabel label8;
+        private DevExpress.XtraReports.UI.XRLabel label6;
+        private DevExpress.XtraReports.UI.XRLabel label5;
+        private DevExpress.XtraReports.UI.XRLabel label4;
+        private DevExpress.XtraReports.UI.XRLabel label33;
+        private System.Data.OleDb.OleDbDataAdapter oleDbDataAdapter1;
+        private System.Data.OleDb.OleDbCommand oleDbCommand1;
+        private System.Data.OleDb.OleDbConnection oleDbConnection1;
+        private XtraReportSerialization.Details details1;
+        private DevExpress.XtraReports.UI.XRControlStyle controlStyle1;
+        private DevExpress.XtraReports.Parameters.Parameter paraPrintEn;
+        private System.Resources.ResourceManager _resources;
+        public rptC06_Details() {
+            this.InitializeComponent();
+        }
+        private System.Resources.ResourceManager resources {
+            get {
+                if (_resources == null) {
+                    string resourceString = "zsrvvgEAAACRAAAAbFN5c3RlbS5SZXNvdXJjZXMuUmVzb3VyY2VSZWFkZXIsIG1zY29ybGliLCBWZXJza" +
+                        "W9uPTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4O" +
+                        "SNTeXN0ZW0uUmVzb3VyY2VzLlJ1bnRpbWVSZXNvdXJjZVNldAIAAAACAAAAAAAAAFBBRFBBRFBIXnLBZ" +
+                        "9RvFQAAAAArAAAAJgEAACYkAHQAaABpAHMALgBTAGMAcgBpAHAAdABzAFMAbwB1AHIAYwBlAAAAAAAyb" +
+                        "wBsAGUARABiAEMAbwBtAG0AYQBuAGQAMQAuAEMAbwBtAG0AYQBuAGQAVABlAHgAdAC5AwAAAbYHDQpQc" +
+                        "ml2YXRlIFN1YiBsYmxVcGxvYWRGbGFnX0JlZm9yZVByaW50KEJ5VmFsIHNlbmRlciBBcyBPYmplY3QsI" +
+                        "EJ5VmFsIGUgQXMgU3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcuUHJpbnRFdmVudEFyZ3MpDQogIERpbSBhR" +
+                        "mxhZyBhcyBJbnQzMiA9IEludDMyLlBhcnNlKCIwIiAmICAgR2V0Q3VycmVudENvbHVtblZhbHVlKCJVU" +
+                        "ExPQURGTEFHIikuVG9TdHJpbmcpDQogIElmIGFGbGFnID0gMSBUaGVuDQogICAgbGJsVXBsb2FkRmxhZ" +
+                        "y5UZXh0PSLmmK8iDQogIEVsc2UNCiAgICBsYmxVcGxvYWRGbGFnLlRleHQ9IuWQpiINCiAgRW5kIElmD" +
+                        "QoNCkVuZCBTdWINCg0KUHJpdmF0ZSBTdWIgbGJsT2Jzb2xldGVGbGFnX0JlZm9yZVByaW50KEJ5VmFsI" +
+                        "HNlbmRlciBBcyBPYmplY3QsIEJ5VmFsIGUgQXMgU3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcuUHJpbnRFd" +
+                        "mVudEFyZ3MpDQogIERpbSBhRmxhZyBhcyBJbnQzMiA9IEludDMyLlBhcnNlKCIwIiAmIEdldEN1cnJlb" +
+                        "nRDb2x1bW5WYWx1ZSgi5L2c5bui6Ki76KiYIikuVG9TdHJpbmcpDQogIElmIGFGbGFnID0gMSBUaGVuD" +
+                        "QogICAgbGJsT2Jzb2xldGVGbGFnLlRleHQ9IuaYryINCiAgRWxzZQ0KICAgIGxibE9ic29sZXRlRmxhZ" +
+                        "y5UZXh0PSLlkKYiDQogIEVuZCBJZg0KRW5kIFN1Yg0KDQpQcml2YXRlIFN1YiBsYmxHaXZlRmxhZ19CZ" +
+                        "WZvcmVQcmludChCeVZhbCBzZW5kZXIgQXMgT2JqZWN0LCBCeVZhbCBlIEFzIFN5c3RlbS5EcmF3aW5nL" +
+                        "lByaW50aW5nLlByaW50RXZlbnRBcmdzKQ0KICBEaW0gYUZsYWcgYXMgSW50MzIgPSBJbnQzMi5QYXJzZ" +
+                        "SgiMCIgJiBHZXRDdXJyZW50Q29sdW1uVmFsdWUoIuaNkOi0iOiou+iomCIpLlRvU3RyaW5nKQ0KICBJZ" +
+                        "iBhRmxhZyA9IDEgVGhlbg0KICAgIGxibEdpdmVGbGFnLlRleHQ9IuaYryINCiAgRWxzZQ0KICAgIGxib" +
+                        "EdpdmVGbGFnLlRleHQ9IuWQpiINCiAgRW5kIElmDQpFbmQgU3ViDQoNCg0KDQoB1gZTZWxlY3QgIklER" +
+                        "U5USUZZSUQxIiwgIklERU5USUZZSUQyIiwgIkNIRUNLTk8iLCAiSU5WSUQiLCAiQ0FOTU9ESUZZIiwgI" +
+                        "klOVkRBVEUiLCAiQ0hBUkdFREFURSIsICJDT01QSUQiLCAiQ1VTVElEIiwgIkNVU1RTTkFNRSIsICJJT" +
+                        "lZUSVRMRSIsICJaSVBDT0RFIiwgIklOVkFERFIiLCAiTUFJTEFERFIiLCAiQlVTSU5FU1NJRCIsICJJT" +
+                        "lZGT1JNQVQiLCAiVEFYVFlQRSIsICJUQVhSQVRFIiwgIlNBTEVBTU9VTlQiLCAiVEFYQU1PVU5UIiwgI" +
+                        "klOVkFNT1VOVCIsICJQUklOVENPVU5UIiwgIklTUEFTVCIsICJJU09CU09MRVRFIiwgIk9CU09MRVRFS" +
+                        "UQiLCAiT0JTT0xFVEVSRUFTT04iLCAiSE9XVE9DUkVBVEUiLCAiTUVNTzEiLCAiTUVNTzIiLCAiVVBUV" +
+                        "ElNRSIsICJVUFRFTiIsICJQUklOVEZVTiIsICJQUklOVFRJTUUiLCAiTUFJTklOVklEIiwgIk1BSU5TQ" +
+                        "UxFQU1PVU5UIiwgIk1BSU5UQVhBTU9VTlQiLCAiTUFJTklOVkFNT1VOVCIsICJJTlNUQUREUiIsICJJT" +
+                        "lZVU0VJRCIsICJJTlZVU0VERVNDIiwgIklOVk9JQ0VLSU5EIiwgIlBSSVpFVFlQRSIsICJFTUFJTCIsI" +
+                        "CJDT05UTU9CSUxFIiwgIkdJVkVVTklUSUQiLCAiR0lWRVVOSVRERVNDIiwgIlVQTE9BREZMQUciLCAiU" +
+                        "FJJTlRFTiIsICLkvZzlu6LoqLvoqJgiLCAi5o2Q6LSI6Ki76KiYIiwgIumAmuefpeacgOe1gueLgOaFi" +
+                        "yIsICJFTUFJTOeZvOmAgSIsICJFTUFJTOWbnuafpSIsICJFTUFJTOWkseaVlyIsICLnsKHoqIrnmbzpg" +
+                        "IEiLCAi57Ch6KiK5Zue5p+lIiwgIuewoeioiuWkseaVlyIsICJUVk1BSUznmbzpgIEiLCAiVFZNQUlM5" +
+                        "aSx5pWXIiwgIkNN5bCO5rWB55m86YCBIiwgIkNN5bCO5rWB5aSx5pWXIiBmcm9tICJOT1RJRllERVRBS" +
+                        "UxTIg==";
+                    this._resources = new DevExpress.XtraReports.Serialization.XRResourceManager(resourceString);
+                }
+                return this._resources;
+            }
+        }
+        private void InitializeComponent() {
+            this.TopMargin = new DevExpress.XtraReports.UI.TopMarginBand();
+            this.Detail = new DevExpress.XtraReports.UI.DetailBand();
+            this.BottomMargin = new DevExpress.XtraReports.UI.BottomMarginBand();
+            this.ReportHeader = new DevExpress.XtraReports.UI.ReportHeaderBand();
+            this.PageHeader = new DevExpress.XtraReports.UI.PageHeaderBand();
+            this.label32 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label31 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label30 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label27 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label25 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label23 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label21 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label19 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label17 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label2 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label15 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label13 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label11 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label7 = new DevExpress.XtraReports.UI.XRLabel();
+            this.lblGiveFlag = new DevExpress.XtraReports.UI.XRLabel();
+            this.lblObsoleteFlag = new DevExpress.XtraReports.UI.XRLabel();
+            this.lblUploadFlag = new DevExpress.XtraReports.UI.XRLabel();
+            this.lblInvId = new DevExpress.XtraReports.UI.XRLabel();
+            this.lblInvDate = new DevExpress.XtraReports.UI.XRLabel();
+            this.lblTitle = new DevExpress.XtraReports.UI.XRLabel();
+            this.label29 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label28 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label26 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label24 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label22 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label20 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label18 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label16 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label1 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label14 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label12 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label10 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label3 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label9 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label8 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label6 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label5 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label4 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label33 = new DevExpress.XtraReports.UI.XRLabel();
+            this.oleDbDataAdapter1 = new System.Data.OleDb.OleDbDataAdapter();
+            this.oleDbCommand1 = new System.Data.OleDb.OleDbCommand();
+            this.oleDbConnection1 = new System.Data.OleDb.OleDbConnection();
+            this.details1 = new XtraReportSerialization.Details();
+            this.controlStyle1 = new DevExpress.XtraReports.UI.XRControlStyle();
+            this.paraPrintEn = new DevExpress.XtraReports.Parameters.Parameter();
+            ((System.ComponentModel.ISupportInitialize)(this.details1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
+            // 
+            // TopMargin
+            // 
+            this.TopMargin.HeightF = 30F;
+            this.TopMargin.Name = "TopMargin";
+            // 
+            // Detail
+            // 
+            this.Detail.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.label32,
+                        this.label31,
+                        this.label30,
+                        this.label27,
+                        this.label25,
+                        this.label23,
+                        this.label21,
+                        this.label19,
+                        this.label17,
+                        this.label2,
+                        this.label15,
+                        this.label13,
+                        this.label11,
+                        this.label7,
+                        this.lblGiveFlag,
+                        this.lblObsoleteFlag,
+                        this.lblUploadFlag,
+                        this.lblInvId,
+                        this.lblInvDate});
+            this.Detail.HeightF = 25.00002F;
+            this.Detail.KeepTogether = true;
+            this.Detail.Name = "Detail";
+            this.Detail.OddStyleName = "controlStyle1";
+            // 
+            // BottomMargin
+            // 
+            this.BottomMargin.HeightF = 32F;
+            this.BottomMargin.Name = "BottomMargin";
+            // 
+            // ReportHeader
+            // 
+            this.ReportHeader.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.lblTitle});
+            this.ReportHeader.HeightF = 36.87499F;
+            this.ReportHeader.Name = "ReportHeader";
+            this.ReportHeader.Scripts.OnBeforePrint = "ReportHeader_BeforePrint";
+            // 
+            // PageHeader
+            // 
+            this.PageHeader.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.label29,
+                        this.label28,
+                        this.label26,
+                        this.label24,
+                        this.label22,
+                        this.label20,
+                        this.label18,
+                        this.label16,
+                        this.label1,
+                        this.label14,
+                        this.label12,
+                        this.label10,
+                        this.label3,
+                        this.label9,
+                        this.label8,
+                        this.label6,
+                        this.label5,
+                        this.label4,
+                        this.label33});
+            this.PageHeader.HeightF = 25F;
+            this.PageHeader.Name = "PageHeader";
+            // 
+            // label32
+            // 
+            this.label32.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "NOTIFYDETAILS.COMPID")});
+            this.label32.LocationFloat = new DevExpress.Utils.PointFloat(1525F, 0F);
+            this.label32.Name = "label32";
+            this.label32.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label32.SizeF = new System.Drawing.SizeF(58.99988F, 25.00002F);
+            this.label32.StylePriority.UseTextAlignment = false;
+            this.label32.Text = "label32";
+            this.label32.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // label31
+            // 
+            this.label31.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "NOTIFYDETAILS.CM導流失敗")});
+            this.label31.LocationFloat = new DevExpress.Utils.PointFloat(1437.5F, 0F);
+            this.label31.Name = "label31";
+            this.label31.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label31.SizeF = new System.Drawing.SizeF(87.5F, 25F);
+            this.label31.StylePriority.UseTextAlignment = false;
+            this.label31.Text = "label31";
+            this.label31.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // label30
+            // 
+            this.label30.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "NOTIFYDETAILS.CM導流發送")});
+            this.label30.LocationFloat = new DevExpress.Utils.PointFloat(1350F, 0F);
+            this.label30.Name = "label30";
+            this.label30.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label30.SizeF = new System.Drawing.SizeF(87.5F, 25F);
+            this.label30.StylePriority.UseTextAlignment = false;
+            this.label30.Text = "label30";
+            this.label30.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // label27
+            // 
+            this.label27.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "NOTIFYDETAILS.TVMAIL失敗")});
+            this.label27.LocationFloat = new DevExpress.Utils.PointFloat(1275F, 0F);
+            this.label27.Name = "label27";
+            this.label27.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label27.SizeF = new System.Drawing.SizeF(75F, 25F);
+            this.label27.StylePriority.UseTextAlignment = false;
+            this.label27.Text = "label27";
+            this.label27.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // label25
+            // 
+            this.label25.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "NOTIFYDETAILS.TVMAIL發送")});
+            this.label25.LocationFloat = new DevExpress.Utils.PointFloat(1200F, 0F);
+            this.label25.Name = "label25";
+            this.label25.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label25.SizeF = new System.Drawing.SizeF(75F, 25F);
+            this.label25.StylePriority.UseTextAlignment = false;
+            this.label25.Text = "label25";
+            this.label25.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // label23
+            // 
+            this.label23.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "NOTIFYDETAILS.簡訊失敗")});
+            this.label23.LocationFloat = new DevExpress.Utils.PointFloat(1125F, 0F);
+            this.label23.Name = "label23";
+            this.label23.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label23.SizeF = new System.Drawing.SizeF(75F, 25F);
+            this.label23.StylePriority.UseTextAlignment = false;
+            this.label23.Text = "label23";
+            this.label23.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // label21
+            // 
+            this.label21.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "NOTIFYDETAILS.簡訊回查")});
+            this.label21.LocationFloat = new DevExpress.Utils.PointFloat(1050F, 0F);
+            this.label21.Name = "label21";
+            this.label21.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label21.SizeF = new System.Drawing.SizeF(75F, 25F);
+            this.label21.StylePriority.UseTextAlignment = false;
+            this.label21.Text = "label21";
+            this.label21.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // label19
+            // 
+            this.label19.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "NOTIFYDETAILS.簡訊發送")});
+            this.label19.LocationFloat = new DevExpress.Utils.PointFloat(975F, 0F);
+            this.label19.Name = "label19";
+            this.label19.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label19.SizeF = new System.Drawing.SizeF(75F, 25F);
+            this.label19.StylePriority.UseTextAlignment = false;
+            this.label19.Text = "label19";
+            this.label19.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // label17
+            // 
+            this.label17.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "NOTIFYDETAILS.EMAIL失敗")});
+            this.label17.LocationFloat = new DevExpress.Utils.PointFloat(900F, 0F);
+            this.label17.Name = "label17";
+            this.label17.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label17.SizeF = new System.Drawing.SizeF(75F, 25F);
+            this.label17.StylePriority.UseTextAlignment = false;
+            this.label17.Text = "label17";
+            this.label17.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // label2
+            // 
+            this.label2.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "NOTIFYDETAILS.EMAIL回查")});
+            this.label2.LocationFloat = new DevExpress.Utils.PointFloat(825F, 0F);
+            this.label2.Name = "label2";
+            this.label2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label2.SizeF = new System.Drawing.SizeF(75F, 25F);
+            this.label2.StylePriority.UseTextAlignment = false;
+            this.label2.Text = "label2";
+            this.label2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // label15
+            // 
+            this.label15.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "NOTIFYDETAILS.EMAIL發送")});
+            this.label15.LocationFloat = new DevExpress.Utils.PointFloat(750F, 0F);
+            this.label15.Name = "label15";
+            this.label15.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label15.SizeF = new System.Drawing.SizeF(75F, 25F);
+            this.label15.StylePriority.UseTextAlignment = false;
+            this.label15.Text = "label15";
+            this.label15.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // label13
+            // 
+            this.label13.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "NOTIFYDETAILS.通知最終狀態")});
+            this.label13.LocationFloat = new DevExpress.Utils.PointFloat(662.5F, 0F);
+            this.label13.Name = "label13";
+            this.label13.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label13.SizeF = new System.Drawing.SizeF(87.5F, 25F);
+            this.label13.StylePriority.UseTextAlignment = false;
+            this.label13.Text = "label13";
+            this.label13.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // label11
+            // 
+            this.label11.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "NOTIFYDETAILS.CONTMOBILE")});
+            this.label11.LocationFloat = new DevExpress.Utils.PointFloat(562.5F, 0F);
+            this.label11.Name = "label11";
+            this.label11.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label11.SizeF = new System.Drawing.SizeF(100F, 25F);
+            this.label11.StylePriority.UseTextAlignment = false;
+            this.label11.Text = "label11";
+            this.label11.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label7
+            // 
+            this.label7.CanGrow = false;
+            this.label7.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "NOTIFYDETAILS.EMAIL")});
+            this.label7.LocationFloat = new DevExpress.Utils.PointFloat(337.5F, 0F);
+            this.label7.Name = "label7";
+            this.label7.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label7.SizeF = new System.Drawing.SizeF(225F, 25F);
+            this.label7.StylePriority.UseTextAlignment = false;
+            this.label7.Text = "label7";
+            this.label7.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // lblGiveFlag
+            // 
+            this.lblGiveFlag.LocationFloat = new DevExpress.Utils.PointFloat(275F, 0F);
+            this.lblGiveFlag.Name = "lblGiveFlag";
+            this.lblGiveFlag.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.lblGiveFlag.Scripts.OnBeforePrint = "lblGiveFlag_BeforePrint";
+            this.lblGiveFlag.SizeF = new System.Drawing.SizeF(62.5F, 25F);
+            this.lblGiveFlag.StylePriority.UseTextAlignment = false;
+            this.lblGiveFlag.Text = "lblGiveFlag";
+            this.lblGiveFlag.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // lblObsoleteFlag
+            // 
+            this.lblObsoleteFlag.LocationFloat = new DevExpress.Utils.PointFloat(212.5F, 0F);
+            this.lblObsoleteFlag.Name = "lblObsoleteFlag";
+            this.lblObsoleteFlag.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.lblObsoleteFlag.Scripts.OnBeforePrint = "lblObsoleteFlag_BeforePrint";
+            this.lblObsoleteFlag.SizeF = new System.Drawing.SizeF(62.5F, 25F);
+            this.lblObsoleteFlag.StylePriority.UseTextAlignment = false;
+            this.lblObsoleteFlag.Text = "lblObsoleteFlag";
+            this.lblObsoleteFlag.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // lblUploadFlag
+            // 
+            this.lblUploadFlag.LocationFloat = new DevExpress.Utils.PointFloat(150F, 0F);
+            this.lblUploadFlag.Name = "lblUploadFlag";
+            this.lblUploadFlag.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.lblUploadFlag.Scripts.OnBeforePrint = "lblUploadFlag_BeforePrint";
+            this.lblUploadFlag.SizeF = new System.Drawing.SizeF(62.5F, 25F);
+            this.lblUploadFlag.StylePriority.UseTextAlignment = false;
+            this.lblUploadFlag.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // lblInvId
+            // 
+            this.lblInvId.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "NOTIFYDETAILS.INVID")});
+            this.lblInvId.LocationFloat = new DevExpress.Utils.PointFloat(62.5F, 0F);
+            this.lblInvId.Name = "lblInvId";
+            this.lblInvId.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.lblInvId.SizeF = new System.Drawing.SizeF(87.5F, 25F);
+            this.lblInvId.StylePriority.UseTextAlignment = false;
+            this.lblInvId.Text = "lblInvId";
+            this.lblInvId.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // lblInvDate
+            // 
+            this.lblInvDate.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.lblInvDate.BorderWidth = 1;
+            this.lblInvDate.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+                        new DevExpress.XtraReports.UI.XRBinding("Text", null, "NOTIFYDETAILS.INVDATE", "{0:yyyy/MM/dd}")});
+            this.lblInvDate.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
+            this.lblInvDate.Name = "lblInvDate";
+            this.lblInvDate.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.lblInvDate.SizeF = new System.Drawing.SizeF(62.5F, 25F);
+            this.lblInvDate.StylePriority.UseBorders = false;
+            this.lblInvDate.StylePriority.UseBorderWidth = false;
+            this.lblInvDate.StylePriority.UseTextAlignment = false;
+            this.lblInvDate.Text = "lblInvDate";
+            this.lblInvDate.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // lblTitle
+            // 
+            this.lblTitle.Font = new System.Drawing.Font("新細明體", 20F);
+            this.lblTitle.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.lblTitle.Scripts.OnBeforePrint = "lblTitle_BeforePrint";
+            this.lblTitle.SizeF = new System.Drawing.SizeF(1525F, 36.87499F);
+            this.lblTitle.StylePriority.UseFont = false;
+            this.lblTitle.StylePriority.UseTextAlignment = false;
+            this.lblTitle.Text = "電子發票通知明細";
+            this.lblTitle.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // label29
+            // 
+            this.label29.BackColor = System.Drawing.Color.SteelBlue;
+            this.label29.BorderColor = System.Drawing.Color.SteelBlue;
+            this.label29.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.label29.Font = new System.Drawing.Font("細明體", 9.75F);
+            this.label29.ForeColor = System.Drawing.SystemColors.Window;
+            this.label29.LocationFloat = new DevExpress.Utils.PointFloat(1437.5F, 0F);
+            this.label29.Name = "label29";
+            this.label29.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label29.SizeF = new System.Drawing.SizeF(87.5F, 25F);
+            this.label29.StylePriority.UseBackColor = false;
+            this.label29.StylePriority.UseBorderColor = false;
+            this.label29.StylePriority.UseBorders = false;
+            this.label29.StylePriority.UseFont = false;
+            this.label29.StylePriority.UseForeColor = false;
+            this.label29.StylePriority.UseTextAlignment = false;
+            this.label29.Text = "CM 導流失敗";
+            this.label29.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label28
+            // 
+            this.label28.BackColor = System.Drawing.Color.SteelBlue;
+            this.label28.BorderColor = System.Drawing.Color.SteelBlue;
+            this.label28.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.label28.Font = new System.Drawing.Font("細明體", 9.75F);
+            this.label28.ForeColor = System.Drawing.SystemColors.Window;
+            this.label28.LocationFloat = new DevExpress.Utils.PointFloat(1350F, 0F);
+            this.label28.Name = "label28";
+            this.label28.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label28.SizeF = new System.Drawing.SizeF(87.5F, 25F);
+            this.label28.StylePriority.UseBackColor = false;
+            this.label28.StylePriority.UseBorderColor = false;
+            this.label28.StylePriority.UseBorders = false;
+            this.label28.StylePriority.UseFont = false;
+            this.label28.StylePriority.UseForeColor = false;
+            this.label28.StylePriority.UseTextAlignment = false;
+            this.label28.Text = "CM 導流發送";
+            this.label28.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label26
+            // 
+            this.label26.BackColor = System.Drawing.Color.SteelBlue;
+            this.label26.BorderColor = System.Drawing.Color.SteelBlue;
+            this.label26.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.label26.Font = new System.Drawing.Font("細明體", 9.75F);
+            this.label26.ForeColor = System.Drawing.SystemColors.Window;
+            this.label26.LocationFloat = new DevExpress.Utils.PointFloat(1275F, 0F);
+            this.label26.Name = "label26";
+            this.label26.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label26.SizeF = new System.Drawing.SizeF(75F, 25F);
+            this.label26.StylePriority.UseBackColor = false;
+            this.label26.StylePriority.UseBorderColor = false;
+            this.label26.StylePriority.UseBorders = false;
+            this.label26.StylePriority.UseFont = false;
+            this.label26.StylePriority.UseForeColor = false;
+            this.label26.StylePriority.UseTextAlignment = false;
+            this.label26.Text = "TVMail失敗";
+            this.label26.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label24
+            // 
+            this.label24.BackColor = System.Drawing.Color.SteelBlue;
+            this.label24.BorderColor = System.Drawing.Color.SteelBlue;
+            this.label24.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.label24.Font = new System.Drawing.Font("細明體", 9.75F);
+            this.label24.ForeColor = System.Drawing.SystemColors.Window;
+            this.label24.LocationFloat = new DevExpress.Utils.PointFloat(1200F, 0F);
+            this.label24.Name = "label24";
+            this.label24.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label24.SizeF = new System.Drawing.SizeF(75F, 25F);
+            this.label24.StylePriority.UseBackColor = false;
+            this.label24.StylePriority.UseBorderColor = false;
+            this.label24.StylePriority.UseBorders = false;
+            this.label24.StylePriority.UseFont = false;
+            this.label24.StylePriority.UseForeColor = false;
+            this.label24.StylePriority.UseTextAlignment = false;
+            this.label24.Text = "TVMail發送";
+            this.label24.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label22
+            // 
+            this.label22.BackColor = System.Drawing.Color.SteelBlue;
+            this.label22.BorderColor = System.Drawing.Color.SteelBlue;
+            this.label22.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.label22.Font = new System.Drawing.Font("細明體", 9.75F);
+            this.label22.ForeColor = System.Drawing.SystemColors.Window;
+            this.label22.LocationFloat = new DevExpress.Utils.PointFloat(1125F, 0F);
+            this.label22.Name = "label22";
+            this.label22.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label22.SizeF = new System.Drawing.SizeF(75F, 25F);
+            this.label22.StylePriority.UseBackColor = false;
+            this.label22.StylePriority.UseBorderColor = false;
+            this.label22.StylePriority.UseBorders = false;
+            this.label22.StylePriority.UseFont = false;
+            this.label22.StylePriority.UseForeColor = false;
+            this.label22.StylePriority.UseTextAlignment = false;
+            this.label22.Text = "簡訊失敗";
+            this.label22.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label20
+            // 
+            this.label20.BackColor = System.Drawing.Color.SteelBlue;
+            this.label20.BorderColor = System.Drawing.Color.SteelBlue;
+            this.label20.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.label20.Font = new System.Drawing.Font("細明體", 9.75F);
+            this.label20.ForeColor = System.Drawing.SystemColors.Window;
+            this.label20.LocationFloat = new DevExpress.Utils.PointFloat(1050F, 0F);
+            this.label20.Name = "label20";
+            this.label20.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label20.SizeF = new System.Drawing.SizeF(75F, 25F);
+            this.label20.StylePriority.UseBackColor = false;
+            this.label20.StylePriority.UseBorderColor = false;
+            this.label20.StylePriority.UseBorders = false;
+            this.label20.StylePriority.UseFont = false;
+            this.label20.StylePriority.UseForeColor = false;
+            this.label20.StylePriority.UseTextAlignment = false;
+            this.label20.Text = "簡訊回查";
+            this.label20.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label18
+            // 
+            this.label18.BackColor = System.Drawing.Color.SteelBlue;
+            this.label18.BorderColor = System.Drawing.Color.SteelBlue;
+            this.label18.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.label18.Font = new System.Drawing.Font("細明體", 9.75F);
+            this.label18.ForeColor = System.Drawing.SystemColors.Window;
+            this.label18.LocationFloat = new DevExpress.Utils.PointFloat(975F, 0F);
+            this.label18.Name = "label18";
+            this.label18.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label18.SizeF = new System.Drawing.SizeF(75F, 25F);
+            this.label18.StylePriority.UseBackColor = false;
+            this.label18.StylePriority.UseBorderColor = false;
+            this.label18.StylePriority.UseBorders = false;
+            this.label18.StylePriority.UseFont = false;
+            this.label18.StylePriority.UseForeColor = false;
+            this.label18.StylePriority.UseTextAlignment = false;
+            this.label18.Text = "簡訊發送";
+            this.label18.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label16
+            // 
+            this.label16.BackColor = System.Drawing.Color.SteelBlue;
+            this.label16.BorderColor = System.Drawing.Color.SteelBlue;
+            this.label16.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.label16.Font = new System.Drawing.Font("細明體", 9.75F);
+            this.label16.ForeColor = System.Drawing.SystemColors.Window;
+            this.label16.LocationFloat = new DevExpress.Utils.PointFloat(900F, 0F);
+            this.label16.Name = "label16";
+            this.label16.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label16.SizeF = new System.Drawing.SizeF(75F, 25F);
+            this.label16.StylePriority.UseBackColor = false;
+            this.label16.StylePriority.UseBorderColor = false;
+            this.label16.StylePriority.UseBorders = false;
+            this.label16.StylePriority.UseFont = false;
+            this.label16.StylePriority.UseForeColor = false;
+            this.label16.StylePriority.UseTextAlignment = false;
+            this.label16.Text = "Email失敗";
+            this.label16.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.SteelBlue;
+            this.label1.BorderColor = System.Drawing.Color.SteelBlue;
+            this.label1.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.label1.Font = new System.Drawing.Font("細明體", 9.75F);
+            this.label1.ForeColor = System.Drawing.SystemColors.Window;
+            this.label1.LocationFloat = new DevExpress.Utils.PointFloat(825F, 0F);
+            this.label1.Name = "label1";
+            this.label1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label1.SizeF = new System.Drawing.SizeF(75F, 25F);
+            this.label1.StylePriority.UseBackColor = false;
+            this.label1.StylePriority.UseBorderColor = false;
+            this.label1.StylePriority.UseBorders = false;
+            this.label1.StylePriority.UseFont = false;
+            this.label1.StylePriority.UseForeColor = false;
+            this.label1.StylePriority.UseTextAlignment = false;
+            this.label1.Text = "Email回查";
+            this.label1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label14
+            // 
+            this.label14.BackColor = System.Drawing.Color.SteelBlue;
+            this.label14.BorderColor = System.Drawing.Color.SteelBlue;
+            this.label14.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.label14.Font = new System.Drawing.Font("細明體", 9.75F);
+            this.label14.ForeColor = System.Drawing.SystemColors.Window;
+            this.label14.LocationFloat = new DevExpress.Utils.PointFloat(750F, 0F);
+            this.label14.Name = "label14";
+            this.label14.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label14.SizeF = new System.Drawing.SizeF(75F, 25F);
+            this.label14.StylePriority.UseBackColor = false;
+            this.label14.StylePriority.UseBorderColor = false;
+            this.label14.StylePriority.UseBorders = false;
+            this.label14.StylePriority.UseFont = false;
+            this.label14.StylePriority.UseForeColor = false;
+            this.label14.StylePriority.UseTextAlignment = false;
+            this.label14.Text = "Email發送";
+            this.label14.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label12
+            // 
+            this.label12.BackColor = System.Drawing.Color.SteelBlue;
+            this.label12.BorderColor = System.Drawing.Color.SteelBlue;
+            this.label12.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.label12.Font = new System.Drawing.Font("細明體", 9.75F);
+            this.label12.ForeColor = System.Drawing.SystemColors.Window;
+            this.label12.LocationFloat = new DevExpress.Utils.PointFloat(662.5F, 0F);
+            this.label12.Name = "label12";
+            this.label12.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label12.SizeF = new System.Drawing.SizeF(87.5F, 25F);
+            this.label12.StylePriority.UseBackColor = false;
+            this.label12.StylePriority.UseBorderColor = false;
+            this.label12.StylePriority.UseBorders = false;
+            this.label12.StylePriority.UseFont = false;
+            this.label12.StylePriority.UseForeColor = false;
+            this.label12.StylePriority.UseTextAlignment = false;
+            this.label12.Text = "通知最後狀態";
+            this.label12.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label10
+            // 
+            this.label10.BackColor = System.Drawing.Color.SteelBlue;
+            this.label10.BorderColor = System.Drawing.Color.SteelBlue;
+            this.label10.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.label10.Font = new System.Drawing.Font("細明體", 9.75F);
+            this.label10.ForeColor = System.Drawing.SystemColors.Window;
+            this.label10.LocationFloat = new DevExpress.Utils.PointFloat(562.5F, 0F);
+            this.label10.Name = "label10";
+            this.label10.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label10.SizeF = new System.Drawing.SizeF(100F, 25F);
+            this.label10.StylePriority.UseBackColor = false;
+            this.label10.StylePriority.UseBorderColor = false;
+            this.label10.StylePriority.UseBorders = false;
+            this.label10.StylePriority.UseFont = false;
+            this.label10.StylePriority.UseForeColor = false;
+            this.label10.StylePriority.UseTextAlignment = false;
+            this.label10.Text = "手機";
+            this.label10.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label3
+            // 
+            this.label3.BackColor = System.Drawing.Color.SteelBlue;
+            this.label3.BorderColor = System.Drawing.Color.SteelBlue;
+            this.label3.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.label3.ForeColor = System.Drawing.SystemColors.Window;
+            this.label3.LocationFloat = new DevExpress.Utils.PointFloat(275F, 0F);
+            this.label3.Name = "label3";
+            this.label3.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label3.SizeF = new System.Drawing.SizeF(62.5F, 25F);
+            this.label3.StylePriority.UseBackColor = false;
+            this.label3.StylePriority.UseBorderColor = false;
+            this.label3.StylePriority.UseBorders = false;
+            this.label3.StylePriority.UseForeColor = false;
+            this.label3.StylePriority.UseTextAlignment = false;
+            this.label3.Text = "捐贈註記";
+            this.label3.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label9
+            // 
+            this.label9.BackColor = System.Drawing.Color.SteelBlue;
+            this.label9.BorderColor = System.Drawing.Color.SteelBlue;
+            this.label9.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.label9.Font = new System.Drawing.Font("細明體", 9.75F);
+            this.label9.ForeColor = System.Drawing.SystemColors.Window;
+            this.label9.LocationFloat = new DevExpress.Utils.PointFloat(337.5F, 0F);
+            this.label9.Name = "label9";
+            this.label9.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label9.SizeF = new System.Drawing.SizeF(225F, 25F);
+            this.label9.StylePriority.UseBackColor = false;
+            this.label9.StylePriority.UseBorderColor = false;
+            this.label9.StylePriority.UseBorders = false;
+            this.label9.StylePriority.UseFont = false;
+            this.label9.StylePriority.UseForeColor = false;
+            this.label9.StylePriority.UseTextAlignment = false;
+            this.label9.Text = "Email";
+            this.label9.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label8
+            // 
+            this.label8.BackColor = System.Drawing.Color.SteelBlue;
+            this.label8.BorderColor = System.Drawing.Color.SteelBlue;
+            this.label8.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.label8.ForeColor = System.Drawing.SystemColors.Window;
+            this.label8.LocationFloat = new DevExpress.Utils.PointFloat(212.5F, 0F);
+            this.label8.Name = "label8";
+            this.label8.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label8.SizeF = new System.Drawing.SizeF(62.5F, 25F);
+            this.label8.StylePriority.UseBackColor = false;
+            this.label8.StylePriority.UseBorderColor = false;
+            this.label8.StylePriority.UseBorders = false;
+            this.label8.StylePriority.UseForeColor = false;
+            this.label8.StylePriority.UseTextAlignment = false;
+            this.label8.Text = "作廢註記";
+            this.label8.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label6
+            // 
+            this.label6.BackColor = System.Drawing.Color.SteelBlue;
+            this.label6.BorderColor = System.Drawing.Color.SteelBlue;
+            this.label6.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.label6.ForeColor = System.Drawing.SystemColors.Window;
+            this.label6.LocationFloat = new DevExpress.Utils.PointFloat(150F, 0F);
+            this.label6.Name = "label6";
+            this.label6.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label6.SizeF = new System.Drawing.SizeF(62.5F, 25F);
+            this.label6.StylePriority.UseBackColor = false;
+            this.label6.StylePriority.UseBorderColor = false;
+            this.label6.StylePriority.UseBorders = false;
+            this.label6.StylePriority.UseForeColor = false;
+            this.label6.StylePriority.UseTextAlignment = false;
+            this.label6.Text = "上傳註記";
+            this.label6.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label5
+            // 
+            this.label5.BackColor = System.Drawing.Color.SteelBlue;
+            this.label5.BorderColor = System.Drawing.Color.SteelBlue;
+            this.label5.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.label5.ForeColor = System.Drawing.SystemColors.Window;
+            this.label5.LocationFloat = new DevExpress.Utils.PointFloat(62.5F, 0F);
+            this.label5.Name = "label5";
+            this.label5.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label5.SizeF = new System.Drawing.SizeF(87.5F, 25F);
+            this.label5.StylePriority.UseBackColor = false;
+            this.label5.StylePriority.UseBorderColor = false;
+            this.label5.StylePriority.UseBorders = false;
+            this.label5.StylePriority.UseForeColor = false;
+            this.label5.StylePriority.UseTextAlignment = false;
+            this.label5.Text = "發票號碼";
+            this.label5.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label4
+            // 
+            this.label4.BackColor = System.Drawing.Color.SteelBlue;
+            this.label4.BorderColor = System.Drawing.Color.SteelBlue;
+            this.label4.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.label4.ForeColor = System.Drawing.SystemColors.Window;
+            this.label4.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
+            this.label4.Name = "label4";
+            this.label4.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label4.SizeF = new System.Drawing.SizeF(62.5F, 25F);
+            this.label4.StylePriority.UseBackColor = false;
+            this.label4.StylePriority.UseBorderColor = false;
+            this.label4.StylePriority.UseBorders = false;
+            this.label4.StylePriority.UseForeColor = false;
+            this.label4.StylePriority.UseTextAlignment = false;
+            this.label4.Text = "發票日期";
+            this.label4.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // label33
+            // 
+            this.label33.BackColor = System.Drawing.Color.SteelBlue;
+            this.label33.BorderColor = System.Drawing.Color.SteelBlue;
+            this.label33.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.label33.Font = new System.Drawing.Font("細明體", 9.75F);
+            this.label33.ForeColor = System.Drawing.SystemColors.Window;
+            this.label33.LocationFloat = new DevExpress.Utils.PointFloat(1525F, 0F);
+            this.label33.Name = "label33";
+            this.label33.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label33.SizeF = new System.Drawing.SizeF(58.99988F, 25F);
+            this.label33.StylePriority.UseBackColor = false;
+            this.label33.StylePriority.UseBorderColor = false;
+            this.label33.StylePriority.UseBorders = false;
+            this.label33.StylePriority.UseFont = false;
+            this.label33.StylePriority.UseForeColor = false;
+            this.label33.StylePriority.UseTextAlignment = false;
+            this.label33.Text = "公司別";
+            this.label33.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // oleDbDataAdapter1
+            // 
+            this.oleDbDataAdapter1.SelectCommand = this.oleDbCommand1;
+            this.oleDbDataAdapter1.TableMappings.AddRange(new System.Data.Common.DataTableMapping[] {
+                        new System.Data.Common.DataTableMapping("Table", "NOTIFYDETAILS", new System.Data.Common.DataColumnMapping[0])});
+            // 
+            // oleDbCommand1
+            // 
+            this.oleDbCommand1.CommandText = resources.GetString("oleDbCommand1.CommandText");
+            this.oleDbCommand1.Connection = this.oleDbConnection1;
+            // 
+            // oleDbConnection1
+            // 
+            this.oleDbConnection1.ConnectionString = "Provider=MSDAORA.1;Password=cctv;User ID=cctv;Data Source=rdknet2;Persist Securit" +
+                "y Info=True";
+            // 
+            // details1
+            // 
+            this.details1.DataSetName = "Details";
+            this.details1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // controlStyle1
+            // 
+            this.controlStyle1.BackColor = System.Drawing.SystemColors.Info;
+            this.controlStyle1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.controlStyle1.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+                        | DevExpress.XtraPrinting.BorderSide.Right) 
+                        | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.controlStyle1.BorderWidth = 0;
+            this.controlStyle1.Name = "controlStyle1";
+            // 
+            // paraPrintEn
+            // 
+            this.paraPrintEn.Name = "paraPrintEn";
+            this.paraPrintEn.Value = "";
+            // 
+            // rptC06_Details
+            // 
+            this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+                        this.TopMargin,
+                        this.Detail,
+                        this.BottomMargin,
+                        this.ReportHeader,
+                        this.PageHeader});
+            this.DataAdapter = this.oleDbDataAdapter1;
+            this.DataMember = "NOTIFYDETAILS";
+            this.DataSource = this.details1;
+            this.ExportOptions.Xls.ShowGridLines = true;
+            this.ExportOptions.Xls.TextExportMode = DevExpress.XtraPrinting.TextExportMode.Text;
+            this.ExportOptions.Xlsx.ShowGridLines = true;
+            this.Font = new System.Drawing.Font("新細明體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Landscape = true;
+            this.Margins = new System.Drawing.Printing.Margins(30, 30, 30, 32);
+            this.Name = "rptC06_Details";
+            this.PageHeight = 1169;
+            this.PageWidth = 1654;
+            this.PaperKind = System.Drawing.Printing.PaperKind.A3;
+            this.Parameters.AddRange(new DevExpress.XtraReports.Parameters.Parameter[] {
+                        this.paraPrintEn});
+            this.RequestParameters = false;
+            this.ScriptLanguage = DevExpress.XtraReports.ScriptLanguage.VisualBasic;
+            this.Scripts.OnBeforePrint = "rptC06_Details_BeforePrint";
+            this.ScriptsSource = resources.GetString("$this.ScriptsSource");
+            this.StyleSheet.AddRange(new DevExpress.XtraReports.UI.XRControlStyle[] {
+                        this.controlStyle1});
+            this.Version = "10.1";
+            ((System.ComponentModel.ISupportInitialize)(this.details1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
+        }
+    }
+}
+namespace XtraReportSerialization {
+    
+    /// <summary>
+    ///Represents a strongly typed in-memory cache of data.
+    ///</summary>
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "2.0.0.0")]
+    [global::System.Serializable()]
+    [global::System.ComponentModel.DesignerCategoryAttribute("code")]
+    [global::System.ComponentModel.ToolboxItem(true)]
+    [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedDataSetSchema")]
+    [global::System.Xml.Serialization.XmlRootAttribute("Details")]
+    [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.DataSet")]
+    public partial class Details : global::System.Data.DataSet {
+        private NOTIFYDETAILSDataTable tableNOTIFYDETAILS;
+        private global::System.Data.SchemaSerializationMode _schemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public Details() {
+            this.BeginInit();
+            this.InitClass();
+            global::System.ComponentModel.CollectionChangeEventHandler schemaChangedHandler = new global::System.ComponentModel.CollectionChangeEventHandler(this.SchemaChanged);
+            base.Tables.CollectionChanged += schemaChangedHandler;
+            base.Relations.CollectionChanged += schemaChangedHandler;
+            this.EndInit();
+        }
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        protected Details(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+                base(info, context, false) {
+            if ((this.IsBinarySerialized(info, context) == true)) {
+                this.InitVars(false);
+                global::System.ComponentModel.CollectionChangeEventHandler schemaChangedHandler1 = new global::System.ComponentModel.CollectionChangeEventHandler(this.SchemaChanged);
+                this.Tables.CollectionChanged += schemaChangedHandler1;
+                this.Relations.CollectionChanged += schemaChangedHandler1;
+                return;
+            }
+            string strSchema = ((string)(info.GetValue("XmlSchema", typeof(string))));
+            if ((this.DetermineSchemaSerializationMode(info, context) == global::System.Data.SchemaSerializationMode.IncludeSchema)) {
+                global::System.Data.DataSet ds = new global::System.Data.DataSet();
+                ds.ReadXmlSchema(new global::System.Xml.XmlTextReader(new global::System.IO.StringReader(strSchema)));
+                if ((ds.Tables["NOTIFYDETAILS"] != null)) {
+                    base.Tables.Add(new NOTIFYDETAILSDataTable(ds.Tables["NOTIFYDETAILS"]));
+                }
+                this.DataSetName = ds.DataSetName;
+                this.Prefix = ds.Prefix;
+                this.Namespace = ds.Namespace;
+                this.Locale = ds.Locale;
+                this.CaseSensitive = ds.CaseSensitive;
+                this.EnforceConstraints = ds.EnforceConstraints;
+                this.Merge(ds, false, global::System.Data.MissingSchemaAction.Add);
+                this.InitVars();
+            }
+            else {
+                this.ReadXmlSchema(new global::System.Xml.XmlTextReader(new global::System.IO.StringReader(strSchema)));
+            }
+            this.GetSerializationData(info, context);
+            global::System.ComponentModel.CollectionChangeEventHandler schemaChangedHandler = new global::System.ComponentModel.CollectionChangeEventHandler(this.SchemaChanged);
+            base.Tables.CollectionChanged += schemaChangedHandler;
+            this.Relations.CollectionChanged += schemaChangedHandler;
+        }
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.ComponentModel.Browsable(false)]
+        [global::System.ComponentModel.DesignerSerializationVisibility(global::System.ComponentModel.DesignerSerializationVisibility.Content)]
+        public NOTIFYDETAILSDataTable NOTIFYDETAILS {
+            get {
+                return this.tableNOTIFYDETAILS;
+            }
+        }
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.ComponentModel.BrowsableAttribute(true)]
+        [global::System.ComponentModel.DesignerSerializationVisibilityAttribute(global::System.ComponentModel.DesignerSerializationVisibility.Visible)]
+        public override global::System.Data.SchemaSerializationMode SchemaSerializationMode {
+            get {
+                return this._schemaSerializationMode;
+            }
+            set {
+                this._schemaSerializationMode = value;
+            }
+        }
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.ComponentModel.DesignerSerializationVisibilityAttribute(global::System.ComponentModel.DesignerSerializationVisibility.Hidden)]
+        public new global::System.Data.DataTableCollection Tables {
+            get {
+                return base.Tables;
+            }
+        }
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.ComponentModel.DesignerSerializationVisibilityAttribute(global::System.ComponentModel.DesignerSerializationVisibility.Hidden)]
+        public new global::System.Data.DataRelationCollection Relations {
+            get {
+                return base.Relations;
+            }
+        }
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        protected override void InitializeDerivedDataSet() {
+            this.BeginInit();
+            this.InitClass();
+            this.EndInit();
+        }
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public override global::System.Data.DataSet Clone() {
+            Details cln = ((Details)(base.Clone()));
+            cln.InitVars();
+            cln.SchemaSerializationMode = this.SchemaSerializationMode;
+            return cln;
+        }
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        protected override bool ShouldSerializeTables() {
+            return false;
+        }
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        protected override bool ShouldSerializeRelations() {
+            return false;
+        }
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        protected override void ReadXmlSerializable(global::System.Xml.XmlReader reader) {
+            if ((this.DetermineSchemaSerializationMode(reader) == global::System.Data.SchemaSerializationMode.IncludeSchema)) {
+                this.Reset();
+                global::System.Data.DataSet ds = new global::System.Data.DataSet();
+                ds.ReadXml(reader);
+                if ((ds.Tables["NOTIFYDETAILS"] != null)) {
+                    base.Tables.Add(new NOTIFYDETAILSDataTable(ds.Tables["NOTIFYDETAILS"]));
+                }
+                this.DataSetName = ds.DataSetName;
+                this.Prefix = ds.Prefix;
+                this.Namespace = ds.Namespace;
+                this.Locale = ds.Locale;
+                this.CaseSensitive = ds.CaseSensitive;
+                this.EnforceConstraints = ds.EnforceConstraints;
+                this.Merge(ds, false, global::System.Data.MissingSchemaAction.Add);
+                this.InitVars();
+            }
+            else {
+                this.ReadXml(reader);
+                this.InitVars();
+            }
+        }
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        protected override global::System.Xml.Schema.XmlSchema GetSchemaSerializable() {
+            global::System.IO.MemoryStream stream = new global::System.IO.MemoryStream();
+            this.WriteXmlSchema(new global::System.Xml.XmlTextWriter(stream, null));
+            stream.Position = 0;
+            return global::System.Xml.Schema.XmlSchema.Read(new global::System.Xml.XmlTextReader(stream), null);
+        }
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        internal void InitVars() {
+            this.InitVars(true);
+        }
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        internal void InitVars(bool initTable) {
+            this.tableNOTIFYDETAILS = ((NOTIFYDETAILSDataTable)(base.Tables["NOTIFYDETAILS"]));
+            if ((initTable == true)) {
+                if ((this.tableNOTIFYDETAILS != null)) {
+                    this.tableNOTIFYDETAILS.InitVars();
+                }
+            }
+        }
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void InitClass() {
+            this.DataSetName = "Details";
+            this.Prefix = "";
+            this.EnforceConstraints = true;
+            this.SchemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
+            this.tableNOTIFYDETAILS = new NOTIFYDETAILSDataTable();
+            base.Tables.Add(this.tableNOTIFYDETAILS);
+        }
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private bool ShouldSerializeNOTIFYDETAILS() {
+            return false;
+        }
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void SchemaChanged(object sender, global::System.ComponentModel.CollectionChangeEventArgs e) {
+            if ((e.Action == global::System.ComponentModel.CollectionChangeAction.Remove)) {
+                this.InitVars();
+            }
+        }
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedDataSetSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
+            Details ds = new Details();
+            global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
+            global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
+            global::System.Xml.Schema.XmlSchemaAny any = new global::System.Xml.Schema.XmlSchemaAny();
+            any.Namespace = ds.Namespace;
+            sequence.Items.Add(any);
+            type.Particle = sequence;
+            global::System.Xml.Schema.XmlSchema dsSchema = ds.GetSchemaSerializable();
+            if (xs.Contains(dsSchema.TargetNamespace)) {
+                global::System.IO.MemoryStream s1 = new global::System.IO.MemoryStream();
+                global::System.IO.MemoryStream s2 = new global::System.IO.MemoryStream();
+                try {
+                    global::System.Xml.Schema.XmlSchema schema = null;
+                    dsSchema.Write(s1);
+                    for (global::System.Collections.IEnumerator schemas = xs.Schemas(dsSchema.TargetNamespace).GetEnumerator(); schemas.MoveNext(); ) {
+                        schema = ((global::System.Xml.Schema.XmlSchema)(schemas.Current));
+                        s2.SetLength(0);
+                        schema.Write(s2);
+                        if ((s1.Length == s2.Length)) {
+                            s1.Position = 0;
+                            s2.Position = 0;
+                            for (; ((s1.Position != s1.Length) 
+                                        && (s1.ReadByte() == s2.ReadByte())); ) {
+                                ;
+                            }
+                            if ((s1.Position == s1.Length)) {
+                                return type;
+                            }
+                        }
+                    }
+                }
+                finally {
+                    if ((s1 != null)) {
+                        s1.Close();
+                    }
+                    if ((s2 != null)) {
+                        s2.Close();
+                    }
+                }
+            }
+            xs.Add(dsSchema);
+            return type;
+        }
+        public delegate void NOTIFYDETAILSRowChangeEventHandler(object sender, NOTIFYDETAILSRowChangeEvent e);
+        /// <summary>
+        ///Represents the strongly named DataTable class.
+        ///</summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "2.0.0.0")]
+        [global::System.Serializable()]
+        [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
+        public partial class NOTIFYDETAILSDataTable : global::System.Data.DataTable, global::System.Collections.IEnumerable {
+            private global::System.Data.DataColumn columnIDENTIFYID1;
+            private global::System.Data.DataColumn columnIDENTIFYID2;
+            private global::System.Data.DataColumn columnCHECKNO;
+            private global::System.Data.DataColumn columnINVID;
+            private global::System.Data.DataColumn columnCANMODIFY;
+            private global::System.Data.DataColumn columnINVDATE;
+            private global::System.Data.DataColumn columnCHARGEDATE;
+            private global::System.Data.DataColumn columnCOMPID;
+            private global::System.Data.DataColumn columnCUSTID;
+            private global::System.Data.DataColumn columnCUSTSNAME;
+            private global::System.Data.DataColumn columnINVTITLE;
+            private global::System.Data.DataColumn columnZIPCODE;
+            private global::System.Data.DataColumn columnINVADDR;
+            private global::System.Data.DataColumn columnMAILADDR;
+            private global::System.Data.DataColumn columnBUSINESSID;
+            private global::System.Data.DataColumn columnINVFORMAT;
+            private global::System.Data.DataColumn columnTAXTYPE;
+            private global::System.Data.DataColumn columnTAXRATE;
+            private global::System.Data.DataColumn columnSALEAMOUNT;
+            private global::System.Data.DataColumn columnTAXAMOUNT;
+            private global::System.Data.DataColumn columnINVAMOUNT;
+            private global::System.Data.DataColumn columnPRINTCOUNT;
+            private global::System.Data.DataColumn columnISPAST;
+            private global::System.Data.DataColumn columnISOBSOLETE;
+            private global::System.Data.DataColumn columnOBSOLETEID;
+            private global::System.Data.DataColumn columnOBSOLETEREASON;
+            private global::System.Data.DataColumn columnHOWTOCREATE;
+            private global::System.Data.DataColumn columnMEMO1;
+            private global::System.Data.DataColumn columnMEMO2;
+            private global::System.Data.DataColumn columnUPTTIME;
+            private global::System.Data.DataColumn columnUPTEN;
+            private global::System.Data.DataColumn columnPRINTFUN;
+            private global::System.Data.DataColumn columnPRINTTIME;
+            private global::System.Data.DataColumn columnMAININVID;
+            private global::System.Data.DataColumn columnMAINSALEAMOUNT;
+            private global::System.Data.DataColumn columnMAINTAXAMOUNT;
+            private global::System.Data.DataColumn columnMAININVAMOUNT;
+            private global::System.Data.DataColumn columnINSTADDR;
+            private global::System.Data.DataColumn columnINVUSEID;
+            private global::System.Data.DataColumn columnINVUSEDESC;
+            private global::System.Data.DataColumn columnINVOICEKIND;
+            private global::System.Data.DataColumn columnPRIZETYPE;
+            private global::System.Data.DataColumn columnEMAIL;
+            private global::System.Data.DataColumn columnCONTMOBILE;
+            private global::System.Data.DataColumn columnGIVEUNITID;
+            private global::System.Data.DataColumn columnGIVEUNITDESC;
+            private global::System.Data.DataColumn columnUPLOADFLAG;
+            private global::System.Data.DataColumn columnPRINTEN;
+            private global::System.Data.DataColumn column作廢註記;
+            private global::System.Data.DataColumn column捐贈註記;
+            private global::System.Data.DataColumn column通知最終狀態;
+            private global::System.Data.DataColumn columnEMAIL發送;
+            private global::System.Data.DataColumn columnEMAIL回查;
+            private global::System.Data.DataColumn columnEMAIL失敗;
+            private global::System.Data.DataColumn column簡訊發送;
+            private global::System.Data.DataColumn column簡訊回查;
+            private global::System.Data.DataColumn column簡訊失敗;
+            private global::System.Data.DataColumn columnTVMAIL發送;
+            private global::System.Data.DataColumn columnTVMAIL失敗;
+            private global::System.Data.DataColumn columnCM導流發送;
+            private global::System.Data.DataColumn columnCM導流失敗;
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public NOTIFYDETAILSDataTable() {
+                this.TableName = "NOTIFYDETAILS";
+                this.BeginInit();
+                this.InitClass();
+                this.EndInit();
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            internal NOTIFYDETAILSDataTable(global::System.Data.DataTable table) {
+                this.TableName = table.TableName;
+                if ((table.CaseSensitive != table.DataSet.CaseSensitive)) {
+                    this.CaseSensitive = table.CaseSensitive;
+                }
+                if ((table.Locale.ToString() != table.DataSet.Locale.ToString())) {
+                    this.Locale = table.Locale;
+                }
+                if ((table.Namespace != table.DataSet.Namespace)) {
+                    this.Namespace = table.Namespace;
+                }
+                this.Prefix = table.Prefix;
+                this.MinimumCapacity = table.MinimumCapacity;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            protected NOTIFYDETAILSDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+                    base(info, context) {
+                this.InitVars();
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn IDENTIFYID1Column {
+                get {
+                    return this.columnIDENTIFYID1;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn IDENTIFYID2Column {
+                get {
+                    return this.columnIDENTIFYID2;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn CHECKNOColumn {
+                get {
+                    return this.columnCHECKNO;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn INVIDColumn {
+                get {
+                    return this.columnINVID;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn CANMODIFYColumn {
+                get {
+                    return this.columnCANMODIFY;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn INVDATEColumn {
+                get {
+                    return this.columnINVDATE;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn CHARGEDATEColumn {
+                get {
+                    return this.columnCHARGEDATE;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn COMPIDColumn {
+                get {
+                    return this.columnCOMPID;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn CUSTIDColumn {
+                get {
+                    return this.columnCUSTID;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn CUSTSNAMEColumn {
+                get {
+                    return this.columnCUSTSNAME;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn INVTITLEColumn {
+                get {
+                    return this.columnINVTITLE;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn ZIPCODEColumn {
+                get {
+                    return this.columnZIPCODE;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn INVADDRColumn {
+                get {
+                    return this.columnINVADDR;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn MAILADDRColumn {
+                get {
+                    return this.columnMAILADDR;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn BUSINESSIDColumn {
+                get {
+                    return this.columnBUSINESSID;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn INVFORMATColumn {
+                get {
+                    return this.columnINVFORMAT;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn TAXTYPEColumn {
+                get {
+                    return this.columnTAXTYPE;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn TAXRATEColumn {
+                get {
+                    return this.columnTAXRATE;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn SALEAMOUNTColumn {
+                get {
+                    return this.columnSALEAMOUNT;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn TAXAMOUNTColumn {
+                get {
+                    return this.columnTAXAMOUNT;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn INVAMOUNTColumn {
+                get {
+                    return this.columnINVAMOUNT;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn PRINTCOUNTColumn {
+                get {
+                    return this.columnPRINTCOUNT;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn ISPASTColumn {
+                get {
+                    return this.columnISPAST;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn ISOBSOLETEColumn {
+                get {
+                    return this.columnISOBSOLETE;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn OBSOLETEIDColumn {
+                get {
+                    return this.columnOBSOLETEID;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn OBSOLETEREASONColumn {
+                get {
+                    return this.columnOBSOLETEREASON;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn HOWTOCREATEColumn {
+                get {
+                    return this.columnHOWTOCREATE;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn MEMO1Column {
+                get {
+                    return this.columnMEMO1;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn MEMO2Column {
+                get {
+                    return this.columnMEMO2;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn UPTTIMEColumn {
+                get {
+                    return this.columnUPTTIME;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn UPTENColumn {
+                get {
+                    return this.columnUPTEN;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn PRINTFUNColumn {
+                get {
+                    return this.columnPRINTFUN;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn PRINTTIMEColumn {
+                get {
+                    return this.columnPRINTTIME;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn MAININVIDColumn {
+                get {
+                    return this.columnMAININVID;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn MAINSALEAMOUNTColumn {
+                get {
+                    return this.columnMAINSALEAMOUNT;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn MAINTAXAMOUNTColumn {
+                get {
+                    return this.columnMAINTAXAMOUNT;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn MAININVAMOUNTColumn {
+                get {
+                    return this.columnMAININVAMOUNT;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn INSTADDRColumn {
+                get {
+                    return this.columnINSTADDR;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn INVUSEIDColumn {
+                get {
+                    return this.columnINVUSEID;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn INVUSEDESCColumn {
+                get {
+                    return this.columnINVUSEDESC;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn INVOICEKINDColumn {
+                get {
+                    return this.columnINVOICEKIND;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn PRIZETYPEColumn {
+                get {
+                    return this.columnPRIZETYPE;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn EMAILColumn {
+                get {
+                    return this.columnEMAIL;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn CONTMOBILEColumn {
+                get {
+                    return this.columnCONTMOBILE;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn GIVEUNITIDColumn {
+                get {
+                    return this.columnGIVEUNITID;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn GIVEUNITDESCColumn {
+                get {
+                    return this.columnGIVEUNITDESC;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn UPLOADFLAGColumn {
+                get {
+                    return this.columnUPLOADFLAG;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn PRINTENColumn {
+                get {
+                    return this.columnPRINTEN;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn 作廢註記Column {
+                get {
+                    return this.column作廢註記;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn 捐贈註記Column {
+                get {
+                    return this.column捐贈註記;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn 通知最終狀態Column {
+                get {
+                    return this.column通知最終狀態;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn EMAIL發送Column {
+                get {
+                    return this.columnEMAIL發送;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn EMAIL回查Column {
+                get {
+                    return this.columnEMAIL回查;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn EMAIL失敗Column {
+                get {
+                    return this.columnEMAIL失敗;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn 簡訊發送Column {
+                get {
+                    return this.column簡訊發送;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn 簡訊回查Column {
+                get {
+                    return this.column簡訊回查;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn 簡訊失敗Column {
+                get {
+                    return this.column簡訊失敗;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn TVMAIL發送Column {
+                get {
+                    return this.columnTVMAIL發送;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn TVMAIL失敗Column {
+                get {
+                    return this.columnTVMAIL失敗;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn CM導流發送Column {
+                get {
+                    return this.columnCM導流發送;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn CM導流失敗Column {
+                get {
+                    return this.columnCM導流失敗;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.ComponentModel.Browsable(false)]
+            public int Count {
+                get {
+                    return this.Rows.Count;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public NOTIFYDETAILSRow this[int index] {
+                get {
+                    return ((NOTIFYDETAILSRow)(this.Rows[index]));
+                }
+            }
+            public event NOTIFYDETAILSRowChangeEventHandler NOTIFYDETAILSRowChanging;
+            public event NOTIFYDETAILSRowChangeEventHandler NOTIFYDETAILSRowChanged;
+            public event NOTIFYDETAILSRowChangeEventHandler NOTIFYDETAILSRowDeleting;
+            public event NOTIFYDETAILSRowChangeEventHandler NOTIFYDETAILSRowDeleted;
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void AddNOTIFYDETAILSRow(NOTIFYDETAILSRow row) {
+                this.Rows.Add(row);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public NOTIFYDETAILSRow AddNOTIFYDETAILSRow(
+                        string IDENTIFYID1, 
+                        decimal IDENTIFYID2, 
+                        string CHECKNO, 
+                        string INVID, 
+                        string CANMODIFY, 
+                        System.DateTime INVDATE, 
+                        System.DateTime CHARGEDATE, 
+                        string COMPID, 
+                        string CUSTID, 
+                        string CUSTSNAME, 
+                        string INVTITLE, 
+                        string ZIPCODE, 
+                        string INVADDR, 
+                        string MAILADDR, 
+                        string BUSINESSID, 
+                        string INVFORMAT, 
+                        string TAXTYPE, 
+                        decimal TAXRATE, 
+                        decimal SALEAMOUNT, 
+                        decimal TAXAMOUNT, 
+                        decimal INVAMOUNT, 
+                        decimal PRINTCOUNT, 
+                        string ISPAST, 
+                        string ISOBSOLETE, 
+                        string OBSOLETEID, 
+                        string OBSOLETEREASON, 
+                        string HOWTOCREATE, 
+                        string MEMO1, 
+                        string MEMO2, 
+                        System.DateTime UPTTIME, 
+                        string UPTEN, 
+                        string PRINTFUN, 
+                        System.DateTime PRINTTIME, 
+                        string MAININVID, 
+                        decimal MAINSALEAMOUNT, 
+                        decimal MAINTAXAMOUNT, 
+                        decimal MAININVAMOUNT, 
+                        string INSTADDR, 
+                        decimal INVUSEID, 
+                        string INVUSEDESC, 
+                        decimal INVOICEKIND, 
+                        decimal PRIZETYPE, 
+                        string EMAIL, 
+                        string CONTMOBILE, 
+                        decimal GIVEUNITID, 
+                        string GIVEUNITDESC, 
+                        decimal UPLOADFLAG, 
+                        string PRINTEN, 
+                        decimal 作廢註記, 
+                        decimal 捐贈註記, 
+                        decimal 通知最終狀態, 
+                        decimal EMAIL發送, 
+                        decimal EMAIL回查, 
+                        decimal EMAIL失敗, 
+                        decimal 簡訊發送, 
+                        decimal 簡訊回查, 
+                        decimal 簡訊失敗, 
+                        decimal TVMAIL發送, 
+                        decimal TVMAIL失敗, 
+                        decimal CM導流發送, 
+                        decimal CM導流失敗) {
+                NOTIFYDETAILSRow rowNOTIFYDETAILSRow = ((NOTIFYDETAILSRow)(this.NewRow()));
+                object[] columnValuesArray = new object[] {
+                        IDENTIFYID1,
+                        IDENTIFYID2,
+                        CHECKNO,
+                        INVID,
+                        CANMODIFY,
+                        INVDATE,
+                        CHARGEDATE,
+                        COMPID,
+                        CUSTID,
+                        CUSTSNAME,
+                        INVTITLE,
+                        ZIPCODE,
+                        INVADDR,
+                        MAILADDR,
+                        BUSINESSID,
+                        INVFORMAT,
+                        TAXTYPE,
+                        TAXRATE,
+                        SALEAMOUNT,
+                        TAXAMOUNT,
+                        INVAMOUNT,
+                        PRINTCOUNT,
+                        ISPAST,
+                        ISOBSOLETE,
+                        OBSOLETEID,
+                        OBSOLETEREASON,
+                        HOWTOCREATE,
+                        MEMO1,
+                        MEMO2,
+                        UPTTIME,
+                        UPTEN,
+                        PRINTFUN,
+                        PRINTTIME,
+                        MAININVID,
+                        MAINSALEAMOUNT,
+                        MAINTAXAMOUNT,
+                        MAININVAMOUNT,
+                        INSTADDR,
+                        INVUSEID,
+                        INVUSEDESC,
+                        INVOICEKIND,
+                        PRIZETYPE,
+                        EMAIL,
+                        CONTMOBILE,
+                        GIVEUNITID,
+                        GIVEUNITDESC,
+                        UPLOADFLAG,
+                        PRINTEN,
+                        作廢註記,
+                        捐贈註記,
+                        通知最終狀態,
+                        EMAIL發送,
+                        EMAIL回查,
+                        EMAIL失敗,
+                        簡訊發送,
+                        簡訊回查,
+                        簡訊失敗,
+                        TVMAIL發送,
+                        TVMAIL失敗,
+                        CM導流發送,
+                        CM導流失敗};
+                rowNOTIFYDETAILSRow.ItemArray = columnValuesArray;
+                this.Rows.Add(rowNOTIFYDETAILSRow);
+                return rowNOTIFYDETAILSRow;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public virtual global::System.Collections.IEnumerator GetEnumerator() {
+                return this.Rows.GetEnumerator();
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public override global::System.Data.DataTable Clone() {
+                NOTIFYDETAILSDataTable cln = ((NOTIFYDETAILSDataTable)(base.Clone()));
+                cln.InitVars();
+                return cln;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            protected override global::System.Data.DataTable CreateInstance() {
+                return new NOTIFYDETAILSDataTable();
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            internal void InitVars() {
+                this.columnIDENTIFYID1 = base.Columns["IDENTIFYID1"];
+                this.columnIDENTIFYID2 = base.Columns["IDENTIFYID2"];
+                this.columnCHECKNO = base.Columns["CHECKNO"];
+                this.columnINVID = base.Columns["INVID"];
+                this.columnCANMODIFY = base.Columns["CANMODIFY"];
+                this.columnINVDATE = base.Columns["INVDATE"];
+                this.columnCHARGEDATE = base.Columns["CHARGEDATE"];
+                this.columnCOMPID = base.Columns["COMPID"];
+                this.columnCUSTID = base.Columns["CUSTID"];
+                this.columnCUSTSNAME = base.Columns["CUSTSNAME"];
+                this.columnINVTITLE = base.Columns["INVTITLE"];
+                this.columnZIPCODE = base.Columns["ZIPCODE"];
+                this.columnINVADDR = base.Columns["INVADDR"];
+                this.columnMAILADDR = base.Columns["MAILADDR"];
+                this.columnBUSINESSID = base.Columns["BUSINESSID"];
+                this.columnINVFORMAT = base.Columns["INVFORMAT"];
+                this.columnTAXTYPE = base.Columns["TAXTYPE"];
+                this.columnTAXRATE = base.Columns["TAXRATE"];
+                this.columnSALEAMOUNT = base.Columns["SALEAMOUNT"];
+                this.columnTAXAMOUNT = base.Columns["TAXAMOUNT"];
+                this.columnINVAMOUNT = base.Columns["INVAMOUNT"];
+                this.columnPRINTCOUNT = base.Columns["PRINTCOUNT"];
+                this.columnISPAST = base.Columns["ISPAST"];
+                this.columnISOBSOLETE = base.Columns["ISOBSOLETE"];
+                this.columnOBSOLETEID = base.Columns["OBSOLETEID"];
+                this.columnOBSOLETEREASON = base.Columns["OBSOLETEREASON"];
+                this.columnHOWTOCREATE = base.Columns["HOWTOCREATE"];
+                this.columnMEMO1 = base.Columns["MEMO1"];
+                this.columnMEMO2 = base.Columns["MEMO2"];
+                this.columnUPTTIME = base.Columns["UPTTIME"];
+                this.columnUPTEN = base.Columns["UPTEN"];
+                this.columnPRINTFUN = base.Columns["PRINTFUN"];
+                this.columnPRINTTIME = base.Columns["PRINTTIME"];
+                this.columnMAININVID = base.Columns["MAININVID"];
+                this.columnMAINSALEAMOUNT = base.Columns["MAINSALEAMOUNT"];
+                this.columnMAINTAXAMOUNT = base.Columns["MAINTAXAMOUNT"];
+                this.columnMAININVAMOUNT = base.Columns["MAININVAMOUNT"];
+                this.columnINSTADDR = base.Columns["INSTADDR"];
+                this.columnINVUSEID = base.Columns["INVUSEID"];
+                this.columnINVUSEDESC = base.Columns["INVUSEDESC"];
+                this.columnINVOICEKIND = base.Columns["INVOICEKIND"];
+                this.columnPRIZETYPE = base.Columns["PRIZETYPE"];
+                this.columnEMAIL = base.Columns["EMAIL"];
+                this.columnCONTMOBILE = base.Columns["CONTMOBILE"];
+                this.columnGIVEUNITID = base.Columns["GIVEUNITID"];
+                this.columnGIVEUNITDESC = base.Columns["GIVEUNITDESC"];
+                this.columnUPLOADFLAG = base.Columns["UPLOADFLAG"];
+                this.columnPRINTEN = base.Columns["PRINTEN"];
+                this.column作廢註記 = base.Columns["作廢註記"];
+                this.column捐贈註記 = base.Columns["捐贈註記"];
+                this.column通知最終狀態 = base.Columns["通知最終狀態"];
+                this.columnEMAIL發送 = base.Columns["EMAIL發送"];
+                this.columnEMAIL回查 = base.Columns["EMAIL回查"];
+                this.columnEMAIL失敗 = base.Columns["EMAIL失敗"];
+                this.column簡訊發送 = base.Columns["簡訊發送"];
+                this.column簡訊回查 = base.Columns["簡訊回查"];
+                this.column簡訊失敗 = base.Columns["簡訊失敗"];
+                this.columnTVMAIL發送 = base.Columns["TVMAIL發送"];
+                this.columnTVMAIL失敗 = base.Columns["TVMAIL失敗"];
+                this.columnCM導流發送 = base.Columns["CM導流發送"];
+                this.columnCM導流失敗 = base.Columns["CM導流失敗"];
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            private void InitClass() {
+                this.columnIDENTIFYID1 = new global::System.Data.DataColumn("IDENTIFYID1", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnIDENTIFYID1);
+                this.columnIDENTIFYID2 = new global::System.Data.DataColumn("IDENTIFYID2", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnIDENTIFYID2);
+                this.columnCHECKNO = new global::System.Data.DataColumn("CHECKNO", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnCHECKNO);
+                this.columnINVID = new global::System.Data.DataColumn("INVID", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnINVID);
+                this.columnCANMODIFY = new global::System.Data.DataColumn("CANMODIFY", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnCANMODIFY);
+                this.columnINVDATE = new global::System.Data.DataColumn("INVDATE", typeof(global::System.DateTime), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnINVDATE);
+                this.columnCHARGEDATE = new global::System.Data.DataColumn("CHARGEDATE", typeof(global::System.DateTime), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnCHARGEDATE);
+                this.columnCOMPID = new global::System.Data.DataColumn("COMPID", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnCOMPID);
+                this.columnCUSTID = new global::System.Data.DataColumn("CUSTID", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnCUSTID);
+                this.columnCUSTSNAME = new global::System.Data.DataColumn("CUSTSNAME", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnCUSTSNAME);
+                this.columnINVTITLE = new global::System.Data.DataColumn("INVTITLE", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnINVTITLE);
+                this.columnZIPCODE = new global::System.Data.DataColumn("ZIPCODE", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnZIPCODE);
+                this.columnINVADDR = new global::System.Data.DataColumn("INVADDR", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnINVADDR);
+                this.columnMAILADDR = new global::System.Data.DataColumn("MAILADDR", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnMAILADDR);
+                this.columnBUSINESSID = new global::System.Data.DataColumn("BUSINESSID", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnBUSINESSID);
+                this.columnINVFORMAT = new global::System.Data.DataColumn("INVFORMAT", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnINVFORMAT);
+                this.columnTAXTYPE = new global::System.Data.DataColumn("TAXTYPE", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnTAXTYPE);
+                this.columnTAXRATE = new global::System.Data.DataColumn("TAXRATE", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnTAXRATE);
+                this.columnSALEAMOUNT = new global::System.Data.DataColumn("SALEAMOUNT", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnSALEAMOUNT);
+                this.columnTAXAMOUNT = new global::System.Data.DataColumn("TAXAMOUNT", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnTAXAMOUNT);
+                this.columnINVAMOUNT = new global::System.Data.DataColumn("INVAMOUNT", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnINVAMOUNT);
+                this.columnPRINTCOUNT = new global::System.Data.DataColumn("PRINTCOUNT", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnPRINTCOUNT);
+                this.columnISPAST = new global::System.Data.DataColumn("ISPAST", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnISPAST);
+                this.columnISOBSOLETE = new global::System.Data.DataColumn("ISOBSOLETE", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnISOBSOLETE);
+                this.columnOBSOLETEID = new global::System.Data.DataColumn("OBSOLETEID", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnOBSOLETEID);
+                this.columnOBSOLETEREASON = new global::System.Data.DataColumn("OBSOLETEREASON", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnOBSOLETEREASON);
+                this.columnHOWTOCREATE = new global::System.Data.DataColumn("HOWTOCREATE", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnHOWTOCREATE);
+                this.columnMEMO1 = new global::System.Data.DataColumn("MEMO1", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnMEMO1);
+                this.columnMEMO2 = new global::System.Data.DataColumn("MEMO2", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnMEMO2);
+                this.columnUPTTIME = new global::System.Data.DataColumn("UPTTIME", typeof(global::System.DateTime), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnUPTTIME);
+                this.columnUPTEN = new global::System.Data.DataColumn("UPTEN", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnUPTEN);
+                this.columnPRINTFUN = new global::System.Data.DataColumn("PRINTFUN", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnPRINTFUN);
+                this.columnPRINTTIME = new global::System.Data.DataColumn("PRINTTIME", typeof(global::System.DateTime), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnPRINTTIME);
+                this.columnMAININVID = new global::System.Data.DataColumn("MAININVID", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnMAININVID);
+                this.columnMAINSALEAMOUNT = new global::System.Data.DataColumn("MAINSALEAMOUNT", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnMAINSALEAMOUNT);
+                this.columnMAINTAXAMOUNT = new global::System.Data.DataColumn("MAINTAXAMOUNT", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnMAINTAXAMOUNT);
+                this.columnMAININVAMOUNT = new global::System.Data.DataColumn("MAININVAMOUNT", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnMAININVAMOUNT);
+                this.columnINSTADDR = new global::System.Data.DataColumn("INSTADDR", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnINSTADDR);
+                this.columnINVUSEID = new global::System.Data.DataColumn("INVUSEID", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnINVUSEID);
+                this.columnINVUSEDESC = new global::System.Data.DataColumn("INVUSEDESC", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnINVUSEDESC);
+                this.columnINVOICEKIND = new global::System.Data.DataColumn("INVOICEKIND", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnINVOICEKIND);
+                this.columnPRIZETYPE = new global::System.Data.DataColumn("PRIZETYPE", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnPRIZETYPE);
+                this.columnEMAIL = new global::System.Data.DataColumn("EMAIL", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnEMAIL);
+                this.columnCONTMOBILE = new global::System.Data.DataColumn("CONTMOBILE", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnCONTMOBILE);
+                this.columnGIVEUNITID = new global::System.Data.DataColumn("GIVEUNITID", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnGIVEUNITID);
+                this.columnGIVEUNITDESC = new global::System.Data.DataColumn("GIVEUNITDESC", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnGIVEUNITDESC);
+                this.columnUPLOADFLAG = new global::System.Data.DataColumn("UPLOADFLAG", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnUPLOADFLAG);
+                this.columnPRINTEN = new global::System.Data.DataColumn("PRINTEN", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnPRINTEN);
+                this.column作廢註記 = new global::System.Data.DataColumn("作廢註記", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.column作廢註記);
+                this.column捐贈註記 = new global::System.Data.DataColumn("捐贈註記", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.column捐贈註記);
+                this.column通知最終狀態 = new global::System.Data.DataColumn("通知最終狀態", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.column通知最終狀態);
+                this.columnEMAIL發送 = new global::System.Data.DataColumn("EMAIL發送", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnEMAIL發送);
+                this.columnEMAIL回查 = new global::System.Data.DataColumn("EMAIL回查", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnEMAIL回查);
+                this.columnEMAIL失敗 = new global::System.Data.DataColumn("EMAIL失敗", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnEMAIL失敗);
+                this.column簡訊發送 = new global::System.Data.DataColumn("簡訊發送", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.column簡訊發送);
+                this.column簡訊回查 = new global::System.Data.DataColumn("簡訊回查", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.column簡訊回查);
+                this.column簡訊失敗 = new global::System.Data.DataColumn("簡訊失敗", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.column簡訊失敗);
+                this.columnTVMAIL發送 = new global::System.Data.DataColumn("TVMAIL發送", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnTVMAIL發送);
+                this.columnTVMAIL失敗 = new global::System.Data.DataColumn("TVMAIL失敗", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnTVMAIL失敗);
+                this.columnCM導流發送 = new global::System.Data.DataColumn("CM導流發送", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnCM導流發送);
+                this.columnCM導流失敗 = new global::System.Data.DataColumn("CM導流失敗", typeof(decimal), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnCM導流失敗);
+                this.columnIDENTIFYID1.AllowDBNull = false;
+                this.columnIDENTIFYID1.MaxLength = 2;
+                this.columnIDENTIFYID2.AllowDBNull = false;
+                this.columnCHECKNO.AllowDBNull = false;
+                this.columnCHECKNO.MaxLength = 2;
+                this.columnINVID.AllowDBNull = false;
+                this.columnINVID.MaxLength = 10;
+                this.columnCANMODIFY.MaxLength = 1;
+                this.columnCOMPID.MaxLength = 6;
+                this.columnCUSTID.MaxLength = 8;
+                this.columnCUSTSNAME.MaxLength = 50;
+                this.columnINVTITLE.MaxLength = 50;
+                this.columnZIPCODE.MaxLength = 5;
+                this.columnINVADDR.MaxLength = 60;
+                this.columnMAILADDR.MaxLength = 60;
+                this.columnBUSINESSID.MaxLength = 8;
+                this.columnINVFORMAT.MaxLength = 1;
+                this.columnTAXTYPE.MaxLength = 1;
+                this.columnISPAST.MaxLength = 1;
+                this.columnISOBSOLETE.MaxLength = 1;
+                this.columnOBSOLETEID.MaxLength = 7;
+                this.columnOBSOLETEREASON.MaxLength = 40;
+                this.columnHOWTOCREATE.MaxLength = 1;
+                this.columnMEMO1.MaxLength = 60;
+                this.columnMEMO2.MaxLength = 60;
+                this.columnUPTTIME.AllowDBNull = false;
+                this.columnUPTEN.AllowDBNull = false;
+                this.columnUPTEN.MaxLength = 20;
+                this.columnPRINTFUN.MaxLength = 1;
+                this.columnMAININVID.MaxLength = 10;
+                this.columnINSTADDR.MaxLength = 60;
+                this.columnINVUSEDESC.MaxLength = 20;
+                this.columnEMAIL.MaxLength = 50;
+                this.columnCONTMOBILE.MaxLength = 50;
+                this.columnGIVEUNITDESC.MaxLength = 20;
+                this.columnPRINTEN.MaxLength = 20;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public NOTIFYDETAILSRow NewNOTIFYDETAILSRow() {
+                return ((NOTIFYDETAILSRow)(this.NewRow()));
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            protected override global::System.Data.DataRow NewRowFromBuilder(global::System.Data.DataRowBuilder builder) {
+                return new NOTIFYDETAILSRow(builder);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            protected override global::System.Type GetRowType() {
+                return typeof(NOTIFYDETAILSRow);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            protected override void OnRowChanged(global::System.Data.DataRowChangeEventArgs e) {
+                base.OnRowChanged(e);
+                if ((this.NOTIFYDETAILSRowChanged != null)) {
+                    this.NOTIFYDETAILSRowChanged(this, new NOTIFYDETAILSRowChangeEvent(((NOTIFYDETAILSRow)(e.Row)), e.Action));
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            protected override void OnRowChanging(global::System.Data.DataRowChangeEventArgs e) {
+                base.OnRowChanging(e);
+                if ((this.NOTIFYDETAILSRowChanging != null)) {
+                    this.NOTIFYDETAILSRowChanging(this, new NOTIFYDETAILSRowChangeEvent(((NOTIFYDETAILSRow)(e.Row)), e.Action));
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            protected override void OnRowDeleted(global::System.Data.DataRowChangeEventArgs e) {
+                base.OnRowDeleted(e);
+                if ((this.NOTIFYDETAILSRowDeleted != null)) {
+                    this.NOTIFYDETAILSRowDeleted(this, new NOTIFYDETAILSRowChangeEvent(((NOTIFYDETAILSRow)(e.Row)), e.Action));
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            protected override void OnRowDeleting(global::System.Data.DataRowChangeEventArgs e) {
+                base.OnRowDeleting(e);
+                if ((this.NOTIFYDETAILSRowDeleting != null)) {
+                    this.NOTIFYDETAILSRowDeleting(this, new NOTIFYDETAILSRowChangeEvent(((NOTIFYDETAILSRow)(e.Row)), e.Action));
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void RemoveNOTIFYDETAILSRow(NOTIFYDETAILSRow row) {
+                this.Rows.Remove(row);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
+                global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
+                global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
+                Details ds = new Details();
+                global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
+                any1.Namespace = "http://www.w3.org/2001/XMLSchema";
+                any1.MinOccurs = new decimal(0);
+                any1.MaxOccurs = decimal.MaxValue;
+                any1.ProcessContents = global::System.Xml.Schema.XmlSchemaContentProcessing.Lax;
+                sequence.Items.Add(any1);
+                global::System.Xml.Schema.XmlSchemaAny any2 = new global::System.Xml.Schema.XmlSchemaAny();
+                any2.Namespace = "urn:schemas-microsoft-com:xml-diffgram-v1";
+                any2.MinOccurs = new decimal(1);
+                any2.ProcessContents = global::System.Xml.Schema.XmlSchemaContentProcessing.Lax;
+                sequence.Items.Add(any2);
+                global::System.Xml.Schema.XmlSchemaAttribute attribute1 = new global::System.Xml.Schema.XmlSchemaAttribute();
+                attribute1.Name = "namespace";
+                attribute1.FixedValue = ds.Namespace;
+                type.Attributes.Add(attribute1);
+                global::System.Xml.Schema.XmlSchemaAttribute attribute2 = new global::System.Xml.Schema.XmlSchemaAttribute();
+                attribute2.Name = "tableTypeName";
+                attribute2.FixedValue = "NOTIFYDETAILSDataTable";
+                type.Attributes.Add(attribute2);
+                type.Particle = sequence;
+                global::System.Xml.Schema.XmlSchema dsSchema = ds.GetSchemaSerializable();
+                if (xs.Contains(dsSchema.TargetNamespace)) {
+                    global::System.IO.MemoryStream s1 = new global::System.IO.MemoryStream();
+                    global::System.IO.MemoryStream s2 = new global::System.IO.MemoryStream();
+                    try {
+                        global::System.Xml.Schema.XmlSchema schema = null;
+                        dsSchema.Write(s1);
+                        for (global::System.Collections.IEnumerator schemas = xs.Schemas(dsSchema.TargetNamespace).GetEnumerator(); schemas.MoveNext(); ) {
+                            schema = ((global::System.Xml.Schema.XmlSchema)(schemas.Current));
+                            s2.SetLength(0);
+                            schema.Write(s2);
+                            if ((s1.Length == s2.Length)) {
+                                s1.Position = 0;
+                                s2.Position = 0;
+                                for (; ((s1.Position != s1.Length) 
+                                            && (s1.ReadByte() == s2.ReadByte())); ) {
+                                    ;
+                                }
+                                if ((s1.Position == s1.Length)) {
+                                    return type;
+                                }
+                            }
+                        }
+                    }
+                    finally {
+                        if ((s1 != null)) {
+                            s1.Close();
+                        }
+                        if ((s2 != null)) {
+                            s2.Close();
+                        }
+                    }
+                }
+                xs.Add(dsSchema);
+                return type;
+            }
+        }
+        /// <summary>
+        ///Represents strongly named DataRow class.
+        ///</summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "2.0.0.0")]
+        public partial class NOTIFYDETAILSRow : global::System.Data.DataRow {
+            private NOTIFYDETAILSDataTable tableNOTIFYDETAILS;
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            internal NOTIFYDETAILSRow(global::System.Data.DataRowBuilder rb) : 
+                    base(rb) {
+                this.tableNOTIFYDETAILS = ((NOTIFYDETAILSDataTable)(this.Table));
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string IDENTIFYID1 {
+                get {
+                    return ((string)(this[this.tableNOTIFYDETAILS.IDENTIFYID1Column]));
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.IDENTIFYID1Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal IDENTIFYID2 {
+                get {
+                    return ((decimal)(this[this.tableNOTIFYDETAILS.IDENTIFYID2Column]));
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.IDENTIFYID2Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string CHECKNO {
+                get {
+                    return ((string)(this[this.tableNOTIFYDETAILS.CHECKNOColumn]));
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.CHECKNOColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string INVID {
+                get {
+                    return ((string)(this[this.tableNOTIFYDETAILS.INVIDColumn]));
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.INVIDColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string CANMODIFY {
+                get {
+                    try {
+                        return ((string)(this[this.tableNOTIFYDETAILS.CANMODIFYColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'CANMODIFY\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.CANMODIFYColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public System.DateTime INVDATE {
+                get {
+                    try {
+                        return ((global::System.DateTime)(this[this.tableNOTIFYDETAILS.INVDATEColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'INVDATE\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.INVDATEColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public System.DateTime CHARGEDATE {
+                get {
+                    try {
+                        return ((global::System.DateTime)(this[this.tableNOTIFYDETAILS.CHARGEDATEColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'CHARGEDATE\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.CHARGEDATEColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string COMPID {
+                get {
+                    try {
+                        return ((string)(this[this.tableNOTIFYDETAILS.COMPIDColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'COMPID\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.COMPIDColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string CUSTID {
+                get {
+                    try {
+                        return ((string)(this[this.tableNOTIFYDETAILS.CUSTIDColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'CUSTID\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.CUSTIDColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string CUSTSNAME {
+                get {
+                    try {
+                        return ((string)(this[this.tableNOTIFYDETAILS.CUSTSNAMEColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'CUSTSNAME\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.CUSTSNAMEColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string INVTITLE {
+                get {
+                    try {
+                        return ((string)(this[this.tableNOTIFYDETAILS.INVTITLEColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'INVTITLE\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.INVTITLEColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string ZIPCODE {
+                get {
+                    try {
+                        return ((string)(this[this.tableNOTIFYDETAILS.ZIPCODEColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'ZIPCODE\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.ZIPCODEColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string INVADDR {
+                get {
+                    try {
+                        return ((string)(this[this.tableNOTIFYDETAILS.INVADDRColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'INVADDR\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.INVADDRColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string MAILADDR {
+                get {
+                    try {
+                        return ((string)(this[this.tableNOTIFYDETAILS.MAILADDRColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'MAILADDR\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.MAILADDRColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string BUSINESSID {
+                get {
+                    try {
+                        return ((string)(this[this.tableNOTIFYDETAILS.BUSINESSIDColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'BUSINESSID\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.BUSINESSIDColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string INVFORMAT {
+                get {
+                    try {
+                        return ((string)(this[this.tableNOTIFYDETAILS.INVFORMATColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'INVFORMAT\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.INVFORMATColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string TAXTYPE {
+                get {
+                    try {
+                        return ((string)(this[this.tableNOTIFYDETAILS.TAXTYPEColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'TAXTYPE\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.TAXTYPEColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal TAXRATE {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableNOTIFYDETAILS.TAXRATEColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'TAXRATE\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.TAXRATEColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal SALEAMOUNT {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableNOTIFYDETAILS.SALEAMOUNTColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'SALEAMOUNT\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.SALEAMOUNTColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal TAXAMOUNT {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableNOTIFYDETAILS.TAXAMOUNTColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'TAXAMOUNT\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.TAXAMOUNTColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal INVAMOUNT {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableNOTIFYDETAILS.INVAMOUNTColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'INVAMOUNT\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.INVAMOUNTColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal PRINTCOUNT {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableNOTIFYDETAILS.PRINTCOUNTColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'PRINTCOUNT\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.PRINTCOUNTColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string ISPAST {
+                get {
+                    try {
+                        return ((string)(this[this.tableNOTIFYDETAILS.ISPASTColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'ISPAST\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.ISPASTColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string ISOBSOLETE {
+                get {
+                    try {
+                        return ((string)(this[this.tableNOTIFYDETAILS.ISOBSOLETEColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'ISOBSOLETE\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.ISOBSOLETEColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string OBSOLETEID {
+                get {
+                    try {
+                        return ((string)(this[this.tableNOTIFYDETAILS.OBSOLETEIDColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'OBSOLETEID\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.OBSOLETEIDColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string OBSOLETEREASON {
+                get {
+                    try {
+                        return ((string)(this[this.tableNOTIFYDETAILS.OBSOLETEREASONColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'OBSOLETEREASON\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.OBSOLETEREASONColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string HOWTOCREATE {
+                get {
+                    try {
+                        return ((string)(this[this.tableNOTIFYDETAILS.HOWTOCREATEColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'HOWTOCREATE\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.HOWTOCREATEColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string MEMO1 {
+                get {
+                    try {
+                        return ((string)(this[this.tableNOTIFYDETAILS.MEMO1Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'MEMO1\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.MEMO1Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string MEMO2 {
+                get {
+                    try {
+                        return ((string)(this[this.tableNOTIFYDETAILS.MEMO2Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'MEMO2\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.MEMO2Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public System.DateTime UPTTIME {
+                get {
+                    return ((global::System.DateTime)(this[this.tableNOTIFYDETAILS.UPTTIMEColumn]));
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.UPTTIMEColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string UPTEN {
+                get {
+                    return ((string)(this[this.tableNOTIFYDETAILS.UPTENColumn]));
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.UPTENColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string PRINTFUN {
+                get {
+                    try {
+                        return ((string)(this[this.tableNOTIFYDETAILS.PRINTFUNColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'PRINTFUN\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.PRINTFUNColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public System.DateTime PRINTTIME {
+                get {
+                    try {
+                        return ((global::System.DateTime)(this[this.tableNOTIFYDETAILS.PRINTTIMEColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'PRINTTIME\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.PRINTTIMEColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string MAININVID {
+                get {
+                    try {
+                        return ((string)(this[this.tableNOTIFYDETAILS.MAININVIDColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'MAININVID\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.MAININVIDColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal MAINSALEAMOUNT {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableNOTIFYDETAILS.MAINSALEAMOUNTColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'MAINSALEAMOUNT\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.MAINSALEAMOUNTColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal MAINTAXAMOUNT {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableNOTIFYDETAILS.MAINTAXAMOUNTColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'MAINTAXAMOUNT\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.MAINTAXAMOUNTColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal MAININVAMOUNT {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableNOTIFYDETAILS.MAININVAMOUNTColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'MAININVAMOUNT\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.MAININVAMOUNTColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string INSTADDR {
+                get {
+                    try {
+                        return ((string)(this[this.tableNOTIFYDETAILS.INSTADDRColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'INSTADDR\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.INSTADDRColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal INVUSEID {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableNOTIFYDETAILS.INVUSEIDColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'INVUSEID\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.INVUSEIDColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string INVUSEDESC {
+                get {
+                    try {
+                        return ((string)(this[this.tableNOTIFYDETAILS.INVUSEDESCColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'INVUSEDESC\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.INVUSEDESCColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal INVOICEKIND {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableNOTIFYDETAILS.INVOICEKINDColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'INVOICEKIND\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.INVOICEKINDColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal PRIZETYPE {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableNOTIFYDETAILS.PRIZETYPEColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'PRIZETYPE\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.PRIZETYPEColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string EMAIL {
+                get {
+                    try {
+                        return ((string)(this[this.tableNOTIFYDETAILS.EMAILColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'EMAIL\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.EMAILColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string CONTMOBILE {
+                get {
+                    try {
+                        return ((string)(this[this.tableNOTIFYDETAILS.CONTMOBILEColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'CONTMOBILE\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.CONTMOBILEColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal GIVEUNITID {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableNOTIFYDETAILS.GIVEUNITIDColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'GIVEUNITID\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.GIVEUNITIDColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string GIVEUNITDESC {
+                get {
+                    try {
+                        return ((string)(this[this.tableNOTIFYDETAILS.GIVEUNITDESCColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'GIVEUNITDESC\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.GIVEUNITDESCColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal UPLOADFLAG {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableNOTIFYDETAILS.UPLOADFLAGColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'UPLOADFLAG\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.UPLOADFLAGColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string PRINTEN {
+                get {
+                    try {
+                        return ((string)(this[this.tableNOTIFYDETAILS.PRINTENColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'PRINTEN\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.PRINTENColumn] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal 作廢註記 {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableNOTIFYDETAILS.作廢註記Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'作廢註記\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.作廢註記Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal 捐贈註記 {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableNOTIFYDETAILS.捐贈註記Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'捐贈註記\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.捐贈註記Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal 通知最終狀態 {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableNOTIFYDETAILS.通知最終狀態Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'通知最終狀態\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.通知最終狀態Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal EMAIL發送 {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableNOTIFYDETAILS.EMAIL發送Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'EMAIL發送\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.EMAIL發送Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal EMAIL回查 {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableNOTIFYDETAILS.EMAIL回查Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'EMAIL回查\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.EMAIL回查Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal EMAIL失敗 {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableNOTIFYDETAILS.EMAIL失敗Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'EMAIL失敗\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.EMAIL失敗Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal 簡訊發送 {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableNOTIFYDETAILS.簡訊發送Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'簡訊發送\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.簡訊發送Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal 簡訊回查 {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableNOTIFYDETAILS.簡訊回查Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'簡訊回查\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.簡訊回查Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal 簡訊失敗 {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableNOTIFYDETAILS.簡訊失敗Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'簡訊失敗\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.簡訊失敗Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal TVMAIL發送 {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableNOTIFYDETAILS.TVMAIL發送Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'TVMAIL發送\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.TVMAIL發送Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal TVMAIL失敗 {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableNOTIFYDETAILS.TVMAIL失敗Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'TVMAIL失敗\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.TVMAIL失敗Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal CM導流發送 {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableNOTIFYDETAILS.CM導流發送Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'CM導流發送\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.CM導流發送Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public decimal CM導流失敗 {
+                get {
+                    try {
+                        return ((decimal)(this[this.tableNOTIFYDETAILS.CM導流失敗Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'NOTIFYDETAILS\' 中資料行 \'CM導流失敗\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableNOTIFYDETAILS.CM導流失敗Column] = value;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsCANMODIFYNull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.CANMODIFYColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetCANMODIFYNull() {
+                this[this.tableNOTIFYDETAILS.CANMODIFYColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsINVDATENull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.INVDATEColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetINVDATENull() {
+                this[this.tableNOTIFYDETAILS.INVDATEColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsCHARGEDATENull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.CHARGEDATEColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetCHARGEDATENull() {
+                this[this.tableNOTIFYDETAILS.CHARGEDATEColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsCOMPIDNull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.COMPIDColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetCOMPIDNull() {
+                this[this.tableNOTIFYDETAILS.COMPIDColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsCUSTIDNull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.CUSTIDColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetCUSTIDNull() {
+                this[this.tableNOTIFYDETAILS.CUSTIDColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsCUSTSNAMENull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.CUSTSNAMEColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetCUSTSNAMENull() {
+                this[this.tableNOTIFYDETAILS.CUSTSNAMEColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsINVTITLENull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.INVTITLEColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetINVTITLENull() {
+                this[this.tableNOTIFYDETAILS.INVTITLEColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsZIPCODENull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.ZIPCODEColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetZIPCODENull() {
+                this[this.tableNOTIFYDETAILS.ZIPCODEColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsINVADDRNull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.INVADDRColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetINVADDRNull() {
+                this[this.tableNOTIFYDETAILS.INVADDRColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsMAILADDRNull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.MAILADDRColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetMAILADDRNull() {
+                this[this.tableNOTIFYDETAILS.MAILADDRColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsBUSINESSIDNull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.BUSINESSIDColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetBUSINESSIDNull() {
+                this[this.tableNOTIFYDETAILS.BUSINESSIDColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsINVFORMATNull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.INVFORMATColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetINVFORMATNull() {
+                this[this.tableNOTIFYDETAILS.INVFORMATColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsTAXTYPENull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.TAXTYPEColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetTAXTYPENull() {
+                this[this.tableNOTIFYDETAILS.TAXTYPEColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsTAXRATENull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.TAXRATEColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetTAXRATENull() {
+                this[this.tableNOTIFYDETAILS.TAXRATEColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsSALEAMOUNTNull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.SALEAMOUNTColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetSALEAMOUNTNull() {
+                this[this.tableNOTIFYDETAILS.SALEAMOUNTColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsTAXAMOUNTNull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.TAXAMOUNTColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetTAXAMOUNTNull() {
+                this[this.tableNOTIFYDETAILS.TAXAMOUNTColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsINVAMOUNTNull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.INVAMOUNTColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetINVAMOUNTNull() {
+                this[this.tableNOTIFYDETAILS.INVAMOUNTColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsPRINTCOUNTNull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.PRINTCOUNTColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetPRINTCOUNTNull() {
+                this[this.tableNOTIFYDETAILS.PRINTCOUNTColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsISPASTNull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.ISPASTColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetISPASTNull() {
+                this[this.tableNOTIFYDETAILS.ISPASTColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsISOBSOLETENull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.ISOBSOLETEColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetISOBSOLETENull() {
+                this[this.tableNOTIFYDETAILS.ISOBSOLETEColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsOBSOLETEIDNull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.OBSOLETEIDColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetOBSOLETEIDNull() {
+                this[this.tableNOTIFYDETAILS.OBSOLETEIDColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsOBSOLETEREASONNull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.OBSOLETEREASONColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetOBSOLETEREASONNull() {
+                this[this.tableNOTIFYDETAILS.OBSOLETEREASONColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsHOWTOCREATENull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.HOWTOCREATEColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetHOWTOCREATENull() {
+                this[this.tableNOTIFYDETAILS.HOWTOCREATEColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsMEMO1Null() {
+                return this.IsNull(this.tableNOTIFYDETAILS.MEMO1Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetMEMO1Null() {
+                this[this.tableNOTIFYDETAILS.MEMO1Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsMEMO2Null() {
+                return this.IsNull(this.tableNOTIFYDETAILS.MEMO2Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetMEMO2Null() {
+                this[this.tableNOTIFYDETAILS.MEMO2Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsPRINTFUNNull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.PRINTFUNColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetPRINTFUNNull() {
+                this[this.tableNOTIFYDETAILS.PRINTFUNColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsPRINTTIMENull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.PRINTTIMEColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetPRINTTIMENull() {
+                this[this.tableNOTIFYDETAILS.PRINTTIMEColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsMAININVIDNull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.MAININVIDColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetMAININVIDNull() {
+                this[this.tableNOTIFYDETAILS.MAININVIDColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsMAINSALEAMOUNTNull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.MAINSALEAMOUNTColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetMAINSALEAMOUNTNull() {
+                this[this.tableNOTIFYDETAILS.MAINSALEAMOUNTColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsMAINTAXAMOUNTNull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.MAINTAXAMOUNTColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetMAINTAXAMOUNTNull() {
+                this[this.tableNOTIFYDETAILS.MAINTAXAMOUNTColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsMAININVAMOUNTNull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.MAININVAMOUNTColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetMAININVAMOUNTNull() {
+                this[this.tableNOTIFYDETAILS.MAININVAMOUNTColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsINSTADDRNull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.INSTADDRColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetINSTADDRNull() {
+                this[this.tableNOTIFYDETAILS.INSTADDRColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsINVUSEIDNull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.INVUSEIDColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetINVUSEIDNull() {
+                this[this.tableNOTIFYDETAILS.INVUSEIDColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsINVUSEDESCNull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.INVUSEDESCColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetINVUSEDESCNull() {
+                this[this.tableNOTIFYDETAILS.INVUSEDESCColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsINVOICEKINDNull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.INVOICEKINDColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetINVOICEKINDNull() {
+                this[this.tableNOTIFYDETAILS.INVOICEKINDColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsPRIZETYPENull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.PRIZETYPEColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetPRIZETYPENull() {
+                this[this.tableNOTIFYDETAILS.PRIZETYPEColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsEMAILNull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.EMAILColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetEMAILNull() {
+                this[this.tableNOTIFYDETAILS.EMAILColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsCONTMOBILENull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.CONTMOBILEColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetCONTMOBILENull() {
+                this[this.tableNOTIFYDETAILS.CONTMOBILEColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsGIVEUNITIDNull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.GIVEUNITIDColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetGIVEUNITIDNull() {
+                this[this.tableNOTIFYDETAILS.GIVEUNITIDColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsGIVEUNITDESCNull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.GIVEUNITDESCColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetGIVEUNITDESCNull() {
+                this[this.tableNOTIFYDETAILS.GIVEUNITDESCColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsUPLOADFLAGNull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.UPLOADFLAGColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetUPLOADFLAGNull() {
+                this[this.tableNOTIFYDETAILS.UPLOADFLAGColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsPRINTENNull() {
+                return this.IsNull(this.tableNOTIFYDETAILS.PRINTENColumn);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetPRINTENNull() {
+                this[this.tableNOTIFYDETAILS.PRINTENColumn] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Is作廢註記Null() {
+                return this.IsNull(this.tableNOTIFYDETAILS.作廢註記Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Set作廢註記Null() {
+                this[this.tableNOTIFYDETAILS.作廢註記Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Is捐贈註記Null() {
+                return this.IsNull(this.tableNOTIFYDETAILS.捐贈註記Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Set捐贈註記Null() {
+                this[this.tableNOTIFYDETAILS.捐贈註記Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Is通知最終狀態Null() {
+                return this.IsNull(this.tableNOTIFYDETAILS.通知最終狀態Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Set通知最終狀態Null() {
+                this[this.tableNOTIFYDETAILS.通知最終狀態Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsEMAIL發送Null() {
+                return this.IsNull(this.tableNOTIFYDETAILS.EMAIL發送Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetEMAIL發送Null() {
+                this[this.tableNOTIFYDETAILS.EMAIL發送Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsEMAIL回查Null() {
+                return this.IsNull(this.tableNOTIFYDETAILS.EMAIL回查Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetEMAIL回查Null() {
+                this[this.tableNOTIFYDETAILS.EMAIL回查Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsEMAIL失敗Null() {
+                return this.IsNull(this.tableNOTIFYDETAILS.EMAIL失敗Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetEMAIL失敗Null() {
+                this[this.tableNOTIFYDETAILS.EMAIL失敗Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Is簡訊發送Null() {
+                return this.IsNull(this.tableNOTIFYDETAILS.簡訊發送Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Set簡訊發送Null() {
+                this[this.tableNOTIFYDETAILS.簡訊發送Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Is簡訊回查Null() {
+                return this.IsNull(this.tableNOTIFYDETAILS.簡訊回查Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Set簡訊回查Null() {
+                this[this.tableNOTIFYDETAILS.簡訊回查Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool Is簡訊失敗Null() {
+                return this.IsNull(this.tableNOTIFYDETAILS.簡訊失敗Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void Set簡訊失敗Null() {
+                this[this.tableNOTIFYDETAILS.簡訊失敗Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsTVMAIL發送Null() {
+                return this.IsNull(this.tableNOTIFYDETAILS.TVMAIL發送Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetTVMAIL發送Null() {
+                this[this.tableNOTIFYDETAILS.TVMAIL發送Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsTVMAIL失敗Null() {
+                return this.IsNull(this.tableNOTIFYDETAILS.TVMAIL失敗Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetTVMAIL失敗Null() {
+                this[this.tableNOTIFYDETAILS.TVMAIL失敗Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsCM導流發送Null() {
+                return this.IsNull(this.tableNOTIFYDETAILS.CM導流發送Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetCM導流發送Null() {
+                this[this.tableNOTIFYDETAILS.CM導流發送Column] = global::System.Convert.DBNull;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IsCM導流失敗Null() {
+                return this.IsNull(this.tableNOTIFYDETAILS.CM導流失敗Column);
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SetCM導流失敗Null() {
+                this[this.tableNOTIFYDETAILS.CM導流失敗Column] = global::System.Convert.DBNull;
+            }
+        }
+        /// <summary>
+        ///Row event argument class
+        ///</summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "2.0.0.0")]
+        public class NOTIFYDETAILSRowChangeEvent : global::System.EventArgs {
+            private NOTIFYDETAILSRow eventRow;
+            private global::System.Data.DataRowAction eventAction;
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public NOTIFYDETAILSRowChangeEvent(NOTIFYDETAILSRow row, global::System.Data.DataRowAction action) {
+                this.eventRow = row;
+                this.eventAction = action;
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public NOTIFYDETAILSRow Row {
+                get {
+                    return this.eventRow;
+                }
+            }
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataRowAction Action {
+                get {
+                    return this.eventAction;
+                }
+            }
+        }
+    }
+}

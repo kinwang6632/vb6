@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BroadcastData SYSTEM "BroadcastData.dtd">
+<BroadcastData creationDate="20051124110452">
+  <ProviderInfo>
+    <ProviderId>Nagra</ProviderId>
+    <ProviderName>Nagravision S.A.</ProviderName>
+  </ProviderInfo>
+  <ScheduleData>
+    <ChannelPeriod beginTime="20051127220000" endTime="20051127230000">
+      <ChannelId>503</ChannelId>
+      <Event beginTime="20051127220000" duration="3600">
+        <EventId>L00000034598</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004947AD0142F9E6475FD74FC41214129CAE6D20418D745061D6E11D19AF2EA1804821A128B3EE1528BA469506863CE3F65254EEB148B34021CAA08FD884B438A8A2C158DF17</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="36" pdsValue="9">007978F91388031C004947138801656E67091A1A1A1A2D2D1A1A1AD1C52200000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="24" pdsValue="9">0001000000494713880300000160011A1A1A1A2D2D1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="29" pdsValue="9">0001000000492D27100300000160044D756C74694576656E74202D2033</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="30" pdsValue="9">0001000000494713880000000003000001600100001A1A1A1A2D2D1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="35" pdsValue="9">0001000000492D27100000000003000001600400004D756C74694576656E74202D2033</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>桃色風雲--搖擺狗</Name>
+            <Description>美國總統鬧出性醜聞，面對著醜聞成為頭條新聞的壓力，及兩週後的總統大選，白宮這回該怎麼做呢？簡單，發動一場戰爭！白宮危機處理專家康洛德（勞勃狄尼洛，「老大靠邊閃」）受命替總統解圍，轉移民眾注意力，於是他找來了好萊塢大製片家史丹利（達斯汀霍夫曼，「地動天驚」、「雨人」），虛擬一場在阿爾巴尼亞的戰爭，但這場戰爭不是發生在真實的戰場，而是在攝影棚當中，不用任何真槍實彈，他們製造各種有關戰爭的新聞片段，甚至趁機推出愛國歌曲大撈一筆。起初一切都進行地很順利，廣大民眾的心，隨著真真假假的戰爭新聞而起伏，但不久後卻漏洞百出，假的戰區英雄意外死亡，製片史丹利為了居功而不願保密，中情局也開始懷疑這場美國總統的桃色風雲該如何圓滿收場？導演巴瑞李文遜曾以「雨人」、「早安越南」、「豪情四兄弟」等片獲得空前的成功。</Description>
+            <ExtendedInfo name="導演">巴瑞李文遜</ExtendedInfo>
+            <ExtendedInfo name="演員">勞勃狄尼洛、達斯汀霍夫曼、安海契、伍迪哈里遜</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Wag The Dog</Name>
+            <Description>What do the President’s advisers do when a sex scandal threatens to explode across front pages nationwide, with the election is only 14 days away? Simple. Start a war! Faced with this dilemma, a ‘spin-doctor’ (DeNiro, Men Of Honor, Meet The Parents, The Adventures of Rocky &amp; Bullwinkle ) is called in to fabricate a nonexistent war for the President to win, and to distract the American public. Wars are no longer fought on battlefields but on TV, so naturally a hotshot Hollywood producer (Hoffman, Being John Malcovich, Cosm) is hired to manufacture a war in distant Albania — without a shot being fired. With its first-class cast and ascerbic humour, Wag the Dog is a biting satire that has never been more appropriate.</Description>
+            <ExtendedInfo name="導演">Barry Levinson</ExtendedInfo>
+            <ExtendedInfo name="演員">Robert DeNiro、Dustin Hoffman、Anne Heche、Woody Harrelson</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+    </ChannelPeriod>
+  </ScheduleData>
+</BroadcastData>

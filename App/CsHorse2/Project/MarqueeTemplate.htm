@@ -1,0 +1,167 @@
+<html> 
+<head> 
+<title>測試跑馬燈</title>
+</head>
+<body> 
+</body>
+<script language="JavaScript" defer>
+//qswh's original and modifid by windy_sk <windy_sk@126.com> 20040120
+
+function reportError(msg,url,line) {
+    var str = "You have found an error as below: \n\n";
+    str += "Err: " + msg + " on line: " + line;
+    alert(str);
+    return true;
+}
+
+window.onerror = reportError;    
+
+var obj_marquee = document.getElementById("marquee");
+var repeat = null;
+var marquee_spd = 1;
+
+function marquee_init() {
+    var obj_unit = obj_marquee.firstChild;
+    var marquee_high = parseInt(obj_marquee.style.height);
+    var marquee_wide = parseInt(obj_marquee.style.width);
+    var unit_high = obj_unit.offsetHeight;
+    var unit_wide = obj_unit.offsetWidth;
+    var m = 0, n = 0, i = 0;
+    var tmp = null;
+    
+    m = Math.ceil(marquee_wide / unit_wide);
+    n = Math.ceil(marquee_high / unit_high);
+
+    obj_unit.style.width = marquee_wide * (m+1);
+    obj_unit.rows[0].cells[0].style.width = obj_marquee.style.width;
+    
+    for(i=0; i<m; i++) {
+        tmp = obj_unit.rows[0].insertCell(-1);
+        tmp.innerHTML = obj_unit.rows[0].cells[0].innerHTML;
+        tmp.style.width = marquee_wide;
+        tmp = null;
+    }
+
+    for(i=0; i<n; i++) {
+        obj_marquee.appendChild(obj_unit.cloneNode(true));
+    }
+
+    return;
+}
+
+function marquee_show(direction) {
+    switch(direction) {
+        case "up":
+            if(obj_marquee.scrollTop >= obj_marquee.children[1].offsetTop) {
+                obj_marquee.scrollTop -= obj_marquee.firstChild.offsetHeight;
+            } else {
+                obj_marquee.scrollTop++;
+            }
+            break;
+        case "down":
+            if(obj_marquee.scrollTop <= 0) {
+                obj_marquee.scrollTop += obj_marquee.firstChild.offsetHeight;
+            } else {
+                obj_marquee.scrollTop--;
+            }
+            break;
+        case "left":
+            if(obj_marquee.scrollLeft >= obj_marquee.firstChild.rows[0].cells[0].offsetWidth) {
+                obj_marquee.scrollLeft -= obj_marquee.firstChild.rows[0].cells[0].offsetWidth;
+            } else {
+                obj_marquee.scrollLeft++;
+            }
+            break;
+        case "right":
+            if(obj_marquee.scrollLeft <= 0) {
+                obj_marquee.scrollLeft += obj_marquee.firstChild.rows[0].cells[0].offsetWidth;
+            } else {
+                obj_marquee.scrollLeft--;
+            }
+            break;
+        default:
+            break;
+    }
+    return;
+}
+
+function marquee_doit() {
+    var direction = "";
+    direction = obj_marquee.getAttribute("direction");
+    if(direction != null) marquee_show(direction);
+    direction = obj_marquee.getAttribute("direction2");
+    if(direction != null) marquee_show(direction);
+    return;
+}
+
+marquee_init();
+repeat = setInterval("marquee_doit()",marquee_spd);
+
+marquee.onmouseover = function() {clearInterval(repeat);}
+marquee.onmouseout = function() {repeat=setInterval("marquee_doit()",marquee_spd);}
+</script>
+
+<table style="border:1px black solid;">
+<tr><td>
+<div id="marquee" direction="up" style="overflow:hidden;height:500px;width:500px">
+  <table style="border:0px;padding:0px;"><tr><td>
+    <!-- Marquee Body Head -->
+    <!--<a href="#" target="_blank"></a><br>
+    <a href="#" target="_blank">163.com</a><br>
+    <a href="#" target="_blank">21cn.com</a><br>
+    <a href="#" target="_blank">Happy new year</a> -->
+    <!-- Marquee Body Bottom -->    
+    <img src='D:\App\CsHorse2\Project\Resource\App2.png'>
+    <a>NN43A,NN44B及NN45光機告警, 類比:教育台斷訊
+         日期：2005-02-22  發佈人：王大明 聯絡人員：王大明　聯絡電話：1234567890
+         主旨：豐盟機房施工(2/22)
+         影響範圍：影響範圍:
+         主場:豐盟(得易購1,2,3,TOP,5台,富邦購物,東森新聞斷訊)
+         副場:AA,BB,CC,DD(得易購1,2,3,TOP,5台)另外BB還有影響東森新聞跟慈濟大愛二台
+         影響時間：2005-02-22 00:00:00 ~ 2005-02-22 03:00:00</a><br><br>
+    <img src='D:\App\CsHorse2\Project\Resource\App2.png'>
+
+    <a>         NN43A,NN44B及NN45光機告警, 類比:教育台斷訊
+         日期：2005-02-22  發佈人：王大明 聯絡人員：王大明　聯絡電話：1234567890
+         主旨：豐盟機房施工(2/22)
+         影響範圍：影響範圍:
+         主場:豐盟(得易購1,2,3,TOP,5台,富邦購物,東森新聞斷訊)
+         副場:AA,BB,CC,DD(得易購1,2,3,TOP,5台)另外BB還有影響東森新聞跟慈濟大愛二台
+         影響時間：2005-02-22 00:00:00 ~ 2005-02-22 03:00:00</a><br>
+    
+  </td></tr></table>
+</div>
+</td></tr></table>
+
+<br><br>
+
+
+<SCRIPT language=JavaScript>
+<!--
+function out(dir)
+{
+scrolltext.trueSpeed = true;
+scrolltext.direction =dir;
+scrolltext.scrollAmount=1;
+scrolltext.scrollDelay=50;
+scrolltext.stop();
+scrolltext.start();
+}
+
+function scroll(dir,speed)
+{
+scrolltext.trueSpeed = true;
+scrolltext.direction = dir;
+scrolltext.scrollAmount=1;
+scrolltext.scrollDelay=speed;
+scrolltext.stop();
+scrolltext.start();
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+//-->
+</SCRIPT>
+</html>

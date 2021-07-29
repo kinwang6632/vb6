@@ -1,0 +1,440 @@
+object frmSearchCust: TfrmSearchCust
+  Left = 305
+  Top = 257
+  ActiveControl = txtValue
+  BorderStyle = bsDialog
+  Caption = #36914#38542#26597#35426
+  ClientHeight = 582
+  ClientWidth = 800
+  Color = clBtnFace
+  Font.Charset = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 14
+  object Panel1: TPanel
+    Left = 0
+    Top = 541
+    Width = 800
+    Height = 41
+    Align = alBottom
+    BevelOuter = bvNone
+    TabOrder = 0
+    DesignSize = (
+      800
+      41)
+    object Bevel2: TBevel
+      Left = 0
+      Top = 0
+      Width = 800
+      Height = 3
+      Align = alTop
+      Shape = bsTopLine
+    end
+    object btnOk: TBitBtn
+      Left = 613
+      Top = 10
+      Width = 82
+      Height = 26
+      Anchors = [akTop, akRight]
+      Caption = #30906#23450
+      Default = True
+      TabOrder = 0
+      OnClick = btnOkClick
+      Glyph.Data = {
+        36060000424D3606000000000000360000002800000020000000100000000100
+        18000000000000060000F00A0000F00A00000000000000000000FF00FFFF00FF
+        FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+        FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+        00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+        FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+        FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+        00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+        FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+        FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+        00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+        FF00FFFF00FF008B00008200038805008A00FF00FFFF00FFFF00FFFF00FFFF00
+        FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF97796797796797796797
+        7967FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+        FF00FF00A300008E0013AC2715B32B06940E009300FF00FFFF00FFFF00FFFF00
+        FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF977967977967FF00FFFF00FF97
+        7967977967FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+        00B10000940016AE2E17B23114AD2A13B12906920B009500FF00FFFF00FFFF00
+        FFFF00FFFF00FFFF00FFFF00FFFF00FF977967977967FF00FFFF00FFFF00FFFF
+        00FF977967977967FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF00A900
+        009A0019B2331CB63A18B33434BC4D17B03013B02A06910B009500FF00FFFF00
+        FFFF00FFFF00FFFF00FFFF00FF977967977967FF00FFFF00FFFF00FFFF00FFFF
+        00FFFF00FF977967977967FF00FFFF00FFFF00FFFF00FFFF00FFFF00FF0CA316
+        1FB73E20BA421FB84011A824018E0162C77119B23213B12B06910B009500FF00
+        FFFF00FFFF00FFFF00FFFF00FF977967FF00FFFF00FFFF00FFB89888977967FF
+        00FFFF00FFFF00FF977967977967FF00FFFF00FFFF00FFFF00FFFF00FF28B338
+        42C8651FBB4615B32C00A40000920000930061C87119B13113B22C06900B0095
+        00FF00FFFF00FFFF00FFFF00FF977967FF00FFFF00FFB8988897796797796797
+        7967FF00FFFF00FFFF00FF977967977967FF00FFFF00FFFF00FFFF00FF0EB924
+        43C45636BC4E00AF08FF00FFFF00FF00AA0000920063CA7217B13114B12C0691
+        09009B00FF00FFFF00FFFF00FF977967FF00FFFF00FF977967977967FF00FFB8
+        9888977967FF00FFFF00FFFF00FF977967977967FF00FFFF00FFFF00FFFF00FF
+        10D2240DBE20009700FF00FFFF00FFFF00FF00A80000930163CA7217B13114B3
+        2D069009008F00FF00FFFF00FFFF00FF977967977967977967FF00FFFF00FFFF
+        00FFB89888977967FF00FFFF00FFFF00FF977967977967FF00FFFF00FFFF00FF
+        FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF00AD0000940064CB7515B1
+        3116B330028904FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+        00FFFF00FFB89888977967FF00FFFF00FFFF00FF977967FF00FFFF00FFFF00FF
+        FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF00AB0001970366CD
+        782ABC46008A02FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+        00FFFF00FFFF00FFB89888977967FF00FFFF00FF977967FF00FFFF00FFFF00FF
+        FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF009A000094
+        01049306008400FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+        00FFFF00FFFF00FFFF00FF977967977967977967977967FF00FFFF00FFFF00FF
+        FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+        FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+        00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF
+        FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+        FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+        00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF}
+      NumGlyphs = 2
+    end
+    object btnCancel: TBitBtn
+      Left = 711
+      Top = 10
+      Width = 82
+      Height = 26
+      Anchors = [akTop, akRight]
+      Caption = #21462#28040
+      TabOrder = 1
+      OnClick = btnCancelClick
+      Glyph.Data = {
+        36030000424D3603000000000000360000002800000010000000100000000100
+        18000000000000030000120B0000120B00000000000000000000FF00FFFF00FF
+        FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+        FFFF00FFFF00FFFF00FFFF00FF0000A40206B0030AAE0000A6000098FF00FFFF
+        00FFFF00FFFF00FF0000A700009A0000A7FF00FFFF00FFFF00FFFF00FF0000A9
+        1844F6194DF81031D20102AB0000B6FF00FFFF00FF0000B10928D7092ED70313
+        B30000ACFF00FFFF00FFFF00FF0103B32451F91F52FF1D4FFF1744E8040BB000
+        00B00000AC0D2EDD1142F90D3DF50B3BF0041ABC0000A5FF00FFFF00FF0000AE
+        1832DB285BFF2456FF2253FF1B4BF1050DB10F30DD164AFE1344F91041F60E3E
+        F60A3CF000009FFF00FFFF00FF0000BE1F37DD3A6FFF2C5EFF295AFF2657FF20
+        52FC1C4FFF194AFD1646FA1445FA0F3DF2020AB10000A8FF00FFFF00FFFF00FF
+        0000C8121DC83D6AFB3567FF2C5DFF2859FF2253FF1D4EFF1A4DFF123DED0002
+        AC0000BAFF00FFFF00FFFF00FFFF00FFFF00FF0000CC0000B62E4EE73668FF2E
+        5EFF2859FF2254FF163DEA0000A80000ABFF00FFFF00FFFF00FFFF00FFFF00FF
+        FF00FFFF00FF0000BF253FDF3B6DFF3464FF2E5EFF2759FF1B46EA0001AC0000
+        A9FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF0203C84B7CFF4170FF3B
+        6BFF396CFF2D5EFF2558FF1336D70000B6FF00FFFF00FFFF00FFFF00FFFF00FF
+        FF00FF0000D9263CDB5080FF4575FF3662FA0D14C33C6DFF2A5BFF2053FD0B1D
+        C40000C0FF00FFFF00FFFF00FFFF00FFFF00FF0000CB527CFA5081FF4B7DFF0B
+        13C90000BB0E15C7386AFF2456FF1A4AF20207B30000B5FF00FFFF00FFFF00FF
+        FF00FF131CDD6A9CFF5788FF2B46E70000CDFF00FF0000CD0F1BCB3065FF1F51
+        FF1439DD0000B1FF00FFFF00FFFF00FFFF00FF0000DE3A52E45782FB0101D0FF
+        00FFFF00FFFF00FF0000CC1426D6265AFF0F2EE30103B8FF00FFFF00FFFF00FF
+        FF00FFFF00FF0000CF0000C00000CEFF00FFFF00FFFF00FFFF00FF0000C40001
+        B80000B5000077FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+        00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF}
+    end
+  end
+  object Panel2: TPanel
+    Left = 0
+    Top = 0
+    Width = 800
+    Height = 541
+    Align = alClient
+    BevelOuter = bvNone
+    BorderWidth = 5
+    TabOrder = 1
+    object Bevel1: TBevel
+      Left = 5
+      Top = 109
+      Width = 790
+      Height = 5
+      Align = alTop
+      Shape = bsSpacer
+    end
+    object GroupBox1: TGroupBox
+      Left = 5
+      Top = 5
+      Width = 790
+      Height = 104
+      Align = alTop
+      Caption = ' '#24555#36895#26597#35426' '
+      Ctl3D = True
+      ParentCtl3D = False
+      TabOrder = 0
+      object rdoCustId: TcxRadioButton
+        Left = 20
+        Top = 24
+        Width = 49
+        Height = 17
+        Caption = #23458#32232
+        Checked = True
+        TabOrder = 0
+        TabStop = True
+      end
+      object rdoCustSName: TcxRadioButton
+        Left = 82
+        Top = 24
+        Width = 89
+        Height = 17
+        Caption = #31777#31281' / '#20840#21517
+        TabOrder = 1
+      end
+      object txtValue: TcxTextEdit
+        Left = 22
+        Top = 57
+        Style.StyleController = dtmMain.cxEditStyle
+        TabOrder = 2
+        Width = 371
+      end
+      object btnSearch: TcxButton
+        Left = 397
+        Top = 55
+        Width = 78
+        Height = 26
+        Caption = #26597#35426
+        TabOrder = 3
+        OnClick = btnSearchClick
+        Glyph.Data = {
+          36040000424D3604000000000000360000002800000010000000100000000100
+          2000000000000004000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000FF018B8A7AC385827DA26B6B6B3F00000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          00000000FF01094FFF974392F6FFEEE9DFFF86827FA700000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          FF020D51FF9B439AFFFF6ADAFFFF5DADF5FF998F7ED900000000000000000000
+          00000000000000000000000000000000000000000000000000006B7E690F0041
+          FC9F469FFFFF6FDAFFFF50ACFFFF1357FFB9002AFF0A00000000000000000000
+          000000000000000000006164682E515459524C4E523F1617180698928B9E7091
+          B2FF61D3FFFF4EAAFFFF1657FFB4001FFF070000000000000000000000000000
+          000076777A257B7E80C8B3A081FED2B588FDC3AA83FD83817AE566686CEAFFF7
+          F0FF6B93BDFF084AFEAF0028FF06000000000000000000000000000000007B7D
+          7F188D8A82E6F5CB84FEF5CB84FFF1C885FFF5CE8EFFFCD08CFFAE9E85FE7071
+          75F3A9A193BB3956B20A0000000000000000000000000000000000000000767A
+          7F95ECCB8EFFF3D192FFEECE92FFEDCC8EFFECC784FFEDC687FFFDD28FFF8783
+          7CDB000000010000000000000000000000000000000000000000000000009894
+          8BE1FEDFA1FFF2DAA5FFF2DBA7FFF1D79FFFEFD097FFECC886FFF6D298FFC1A9
+          87FF5254592A000000000000000000000000000000000000000000000000A7A1
+          91F4FFEBB9FFF8ECC6FFF7EBC0FFF5E3B2FFF2DAA3FFEECF94FFF4D093FFCFB6
+          8DFF5153583D0000000000000000000000000000000000000000000000009996
+          92D0FFF7CBFFFDFAE6FFFDF9E7FFF8EDC5FFF4E0B0FFF0D49BFFFAD594FFAF9F
+          85FE6264671A000000000000000000000000000000000000000000000000A0A1
+          A56FD5CCB1FFFFFFF2FFFFFFF2FFFBF3D2FFF6E2B4FFF7D99EFFF6D393FF7D7D
+          81B800000000000000000000000000000000000000000000000000000000D9D9
+          DA04A1A1A2B8D6CFB6FFFFFFDCFFFFF6CAFFFFEBB1FFEDD49CFE8C8983E47677
+          7A20000000000000000000000000000000000000000000000000000000000000
+          0000EBECED059C9CA07B979893E0A8A397FE97948CF07679809E7C7D7F1A0000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000}
+      end
+      object rdoTel: TcxRadioButton
+        Left = 321
+        Top = 24
+        Width = 52
+        Height = 17
+        Caption = #38651#35441
+        TabOrder = 4
+      end
+      object rdoContactee: TcxRadioButton
+        Left = 183
+        Top = 24
+        Width = 69
+        Height = 17
+        Caption = #36899#32097#20154
+        TabOrder = 5
+      end
+      object rdoBusinessId: TcxRadioButton
+        Left = 252
+        Top = 24
+        Width = 57
+        Height = 17
+        Caption = #32113#32232
+        TabOrder = 6
+      end
+      object rdoInvAddr: TcxRadioButton
+        Left = 389
+        Top = 24
+        Width = 137
+        Height = 17
+        Caption = #30332#31080#22320#22336' / '#37109#23492#22320#22336
+        TabOrder = 7
+      end
+    end
+    object ResultGrid: TcxGrid
+      Left = 5
+      Top = 114
+      Width = 790
+      Height = 422
+      Align = alClient
+      TabOrder = 1
+      object TvResult: TcxGridDBBandedTableView
+        OnDblClick = TvResultDblClick
+        NavigatorButtons.ConfirmDelete = False
+        DataController.DataSource = DataSource1
+        DataController.Summary.DefaultGroupSummaryItems = <>
+        DataController.Summary.FooterSummaryItems = <>
+        DataController.Summary.SummaryGroups = <>
+        OptionsCustomize.ColumnFiltering = False
+        OptionsData.Deleting = False
+        OptionsData.Editing = False
+        OptionsData.Inserting = False
+        OptionsSelection.CellSelect = False
+        OptionsView.CellEndEllipsis = True
+        OptionsView.GroupByBox = False
+        OptionsView.HeaderEndEllipsis = True
+        OptionsView.Indicator = True
+        OptionsView.RowSeparatorWidth = 5
+        Styles.Content = dtmMain.cxGridBackGroundStyle
+        Styles.Inactive = dtmMain.cxGridInActiveStyle
+        Styles.Selection = dtmMain.cxGridActiveStyle
+        Styles.BandBackground = dtmMain.cxGridBackGroundStyle
+        Styles.BandHeader = dtmMain.cxBandHeaderStyle
+        Bands = <
+          item
+            Caption = #35531#36984#25799#25260#38957
+            HeaderAlignmentHorz = taLeftJustify
+            Width = 497
+          end
+          item
+            Width = 256
+          end
+          item
+            Visible = False
+            Width = 312
+          end>
+        object TvResultCUSTID: TcxGridDBBandedColumn
+          Caption = #23458#32232
+          DataBinding.FieldName = 'CUSTID'
+          Width = 107
+          Position.BandIndex = 0
+          Position.ColIndex = 0
+          Position.RowIndex = 0
+        end
+        object TvResultCUSTSNAME: TcxGridDBBandedColumn
+          Caption = #23458#25142#31777#31281
+          DataBinding.FieldName = 'CUSTSNAME'
+          Width = 187
+          Position.BandIndex = 0
+          Position.ColIndex = 1
+          Position.RowIndex = 0
+        end
+        object TvResultCUSTNAME: TcxGridDBBandedColumn
+          Caption = #23458#25142#20840#21517
+          DataBinding.FieldName = 'CUSTNAME'
+          Width = 294
+          Position.BandIndex = 0
+          Position.ColIndex = 0
+          Position.RowIndex = 1
+        end
+        object TvResultMAILADDR: TcxGridDBBandedColumn
+          Caption = #23492#20214#22320#22336
+          DataBinding.FieldName = 'MAILADDR'
+          Width = 865
+          Position.BandIndex = 0
+          Position.ColIndex = 0
+          Position.RowIndex = 3
+        end
+        object TvResultTEL1: TcxGridDBBandedColumn
+          Caption = #38651#35441'1'
+          DataBinding.FieldName = 'TEL1'
+          Width = 104
+          Position.BandIndex = 1
+          Position.ColIndex = 0
+          Position.RowIndex = 1
+        end
+        object TvResultTEL2: TcxGridDBBandedColumn
+          Caption = #38651#35441'2'
+          DataBinding.FieldName = 'TEL2'
+          Width = 122
+          Position.BandIndex = 1
+          Position.ColIndex = 0
+          Position.RowIndex = 2
+        end
+        object TvResultTEL3: TcxGridDBBandedColumn
+          Caption = #38651#35441'3'
+          DataBinding.FieldName = 'TEL3'
+          Width = 116
+          Position.BandIndex = 1
+          Position.ColIndex = 0
+          Position.RowIndex = 3
+        end
+        object TvResultAPPCONTACTEE1: TcxGridDBBandedColumn
+          DataBinding.FieldName = 'APPCONTACTEE1'
+          Width = 110
+          Position.BandIndex = 2
+          Position.ColIndex = 0
+          Position.RowIndex = 1
+        end
+        object TvResultAPPCONTACTEE2: TcxGridDBBandedColumn
+          DataBinding.FieldName = 'APPCONTACTEE2'
+          Width = 110
+          Position.BandIndex = 2
+          Position.ColIndex = 0
+          Position.RowIndex = 2
+        end
+        object TvResultFINACONTACTEE1: TcxGridDBBandedColumn
+          DataBinding.FieldName = 'FINACONTACTEE1'
+          Width = 110
+          Position.BandIndex = 2
+          Position.ColIndex = 0
+          Position.RowIndex = 3
+        end
+        object TvResultFINACONTACTEE2: TcxGridDBBandedColumn
+          DataBinding.FieldName = 'FINACONTACTEE2'
+          Width = 110
+          Position.BandIndex = 2
+          Position.ColIndex = 0
+          Position.RowIndex = 0
+        end
+        object TvResultTITLESNAME: TcxGridDBBandedColumn
+          Caption = #25260#38957#31777#31281
+          DataBinding.FieldName = 'TITLESNAME'
+          Width = 203
+          Position.BandIndex = 0
+          Position.ColIndex = 2
+          Position.RowIndex = 0
+        end
+        object TvResultTITLENAME: TcxGridDBBandedColumn
+          Caption = #25260#38957#20840#21517
+          DataBinding.FieldName = 'TITLENAME'
+          Width = 201
+          Position.BandIndex = 1
+          Position.ColIndex = 0
+          Position.RowIndex = 0
+        end
+        object TvResultBUSINESSID: TcxGridDBBandedColumn
+          Caption = #32113#19968#32232#34399
+          DataBinding.FieldName = 'BUSINESSID'
+          Width = 203
+          Position.BandIndex = 0
+          Position.ColIndex = 1
+          Position.RowIndex = 1
+        end
+        object TvResultINVADDR: TcxGridDBBandedColumn
+          Caption = #30332#31080#22320#22336
+          DataBinding.FieldName = 'INVADDR'
+          Width = 226
+          Position.BandIndex = 0
+          Position.ColIndex = 0
+          Position.RowIndex = 2
+        end
+      end
+      object LvResult: TcxGridLevel
+        GridView = TvResult
+      end
+    end
+  end
+  object DataSource1: TDataSource
+    DataSet = dtmMain.adoComm
+    Left = 48
+    Top = 424
+  end
+end

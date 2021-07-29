@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ProductManagementData SYSTEM "ProductManagementData.dtd">
+<ProductManagementData creationDate="20040827082532">
+<ProviderInfo>
+<ProviderId>IMS Nagra</ProviderId>
+<ProviderName>IMS Nagravision S.A.</ProviderName>
+<DtdVersion>1.1.1</DtdVersion>
+</ProviderInfo>
+<ProductChangeNotification>
+
+<ProductData>
+<Product>
+<ProductId>3316</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>一電鍾情(躢)</ProductName>
+<ProductDescription>一電鍾情(躢)</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20040830180000" endTime="20040830200000"/>
+<EpgPrice>20</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20040830180000" endTime="20040831200000"/>
+<Event beginTime="20040830180000" duration="7200">
+<EventId>20050</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>一電鍾情(躢)</Name>
+<Description>本片是 法蘭壧努弟 自導自溢的三部曲之一 , 保持他一貫的喜劇天才,更增添了巧妙與諷喻, 融入奇想及童年回憶----是非常有趣超現實的情境喜劇.</Description>
+</EpgText>
+<ParentalRating>0</ParentalRating>
+<ChannelNumber>2</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+</ProductData>
+</ProductChangeNotification>
+</ProductManagementData>

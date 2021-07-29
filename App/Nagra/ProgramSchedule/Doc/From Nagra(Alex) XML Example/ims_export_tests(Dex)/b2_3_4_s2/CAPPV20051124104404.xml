@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ProductManagementData SYSTEM "ProductManagementData.dtd">
+<ProductManagementData creationDate="20051124104403">
+<ProviderInfo>
+<ProviderId>IMS Nagra</ProviderId>
+<ProviderName>IMS Nagravision S.A.</ProviderName>
+<DtdVersion>1.1.1</DtdVersion>
+</ProviderInfo>
+<ProductChangeNotification>
+
+<ProductData>
+<Product>
+<ProductId>18712</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>時空賤諜007</ProductName>
+<ProductDescription>時空賤諜007</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051122220000" endTime="20051127230000"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051126000000" endTime="20051129000000"/>
+<Event beginTime="20051127220000" duration="3600">
+<EventId>L00000034286</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>時空賤諜007</Name>
+<Description>史上最賤的王牌間諜奧斯汀鮑威（麥克麥爾斯，「王牌大賤諜」、「反斗智多星」）回來啦！還記得在第一集的故事中，萬惡罪魁”邪惡博士”（也是麥克麥爾斯）被智勇雙全的奧斯汀打敗後，最後還是乘亂逃走了，他如今又捲土重來，派遣手下肥霸（還是麥克麥爾斯）乘時光機器回到1969年偷了奧斯汀的活力泉源”魔酒”，另一方面則在月球上裝設威力強大的雷射砲對準華府，威脅美國政府交出鉅額贖金，否則便…嘿～嘿～嘿。英國情報局為此派出了多位菁英探員，卻總是被邪惡博士給識破而慘遭毒手，於是這個拯救世界的任務自然落到全英國最賤…不，是最厲害的王牌間諜奧斯汀鮑威出馬了。然而失去魔酒的奧斯汀因無法對漂亮美眉一展男性雄風而失去自信，英國情報局的專家研究後發現魔酒的失蹤又是邪惡博士搞的鬼，因而讓奧斯汀乘坐超時光金龜車回到1969年阻止魔酒被偷；然而此舉卻早在邪惡博士的預料中，因而派出一流殺手來給他好好”照顧”一下。想看奧斯汀鮑威如何打敗惡勢力、拯救世界、順便泡身材火辣辣的間諜美眉（海瑟葛萊罕，「大製騙家」、「不羈夜」）嗎？那就千萬不能錯過精彩絕倫的「時空賤諜007」！片中令人目眩的各種復古造型還曾入圍奧斯卡最佳化裝。</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>Austin Powers: The Spy Who Shagged Me</Name>
+<Description>Dr. Evil (Myers, Austin Powers: International Man of Mystery, Wayne’s World) returns from space just as British spy Austin Powers learns on his honeymoon that his wife, Vanessa (Hurley, Bedazzled) is a fembot under  Dr Evil's control.  Back on the singles scene, Powers discovers he's impotent because Evil has used a time machine to return to the late 60s and steal his libido. British intelligence also has a time portal, so Powers goes back to 1969 to recapture his “mojo” and, teams with agent Felicity Shagwell (Graham, Bowfinger, Boogie Nights), to stop another Evil plot to take over the world, this time with a "laser" beamed from the moon! Yeeeeah Baby – Myers is at his best again and don’t miss out on the brilliant collection of 60’s one-liners!</Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="1" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>503</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>18713</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>桃色風雲--搖擺狗</ProductName>
+<ProductDescription>桃色風雲--搖擺狗</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051122230000" endTime="20051128000000"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051126000000" endTime="20051130000000"/>
+<Event beginTime="20051127230000" duration="3600">
+<EventId>L00000034289</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>桃色風雲--搖擺狗</Name>
+<Description>美國總統鬧出性醜聞，面對著醜聞成為頭條新聞的壓力，及兩週後的總統大選，白宮這回該怎麼做呢？簡單，發動一場戰爭！白宮危機處理專家康洛德（勞勃狄尼洛，「老大靠邊閃」）受命替總統解圍，轉移民眾注意力，於是他找來了好萊塢大製片家史丹利（達斯汀霍夫曼，「地動天驚」、「雨人」），虛擬一場在阿爾巴尼亞的戰爭，但這場戰爭不是發生在真實的戰場，而是在攝影棚當中，不用任何真槍實彈，他們製造各種有關戰爭的新聞片段，甚至趁機推出愛國歌曲大撈一筆。起初一切都進行地很順利，廣大民眾的心，隨著真真假假的戰爭新聞而起伏，但不久後卻漏洞百出，假的戰區英雄意外死亡，製片史丹利為了居功而不願保密，中情局也開始懷疑這場美國總統的桃色風雲該如何圓滿收場？導演巴瑞李文遜曾以「雨人」、「早安越南」、「豪情四兄弟」等片獲得空前的成功。</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>Wag The Dog</Name>
+<Description>What do the President’s advisers do when a sex scandal threatens to explode across front pages nationwide, with the election is only 14 days away? Simple. Start a war! Faced with this dilemma, a ‘spin-doctor’ (DeNiro, Men Of Honor, Meet The Parents, The Adventures of Rocky &amp; Bullwinkle ) is called in to fabricate a nonexistent war for the President to win, and to distract the American public. Wars are no longer fought on battlefields but on TV, so naturally a hotshot Hollywood producer (Hoffman, Being John Malcovich, Cosm) is hired to manufacture a war in distant Albania — without a shot being fired. With its first-class cast and ascerbic humour, Wag the Dog is a biting satire that has never been more appropriate.</Description>
+</EpgText>
+<ParentalRating>15</ParentalRating>
+<DvbContent>
+<Content nibble1="1" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>503</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>18714</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>熱帶雪</ProductName>
+<ProductDescription>熱帶雪</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051123000000" endTime="20051128010000"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051126000000" endTime="20051130000000"/>
+<Event beginTime="20051128000000" duration="3600">
+<EventId>L00000034292</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>熱帶雪</Name>
+<Description>塔佛（尼克柯瑞，「天人交戰」、「我吸我吸我吸吸吸」）和米蘭妲（麥德琳史道威，「將軍的女兒」、「未來總動員」）是一對居住於哥倫比亞波哥大的年輕戀人，兩人為維持家人生計而在機場當扒手為業，對他們倆來說，紐約是個能建立新生活的夢想城市；當地的毒梟歐斯卡（大衛卡拉定，「雙重麻煩」）以紐約之行為交換，說服他們以吞入腹中的方式，走私毒品闖過紐約機場的海關；由於米蘭妲的姊姊便是死於類似的情況，他們很清楚這種走私方式會有的風險，但為了實現夢想，兩人還是答應了歐斯卡的條件；然而抵達紐約機場後，兩人卻因過於緊張而引來警方注意，他們的夢想也漸漸隨之破碎…</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>Body Snatchers</Name>
+<Description>New York is the dream city of Tavo (Garcia, Traffic, Vampire In Brooklyn) and Marina (Stowe, The General’s Daughter, Twelve Monkeys), where the two young lovers hope to start a better life. At home in slum-ridden Bogota, Columbia, they have had to work as pickpockets at the airport to support their families.  Dealer Oskar (Carridine, Double Trouble) persuades them to smuggle drugs in their stomachs on a plane to New York - although both know of the risks, since Marina's sister died on a similar journey.   However on arrival at the airport in New York they show nerves and all their dreams start to shatter...</Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="1" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>503</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>18717</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>頭號潛艦</ProductName>
+<ProductDescription>頭號潛艦</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051123030000" endTime="20051128040000"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051127000000" endTime="20051130000000"/>
+<Event beginTime="20051128030000" duration="3600">
+<EventId>L00000034301</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>頭號潛艦</Name>
+<Description>這部感人的戰爭片是根據一段美國內戰時的史實所改編，曾榮獲2000年艾美獎最佳音效剪接。西元1864年南北戰爭期間，南卡羅萊納州的查爾士敦遭北軍重重包圍，水陸交通皆與外界隔絕；面對戰力明顯優越許多的敵軍，城裡的南軍為突破重圍，因而建造了配備魚雷的史上第一艘潛水艇”CSS杭利號”，雖然最後並未達成使命，但船上的八名軍官所表現的袍澤之情，以及大無畏的軍人情操卻令他們名留青史。由演技派演員艾蒙亞森特（「超時空戰警」）和唐納蘇德蘭（「太空大哥大」、「神鬼任務」）領銜主演。</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>The Hunley</Name>
+<Description>The incredible true story of Confederate efforts to develop a submersible boat during the American Civil War. The story opens in Charleston S.C. during the 1864 seize and naval blockade of that city by the Yankees. The Confederates were attempting to develop a submarine with a torpedo to be used as a weapon to break the blockade. This movie follows the bravery and determination of the eight-member crew in developing the manually propelled submarine and its deployment into battle.  An exceptional story of heroism in the face of adversity. </Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="1" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>503</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>18719</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>魔鬼獵殺</ProductName>
+<ProductDescription>魔鬼獵殺</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051123050001" endTime="20051128060001"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051127000000" endTime="20051130000000"/>
+<Event beginTime="20051128050001" duration="3600">
+<EventId>L00000034307</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>魔鬼獵殺</Name>
+<Description>仍尚未自喪子之慟中恢復的刑事組警官巴恩斯（史蒂芬鮑德溫，「刺激驚爆點」）奉命追查一樁詭異的連續殺人案，當他慢慢克服驟失獨子的悲劇之時，另一方面卻日漸沈迷於追查該宗神祕案件，然而此舉卻危害到他早已亮起紅燈的婚姻；當兇手的動機逐漸明朗之際，巴恩斯發現自己的生活也日漸分崩離析，他不只被迫質疑自己的信仰和原則，最後還必須和身邊潛藏的邪惡正面衝突！</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>Absence Of The Good</Name>
+<Description>Homicide detective Caleb Barnes (Baldwin, The Usual Suspects) is brought in to investigate a series of bizarre murders.  Still wracked by the death of his only child, Barnes becomes increasingly obsessed with the case at the same time as he is trying to come to terms with his own personal tragedy.  He does this at the cost of his marriage, which is already strained to begin with.  As the killing spree intensifies, Barnes finds his life disintegrating around him and he is forced to question his own principles and beliefs as well as come face to face with the evil that surrounds him.</Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="1" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>503</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>18728</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>閻王索命</ProductName>
+<ProductDescription>閻王索命</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051123140001" endTime="20051128150002"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051127000000" endTime="20051130000000"/>
+<Event beginTime="20051128140001" duration="3601">
+<EventId>L00000034334</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>閻王索命</Name>
+<Description>西元2002年，自殺在美國成為合法行為，卻因而產生了難以預料的後果，吉姆（艾瑞克羅勃茲，「莫名殺機」）為了替瀕死的兒子籌措手術費，而將自己的身體賣給一家仲介”多餘器官”的大公司；然而吉姆的兒子並未逃過死神召喚，而買下他身體的器官仲介公司又拒絕讓他退還訂金，痛失愛子的吉姆只得展開逃亡生涯，以躲避該公司派出的殺手追蹤；但吉姆很快便發現若想保住小命，唯一的方法便是從問題的源頭著手：找上該公司的總裁！本片導演是紐西蘭籍的傑夫墨菲，他另外的作品包括「少壯屠龍陣2」、「魔鬼戰將2」、「奪命12小時」等。</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>Race Against Time</Name>
+<Description>
+In 2002, the United States legalizes suicide.  The consequences are unforseen.  Jim Gabriel (Roberts-No Alibi ) sells his body to a powerful organization called Lifecorps that buys people for their ‘spare parts’.  He needs to raise money to pay for the surgery that his dying son needs.  But when his son dies anyway, Lifecorps is not about to give refunds.  They want him bad.  His only option is to run and elude the trackers that have been sent from him.  But soon he realizes that to truly escape, he has to go for the source of his problems: the CEO of Lifecorps.</Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="6" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>503</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+</ProductData>
+</ProductChangeNotification>
+</ProductManagementData>

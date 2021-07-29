@@ -1,0 +1,3 @@
+VBGROUP 5.0
+StartupProject=..\SO5000.vbp
+Project=SO5210A.vbp

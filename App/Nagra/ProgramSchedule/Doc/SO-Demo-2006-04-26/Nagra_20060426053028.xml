@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BroadcastData SYSTEM "BroadcastData.dtd">
+<BroadcastData creationDate="20060426053028">
+  <ProviderInfo>
+    <ProviderId>Nagra</ProviderId>
+    <ProviderName>Nagravision S.A.</ProviderName>
+  </ProviderInfo>
+  <ScheduleData>
+    <ChannelPeriod beginTime="20060426060501" endTime="20060426160001">
+      <ChannelId>302</ChannelId>
+      <Event beginTime="20060426060501" duration="300">
+        <EventId>L00000084814</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD01666900FD</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>Default promo</Name>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Default promo</Name>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060426061001" duration="4800">
+        <EventId>L00000084816</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">0036F2AD0102827860D1C765E24B80A2407177E96C08A747E51C3FB4F2A46DC38BB60A72A7DF7846B9EBCD6FE297CDF6E71A63B80EA75A9E4F8D731C3AD617310D340F2DC516</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="35" pdsValue="9">002E05F91388031B0036F2138801656E67081A1A1A1A1A1A3131D25B06100101200050</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD01666910FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="23" pdsValue="9">000100000036F213880300000160011A1A1A1A1A1A3131</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="29" pdsValue="9">000100000036F213880000000003000001600100001A1A1A1A1A1A3131</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>天王星攝影機11</Name>
+            <Description>這是一個多功能且功能強大又符合人性話的數位攝影機</Description>
+            <ExtendedInfo name="導演">蔡 明亮</ExtendedInfo>
+            <ExtendedInfo name="演員">克里夫蘭 司徒, 蔡 明亮, 黃 宣豪, 陳 八</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>start of the digital camer</Name>
+            <Description>yhis is friendly digital camer</Description>
+            <ExtendedInfo name="導演">lin williams</ExtendedInfo>
+            <ExtendedInfo name="演員">Brad Pit, Annie kao, kate wu, Sergio Sergio, chane fread</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="A" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20060426073001" duration="300">
+        <EventId>L00000084819</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD01666900FD</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>Default promo</Name>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Default promo</Name>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060426073501" duration="4800">
+        <EventId>L00000084821</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">0036F3AD0182B0F72CA7B4D1C841B64110A44784BF82FB14A470023FED710E8B2A80B108AEFE29F9FE25CFDDC0768A802E1E85B444072898C04E7617F6BFAFC43E493B582742</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="35" pdsValue="9">002E17F91388031B0036F3138801656E67081A1A1A1A1A1A3132D25B07350101200050</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD01666910FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="23" pdsValue="9">000100000036F313880300000160011A1A1A1A1A1A3132</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="29" pdsValue="9">000100000036F313880000000003000001600100001A1A1A1A1A1A3132</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>天王星攝影機12</Name>
+            <Description>這是一個多功能且功能強大又符合人性話的數位攝影機</Description>
+            <ExtendedInfo name="導演">蔡 明亮</ExtendedInfo>
+            <ExtendedInfo name="演員">克里夫蘭 司徒, 蔡 明亮, 黃 宣豪, 陳 八</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>start of the digital camer</Name>
+            <Description>yhis is friendly digital camer</Description>
+            <ExtendedInfo name="演員">Brad Pit, Annie kao, kate wu, Sergio Sergio, chane fread</ExtendedInfo>
+            <ExtendedInfo name="導演">lin williams</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="A" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20060426085501" duration="299">
+        <EventId>L00000084824</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD01666900FD</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>Default promo</Name>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Default promo</Name>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060426090000" duration="4800">
+        <EventId>L00000084826</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">0036F4AD010299903656C4254B4D70F2B551EFC029E4432E6EBD8F8102932079DF7121F4089FDFED60FD7E548DE92472B198FA163668345E4C9291348DAFD8FDC32CE775BC63</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="35" pdsValue="9">002E0CF91388031B0036F4138801656E67081A1A1A1A1A1A3133D25B09000001200050</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD01666910FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="23" pdsValue="9">000100000036F413880300000160011A1A1A1A1A1A3133</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="29" pdsValue="9">000100000036F413880000000003000001600100001A1A1A1A1A1A3133</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>天王星攝影機13</Name>
+            <Description>這是一個多功能且功能強大又符合人性話的數位攝影機</Description>
+            <ExtendedInfo name="導演">蔡 明亮</ExtendedInfo>
+            <ExtendedInfo name="演員">克里夫蘭 司徒, 蔡 明亮, 黃 宣豪, 陳 八</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>start of the digital camer</Name>
+            <Description>yhis is friendly digital camer</Description>
+            <ExtendedInfo name="演員">Brad Pit, Annie kao, kate wu, Sergio Sergio, chane fread</ExtendedInfo>
+            <ExtendedInfo name="導演">lin williams</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="A" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20060426102000" duration="300">
+        <EventId>L00000084829</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD01666900FD</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="eng">
+            <Name>Default promo</Name>
+          </EpgText>
+          <EpgText language="chi">
+            <Name>Default promo</Name>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060426102500" duration="4800">
+        <EventId>L00000084831</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">0036F5AD0142C2B796DDEA93D2DD1AC5FF61CBB2E7420496C8313F5FD0A96E60B4FB4EAF2BB4F6F4264BC0566D369A37DC3D042933A22AF5DEBBEA07098F35DCE18EA48D1769</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="35" pdsValue="9">002E25F91388031B0036F5138801656E67081A1A1A1A1A1A3134D25B10250001200050</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD01666910FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="23" pdsValue="9">000100000036F513880300000160011A1A1A1A1A1A3134</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="29" pdsValue="9">000100000036F513880000000003000001600100001A1A1A1A1A1A3134</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>天王星攝影機14</Name>
+            <Description>這是一個多功能且功能強大又符合人性話的數位攝影機</Description>
+            <ExtendedInfo name="導演">蔡 明亮</ExtendedInfo>
+            <ExtendedInfo name="演員">克里夫蘭 司徒, 蔡 明亮, 黃 宣豪, 陳 八</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>start of the digital camer</Name>
+            <Description>yhis is friendly digital camer</Description>
+            <ExtendedInfo name="演員">Brad Pit, Annie kao, kate wu, Sergio Sergio, chane fread</ExtendedInfo>
+            <ExtendedInfo name="導演">lin williams</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="A" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20060426114500" duration="300">
+        <EventId>L00000084834</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD01666900FD</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="eng">
+            <Name>Default promo</Name>
+          </EpgText>
+          <EpgText language="chi">
+            <Name>Default promo</Name>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060426115000" duration="4800">
+        <EventId>L00000084836</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">0036F6AD01827A52E0F0B896E5C0FC630DD9546E6A77573B3C5F4E684C6352384A0357555A11ECE5102C4C37E98E4842E4E0565D257C3448CB80784C8E0FB1E3BDF26ABD4F40</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="35" pdsValue="9">002E27F91388031B0036F6138801656E67081A1A1A1A1A1A3135D25B11500001200050</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD01666910FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="23" pdsValue="9">000100000036F613880300000160011A1A1A1A1A1A3135</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="29" pdsValue="9">000100000036F613880000000003000001600100001A1A1A1A1A1A3135</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>天王星攝影機15</Name>
+            <Description>這是一個多功能且功能強大又符合人性話的數位攝影機</Description>
+            <ExtendedInfo name="導演">蔡 明亮</ExtendedInfo>
+            <ExtendedInfo name="演員">克里夫蘭 司徒, 蔡 明亮, 黃 宣豪, 陳 八</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>start of the digital camer</Name>
+            <Description>yhis is friendly digital camer</Description>
+            <ExtendedInfo name="演員">Brad Pit, Annie kao, kate wu, Sergio Sergio, chane fread</ExtendedInfo>
+            <ExtendedInfo name="導演">lin williams</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="A" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20060426131000" duration="300">
+        <EventId>L00000084839</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD01666900FD</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="eng">
+            <Name>Default promo</Name>
+          </EpgText>
+          <EpgText language="chi">
+            <Name>Default promo</Name>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060426131500" duration="4801">
+        <EventId>L00000084841</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">0036F7AD0102AC8F2452F2AA8F4590202F372FB2475CC2A93BA7821D4D3861DD4FDC15999C606C24F225D20E6E270103259FE3A5CA6CD1458F2CB3A7D948257B46866F1E5955</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="35" pdsValue="9">002E10F91388031B0036F7138801656E67081A1A1A1A1A1A3136D25B13150001200150</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD01666910FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="23" pdsValue="9">000100000036F713880300000160011A1A1A1A1A1A3136</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="29" pdsValue="9">000100000036F713880000000003000001600100001A1A1A1A1A1A3136</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>天王星攝影機16</Name>
+            <Description>這是一個多功能且功能強大又符合人性話的數位攝影機</Description>
+            <ExtendedInfo name="導演">蔡 明亮</ExtendedInfo>
+            <ExtendedInfo name="演員">克里夫蘭 司徒, 蔡 明亮, 黃 宣豪, 陳 八</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>start of the digital camer</Name>
+            <Description>yhis is friendly digital camer</Description>
+            <ExtendedInfo name="演員">Brad Pit, Annie kao, kate wu, Sergio Sergio, chane fread</ExtendedInfo>
+            <ExtendedInfo name="導演">lin williams</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="A" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20060426143501" duration="300">
+        <EventId>L00000084844</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD01666900FD</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="eng">
+            <Name>Default promo</Name>
+          </EpgText>
+          <EpgText language="chi">
+            <Name>Default promo</Name>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060426144001" duration="4800">
+        <EventId>L00000084846</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">0036F8AD0182944744E2924D3BA4FBED350D2016070ADCB1A1F143DBB1C467FD76A6C954DDA8936C66651F31A351206A90754BF3AD7A71AD412F9F08824BF17E314CF065CB28</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="35" pdsValue="9">002E09F91388031B0036F8138801656E67081A1A1A1A1A1A3137D25B14400101200050</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD01666910FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="23" pdsValue="9">000100000036F813880300000160011A1A1A1A1A1A3137</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="29" pdsValue="9">000100000036F813880000000003000001600100001A1A1A1A1A1A3137</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>天王星攝影機17</Name>
+            <Description>這是一個多功能且功能強大又符合人性話的數位攝影機</Description>
+            <ExtendedInfo name="導演">蔡 明亮</ExtendedInfo>
+            <ExtendedInfo name="演員">克里夫蘭 司徒, 蔡 明亮, 黃 宣豪, 陳 八</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>start of the digital camer</Name>
+            <Description>yhis is friendly digital camer</Description>
+            <ExtendedInfo name="演員">Brad Pit, Annie kao, kate wu, Sergio Sergio, chane fread</ExtendedInfo>
+            <ExtendedInfo name="導演">lin williams</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="A" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+    </ChannelPeriod>
+    <ChannelPeriod beginTime="20060426160000" endTime="20060427074505">
+      <ChannelId>303</ChannelId>
+      <Event beginTime="20060426160000" duration="3600">
+        <EventId>L00000085578</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>HBO測試影片(60分)</Name>
+            <Description>故事大綱 9</Description>
+            <ExtendedInfo name="導演">導演 9</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 9</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>HBO測試影片(60分)</Name>
+            <Description>故事大綱 9</Description>
+            <ExtendedInfo name="演員">演員 9</ExtendedInfo>
+            <ExtendedInfo name="導演">導演 9</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060426170000" duration="3600">
+        <EventId>L00000085580</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>尼可測試影片(60分)</Name>
+            <Description>故事大綱 10</Description>
+            <ExtendedInfo name="導演">導演 10</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 10</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>尼可測試影片(60分)</Name>
+            <Description>故事大綱 10</Description>
+            <ExtendedInfo name="演員">演員 10</ExtendedInfo>
+            <ExtendedInfo name="導演">導演 10</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060426180000" duration="3600">
+        <EventId>L00000085582</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>緯來體育測試影片(60分)</Name>
+            <Description>故事大綱 11</Description>
+            <ExtendedInfo name="導演">導演 11</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 11</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>緯來體育測試影片(60分)</Name>
+            <Description>故事大綱 11</Description>
+            <ExtendedInfo name="演員">演員 11</ExtendedInfo>
+            <ExtendedInfo name="導演">導演 11</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060426190000" duration="3600">
+        <EventId>L00000085584</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>慈濟測試影片(60分)</Name>
+            <Description>故事大綱 12</Description>
+            <ExtendedInfo name="導演">導演 12</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 12</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>慈濟測試影片(60分)</Name>
+            <Description>故事大綱 12</Description>
+            <ExtendedInfo name="演員">演員 12</ExtendedInfo>
+            <ExtendedInfo name="導演">導演 12</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060426200000" duration="3601">
+        <EventId>L00000085614</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>HBO測試影片(60分)</Name>
+            <Description>故事大綱 9</Description>
+            <ExtendedInfo name="導演">導演 9</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 9</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>HBO測試影片(60分)</Name>
+            <Description>故事大綱 9</Description>
+            <ExtendedInfo name="演員">演員 9</ExtendedInfo>
+            <ExtendedInfo name="導演">導演 9</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060426210001" duration="3600">
+        <EventId>L00000085616</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>尼可測試影片(60分)</Name>
+            <Description>故事大綱 10</Description>
+            <ExtendedInfo name="導演">導演 10</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 10</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>尼可測試影片(60分)</Name>
+            <Description>故事大綱 10</Description>
+            <ExtendedInfo name="演員">演員 10</ExtendedInfo>
+            <ExtendedInfo name="導演">導演 10</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060426220001" duration="3600">
+        <EventId>L00000085618</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>緯來體育測試影片(60分)</Name>
+            <Description>故事大綱 11</Description>
+            <ExtendedInfo name="導演">導演 11</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 11</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>緯來體育測試影片(60分)</Name>
+            <Description>故事大綱 11</Description>
+            <ExtendedInfo name="演員">演員 11</ExtendedInfo>
+            <ExtendedInfo name="導演">導演 11</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060426230001" duration="3600">
+        <EventId>L00000085620</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>慈濟測試影片(60分)</Name>
+            <Description>故事大綱 12</Description>
+            <ExtendedInfo name="導演">導演 12</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 12</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>慈濟測試影片(60分)</Name>
+            <Description>故事大綱 12</Description>
+            <ExtendedInfo name="演員">演員 12</ExtendedInfo>
+            <ExtendedInfo name="導演">導演 12</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427000001" duration="3601">
+        <EventId>L00000085629</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>HBO測試影片(60分)</Name>
+            <Description>故事大綱 9</Description>
+            <ExtendedInfo name="導演">導演 9</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 9</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>HBO測試影片(60分)</Name>
+            <Description>故事大綱 9</Description>
+            <ExtendedInfo name="演員">演員 9</ExtendedInfo>
+            <ExtendedInfo name="導演">導演 9</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427010002" duration="3600">
+        <EventId>L00000085631</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>尼可測試影片(60分)</Name>
+            <Description>故事大綱 10</Description>
+            <ExtendedInfo name="導演">導演 10</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 10</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>尼可測試影片(60分)</Name>
+            <Description>故事大綱 10</Description>
+            <ExtendedInfo name="演員">演員 10</ExtendedInfo>
+            <ExtendedInfo name="導演">導演 10</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427020002" duration="3600">
+        <EventId>L00000085633</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>緯來體育測試影片(60分)</Name>
+            <Description>故事大綱 11</Description>
+            <ExtendedInfo name="導演">導演 11</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 11</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>緯來體育測試影片(60分)</Name>
+            <Description>故事大綱 11</Description>
+            <ExtendedInfo name="演員">演員 11</ExtendedInfo>
+            <ExtendedInfo name="導演">導演 11</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427030002" duration="3600">
+        <EventId>L00000085635</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>慈濟測試影片(60分)</Name>
+            <Description>故事大綱 12</Description>
+            <ExtendedInfo name="導演">導演 12</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 12</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>慈濟測試影片(60分)</Name>
+            <Description>故事大綱 12</Description>
+            <ExtendedInfo name="演員">演員 12</ExtendedInfo>
+            <ExtendedInfo name="導演">導演 12</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427040002" duration="901">
+        <EventId>L00000085637</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>HBO測試影片(15分)</Name>
+            <Description>故事大綱 1</Description>
+            <ExtendedInfo name="導演">導演 1</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 1</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>HBO測試影片(15分)</Name>
+            <Description>故事大綱 1</Description>
+            <ExtendedInfo name="演員">演員 1</ExtendedInfo>
+            <ExtendedInfo name="導演">導演 1</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427041503" duration="900">
+        <EventId>L00000085639</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>尼可測試影片(15分)</Name>
+            <Description>故事大綱 2</Description>
+            <ExtendedInfo name="導演">導演 2</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 2</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>尼可測試影片(15分)</Name>
+            <Description>故事大綱 2</Description>
+            <ExtendedInfo name="導演">導演 2</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 2</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427043003" duration="900">
+        <EventId>L00000085641</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>緯來體育測試影片(15分)</Name>
+            <Description>故事大綱 3</Description>
+            <ExtendedInfo name="導演">導演 3</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 3</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>緯來體育測試影片(15分)</Name>
+            <Description>故事大綱 3</Description>
+            <ExtendedInfo name="演員">演員 3</ExtendedInfo>
+            <ExtendedInfo name="導演">導演 3</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427044503" duration="900">
+        <EventId>L00000085643</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>慈濟測試影片(15分)</Name>
+            <Description>故事大綱 4</Description>
+            <ExtendedInfo name="導演">導演 4</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 4</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>慈濟測試影片(15分)</Name>
+            <Description>故事大綱 4</Description>
+            <ExtendedInfo name="演員">演員 4</ExtendedInfo>
+            <ExtendedInfo name="導演">導演 4</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427050003" duration="900">
+        <EventId>L00000085645</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>HBO測試影片(15分)</Name>
+            <Description>故事大綱 1</Description>
+            <ExtendedInfo name="導演">導演 1</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 1</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>HBO測試影片(15分)</Name>
+            <Description>故事大綱 1</Description>
+            <ExtendedInfo name="演員">演員 1</ExtendedInfo>
+            <ExtendedInfo name="導演">導演 1</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427051503" duration="900">
+        <EventId>L00000085647</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>尼可測試影片(15分)</Name>
+            <Description>故事大綱 2</Description>
+            <ExtendedInfo name="導演">導演 2</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 2</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>尼可測試影片(15分)</Name>
+            <Description>故事大綱 2</Description>
+            <ExtendedInfo name="演員">演員 2</ExtendedInfo>
+            <ExtendedInfo name="導演">導演 2</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427053003" duration="901">
+        <EventId>L00000085649</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>緯來體育測試影片(15分)</Name>
+            <Description>故事大綱 3</Description>
+            <ExtendedInfo name="導演">導演 3</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 3</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>緯來體育測試影片(15分)</Name>
+            <Description>故事大綱 3</Description>
+            <ExtendedInfo name="演員">演員 3</ExtendedInfo>
+            <ExtendedInfo name="導演">導演 3</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427054504" duration="900">
+        <EventId>L00000085651</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>慈濟測試影片(15分)</Name>
+            <Description>故事大綱 4</Description>
+            <ExtendedInfo name="導演">導演 4</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 4</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>慈濟測試影片(15分)</Name>
+            <Description>故事大綱 4</Description>
+            <ExtendedInfo name="演員">演員 4</ExtendedInfo>
+            <ExtendedInfo name="導演">導演 4</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427060004" duration="900">
+        <EventId>L00000085653</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>HBO測試影片(15分)</Name>
+            <Description>故事大綱 1</Description>
+            <ExtendedInfo name="導演">導演 1</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 1</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>HBO測試影片(15分)</Name>
+            <Description>故事大綱 1</Description>
+            <ExtendedInfo name="演員">演員 1</ExtendedInfo>
+            <ExtendedInfo name="導演">導演 1</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427061504" duration="900">
+        <EventId>L00000085655</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>尼可測試影片(15分)</Name>
+            <Description>故事大綱 2</Description>
+            <ExtendedInfo name="導演">導演 2</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 2</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>尼可測試影片(15分)</Name>
+            <Description>故事大綱 2</Description>
+            <ExtendedInfo name="演員">演員 2</ExtendedInfo>
+            <ExtendedInfo name="導演">導演 2</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427063004" duration="900">
+        <EventId>L00000085657</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>緯來體育測試影片(15分)</Name>
+            <Description>故事大綱 3</Description>
+            <ExtendedInfo name="導演">導演 3</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 3</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>緯來體育測試影片(15分)</Name>
+            <Description>故事大綱 3</Description>
+            <ExtendedInfo name="演員">演員 3</ExtendedInfo>
+            <ExtendedInfo name="導演">導演 3</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427064504" duration="901">
+        <EventId>L00000085659</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>慈濟測試影片(15分)</Name>
+            <Description>故事大綱 4</Description>
+            <ExtendedInfo name="導演">導演 4</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 4</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>慈濟測試影片(15分)</Name>
+            <Description>故事大綱 4</Description>
+            <ExtendedInfo name="演員">演員 4</ExtendedInfo>
+            <ExtendedInfo name="導演">導演 4</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427070005" duration="900">
+        <EventId>L00000085661</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>HBO測試影片(15分)</Name>
+            <Description>故事大綱 1</Description>
+            <ExtendedInfo name="導演">導演 1</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 1</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>HBO測試影片(15分)</Name>
+            <Description>故事大綱 1</Description>
+            <ExtendedInfo name="演員">演員 1</ExtendedInfo>
+            <ExtendedInfo name="導演">導演 1</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427071505" duration="900">
+        <EventId>L00000085663</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>尼可測試影片(15分)</Name>
+            <Description>故事大綱 2</Description>
+            <ExtendedInfo name="導演">導演 2</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 2</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>尼可測試影片(15分)</Name>
+            <Description>故事大綱 2</Description>
+            <ExtendedInfo name="演員">演員 2</ExtendedInfo>
+            <ExtendedInfo name="導演">導演 2</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060427073005" duration="900">
+        <EventId>L00000085665</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>緯來體育測試影片(15分)</Name>
+            <Description>故事大綱 3</Description>
+            <ExtendedInfo name="導演">導演 3</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 3</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>緯來體育測試影片(15分)</Name>
+            <Description>故事大綱 3</Description>
+            <ExtendedInfo name="演員">演員 3</ExtendedInfo>
+            <ExtendedInfo name="導演">導演 3</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+    </ChannelPeriod>
+  </ScheduleData>
+</BroadcastData>

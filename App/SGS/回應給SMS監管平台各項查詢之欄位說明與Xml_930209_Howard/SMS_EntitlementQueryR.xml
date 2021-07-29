@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="BIG5" standalone="yes" ?>
+
+<!-- xml version="1.0" encoding="GB2312" standalone="yes" -->
+<Msg Version="1" MsgID="2" Type="SMSUp"
+  DateTime="2002-08-17 15:30:00" SrcCode="110000S01"
+  DstCode="110000G01" ReplyID="1">
+  <Return Type="EntitlementQuery" Value="0" Desc="成功" Redirect="">
+	<!-- 
+ 
+		屬性說明:
+		  Value: 執行的結果代碼
+		  Dest: 執行的結果說明
+		  Type: 固定為 EntitlementQuery
+		  Redirect: 若欲傳回之檔案大於1MB, 則須將檔案壓縮放在某目錄下,然後回應給client,
+			    請client redirect 到該 URL 抓取檔案
+
+		只能有一個傳回值.可能的傳回值:
+		  0: 成功
+		  1: 沒有查到資料	
+		  2: 內部錯誤
+		  100 - 199: SMS 自訂之錯誤
+	
+
+	--> 
+  </Return>
+  <EntitlementQueryReport InstQuery="0" Date="2003-02-01">
+	<!--
+		屬性說明:
+		  InstQuery: client 端之查詢模式
+		  Date: client 端之查詢時間
+	-->
+
+	<Entitlement DateTime="2003-02-01 12:00:00" 
+	 ICCardNo="1234567890123456" ICCardID=""
+	 Status="Create"
+	 ProductCode="1"
+	 CASID="0x4A01"/>
+
+	<Entitlement DateTime="2003-02-01 12:00:00" 
+	 ICCardNo="1234567890123457" ICCardID=""
+	 Status="Delete"
+	 ProductCode="2"
+	 CASID="0x4A01"/>
+	
+	<!-- 
+		屬性說明:
+  		  DateTime	必須存在(授權/取消授權操作時間)
+		  Status	必須存在,且值必須為:
+					Create: 授權
+					Delete: 取消授權
+
+		  ICCardNo	必須存在(IC卡的外部卡號[編號])
+		  ICCardID	必須存在, 允許為空(卡的內部卡號[地址號])
+		  CASID		必須存在(CAS的ID)
+		  ProcudtCode	必須存在(CA系統定義的產品編號，授權時CA產品的代碼)
+	-->
+
+  </EntitlementQueryReport>
+</Msg>
+

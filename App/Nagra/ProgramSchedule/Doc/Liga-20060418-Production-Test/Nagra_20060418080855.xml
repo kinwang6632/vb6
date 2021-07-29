@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BroadcastData creationDate="20060418080855">
+    <ProviderInfo>
+        <ProviderId>Lysis</ProviderId>
+        <ProviderName>Lysis - a Kudelski Group Company</ProviderName>
+    </ProviderInfo>
+    <ScheduleData>
+        <ChannelPeriod beginTime="20060418083000" endTime="20060419101959">
+            <ChannelId>302</ChannelId>
+            <Event beginTime="20060418083000" duration="4800">
+                <EventId>L00000084092</EventId>
+                <EventType>P</EventType>
+                <PreviewTime>3</PreviewTime>
+                <FreeAccess>0</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>start of the digital camer</Name>
+                        <Description>yhis is friendly digital camer</Description>
+                        <ExtendedInfo name="導演">lin williams</ExtendedInfo>
+                        <ExtendedInfo name="演員">Brad Pit, Annie kao, kate wu, Sergio Sergio, chane fread</ExtendedInfo>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>天王星攝影機</Name>
+                        <Description>這是一個多功能且功能強大又符合人性話的數位攝影機</Description>
+                        <ExtendedInfo name="導演">蔡 明亮</ExtendedInfo>
+                        <ExtendedInfo name="演員">克里夫蘭 司徒, 蔡 明亮, 黃 宣豪, 陳 八</ExtendedInfo>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                    <DvbContent>
+                        <Content nibble1="A" nibble2="0"/>
+                        <User nibble1="0" nibble2="0"/>
+                    </DvbContent>
+                </EpgProduction>
+                <SingleEventProduct autoPublishFlag="1" impulsiveFlag="1" specialPpv="0">
+                    <SalePeriod beginTime="20060417083000" endTime="20060418084000"/>
+                    <ProdCategoryId>3</ProdCategoryId>
+                    <EpgPrice moneyUnit="TWD">50.0</EpgPrice>
+                </SingleEventProduct>
+            </Event>
+            <Event beginTime="20060418095000" duration="300">
+                <EventId>L00000084095</EventId>
+                <EventType>P</EventType>
+                <FreeAccess>1</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>Default promo</Name>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>Default promo</Name>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                </EpgProduction>
+                <ClearSingleEventProduct/>
+            </Event>
+            <Event beginTime="20060418095500" duration="4800">
+                <EventId>L00000084097</EventId>
+                <EventType>P</EventType>
+                <PreviewTime>3</PreviewTime>
+                <FreeAccess>0</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>start of the digital camer</Name>
+                        <Description>yhis is friendly digital camer</Description>
+                        <ExtendedInfo name="導演">lin williams</ExtendedInfo>
+                        <ExtendedInfo name="演員">Brad Pit, Annie kao, kate wu, Sergio Sergio, chane fread</ExtendedInfo>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>天王星攝影機</Name>
+                        <Description>這是一個多功能且功能強大又符合人性話的數位攝影機</Description>
+                        <ExtendedInfo name="導演">蔡 明亮</ExtendedInfo>
+                        <ExtendedInfo name="演員">克里夫蘭 司徒, 蔡 明亮, 黃 宣豪, 陳 八</ExtendedInfo>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                    <DvbContent>
+                        <Content nibble1="A" nibble2="0"/>
+                        <User nibble1="0" nibble2="0"/>
+                    </DvbContent>
+                </EpgProduction>
+                <SingleEventProduct autoPublishFlag="1" impulsiveFlag="1" specialPpv="0">
+                    <SalePeriod beginTime="20060417095500" endTime="20060418100500"/>
+                    <ProdCategoryId>3</ProdCategoryId>
+                    <EpgPrice moneyUnit="TWD">50.0</EpgPrice>
+                </SingleEventProduct>
+            </Event>
+            <Event beginTime="20060418111500" duration="299">
+                <EventId>L00000084100</EventId>
+                <EventType>P</EventType>
+                <FreeAccess>1</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>Default promo</Name>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>Default promo</Name>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                </EpgProduction>
+                <ClearSingleEventProduct/>
+            </Event>
+            <Event beginTime="20060418111959" duration="4800">
+                <EventId>L00000084102</EventId>
+                <EventType>P</EventType>
+                <PreviewTime>3</PreviewTime>
+                <FreeAccess>0</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>start of the digital camer</Name>
+                        <Description>yhis is friendly digital camer</Description>
+                        <ExtendedInfo name="導演">lin williams</ExtendedInfo>
+                        <ExtendedInfo name="演員">Brad Pit, Annie kao, kate wu, Sergio Sergio, chane fread</ExtendedInfo>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>天王星攝影機</Name>
+                        <Description>這是一個多功能且功能強大又符合人性話的數位攝影機</Description>
+                        <ExtendedInfo name="導演">蔡 明亮</ExtendedInfo>
+                        <ExtendedInfo name="演員">克里夫蘭 司徒, 蔡 明亮, 黃 宣豪, 陳 八</ExtendedInfo>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                    <DvbContent>
+                        <Content nibble1="A" nibble2="0"/>
+                        <User nibble1="0" nibble2="0"/>
+                    </DvbContent>
+                </EpgProduction>
+                <SingleEventProduct autoPublishFlag="1" impulsiveFlag="1" specialPpv="0">
+                    <SalePeriod beginTime="20060417111959" endTime="20060418112959"/>
+                    <ProdCategoryId>3</ProdCategoryId>
+                    <EpgPrice moneyUnit="TWD">50.0</EpgPrice>
+                </SingleEventProduct>
+            </Event>
+            <Event beginTime="20060418123959" duration="300">
+                <EventId>L00000084105</EventId>
+                <EventType>P</EventType>
+                <FreeAccess>1</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>Default promo</Name>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>Default promo</Name>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                </EpgProduction>
+                <ClearSingleEventProduct/>
+            </Event>
+            <Event beginTime="20060418124459" duration="4800">
+                <EventId>L00000084141</EventId>
+                <EventType>P</EventType>
+                <PreviewTime>3</PreviewTime>
+                <FreeAccess>0</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>start of the digital camer</Name>
+                        <Description>yhis is friendly digital camer</Description>
+                        <ExtendedInfo name="導演">lin williams</ExtendedInfo>
+                        <ExtendedInfo name="演員">Brad Pit, Annie kao, kate wu, Sergio Sergio, chane fread</ExtendedInfo>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>天王星攝影機</Name>
+                        <Description>這是一個多功能且功能強大又符合人性話的數位攝影機</Description>
+                        <ExtendedInfo name="導演">蔡 明亮</ExtendedInfo>
+                        <ExtendedInfo name="演員">克里夫蘭 司徒, 蔡 明亮, 黃 宣豪, 陳 八</ExtendedInfo>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                    <DvbContent>
+                        <Content nibble1="A" nibble2="0"/>
+                        <User nibble1="0" nibble2="0"/>
+                    </DvbContent>
+                </EpgProduction>
+                <SingleEventProduct autoPublishFlag="1" impulsiveFlag="1" specialPpv="0">
+                    <SalePeriod beginTime="20060417124459" endTime="20060418125459"/>
+                    <ProdCategoryId>3</ProdCategoryId>
+                    <EpgPrice moneyUnit="TWD">50.0</EpgPrice>
+                </SingleEventProduct>
+            </Event>
+            <Event beginTime="20060418140459" duration="300">
+                <EventId>L00000084144</EventId>
+                <EventType>P</EventType>
+                <FreeAccess>1</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>Default promo</Name>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>Default promo</Name>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                </EpgProduction>
+                <ClearSingleEventProduct/>
+            </Event>
+            <Event beginTime="20060418140959" duration="4800">
+                <EventId>L00000084146</EventId>
+                <EventType>P</EventType>
+                <PreviewTime>3</PreviewTime>
+                <FreeAccess>0</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>start of the digital camer</Name>
+                        <Description>yhis is friendly digital camer</Description>
+                        <ExtendedInfo name="導演">lin williams</ExtendedInfo>
+                        <ExtendedInfo name="演員">Brad Pit, Annie kao, kate wu, Sergio Sergio, chane fread</ExtendedInfo>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>天王星攝影機</Name>
+                        <Description>這是一個多功能且功能強大又符合人性話的數位攝影機</Description>
+                        <ExtendedInfo name="導演">蔡 明亮</ExtendedInfo>
+                        <ExtendedInfo name="演員">克里夫蘭 司徒, 蔡 明亮, 黃 宣豪, 陳 八</ExtendedInfo>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                    <DvbContent>
+                        <Content nibble1="A" nibble2="0"/>
+                        <User nibble1="0" nibble2="0"/>
+                    </DvbContent>
+                </EpgProduction>
+                <SingleEventProduct autoPublishFlag="1" impulsiveFlag="1" specialPpv="0">
+                    <SalePeriod beginTime="20060417140959" endTime="20060418141959"/>
+                    <ProdCategoryId>3</ProdCategoryId>
+                    <EpgPrice moneyUnit="TWD">50.0</EpgPrice>
+                </SingleEventProduct>
+            </Event>
+            <Event beginTime="20060418152959" duration="300">
+                <EventId>L00000084149</EventId>
+                <EventType>P</EventType>
+                <FreeAccess>1</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>Default promo</Name>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>Default promo</Name>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                </EpgProduction>
+                <ClearSingleEventProduct/>
+            </Event>
+            <Event beginTime="20060418160000" duration="4800">
+                <EventId>L00000084185</EventId>
+                <EventType>P</EventType>
+                <PreviewTime>3</PreviewTime>
+                <FreeAccess>0</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>start of the digital camer</Name>
+                        <Description>yhis is friendly digital camer</Description>
+                        <ExtendedInfo name="導演">lin williams</ExtendedInfo>
+                        <ExtendedInfo name="演員">Brad Pit, Annie kao, kate wu, Sergio Sergio, chane fread</ExtendedInfo>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>天王星攝影機</Name>
+                        <Description>這是一個多功能且功能強大又符合人性話的數位攝影機</Description>
+                        <ExtendedInfo name="導演">蔡 明亮</ExtendedInfo>
+                        <ExtendedInfo name="演員">克里夫蘭 司徒, 蔡 明亮, 黃 宣豪, 陳 八</ExtendedInfo>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                    <DvbContent>
+                        <Content nibble1="A" nibble2="0"/>
+                        <User nibble1="0" nibble2="0"/>
+                    </DvbContent>
+                </EpgProduction>
+                <SingleEventProduct autoPublishFlag="1" impulsiveFlag="1" specialPpv="0">
+                    <SalePeriod beginTime="20060417160000" endTime="20060418161000"/>
+                    <ProdCategoryId>3</ProdCategoryId>
+                    <EpgPrice moneyUnit="TWD">50.0</EpgPrice>
+                </SingleEventProduct>
+            </Event>
+            <Event beginTime="20060418172000" duration="300">
+                <EventId>L00000084188</EventId>
+                <EventType>P</EventType>
+                <FreeAccess>1</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>Default promo</Name>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>Default promo</Name>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                </EpgProduction>
+                <ClearSingleEventProduct/>
+            </Event>
+            <Event beginTime="20060418172500" duration="4800">
+                <EventId>L00000084190</EventId>
+                <EventType>P</EventType>
+                <PreviewTime>3</PreviewTime>
+                <FreeAccess>0</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>start of the digital camer</Name>
+                        <Description>yhis is friendly digital camer</Description>
+                        <ExtendedInfo name="導演">lin williams</ExtendedInfo>
+                        <ExtendedInfo name="演員">Brad Pit, Annie kao, kate wu, Sergio Sergio, chane fread</ExtendedInfo>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>天王星攝影機</Name>
+                        <Description>這是一個多功能且功能強大又符合人性話的數位攝影機</Description>
+                        <ExtendedInfo name="導演">蔡 明亮</ExtendedInfo>
+                        <ExtendedInfo name="演員">克里夫蘭 司徒, 蔡 明亮, 黃 宣豪, 陳 八</ExtendedInfo>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                    <DvbContent>
+                        <Content nibble1="A" nibble2="0"/>
+                        <User nibble1="0" nibble2="0"/>
+                    </DvbContent>
+                </EpgProduction>
+                <SingleEventProduct autoPublishFlag="1" impulsiveFlag="1" specialPpv="0">
+                    <SalePeriod beginTime="20060417172500" endTime="20060418173500"/>
+                    <ProdCategoryId>3</ProdCategoryId>
+                    <EpgPrice moneyUnit="TWD">50.0</EpgPrice>
+                </SingleEventProduct>
+            </Event>
+            <Event beginTime="20060418184500" duration="300">
+                <EventId>L00000084193</EventId>
+                <EventType>P</EventType>
+                <FreeAccess>1</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>Default promo</Name>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>Default promo</Name>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                </EpgProduction>
+                <ClearSingleEventProduct/>
+            </Event>
+            <Event beginTime="20060418185000" duration="4800">
+                <EventId>L00000084195</EventId>
+                <EventType>P</EventType>
+                <PreviewTime>3</PreviewTime>
+                <FreeAccess>0</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>start of the digital camer</Name>
+                        <Description>yhis is friendly digital camer</Description>
+                        <ExtendedInfo name="導演">lin williams</ExtendedInfo>
+                        <ExtendedInfo name="演員">Brad Pit, Annie kao, kate wu, Sergio Sergio, chane fread</ExtendedInfo>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>天王星攝影機</Name>
+                        <Description>這是一個多功能且功能強大又符合人性話的數位攝影機</Description>
+                        <ExtendedInfo name="導演">蔡 明亮</ExtendedInfo>
+                        <ExtendedInfo name="演員">克里夫蘭 司徒, 蔡 明亮, 黃 宣豪, 陳 八</ExtendedInfo>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                    <DvbContent>
+                        <Content nibble1="A" nibble2="0"/>
+                        <User nibble1="0" nibble2="0"/>
+                    </DvbContent>
+                </EpgProduction>
+                <SingleEventProduct autoPublishFlag="1" impulsiveFlag="1" specialPpv="0">
+                    <SalePeriod beginTime="20060417185000" endTime="20060418190000"/>
+                    <ProdCategoryId>3</ProdCategoryId>
+                    <EpgPrice moneyUnit="TWD">50.0</EpgPrice>
+                </SingleEventProduct>
+            </Event>
+            <Event beginTime="20060418201000" duration="300">
+                <EventId>L00000084198</EventId>
+                <EventType>P</EventType>
+                <FreeAccess>1</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>Default promo</Name>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>Default promo</Name>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                </EpgProduction>
+                <ClearSingleEventProduct/>
+            </Event>
+            <Event beginTime="20060418201500" duration="4800">
+                <EventId>L00000084200</EventId>
+                <EventType>P</EventType>
+                <PreviewTime>3</PreviewTime>
+                <FreeAccess>0</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>start of the digital camer</Name>
+                        <Description>yhis is friendly digital camer</Description>
+                        <ExtendedInfo name="導演">lin williams</ExtendedInfo>
+                        <ExtendedInfo name="演員">Brad Pit, Annie kao, kate wu, Sergio Sergio, chane fread</ExtendedInfo>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>天王星攝影機</Name>
+                        <Description>這是一個多功能且功能強大又符合人性話的數位攝影機</Description>
+                        <ExtendedInfo name="導演">蔡 明亮</ExtendedInfo>
+                        <ExtendedInfo name="演員">克里夫蘭 司徒, 蔡 明亮, 黃 宣豪, 陳 八</ExtendedInfo>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                    <DvbContent>
+                        <Content nibble1="A" nibble2="0"/>
+                        <User nibble1="0" nibble2="0"/>
+                    </DvbContent>
+                </EpgProduction>
+                <SingleEventProduct autoPublishFlag="1" impulsiveFlag="1" specialPpv="0">
+                    <SalePeriod beginTime="20060417201500" endTime="20060418202500"/>
+                    <ProdCategoryId>3</ProdCategoryId>
+                    <EpgPrice moneyUnit="TWD">50.0</EpgPrice>
+                </SingleEventProduct>
+            </Event>
+            <Event beginTime="20060418213500" duration="300">
+                <EventId>L00000084203</EventId>
+                <EventType>P</EventType>
+                <FreeAccess>1</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>Default promo</Name>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>Default promo</Name>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                </EpgProduction>
+                <ClearSingleEventProduct/>
+            </Event>
+            <Event beginTime="20060418214000" duration="4800">
+                <EventId>L00000084205</EventId>
+                <EventType>P</EventType>
+                <PreviewTime>3</PreviewTime>
+                <FreeAccess>0</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>start of the digital camer</Name>
+                        <Description>yhis is friendly digital camer</Description>
+                        <ExtendedInfo name="導演">lin williams</ExtendedInfo>
+                        <ExtendedInfo name="演員">Brad Pit, Annie kao, kate wu, Sergio Sergio, chane fread</ExtendedInfo>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>天王星攝影機</Name>
+                        <Description>這是一個多功能且功能強大又符合人性話的數位攝影機</Description>
+                        <ExtendedInfo name="導演">蔡 明亮</ExtendedInfo>
+                        <ExtendedInfo name="演員">克里夫蘭 司徒, 蔡 明亮, 黃 宣豪, 陳 八</ExtendedInfo>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                    <DvbContent>
+                        <Content nibble1="A" nibble2="0"/>
+                        <User nibble1="0" nibble2="0"/>
+                    </DvbContent>
+                </EpgProduction>
+                <SingleEventProduct autoPublishFlag="1" impulsiveFlag="1" specialPpv="0">
+                    <SalePeriod beginTime="20060417214000" endTime="20060418215000"/>
+                    <ProdCategoryId>3</ProdCategoryId>
+                    <EpgPrice moneyUnit="TWD">50.0</EpgPrice>
+                </SingleEventProduct>
+            </Event>
+            <Event beginTime="20060418230000" duration="300">
+                <EventId>L00000084208</EventId>
+                <EventType>P</EventType>
+                <FreeAccess>1</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>Default promo</Name>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>Default promo</Name>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                </EpgProduction>
+                <ClearSingleEventProduct/>
+            </Event>
+            <Event beginTime="20060418230500" duration="4800">
+                <EventId>L00000084210</EventId>
+                <EventType>P</EventType>
+                <PreviewTime>3</PreviewTime>
+                <FreeAccess>0</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>start of the digital camer</Name>
+                        <Description>yhis is friendly digital camer</Description>
+                        <ExtendedInfo name="導演">lin williams</ExtendedInfo>
+                        <ExtendedInfo name="演員">Brad Pit, Annie kao, kate wu, Sergio Sergio, chane fread</ExtendedInfo>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>天王星攝影機</Name>
+                        <Description>這是一個多功能且功能強大又符合人性話的數位攝影機</Description>
+                        <ExtendedInfo name="導演">蔡 明亮</ExtendedInfo>
+                        <ExtendedInfo name="演員">克里夫蘭 司徒, 蔡 明亮, 黃 宣豪, 陳 八</ExtendedInfo>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                    <DvbContent>
+                        <Content nibble1="A" nibble2="0"/>
+                        <User nibble1="0" nibble2="0"/>
+                    </DvbContent>
+                </EpgProduction>
+                <SingleEventProduct autoPublishFlag="1" impulsiveFlag="1" specialPpv="0">
+                    <SalePeriod beginTime="20060417230500" endTime="20060418231500"/>
+                    <ProdCategoryId>3</ProdCategoryId>
+                    <EpgPrice moneyUnit="TWD">50.0</EpgPrice>
+                </SingleEventProduct>
+            </Event>
+            <Event beginTime="20060419002500" duration="300">
+                <EventId>L00000084213</EventId>
+                <EventType>P</EventType>
+                <FreeAccess>1</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>Default promo</Name>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>Default promo</Name>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                </EpgProduction>
+                <ClearSingleEventProduct/>
+            </Event>
+            <Event beginTime="20060419003000" duration="4800">
+                <EventId>L00000084215</EventId>
+                <EventType>P</EventType>
+                <PreviewTime>3</PreviewTime>
+                <FreeAccess>0</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>start of the digital camer</Name>
+                        <Description>yhis is friendly digital camer</Description>
+                        <ExtendedInfo name="導演">lin williams</ExtendedInfo>
+                        <ExtendedInfo name="演員">Brad Pit, Annie kao, kate wu, Sergio Sergio, chane fread</ExtendedInfo>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>天王星攝影機</Name>
+                        <Description>這是一個多功能且功能強大又符合人性話的數位攝影機</Description>
+                        <ExtendedInfo name="導演">蔡 明亮</ExtendedInfo>
+                        <ExtendedInfo name="演員">克里夫蘭 司徒, 蔡 明亮, 黃 宣豪, 陳 八</ExtendedInfo>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                    <DvbContent>
+                        <Content nibble1="A" nibble2="0"/>
+                        <User nibble1="0" nibble2="0"/>
+                    </DvbContent>
+                </EpgProduction>
+                <SingleEventProduct autoPublishFlag="1" impulsiveFlag="1" specialPpv="0">
+                    <SalePeriod beginTime="20060418003000" endTime="20060419004000"/>
+                    <ProdCategoryId>3</ProdCategoryId>
+                    <EpgPrice moneyUnit="TWD">50.0</EpgPrice>
+                </SingleEventProduct>
+            </Event>
+            <Event beginTime="20060419015000" duration="300">
+                <EventId>L00000084218</EventId>
+                <EventType>P</EventType>
+                <FreeAccess>1</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>Default promo</Name>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>Default promo</Name>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                </EpgProduction>
+                <ClearSingleEventProduct/>
+            </Event>
+            <Event beginTime="20060419015500" duration="4800">
+                <EventId>L00000084220</EventId>
+                <EventType>P</EventType>
+                <PreviewTime>3</PreviewTime>
+                <FreeAccess>0</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>start of the digital camer</Name>
+                        <Description>yhis is friendly digital camer</Description>
+                        <ExtendedInfo name="導演">lin williams</ExtendedInfo>
+                        <ExtendedInfo name="演員">Brad Pit, Annie kao, kate wu, Sergio Sergio, chane fread</ExtendedInfo>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>天王星攝影機</Name>
+                        <Description>這是一個多功能且功能強大又符合人性話的數位攝影機</Description>
+                        <ExtendedInfo name="導演">蔡 明亮</ExtendedInfo>
+                        <ExtendedInfo name="演員">克里夫蘭 司徒, 蔡 明亮, 黃 宣豪, 陳 八</ExtendedInfo>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                    <DvbContent>
+                        <Content nibble1="A" nibble2="0"/>
+                        <User nibble1="0" nibble2="0"/>
+                    </DvbContent>
+                </EpgProduction>
+                <SingleEventProduct autoPublishFlag="1" impulsiveFlag="1" specialPpv="0">
+                    <SalePeriod beginTime="20060418015500" endTime="20060419020500"/>
+                    <ProdCategoryId>3</ProdCategoryId>
+                    <EpgPrice moneyUnit="TWD">50.0</EpgPrice>
+                </SingleEventProduct>
+            </Event>
+            <Event beginTime="20060419031500" duration="300">
+                <EventId>L00000084223</EventId>
+                <EventType>P</EventType>
+                <FreeAccess>1</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>Default promo</Name>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>Default promo</Name>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                </EpgProduction>
+                <ClearSingleEventProduct/>
+            </Event>
+            <Event beginTime="20060419032000" duration="4800">
+                <EventId>L00000084225</EventId>
+                <EventType>P</EventType>
+                <PreviewTime>3</PreviewTime>
+                <FreeAccess>0</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>start of the digital camer</Name>
+                        <Description>yhis is friendly digital camer</Description>
+                        <ExtendedInfo name="導演">lin williams</ExtendedInfo>
+                        <ExtendedInfo name="演員">Brad Pit, Annie kao, kate wu, Sergio Sergio, chane fread</ExtendedInfo>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>天王星攝影機</Name>
+                        <Description>這是一個多功能且功能強大又符合人性話的數位攝影機</Description>
+                        <ExtendedInfo name="導演">蔡 明亮</ExtendedInfo>
+                        <ExtendedInfo name="演員">克里夫蘭 司徒, 蔡 明亮, 黃 宣豪, 陳 八</ExtendedInfo>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                    <DvbContent>
+                        <Content nibble1="A" nibble2="0"/>
+                        <User nibble1="0" nibble2="0"/>
+                    </DvbContent>
+                </EpgProduction>
+                <SingleEventProduct autoPublishFlag="1" impulsiveFlag="1" specialPpv="0">
+                    <SalePeriod beginTime="20060418032000" endTime="20060419033000"/>
+                    <ProdCategoryId>3</ProdCategoryId>
+                    <EpgPrice moneyUnit="TWD">50.0</EpgPrice>
+                </SingleEventProduct>
+            </Event>
+            <Event beginTime="20060419044000" duration="300">
+                <EventId>L00000084228</EventId>
+                <EventType>P</EventType>
+                <FreeAccess>1</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>Default promo</Name>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>Default promo</Name>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                </EpgProduction>
+                <ClearSingleEventProduct/>
+            </Event>
+            <Event beginTime="20060419044500" duration="4800">
+                <EventId>L00000084230</EventId>
+                <EventType>P</EventType>
+                <PreviewTime>3</PreviewTime>
+                <FreeAccess>0</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>start of the digital camer</Name>
+                        <Description>yhis is friendly digital camer</Description>
+                        <ExtendedInfo name="導演">lin williams</ExtendedInfo>
+                        <ExtendedInfo name="演員">Brad Pit, Annie kao, kate wu, Sergio Sergio, chane fread</ExtendedInfo>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>天王星攝影機</Name>
+                        <Description>這是一個多功能且功能強大又符合人性話的數位攝影機</Description>
+                        <ExtendedInfo name="導演">蔡 明亮</ExtendedInfo>
+                        <ExtendedInfo name="演員">克里夫蘭 司徒, 蔡 明亮, 黃 宣豪, 陳 八</ExtendedInfo>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                    <DvbContent>
+                        <Content nibble1="A" nibble2="0"/>
+                        <User nibble1="0" nibble2="0"/>
+                    </DvbContent>
+                </EpgProduction>
+                <SingleEventProduct autoPublishFlag="1" impulsiveFlag="1" specialPpv="0">
+                    <SalePeriod beginTime="20060418044500" endTime="20060419045500"/>
+                    <ProdCategoryId>3</ProdCategoryId>
+                    <EpgPrice moneyUnit="TWD">50.0</EpgPrice>
+                </SingleEventProduct>
+            </Event>
+            <Event beginTime="20060419060500" duration="300">
+                <EventId>L00000084233</EventId>
+                <EventType>P</EventType>
+                <FreeAccess>1</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>Default promo</Name>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>Default promo</Name>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                </EpgProduction>
+                <ClearSingleEventProduct/>
+            </Event>
+            <Event beginTime="20060419061000" duration="4800">
+                <EventId>L00000084235</EventId>
+                <EventType>P</EventType>
+                <PreviewTime>3</PreviewTime>
+                <FreeAccess>0</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>start of the digital camer</Name>
+                        <Description>yhis is friendly digital camer</Description>
+                        <ExtendedInfo name="導演">lin williams</ExtendedInfo>
+                        <ExtendedInfo name="演員">Brad Pit, Annie kao, kate wu, Sergio Sergio, chane fread</ExtendedInfo>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>天王星攝影機</Name>
+                        <Description>這是一個多功能且功能強大又符合人性話的數位攝影機</Description>
+                        <ExtendedInfo name="導演">蔡 明亮</ExtendedInfo>
+                        <ExtendedInfo name="演員">克里夫蘭 司徒, 蔡 明亮, 黃 宣豪, 陳 八</ExtendedInfo>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                    <DvbContent>
+                        <Content nibble1="A" nibble2="0"/>
+                        <User nibble1="0" nibble2="0"/>
+                    </DvbContent>
+                </EpgProduction>
+                <SingleEventProduct autoPublishFlag="1" impulsiveFlag="1" specialPpv="0">
+                    <SalePeriod beginTime="20060418061000" endTime="20060419062000"/>
+                    <ProdCategoryId>3</ProdCategoryId>
+                    <EpgPrice moneyUnit="TWD">50.0</EpgPrice>
+                </SingleEventProduct>
+            </Event>
+            <Event beginTime="20060419073000" duration="300">
+                <EventId>L00000084238</EventId>
+                <EventType>P</EventType>
+                <FreeAccess>1</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>Default promo</Name>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>Default promo</Name>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                </EpgProduction>
+                <ClearSingleEventProduct/>
+            </Event>
+            <Event beginTime="20060419073500" duration="4800">
+                <EventId>L00000084240</EventId>
+                <EventType>P</EventType>
+                <PreviewTime>3</PreviewTime>
+                <FreeAccess>0</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>start of the digital camer</Name>
+                        <Description>yhis is friendly digital camer</Description>
+                        <ExtendedInfo name="導演">lin williams</ExtendedInfo>
+                        <ExtendedInfo name="演員">Brad Pit, Annie kao, kate wu, Sergio Sergio, chane fread</ExtendedInfo>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>天王星攝影機</Name>
+                        <Description>這是一個多功能且功能強大又符合人性話的數位攝影機</Description>
+                        <ExtendedInfo name="導演">蔡 明亮</ExtendedInfo>
+                        <ExtendedInfo name="演員">克里夫蘭 司徒, 蔡 明亮, 黃 宣豪, 陳 八</ExtendedInfo>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                    <DvbContent>
+                        <Content nibble1="A" nibble2="0"/>
+                        <User nibble1="0" nibble2="0"/>
+                    </DvbContent>
+                </EpgProduction>
+                <SingleEventProduct autoPublishFlag="1" impulsiveFlag="1" specialPpv="0">
+                    <SalePeriod beginTime="20060418073500" endTime="20060419074500"/>
+                    <ProdCategoryId>3</ProdCategoryId>
+                    <EpgPrice moneyUnit="TWD">50.0</EpgPrice>
+                </SingleEventProduct>
+            </Event>
+            <Event beginTime="20060419085500" duration="299">
+                <EventId>L00000084243</EventId>
+                <EventType>P</EventType>
+                <FreeAccess>1</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>Default promo</Name>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>Default promo</Name>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                </EpgProduction>
+                <ClearSingleEventProduct/>
+            </Event>
+            <Event beginTime="20060419085959" duration="4800">
+                <EventId>L00000084245</EventId>
+                <EventType>P</EventType>
+                <PreviewTime>3</PreviewTime>
+                <FreeAccess>0</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>start of the digital camer</Name>
+                        <Description>yhis is friendly digital camer</Description>
+                        <ExtendedInfo name="導演">lin williams</ExtendedInfo>
+                        <ExtendedInfo name="演員">Brad Pit, Annie kao, kate wu, Sergio Sergio, chane fread</ExtendedInfo>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>天王星攝影機</Name>
+                        <Description>這是一個多功能且功能強大又符合人性話的數位攝影機</Description>
+                        <ExtendedInfo name="導演">蔡 明亮</ExtendedInfo>
+                        <ExtendedInfo name="演員">克里夫蘭 司徒, 蔡 明亮, 黃 宣豪, 陳 八</ExtendedInfo>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                    <DvbContent>
+                        <Content nibble1="A" nibble2="0"/>
+                        <User nibble1="0" nibble2="0"/>
+                    </DvbContent>
+                </EpgProduction>
+                <SingleEventProduct autoPublishFlag="1" impulsiveFlag="1" specialPpv="0">
+                    <SalePeriod beginTime="20060418085959" endTime="20060419090959"/>
+                    <ProdCategoryId>3</ProdCategoryId>
+                    <EpgPrice moneyUnit="TWD">50.0</EpgPrice>
+                </SingleEventProduct>
+            </Event>
+        </ChannelPeriod>
+    </ScheduleData>
+</BroadcastData>

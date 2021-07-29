@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BroadcastData SYSTEM "BroadcastData.dtd">
+<BroadcastData creationDate="20060424100655">
+  <ProviderInfo>
+    <ProviderId>Nagra</ProviderId>
+    <ProviderName>Nagravision S.A.</ProviderName>
+  </ProviderInfo>
+  <ScheduleData>
+    <ChannelPeriod beginTime="20060424160000" endTime="20060425150527">
+      <ChannelId>301</ChannelId>
+      <Event beginTime="20060424160000" duration="83127">
+        <EventId>L00000085366</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>超級電影院</Name>
+            <Description>超級電影院超級電影院超級電影院</Description>
+            <ExtendedInfo name="導演">盧 貝松</ExtendedInfo>
+            <ExtendedInfo name="演員">克里夫蘭 司徒, 風火 山林, 湯母克魯斯 湯母</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>超級電影院2</Name>
+            <Description>超級電影院
+超級電影院
+超級電影院</Description>
+            <ExtendedInfo name="導演">shi ryo</ExtendedInfo>
+            <ExtendedInfo name="演員">chane fread, kate wu, Annie kao</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="B" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+    </ChannelPeriod>
+  </ScheduleData>
+</BroadcastData>

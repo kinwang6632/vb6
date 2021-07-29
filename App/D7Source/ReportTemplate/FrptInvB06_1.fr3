@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Name="" Version="3.15" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="2047" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" ReportOptions.CreateDate="40365.5955114236" ReportOptions.Description.Text="" ReportOptions.LastChange="40365.5981412732" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C656674022403546F70021808446174617365747301010C2A00000020446174615365743D226672784230365F312220446174615365744E616D653D226672784230365F31220000095661726961626C65730100055374796C650100">
+  <TfrxReportPage Name="Page1" PaperWidth="210.058" PaperHeight="297.053" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" Height="22.67718" Left="0" Top="18.89765" Width="718.32991274">
+      <TfrxMemoView Name="Memo13" Left="30.23624" Top="0" Width="94.48825" Height="18.89765" Memo.Text="本期開獎號碼"/>
+      <TfrxMemoView Name="Memo14" Left="136.06308" Top="0" Width="79.37013" Height="18.89765" DataField="對獎發票使用年月" DataSet="frxB06_1" DataSetName="frxB06_1" Memo.Text="[frxB06_1.&#34;對獎發票使用年月&#34;]"/>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" Height="94.48825" Left="0" Top="102.04731" Width="718.32991274" ColumnWidth="0" ColumnGap="0" RowCount="0">
+      <TfrxMemoView Name="Memo2" Left="7.55906" Top="3.77952999999999" Width="52.91342" Height="18.89765" Memo.Text="特獎："/>
+      <TfrxMemoView Name="Memo3" Left="75.5906" Top="3.77952999999999" Width="83.14966" Height="18.89765" DataField="特獎號碼1" DataSet="frxB06_1" DataSetName="frxB06_1" Memo.Text="[frxB06_1.&#34;特獎號碼1&#34;]"/>
+      <TfrxMemoView Name="Memo4" Left="181.41744" Top="3.77953000000001" Width="79.37013" Height="18.89765" DataField="特獎號碼2" DataSet="frxB06_1" DataSetName="frxB06_1" Memo.Text="[frxB06_1.&#34;特獎號碼2&#34;]"/>
+      <TfrxMemoView Name="Memo5" Left="275.90569" Top="3.77953000000001" Width="79.37013" Height="18.89765" DataField="特獎號碼3" DataSet="frxB06_1" DataSetName="frxB06_1" Memo.Text="[frxB06_1.&#34;特獎號碼3&#34;]"/>
+      <TfrxMemoView Name="Memo6" Left="7.55906" Top="30.23624" Width="52.91342" Height="18.89765" Memo.Text="頭獎："/>
+      <TfrxMemoView Name="Memo7" Left="75.5906" Top="30.23624" Width="79.37013" Height="18.89765" DataField="頭獎號碼1" DataSet="frxB06_1" DataSetName="frxB06_1" Memo.Text="[frxB06_1.&#34;頭獎號碼1&#34;]"/>
+      <TfrxMemoView Name="Memo8" Left="181.41744" Top="30.23624" Width="79.37013" Height="18.89765" DataField="頭獎號碼2" DataSet="frxB06_1" DataSetName="frxB06_1" Memo.Text="[frxB06_1.&#34;頭獎號碼2&#34;]"/>
+      <TfrxMemoView Name="Memo9" Left="275.90569" Top="30.23624" Width="79.37013" Height="18.89765" DataField="頭獎號碼3" DataSet="frxB06_1" DataSetName="frxB06_1" Memo.Text="[frxB06_1.&#34;頭獎號碼3&#34;]"/>
+      <TfrxMemoView Name="Memo10" Left="7.55906" Top="56.69295" Width="52.91342" Height="18.89765" Memo.Text="加開："/>
+      <TfrxMemoView Name="Memo11" Left="75.5906" Top="56.69295" Width="79.37013" Height="18.89765" DataField="加開號碼1" DataSet="frxB06_1" DataSetName="frxB06_1" Memo.Text="[frxB06_1.&#34;加開號碼1&#34;]"/>
+      <TfrxMemoView Name="Memo12" Left="185.19697" Top="56.69295" Width="79.37013" Height="18.89765" DataField="加開號碼2" DataSet="frxB06_1" DataSetName="frxB06_1" Memo.Text="[frxB06_1.&#34;加開號碼2&#34;]"/>
+    </TfrxMasterData>
+    <TfrxPageFooter Name="PageFooter1" Height="22.67718" Left="0" Top="257.00804" Width="718.32991274">
+      <TfrxMemoView Name="Memo1" Left="642.73931274" Top="0" Width="75.5906" Height="18.89765" HAlign="haRight" Memo.Text="[Page#]"/>
+    </TfrxPageFooter>
+  </TfrxReportPage>
+</TfrxReport>

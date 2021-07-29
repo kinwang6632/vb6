@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="yes" ?>
+<Msg Version="1" MsgID="2" Type="SMSDown"
+  DateTime="2002-08-17 15:30:00" SrcCode="110000G01"
+  DstCode="110000S01">
+  <ExchangeDateQuery />
+</Msg>

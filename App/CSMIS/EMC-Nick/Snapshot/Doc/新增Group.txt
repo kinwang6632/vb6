@@ -1,0 +1,70 @@
+IP:172.16.12.3
+SID:catvnr
+
+全聯(EMCUC) , 振道(EMCCT) , 唐城(EMCTC) , 南天(EMCNT) , 觀昇(EMCKS) , 平南(EMCPN)
+
+1. 建立 refresh group, member 包括: SO001, SO002, SO003, SO004, SO014, CD046
+要確定 group name...
+execute DBMS_REFRESH.MAKE('EMCUC6','SO001,SO002,SO003,SO004,SO014,CD046',to_date('20030703050000','YYYYMMDDHH24MISS'),'SYSDATE+365')
+
+
+
+2. 執行 refresh 
+execute DBMS_REFRESH.REFRESH('EMCTC2');
+
+3. 確認執行結果
+比較兩邊的db 的資料筆數是否一致: 
+select count(*) from SO001; 
+select count(*) from SO002; 
+select count(*) from SO003; 
+select count(*) from SO004; 
+select count(*) from SO014; 
+select count(*) from CD046; 
+
+
+
+要確定 group name...(用 dba studio->schema->Refresh Group)
+確定一下 SO001 等..是不是的確都不存在任何 refresh group 中(也是用 dba studio 看)
+
+
+execute DBMS_REFRESH.REFRESH('EMCCT2');
+
+..全聯(EMCUC)
+  ..SO001, SO002, SO003, SO004, SO014, CD046 --->>缺
+  ..EMCUC4(SO061~SO100) --->>空的
+  ..EMCUC6(SO001,SO004,SO014,CD046)--->>>OK
+
+
+..振道(EMCCT)
+  ..CD046 --->>缺
+  ..EMCCT4(SO061~SO100) --->>空的
+  ..EMCCT1(CD046)--->>>OK
+
+
+..唐城(EMCTC)
+  ..CD046 --->>缺
+  ..EMCTC4(SO061~SO100) --->>有
+  ..EMCTC1(CD046)--->>>OK
+
+
+..南天(EMCNT)
+  ..全部有
+
+
+..觀昇(EMCKS)
+  ..CD046 --->>缺
+  ..EMCKS4(SO061~SO100) --->>有
+  ..EMCKS1(CD046)--->>>OK
+
+
+..平南(EMCPN)
+  ..CD046 --->>缺
+  ..EMCPN4(SO061~SO100) --->>有
+  ..EMCPN1(CD046)--->>>OK
+
+
+drop MATERIALIZED VIEW EMCCT.SO001;
+
+CREATE MATERIALIZED VIEW SO001 USING INDEX TABLESPACE "REPORT_NDX" 
+REFRESH with rowid ON DEMAND FOR UPDATE ENABLE QUERY REWRITE AS SELECT * FROM EMCCT.SO001@CTMIS;
+select count(*) from so001;

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BroadcastData SYSTEM "BroadcastData.dtd">
+<BroadcastData creationDate="20051124092239">
+  <ProviderInfo>
+    <ProviderId>Nagra</ProviderId>
+    <ProviderName>Nagravision S.A.</ProviderName>
+  </ProviderInfo>
+  <ScheduleData>
+    <ChannelPeriod beginTime="20051126070001" endTime="20051126080001">
+      <ChannelId>503</ChannelId>
+      <Event beginTime="20051126070001" duration="3600">
+        <EventId>L00000034183</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="135" length="7" pdsValue="9">007974F11F4003</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="27" pdsValue="9">0001000000492B1F400300000160044D756C74694576656E742031</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="33" pdsValue="9">0001000000492B1F400000000003000001600400004D756C74694576656E742031</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>奪命黑寡婦</Name>
+            <Description>曾有&quot;迷你影集之后&quot;雅稱的賈桂琳史密斯在本片中飾演布莉姬，一位為家庭盡心盡力的妻子、社區的楷模，但實際上卻是個為保有優渥的生活而不計一切代價的蛇蠍女子—即使必須殺人亦在所不惜。新寡的布莉姬嫁給曾結過一次婚的高中棒球教練朗恩（提摩西卡哈特）為妻，他們在新婚期間有如一對神仙眷屬：布莉姬在當地電視台當行銷經理，並掌管兩人財務上的投資極各項貸款，不久後夫妻倆便搬進豪宅，過著優裕的生活；然而當朗恩發現他們債台高築時事情就全走了樣，而為了急於拿到現金，布莉姬設計&quot;意外&quot;開槍射死朗恩好領取他的保險金，但朗恩的前妻與其好友瓊安（黛安娜史卡威）卻查出布莉姬的前夫也是死於跟朗恩類似的&quot;意外&quot;…這部影片是改編自傑瑞布雷索（Jerry Bledsoe）根據真實事件所寫成的暢銷小說。</Description>
+            <ExtendedInfo name="導演">麥可史考特</ExtendedInfo>
+            <ExtendedInfo name="演員">賈桂琳史密斯、黛安娜史卡威、提摩西卡哈特</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Before He Wakes</Name>
+            <Description>The one-time Queen of TV Mini-Series, Jaclyn Smith plays Bridgette, an outwardly devoted wife and pillar of community, who secretly, will do anything - including murder - to maintain the facade of a wealthy lifestyle. A recent widow, Bridgette marries Ron Michaels (Timothy Carhart), a divorcee who works as the high school basketball coach. For the ensuing months, it is a marriage made in heaven: Bridgette works as a sales executive at the local TV station, refinancing their loans and investing their money.  In no time, the Michaels move into a larger luxurious home.  However, things start to go wrong when Ron discovers that they are seriously in debt.  Desperate for cash, Bridgette kills Ron for his hefty insurance policy. Just when you think Bridgette can get away scot-free, Ron’s ex-wife and good friend Joanne (Scarwid) tries to convince the cops with vital information that proves that Ron’s death, like the death of Bridgette’s first husband, was </Description>
+            <ExtendedInfo name="導演">Michael Scott</ExtendedInfo>
+            <ExtendedInfo name="演員">Jaclyn Smith、Diana Scarwid</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+    </ChannelPeriod>
+  </ScheduleData>
+</BroadcastData>

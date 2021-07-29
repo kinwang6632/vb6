@@ -1,0 +1,28 @@
+SO3292
+找出可提出檔(先不過濾收費項目,在產出時在一並過濾)
+SELECT Custid,BankCode,AccountID,AccountNameId,CitemStr From  SO106 
+ Where  SnactionDate Is Null And SendDate Is Null  And PropDate >= To_date(20040104,'YYYYMMDD')
+  And PropDate < To_date(20040331,'YYYYMMDD') +1 And BankCode = 71
+
+將提出資料符合收費項目的 update SO106 的ACHCustid及SendDate
+Update GICMIS5.SO106 A Set ACHCustid='777372755' , 
+SendDate = To_Date(20040227,'YYYYMMDD') 
+Where AccountId='S7777777777777' And CustId=372755 
+And  SnactionDate Is Null And SendDate Is Null  
+And PropDate >= To_date(20040104,'YYYYMMDD') And 
+PropDate < To_date(20040331,'YYYYMMDD') +1 And BankCode = 71 
+And CitemStr IN ('1','15','206')  
+
+SO3277
+ACH出帳資料產生
+SELECT  /*+ INDEX(SO033 I_SO033_SHOULDDATE) */  A.MediaBillNo BillNo,
+A.AccountNo,A.BankCode,A.AddrNo, Sum(ShouldAmt) ShouldAmt  
+From  SO033 A ,So002 E  Where  A.ServiceType = E.ServiceType And 
+A.CustId=E.CustId And A.CompCode=E.CompCode  And 
+A.ShouldDate >= To_date(20040101,'YYYYMMDD') And 
+A.ShouldDate < To_date(20040331,'YYYYMMDD') +1 And 
+A.BankCode = 71 And SubStr(A.BillNo,7,1) In ('B','T') And 
+A.CitemCode IN (1,15,206) And E.CustStatusCode =1 And 
+A.CancelFlag=0 And A.UCCode is Not Null And 
+A.ShouldAmt > 0 
+Group By A.MediaBillNo,A.AccountNo,A.BankCode,A.AddrNo 

@@ -1,0 +1,37 @@
+* Release note: EMC每月自動產生加值頻道單項產品分析資料Night-run程式加新資訊的修改
+
+* 緣由:
+  "EMC每月自動產生加值頻道單項產品分析資料Night-run程式"(SP_MonthlyRptA1)所對應之報表需增加新
+  資訊"STB戶平均加值頻道費用", 故該支後端需新增計算"有效STB戶數"的程式段, 以便報表可展現出每個
+  STB客戶的平均加值頻道費用.
+
+  註: 此次修改與92.07.23所release的不同, 該次是增加"有效STB數", 此次是增加"有效STB戶數"
+
+* "有效STB戶數"定義: 符合以下條件之STB之戶數(不同客編)
+  . [參考日]該日前裝機, 且尚未拆機的盒子 (目前此時仍使用中的STB)
+  . [參考日]該日前裝機, 且拆機日落在[參考日]後的盒子 (該日仍使用中的STB)
+
+* 修改程式: 每月統計資料檔(SO508)所新增一筆資料的各欄位內容如下
+  . 歸屬年月(RptYM) = [參考日]該月份
+  . 收費項目代碼 = -2
+  . 收費項目名稱 = "有效STB戶數"
+  . 各種金額欄位(RealAmt, MonthPast, Month01) = 0
+  . 客戶數(CustCnt) = 有效STB戶數 
+
+* RD修改程式:
+  . SP_MonthlyRptA1.SQL EMC每月自動產生加值頻道單項產品分析資料的後端程式
+
+* PM動作: (請指派專人至各家執行以下步驟)
+  . compile SP_MonthlyRptA1.SQL 
+    [因為此程式於5月初EMC各家已掛上Oracle night-run, 故只需重新compile]
+
+* Lawrence動作:
+  . 將SP_MonthlyRptA1.SQL存放至script檔路徑中
+
+* 如何驗證後端程式已掛上Oracle night-run?
+  執行 select * from User_Jobs指令, 看看是否有該'SP_MONTHLYRPTA1'的job, 若有才算有掛上
+
+* 如何檢查該支後端程式每次night-run的結果?
+  執行 select * from SO030A where JobId=999990
+
+Pierre

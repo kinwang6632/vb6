@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BroadcastData creationDate="20060418084327">
+    <ProviderInfo>
+        <ProviderId>Lysis</ProviderId>
+        <ProviderName>Lysis - a Kudelski Group Company</ProviderName>
+    </ProviderInfo>
+    <ScheduleData>
+        <ChannelPeriod beginTime="20060418160000" endTime="20060424160000">
+            <ChannelId>301</ChannelId>
+            <Event beginTime="20060418160000" duration="86400">
+                <EventId>L00000084158</EventId>
+                <EventType>P</EventType>
+                <PreviewTime>3</PreviewTime>
+                <FreeAccess>0</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>超級電影院</Name>
+                        <Description>超級電影院
+超級電影院
+超級電影院</Description>
+                        <ExtendedInfo name="導演">shi ryo</ExtendedInfo>
+                        <ExtendedInfo name="演員">Annie kao, kate wu, chane fread</ExtendedInfo>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>超級電影院</Name>
+                        <Description>超級電影院超級電影院超級電影院</Description>
+                        <ExtendedInfo name="導演">盧 貝松</ExtendedInfo>
+                        <ExtendedInfo name="演員">風火 山林, 克里夫蘭 司徒, 湯母克魯斯 湯母</ExtendedInfo>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                    <DvbContent>
+                        <Content nibble1="B" nibble2="0"/>
+                        <User nibble1="0" nibble2="0"/>
+                    </DvbContent>
+                </EpgProduction>
+                <SingleEventProduct autoPublishFlag="1" impulsiveFlag="1" specialPpv="0">
+                    <SalePeriod beginTime="20060417160000" endTime="20060418161000"/>
+                    <ProdCategoryId>3</ProdCategoryId>
+                    <EpgPrice moneyUnit="TWD">50.0</EpgPrice>
+                </SingleEventProduct>
+            </Event>
+            <Event beginTime="20060419160000" duration="86400">
+                <EventId>L00000084160</EventId>
+                <EventType>P</EventType>
+                <PreviewTime>3</PreviewTime>
+                <FreeAccess>0</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>超級電影院</Name>
+                        <Description>超級電影院
+超級電影院
+超級電影院</Description>
+                        <ExtendedInfo name="導演">shi ryo</ExtendedInfo>
+                        <ExtendedInfo name="演員">chane fread, Annie kao, kate wu</ExtendedInfo>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>超級電影院</Name>
+                        <Description>超級電影院超級電影院超級電影院</Description>
+                        <ExtendedInfo name="導演">盧 貝松</ExtendedInfo>
+                        <ExtendedInfo name="演員">克里夫蘭 司徒, 風火 山林, 湯母克魯斯 湯母</ExtendedInfo>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                    <DvbContent>
+                        <Content nibble1="B" nibble2="0"/>
+                        <User nibble1="0" nibble2="0"/>
+                    </DvbContent>
+                </EpgProduction>
+                <SingleEventProduct autoPublishFlag="1" impulsiveFlag="1" specialPpv="0">
+                    <SalePeriod beginTime="20060418160000" endTime="20060419161000"/>
+                    <ProdCategoryId>3</ProdCategoryId>
+                    <EpgPrice moneyUnit="TWD">50.0</EpgPrice>
+                </SingleEventProduct>
+            </Event>
+            <Event beginTime="20060420160000" duration="86400">
+                <EventId>L00000084162</EventId>
+                <EventType>P</EventType>
+                <PreviewTime>3</PreviewTime>
+                <FreeAccess>0</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>超級電影院</Name>
+                        <Description>超級電影院
+超級電影院
+超級電影院</Description>
+                        <ExtendedInfo name="導演">shi ryo</ExtendedInfo>
+                        <ExtendedInfo name="演員">chane fread, Annie kao, kate wu</ExtendedInfo>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>超級電影院</Name>
+                        <Description>超級電影院超級電影院超級電影院</Description>
+                        <ExtendedInfo name="導演">盧 貝松</ExtendedInfo>
+                        <ExtendedInfo name="演員">克里夫蘭 司徒, 風火 山林, 湯母克魯斯 湯母</ExtendedInfo>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                    <DvbContent>
+                        <Content nibble1="B" nibble2="0"/>
+                        <User nibble1="0" nibble2="0"/>
+                    </DvbContent>
+                </EpgProduction>
+                <SingleEventProduct autoPublishFlag="1" impulsiveFlag="1" specialPpv="0">
+                    <SalePeriod beginTime="20060419160000" endTime="20060420161000"/>
+                    <ProdCategoryId>3</ProdCategoryId>
+                    <EpgPrice moneyUnit="TWD">50.0</EpgPrice>
+                </SingleEventProduct>
+            </Event>
+            <Event beginTime="20060421160000" duration="86400">
+                <EventId>L00000084164</EventId>
+                <EventType>P</EventType>
+                <PreviewTime>3</PreviewTime>
+                <FreeAccess>0</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>超級電影院</Name>
+                        <Description>超級電影院
+超級電影院
+超級電影院</Description>
+                        <ExtendedInfo name="導演">shi ryo</ExtendedInfo>
+                        <ExtendedInfo name="演員">chane fread, Annie kao, kate wu</ExtendedInfo>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>超級電影院</Name>
+                        <Description>超級電影院超級電影院超級電影院</Description>
+                        <ExtendedInfo name="導演">盧 貝松</ExtendedInfo>
+                        <ExtendedInfo name="演員">克里夫蘭 司徒, 風火 山林, 湯母克魯斯 湯母</ExtendedInfo>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                    <DvbContent>
+                        <Content nibble1="B" nibble2="0"/>
+                        <User nibble1="0" nibble2="0"/>
+                    </DvbContent>
+                </EpgProduction>
+                <SingleEventProduct autoPublishFlag="1" impulsiveFlag="1" specialPpv="0">
+                    <SalePeriod beginTime="20060420160000" endTime="20060421161000"/>
+                    <ProdCategoryId>3</ProdCategoryId>
+                    <EpgPrice moneyUnit="TWD">50.0</EpgPrice>
+                </SingleEventProduct>
+            </Event>
+            <Event beginTime="20060422160000" duration="86400">
+                <EventId>L00000084166</EventId>
+                <EventType>P</EventType>
+                <PreviewTime>3</PreviewTime>
+                <FreeAccess>0</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>超級電影院</Name>
+                        <Description>超級電影院
+超級電影院
+超級電影院</Description>
+                        <ExtendedInfo name="導演">shi ryo</ExtendedInfo>
+                        <ExtendedInfo name="演員">chane fread, Annie kao, kate wu</ExtendedInfo>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>超級電影院</Name>
+                        <Description>超級電影院超級電影院超級電影院</Description>
+                        <ExtendedInfo name="導演">盧 貝松</ExtendedInfo>
+                        <ExtendedInfo name="演員">克里夫蘭 司徒, 風火 山林, 湯母克魯斯 湯母</ExtendedInfo>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                    <DvbContent>
+                        <Content nibble1="B" nibble2="0"/>
+                        <User nibble1="0" nibble2="0"/>
+                    </DvbContent>
+                </EpgProduction>
+                <SingleEventProduct autoPublishFlag="1" impulsiveFlag="1" specialPpv="0">
+                    <SalePeriod beginTime="20060421160000" endTime="20060422161000"/>
+                    <ProdCategoryId>3</ProdCategoryId>
+                    <EpgPrice moneyUnit="TWD">50.0</EpgPrice>
+                </SingleEventProduct>
+            </Event>
+            <Event beginTime="20060423160000" duration="86400">
+                <EventId>L00000084168</EventId>
+                <EventType>P</EventType>
+                <PreviewTime>3</PreviewTime>
+                <FreeAccess>0</FreeAccess>
+                <EpgProduction>
+                    <EpgText language="eng">
+                        <Name>超級電影院</Name>
+                        <Description>超級電影院
+超級電影院
+超級電影院</Description>
+                        <ExtendedInfo name="導演">shi ryo</ExtendedInfo>
+                        <ExtendedInfo name="演員">chane fread, Annie kao, kate wu</ExtendedInfo>
+                    </EpgText>
+                    <EpgText language="chi">
+                        <Name>超級電影院</Name>
+                        <Description>超級電影院超級電影院超級電影院</Description>
+                        <ExtendedInfo name="導演">盧 貝松</ExtendedInfo>
+                        <ExtendedInfo name="演員">克里夫蘭 司徒, 風火 山林, 湯母克魯斯 湯母</ExtendedInfo>
+                    </EpgText>
+                    <ParentalRating>3</ParentalRating>
+                    <DvbContent>
+                        <Content nibble1="B" nibble2="0"/>
+                        <User nibble1="0" nibble2="0"/>
+                    </DvbContent>
+                </EpgProduction>
+                <SingleEventProduct autoPublishFlag="1" impulsiveFlag="1" specialPpv="0">
+                    <SalePeriod beginTime="20060422160000" endTime="20060423161000"/>
+                    <ProdCategoryId>3</ProdCategoryId>
+                    <EpgPrice moneyUnit="TWD">50.0</EpgPrice>
+                </SingleEventProduct>
+            </Event>
+        </ChannelPeriod>
+    </ScheduleData>
+</BroadcastData>

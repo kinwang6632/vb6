@@ -1,0 +1,33 @@
+#!/usr/local/bin/perl
+
+push (@INC, "perlib");
+push (@INC, "protocol");
+
+$USAGE = "sms [-pPortNumber ] [SMSCommand]";
+
+require FTcp;
+require EIS26Analyser;
+
+require Getopt::Std;
+Getopt::Std::getopts ('vsDp:') || die "$USAGE\n";
+$port = $opt_p ? $opt_p : 2222;
+
+($cmd) = @ARGV;
+
+$cmd = "00000000201025602572380920000101N1999092220000101U000000001900020000000000101996010120000101" unless defined $cmd;
+
+
+
+FTcp::connect_host (*S, "localhost", $port) || die "$!" ;
+print "connected.\n";
+print "Data:   $cmd\n";
+FTcp::send_data (*S, $cmd);
+$answer = FTcp::receive_data (*S);
+EIS26Analyser::dumpCmd ($answer, *RESULTS);
+print "Answer: $answer\n";
+foreach (@RESULTS) {
+  print "$_\n";
+} 
+
+
+

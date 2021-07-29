@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="BIG5" standalone="yes" ?>
+
+<!-- xml version="1.0" encoding="GB2312" standalone="yes" -->
+<Msg Version="1" MsgID="2" Type="SMSUp"
+  DateTime="2002-08-17 15:30:00" SrcCode="110000S01"
+  DstCode="110000G01" ReplyID="1">
+  <Return Type="ExchangeDateQuery" Value="0" Desc="成功" Redirect="">
+	<!-- 
+		屬性說明:
+		  Value: 執行的結果代碼
+		  Dest: 執行的結果說明
+		  Type: 固定為 ExchangeDateQuery
+		  Redirect: 若欲傳回之檔案大於1MB, 則須將檔案壓縮放在某目錄下,然後回應給client,
+			    請client redirect 到該 URL 抓取檔案
+
+		只能有一個傳回值.可能的傳回值:
+		  0: 成功
+		  1: 沒有查到資料	
+		  2: 內部錯誤
+		  100 - 199: SMS 自訂之錯誤
+
+	-->
+  </Return>
+  <ExchangeDateQueryReport FirstDate="2003-01-01"/>
+	<!--
+		屬性說明:
+	          FirstDate: 描述SMS保留的完整鏡像資料對應的日期		
+	-->
+</Msg>

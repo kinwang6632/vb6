@@ -1,0 +1,12 @@
+SELECT COUNT(*) FROM SO033;
+create table TempSO033 as select * from SO033;
+SELECT COUNT(*) FROM TempSO033;
+
+
+
+SELECT COUNT(*) FROM SO034;
+create table TempSO034 as select * from SO034;
+SELECT COUNT(*) FROM TempSO034;
+
+
+TRUNCATE TABLE SO034;

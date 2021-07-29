@@ -1,0 +1,42 @@
+各位好,
+
+EMC利用Night-run來做snapshot備份的程式已完成, 說明如下:
+
+* 目的:
+	利用Oracle night-run機制, 於北平台備用主機上, 來自動執行snapshot備份,
+	將各系統台的資料備份至該備份主機
+
+* 那些系統台會納入此自動備份機制?
+
+	公司別 OwnerName GroupName
+	====== ========= =========
+	1	EMCKS	EMCKS1~5
+	2	EMCPN	EMCPN1~5
+	3	EMCNT	EMCNT1~5
+	5	EMCNCC	EMCNCC1~5
+	6	EMCFM	EMCFM1~5
+	7	EMCCT	EMCCT1~5
+	8	EMCUC	EMCUC1~5
+	9	EMCYMS 	EMCYMS1~5
+	10	EMCNTP	EMCNTP1~5
+	11	EMCKP	EMCKP1~5
+	12	EMCDW	EMCDW1~5
+	13	EMCTC	EMCTC1~5
+
+* RD提供以下程式:
+	1. SP_Refresh.sql		於某一資料區執行snapshot的程式
+	2. StartSnapshot_920620.SQL	將SP_Refresh掛上Oracle night-run的程式, 假設04:00執行
+
+* 假設: 
+	1. 此Night-run程式需要一些參數, 其owner name與group name必須是上表中的值,
+	   若有異動, 則必須修改SP_Refresh程式, 並重新compile才可以
+	2. 假設04:00執行此night-run, 若不是, 請修改StartSnapshot_920620.SQL, 重新執行一次
+
+* PM的動作:
+	1. compile SP_Refresh.sql
+	2. 執行StartSnapshot_920620.SQL
+
+* 如何檢查各資料區的snapshot執行結果? 執行以下指令:
+	select * from so030a where jobid=999993
+
+Pierre

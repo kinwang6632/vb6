@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ProductManagementData SYSTEM "ProductManagementData.dtd">
+<ProductManagementData creationDate="20040804082948">
+<ProviderInfo>
+<ProviderId>IMS Nagra</ProviderId>
+<ProviderName>IMS Nagravision S.A.</ProviderName>
+<DtdVersion>1.1.1</DtdVersion>
+</ProviderInfo>
+<ProductPeriodicNotification>
+<ProductReportRequest>
+<SalePeriod beginTime="20040804000000" endTime="20040811000000"/>
+<ProductType productKind="PPV"/>
+</ProductReportRequest>
+<ProductReportReply>
+<ProductData>
+<Product>
+<ProductId>2062</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>哈拉猛男秀(輔)</ProductName>
+<ProductDescription>哈拉猛男秀(輔)</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20040804030000" endTime="20040804033000"/>
+<EpgPrice>11</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20040804030000" endTime="20040805033000"/>
+<Event beginTime="20040804030000" duration="1800">
+<EventId>6105</EventId>
+<PreviewTime>5</PreviewTime>
+<EpgText language="chi">
+<Name>哈拉猛男秀(輔)</Name>
+<Description>畢老二【羅勃史奈飾】原是一名專業魚缸清潔工，因故失業．而後應聘為一名應召男照顧他心愛的水族箱．期間，畢老二卻不小心將那昂貴的魚缸給摔破了，為了賠償魚缸的損壞，又得趕在應召男回國之前完成，畢老二只好下海當起男妓來了．．．．</Description>
+</EpgText>
+<ParentalRating>0</ParentalRating>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>2063</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>溫馨人生(護)</ProductName>
+<ProductDescription>溫馨人生(護)</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20040804033000" endTime="20040804040000"/>
+<EpgPrice>12</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20040804033000" endTime="20040805040000"/>
+<Event beginTime="20040804033000" duration="1800">
+<EventId>6106</EventId>
+<PreviewTime>5</PreviewTime>
+<EpgText language="chi">
+<Name>溫馨人生(護)</Name>
+<Description>導演法藍克左夫瑞里的童年故事。1936年，母親過世，父親離開了家，他住在佛羅倫斯的一個英國村裡。後來戰爭爆發，村裡來了一個美國婦婆，幫助村民們度過艱苦的戰爭期，沒過多久美國也加以了世界大戰…</Description>
+</EpgText>
+<ParentalRating>0</ParentalRating>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>2064</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>哈拉猛男秀(輔)</ProductName>
+<ProductDescription>哈拉猛男秀(輔)</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20040804040000" endTime="20040804043000"/>
+<EpgPrice>11</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20040804040000" endTime="20040805043000"/>
+<Event beginTime="20040804040000" duration="1800">
+<EventId>6107</EventId>
+<PreviewTime>5</PreviewTime>
+<EpgText language="chi">
+<Name>哈拉猛男秀(輔)</Name>
+<Description>畢老二【羅勃史奈飾】原是一名專業魚缸清潔工，因故失業．而後應聘為一名應召男照顧他心愛的水族箱．期間，畢老二卻不小心將那昂貴的魚缸給摔破了，為了賠償魚缸的損壞，又得趕在應召男回國之前完成，畢老二只好下海當起男妓來了．．．．</Description>
+</EpgText>
+<ParentalRating>0</ParentalRating>
+<ChannelNumber>661</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>2065</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>溫馨人生(護)</ProductName>
+<ProductDescription>溫馨人生(護)</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20040804043000" endTime="20040804050000"/>
+<EpgPrice>12</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20040804043000" endTime="20040805050000"/>
+<Event beginTime="20040804043000" duration="1800">
+<EventId>6108</EventId>
+<PreviewTime>5</PreviewTime>
+<EpgText language="chi">
+<Name>溫馨人生(護)</Name>
+<Description>導演法藍克左夫瑞里的童年故事。1936年，母親過世，父親離開了家，他住在佛羅倫斯的一個英國村裡。後來戰爭爆發，村裡來了一個美國婦婆，幫助村民們度過艱苦的戰爭期，沒過多久美國也加以了世界大戰…</Description>
+</EpgText>
+<ParentalRating>0</ParentalRating>
+<ChannelNumber>661</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+</ProductData>
+</ProductReportReply>
+</ProductPeriodicNotification>
+</ProductManagementData>

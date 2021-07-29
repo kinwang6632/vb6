@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ProductManagementData SYSTEM "ProductManagementData.dtd">
+<ProductManagementData creationDate="20051124105310">
+<ProviderInfo>
+<ProviderId>IMS Nagra</ProviderId>
+<ProviderName>IMS Nagravision S.A.</ProviderName>
+<DtdVersion>1.1.1</DtdVersion>
+</ProviderInfo>
+<ProductChangeNotification>
+
+<ProductData>
+<Product>
+<ProductId>18718</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>戰慄之旅</ProductName>
+<ProductDescription>戰慄之旅</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051123040000" endTime="20051128060001"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051127000000" endTime="20051130000000"/>
+<Event beginTime="20051128050001" duration="3600">
+<EventId>L00000034304</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>戰慄之旅</Name>
+<Description>來自不同地方的七個人，為了不同的目的，各路人馬不約而同的在一家餐館休憩：有進來喝杯咖啡的寂寞卡車司機（勞勃佛斯特）、陪瀕死祖母做最後旅程的印第安婦女、被解雇的馬戲團小丑（凱文波拉克）和他的脫衣舞孃女友（潘妮洛普安米勒）、以及趕去參加父親喪禮的姊妹花；這七個人收聽著同一個音樂頻道，前往一樣的目的地，並成為同一個連續殺人狂的下一個目標…</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>Outside Ozona</Name>
+<Description>A group of people unite over the airwaves as they drive down lonesome highways into an uncertain future outside Ozona, Texas.  There’s the irritated disc jockey (Taj Mahal) who is determined to share his angst with the world in general and the station manager (Meat Loaf) who would rather he didn’t.  There’s the abusive, unemployed circus clown and his sexy white-trash girlfriend fleeing the scene of his latest act of rage.  Then there’s the shy and lonely trucker who helps a stranded Navajo lady and her grandmother in an act of kindness and affection.  As these unusual people follow they own destinies, they are, unknown to them, speeding towards a place where they worlds will collide.</Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="1" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>503</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>18720</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>奪命黑寡婦</ProductName>
+<ProductDescription>奪命黑寡婦</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051123060001" endTime="20051128080001"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051127000000" endTime="20051130000000"/>
+<Event beginTime="20051128070001" duration="3600">
+<EventId>L00000034310</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>奪命黑寡婦</Name>
+<Description>曾有"迷你影集之后"雅稱的賈桂琳史密斯在本片中飾演布莉姬，一位為家庭盡心盡力的妻子、社區的楷模，但實際上卻是個為保有優渥的生活而不計一切代價的蛇蠍女子—即使必須殺人亦在所不惜。新寡的布莉姬嫁給曾結過一次婚的高中棒球教練朗恩（提摩西卡哈特）為妻，他們在新婚期間有如一對神仙眷屬：布莉姬在當地電視台當行銷經理，並掌管兩人財務上的投資極各項貸款，不久後夫妻倆便搬進豪宅，過著優裕的生活；然而當朗恩發現他們債台高築時事情就全走了樣，而為了急於拿到現金，布莉姬設計"意外"開槍射死朗恩好領取他的保險金，但朗恩的前妻與其好友瓊安（黛安娜史卡威）卻查出布莉姬的前夫也是死於跟朗恩類似的"意外"…這部影片是改編自傑瑞布雷索（Jerry Bledsoe）根據真實事件所寫成的暢銷小說。</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>Before He Wakes</Name>
+<Description>The one-time Queen of TV Mini-Series, Jaclyn Smith plays Bridgette, an outwardly devoted wife and pillar of community, who secretly, will do anything - including murder - to maintain the facade of a wealthy lifestyle. A recent widow, Bridgette marries Ron Michaels (Timothy Carhart), a divorcee who works as the high school basketball coach. For the ensuing months, it is a marriage made in heaven: Bridgette works as a sales executive at the local TV station, refinancing their loans and investing their money.  In no time, the Michaels move into a larger luxurious home.  However, things start to go wrong when Ron discovers that they are seriously in debt.  Desperate for cash, Bridgette kills Ron for his hefty insurance policy. Just when you think Bridgette can get away scot-free, Ron’s ex-wife and good friend Joanne (Scarwid) tries to convince the cops with vital information that proves that Ron’s death, like the death of Bridgette’s first husband, was </Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="1" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>503</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>18721</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>殺妻</ProductName>
+<ProductDescription>殺妻</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051123070001" endTime="20051128090001"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051127000000" endTime="20051130000000"/>
+<Event beginTime="20051128080001" duration="3600">
+<EventId>L00000034313</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>殺妻</Name>
+<Description>布萊斯塔柏（柯賓班森，「愛情不設防」）拋下妻子，搬去跟情人蓋兒（萊絲莉安華倫，「對不起，駭到你」）同居，法院因此而拒絕讓他探視他的兩個孩子；他對法院的判決感到忿忿不平，並且急著想搶回孩子的監護權，於是布萊斯便夥同蓋兒計畫殺掉他老婆好將孩子搶回來，但為了要讓計畫成功，他們得再另外找人幫忙，於是他們便內舉不避親地找上了蓋兒的孩子！這部帶點荒謬情節的影片是根據真人真事所改編的。</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>Murderous Intent</Name>
+<Description>Based on actual events, this taut psychological thriller examines the extent of the human will to get what it wants.  Brice Talbot (Bernsen-Two of Hearts) abandons his wife to move in with his lover Gayle (Warren-Delivering Milo), but this act causes the courts to deny him the right to be with his two children.  Desperate to regain custody and furious at the results, Brice and Gayle plot to regain control by getting rid of Brice’s wife.  But in order for their plan to succeed, they have to recruit others into their plans, in this case Gayle’s own children!</Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="1" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>503</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>18722</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>熱帶雪</ProductName>
+<ProductDescription>熱帶雪</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051123080001" endTime="20051128100001"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051127000000" endTime="20051130000000"/>
+<Event beginTime="20051128090001" duration="3600">
+<EventId>L00000034316</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>熱帶雪</Name>
+<Description>塔佛（尼克柯瑞，「天人交戰」、「我吸我吸我吸吸吸」）和米蘭妲（麥德琳史道威，「將軍的女兒」、「未來總動員」）是一對居住於哥倫比亞波哥大的年輕戀人，兩人為維持家人生計而在機場當扒手為業，對他們倆來說，紐約是個能建立新生活的夢想城市；當地的毒梟歐斯卡（大衛卡拉定，「雙重麻煩」）以紐約之行為交換，說服他們以吞入腹中的方式，走私毒品闖過紐約機場的海關；由於米蘭妲的姊姊便是死於類似的情況，他們很清楚這種走私方式會有的風險，但為了實現夢想，兩人還是答應了歐斯卡的條件；然而抵達紐約機場後，兩人卻因過於緊張而引來警方注意，他們的夢想也漸漸隨之破碎…</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>Body Snatchers</Name>
+<Description>New York is the dream city of Tavo (Garcia, Traffic, Vampire In Brooklyn) and Marina (Stowe, The General’s Daughter, Twelve Monkeys), where the two young lovers hope to start a better life. At home in slum-ridden Bogota, Columbia, they have had to work as pickpockets at the airport to support their families.  Dealer Oskar (Carridine, Double Trouble) persuades them to smuggle drugs in their stomachs on a plane to New York - although both know of the risks, since Marina's sister died on a similar journey.   However on arrival at the airport in New York they show nerves and all their dreams start to shatter...</Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="1" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>503</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>18725</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>頭號潛艦</ProductName>
+<ProductDescription>頭號潛艦</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051123110001" endTime="20051128130001"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051127000000" endTime="20051130000000"/>
+<Event beginTime="20051128120001" duration="3600">
+<EventId>L00000034325</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>頭號潛艦</Name>
+<Description>這部感人的戰爭片是根據一段美國內戰時的史實所改編，曾榮獲2000年艾美獎最佳音效剪接。西元1864年南北戰爭期間，南卡羅萊納州的查爾士敦遭北軍重重包圍，水陸交通皆與外界隔絕；面對戰力明顯優越許多的敵軍，城裡的南軍為突破重圍，因而建造了配備魚雷的史上第一艘潛水艇”CSS杭利號”，雖然最後並未達成使命，但船上的八名軍官所表現的袍澤之情，以及大無畏的軍人情操卻令他們名留青史。由演技派演員艾蒙亞森特（「超時空戰警」）和唐納蘇德蘭（「太空大哥大」、「神鬼任務」）領銜主演。</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>The Hunley</Name>
+<Description>The incredible true story of Confederate efforts to develop a submersible boat during the American Civil War. The story opens in Charleston S.C. during the 1864 seize and naval blockade of that city by the Yankees. The Confederates were attempting to develop a submarine with a torpedo to be used as a weapon to break the blockade. This movie follows the bravery and determination of the eight-member crew in developing the manually propelled submarine and its deployment into battle.  An exceptional story of heroism in the face of adversity. </Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="1" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>503</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+</ProductData>
+</ProductChangeNotification>
+</ProductManagementData>

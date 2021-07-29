@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataSet xmlns="http://tempuri.org/CMWebServiceGW/EMCWebServiceGW">
+  <xs:schema id="HFCTypeQueryDS" targetNamespace="http://tempuri.org/HFCTypeQueryDS.xsd" xmlns:mstns="http://tempuri.org/HFCTypeQueryDS.xsd" xmlns="http://tempuri.org/HFCTypeQueryDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+    <xs:element name="HFCTypeQueryDS" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="HFCTypeQueryDT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OperResult" type="xs:string" minOccurs="0" />
+                <xs:element name="FaultReason" type="xs:string" minOccurs="0" />
+                <xs:element name="HFCType" type="xs:string" minOccurs="0" />
+                <xs:element name="NODEID" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+    <HFCTypeQueryDS xmlns="http://tempuri.org/HFCTypeQueryDS.xsd">
+      <HFCTypeQueryDT diffgr:id="HFCTypeQueryDT1" msdata:rowOrder="0">
+        <OperResult>1</OperResult>
+        <FaultReason />
+        <HFCType>2</HFCType>
+      </HFCTypeQueryDT>
+    </HFCTypeQueryDS>
+  </diffgr:diffgram>
+</DataSet>

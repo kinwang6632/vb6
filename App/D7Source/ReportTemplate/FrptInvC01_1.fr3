@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Name="" Version="3.15" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="2047" PreviewOptions.Zoom="1" PrintOptions.Printer="預設" ReportOptions.CreateDate="38314.3777982639" ReportOptions.Description.Text="" ReportOptions.LastChange="39148.5964812963" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C656674027003546F7003A80008446174617365747301010C2A00000020446174615365743D226672784330315F312220446174615365744E616D653D226672784330315F31220000095661726961626C657301010C0F000000204E616D653D22204865616465722200010C11000000204E616D653D22AC64B8DFB1F8A5F3312200010C11000000204E616D653D22AC64B8DFB1F8A5F3322200010C11000000204E616D653D22AC64B8DFB1F8A5F3332200010C14000000204E616D653D22A6ACB64FB6B5A5D8BAD8C3FE2200010C10000000204E616D653D22C160BE50B0E2C3422200010C0E000000204E616D653D22C160B57CC3422200010C12000000204E616D653D22C160B56FB2BCAAF7C3422200010C12000000204E616D653D22C0B3B57CBE50B0E2C3422200010C12000000204E616D653D22A74BB57CBE50B0E2C3422200010C0E000000204E616D653D22A64CAAEDA448220000055374796C650100">
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxPageHeader Name="PageHeader1" Font.Charset="136" Font.Color="0" Font.Height="-13" Font.Name="標楷體" Font.Style="0" Height="45.35436" Left="0" ParentFont="False" Top="18.89765" Width="718.1107">
+      <TfrxMemoView Name="Memo1" Left="15.11812" Top="18.89765" Width="94.48825" Height="18.89765" Font.Charset="136" Font.Color="0" Font.Height="-12" Font.Name="標楷體" Font.Style="0" Memo.Text="- rptInvC01_1 -" ParentFont="False"/>
+      <TfrxMemoView Name="Memo2" Align="baCenter" Left="277.795455" Top="3.77953" Width="162.51979" Height="26.45671" Font.Charset="136" Font.Color="0" Font.Height="-21" Font.Name="標楷體" Font.Style="1" Memo.Text="收費明細統計表" ParentFont="False"/>
+      <TfrxMemoView Name="Memo3" Left="608.50433" Top="18.89765" Width="105.82684" Height="18.89765" Font.Charset="136" Font.Color="0" Font.Height="-13" Font.Name="標楷體" Font.Style="0" Memo.Text="頁次:[Page#]/[TOTALPAGES#]" ParentFont="False"/>
+    </TfrxPageHeader>
+    <TfrxHeader Name="Header1" Font.Charset="136" Font.Color="0" Font.Height="-13" Font.Name="標楷體" Font.Style="0" Height="226.7718" Left="0" ParentFont="False" Top="124.72449" Width="718.1107">
+      <TfrxMemoView Name="Memo4" Left="18.89765" Top="3.77952999999999" Width="90.70872" Height="18.89765" HAlign="haRight" Memo.Text="查詢條件:"/>
+      <TfrxMemoView Name="Memo5" Left="113.3859" Top="3.77952999999999" Width="574.48856" Height="18.89765" AutoWidth="True" Memo.Text="[查詢條件1]"/>
+      <TfrxMemoView Name="Memo6" Left="113.3859" Top="22.67718" Width="574.48856" Height="18.89765" AutoWidth="True" Memo.Text="[查詢條件2]"/>
+      <TfrxMemoView Name="Memo7" Left="113.3859" Top="41.57483" Width="574.48856" Height="18.89765" AutoWidth="True" Memo.Text="[查詢條件3]"/>
+      <TfrxMemoView Name="Memo8" Left="18.89765" Top="71.81107" Width="94.48825" Height="18.89765" HAlign="haRight" Memo.Text="收費項目種類: "/>
+      <TfrxMemoView Name="Memo9" Left="18.89765" Top="90.70872" Width="94.48825" Height="18.89765" HAlign="haRight" Memo.Text="總銷售額:"/>
+      <TfrxMemoView Name="Memo10" Left="18.89765" Top="109.60637" Width="94.48825" Height="18.89765" HAlign="haRight" Memo.Text="總稅額:"/>
+      <TfrxMemoView Name="Memo11" Left="18.89765" Top="128.50402" Width="94.48825" Height="18.89765" HAlign="haRight" Memo.Text="總發票金額:"/>
+      <TfrxMemoView Name="Memo12" Left="18.89765" Top="147.40167" Width="94.48825" Height="18.89765" HAlign="haRight" Memo.Text="應稅銷售額:"/>
+      <TfrxMemoView Name="Memo13" Left="18.89765" Top="166.29932" Width="94.48825" Height="18.89765" HAlign="haRight" Memo.Text="免稅銷售額:"/>
+      <TfrxMemoView Name="Memo14" Left="113.3859" Top="71.81107" Width="83.1496062992126" Height="18.89765" AutoWidth="True" HAlign="haRight" Memo.Text="[收費項目種類]"/>
+      <TfrxMemoView Name="Memo15" Left="113.3859" Top="90.70872" Width="83.1496062992126" Height="18.89765" AutoWidth="True" DisplayFormat.DecimalSeparator="." DisplayFormat.FormatStr="#,##0.##" DisplayFormat.Kind="fkNumeric" HAlign="haRight" Memo.Text="[總銷售額]"/>
+      <TfrxMemoView Name="Memo16" Left="113.3859" Top="109.60637" Width="83.1496062992126" Height="18.89765" AutoWidth="True" DisplayFormat.DecimalSeparator="." DisplayFormat.FormatStr="#,##0.##" DisplayFormat.Kind="fkNumeric" HAlign="haRight" Memo.Text="[總稅額]"/>
+      <TfrxMemoView Name="Memo17" Left="113.3859" Top="128.50402" Width="83.1496062992126" Height="18.89765" AutoWidth="True" DisplayFormat.DecimalSeparator="." DisplayFormat.FormatStr="#,##0.##" DisplayFormat.Kind="fkNumeric" HAlign="haRight" Memo.Text="[總發票金額]"/>
+      <TfrxMemoView Name="Memo18" Left="113.3859" Top="147.40167" Width="83.1496062992126" Height="18.89765" AutoWidth="True" DisplayFormat.DecimalSeparator="." DisplayFormat.FormatStr="#,##0.##" DisplayFormat.Kind="fkNumeric" HAlign="haRight" Memo.Text="[應稅銷售額]"/>
+      <TfrxMemoView Name="Memo19" Left="113.3859" Top="166.29932" Width="83.1496062992126" Height="18.89765" AutoWidth="True" DisplayFormat.DecimalSeparator="." DisplayFormat.FormatStr="#,##0.##" DisplayFormat.Kind="fkNumeric" HAlign="haRight" Memo.Text="[免稅銷售額]"/>
+      <TfrxMemoView Name="Memo20" Left="22.67718" Top="200.31509" Width="79.37013" Height="18.89765" Font.Charset="136" Font.Color="0" Font.Height="-16" Font.Name="標楷體" Font.Style="0" Memo.Text="收費項目" ParentFont="False"/>
+      <TfrxMemoView Name="Memo21" Left="313.70099" Top="200.31509" Width="41.57483" Height="18.89765" Font.Charset="136" Font.Color="0" Font.Height="-16" Font.Name="標楷體" Font.Style="0" Memo.Text="數量" ParentFont="False"/>
+      <TfrxMemoView Name="Memo22" Left="408.18924" Top="200.31509" Width="60.47248" Height="18.89765" Font.Charset="136" Font.Color="0" Font.Height="-16" Font.Name="標楷體" Font.Style="0" Memo.Text="銷售額" ParentFont="False"/>
+      <TfrxMemoView Name="Memo23" Left="525.35467" Top="200.31509" Width="41.57483" Height="18.89765" Font.Charset="136" Font.Color="0" Font.Height="-16" Font.Name="標楷體" Font.Style="0" Memo.Text="稅額" ParentFont="False"/>
+      <TfrxMemoView Name="Memo24" Left="616.06339" Top="200.31509" Width="71.81107" Height="18.89765" Font.Charset="136" Font.Color="0" Font.Height="-16" Font.Name="標楷體" Font.Style="0" Memo.Text="發票金額" ParentFont="False"/>
+      <TfrxLineView Name="Line1" Left="22.67718" Top="222.99227" Width="665.19728" Height="0" Frame.Typ="4"/>
+    </TfrxHeader>
+    <TfrxMasterData Name="MasterData1" Font.Charset="136" Font.Color="0" Font.Height="-13" Font.Name="標楷體" Font.Style="0" Height="22.67718" Left="0" ParentFont="False" Top="374.17347" Width="718.1107" ColumnWidth="0" ColumnGap="0" DataSet="frxC01_1" DataSetName="frxC01_1" RowCount="0">
+      <TfrxMemoView Name="Memo26" Left="272.12616" Top="3.77953000000002" Width="71.81107" Height="18.89765" DataField="數量" DataSet="frxC01_1" DataSetName="frxC01_1" HAlign="haRight" Memo.Text="[frxC01_1.&#34;數量&#34;]"/>
+      <TfrxMemoView Name="Memo27" Left="351.49629" Top="3.77953000000002" Width="102.04731" Height="18.89765" DataField="銷售額" DataSet="frxC01_1" DataSetName="frxC01_1" DisplayFormat.DecimalSeparator="." DisplayFormat.FormatStr="#,##0.##" DisplayFormat.Kind="fkNumeric" HAlign="haRight" Memo.Text="[frxC01_1.&#34;銷售額&#34;]"/>
+      <TfrxMemoView Name="Memo28" Left="461.10266" Top="3.77953000000002" Width="98.26778" Height="18.89765" DataField="稅額" DataSet="frxC01_1" DataSetName="frxC01_1" DisplayFormat.DecimalSeparator="." DisplayFormat.FormatStr="#,##0.##" DisplayFormat.Kind="fkNumeric" HAlign="haRight" Memo.Text="[frxC01_1.&#34;稅額&#34;]"/>
+      <TfrxMemoView Name="Memo29" Left="563.14997" Top="3.77953000000002" Width="117.16543" Height="18.89765" DataField="發票金額" DataSet="frxC01_1" DataSetName="frxC01_1" DisplayFormat.DecimalSeparator="." DisplayFormat.FormatStr="#,##0.##" DisplayFormat.Kind="fkNumeric" HAlign="haRight" Memo.Text="[frxC01_1.&#34;發票金額&#34;]"/>
+      <TfrxMemoView Name="Memo25" Left="22.67718" Top="3.77953000000002" Width="249.44898" Height="18.89765" StretchMode="smActualHeight" DataField="收費項目" DataSet="frxC01_1" DataSetName="frxC01_1" Memo.Text="[frxC01_1.&#34;收費項目&#34;]"/>
+    </TfrxMasterData>
+    <TfrxPageFooter Name="PageFooter1" Font.Charset="136" Font.Color="0" Font.Height="-13" Font.Name="標楷體" Font.Style="0" Height="26.45671" Left="0" ParentFont="False" Top="506.45702" Width="718.1107">
+      <TfrxMemoView Name="Memo30" Left="15.11812" Top="7.55905999999987" Width="71.81107" Height="18.89765" Memo.Text="列印日期 : "/>
+      <TfrxMemoView Name="Memo31" Left="86.92919" Top="7.55905999999999" Width="185.19697" Height="18.89765" DisplayFormat.DecimalSeparator="." DisplayFormat.FormatStr="yyyy/mm/dd hh:mm" DisplayFormat.Kind="fkDateTime" Memo.Text="[Now]"/>
+      <TfrxMemoView Name="Memo32" Left="272.12616" Top="7.55905999999987" Width="60.47248" Height="18.89765" Memo.Text="印表人 : "/>
+      <TfrxMemoView Name="Memo33" Left="332.59864" Top="7.55905999999987" Width="94.48825" Height="18.89765" Memo.Text="[印表人]"/>
+      <TfrxLineView Name="Line3" Left="15.11812" Top="3.77953000000008" Width="661.41775" Height="0" Frame.Typ="4"/>
+    </TfrxPageFooter>
+    <TfrxReportSummary Name="ReportSummary1" Font.Charset="136" Font.Color="0" Font.Height="-13" Font.Name="標楷體" Font.Style="0" Height="26.45671" Left="0" ParentFont="False" Top="457.32313" Width="718.1107">
+      <TfrxLineView Name="Line2" Left="272.12616" Top="3.77952999999997" Width="408.18924" Height="0" Frame.Typ="4"/>
+      <TfrxMemoView Name="Memo34" Left="272.12616" Top="7.55905999999999" Width="71.81107" Height="18.89765" DisplayFormat.DecimalSeparator="." DisplayFormat.FormatStr="#,##0.##" DisplayFormat.Kind="fkNumeric" HAlign="haRight" Memo.Text="[SUM(&#60;frxC01_1.&#34;數量&#34;&#62;,MasterData1)]"/>
+      <TfrxMemoView Name="Memo35" Left="351.49606299" Top="7.55905999999999" Width="102.04724409" Height="18.89765" DisplayFormat.DecimalSeparator="." DisplayFormat.FormatStr="#,##0.##" DisplayFormat.Kind="fkNumeric" HAlign="haRight" Memo.Text="[SUM(&#60;frxC01_1.&#34;銷售額&#34;&#62;,MasterData1)]"/>
+      <TfrxMemoView Name="Memo36" Left="461.10266" Top="7.55905999999999" Width="98.26771654" Height="18.89765" DisplayFormat.DecimalSeparator="." DisplayFormat.FormatStr="#,##0.##" DisplayFormat.Kind="fkNumeric" HAlign="haRight" Memo.Text="[SUM(&#60;frxC01_1.&#34;稅額&#34;&#62;,MasterData1)]"/>
+      <TfrxMemoView Name="Memo37" Left="563.1496063" Top="7.55905999999999" Width="117.16535433" Height="18.89765" DisplayFormat.DecimalSeparator="." DisplayFormat.FormatStr="#,##0.##" DisplayFormat.Kind="fkNumeric" HAlign="haRight" Memo.Text="[SUM(&#60;frxC01_1.&#34;發票金額&#34;&#62;,MasterData1)]"/>
+    </TfrxReportSummary>
+  </TfrxReportPage>
+</TfrxReport>

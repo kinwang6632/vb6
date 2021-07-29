@@ -1,0 +1,22 @@
+
+1.與CNS確認是否需要管理STB與CardID之間的配對關係？
+
+2.Bouquet_ID：
+  ..與CNS確認Bouquet_ID所謂最多28個，是指各系統各28個或是全部28個?
+  ..各系統台設定的Bouquet_ID可以重複設嗎?
+  ..Bouquet_ID由誰建立(CNS或是開博)，及其維護方式?
+  ..Bouquet_ID 用指令 Set Personal Region Bits仍然不行
+
+3.與CNS確認Region Key是由誰建立(CNS或是開博)及維護，且CardID如何對應到Region Key?且由誰傳給誰?
+
+4.與CNS確認PopulationId是由誰建立(CNS或是開博)及維護?且由誰傳給誰?
+
+5.開機指令中所回傳的資料中，有一欄位是NewCardID請與CNS確認此欄位意義?
+
+6.與CNS確認子母機機制何時起用?
+
+7.Set User Parameters  設定親子密碼(指令OK但看不出效果)
+
+8.Cancel pairing/re-pairing(指令OK但看不出效果)
+
+9.New Card(ErrorMsg: Invalid New Card Argument)要如何測才看得出結果?

@@ -1,0 +1,49 @@
+PL/SQL程式中動態建立Table之範例
+
+1. PL/SQL不能於程式中使用DDL, 只能使用DML(如select, insert, update, delete, commit, rollback),
+   故需用Oracle package "DBMS_UTILITY"來達成DDL指令(create, drop, alter ....)
+
+2. 此段程式應用於SF_DailyOp1.sql中
+
+/* **********************************************************************************
+  -- 變數宣告
+  v_TmpTableName varchar2(100);		-- 檔名(Table name)
+  v_SQL3 varchar2(4000);		-- for SQL statement
+  v_Cnt1 number;			-- counter
+
+  -- 1. 組成檔名
+  v_TmpTableName := 根據檔名規則所產生之檔名
+
+  --2. 檢查是否有建立暫存檔, 若有則先刪除, 再建立之
+  select count(*) into v_Cnt1 from User_Tables where Table_Name = v_TmpTableName;
+  if v_Cnt1 > 0 then 
+    v_SQL3 := 'drop table ' || v_TmpTableName;
+    begin
+      DBMS_UTILITY.EXEC_DDL_STATEMENT(v_SQL3);		<== function 1
+    exception
+      when others then
+        p_RetMsg := v_TmpTableName||'暫存檔無法刪除, 可能....';
+	-- rollback;				-- 必要時, 需rollback
+        return -4;
+    end;
+  end if;
+
+  -- 3. 建立此table
+  v_SQL3 := 'CREATE TABLE ' || v_TmpTableName || '(' ||
+	'CompCode number(3), ServiceType char(1), ItemCode1 number(3), ItemName1 varchar2(40),
+	ItemCode2 number(3), ItemName2 varchar2(40), Value01 number(8) default 0,
+	Value02 number(8) default 0, Value03 number(8) default 0, Value04 number(8) default 0,
+	Value05 number(8) default 0, Value06 number(8) default 0, Value07 number(8) default 0,
+	Value08 number(8) default 0)';
+  begin
+    DBMS_UTILITY.EXEC_DDL_STATEMENT(v_SQL3);		<== function 2
+  exception
+    when others then
+      p_RetMsg := v_TmpTableName||'暫存檔無法建立, 可能..., 請稍後再試';
+      -- rollback;				-- 必要時, 需rollback
+      return -5;
+  end;
+
+  -- 4. 若需建立index, 則同3做法, 包裝 CREATE INDEX ...指令
+
+*********************************************************************************** */

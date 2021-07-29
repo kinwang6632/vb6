@@ -1,0 +1,54 @@
+-- *********************************************************************************
+-- 建立STB開機次數與比率統計檔的script				Date: 2003.11.03
+--   @c:\emc_script\GenSO510
+--   請Lawrence將結構建立至EcSchema中
+-- *********************************************************************************
+
+/*
+SO510: 每日STB開機次數與比率統計檔
+	RPTDATE		DATE 			資料日
+	COMPCODE 	NUMBER(3)		公司別
+	MODETYPE	VARCHAR2(2)		指令代號, 目前只統計"開機"
+	OKCNT 		NUMBER(8)		成功指令數
+	ERRCNT		NUMBER(8)		失敗指令數
+	TOTALCNT 	NUMBER(8)		當日該指令總數
+	OKRATE 		NUMBER(5,2)		當日該指令成功比例
+	ERRRATE		NUMBER(5,2)		當日該指令失敗比例
+
+	索引: 
+		(1) COMPCODE, RPTDATE
+		(2) RPTDATE, COMPCODE
+
+SO510A: STB指令執行錯誤明細檔
+	RPTDATE		DATE 			資料日(即操作時間的日期)
+	COMPCODE 	NUMBER(3)		公司別
+	MODETYPE	VARCHAR2(2)		指令代號, 目前只統計"開機"
+	SEQNO		NUMBER(8)		指令流水號
+	ICC_NO		VARCHAR2(12)		智慧卡號
+	STB_NO		VARCHAR2(20)		STB序號
+	OPERATOR	VARCHAR2(20)		操作人員
+	UPDTIME		DATE			操作時間(指令執行)
+	ERR_CODE	VARCHAR2(50)		錯誤代碼
+	ERR_MSG		VARCHAR2(50)		錯誤訊息
+
+	索引: 
+		(1) COMPCODE, RPTDATE, UPDTIME
+		(2) RPTDATE, COMPCODE, UPDTIME
+*/
+
+  prompt SSTB指令執行錯誤明細檔: SO510A
+  drop table SO510A;
+
+  create table SO510A (
+	RPTDATE		DATE, 
+	COMPCODE 	NUMBER(3), 
+	MODETYPE	VARCHAR2(2), 
+	SEQNO		NUMBER(8), 
+	ICC_NO		VARCHAR2(12), 
+	STB_NO		VARCHAR2(20), 
+	OPERATOR	VARCHAR2(20), 
+	UPDTIME		DATE, 
+	ERR_CODE	VARCHAR2(50), 
+	ERR_MSG		VARCHAR2(50));
+
+

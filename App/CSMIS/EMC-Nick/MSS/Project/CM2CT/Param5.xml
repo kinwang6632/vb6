@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="Big5"?>
+<領退料>
+	<設備 數量="3" 作業="1" 公司代碼="0">
+		<HFCMAC序號>000103A278ED</HFCMAC序號>
+		<HFCMAC序號>0001030278ER</HFCMAC序號>
+		<HFCMAC序號>0001038100A2</HFCMAC序號>
+	</設備>
+	<設備 數量="3" 作業="2" 公司代碼="9">
+		<HFCMAC序號>000103A278ED</HFCMAC序號>
+		<HFCMAC序號>0001030278ER</HFCMAC序號>
+		<HFCMAC序號>0001038100A2</HFCMAC序號>
+	</設備>
+</領退料>

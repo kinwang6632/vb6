@@ -1,0 +1,242 @@
+SELECT COMMANDID,CMDSTATUS,ERRORCODE,ERRORDESC,NOTES FROM NDS001
+
+..2003/08/06 測試指令
+  ..A1--[C]--[6.2.2 ]===[OK]--(Create Subscriber  開機)
+  ..B1--[A]--[6.2.8 ]===[OK]--(Authorize Service/OPPV  開頻道)
+  ..F1--[Y]--[6.2.33]===[OK]--(Set Personal Region Bit)
+  ..F2--[c]--[6.2.25]===[OK]--(Create/Modify IPPV Series slot)
+  ..F6--[y]--[6.2.34]===[OK]--(Set Personal Region Bytes)
+
+
+..2003/08/07 測試指令
+  ..A6--[Q]--[6.2.5 ]===[]--(Change Subscriber Data)
+  ..B2--[X]--[6.2.12]===[OK]--(Cancel Service  關頻道)
+  ..B4--[J]--[6.2.10]===[OK]--(Cancel All Services 關所有頻道)
+  ..A2--[D]--[6.2.3 ]===[]--(Delete Subscriber  拆機)
+  ..A5--[V]--[6.2.23]===[OK]--(Resend All Packets)
+  ..E1--[q]--[6.2.28]===[]--(Set User Parameters  設定親子密碼) 
+  ..A3--[S]--[6.2.4 ]===[OK]--(suspend services  停機)--多測
+  ..A4--[R]--[6.2.6 ]===[OK]--(Reactivate Subscriber  復機)--多測
+
+
+..2003/08/ 測試指令
+  ..F4--[e]--[6.2.38]===[]--(Set Master/Slave Relation)
+  ..--[]--[6.2.39]===[]--(Multi Service Authorization)
+  ..--[]--[7.2.16]===[]--(Send E-mail)
+  ..--[]--[7.2.21]===[]--(Send OSD)
+  ..F5--[G]--[6.2.15]===[]--(Get Information  - )
+
+local 設定
+	IP : 202.3.166.81
+	SubMask : 255.255.255.192
+	GW :202.3.166.65
+
+北京設定:
+	Joanna: 
+		jhe@ndsuk.com
+		公司: 86 108 529 8459 ext:807
+		手機: 86 138 012 40831
+	IP: 203.193.62.251
+	Port: 12222
+
+
+===================================================================================
+insert into nds001 select * from nds001;
+update nds001 set cmdstatus='W', seqno=rownum, RESENTTIMES=NULL;
+commit;
+select count(*),cmdstatus from nds001 group by cmdstatus;
+
+384 筆 54:46 ~ 58:15
+768 筆 58:44 ~ 05:41
+1536 筆 06:08 ~ 20:01
+===================================================================================
+
+--測試指令 A0 => 開機+開頻道
+insert into NDS001(SeqNo,CompCode,CompName,CommandId,IccNo,
+CmdStatus,Operator,ProcessingDate, UpdTime, Notes, RegionKey, ReportBackAvailability,
+ReportBackDate, PopulationId)
+values('901',7,'吉隆','A0','00000010066',
+'W','Howard',NULL,sysdate,'234~20040531~N','98760054','E',5,1);
+commit;
+
+
+--測試指令 A1 => 開機
+insert into NDS001(SeqNo,CompCode,CompName,CommandId,IccNo,
+CmdStatus,Operator,ProcessingDate, UpdTime, RegionKey, ReportBackAvailability,
+ReportBackDate, PopulationId)
+values('902',7,'吉隆','A1','10522',
+'W','Howard',NULL,sysdate,'98760054','D',5,1);
+commit;
+
+
+
+--測試指令 A2 => 拆機
+insert into NDS001(SeqNo,CompCode,CompName,CommandId,
+CmdStatus,Operator,ProcessingDate, UpdTime,SubscriberId)
+values('903',7,'吉隆','A2',
+'W','Howard',NULL,sysdate,'000009D2');
+commit;
+
+
+--測試指令 A3 => 停機
+insert into NDS001(SeqNo,CompCode,CompName,CommandId,
+CmdStatus,Operator,ProcessingDate, UpdTime,SubscriberId)
+values('904',7,'吉隆','A3',
+'W','Howard',NULL,sysdate,'000009D2');
+commit;
+
+
+--測試指令 A4 => 復機
+insert into NDS001(SeqNo,CompCode,CompName,CommandId,
+CmdStatus,Operator,ProcessingDate, UpdTime,SubscriberId)
+values('905',7,'吉隆','A4',
+'W','Howard',NULL,sysdate,'00000004');
+commit;
+
+--測試指令 A5 => resend all packets
+insert into NDS001(SeqNo,CompCode,CompName,CommandId,
+CmdStatus,Operator,ProcessingDate, UpdTime,SubscriberId)
+values('906',7,'吉隆','A5',
+'W','Howard',NULL,sysdate,'00000004');
+commit;
+
+
+--測試指令 B1 => 開頻道
+insert into NDS001(SeqNo,CompCode,CompName,CommandId,
+CmdStatus,Operator,ProcessingDate, UpdTime, Notes,SubscriberId)
+values('907',7,'吉隆','B1',
+'W','Howard',NULL,sysdate,'3~20040531~N','000009D2');
+commit;
+
+
+
+--測試指令 B2 => 關頻道
+insert into NDS001(SeqNo,CompCode,CompName,CommandId,
+CmdStatus,Operator,ProcessingDate, UpdTime, Notes,SubscriberId)
+values('908',7,'吉隆','B2',
+'W','Howard',NULL,sysdate,'3','000009D2');
+commit;
+
+
+
+--測試指令 B3 => Create Service/PPV/OPPV
+insert into NDS001(SeqNo,CompCode,CompName,CommandId,
+CmdStatus,Operator,ProcessingDate, UpdTime, Notes,SubscriberId,ServiceID)
+values('909',7,'吉隆','B3',
+'W','Howard',NULL,sysdate,'Super Ball~20030601~O~P','00000004','4');
+commit;
+
+
+
+--測試指令 B4 => 關所有頻道
+insert into NDS001(SeqNo,CompCode,CompName,CommandId,
+CmdStatus,Operator,ProcessingDate, UpdTime,SubscriberId)
+values('908',7,'吉隆','B4',
+'W','Howard',NULL,sysdate,'000009D2');
+commit;
+
+
+
+--測試指令 E1 => 設定親子密碼
+insert into NDS001(SeqNo,CompCode,CompName,CommandId,
+CmdStatus,Operator,ProcessingDate, UpdTime,SubscriberId,PINCODE, PINCONTROL)
+values('910',7,'吉隆','E1',
+'W','Howard',NULL,sysdate,'000009D2',9876,'L');
+commit;
+
+
+
+--測試指令 E2 => Store Region Key
+insert into NDS001(SeqNo,CompCode,CompName,CommandId,
+CmdStatus,Operator,ProcessingDate, UpdTime,SubscriberId,RegionKey)
+values('911',7,'吉隆','E2',
+'W','Howard',NULL,sysdate,'00000005','77665544');
+commit;
+
+
+
+--測試指令 F1 => Set Personal Region Bit
+insert into NDS001(SeqNo,CompCode,CompName,CommandId,
+CmdStatus,Operator,ProcessingDate, UpdTime, Notes,SubscriberId)
+values('907',7,'吉隆','F1',
+'W','Howard',NULL,sysdate,'A,1','000009D2');
+commit;
+
+
+
+--測試指令 F2 => Create/Modify IPPV Series slot
+insert into NDS001(SeqNo,CompCode,CompName,CommandId,
+CmdStatus,Operator,ProcessingDate, UpdTime, Notes,SubscriberId)
+values('907',7,'吉隆','F2',
+'W','Howard',NULL,sysdate,'1~3~1000~100~300~16~C','000009D2');
+commit;
+
+
+
+--測試指令 F6 => Set Personal Region Bytes
+insert into NDS001(SeqNo,CompCode,CompName,CommandId,
+CmdStatus,Operator,ProcessingDate, UpdTime, Notes,SubscriberId)
+values('907',7,'吉隆','F6',
+'W','Howard',NULL,sysdate,'0~13~255','000009D2');
+commit;
+
+
+
+
+=================
+問題:
+1. 單一高階指令,對應多低階指令的問題..
+2. 不同的 from id, 要用不同的 signature key ?
+	from_id signature_key
+	0	00000000
+	1	12345678
+3. signature 演算法,如何可以方便的切換?
+4. reset pin code 的指令細節?
+5. dispatcher 會resend 指令給 processor ?
+
+
+=================
+A1
+送出的指令: 0003S00640001020100200306051043020002SIH00000000C00000001005898760054D050503000300017026939EB70A3680
+收到的指令回應: 0003S00A50100020001200306050244420002S000000041I00000001005800000000000000000000000000000000000000987600541C0000000000000000000000000000D05083746000378776AC58F19FE9A
+=================
+B3
+送出的指令: 0003S00530001020100200306051109080001RIN00EAC0ASuper Ball20030601OPB8D974E8F5590629
+收到的指令回應: 0003S00360100020001200306050310480001O2E1AAF844E4FA83E
+=================
+B1
+送出的指令: 0003S004E0001020100200306051112380001SIH00000004A00EA20040531N99BA8C8D6165CBF1
+收到的指令回應: 0003S00360100020001200306050314180001O1C6D678DC2B229E9
+=================
+B2
+送出的指令: 0003S00450001020100200306051115290002SHH00000004X00EA73BBC2750530256E
+收到的指令回應: 0003S00360100020001200306050317090002OD63AA973BE5C4C94
+=================
+E1
+送出的指令: 0003S00570001020100200306051118360003SIN00000004q400L9876000000FFFF0000CC1B3B975BCB97F6
+收到的指令回應: 0003S00360100020001200306050320160003O3BF465EF878C52FA
+=================
+A3 (from ID必須等於 0, 所以 signatrue key 必須="00000000" )
+送出的指令: 0003S00420000020100200306051206000001SHH00000004j0B3C2B086985CFF9D
+收到的指令回應: 0003S00360100020000200306050407430001OD1943C94558C3775
+=================
+A4 (from ID必須等於 0, 所以 signatrue key 必須="00000000" )
+送出的指令: 0003S00420000020100200306051359180001SHH00000004j10E8F2BFEB52BF9A6
+收到的指令回應: 0003S00360100020000200306050601020001O3EA7C707BDB02D43
+=================
+A5
+送出的指令: 0003S00410001020100200306051442370001SHH00000004V6D4BF0FFB5AA1243
+收到的指令回應: 0003S00360100020001200306050644190001OE230F27A475ACDB0
+=================
+A2
+送出的指令: 0003S00410001020100200306051446110002SHH00000004D1AB23AE84AD8B8B2
+收到的指令回應: 0003S00360100020001200306050647530002O66DAD223DB29D769
+=================
+A0
+送出的指令: 0003S00720001020100200306051449460005SIH00000000C00000001006698760054E05050300030001A00EA20040531N77593708CF0E91EC
+收到的指令回應: 0003S00A60100020001200306050651280005S000000051I00000001006600000000000000000000000000000000000000987600541C0000000000000000000000000000E051938000003O762198EB8B01B0DF
+=================
+E2
+送出的指令: 0003S004B0000020100200306051453350001ZZN77665544D2A074D1001F86000AAEC1563B2
+收到的指令回應: 0003S00360100020000200306050655160001OD6D0FF5F38592304
+=================

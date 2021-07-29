@@ -1,0 +1,17 @@
+options (errors=200)
+load data
+infile 'CD019SO017_NEW.txt'
+append into table CD019SO017
+fields terminated by X'09' TRAILING NULLCOLS
+(CitemCode DECIMAL EXTERNAL,
+MduId CHAR "substrb(rtrim(:MduId),1,8)",
+Period DECIMAL EXTERNAL,
+Amount DECIMAL EXTERNAL,
+DayAmt DECIMAL EXTERNAL,
+TruncAmt DECIMAL EXTERNAL,
+StartDate DATE "YYYYMMDD",
+StopDate DATE "YYYYMMDD",
+PFlag1 DECIMAL EXTERNAL,
+PFlag2 DECIMAL EXTERNAL,
+CompCode DECIMAL EXTERNAL
+)

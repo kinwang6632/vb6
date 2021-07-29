@@ -1,0 +1,70 @@
+* EMC每個月備份重要資料: 
+  1. 客戶重要資料檔(so033.34中收費項目=301, 有實收日期.實收金額,沒有未收原因,沒有短收原因或短收原因的參考號<>1
+	客戶狀態正常) [檔名範例: EMCYMS_SO001ALL_200305]
+  2. 客戶設備資料檔(FaciCode之參考號為3,4者) [檔名範例: EMCYMS_SO004_200305]
+  3. 大樓客戶數檔: 每月將各SO的SO017中有關客戶數與合約期限資料等部份欄位備份起來 [檔名範例: EMCYMS_SO017_200305]
+
+* 檔案結構:
+  1. 客戶重要資料檔: 
+	CustId 		NUMBER(8)
+	CustName	VARCHAR2(50)
+	Tel1 		VARCHAR2(20)
+	Tel2		VARCHAR2(20)
+	Tel3		VARCHAR2(20)
+	InstTime 	DATE
+	StopTime 	DATE
+	CustStatusCode	NUMBER(3)
+	CustStatusName	VARCHAR2(12)
+	ViewLevel	CHAR(1)
+	InstCount	NUMBER(4)
+	ClassCode1	NUMBER(3)
+	ClassName1	VARCHAR2(20)
+	CMCode		NUMBER(3)
+	CMName		VARCHAR2(20)
+	CitemCode	NUMBER(3)
+	CitemName	VARCHAR2(20)
+	Period 		NUMBER(2)
+	Amount 		NUMBER(8)
+	StartDate 	DATE
+	StopDate 	DATE
+	ClctDate 	DATE
+	InstAddrNo 	NUMBER(8)
+	InstAddress 	VARCHAR2(60)
+	UPDDate 	DATE
+	CompCode 	NUMBER(3)
+	CompName 	VARCHAR2(20)
+	ServiceType 	VARCHAR2(50)
+	ServiceName 	VARCHAR2(150)
+	Billno 		VARCHAR(15)
+	Realstartdate 	DATE
+	Realstopdate 	DATE
+	Realdate 	DATE
+	Realperiod 	NUMBER(2)
+	RealAmt 	NUMBER(8)
+
+  2. 客戶設備資料檔: 結構完全同SO004
+
+  3. 大樓客戶數檔:
+	CompCode	number(3)	公司別
+	MduId		varchar2(8)	大樓編號
+	Name		varchar2(20)	大樓名稱
+	ClctMethod	number(1)	計費方式
+	MainCustId	number(8)	統收戶客戶編號
+	MainCustName	varchar2(26)	統收客戶名稱, vc2(50)
+	BCAmount	number(8)	基本台統收金額
+	BCPeriod	number(2)	基本台期數
+	TotalCnt	number(4)	總戶數
+	AcceptCnt	number(4)	建檔戶數
+	InstCnt		number(4)	有效戶數
+	UnInstCnt	number(4)	停拆/待拆戶數
+	UnPRCnt		number(4)	待拆戶數
+	AcceptCnt1	number(4)	CAISP建檔數
+	InstCnt1	number(4)	CAISP有效戶數
+	UnInstCnt1	number(4)	CAISP停拆/待拆戶數
+	Flag		varchar2(6)	狀態
+	CStartDate	date		合約起始日
+	CDueDate	date		合約截止日
+	CSignDate	date		簽約日
+	CSignEn		varchar2(10)	簽約人員代號
+	CSignName	varchar2(20)	簽約人員姓名
+	ContractStatus	number(1)	合約狀態

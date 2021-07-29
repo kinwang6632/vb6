@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataSet xmlns="http://tempuri.org/CMWebServiceGW/EMCWebServiceGW">
+  <xs:schema id="CMConnLogDS" targetNamespace="http://tempuri.org/CMConnLogDS.xsd" xmlns:mstns="http://tempuri.org/CMConnLogDS.xsd" xmlns="http://tempuri.org/CMConnLogDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+    <xs:element name="CMConnLogDS" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="CMConnLogDT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="QueryResult" type="xs:string" minOccurs="0" />
+                <xs:element name="FaultReason" type="xs:string" minOccurs="0" />
+                <xs:element name="OnlineTime" type="xs:string" minOccurs="0" />
+                <xs:element name="OfflineTime" type="xs:string" minOccurs="0" />
+                <xs:element name="CMIP" type="xs:string" minOccurs="0" />
+                <xs:element name="PCIP" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+    <CMConnLogDS xmlns="http://tempuri.org/CMConnLogDS.xsd">
+      <CMConnLogDT diffgr:id="CMConnLogDT1" msdata:rowOrder="0">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <OnlineTime>2005-06-10 10:00:00</OnlineTime>
+        <OfflineTime>2005-06-10 11:00:00</OfflineTime>
+        <CMIP>10.123.1.1</CMIP>
+        <PCIP>218.34.208.137,218.34.208.138</PCIP>
+      </CMConnLogDT>
+      <CMConnLogDT diffgr:id="CMConnLogDT2" msdata:rowOrder="1">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <OnlineTime>2005-06-11 10:00:00</OnlineTime>
+        <OfflineTime>2005-06-11 11:00:00</OfflineTime>
+        <CMIP>10.123.1.1</CMIP>
+        <PCIP>218.34.208.137</PCIP>
+      </CMConnLogDT>
+      <CMConnLogDT diffgr:id="CMConnLogDT3" msdata:rowOrder="2">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <OnlineTime>2005-06-12 08:00:00</OnlineTime>
+        <OfflineTime>2005-06-12 11:00:00</OfflineTime>
+        <CMIP>10.123.1.1</CMIP>
+        <PCIP>218.34.208.137</PCIP>
+      </CMConnLogDT>
+    </CMConnLogDS>
+  </diffgr:diffgram>
+</DataSet>

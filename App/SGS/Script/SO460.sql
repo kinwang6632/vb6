@@ -1,0 +1,16 @@
+PROMPT *** SO460   監管GateWay 查詢作業 Log檔 ***
+
+DROP TABLE SO460 CASCADE CONSTRAINT;
+
+CREATE TABLE SO460 (
+	CompCode NUMBER(3),
+	ModeType NUMBER(2),
+	HandleEDateTime DATE,
+	ExecDateTime DATE,
+	InstQuery NUMBER(1),
+	SrcCode VARCHAR2(10),
+	SrcMsgID VARCHAR2(10),
+	DstCode VARCHAR2(10),
+	DstMsgID VARCHAR2(10),
+	ErrorCode VARCHAR2(20),
+	ErrorMsg VARCHAR2(2000));

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataSet xmlns="http://tempuri.org/CMWebServiceGW/EMCWebServiceGW">
+  <xs:schema id="CMStatusQueryDS" targetNamespace="http://tempuri.org/Dataset1.xsd" xmlns:mstns="http://tempuri.org/Dataset1.xsd" xmlns="http://tempuri.org/Dataset1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+    <xs:element name="CMStatusQueryDS" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="CMSTDT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="QueryResult" type="xs:string" minOccurs="0" />
+                <xs:element name="FaultReason" type="xs:string" minOccurs="0" />
+                <xs:element name="GROUPID" type="xs:string" minOccurs="0" />
+                <xs:element name="CMStatus" type="xs:string" minOccurs="0" />
+                <xs:element name="CMIP" type="xs:string" minOccurs="0" />
+                <xs:element name="CMUPFREQ" type="xs:string" minOccurs="0" />
+                <xs:element name="CMDOWNFREQ" type="xs:string" minOccurs="0" />
+                <xs:element name="CMRECPW" type="xs:string" minOccurs="0" />
+                <xs:element name="CMTRANSPW" type="xs:string" minOccurs="0" />
+                <xs:element name="CMSNR" type="xs:string" minOccurs="0" />
+                <xs:element name="CMOnlineTimes" type="xs:string" minOccurs="0" />
+                <xs:element name="CMInOctets" type="xs:string" minOccurs="0" />
+                <xs:element name="CMOutOctets" type="xs:string" minOccurs="0" />
+                <xs:element name="CMInErrors" type="xs:string" minOccurs="0" />
+                <xs:element name="CMOutErrors" type="xs:string" minOccurs="0" />
+                <xs:element name="PCIP" type="xs:string" minOccurs="0" />
+                <xs:element name="CMTSRECPW" type="xs:string" minOccurs="0" />
+                <xs:element name="CMTSRXSNR" type="xs:string" minOccurs="0" />
+                <xs:element name="CMTSUPMOD" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+    <CMStatusQueryDS xmlns="http://tempuri.org/Dataset1.xsd">
+      <CMSTDT diffgr:id="CMSTDT1" msdata:rowOrder="0">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <GROUPID>11</GROUPID>
+        <CMStatus>6</CMStatus>
+        <CMIP>10.123.1.1</CMIP>
+        <CMUPFREQ>33.008 MHz</CMUPFREQ>
+        <CMDOWNFREQ>705 MHz</CMDOWNFREQ>
+        <CMRECPW>-6.8 dBmv</CMRECPW>
+        <CMTRANSPW>36.7 dBmv</CMTRANSPW>
+        <CMSNR>32 dB</CMSNR>
+        <CMOnlineTimes>2 days, 6:05:47.00</CMOnlineTimes>
+        <CMInOctets>4167854438 Bytes</CMInOctets>
+        <CMOutOctets>924936436 Bytes</CMOutOctets>
+        <CMInErrors>0 Packets</CMInErrors>
+        <CMOutErrors>0 Packets</CMOutErrors>
+        <PCIP>218.34.208.137, 218.34.208.138</PCIP>
+        <CMTSRECPW>-0.5dBmv</CMTSRECPW>
+        <CMTSRXSNR>-13dB</CMTSRXSNR>
+        <CMTSUPMOD>QPSK</CMTSUPMOD>
+      </CMSTDT>
+    </CMStatusQueryDS>
+  </diffgr:diffgram>
+</DataSet>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ProductManagementData SYSTEM "ProductManagementData.dtd">
+<ProductManagementData creationDate="20060418082840">
+<ProviderInfo>
+<ProviderId>IMS Nagra</ProviderId>
+<ProviderName>IMS Nagravision S.A.</ProviderName>
+<DtdVersion>1.1.1</DtdVersion>
+</ProviderInfo>
+<ProductChangeNotification>
+
+<ProductData>
+<Product>
+<ProductId>13871</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>東森精緻電影</ProductName>
+<ProductDescription>東森精緻電影</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060413003932" endTime="20060414004932"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20060413000000" endTime="20060416000000"/>
+<Event beginTime="20060414003932" duration="900">
+<EventId>L00000083781</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>東森精緻電影</Name>
+<Description>東森精緻電影</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>EMC movie</Name>
+<Description>EMC movie`</Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="9" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>305</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>13873</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>東森精緻電影</ProductName>
+<ProductDescription>東森精緻電影</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060413022256" endTime="20060414023256"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20060413000000" endTime="20060416000000"/>
+<Event beginTime="20060414022256" duration="900">
+<EventId>L00000083795</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>東森精緻電影</Name>
+<Description>東森精緻電影</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>EMC movie</Name>
+<Description>EMC movie`</Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="9" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>305</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>13874</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>東森精緻電影</ProductName>
+<ProductDescription>東森精緻電影</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060413023756" endTime="20060414024756"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20060413000000" endTime="20060416000000"/>
+<Event beginTime="20060414023756" duration="900">
+<EventId>L00000083797</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>東森精緻電影</Name>
+<Description>東森精緻電影</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>EMC movie</Name>
+<Description>EMC movie`</Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="9" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>305</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>13883</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>東方特塊車</ProductName>
+<ProductDescription>東方特塊車</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060413044124" endTime="20060414045124"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20060413000000" endTime="20060416000000"/>
+<Event beginTime="20060414044124" duration="1681">
+<EventId>L00000083822</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>東方特塊車</Name>
+</EpgText>
+<EpgText language="eng">
+<Name>東方特塊車</Name>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<ChannelNumber>305</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>13891</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>東森精緻電影</ProductName>
+<ProductDescription>東森精緻電影</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060413094501" endTime="20060414095501"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20060413000000" endTime="20060416000000"/>
+<Event beginTime="20060414094501" duration="900">
+<EventId>L00000083907</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>東森精緻電影</Name>
+<Description>東森精緻電影</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>EMC movie</Name>
+<Description>EMC movie`</Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="9" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>305</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>13893</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>東森精緻電影</ProductName>
+<ProductDescription>東森精緻電影</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060413101501" endTime="20060414102501"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20060413000000" endTime="20060416000000"/>
+<Event beginTime="20060414101501" duration="900">
+<EventId>L00000083911</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>東森精緻電影</Name>
+<Description>東森精緻電影</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>EMC movie</Name>
+<Description>EMC movie`</Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="9" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>305</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+</ProductData>
+</ProductChangeNotification>
+</ProductManagementData>

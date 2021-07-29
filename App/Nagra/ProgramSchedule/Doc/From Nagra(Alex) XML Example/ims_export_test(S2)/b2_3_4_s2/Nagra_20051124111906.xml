@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BroadcastData SYSTEM "BroadcastData.dtd">
+<BroadcastData creationDate="20051124111906">
+  <ProviderInfo>
+    <ProviderId>Nagra</ProviderId>
+    <ProviderName>Nagravision S.A.</ProviderName>
+  </ProviderInfo>
+  <ScheduleData>
+    <ChannelPeriod beginTime="20051127160002" endTime="20051127200000">
+      <ChannelId>503</ChannelId>
+      <Event beginTime="20051127160002" duration="3600">
+        <EventId>L00000034581</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">00493EAD01422D09516B29611758DE4B9524243C54D228DEF8BB4784B6DC9EB6673F156A641CDFFF481F08173B927608A288EAE52AC2D54E81120DFD4E5238283F5476221127</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="29" pdsValue="9">007A19F91388031500493E138801656E67021A1AD1C51600020100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="29" pdsValue="9">0001000000494C0BB80300000160044D756C74696576656E74202D2037</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="17" pdsValue="9">0001000000493E13880300000160011A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="35" pdsValue="9">0001000000494C0BB80000000003000001600400004D756C74696576656E74202D2037</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="23" pdsValue="9">0001000000493E13880000000003000001600100001A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>殺妻</Name>
+            <Description>布萊斯塔柏（柯賓班森，「愛情不設防」）拋下妻子，搬去跟情人蓋兒（萊絲莉安華倫，「對不起，駭到你」）同居，法院因此而拒絕讓他探視他的兩個孩子；他對法院的判決感到忿忿不平，並且急著想搶回孩子的監護權，於是布萊斯便夥同蓋兒計畫殺掉他老婆好將孩子搶回來，但為了要讓計畫成功，他們得再另外找人幫忙，於是他們便內舉不避親地找上了蓋兒的孩子！這部帶點荒謬情節的影片是根據真人真事所改編的。</Description>
+            <ExtendedInfo name="導演">葛雷哥萊古德爾</ExtendedInfo>
+            <ExtendedInfo name="演員">萊絲莉安華倫、柯賓班森</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Murderous Intent</Name>
+            <Description>Based on actual events, this taut psychological thriller examines the extent of the human will to get what it wants.  Brice Talbot (Bernsen-Two of Hearts) abandons his wife to move in with his lover Gayle (Warren-Delivering Milo), but this act causes the courts to deny him the right to be with his two children.  Desperate to regain custody and furious at the results, Brice and Gayle plot to regain control by getting rid of Brice’s wife.  But in order for their plan to succeed, they have to recruit others into their plans, in this case Gayle’s own children!</Description>
+            <ExtendedInfo name="導演">Barry Levinson</ExtendedInfo>
+            <ExtendedInfo name="演員">Robert DeNiro、Dustin Hoffman、Anne Heche、Woody Harrelson</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051127170002" duration="3598">
+        <EventId>L00000034594</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D300FD</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>Default Promo</Name>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Default Promo</Name>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127180000" duration="2999">
+        <EventId>L00000034277</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004915AD01024848EF17023E5F07079FBE20A5C32A9E2AD991AB08D157D44158DE45C51678D78D4BAAF978F1905C1DE791D5D1D5191FCD6C33AA56F820F782B8E96BC8B5F560</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">007993F913880317004915138801656E67041A1A1A1AD1C518000000495931</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">0001000000491513880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">0001000000491513880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>捍衛正義-改變後</Name>
+            <Description>牶擊手魯賓卡特【丹佐華盛頓飾】希望拿下世界中量級牶王頭銜前夕，卻在紐澤西酒吧的槍擊案中以謀殺起訴，被判三無期徒刑，終生監禁．在獄中，卡特為了表示自己的清白，拒絕穿上罪犯的囚衣．並多次上訴，但全數被駁回．他逐漸灰心只能將冤屈訴諸於自傳當中，卡特的自傳感動了一名年輕黑人，於是在年輕人的幫肋下，他決定上訴到聯邦法院．．</Description>
+            <ExtendedInfo name="導演">諾曼傑維生</ExtendedInfo>
+            <ExtendedInfo name="演員">丹佐華盛頓, 約翰漢納</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>modifier</Name>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>6</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051127184959" duration="601">
+        <EventId>L00000034595</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D300FD</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>Default Promo</Name>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Default Promo</Name>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051127190000" duration="3600">
+        <EventId>L00000034596</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004943AD0102F2CF65C82C25DEE775EC13B7CFDBE55839BD12E2BC7CE40AD7868D56A644E1A9AD7FD41D4F7BECB68812956880A6900345FDC39D993DA9D443C00031E3F04C27</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="36" pdsValue="9">007A1AF91388031C004943138801656E67091A1A1A1A2D2D1A1A1AD1C51900000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="29" pdsValue="9">0001000000494C0BB80300000160044D756C74696576656E74202D2037</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="24" pdsValue="9">0001000000494313880300000160011A1A1A1A2D2D1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="35" pdsValue="9">0001000000494C0BB80000000003000001600400004D756C74696576656E74202D2037</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="30" pdsValue="9">0001000000494313880000000003000001600100001A1A1A1A2D2D1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>桃色風雲--搖擺狗</Name>
+            <Description>美國總統鬧出性醜聞，面對著醜聞成為頭條新聞的壓力，及兩週後的總統大選，白宮這回該怎麼做呢？簡單，發動一場戰爭！白宮危機處理專家康洛德（勞勃狄尼洛，「老大靠邊閃」）受命替總統解圍，轉移民眾注意力，於是他找來了好萊塢大製片家史丹利（達斯汀霍夫曼，「地動天驚」、「雨人」），虛擬一場在阿爾巴尼亞的戰爭，但這場戰爭不是發生在真實的戰場，而是在攝影棚當中，不用任何真槍實彈，他們製造各種有關戰爭的新聞片段，甚至趁機推出愛國歌曲大撈一筆。起初一切都進行地很順利，廣大民眾的心，隨著真真假假的戰爭新聞而起伏，但不久後卻漏洞百出，假的戰區英雄意外死亡，製片史丹利為了居功而不願保密，中情局也開始懷疑這場美國總統的桃色風雲該如何圓滿收場？導演巴瑞李文遜曾以「雨人」、「早安越南」、「豪情四兄弟」等片獲得空前的成功。</Description>
+            <ExtendedInfo name="導演">巴瑞李文遜</ExtendedInfo>
+            <ExtendedInfo name="演員">勞勃狄尼洛、達斯汀霍夫曼、安海契、伍迪哈里遜</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Wag The Dog</Name>
+            <Description>What do the President’s advisers do when a sex scandal threatens to explode across front pages nationwide, with the election is only 14 days away? Simple. Start a war! Faced with this dilemma, a ‘spin-doctor’ (DeNiro, Men Of Honor, Meet The Parents, The Adventures of Rocky &amp; Bullwinkle ) is called in to fabricate a nonexistent war for the President to win, and to distract the American public. Wars are no longer fought on battlefields but on TV, so naturally a hotshot Hollywood producer (Hoffman, Being John Malcovich, Cosm) is hired to manufacture a war in distant Albania — without a shot being fired. With its first-class cast and ascerbic humour, Wag the Dog is a biting satire that has never been more appropriate.</Description>
+            <ExtendedInfo name="導演">Barry Levinson</ExtendedInfo>
+            <ExtendedInfo name="演員">Robert DeNiro、Dustin Hoffman、Anne Heche、Woody Harrelson</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+    </ChannelPeriod>
+  </ScheduleData>
+</BroadcastData>

@@ -1,0 +1,18 @@
+-- **************************************************************
+-- Night-run 之後端程式compile順序		2003.05.19
+-- **************************************************************
+
+SF_DailyOp1
+SF_DailyOp2
+SF_DailyOp3
+SF_DailyOp4_30
+SF_AdjCustCount
+
+-- 註: 以下有*者, 表示於多服務機制下, 需修改針對多服務別的處理
+*SP_JDailyOp2
+*SP_JDailyOp4
+*SP_JDailyOp1
+*SP_JDailyOp5
+SP_BackupCustData	==> 與服務別無關, 故不必修改
+SP_GetSTBData		==> 與服務別無關, 故不必修改
+SP_MonthlyRptA1		==> 與服務別無關, 故不必修改

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BroadcastData SYSTEM "BroadcastData.dtd">
+<BroadcastData creationDate="20051124052309">
+  <ProviderInfo>
+    <ProviderId>Nagra</ProviderId>
+    <ProviderName>Nagravision S.A.</ProviderName>
+  </ProviderInfo>
+  <ScheduleData>
+    <ChannelPeriod beginTime="20051125170000" endTime="20051125230000">
+      <ChannelId>222</ChannelId>
+      <Event beginTime="20051125170000" duration="3600">
+        <EventId>22200003</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>危險枕邊人 (普) </Name>
+            <Description>一位生性害羞的菜鳥警探奉命追查一個危險的連續殺人狂，與他搭檔的是以鐵娘子作風聞名的女警探。在調查過程中，菜鳥警探與他的美麗搭檔一時天雷勾動地火而發展出一段情，但這份感情卻可能妨害到他們辦案—因為菜鳥警探發現他的枕邊人可能就是他所要抓的危險殺人狂。 </Description>
+            <ExtendedInfo name="導演:">尤利柴瑟 </ExtendedInfo>
+            <ExtendedInfo name="演員:">吉娜葛森、馬歇爾貝爾 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051125180000" duration="3600">
+        <EventId>22200004</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>天堂過客 (普) </Name>
+            <Description>還記得「火山爆發」及災難片始祖「火燒摩天樓」嗎？若你是這些災難片的愛好者，那你更不能錯過這部「天翻地覆」！正如同恐怖片有個公式，災難片也有個大致的脈絡可遵循：發現、一些小徵兆、調查、官僚制度、災難發生、極度的驚恐等，當然本片也不例外。一位大城市的官員愛莉森（潔西卡史汀，「世界末日」）對城鎮周圍下陷造成的災害感到憂心，於是找來她的未婚夫地質學家麥特（約翰高柏特，「火山爆發」），想借重一下他的專業知識看看，也好讓自己安心。然而麥特卻發現地面將會有個足以吞噬數萬居民的大洞，而他必須趕在災難發生前設法阻止！片中還有許多災難片必備的視覺特效，絕對精彩可期。 </Description>
+            <ExtendedInfo name="導演:">馬利歐阿索帕帝 </ExtendedInfo>
+            <ExtendedInfo name="演員:">約翰高柏特、潔西卡史汀、布蘭妮丹尼爾 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051125190000" duration="3600">
+        <EventId>22200005</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>老大靠邊閃 (護) </Name>
+            <Description>這是一部令人笑中帶淚的溫馨喜劇。 四個毫不相關、職業各異的男女在一場巴士車禍中喪生，而就在他們魂歸西天的同時，一個男嬰正好出世，這四個人相繼附身在這男嬰身上，欲藉由這個小新生命完成他們生前的遺願。 多年後，小男嬰長大變成一個自私自利、善於操縱別人的青年，四個鬼魂決定要有所行動…男主角湯瑪斯由小勞勃道尼（「絕命追殺令2：就地正法」）所飾演，幾場他被鬼魂附身的戲讓人拍案叫絕！ 看他忽男忽女，其中表情與情緒的轉折在在證明小勞勃道尼的喜劇天分！ 導演朗昂德伍以拍輕鬆喜劇見長，其他知名作品有：「巨星喬揚」、「愛得沒話說」、「城市鄉巴佬」等片。 </Description>
+            <ExtendedInfo name="導演:">哈洛雷米斯 </ExtendedInfo>
+            <ExtendedInfo name="演員:">勞勃狄尼洛、比利克里斯托、麗莎庫卓 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>1</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051125200000" duration="3600">
+        <EventId>22200006</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>流星撞地球 (普) </Name>
+            <Description>湯姆（湯姆伍派特）曾是警方的炸彈拆除專家，但是一次意外奪去了工作夥伴的命，從此他活在悔恨中無法自拔。為了找尋內心的平靜，他與妻子（羅珊娜哈特）搬到了一個小鎮，沒想到小鎮竟發生了神秘爆炸案，爆炸的破壞力是湯姆前所未見的。經由湯姆與妻子的調查，他們赫然發現一場浩大的流星雨將朝著地球而來，而目標便是他們居住的小鎮！湯姆試著警告小鎮鎮長，疏散鎮民到安全的地方，但鎮長卻不願公開此事，堅持要等小鎮的年度狂歡會結束後再說，問題是到時鎮上還會有人活著嗎？對「世界末日」與「彗星撞地球」的影迷而言，這是一齣不容錯過的災難電影！          科幻 </Description>
+            <ExtendedInfo name="導演:">朗昂德伍 </ExtendedInfo>
+            <ExtendedInfo name="演員:">羅珊娜哈特、湯姆伍派特、克里斯湯普森 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051125210000" duration="3600">
+        <EventId>22200007</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>蝙蝠俠 (普) </Name>
+            <Description>高譚市，罪惡的淵藪、犯罪者的天堂，雖有地檢署的丹特與警政署長高登努力掃蕩街頭，犯罪率卻居高不下，甚至有日益攀升的趨勢。由於童年時親眼目睹雙親被暴徒殺害，百萬富翁布魯斯韋恩（米高基頓）在長大成人後便化身正義使者--蝙蝠俠，運用高科技的各式精巧機關，在入夜的高譚市街頭掃蕩犯罪；然而，布魯斯的雙重身分在認識美麗的記者薇琪（金貝辛格，「夢憶非洲」）後，便面臨曝光的危險，但此時更令他擔憂的，是個綽號”小丑”的大壞蛋（傑克尼柯遜，「愛在心裡口難開」），小丑原本只是個黑幫打手，但由於意外掉進化學藥物中，造成全身灼傷，從此性情變得偏激而瀕於瘋狂，並因而殺掉自己的老闆取而代之，控制住高譚市的地下犯罪帝國，而蝙蝠俠正是阻礙他野心的最大障礙！布魯斯韋恩如今最大的難題，便是如何一面阻止心儀的薇琪發現他的祕密身分，另一方面還要設法破壞小丑控制整個高譚市的大陰謀…鬼才導演提姆波頓（「陰間大法師」、「剪刀手愛德華」、「星戰毀滅者」、「斷頭谷」）一向以詭異而充滿想像力的陰暗影像風格著稱影壇，本片是他第一次將漫畫英雄蝙蝠俠搬上大銀幕的作品，至今全球已有超過四億美金的票房，是一部極具娛樂價值的科幻動作強片。 </Description>
+            <ExtendedInfo name="導演:">提姆波頓 </ExtendedInfo>
+            <ExtendedInfo name="演員:">小勞勃道尼、查理葛洛汀 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>0</ParentalRating>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20051125220000" duration="3600">
+        <EventId>22200008</EventId>
+        <EventType>F</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>好萊塢威龍05:前進華盛頓 (護) </Name>
+            <Description>因為電影中的暴力情節被起訴，彼得千里迢迢到華盛頓上法庭作證，原本以為可以和解收場，彼得的言行卻惹毛了保守黨的參議員。 這位好萊塢的夢想家要如何重建正公眾形象，答案是：公益活動！ </Description>
+            <ExtendedInfo name="導演:">亞當柏恩斯坦、泰德丹米等 </ExtendedInfo>
+            <ExtendedInfo name="演員:">傑摩爾 </ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>6</ParentalRating>
+        </EpgProduction>
+      </Event>
+    </ChannelPeriod>
+  </ScheduleData>
+</BroadcastData>

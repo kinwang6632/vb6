@@ -1,0 +1,695 @@
+object frmCD078L: TfrmCD078L
+  Left = 418
+  Top = 250
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = #35373#23450#20998#25892#35519#25972#25976' [frmCD078L]'
+  ClientHeight = 391
+  ClientWidth = 607
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object TPanel
+    Left = 0
+    Top = 0
+    Width = 607
+    Height = 141
+    Align = alTop
+    TabOrder = 0
+    object lbl1: TLabel
+      Left = 10
+      Top = 16
+      Width = 48
+      Height = 14
+      Caption = #20027#26381#21209#21029
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      WordWrap = True
+    end
+    object lbl2: TLabel
+      Left = 227
+      Top = 16
+      Width = 24
+      Height = 14
+      Caption = #26376#25976
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      WordWrap = True
+    end
+    object lbl3: TLabel
+      Left = 307
+      Top = 16
+      Width = 72
+      Height = 14
+      Caption = #29694#37329#20998#25892#21547#31237
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      WordWrap = True
+    end
+    object lbl4: TLabel
+      Left = 458
+      Top = 16
+      Width = 72
+      Height = 14
+      Caption = #35469#21015#25910#20837#21512#35336
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      WordWrap = True
+    end
+    object lbl5: TLabel
+      Left = 18
+      Top = 42
+      Width = 40
+      Height = 14
+      Caption = 'CM'#37329#38989
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      WordWrap = True
+    end
+    object lbl6: TLabel
+      Left = 178
+      Top = 42
+      Width = 40
+      Height = 14
+      Caption = 'CM'#31237#38989
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      WordWrap = True
+    end
+    object lbl7: TLabel
+      Left = 305
+      Top = 42
+      Width = 76
+      Height = 14
+      Caption = 'CM'#20998#25892#35519#25972#25976
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      WordWrap = True
+    end
+    object lbl8: TLabel
+      Left = 10
+      Top = 68
+      Width = 48
+      Height = 14
+      Caption = 'DTV'#37329#38989
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      WordWrap = True
+    end
+    object lbl9: TLabel
+      Left = 171
+      Top = 68
+      Width = 48
+      Height = 14
+      Caption = 'DTV'#31237#38989
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      WordWrap = True
+    end
+    object lbl10: TLabel
+      Left = 297
+      Top = 68
+      Width = 84
+      Height = 14
+      Caption = 'DTV'#20998#25892#35519#25972#25976
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      WordWrap = True
+    end
+    object lbl11: TLabel
+      Left = 12
+      Top = 95
+      Width = 46
+      Height = 14
+      Caption = 'PRV'#37329#38989
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      WordWrap = True
+    end
+    object lbl12: TLabel
+      Left = 173
+      Top = 95
+      Width = 46
+      Height = 14
+      Caption = 'PRV'#31237#38989
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      WordWrap = True
+    end
+    object lbl13: TLabel
+      Left = 300
+      Top = 95
+      Width = 82
+      Height = 14
+      Caption = 'PRV'#20998#25892#35519#25972#25976
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      WordWrap = True
+    end
+    inline ServiceType: TDataLookup
+      Left = 65
+      Top = 12
+      Width = 162
+      Height = 23
+      HorzScrollBar.Visible = False
+      VertScrollBar.Visible = False
+      TabOrder = 0
+      inherited CodeNo: TcxTextEdit
+        Properties.CharCase = ecUpperCase
+        Properties.MaxLength = 1
+        Properties.OnChange = ServiceTypeCodeNoPropertiesChange
+        Width = 47
+      end
+      inherited CodeName: TcxLookupComboBox
+        Left = 48
+        Properties.OnChange = ServiceTypeCodeNamePropertiesChange
+        Properties.OnInitPopup = ServiceTypeCodeNamePropertiesInitPopup
+        Width = 110
+      end
+    end
+    object edtMonth: TcxMaskEdit
+      Left = 253
+      Top = 12
+      ParentFont = False
+      Properties.Alignment.Horz = taRightJustify
+      Properties.Alignment.Vert = taVCenter
+      Properties.MaskKind = emkRegExprEx
+      Properties.EditMask = '[0-9]|1[1-2]'
+      Properties.MaxLength = 0
+      Style.StyleController = StyleController.EditorStyle
+      TabOrder = 1
+      Width = 37
+    end
+    object edtCashAdj: TcxMaskEdit
+      Left = 383
+      Top = 12
+      ParentFont = False
+      Properties.Alignment.Horz = taRightJustify
+      Properties.Alignment.Vert = taVCenter
+      Properties.MaskKind = emkRegExprEx
+      Properties.EditMask = '\d{0,8}|-\d{0,8}'
+      Properties.MaxLength = 0
+      Style.StyleController = StyleController.EditorStyle
+      TabOrder = 2
+      Width = 67
+    end
+    object edtSubTotal: TcxMaskEdit
+      Left = 535
+      Top = 12
+      ParentFont = False
+      Properties.Alignment.Horz = taRightJustify
+      Properties.Alignment.Vert = taVCenter
+      Properties.MaskKind = emkRegExprEx
+      Properties.EditMask = '\d{0,8}|-\d{0,8}'
+      Properties.MaxLength = 0
+      Style.StyleController = StyleController.EditorStyle
+      TabOrder = 3
+      Width = 67
+    end
+    object edtCMAmt: TcxMaskEdit
+      Left = 65
+      Top = 39
+      ParentFont = False
+      Properties.Alignment.Horz = taRightJustify
+      Properties.Alignment.Vert = taVCenter
+      Properties.MaskKind = emkRegExprEx
+      Properties.EditMask = '\d{0,8}|-\d{0,8}'
+      Properties.MaxLength = 0
+      Style.StyleController = StyleController.EditorStyle
+      TabOrder = 4
+      Width = 104
+    end
+    object edtCMTax: TcxMaskEdit
+      Left = 221
+      Top = 39
+      ParentFont = False
+      Properties.Alignment.Horz = taRightJustify
+      Properties.Alignment.Vert = taVCenter
+      Properties.MaskKind = emkRegExprEx
+      Properties.EditMask = '\d{0,8}|-\d{0,8}'
+      Properties.MaxLength = 0
+      Style.StyleController = StyleController.EditorStyle
+      TabOrder = 5
+      Width = 67
+    end
+    object edtCMAdj: TcxMaskEdit
+      Left = 383
+      Top = 39
+      ParentFont = False
+      Properties.Alignment.Horz = taRightJustify
+      Properties.Alignment.Vert = taVCenter
+      Properties.MaskKind = emkRegExprEx
+      Properties.EditMask = '\d{0,8}|-\d{0,8}'
+      Properties.MaxLength = 0
+      Style.StyleController = StyleController.EditorStyle
+      TabOrder = 6
+      Width = 67
+    end
+    object edtDTVAmt: TcxMaskEdit
+      Left = 65
+      Top = 66
+      ParentFont = False
+      Properties.Alignment.Horz = taRightJustify
+      Properties.Alignment.Vert = taVCenter
+      Properties.MaskKind = emkRegExprEx
+      Properties.EditMask = '\d{0,8}|-\d{0,8}'
+      Properties.MaxLength = 0
+      Style.StyleController = StyleController.EditorStyle
+      TabOrder = 7
+      Width = 104
+    end
+    object edtDTVTax: TcxMaskEdit
+      Left = 221
+      Top = 66
+      ParentFont = False
+      Properties.Alignment.Horz = taRightJustify
+      Properties.Alignment.Vert = taVCenter
+      Properties.MaskKind = emkRegExprEx
+      Properties.EditMask = '\d{0,8}|-\d{0,8}'
+      Properties.MaxLength = 0
+      Style.StyleController = StyleController.EditorStyle
+      TabOrder = 8
+      Width = 67
+    end
+    object edtDTVAdj: TcxMaskEdit
+      Left = 383
+      Top = 66
+      ParentFont = False
+      Properties.Alignment.Horz = taRightJustify
+      Properties.Alignment.Vert = taVCenter
+      Properties.MaskKind = emkRegExprEx
+      Properties.EditMask = '\d{0,8}|-\d{0,8}'
+      Properties.MaxLength = 0
+      Style.StyleController = StyleController.EditorStyle
+      TabOrder = 9
+      Width = 67
+    end
+    object edtPRVAmt: TcxMaskEdit
+      Left = 65
+      Top = 92
+      ParentFont = False
+      Properties.Alignment.Horz = taRightJustify
+      Properties.Alignment.Vert = taVCenter
+      Properties.MaskKind = emkRegExprEx
+      Properties.EditMask = '\d{0,8}|-\d{0,8}'
+      Properties.MaxLength = 0
+      Style.StyleController = StyleController.EditorStyle
+      TabOrder = 10
+      Width = 104
+    end
+    object edtPRVTax: TcxMaskEdit
+      Left = 221
+      Top = 92
+      ParentFont = False
+      Properties.Alignment.Horz = taRightJustify
+      Properties.Alignment.Vert = taVCenter
+      Properties.MaskKind = emkRegExprEx
+      Properties.EditMask = '\d{0,8}|-\d{0,8}'
+      Properties.MaxLength = 0
+      Style.StyleController = StyleController.EditorStyle
+      TabOrder = 11
+      Width = 67
+    end
+    object chkStopFlag: TcxCheckBox
+      Tag = 1
+      Left = 62
+      Top = 116
+      Caption = #20572#29992
+      Properties.NullStyle = nssUnchecked
+      Properties.ReadOnly = False
+      Style.StyleController = StyleController.CheckBoxStyle
+      TabOrder = 13
+      Width = 74
+    end
+    object edtPRVAdj: TcxMaskEdit
+      Left = 383
+      Top = 92
+      ParentFont = False
+      Properties.Alignment.Horz = taRightJustify
+      Properties.Alignment.Vert = taVCenter
+      Properties.MaskKind = emkRegExprEx
+      Properties.EditMask = '\d{0,8}|-\d{0,8}'
+      Properties.MaxLength = 0
+      Style.StyleController = StyleController.EditorStyle
+      TabOrder = 12
+      Width = 67
+    end
+  end
+  object pnl2: TPanel
+    Left = 0
+    Top = 141
+    Width = 607
+    Height = 205
+    Align = alClient
+    TabOrder = 1
+    object CD078LGrid: TcxGrid
+      Left = 1
+      Top = 1
+      Width = 605
+      Height = 203
+      Align = alClient
+      TabOrder = 0
+      LookAndFeel.Kind = lfFlat
+      object CD078LBandedTableView: TcxGridDBBandedTableView
+        NavigatorButtons.ConfirmDelete = False
+        DataController.DataSource = dsCD078L
+        DataController.Summary.DefaultGroupSummaryItems = <>
+        DataController.Summary.FooterSummaryItems = <>
+        DataController.Summary.SummaryGroups = <>
+        OptionsBehavior.GoToNextCellOnEnter = True
+        OptionsCustomize.ColumnFiltering = False
+        OptionsData.CancelOnExit = False
+        OptionsData.Deleting = False
+        OptionsData.DeletingConfirmation = False
+        OptionsData.Editing = False
+        OptionsData.Inserting = False
+        OptionsSelection.CellSelect = False
+        OptionsSelection.HideFocusRectOnExit = False
+        OptionsView.CellEndEllipsis = True
+        OptionsView.ShowEditButtons = gsebAlways
+        OptionsView.GroupByBox = False
+        OptionsView.HeaderAutoHeight = True
+        OptionsView.HeaderEndEllipsis = True
+        OptionsView.Indicator = True
+        OptionsView.BandHeaders = False
+        Styles.Content = StyleController.GridBackgroundStyle
+        Styles.Header = StyleController.HeaderStyle
+        Bands = <
+          item
+            Width = 1000
+          end>
+        object cxGridDBBandedColumn1: TcxGridDBBandedColumn
+          Caption = #26376#25976
+          DataBinding.FieldName = 'MONTH'
+          PropertiesClassName = 'TcxTextEditProperties'
+          Properties.Alignment.Horz = taCenter
+          Properties.Alignment.Vert = taVCenter
+          HeaderAlignmentHorz = taCenter
+          HeaderAlignmentVert = vaCenter
+          Width = 55
+          Position.BandIndex = 0
+          Position.ColIndex = 0
+          Position.RowIndex = 0
+        end
+        object cxGridDBBandedColumn2: TcxGridDBBandedColumn
+          Caption = #20027#26381#21209#21029
+          DataBinding.FieldName = 'MASTERSERVICETYPE'
+          PropertiesClassName = 'TcxTextEditProperties'
+          Properties.Alignment.Horz = taCenter
+          Properties.Alignment.Vert = taVCenter
+          HeaderAlignmentHorz = taCenter
+          HeaderAlignmentVert = vaCenter
+          Width = 59
+          Position.BandIndex = 0
+          Position.ColIndex = 1
+          Position.RowIndex = 0
+        end
+        object cxGridDBBandedColumn3: TcxGridDBBandedColumn
+          Caption = #29694#37329#20998#25892#21547#31237
+          DataBinding.FieldName = 'CASHADJ'
+          HeaderAlignmentHorz = taCenter
+          HeaderAlignmentVert = vaCenter
+          Width = 84
+          Position.BandIndex = 0
+          Position.ColIndex = 2
+          Position.RowIndex = 0
+        end
+        object cxGridDBBandedColumn4: TcxGridDBBandedColumn
+          Caption = #35469#21015#25910#20837#21512#35336
+          DataBinding.FieldName = 'SUBTOTAL'
+          HeaderAlignmentHorz = taCenter
+          HeaderAlignmentVert = vaCenter
+          Width = 82
+          Position.BandIndex = 0
+          Position.ColIndex = 3
+          Position.RowIndex = 0
+        end
+        object cxGridDBBandedColumn5: TcxGridDBBandedColumn
+          Caption = 'CM'#30340#37329#38989
+          DataBinding.FieldName = 'CMAMT'
+          HeaderAlignmentHorz = taCenter
+          HeaderAlignmentVert = vaCenter
+          Width = 58
+          Position.BandIndex = 0
+          Position.ColIndex = 4
+          Position.RowIndex = 0
+        end
+        object cxGridDBBandedColumn6: TcxGridDBBandedColumn
+          Caption = 'CM'#31237#38989
+          DataBinding.FieldName = 'CMTAX'
+          HeaderAlignmentHorz = taCenter
+          HeaderAlignmentVert = vaCenter
+          Width = 51
+          Position.BandIndex = 0
+          Position.ColIndex = 5
+          Position.RowIndex = 0
+        end
+        object cxGridDBBandedColumn7: TcxGridDBBandedColumn
+          Caption = 'DTV'#37329#38989
+          DataBinding.FieldName = 'DTVAMT'
+          HeaderAlignmentHorz = taCenter
+          HeaderAlignmentVert = vaCenter
+          Width = 75
+          Position.BandIndex = 0
+          Position.ColIndex = 7
+          Position.RowIndex = 0
+        end
+        object cxGridDBBandedColumn8: TcxGridDBBandedColumn
+          Caption = 'CM'#20998#25892#35519#25972#25976
+          DataBinding.FieldName = 'CMADJ'
+          HeaderAlignmentHorz = taCenter
+          HeaderAlignmentVert = vaCenter
+          Width = 89
+          Position.BandIndex = 0
+          Position.ColIndex = 6
+          Position.RowIndex = 0
+        end
+        object cxGridDBBandedColumn9: TcxGridDBBandedColumn
+          Caption = 'DTV'#31237#38989
+          DataBinding.FieldName = 'DTVTAX'
+          HeaderAlignmentHorz = taCenter
+          HeaderAlignmentVert = vaCenter
+          Width = 74
+          Position.BandIndex = 0
+          Position.ColIndex = 8
+          Position.RowIndex = 0
+        end
+        object cxGridDBBandedColumn10: TcxGridDBBandedColumn
+          Caption = 'DTV'#20998#25892#35519#25972#25976
+          DataBinding.FieldName = 'DTVADJ'
+          HeaderAlignmentHorz = taCenter
+          HeaderAlignmentVert = vaCenter
+          Width = 96
+          Position.BandIndex = 0
+          Position.ColIndex = 9
+          Position.RowIndex = 0
+        end
+        object cxGridDBBandedColumn11: TcxGridDBBandedColumn
+          Caption = 'PRV'#37329#38989
+          DataBinding.FieldName = 'PRVAMT'
+          HeaderAlignmentHorz = taCenter
+          HeaderAlignmentVert = vaCenter
+          Width = 70
+          Position.BandIndex = 0
+          Position.ColIndex = 10
+          Position.RowIndex = 0
+        end
+        object cxGridDBBandedColumn12: TcxGridDBBandedColumn
+          Caption = 'PRV'#30340#31237#38989
+          DataBinding.FieldName = 'PRVTAX'
+          HeaderAlignmentHorz = taCenter
+          HeaderAlignmentVert = vaCenter
+          Width = 67
+          Position.BandIndex = 0
+          Position.ColIndex = 11
+          Position.RowIndex = 0
+        end
+        object cxGridDBBandedColumn13: TcxGridDBBandedColumn
+          Caption = 'PRV'#20998#25892#35519#25972#25976
+          DataBinding.FieldName = 'PRVADJ'
+          HeaderAlignmentHorz = taCenter
+          HeaderAlignmentVert = vaCenter
+          Width = 88
+          Position.BandIndex = 0
+          Position.ColIndex = 12
+          Position.RowIndex = 0
+        end
+        object cxGridDBBandedColumn14: TcxGridDBBandedColumn
+          Caption = #20572#29992
+          DataBinding.FieldName = 'STOPFLAG'
+          PropertiesClassName = 'TcxCheckBoxProperties'
+          Properties.Alignment = taCenter
+          Properties.NullStyle = nssUnchecked
+          Properties.ValueChecked = 1
+          Properties.ValueUnchecked = 0
+          HeaderAlignmentHorz = taCenter
+          HeaderAlignmentVert = vaCenter
+          Width = 52
+          Position.BandIndex = 0
+          Position.ColIndex = 13
+          Position.RowIndex = 0
+        end
+      end
+      object cxGridLevel2: TcxGridLevel
+        GridView = CD078LBandedTableView
+      end
+    end
+  end
+  object pnl3: TPanel
+    Left = 0
+    Top = 346
+    Width = 607
+    Height = 45
+    Align = alBottom
+    TabOrder = 2
+    object btnUpdate: TButton
+      Left = 74
+      Top = 11
+      Width = 69
+      Height = 26
+      Caption = 'F11.'#20462#25913
+      TabOrder = 1
+      OnClick = btnUpdateClick
+    end
+    object btnSave: TButton
+      Left = 145
+      Top = 11
+      Width = 69
+      Height = 26
+      Caption = 'F2.'#23384#27284
+      TabOrder = 2
+      OnClick = btnSaveClick
+    end
+    object btnInsert: TButton
+      Left = 7
+      Top = 11
+      Width = 65
+      Height = 26
+      Caption = 'F6.'#26032#22686
+      TabOrder = 0
+      OnClick = btnInsertClick
+    end
+    object btnCancel: TButton
+      Left = 529
+      Top = 9
+      Width = 69
+      Height = 26
+      Cancel = True
+      Caption = #21462#28040'(&X)'
+      TabOrder = 4
+      OnClick = btnCancelClick
+    end
+    object btnDelete: TButton
+      Left = 215
+      Top = 11
+      Width = 69
+      Height = 26
+      Caption = 'F4.'#21034#38500
+      TabOrder = 3
+      Visible = False
+      OnClick = btnDeleteClick
+    end
+  end
+  object CD078LDataSetSource: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    AfterScroll = CD078LDataSetSourceAfterScroll
+    Left = 128
+    Top = 216
+  end
+  object dsCD078L: TDataSource
+    DataSet = CD078LDataSetSource
+    Left = 162
+    Top = 220
+  end
+  object ActionList1: TActionList
+    Left = 98
+    Top = 216
+    object actSave: TAction
+      Caption = 'F2.'#23384#27284
+      ShortCut = 113
+      OnExecute = actSaveExecute
+    end
+    object actCancel: TAction
+      Caption = #21462#28040'(&X)'
+      ShortCut = 32856
+      OnExecute = actCancelExecute
+    end
+    object actUpdate: TAction
+      Caption = 'F11.'#20462#25913
+      ShortCut = 122
+      OnExecute = actUpdateExecute
+    end
+    object actInsert: TAction
+      Caption = 'F6.'#26032#22686
+      ShortCut = 117
+      OnExecute = actInsertExecute
+    end
+    object actDelete: TAction
+      Caption = 'F4.'#21034#38500
+      ShortCut = 115
+      OnExecute = actDeleteExecute
+    end
+  end
+end

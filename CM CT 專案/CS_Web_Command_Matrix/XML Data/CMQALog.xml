@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataSet xmlns="http://tempuri.org/CMWebServiceGW/EMCWebServiceGW">
+  <xs:schema id="CMQALogDS" targetNamespace="http://tempuri.org/CMQALogDS.xsd" xmlns:mstns="http://tempuri.org/CMQALogDS.xsd" xmlns="http://tempuri.org/CMQALogDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+    <xs:element name="CMQALogDS" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="CMQALogDT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="QueryResult" type="xs:string" minOccurs="0" />
+                <xs:element name="FaultReason" type="xs:string" minOccurs="0" />
+                <xs:element name="DetectTime" type="xs:string" minOccurs="0" />
+                <xs:element name="CMTSRECPW" type="xs:string" minOccurs="0" />
+                <xs:element name="CMTSRXSNR" type="xs:string" minOccurs="0" />
+                <xs:element name="CMRECPW" type="xs:string" minOccurs="0" />
+                <xs:element name="CMTRANSPW" type="xs:string" minOccurs="0" />
+                <xs:element name="CMSNR" type="xs:string" minOccurs="0" />
+                <xs:element name="CMInOctets" type="xs:string" minOccurs="0" />
+                <xs:element name="CMOutOctets" type="xs:string" minOccurs="0" />
+                <xs:element name="CMInErrors" type="xs:string" minOccurs="0" />
+                <xs:element name="CMOutErrors" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+    <CMQALogDS xmlns="http://tempuri.org/CMQALogDS.xsd">
+      <CMQALogDT diffgr:id="CMQALogDT1" msdata:rowOrder="0">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-06-10 10:00:00</DetectTime>
+        <CMTSRECPW>-0.5 dBmv</CMTSRECPW>
+        <CMTSRXSNR>-13 dB</CMTSRXSNR>
+        <CMRECPW>-6.8 dBmv</CMRECPW>
+        <CMTRANSPW>36.7 dBmv</CMTRANSPW>
+        <CMSNR>32 dB</CMSNR>
+        <CMInOctets>4167854438 Bytes</CMInOctets>
+        <CMOutOctets>924936436 Bytes</CMOutOctets>
+        <CMInErrors>0 Packets</CMInErrors>
+        <CMOutErrors>0 Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT2" msdata:rowOrder="1">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-06-10 10:05:00</DetectTime>
+        <CMTSRECPW>-0.5 dBmv</CMTSRECPW>
+        <CMTSRXSNR>-13 dB</CMTSRXSNR>
+        <CMRECPW>-6.8 dBmv</CMRECPW>
+        <CMTRANSPW>36.7 dBmv</CMTRANSPW>
+        <CMSNR>32 dB</CMSNR>
+        <CMInOctets>4167854438 Bytes</CMInOctets>
+        <CMOutOctets>924936436 Bytes</CMOutOctets>
+        <CMInErrors>0 Packets</CMInErrors>
+        <CMOutErrors>0 Packets</CMOutErrors>
+      </CMQALogDT>
+      <CMQALogDT diffgr:id="CMQALogDT3" msdata:rowOrder="2">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <DetectTime>2005-06-10 10:10:00</DetectTime>
+        <CMTSRECPW>-0.5 dBmv</CMTSRECPW>
+        <CMTSRXSNR>-13 dB</CMTSRXSNR>
+        <CMRECPW>-6.8 dBmv</CMRECPW>
+        <CMTRANSPW>36.7 dBmv</CMTRANSPW>
+        <CMSNR>32 dB</CMSNR>
+        <CMInOctets>4167854438 Bytes</CMInOctets>
+        <CMOutOctets>924936436 Bytes</CMOutOctets>
+        <CMInErrors>0 Packets</CMInErrors>
+        <CMOutErrors>0 Packets</CMOutErrors>
+      </CMQALogDT>
+    </CMQALogDS>
+  </diffgr:diffgram>
+</DataSet>

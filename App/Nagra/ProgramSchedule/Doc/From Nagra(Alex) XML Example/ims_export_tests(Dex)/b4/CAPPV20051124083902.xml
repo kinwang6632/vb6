@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ProductManagementData SYSTEM "ProductManagementData.dtd">
+<ProductManagementData creationDate="20051124083902">
+<ProviderInfo>
+<ProviderId>IMS Nagra</ProviderId>
+<ProviderName>IMS Nagravision S.A.</ProviderName>
+<DtdVersion>1.1.1</DtdVersion>
+</ProviderInfo>
+<ProductChangeNotification>
+
+<ProductData>
+<Product>
+<ProductId>18678</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>閻王索命</ProductName>
+<ProductDescription>閻王索命</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051121030000" endTime="20051126040000"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051125000000" endTime="20051128000000"/>
+<Event beginTime="20051126030000" duration="3600">
+<EventId>L00000034175</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>閻王索命</Name>
+<Description>西元2002年，自殺在美國成為合法行為，卻因而產生了難以預料的後果，吉姆（艾瑞克羅勃茲，「莫名殺機」）為了替瀕死的兒子籌措手術費，而將自己的身體賣給一家仲介”多餘器官”的大公司；然而吉姆的兒子並未逃過死神召喚，而買下他身體的器官仲介公司又拒絕讓他退還訂金，痛失愛子的吉姆只得展開逃亡生涯，以躲避該公司派出的殺手追蹤；但吉姆很快便發現若想保住小命，唯一的方法便是從問題的源頭著手：找上該公司的總裁！本片導演是紐西蘭籍的傑夫墨菲，他另外的作品包括「少壯屠龍陣2」、「魔鬼戰將2」、「奪命12小時」等。</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>Race Against Time</Name>
+<Description>
+In 2002, the United States legalizes suicide.  The consequences are unforseen.  Jim Gabriel (Roberts-No Alibi ) sells his body to a powerful organization called Lifecorps that buys people for their ‘spare parts’.  He needs to raise money to pay for the surgery that his dying son needs.  But when his son dies anyway, Lifecorps is not about to give refunds.  They want him bad.  His only option is to run and elude the trackers that have been sent from him.  But soon he realizes that to truly escape, he has to go for the source of his problems: the CEO of Lifecorps.</Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="6" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>503</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>18680</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>戰慄之旅</ProductName>
+<ProductDescription>戰慄之旅</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051121050000" endTime="20051126060001"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051125000000" endTime="20051128000000"/>
+<Event beginTime="20051126050000" duration="3601">
+<EventId>L00000034179</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>戰慄之旅</Name>
+<Description>來自不同地方的七個人，為了不同的目的，各路人馬不約而同的在一家餐館休憩：有進來喝杯咖啡的寂寞卡車司機（勞勃佛斯特）、陪瀕死祖母做最後旅程的印第安婦女、被解雇的馬戲團小丑（凱文波拉克）和他的脫衣舞孃女友（潘妮洛普安米勒）、以及趕去參加父親喪禮的姊妹花；這七個人收聽著同一個音樂頻道，前往一樣的目的地，並成為同一個連續殺人狂的下一個目標…</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>Outside Ozona</Name>
+<Description>A group of people unite over the airwaves as they drive down lonesome highways into an uncertain future outside Ozona, Texas.  There’s the irritated disc jockey (Taj Mahal) who is determined to share his angst with the world in general and the station manager (Meat Loaf) who would rather he didn’t.  There’s the abusive, unemployed circus clown and his sexy white-trash girlfriend fleeing the scene of his latest act of rage.  Then there’s the shy and lonely trucker who helps a stranded Navajo lady and her grandmother in an act of kindness and affection.  As these unusual people follow they own destinies, they are, unknown to them, speeding towards a place where they worlds will collide.</Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="1" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>503</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+<Product>
+<ProductId>18681</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>魔鬼獵殺</ProductName>
+<ProductDescription>魔鬼獵殺</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051121060001" endTime="20051126070001"/>
+<ProductCategory>3</ProductCategory>
+<EpgPrice moneyUnit="TWD">50</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20051125000000" endTime="20051128000000"/>
+<Event beginTime="20051126060001" duration="3600">
+<EventId>L00000034181</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>魔鬼獵殺</Name>
+<Description>仍尚未自喪子之慟中恢復的刑事組警官巴恩斯（史蒂芬鮑德溫，「刺激驚爆點」）奉命追查一樁詭異的連續殺人案，當他慢慢克服驟失獨子的悲劇之時，另一方面卻日漸沈迷於追查該宗神祕案件，然而此舉卻危害到他早已亮起紅燈的婚姻；當兇手的動機逐漸明朗之際，巴恩斯發現自己的生活也日漸分崩離析，他不只被迫質疑自己的信仰和原則，最後還必須和身邊潛藏的邪惡正面衝突！</Description>
+</EpgText>
+<EpgText language="eng">
+<Name>Absence Of The Good</Name>
+<Description>Homicide detective Caleb Barnes (Baldwin, The Usual Suspects) is brought in to investigate a series of bizarre murders.  Still wracked by the death of his only child, Barnes becomes increasingly obsessed with the case at the same time as he is trying to come to terms with his own personal tragedy.  He does this at the cost of his marriage, which is already strained to begin with.  As the killing spree intensifies, Barnes finds his life disintegrating around him and he is forced to question his own principles and beliefs as well as come face to face with the evil that surrounds him.</Description>
+</EpgText>
+<ParentalRating>3</ParentalRating>
+<DvbContent>
+<Content nibble1="1" nibble2="0"/>
+<User nibble1="0" nibble2="0"/>
+</DvbContent>
+<ChannelNumber>503</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+</ProductData>
+</ProductChangeNotification>
+</ProductManagementData>

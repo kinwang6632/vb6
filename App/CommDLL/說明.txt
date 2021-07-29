@@ -1,0 +1,2 @@
+加解密元件
+prjEditIni(加密Ini檔) 

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BroadcastData SYSTEM "BroadcastData.dtd">
+<BroadcastData creationDate="20051124092305">
+  <ProviderInfo>
+    <ProviderId>Nagra</ProviderId>
+    <ProviderName>Nagravision S.A.</ProviderName>
+  </ProviderInfo>
+  <ScheduleData>
+    <ChannelPeriod beginTime="20051126020000" endTime="20051126080001">
+      <ChannelId>503</ChannelId>
+      <Event beginTime="20051126020000" duration="3600">
+        <EventId>L00000034579</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">004936AD014235605258BC991F4676DAC70F7134559DB1D9393AFBA8786D0889EADA4A37D28F51B4D3DFBE8AE87B001F055CDC310C284C7728374B574AE9B34CD3211107EA5C</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="29" pdsValue="9">007964F913880315004936138801656E67021A1AD1C40200000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="17" pdsValue="9">0001000000493613880300000160011A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="27" pdsValue="9">0001000000492B1F400300000160044D756C74694576656E742031</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="23" pdsValue="9">0001000000493613880000000003000001600100001A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="33" pdsValue="9">0001000000492B1F400000000003000001600400004D756C74694576656E742031</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>殺妻</Name>
+            <Description>布萊斯塔柏（柯賓班森，「愛情不設防」）拋下妻子，搬去跟情人蓋兒（萊絲莉安華倫，「對不起，駭到你」）同居，法院因此而拒絕讓他探視他的兩個孩子；他對法院的判決感到忿忿不平，並且急著想搶回孩子的監護權，於是布萊斯便夥同蓋兒計畫殺掉他老婆好將孩子搶回來，但為了要讓計畫成功，他們得再另外找人幫忙，於是他們便內舉不避親地找上了蓋兒的孩子！這部帶點荒謬情節的影片是根據真人真事所改編的。</Description>
+            <ExtendedInfo name="導演">葛雷哥萊古德爾</ExtendedInfo>
+            <ExtendedInfo name="演員">萊絲莉安華倫、柯賓班森</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Murderous Intent</Name>
+            <Description>Based on actual events, this taut psychological thriller examines the extent of the human will to get what it wants.  Brice Talbot (Bernsen-Two of Hearts) abandons his wife to move in with his lover Gayle (Warren-Delivering Milo), but this act causes the courts to deny him the right to be with his two children.  Desperate to regain custody and furious at the results, Brice and Gayle plot to regain control by getting rid of Brice’s wife.  But in order for their plan to succeed, they have to recruit others into their plans, in this case Gayle’s own children!</Description>
+            <ExtendedInfo name="導演">Barry Levinson</ExtendedInfo>
+            <ExtendedInfo name="演員">Robert DeNiro、Dustin Hoffman、Anne Heche、Woody Harrelson</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051126030000" duration="3600">
+        <EventId>L00000034175</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">0048F6AD0142379AA4AB87208A048B8FE9D1A8338B86D0970AA8AB6BCF5B2F4A7CB9BF04F52B83FF26CAE8E68DE51D6EAE4773BBFCEF39E02746F8AAEF4EC6D255B88BE77369</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">007977F9138803170048F6138801656E67041A1A1A1AD1C40300000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">000100000048F613880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="27" pdsValue="9">0001000000492B1F400300000160044D756C74694576656E742031</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">000100000048F613880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="33" pdsValue="9">0001000000492B1F400000000003000001600400004D756C74694576656E742031</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>閻王索命</Name>
+            <Description>西元2002年，自殺在美國成為合法行為，卻因而產生了難以預料的後果，吉姆（艾瑞克羅勃茲，「莫名殺機」）為了替瀕死的兒子籌措手術費，而將自己的身體賣給一家仲介”多餘器官”的大公司；然而吉姆的兒子並未逃過死神召喚，而買下他身體的器官仲介公司又拒絕讓他退還訂金，痛失愛子的吉姆只得展開逃亡生涯，以躲避該公司派出的殺手追蹤；但吉姆很快便發現若想保住小命，唯一的方法便是從問題的源頭著手：找上該公司的總裁！本片導演是紐西蘭籍的傑夫墨菲，他另外的作品包括「少壯屠龍陣2」、「魔鬼戰將2」、「奪命12小時」等。</Description>
+            <ExtendedInfo name="導演">傑夫墨菲</ExtendedInfo>
+            <ExtendedInfo name="演員">艾瑞克羅勃茲、凱瑞艾文斯、莎拉溫特</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Race Against Time</Name>
+            <Description>
+In 2002, the United States legalizes suicide.  The consequences are unforseen.  Jim Gabriel (Roberts-No Alibi ) sells his body to a powerful organization called Lifecorps that buys people for their ‘spare parts’.  He needs to raise money to pay for the surgery that his dying son needs.  But when his son dies anyway, Lifecorps is not about to give refunds.  They want him bad.  His only option is to run and elude the trackers that have been sent from him.  But soon he realizes that to truly escape, he has to go for the source of his problems: the CEO of Lifecorps.</Description>
+            <ExtendedInfo name="導演">Geoff Murphy</ExtendedInfo>
+            <ExtendedInfo name="演員">Eric Roberts、Cary Elwes</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="6" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051126040000" duration="3600">
+        <EventId>L00000034177</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">0048F7AD0142BEF9AE675CAA938E2C6BAA2DCF3472D983A161FB7DC69388C329AFAD31DB33AD96FD44DE9E076F6A01DC457DABB82E03C8B5969028CDEE5DE2D980F2E464C33F</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">007973F9138803170048F7138801656E67041A1A1A1AD1C40400000100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="27" pdsValue="9">0001000000492B1F400300000160044D756C74694576656E742031</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">000100000048F713880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="33" pdsValue="9">0001000000492B1F400000000003000001600400004D756C74694576656E742031</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">000100000048F713880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>頭號潛艦-改變後</Name>
+            <Description>這部感人的戰爭片是根據一段美國內戰時的史實所改編，曾榮獲2000年艾美獎最佳音效剪接。西元1864年南北戰爭期間，南卡羅萊納州的查爾士敦遭北軍重重包圍，水陸交通皆與外界隔絕；面對戰力明顯優越許多的敵軍，城裡的南軍為突破重圍，因而建造了配備魚雷的史上第一艘潛水艇”CSS杭利號”，雖然最後並未達成使命，但船上的八名軍官所表現的袍澤之情，以及大無畏的軍人情操卻令他們名留青史。由演技派演員艾蒙亞森特（「超時空戰警」）和唐納蘇德蘭（「太空大哥大」、「神鬼任務」）領銜主演。</Description>
+            <ExtendedInfo name="導演">約翰葛雷</ExtendedInfo>
+            <ExtendedInfo name="演員">艾蒙亞森特、唐納蘇德蘭</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>The Hunley-modifier</Name>
+            <Description>The incredible true story of Confederate efforts to develop a submersible boat during the American Civil War. The story opens in Charleston S.C. during the 1864 seize and naval blockade of that city by the Yankees. The Confederates were attempting to develop a submarine with a torpedo to be used as a weapon to break the blockade. This movie follows the bravery and determination of the eight-member crew in developing the manually propelled submarine and its deployment into battle.  An exceptional story of heroism in the face of adversity. </Description>
+            <ExtendedInfo name="導演">John Gray</ExtendedInfo>
+            <ExtendedInfo name="演員">Armand Assante、Donald Sutherland</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051126050000" duration="3601">
+        <EventId>L00000034179</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">0048F8AD0182C1A2B12C16286108149C1892F581FE8AEBBA30233F9CE1CF394F161BFBC7B2693C2DB1F115A943DF1C409F33C61EBA0451853E4E0CB10B94A337CFC7C0D2C61C</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">007976F9138803170048F8138801656E67041A1A1A1AD1C40500000100013C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">000100000048F813880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="27" pdsValue="9">0001000000492B1F400300000160044D756C74694576656E742031</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">000100000048F813880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="33" pdsValue="9">0001000000492B1F400000000003000001600400004D756C74694576656E742031</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>戰慄之旅</Name>
+            <Description>來自不同地方的七個人，為了不同的目的，各路人馬不約而同的在一家餐館休憩：有進來喝杯咖啡的寂寞卡車司機（勞勃佛斯特）、陪瀕死祖母做最後旅程的印第安婦女、被解雇的馬戲團小丑（凱文波拉克）和他的脫衣舞孃女友（潘妮洛普安米勒）、以及趕去參加父親喪禮的姊妹花；這七個人收聽著同一個音樂頻道，前往一樣的目的地，並成為同一個連續殺人狂的下一個目標…</Description>
+            <ExtendedInfo name="導演">JS卡多尼</ExtendedInfo>
+            <ExtendedInfo name="演員">麥德琳史道威、大衛卡拉定、尼克柯瑞</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Outside Ozona</Name>
+            <Description>A group of people unite over the airwaves as they drive down lonesome highways into an uncertain future outside Ozona, Texas.  There’s the irritated disc jockey (Taj Mahal) who is determined to share his angst with the world in general and the station manager (Meat Loaf) who would rather he didn’t.  There’s the abusive, unemployed circus clown and his sexy white-trash girlfriend fleeing the scene of his latest act of rage.  Then there’s the shy and lonely trucker who helps a stranded Navajo lady and her grandmother in an act of kindness and affection.  As these unusual people follow they own destinies, they are, unknown to them, speeding towards a place where they worlds will collide.</Description>
+            <ExtendedInfo name="導演">J.S. Cardone</ExtendedInfo>
+            <ExtendedInfo name="演員">Madeleine Stowe、David Carridine、Jsu Garcia</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051126060001" duration="3600">
+        <EventId>L00000034181</EventId>
+        <EventType>P</EventType>
+        <PrivateDescriptor tag="142" length="70" pdsValue="9">0048F9AD01826B99037B8818CB621FA812B964B7D36FC25376A4B9434BBC05D082C3FE70D48495AF80CF03470ABC2B2A7817A4BE31DC4A09A81D6A1C38794779858F70834C1A</PrivateDescriptor>
+        <PrivateDescriptor tag="135" length="31" pdsValue="9">007975F9138803170048F9138801656E67041A1A1A1AD1C40600010100003C</PrivateDescriptor>
+        <PrivateDescriptor tag="134" length="6" pdsValue="9">AD0106D310FC</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="19" pdsValue="9">000100000048F913880300000160011A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="164" length="27" pdsValue="9">0001000000492B1F400300000160044D756C74694576656E742031</PrivateDescriptor>
+        <PrivateDescriptor tag="166" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="0" length="1" pdsValue="9">00</PrivateDescriptor>
+        <PrivateDescriptor tag="0" length="0" pdsValue="9"/>
+        <PrivateDescriptor tag="165" length="25" pdsValue="9">000100000048F913880000000003000001600100001A1A1A1A</PrivateDescriptor>
+        <PrivateDescriptor tag="165" length="33" pdsValue="9">0001000000492B1F400000000003000001600400004D756C74694576656E742031</PrivateDescriptor>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>魔鬼獵殺</Name>
+            <Description>仍尚未自喪子之慟中恢復的刑事組警官巴恩斯（史蒂芬鮑德溫，「刺激驚爆點」）奉命追查一樁詭異的連續殺人案，當他慢慢克服驟失獨子的悲劇之時，另一方面卻日漸沈迷於追查該宗神祕案件，然而此舉卻危害到他早已亮起紅燈的婚姻；當兇手的動機逐漸明朗之際，巴恩斯發現自己的生活也日漸分崩離析，他不只被迫質疑自己的信仰和原則，最後還必須和身邊潛藏的邪惡正面衝突！</Description>
+            <ExtendedInfo name="導演">約翰弗林</ExtendedInfo>
+            <ExtendedInfo name="演員">史蒂芬鮑德溫、法蘭克吉瑞許、泰恩黛莉</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Absence Of The Good</Name>
+            <Description>Homicide detective Caleb Barnes (Baldwin, The Usual Suspects) is brought in to investigate a series of bizarre murders.  Still wracked by the death of his only child, Barnes becomes increasingly obsessed with the case at the same time as he is trying to come to terms with his own personal tragedy.  He does this at the cost of his marriage, which is already strained to begin with.  As the killing spree intensifies, Barnes finds his life disintegrating around him and he is forced to question his own principles and beliefs as well as come face to face with the evil that surrounds him.</Description>
+            <ExtendedInfo name="導演">John Flynn</ExtendedInfo>
+            <ExtendedInfo name="演員">Stephen Baldwin、Tyne Daly</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+        <SingleEventProduct>
+          <EpgPrice moneyUnit="TWD">50.00</EpgPrice>
+        </SingleEventProduct>
+      </Event>
+      <Event beginTime="20051126070001" duration="3600">
+        <EventId>L00000034183</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>奪命黑寡婦</Name>
+            <Description>曾有&quot;迷你影集之后&quot;雅稱的賈桂琳史密斯在本片中飾演布莉姬，一位為家庭盡心盡力的妻子、社區的楷模，但實際上卻是個為保有優渥的生活而不計一切代價的蛇蠍女子—即使必須殺人亦在所不惜。新寡的布莉姬嫁給曾結過一次婚的高中棒球教練朗恩（提摩西卡哈特）為妻，他們在新婚期間有如一對神仙眷屬：布莉姬在當地電視台當行銷經理，並掌管兩人財務上的投資極各項貸款，不久後夫妻倆便搬進豪宅，過著優裕的生活；然而當朗恩發現他們債台高築時事情就全走了樣，而為了急於拿到現金，布莉姬設計&quot;意外&quot;開槍射死朗恩好領取他的保險金，但朗恩的前妻與其好友瓊安（黛安娜史卡威）卻查出布莉姬的前夫也是死於跟朗恩類似的&quot;意外&quot;…這部影片是改編自傑瑞布雷索（Jerry Bledsoe）根據真實事件所寫成的暢銷小說。</Description>
+            <ExtendedInfo name="導演">麥可史考特</ExtendedInfo>
+            <ExtendedInfo name="演員">賈桂琳史密斯、黛安娜史卡威、提摩西卡哈特</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Before He Wakes</Name>
+            <Description>The one-time Queen of TV Mini-Series, Jaclyn Smith plays Bridgette, an outwardly devoted wife and pillar of community, who secretly, will do anything - including murder - to maintain the facade of a wealthy lifestyle. A recent widow, Bridgette marries Ron Michaels (Timothy Carhart), a divorcee who works as the high school basketball coach. For the ensuing months, it is a marriage made in heaven: Bridgette works as a sales executive at the local TV station, refinancing their loans and investing their money.  In no time, the Michaels move into a larger luxurious home.  However, things start to go wrong when Ron discovers that they are seriously in debt.  Desperate for cash, Bridgette kills Ron for his hefty insurance policy. Just when you think Bridgette can get away scot-free, Ron’s ex-wife and good friend Joanne (Scarwid) tries to convince the cops with vital information that proves that Ron’s death, like the death of Bridgette’s first husband, was </Description>
+            <ExtendedInfo name="導演">Michael Scott</ExtendedInfo>
+            <ExtendedInfo name="演員">Jaclyn Smith、Diana Scarwid</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+    </ChannelPeriod>
+  </ScheduleData>
+</BroadcastData>

@@ -1,0 +1,1673 @@
+
+<!DOCTYPE html public "-//w3c//dtd html 3.2 transitional//en.us">
+<HTML lang="en.us">
+<HEAD>
+
+<META NAME="Generator" CONTENT="Quadralay WebWorks Publisher 5.0.4">
+<META NAME="Page" CONTENT="DefaultSingle">
+<META NAME="Title" CONTENT=" Using the Oracle Universal Installer">
+
+
+<TITLE> Using the Oracle Universal Installer</TITLE>
+	   
+
+<LINK REL="toc" HREF="toc.htm" TITLE="Contents">
+<LINK REL="index" HREF="index.htm" TITLE="Index">
+<LINK REL="copyright" HREF="cpyr.htm" TITLE="Copyright">
+<LINK REL="up" HREF="toc.htm" TITLE="Up">
+<LINK REL="next" HREF="moh.htm" TITLE="Next">
+<LINK REL="previous" HREF="preface.htm" TITLE="Previous">
+
+
+</HEAD>
+       
+<BODY BGCOLOR="#ffffff">
+
+<A NAME="top"></A>
+
+
+
+
+<A HREF="#BEGIN">Skip Headers</A><BR><BR>
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+<TR>
+
+ 
+<TD ALIGN="LEFT" VALIGN="TOP"><FONT COLOR="#330099" FACE="Helvetica, Arial, sans-serif"><STRONG>Oracle Universal Installer Concepts Guide<BR>Release 2.2</STRONG><BR>Part Number A96697-01</FONT></TD>
+<TD VALIGN="BOTTOM" ALIGN="RIGHT" WIDTH="144">
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+<TR>
+
+
+
+
+
+
+
+
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"></TD>
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"></TD>
+
+
+
+
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"><A HREF="toc.htm"><IMG SRC="./conticon.gif" ALT="Go To Table Of Contents" BORDER="0" HEIGHT="30"
+WIDTH="30"><BR>
+<FONT SIZE="-2">Contents</FONT></A></TD>
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"><A HREF="index.htm"><IMG SRC="./indxicon.gif" ALT="Go To Index" BORDER="0" HEIGHT="30"
+WIDTH="30"><BR>
+<FONT SIZE="-2">Index</FONT></A></TD>
+
+</TR>
+</TABLE>
+</TD>
+</TR>
+</TABLE>
+<HR>
+<P>
+<A HREF="preface.htm"><IMG SRC="./larrow.gif" ALT="Go to previous page" BORDER="0" HEIGHT="30" WIDTH="30"></A>
+
+<A HREF="moh.htm"><IMG SRC="./rarrow.gif" ALT="Go to next page" BORDER="0" HEIGHT="30" WIDTH="30"></A>
+    
+
+
+<A NAME="BEGIN"></A>
+
+
+
+<DIV CLASS="IND">
+<!-- End Header -->
+
+
+
+
+
+
+
+<A NAME="435690"></A>
+<!--TOC=Title-"435690"-->
+<H1 CLASS="Title"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099">1<BR> Using the Oracle Universal Installer</FONT></H1>
+
+<!--/TOC=Title-->
+<A NAME="434061"></A>
+<P CLASS="BP">
+Oracle Universal Installer is a Java application that can handle complex requirements. Oracle Universal Installer performs component-based installations and enables different levels of integrated bundle, suite, and Web-based installations, as well as complex logic in a single package. The installation engine is easily portable across all Java-enabled platforms, and platform-specific issues can be encapsulated from the overall installation process.
+</P>
+<A NAME="432810"></A>
+<P CLASS="BP">
+The Oracle Universal Installer provides the following capabilities for addressing software management and distribution:
+</P>
+
+<UL CLASS="LB1">
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="432811"></A>Automatic dependency resolution and complex logic handling
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="432812"></A>Installation from the Web
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="432813"></A>Component and suite installs
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="432814"></A>Implicit de-install
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="432815"></A>Support for multiple Oracle homes
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="432817"></A>National Language Support (NLS)/globalization support
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="432819"></A>Support for distributed installations
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="432820"></A>Unattended "silent" installations using response files
+<P>
+  
+<A NAME="436334">
+<DIV ALIGN="CENTER">
+<P>
+<TABLE CLASS="Note" BORDER="0" WIDTH="80%" CELLPADDING="0" CELLSPACING="0" dir="ltr" summary="This is a layout table to format a note" title="This is a layout table to format a note">
+<TR CLASS="Note"><TD CLASS="Note">
+<HR>
+<A NAME="436329"></A><FONT FACE="Arial, Helvetica, sans-serif"><STRONG CLASS="NH">Note:</STRONG></FONT>
+
+<A NAME="436330"></A>
+<P CLASS="NB">
+Although the Oracle Universal Installer can list all products previously installed with another Installer (such as orainst), it cannot deinstall them. 
+<HR>
+</TD>
+</TR>
+
+
+</TABLE>
+
+
+</DIV>
+</A>
+  </UL>
+
+<A NAME="444898"></A>
+<!--TOC=h1-"444898"-->
+<H2 CLASS="H1"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> New Features for Release 2.2</FONT></H2>
+
+
+<!--/TOC=h1-->
+<A NAME="445715"></A>
+<P CLASS="BP">
+Oracle Universal Installer Release 2.2 offers the following new features:
+</P>
+
+<UL CLASS="LB1">
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="447343"></A>You can now record your Oracle Universal Installer session to a response file.
+<P>
+
+<A NAME="447344"></A>
+<P CLASS="BP1">
+This feature makes it easy to duplicate the results of a successful installation on multiple systems. All the options you selected during the installation are saved in the resulting response file. For information about recording your Universal Installer sessions see <A HREF="rsp.htm#9405">"Creating a Response File With Record Mode" on page 3-3</a>.
+</P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="447345"></A>More accurate disk space calculations
+<P>
+
+<A NAME="447346"></A>
+<P CLASS="BP1">
+Oracle Universal Installer now uses a more accurate method of calculating the disk space required by your Oracle products. This feature reduces the risk of running out of disk space during an installation.
+</P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="447347"></A>A new dialog box that prompts you to start any additional configuration tools after exiting Universal Installer
+<P>
+
+<A NAME="447348"></A>
+<P CLASS="BP1">
+Some Oracle products require additional configuration after you install the software. Some configuration tools run automatically when the installation is complete; others can now prompt you with a dialog box as soon as you click Exit so you can decide whether or not you want to run the configuration tool now or later.
+</P>
+</UL>
+
+<A NAME="447338"></A>
+<!--TOC=h1-"447338"-->
+<H2 CLASS="H1"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> System Requirements</FONT></H2>
+
+
+<!--/TOC=h1-->
+<A NAME="436632"></A>
+<P CLASS="BP">
+The Oracle Universal Installer system requirements are listed below:
+</P>
+
+<DL CLASS="A1">
+<BR><FONT SIZE="-1" FACE="Arial, Helvetica, sans-serif"><A NAME="436524"></A><STRONG>Java Runtime Environment (JRE) </STRONG></FONT>
+</DL>
+ <A NAME="436525"></A>
+<P CLASS="BP">
+Automatically installed with the Oracle Universal Installer. Check the release notes or installation guide of the products you are installing for the exact version that is required.
+</P>
+
+<DL CLASS="A1">
+<BR><FONT SIZE="-1" FACE="Arial, Helvetica, sans-serif"><A NAME="436526"></A><STRONG>Memory Requirements:</STRONG></FONT>
+</DL>
+ 
+<UL CLASS="LB1">
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="436527"></A>Memory requirements vary depending on the number of components installed. Check the Release Notes of the products you are installing for details.
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="436528"></A>32 MB minimum recommended on Win32 computers
+<P>
+<BR><FONT SIZE="-1" FACE="Arial, Helvetica, sans-serif"><A NAME="436529"></A><STRONG>Disk Space Requirements</STRONG></FONT>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="443733"></A>9 MB for Installer files
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="443738"></A>150 KB/component for other required files (for example, log files)
+<P>
+</UL>
+
+<A NAME="432841"></A>
+<!--TOC=h1-"432841"-->
+<H2 CLASS="H1"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Installing Oracle Products</FONT></H2>
+
+
+<!--/TOC=h1-->
+<A NAME="445926"></A>
+<P CLASS="BP">
+The following sections describe how to start the Oracle Universal Installer and install an Oracle product. Specifically, this section describes:
+</P>
+
+<UL CLASS="LB1">
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="445930"></A><A HREF="oui.htm#445406">Installing from a Single CD-ROM</a>
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="445932"></A><A HREF="oui.htm#432893">Installing from Multiple CD-ROMs</a>
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="445438"></A><A HREF="oui.htm#444303">Installing from the Web</a>
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="445431"></A><A HREF="oui.htm#440860">Installing Using a Response File</a>
+<P>
+  
+<A NAME="445296">
+<DIV ALIGN="CENTER">
+<P>
+<TABLE CLASS="Note" BORDER="0" WIDTH="80%" CELLPADDING="0" CELLSPACING="0" dir="ltr" summary="This is a layout table to format a note" title="This is a layout table to format a note">
+<TR CLASS="Note"><TD CLASS="Note">
+<HR>
+<A NAME="445302"></A><FONT FACE="Arial, Helvetica, sans-serif"><STRONG CLASS="NH">Note:</STRONG></FONT>
+
+<A NAME="445303"></A>
+<P CLASS="NB">
+If a later version of the Oracle Universal Installer is detected on your machine, the detected version is used to install rather than the one on the CD-ROM.
+<HR>
+</TD>
+</TR>
+
+
+</TABLE>
+
+
+</DIV>
+</A>
+  </UL>
+
+<A NAME="445406"></A>
+<!--TOC=h2-"445406"-->
+<H3 CLASS="H2"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Installing from a Single CD-ROM</FONT></H3>
+<!--/TOC=h2-->
+<A NAME="443571"></A>
+<P CLASS="BP">
+While installing Oracle Products contained in a single CD-ROM on the Windows NT platform, start the Oracle Universal Installer by running the Oracle Universal Installer executable, SETUP.EXE.
+</P>
+<A NAME="443573"></A>
+<P CLASS="BP">
+While installing Oracle Products residing in a single CD on UNIX platforms, run the script called <CODE>runInstaller</CODE> from the top directory of the CD-ROM by typing the following on the command line:
+</P>
+    
+<PRE CLASS="CE">
+<A NAME="432891"></A><CODE>runInstaller
+</CODE></PRE>    
+<A NAME="432893"></A>
+<!--TOC=h2-"432893"-->
+<H3 CLASS="H2"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Installing from Multiple CD-ROMs</FONT></H3>
+<!--/TOC=h2-->
+<A NAME="444151"></A>
+<P CLASS="BP">
+In the case of installing products that span multiple CDs for both UNIX and Windows platforms, temporary copies of OUI and JRE are placed in the TEMP or TMP directory so that these applications can be launched when you change CD-ROMs.
+</P>
+<A NAME="444324"></A>
+<P CLASS="BP">
+If you are having trouble installing a product from multiple CD-ROMs, try using the following procedure to unmount the first CD-ROM and mount the second CD-ROM. If you still have problems, refer to the documentation links at the end of this topic.
+</P>
+<A NAME="444366"></A>
+<P CLASS="BP">
+You may also need to launch the runInstaller script in the background by using the ampersand character: 
+</P>
+<A NAME="444367"></A>
+<P CLASS="BP">
+./runInstaller &amp; 
+</P>
+<A NAME="444368"></A>
+<P CLASS="BP">
+By launching runInstaller in the background, you can change your current directory after you launch the Oracle Universal Installer so that you can eject the CD. You may want to create a shell script that launches the Oracle Universal Installer in the background and then exits. If you choose to create a shell script, remember to also pass all parameters that passed to the shell script along to runInstaller in case you want to pass a response file name to run a silent installation. 
+</P>
+<A NAME="444325"></A>
+<P CLASS="BP">
+In most cases, the following procedure will help you with any problems you experience while switching to a second CD-ROM while you are installing an Oracle software. If you inadvertently run the installer while the current working directory is in the CD-ROM, follow these steps to mount the next CD-ROM:
+</P>
+
+<OL CLASS="LN1" TYPE="1">
+
+
+<LI CLASS="LN1" TYPE="1" VALUE="1"><A NAME="444326"></A>Change directory to the root directory of your system and log in as the root user by using the following commands:
+<P>
+   
+<PRE CLASS="CE1">
+<A NAME="444327"></A>$ cd /<br>
+$ su root
+<A NAME="444351"></A>
+</PRE>
+   
+<LI CLASS="LN1" TYPE="1" VALUE="2"><A NAME="444329"></A>Unmount and remove the CD-ROM from the CD-ROM drive using the following command:
+<P>
+   
+<PRE CLASS="CE1">
+<A NAME="444330"></A># umount cdrom_mount_point_directory
+<A NAME="444352"></A>
+</PRE>
+   
+<LI CLASS="LN1" TYPE="1" VALUE="3"><A NAME="444331"></A>Insert and mount the next CD-ROM into the CD-ROM drive by using the following command:
+<P>
+   
+<PRE CLASS="CE1">
+<A NAME="444332"></A># mount options device_name cdrom_mount_point_directory
+<A NAME="444353"></A>
+</PRE>
+   
+<LI CLASS="LN1" TYPE="1" VALUE="4"><A NAME="444333"></A>Enter the correct mount point in the Installation dialog box.
+<P>
+
+<LI CLASS="LN1" TYPE="1" VALUE="5"><A NAME="444334"></A>Click <STRONG CLASS="Bold">OK</STRONG> to continue.
+<P>
+</OL>
+ 
+<A NAME="444335"></A>
+<P CLASS="BP">
+If after attempting this procedure you are still having problems, refer to the section on installing from multiple CD-ROMS in the <EM CLASS="Italic">Oracle9i Installation Guide</EM>, which is available from the Oracle Documentation Center.
+</P>
+<A NAME="444336"></A>
+<P CLASS="BP">
+To locate documentation in the Oracle Documentation Center, enter the following URL in your Internet browser:
+</P>
+    
+<PRE CLASS="CE">
+<A NAME="444337"></A>http://docs.oracle.com/
+<A NAME="444354"></A>
+</PRE>    <A NAME="444338"></A>
+<P CLASS="BP">
+Specifically, use the following URL to display platform-specific information about mounting multiple CD-ROMS on a variety of UNIX systems:
+</P>
+    
+<PRE CLASS="CE">
+<A NAME="444339"></A>http://docs.oracle.com/HTML_Storage/a90346/inst.htm#1089389
+<A NAME="444355"></A>
+</PRE>    
+<A NAME="444303"></A>
+<!--TOC=h2-"444303"-->
+<H3 CLASS="H2"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Installing from the Web</FONT></H3>
+<!--/TOC=h2-->
+<A NAME="444304"></A>
+<P CLASS="BP">
+The Oracle Universal Installer is capable of installing a product from Web. You can publish your staging area from a Web server and then in the Universal Installer's <STRONG CLASS="Bold">From</STRONG> location, specify the HTTP location for the <CODE>products.jar</CODE> file. 
+</P>
+<A NAME="444307"></A>
+<P CLASS="BP">
+For example, you can enter:
+</P>
+    
+<PRE CLASS="CE">
+<A NAME="444308"></A>http://www.oracle.com/product/ouiinstall/stage/products.jar
+<A NAME="444309"></A>
+</PRE>    <A NAME="444310"></A>
+<P CLASS="BP">
+The Oracle Universal Installer recognizes a Web staging area just like a local, network, or CD-ROM stage.
+</P>
+<A NAME="444311"></A>
+<P CLASS="BP">
+System administrators of large customers who may want to deploy Oracle software to more than one target can use a combination of the Web installation and response file features:
+</P>
+
+<OL CLASS="LN1" TYPE="1">
+
+<LI CLASS="LN1" TYPE="1" VALUE="1"><A NAME="444312"></A>Copy the staging area to a shared file system and make it accessible on the Intranet or a Web server.
+<P>
+
+
+<LI CLASS="LN1" TYPE="1" VALUE="2"><A NAME="444313"></A>Include predetermined response files on the same location. (Different groups of users might rely on different response files.)
+<P>
+
+<LI CLASS="LN1" TYPE="1" VALUE="3"><A NAME="444314"></A>Clients run Oracle Universal Installer locally and use the local response file that is emailed or downloaded so they can perform a silent install.
+<P>
+ 
+</OL>
+<A NAME="444315"></A>
+<P CLASS="BP">
+The Web installation capability relies on some guidelines that must be followed at installation development time. Check your installation guide for your product to see if the installation of your product is certified for Web installation. 
+</P>
+<A NAME="444316"></A>
+<P CLASS="BP">
+To test if your stage is Web-enabled, you may try the following:
+</P>
+
+<OL CLASS="LN1" TYPE="1">
+
+<LI CLASS="LN1" TYPE="1" VALUE="1"><A NAME="444317"></A>Copy the stage to your Web server.
+<P>
+
+
+<LI CLASS="LN1" TYPE="1" VALUE="2"><A NAME="444318"></A>Start the Oracle Universal Installer locally and point to the location of the <CODE>products.jar</CODE> file. For example:
+<P>
+   
+<PRE CLASS="CE1">
+<A NAME="444319"></A>http://smpweb.us.oracle.com/product/ouiinstall/stage/products.jar
+</PRE>
+    
+</OL>
+<A NAME="444300"></A>
+<P CLASS="BP">
+
+</P>
+
+<A NAME="440860"></A>
+<!--TOC=h2-"440860"-->
+<H3 CLASS="H2"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Installing Using a Response File</FONT></H3>
+<!--/TOC=h2-->
+<A NAME="444421"></A>
+<P CLASS="BP">
+Many Oracle software products provide tools and procedures for running Oracle Universal Installer from the command line, without displaying the Universal Installer screens or responding to questions during the installation. 
+</P>
+<A NAME="445645"></A>
+<P CLASS="BP">
+These kind of installations are called silent installations. Instead of prompting you to select a series of installation options, Universal Installer installs the software using a predefined set of options. These options are stored in an Oracle Universal Installer response file.
+</P>
+<A NAME="447380"></A>
+<P CLASS="BP">
+Consider the following information about Universal Installer response files:
+</P>
+
+<UL CLASS="LB1">
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="444424"></A>If your product installation includes a response file, you can find it on your stage (CD-ROM) under the <CODE>&lt;root of CD&gt;/response</CODE> directory. 
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="444446"></A>You can modify the response file for your Oracle product to customize an installation for your organization. For more information about customizing response files, see <A HREF="rsp.htm#8954">Chapter&nbsp;3, "Customizing and Creating Response Files"</a>.
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="447379"></A>You can create your own response files using the Oracle Universal Installer record mode. For more information, see <A HREF="rsp.htm#8954">Chapter&nbsp;3, "Customizing and Creating Response Files"</a>.
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="444689"></A>If you start Universal Installer programmatically from the command line, see <A HREF="oui.htm#445164">"Using the Oracle Universal Installer Exit Codes" on page 1-14</a>.
+<P>
+</UL>
+<A NAME="447378"></A>
+<P CLASS="BP">
+The following sections describe how to specify a response file when you start Oracle Universal Installer.
+</P>
+   <!--AnN_AnchorNote will not be supported in future releases -->
+<A NAME="447412">
+<DIV ALIGN="CENTER">
+<P>
+<TABLE CLASS="Note" BORDER="0" WIDTH="80%" CELLPADDING="0" CELLSPACING="0" dir="ltr" summary="This is a layout table to format a note" title="This is a layout table to format a note">
+<TR CLASS="Note"><TD CLASS="Note">
+<HR>
+<A NAME="447418"></A><FONT FACE="Arial, Helvetica, sans-serif"><STRONG CLASS="NH">Note:</STRONG></FONT>
+
+<A NAME="447421"></A>
+<P CLASS="NB">
+If you attempt to perform a silent installation on a UNIX computer where no Oracle products have been installed, you will receive an error message. Before you can perform a silent installation no such a computer, you must first run the script <CODE>oraInstRoot.sh</CODE>, which is saved in the <CODE>/tmp</CODE> directory. You must run this script with root privileges.
+<HR>
+</TD>
+</TR>
+
+
+</TABLE>
+
+
+</DIV>
+</A>
+   
+<A NAME="444456"></A>
+<!--TOC=h3-"444456"-->
+<H4 CLASS="H3"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Specifying a Response File on Windows Systems</FONT></H4>
+<!--/TOC=h3-->
+<A NAME="444537"></A>
+<P CLASS="BP">
+To start Oracle Universal Installer and specify the response file on Windows NT, enter the following command at the command line in the directory where the Universal Installer is installed:
+</P>
+    
+<PRE CLASS="CE">
+<A NAME="444538"></A><CODE>setup.exe -responseFile &lt;filename&gt; &lt;optional_parameters&gt;
+</CODE></PRE>    
+<A NAME="444543"></A>
+<!--TOC=h3-"444543"-->
+<H4 CLASS="H3"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Specifying a Response File on UNIX Systems</FONT></H4>
+<!--/TOC=h3-->
+<A NAME="444574"></A>
+<P CLASS="BP">
+On UNIX systems, enter the following at the command line in the directory where the Universal Installer is installed:
+</P>
+    
+<PRE CLASS="CE">
+<A NAME="444544"></A>runInstaller<CODE> -responseFile &lt;filename&gt; &lt;optional_parameters&gt;
+</CODE></PRE> 
+<A NAME="444552">
+<DIV ALIGN="CENTER">
+<P>
+<TABLE CLASS="Note" BORDER="0" WIDTH="80%" CELLPADDING="0" CELLSPACING="0" dir="ltr" summary="This is a layout table to format a note" title="This is a layout table to format a note">
+<TR CLASS="Note"><TD CLASS="Note">
+<HR>
+<A NAME="444550"></A><FONT FACE="Arial, Helvetica, sans-serif"><STRONG CLASS="NH">Note:</STRONG></FONT>
+
+<A NAME="444551"></A>
+<P CLASS="NB">
+You must specify the complete responseFile path.
+<HR>
+</TD>
+</TR>
+
+
+</TABLE>
+
+
+</DIV>
+</A>
+
+<A NAME="444535">
+<DIV ALIGN="CENTER">
+<P>
+<TABLE CLASS="Note" BORDER="0" WIDTH="80%" CELLPADDING="0" CELLSPACING="0" dir="ltr" summary="This is a layout table to format a note" title="This is a layout table to format a note">
+<TR CLASS="Note"><TD CLASS="Note">
+<HR>
+<A NAME="444555"></A><FONT FACE="Arial, Helvetica, sans-serif"><STRONG CLASS="NH">Note:</STRONG></FONT>
+
+<A NAME="444556"></A>
+<P CLASS="NB">
+Using the <CODE>-nowelcome</CODE> option with the <CODE>-silent </CODE>option is unnecessary since the Welcome screen does not appear when you use the <CODE>-silent</CODE> option.
+<HR>
+</TD>
+</TR>
+
+
+</TABLE>
+
+
+</DIV>
+</A>
+   
+<A NAME="444459"></A>
+<!--TOC=h3-"444459"-->
+<H4 CLASS="H3"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Optional Parameters When Specifying a Response File</FONT></H4>
+<!--/TOC=h3-->
+<A NAME="444590"></A>
+<P CLASS="BP">
+Optional parameters you may use with the <CODE>-responseFile</CODE> flag are:
+</P>
+
+<UL CLASS="LB1">
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="444461"></A><CODE>-nowelcome</CODE>
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="444463"></A> <CODE>-silent</CODE>
+<P>
+</UL>
+<A NAME="444464"></A>
+<P CLASS="BP">
+Use the <CODE>-nowelcome</CODE> flag along with the <CODE>-responseFile</CODE> flag to suppress the Welcome dialog that appears during installation. 
+</P>
+<A NAME="444465"></A>
+<P CLASS="BP">
+Use the  <CODE>-silent</CODE> flag along with the  <CODE>-responseFile</CODE> flag to run the Universal Installer in complete silent mode. Note that the Welcome dialog is suppressed automatically.
+</P>
+<A NAME="444466"></A>
+<P CLASS="BP">
+Note that when the <CODE>-silent</CODE> flag is specified to the Universal Installer and if there are no values specified to a particular variable in a dialog, then the installer will abort. The success or failure of the installation, when this flag is specified, is generated in a file called <CODE>silentInstall.log</CODE>. This file will be generated in the <CODE>/tmp</CODE> directory in Solaris and the directory specified by the variable TEMP in Win32 platforms.
+</P>
+
+<A NAME="444488"></A>
+<!--TOC=h3-"444488"-->
+<H4 CLASS="H3"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Using a Response File on Character Mode Consoles</FONT></H4>
+<!--/TOC=h3-->
+<A NAME="444489"></A>
+<P CLASS="BP">
+When character mode consoles are used, Oracle recommends that you use the silent install, which is available with 8.1.5 and 8.1.6. Most (if not all) UNIX systems have the X packages by default. No additional installation is required. 
+</P>
+<A NAME="444490"></A>
+<P CLASS="BP">
+In 8.1.5 and 8.1.6 versions of the Oracle Universal Installer, the Database Configuration Assistant and Net8 Configuration Assistant require that the X software runs. They all instantiate some GUI classes, but no GUI needs to be displayed if you running in silent mode. An installation can be run from a console (non-X-Window system or a telnet/dial up session) as long as the target system has X started.
+</P>
+
+<A NAME="444697"></A>
+<!--TOC=h3-"444697"-->
+<H4 CLASS="H3"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Setting Response File Variables From the Command Line</FONT></H4>
+<!--/TOC=h3-->
+<A NAME="444707"></A>
+<P CLASS="BP">
+Starting with Oracle Universal Installer 2.1, you can specify the value of certain variables when you start Universal Installer from the command line.
+</P>
+<A NAME="444708"></A>
+<P CLASS="BP">
+Specifically, you can specify session and component variables from the command line. For specific information about the format and organization of Universal Installer response files, see <A HREF="rsp.htm#9399">"Modifying a Response File" on page 3-2</a>.
+</P>
+<A NAME="444726"></A>
+<P CLASS="BP">
+When you specify the value of a variable on the command line, that value overrides the value of the variable if it is defined in the response file.
+</P>
+
+<A NAME="444800"></A>
+<!--TOC=h4-"444800"-->
+<H5 CLASS="H4"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Specifying the Value of a Session Variable</FONT></H5>
+<!--/TOC=h4-->
+<A NAME="444793"></A>
+<P CLASS="BP">
+To specify the value of a session variable on a UNIX system, use the following command syntax:
+</P>
+    
+<PRE CLASS="CE">
+<A NAME="444736"></A>./runInstaller session_&lt;variable_name&gt;=&lt;value&gt;
+<A NAME="444745"></A>
+</PRE>    <A NAME="444737"></A>
+<P CLASS="BP">
+For example, to prevent the Universal Welcome page from displaying:
+</P>
+    
+<PRE CLASS="CE">
+<A NAME="444760"></A>./runInstaller session_SHOW_WELCOME_PAGE=false
+<A NAME="444822"></A>
+</PRE>    <A NAME="444810"></A>
+<P CLASS="BP">
+To specify the value of a session variable on a Windows system, use the following command syntax:
+</P>
+    
+<PRE CLASS="CE">
+<A NAME="444778"></A>setup.exe session_&lt;variable_name&gt;=&lt;value&gt;
+<A NAME="444789"></A>
+</PRE>    <A NAME="444779"></A>
+<P CLASS="BP">
+For example, to prevent the Universal Welcome page from displaying:
+</P>
+    
+<PRE CLASS="CE">
+<A NAME="444784"></A>setup.exe session_SHOW_WELCOME_PAGE=false
+</PRE>    
+<A NAME="444845"></A>
+<!--TOC=h4-"444845"-->
+<H5 CLASS="H4"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Specifying the Value of a Component Variable</FONT></H5>
+<!--/TOC=h4-->
+<A NAME="444824"></A>
+<P CLASS="BP">
+To specify the value of a component variable on a UNIX system, use the following command syntax:
+</P>
+    
+<PRE CLASS="CE">
+<A NAME="444828"></A>./runInstaller &lt;component_name&gt;_&lt;component_version&gt;_&lt;variable_name&gt;=&lt;value&gt;
+</PRE>    <A NAME="444835"></A>
+<P CLASS="BP">
+For example, to modify the value of a the variable VAR1 in version 1.1 of a component called COMP2:
+</P>
+    
+<PRE CLASS="CE">
+<A NAME="444839"></A>./runInstaller COMP2_1.1_VAR1="test"
+<A NAME="444860"></A>
+</PRE>    <A NAME="444853"></A>
+<P CLASS="BP">
+To specify the value of a component variable on a Windows system, use the following command syntax:
+</P>
+    
+<PRE CLASS="CE">
+<A NAME="444865"></A>setup.exe &lt;component_name&gt;_&lt;component_version&gt;_&lt;variable_name&gt;=&lt;value&gt;
+<A NAME="444868"></A>
+</PRE>    <A NAME="444878"></A>
+<P CLASS="BP">
+For example, to modify the value of a the variable VAR1 in version 1.1 of a component called COMP2:
+</P>
+    
+<PRE CLASS="CE">
+<A NAME="444884"></A>setup.exe COMP2_1.1_VAR1="test"
+</PRE>    
+<A NAME="445331"></A>
+<!--TOC=h2-"445331"-->
+<H3 CLASS="H2"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Getting Help While Installing Oracle Products</FONT></H3>
+<!--/TOC=h2-->
+<A NAME="445332"></A>
+<P CLASS="BP">
+At any time while installing your product, click <STRONG CLASS="Bold">Help</STRONG> for information about the screens specific to your installation.
+</P>
+<A NAME="445333"></A>
+<P CLASS="BP">
+Oracle Universal Installer provides two kinds of online help:
+</P>
+
+<UL CLASS="LB1">
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="445334"></A>Generic online help provided with every copy of Oracle Universal Installer
+<P>
+
+<A NAME="445335"></A>
+<P CLASS="BP1">
+These topics describe the screens and dialog boxes that every Oracle Universal Installer user sees, regardless of the product they are installing.
+</P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="445336"></A>Online Help specific to a particular installation
+<P>
+
+<A NAME="445337"></A>
+<P CLASS="BP1">
+These topics are created by the installation developer and describe the screens and dialog boxes specific to the product you are installing. For example, the help topic for the Installation Types page is often a custom help topic created by the installation developer that describes the specific installation types for the product you are installing.
+</P>
+</UL>
+<A NAME="445347"></A>
+<P CLASS="BP">
+After you display an online help topic, choose <STRONG CLASS="Bold">Navigator</STRONG> from the <STRONG CLASS="Bold">Tools</STRONG> menu to display the Navigator pane. From the navigator pane, you can browse a table the contents, select other topics, or search for a particular word or phrase in the Oracle Universal Installer online help.
+</P>
+
+<A NAME="445329"></A>
+<!--TOC=h1-"445329"-->
+<H2 CLASS="H1"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Special Instructions for UNIX Users</FONT></H2>
+
+
+<!--/TOC=h1-->
+<A NAME="444995"></A>
+<P CLASS="BP">
+The following sections describe special instructions that apply when you are installing certain products on a UNIX system.
+</P>
+
+<A NAME="445475"></A>
+<!--TOC=h2-"445475"-->
+<H3 CLASS="H2"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Failed to Connect to Server Error</FONT></H3>
+<!--/TOC=h2-->
+<A NAME="445482"></A>
+<P CLASS="BP">
+If you get an Xlib error or a "Failed to connect to Server" error when you are running Oracle Universal Installer on a Sun Solaris system, you need to set up the environment variables as follows: 
+</P>
+    
+<PRE CLASS="CE">
+<A NAME="445476"></A><CODE>%setenv DISPLAY &lt;machine name&gt;:0.0 
+</CODE><A NAME="445477"></A><CODE>%xhost + 
+</CODE><A NAME="445478"></A>
+</PRE>    <A NAME="445479"></A>
+<P CLASS="BP">
+Then, re-run the <CODE>runInstaller</CODE> script again.
+</P>
+
+<A NAME="445470"></A>
+<!--TOC=h2-"445470"-->
+<H3 CLASS="H2"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Providing a UNIX Installer Location with Root Privileges</FONT></H3>
+<!--/TOC=h2-->
+<A NAME="444966"></A>
+<P CLASS="BP">
+Various installation operations on the UNIX platform must be performed with root privileges. For example, you must have root privileges to be able to create the Oracle Universal Installer inventory.
+</P>
+<A NAME="444967"></A>
+<P CLASS="BP">
+If you do not have root privileges, you will be prompted to run a shell script from another terminal window before proceeding with the installation. 
+</P>
+<A NAME="444968"></A>
+<P CLASS="BP">
+To successfully run this script:
+</P>
+
+<OL CLASS="LN1" TYPE="1">
+
+<LI CLASS="LN1" TYPE="1" VALUE="1"><A NAME="444969"></A>Leave the Oracle Universal Installer window open and open another terminal window.
+<P>
+
+
+<LI CLASS="LN1" TYPE="1" VALUE="2"><A NAME="444970"></A>In the new terminal window, use the substitute user command to log in with root privileges:
+<P>
+   
+<PRE CLASS="CE1">
+<A NAME="444971"></A>su -root
+<A NAME="444972"></A>
+</PRE>
+   
+<LI CLASS="LN1" TYPE="1" VALUE="3"><A NAME="444973"></A>Change directory to the Oracle Home into which you are currently installing your Oracle software product.
+<P>
+
+<LI CLASS="LN1" TYPE="1" VALUE="4"><A NAME="444974"></A>Run the shell script identified in the Oracle Universal Installer prompt.
+<P>
+
+<LI CLASS="LN1" TYPE="1" VALUE="5"><A NAME="444975"></A>When the script is finished and you are returned to the command prompt, exit from the new terminal window and return to Oracle Universal Installer to continue the installation. 
+<P>
+ 
+<A NAME="444981">
+<DIV ALIGN="CENTER">
+<P>
+<TABLE CLASS="Note" BORDER="0" WIDTH="80%" CELLPADDING="0" CELLSPACING="0" dir="ltr" summary="This is a layout table to format a note" title="This is a layout table to format a note">
+<TR CLASS="Note"><TD CLASS="Note">
+<HR>
+<A NAME="444978"></A><FONT FACE="Arial, Helvetica, sans-serif"><STRONG CLASS="NH"><STRONG CLASS="Bold">Note</STRONG>:</STRONG></FONT>
+
+<A NAME="444979"></A>
+<P CLASS="NB">
+Do not exit the installation in order to run the shell script. Exiting the install removes this script. 
+<A NAME="444980"></A>
+<P CLASS="NB">
+You are prompted to run the script only the first time you install.
+<HR>
+</TD>
+</TR>
+
+
+</TABLE>
+
+
+</DIV>
+</A>
+  
+</OL>
+
+<A NAME="444983"></A>
+<!--TOC=h2-"444983"-->
+<H3 CLASS="H2"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Providing a UNIX Group Name</FONT></H3>
+<!--/TOC=h2-->
+<A NAME="444984"></A>
+<P CLASS="BP">
+If you are installing a product on a UNIX system, the Installer will also prompt you to provide the name of the group which should own the base directory. 
+</P>
+<A NAME="444985"></A>
+<P CLASS="BP">
+You must choose a UNIX group name which will have permissions to update, install, and deinstall Oracle software. Members of this group must have write permissions to the base directory chosen. 
+</P>
+<A NAME="444986"></A>
+<P CLASS="BP">
+Only users who belong to this group are able to install or deinstall software on this machine.
+</P>
+
+<A NAME="444962"></A>
+<!--TOC=h1-"444962"-->
+<H2 CLASS="H1"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Oracle Universal Installer Concepts</FONT></H2>
+
+
+<!--/TOC=h1-->
+<A NAME="445000"></A>
+<P CLASS="BP">
+The following sections describe:
+</P>
+
+<UL CLASS="LB1">
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="445011"></A>The Oracle Universal Installer inventory
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="445379"></A>The Oracle Universal Installer ORAPARAM.INI file
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="445039"></A>The Oracle Universal Installer Exit Codes
+<P>
+</UL>
+
+<A NAME="444235"></A>
+<!--TOC=h2-"444235"-->
+<H3 CLASS="H2"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> About the Oracle Universal Installer Inventory</FONT></H3>
+<!--/TOC=h2-->
+<A NAME="445142"></A>
+<P CLASS="BP">
+The Oracle Universal Installer inventory is the location for the Oracle Universal Installer's bookkeeping. The inventory stores information about:
+</P>
+
+<UL CLASS="LB1">
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="445143"></A>All Oracle software products installed in all Oracle homes on a machine
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="445144"></A>Other non-Oracle products, such as the Java Runtime Environment (JRE)
+<P>
+</UL>
+<A NAME="444654"></A>
+<P CLASS="BP">
+Starting with Oracle Universal Installer 2.1, the information in the Oracle Universal Installer inventory is stored in Extensible Markup Language (XML) format. The XML format allows for easier diagnosis of problems and faster loading of data. Any secure information is not stored directly in the inventory. As a result, during deinstallation of some products, you or your customer may be prompted for required secure information, such as passwords.
+</P>
+<A NAME="445687"></A>
+<P CLASS="BP">
+By default, the Universal Installer inventory is located in a series of directories at <CODE>/Program Files/Oracle/Inventory</CODE> on Windows computers and in the <CODE>&lt;Oracle Home&gt;/Inventory</CODE> directory on UNIX computers.
+</P>
+<A NAME="445153"></A>
+<P CLASS="BP">
+To identify the exact location of the inventory on your system, see the following sections.
+</P>
+
+<A NAME="445113"></A>
+<!--TOC=h3-"445113"-->
+<H4 CLASS="H3"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Locating the Inventory on Windows systems</FONT></H4>
+<!--/TOC=h3-->
+<A NAME="445114"></A>
+<P CLASS="BP">
+On the Windows platform, the Oracle Universal Installer first queries the registry to see if the following Oracle Home setting present:
+</P>
+     
+<PRE CLASS="CE1">
+<A NAME="445115"></A><CODE>HKEY_LOCAL_MACHINE
+</CODE></PRE>
+
+<PRE CLASS="CE2">
+<A NAME="445116"></A><CODE>Software
+</CODE><A NAME="445117"></A><CODE> Oracle
+</CODE></PRE>
+
+<PRE CLASS="CE3">
+<A NAME="445118"></A><CODE> INST_LOC
+</CODE><A NAME="445119"></A>
+</PRE>
+     <A NAME="445120"></A>
+<P CLASS="BP">
+If this value is found, it will be used as the inventory location. If the value is not found, the following sequence occurs:
+</P>
+
+<OL CLASS="LN1" TYPE="1">
+
+<LI CLASS="LN1" TYPE="1" VALUE="1"><A NAME="445121"></A>The Oracle Universal Installer requests the location of the <CODE>Program Files</CODE> directory. 
+<P>
+
+<A NAME="445122"></A>
+<P CLASS="BP1">
+The Program Files folder is a system-defined directory usually on the C drive.
+</P>
+
+
+<LI CLASS="LN1" TYPE="1" VALUE="2"><A NAME="445123"></A>The directory structure is created in the form:
+<P>
+   
+<PRE CLASS="CE1">
+<A NAME="445124"></A><CODE>\&lt;Program Files&gt;
+</CODE></PRE>
+
+<PRE CLASS="CE2">
+<A NAME="445125"></A><CODE>\Oracle  
+</CODE></PRE>
+
+<PRE CLASS="CE3">
+<A NAME="445126"></A><CODE>\bin
+</CODE><A NAME="445127"></A><CODE>\inventory
+</CODE><A NAME="445128"></A><CODE>    \locks
+</CODE><A NAME="445129"></A><CODE>    \logs
+</CODE><A NAME="445130"></A><CODE>\oui
+</CODE><A NAME="445131"></A>
+</PRE>
+   
+<LI CLASS="LN1" TYPE="1" VALUE="3"><A NAME="445132"></A>The registry is updated with this inventory location.
+<P>
+ 
+</OL>
+
+<A NAME="445133"></A>
+<!--TOC=h3-"445133"-->
+<H4 CLASS="H3"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Locating the Inventory on UNIX</FONT></H4>
+<!--/TOC=h3-->
+<A NAME="445134"></A>
+<P CLASS="BP">
+At startup, the Oracle Universal Installer first looks for the following file: <CODE>var/opt/oracle/oraInst.loc</CODE> 
+</P>
+<A NAME="445135"></A>
+<P CLASS="BP">
+If this value is found, it will be used as the inventory location. If the value is not found, the inventory path is created as follows:
+</P>
+<A NAME="445136"></A>
+<P CLASS="BP">
+<CODE>ORACLE_BASE\oraInventory</CODE> 
+</P>
+<A NAME="445199"></A>
+<P CLASS="BP">
+If the ORACLE_BASE environment variable is not defined, the inventory is created at the same level as the first Oracle home. For example, if your first Oracle home is at <CODE>/private/ORACLEHome1</CODE>, then, the inventory is at <CODE>/private/oraInventory</CODE>.
+</P>
+<A NAME="445201"></A>
+<P CLASS="BP">
+If the Oracle Universal Installer is unable to create an inventory directory at these locations, it prompts you with a locations dialog.
+</P>
+<A NAME="445202"></A>
+<P CLASS="BP">
+Clicking the <STRONG CLASS="Bold">Save As</STRONG> button pops up a File browse dialog to accept a file name. The inventory as seen in the inventory tree will be logged into this file as text.
+</P>
+
+<A NAME="445093"></A>
+<!--TOC=h2-"445093"-->
+<H3 CLASS="H2"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> About the ORAPARAM.INI File</FONT></H3>
+<!--/TOC=h2-->
+<A NAME="445208"></A>
+<P CLASS="BP">
+The ORAPARAM.INI file is the Oracle Universal Installer initialization file. This file includes information that defines the behavior of certain Universal Installer features. The installation developer provides a unique ORAPARAM.INI file for each product installation.
+</P>
+<A NAME="445211"></A>
+<P CLASS="BP">
+The ORAPARAM.INI file can help you troubleshoot problems and understand certain aspects of the Oracle Universal Installer product. 
+</P>
+<A NAME="445217"></A>
+<P CLASS="BP">
+For example, for most installations, Universal Installer provides a default value on the File Locations page that points to the location of the product's installation kit or stage. This default value is stored in the ORAPARAM.INI file. The ORAPARAM.INI file also identifies the location of the Java Runtime Environment (JRE) required for the installation.
+</P>
+<A NAME="445244"></A>
+<P CLASS="BP">
+The ORAPARAM.INI file is located in the same directory as the command you use to start Oracle Universal Installer.
+</P>
+<A NAME="445624"></A>
+<P CLASS="BP">
+For detailed information about the contents of the ORAPARAM.INI file, see <A HREF="appb.htm#946266">"Understanding the Contents of the ORAPARAM.INI File" on page B-4</a>.
+</P>
+
+<A NAME="437056"></A>
+<!--TOC=h2-"437056"-->
+<H3 CLASS="H2"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> About Oracle Universal Installer Log Files</FONT></H3>
+<!--/TOC=h2-->
+<A NAME="445704"></A>
+<P CLASS="BP">
+When you install or deinstall products using Oracle Universal Installer, important information about each install is saved not only in the Universal Installer inventory, but also in a series of log files. These log files can be used to troubleshoot installation problems. These files are also crucial for deinstalling and configuring the various software components you install on your Windows or UNIX computer.
+</P>
+<A NAME="445705"></A>
+<P CLASS="BP">
+For more information about the log files generated by Oracle Universal Installer, see the Oracle Universal Installer online help. For more information about using the Universal Installer online help, see <A HREF="oui.htm#445331">"Getting Help While Installing Oracle Products" on page 1-9</a>.
+</P>
+
+<A NAME="445703"></A>
+<!--TOC=h2-"445703"-->
+<H3 CLASS="H2"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Running the Oracle Universal Installer After It is Installed</FONT></H3>
+<!--/TOC=h2-->
+<A NAME="441077"></A>
+<P CLASS="BP">
+The Oracle Universal Installer is installed on your system during the installation of your Oracle products:
+</P>
+
+<UL CLASS="LB1">
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="441078"></A>On NT:  <CODE>\Program Files\Oracle\oui</CODE>
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="441079"></A>On Solaris: it is at the same level as <CODE>&lt;orainventory&gt;</CODE>
+<P>
+</UL>
+<A NAME="441080"></A>
+<P CLASS="BP">
+A new version of the Oracle Universal Installer replaces its older version.
+</P>
+<A NAME="441075"></A>
+<P CLASS="BP">
+The Oracle Universal Installer is placed under "Independent Products" in the Inventory panel as a "non-Oracle Home" product because it maintains an inventory across all Oracle Homes.
+</P>
+<A NAME="437381"></A>
+<P CLASS="BP">
+To run the Oracle Universal Installer:
+</P>
+
+<UL CLASS="LB1">
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="437108"></A>On Windows platforms, select <STRONG CLASS="Bold">Start=&gt;Programs=&gt;Oracle Installation Products=&gt;Oracle Universal Installer</STRONG>.
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="437065"></A>On Solaris, execute<CODE> ./runInstaller</CODE> from the area where it is installed. 
+<P>
+
+<A NAME="443933"></A>
+<P CLASS="BP1">
+For example: if the <CODE>&lt;OraInventory&gt;</CODE> is <CODE>/u01/oracle/oraInventory</CODE>; then, the Oracle Universal Installer will be at <CODE>/u01/oracle/oui</CODE>
+</P>
+</UL>
+<A NAME="438008"></A>
+<P CLASS="BP">
+When the Oracle Universal Installer is first run/installed, it checks for the JRE path (the location where it is run from), using the location specified in the <CODE>oraparam.ini </CODE>file. If the JRE does not exist here, the Oracle Universal Installer looks for a local JRE.
+</P>
+
+<A NAME="445522"></A>
+<!--TOC=h2-"445522"-->
+<H3 CLASS="H2"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Determining the Default Oracle Home</FONT></H3>
+<!--/TOC=h2-->
+<A NAME="445523"></A>
+<P CLASS="BP">
+By default, when you start Universal Installer, the software searches your system to determine the default Oracle Home where Oracle software should be installed.
+</P>
+<A NAME="445525"></A>
+<P CLASS="BP">
+The list of Oracle homes on Windows platforms consists of the following:
+</P>
+
+<UL CLASS="LB1">
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="445526"></A>all Oracle homes that are already created using the Oracle Universal Installer
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="445527"></A>all homes created using the previous Oracle Installer (ORCA-based). Note: The Oracle Universal Installer only displays these homes. No actions can be performed on the homes creating using the previous Oracle Installer.
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="445528"></A>the home that the ORACLE_HOME environment variable points to
+<P>
+</UL>
+<A NAME="445529"></A>
+<P CLASS="BP">
+The list of Oracle homes on UNIX consists of the following:
+</P>
+
+<UL CLASS="LB1">
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="445530"></A>all Oracle homes that are already created using the Oracle Universal Installer
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="445531"></A>all homes as defined in the<CODE> /var/opt/oratab</CODE> file. Note: This location may vary for different UNIX platforms
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="445532"></A>the home that the ORACLE_HOME environment variable points to
+<P>
+</UL>
+<A NAME="445533"></A>
+<P CLASS="BP">
+If none of these homes exists on a machine, a default home is calculated based on the disk volume with the largest amount of free space.
+</P>
+
+<A NAME="445164"></A>
+<!--TOC=h2-"445164"-->
+<H3 CLASS="H2"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Using the Oracle Universal Installer Exit Codes</FONT></H3>
+<!--/TOC=h2-->
+<A NAME="445165"></A>
+<P CLASS="BP">
+If you are starting and stopping Universal Installer programmatically (for example, by invoking Universal Installer using a response file), you may need to consider the exit codes generated by Universal Installer and perform a particular action depending on the code Universal Installer returns.
+</P>
+<A NAME="445183"></A>
+<P CLASS="BP">
+The Oracle Universal Installer returns one of the following exit codes:
+</P>
+   
+<A NAME="445974">
+<P>
+<TABLE CLASS="Informal" BORDER="1" FRAME="HSIDES" RULES="GROUPS" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" dir="ltr" title="">
+<THEAD>
+<TR CLASS="Informal"><TH CLASS="Informal" align="left" valign="bottom" scope="col">
+<A NAME="445168"></A>
+<FONT FACE="Arial, Helvetica, sans-serif"><STRONG>Code</STRONG></FONT></TH>
+<TH CLASS="Informal" align="left" valign="bottom" scope="col">
+<A NAME="445170"></A>
+<FONT FACE="Arial, Helvetica, sans-serif"><STRONG>Description</STRONG></FONT></TH>
+</TR>
+<TBODY>
+<TR CLASS="Informal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Informal">
+<A NAME="445172"></A>
+<P CLASS="TB">
+ 0</TD>
+<TD CLASS="Informal">
+<A NAME="445174"></A>
+<P CLASS="TB">
+All installations were successful</TD>
+</TR>
+<TR CLASS="Informal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Informal">
+<A NAME="445176"></A>
+<P CLASS="TB">
+ 1</TD>
+<TD CLASS="Informal">
+<A NAME="445178"></A>
+<P CLASS="TB">
+All installation were successful but some optional configuration tools failed</TD>
+</TR>
+<TR CLASS="Informal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Informal">
+<A NAME="445180"></A>
+<P CLASS="TB">
+-1</TD>
+<TD CLASS="Informal">
+<A NAME="445182"></A>
+<P CLASS="TB">
+At least one installation failed</TD>
+</TR>
+
+</TABLE>
+
+
+</A>
+   <A NAME="445184"></A>
+<P CLASS="BP">
+Note that:
+</P>
+
+<OL CLASS="LN1" TYPE="1">
+
+<LI CLASS="LN1" TYPE="1" VALUE="1"><A NAME="445185"></A>This feature will not work if the Oracle Universal Installer is running in "bootstrap" mode. In this case <CODE>setup.exe/runInstaller</CODE> will just launch the JRE process and return immediately without waiting for the exit code. The Oracle Universal Installer will be running in "bootstrap" mode if the following line exists in the file "oraparam.ini":
+<P>
+    
+<PRE CLASS="CE1">
+<A NAME="445186"></A>BOOTSTRAP=TRUE<br>
+
+</PRE>
+    
+
+<LI CLASS="LN1" TYPE="1" VALUE="2"><A NAME="445187"></A>If you exit without installing any products (for example if you exit from the "Welcome" screen), the exit code will be -1.
+<P>
+ 
+</OL>
+
+<A NAME="445496"></A>
+<!--TOC=h1-"445496"-->
+<H2 CLASS="H1"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Deinstalling Products</FONT></H2>
+
+
+<!--/TOC=h1-->
+<A NAME="443934"></A>
+<P CLASS="BP">
+The following sections describe how to remove products you have installed with the Oracle Universal Installer.
+</P>
+
+<A NAME="442980"></A>
+<!--TOC=h2-"442980"-->
+<H3 CLASS="H2"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Removing Oracle Products With the Oracle Universal Installer</FONT></H3>
+<!--/TOC=h2-->
+<A NAME="433967"></A>
+<P CLASS="BP">
+A deinstallation can be performed before making your selection of products to install or after a successful install.
+</P>
+<A NAME="437244"></A>
+<P CLASS="BP">
+To remove Oracle products, perform the following steps:
+</P>
+
+<OL CLASS="LN1" TYPE="1">
+
+<LI CLASS="LN1" TYPE="1" VALUE="1"><A NAME="433982"></A>Start the Oracle Universal Installer from a CD-ROM or
+<P>
+
+<UL CLASS="LB2">
+
+<LI CLASS="LB2" TYPE="DISC"><A NAME="433991"></A>For Windows platforms, launch the Oracle Universal Installer from the Start menu. Choose Start &gt; Installation Products &gt; Oracle Universal Installer.
+<P>
+
+<LI CLASS="LB2" TYPE="DISC"><A NAME="433984"></A>For UNIX platforms, run the script called <CODE>runInstaller</CODE> from the directory it was installed in, which is by default at the same level with the first Oracle Home called "oui" created on that machine. 
+<P>
+   
+<PRE CLASS="CE2">
+<A NAME="433985"></A><CODE>runInstaller
+</CODE></PRE>
+ 
+<PRE CLASS="CE">
+<A NAME="433980"></A>
+</PRE>  </UL>
+
+
+<LI CLASS="LN1" TYPE="1" VALUE="2"><A NAME="433942"></A>Click <STRONG CLASS="Bold"></STRONG><STRONG CLASS="Bold">Deinstall Products</STRONG><STRONG CLASS="Bold"> </STRONG>on the "Welcome" screen.
+<P>
+ 
+
+<A NAME="433943"></A>
+<P CLASS="BP1">
+The Inventory panel appears. 
+</P>
+
+
+<LI CLASS="LN1" TYPE="1" VALUE="3"><A NAME="443941"></A>Check the product(s) you want to remove from the Inventory panel and click <STRONG CLASS="Bold">Remove</STRONG>.
+<P>
+
+<LI CLASS="LN1" TYPE="1" VALUE="4"><A NAME="443348"></A>The Remove Confirmation Dialog appears, asking if you want to remove the products and their dependee components. Press the <STRONG CLASS="Bold">Yes</STRONG> button.
+<P>
+ 
+</OL>
+<A NAME="433945"></A>
+<P CLASS="BP">
+The Oracle Universal Installer warns you of any product dependencies that might cause problems if particular products are removed, and prompts you to confirm the de-installation.
+</P>
+<A NAME="436103"></A>
+<P CLASS="BP">
+Pay special attention to the full list of products being deinstalled before proceeding. The Oracle Universal Installer computes this list based on the dependencies of each component.
+</P>
+   
+<A NAME="443596">
+<DIV ALIGN="CENTER">
+<P>
+<TABLE CLASS="Note" BORDER="0" WIDTH="80%" CELLPADDING="0" CELLSPACING="0" dir="ltr" summary="This is a layout table to format a note" title="This is a layout table to format a note">
+<TR CLASS="Note"><TD CLASS="Note">
+<HR>
+<A NAME="443593"></A><FONT FACE="Arial, Helvetica, sans-serif"><STRONG CLASS="NH">Note:</STRONG></FONT>
+
+<A NAME="443595"></A>
+<P CLASS="NB">
+You can also remove products by using the <STRONG CLASS="Bold">Installed Products</STRONG> button on the Oracle Universal Installer as long as this action is performed before making your selection of products to install.
+<HR>
+</TD>
+</TR>
+
+
+</TABLE>
+
+
+</DIV>
+</A>
+   
+<A NAME="443597"></A>
+<!--TOC=h2-"443597"-->
+<H3 CLASS="H2"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Deinstalling Top Level Products that Have Dependees</FONT></H3>
+<!--/TOC=h2-->
+<A NAME="443598"></A>
+<P CLASS="BP">
+A top level component is the most important component of an installation. It is the installable product you see at the first install screen. You can only install one top level component per install session.
+</P>
+<A NAME="443506"></A>
+<P CLASS="BP">
+The following examples use top level components that have dependees of different types offered by Oracle Universal Installer. 
+</P>
+
+<A NAME="442764"></A>
+<!--TOC=h2-"442764"-->
+<H3 CLASS="H2"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Test 1: Test Components Having the "required" Type of Dependees</FONT></H3>
+<!--/TOC=h2-->
+
+<DL CLASS="A1">
+
+<DT CLASS="A1"><FONT SIZE="-1" FACE="Arial, Helvetica, sans-serif"><A NAME="442765"></A><STRONG>Setup</STRONG></FONT>
+</DL>
+<A NAME="442766"></A>
+<P CLASS="BP">
+Create 2 top level components (A, B), each having the same "required" dependee (C). 
+</P>
+
+<DL CLASS="A1">
+
+<DT CLASS="A1"><FONT SIZE="-1" FACE="Arial, Helvetica, sans-serif"><A NAME="442767"></A><STRONG>Install</STRONG></FONT>
+</DL>
+<A NAME="442768"></A>
+<P CLASS="BP">
+I1a. Choosing A results in the install of A and C.
+</P>
+<A NAME="442769"></A>
+<P CLASS="BP">
+I1b. Later, choosing B results in only B being installed (its dependee C was previously installed). 
+</P>
+
+<DL CLASS="A1">
+
+<DT CLASS="A1"><FONT SIZE="-1" FACE="Arial, Helvetica, sans-serif"><A NAME="442770"></A><STRONG>Deinstall</STRONG></FONT>
+</DL>
+<A NAME="442771"></A>
+<P CLASS="BP">
+D1a. Choosing A results in deinstall of A only. C is not deinstalled since it is also a "required" dependee of B, and thus is still needed. 
+</P>
+<A NAME="442772"></A>
+<P CLASS="BP">
+D1b. Choosing A and C results in deinstalling A, B, and C. B is also deinstalled since its "required" dependee C is being deinstalled and it cannot be left installed without it. 
+</P>
+<A NAME="442773"></A>
+<P CLASS="BP">
+D1c. Choosing C results in deinstalling A, B, and C. A and B are also deinstalled since their "required" dependee C is being deinstalled and they cannot be left installed without it. 
+</P>
+
+<A NAME="442774"></A>
+<!--TOC=h2-"442774"-->
+<H3 CLASS="H2"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Test 2: Test Components Having "1,more" Type of Dependees </FONT></H3>
+<!--/TOC=h2-->
+
+<DL CLASS="A1">
+
+<DT CLASS="A1"><FONT SIZE="-1" FACE="Arial, Helvetica, sans-serif"><A NAME="442775"></A><STRONG>Setup</STRONG></FONT>
+</DL>
+<A NAME="442776"></A>
+<P CLASS="BP">
+Create 2 top level components (A, B), each having the SAME two '1,more' type dependees (C,D).   
+</P>
+
+<DL CLASS="A1">
+
+<DT CLASS="A1"><FONT SIZE="-1" FACE="Arial, Helvetica, sans-serif"><A NAME="442777"></A><STRONG>Install Test 2</STRONG></FONT>
+</DL>
+<A NAME="442778"></A>
+<P CLASS="BP">
+I2.a. Choosing A and both dependees (C,D) results in the install of A,C,D. 
+</P>
+<A NAME="442779"></A>
+<P CLASS="BP">
+I2.b. Later, choosing B (without C,D) results in the install of only B. 
+</P>
+
+<DL CLASS="A1">
+
+<DT CLASS="A1"><FONT SIZE="-1" FACE="Arial, Helvetica, sans-serif"><A NAME="442780"></A><STRONG>Deinstall Test 2</STRONG></FONT>
+</DL>
+<A NAME="442781"></A>
+<P CLASS="BP">
+D2.a1.  Choosing A results in deinstall of only A. 
+</P>
+<A NAME="442782"></A>
+<P CLASS="BP">
+D2.a2.  Choosing A and ONE dependee C (under A) results in deinstall of all (A,B,C,D).  Note the deinstall of B and D occurs. 
+</P>
+<A NAME="442783"></A>
+<P CLASS="BP">
+D2.a3.  Choosing only ONE dependee C (under A) results in deinstall of all (A,B,C,D). Note the deinstall of A, B and D occurs. 
+</P>
+<A NAME="442784"></A>
+<P CLASS="BP">
+D2.a4.  Choosing only one dependee D (under A) results in deinstall of all (A,B,C,D). Note the deinstall of A, B and C occurs. 
+</P>
+<A NAME="442785"></A>
+<P CLASS="BP">
+D2.a5.  Choosing both dependee C and D (under A) results in deinstall of all  (A,B,C,D). Note the deinstall of A and B occurs. 
+</P>
+<A NAME="442786"></A>
+<P CLASS="BP">
+D2.b1.  Choosing B results in deinstall of only B. 
+</P>
+<A NAME="442787"></A>
+<P CLASS="BP">
+D2.b2.  Choosing B and one dependee C (under B) results in deinstall of all (A,B,C,D). Note the deinstall of A and D occurs. 
+</P>
+<A NAME="442788"></A>
+<P CLASS="BP">
+D2.b3.  Choosing only one dependee C (under B) results in deinstall of all (A,B,C,D). Note the deinstall of A, B and D occurs. 
+</P>
+<A NAME="442789"></A>
+<P CLASS="BP">
+D2.b4.  Choosing only one dependee D (under B) results in deinstall of all (A,B,C,D).  Note the deinstall of A, B and C occurs. 
+</P>
+<A NAME="442790"></A>
+<P CLASS="BP">
+D2.b5.  Choosing both dependee C and D (under B) results in deinstall of all (A,B,C,D).  Note the deinstall of A and B occurs. 
+</P>
+
+<A NAME="442760"></A>
+<!--TOC=h2-"442760"-->
+<H3 CLASS="H2"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Forcing a Deinstall of a Component with a Different Internal Name</FONT></H3>
+<!--/TOC=h2-->
+<A NAME="442923"></A>
+<P CLASS="BP">
+You cannot programmatically force the deinstallation of a certain component from a certain component; however, the Oracle Universal Installer's dependency engine should take care of the deinstallation should deinstall the component and replace it with the new component.
+</P>
+<A NAME="442897"></A>
+<P CLASS="BP">
+The rule is as follows:
+</P>
+<A NAME="442898"></A>
+<P CLASS="BP">
+If:
+</P>
+
+<UL CLASS="LB1">
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="442899"></A>A.v1 depends on B
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="442900"></A>A.v2 depends on C
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="442901"></A>A.v1 is in the replace range of A.v2
+<P>
+</UL>
+<A NAME="442902"></A>
+<P CLASS="BP">
+Then:
+</P>
+<A NAME="442903"></A>
+<P CLASS="BP">
+Upgrading A from v1 to v2 will perform the following:
+</P>
+
+<UL CLASS="LB1">
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="442989"></A>deinstall A.v1 and B
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="442990"></A>install A.v2 and C
+<P>
+</UL>
+<A NAME="442960"></A>
+<P CLASS="BP">
+Note: Make sure the new version is marked to replace the old version. For example, the old version should be in the replace range of the new version.
+</P>
+   
+<A NAME="443000">
+<DIV ALIGN="CENTER">
+<P>
+<TABLE CLASS="Note" BORDER="0" WIDTH="80%" CELLPADDING="0" CELLSPACING="0" dir="ltr" summary="This is a layout table to format a note" title="This is a layout table to format a note">
+<TR CLASS="Note"><TD CLASS="Note">
+<HR>
+<A NAME="442997"></A><FONT FACE="Arial, Helvetica, sans-serif"><STRONG CLASS="NH">Note:</STRONG></FONT>
+
+<A NAME="443012"></A>
+<P CLASS="NB">
+ Make sure the new version is marked to replace the old version. In the .prp, you can specify the version range to be replaced. For example, the old version should be in the replace range of the new version.
+<HR>
+</TD>
+</TR>
+
+
+</TABLE>
+
+
+</DIV>
+</A>
+   
+<A NAME="441791"></A>
+<!--TOC=h2-"441791"-->
+<H3 CLASS="H2"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Silent Deinstallation</FONT></H3>
+<!--/TOC=h2-->
+<A NAME="445802"></A>
+<P CLASS="BP">
+With Universal Installer you can not only perform silent installations, as described in <A HREF="oui.htm#440860">"Installing Using a Response File" on page 1-5</a>, but you can also perform silent deinstallations. A silent deinstallation allows you to remove Oracle applications from your system without using the Universal Installer graphical user interface.
+</P>
+<A NAME="445807"></A>
+<P CLASS="BP">
+You can choose to display no dialog boxes or promptst to the user, or you can selectively avoid displaying certain dialog boxes that are normally used during a deinstallation.
+</P>
+
+<A NAME="445824"></A>
+<!--TOC=h3-"445824"-->
+<H4 CLASS="H3"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Immediately Displaying the Inventory Dialog Box</FONT></H4>
+<!--/TOC=h3-->
+<A NAME="445810"></A>
+<P CLASS="BP">
+Use the following command on a Windows computer to immediately display the Inventory dialog box, which allows the user to select items for deinstallation without navigating the Universal Installer startup screen:
+</P>
+    
+<PRE CLASS="CE">
+<A NAME="445820"></A>setup.exe -deinstall
+<A NAME="445828"></A>
+</PRE>    <A NAME="445829"></A>
+<P CLASS="BP">
+On a UNIX computer, use the following command to produce the same result:
+</P>
+    
+<PRE CLASS="CE">
+<A NAME="445833"></A>runInstaller -deinstall
+<A NAME="445837"></A>
+</PRE>    
+<A NAME="445838"></A>
+<!--TOC=h3-"445838"-->
+<H4 CLASS="H3"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Hiding the Inventory Dialog Box</FONT></H4>
+<!--/TOC=h3-->
+<A NAME="445850"></A>
+<P CLASS="BP">
+If you would like to hide the inventory dialog box from the user during a deinstallation, you can specify the items to be deinstalled in the DEINSTALL_LIST parameter of the response file. For more information about response files, see <A HREF="oui.htm#440860">"Installing Using a Response File" on page 1-5</a>. 
+</P>
+<A NAME="445862"></A>
+<P CLASS="BP">
+For information about the DEINSTALL_LIST parameter, see <A HREF="rsp.htm#8954">Chapter&nbsp;3, "Customizing and Creating Response Files"</a>.
+</P>
+<A NAME="445863"></A>
+<P CLASS="BP">
+As with other response file parameters, you can also specify the DEINSTALL_LIST parameter on the Universal Installer command line. For example, on a Windows computer, enter:
+</P>
+    
+<PRE CLASS="CE">
+<A NAME="445864"></A>runInstaller -deinstall DEINSTALL_LIST={"component1","1.0.1.2"}
+<A NAME="445868"></A>
+</PRE>    <A NAME="445869"></A>
+<P CLASS="BP">
+For more information about using the command to specify response file parameters, see <A HREF="oui.htm#444697">Chapter&nbsp;, "Setting Response File Variables From the Command Line"</a>.
+</P>
+
+<A NAME="445849"></A>
+<!--TOC=h3-"445849"-->
+<H4 CLASS="H3"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Hiding the Deinstallation Confirmation and Progress Dialog Boxes</FONT></H4>
+<!--/TOC=h3-->
+<A NAME="445842"></A>
+<P CLASS="BP">
+Use the following commands to hide the deinstallation confirmation and progress dialog boxes during a silent deinstallation on a Windows computer:
+</P>
+    
+<PRE CLASS="CE">
+<A NAME="445876"></A>setup.exe -deinstall session_SHOW_DEINSTALL_PROGRESS=false
+<A NAME="445882"></A>   session_SHOW_DESINSTALL_CONFIRMATION=false
+<A NAME="445883"></A>
+</PRE>    <A NAME="445888"></A>
+<P CLASS="BP">
+Use the following commands to hide the deinstallation confirmation and progress dialog boxes during a silent deinstallation on a UNIX computer:
+</P>
+    
+<PRE CLASS="CE">
+<A NAME="445894"></A>runInstaller -deinstall session_SHOW_DEINSTALL_PROGRESS=false
+<A NAME="445884"></A>   session_SHOW_DESINSTALL_CONFIRMATION=false
+</PRE>    
+<A NAME="445798"></A>
+<!--TOC=h1-"445798"-->
+<H2 CLASS="H1"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Internationalization and Installation Translations Support </FONT></H2>
+
+
+<!--/TOC=h1-->
+<A NAME="443965"></A>
+<P CLASS="BP">
+The following sections describe how Oracle Universal Installer supports multiple languages and internationalization.
+</P>
+
+<A NAME="441793"></A>
+<!--TOC=h2-"441793"-->
+<H3 CLASS="H2"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Installer/Installation Dialogs Language</FONT></H3>
+<!--/TOC=h2-->
+<A NAME="441795"></A>
+<P CLASS="BP">
+The Oracle Universal Installer runs in the language of the operating system. The Oracle Universal Installer uses the language that Java detects, the system locale value, and sets that to the default language.   The Installer dialogs will be displayed in this language if available. If specific Installer dialogs are not translated in the language of the operating system, those dialogs will be shown in English.
+</P>
+
+<A NAME="441797"></A>
+<!--TOC=h2-"441797"-->
+<H3 CLASS="H2"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Product Language Selections</FONT></H3>
+<!--/TOC=h2-->
+<A NAME="441799"></A>
+<P CLASS="BP">
+If multiple languages are defined for the products installed, the Universal Installer allows language selection via the Custom install type only.   The languages selections are for the top level component being installed. A top level component is the product selected on the Products Selection dialog, a single one per installation session. If any sub-components (lower level) do not have files defined for the language the user selects, English only will be installed. The English files are always installed for all components, regardless of user selection or operating system language.
+</P>
+<A NAME="441801"></A>
+<P CLASS="BP">
+If a component is already installed, but with a different language set, that component will be reinstalled.
+</P>
+<A NAME="441810"></A>
+<P CLASS="BP">
+At install time, the Oracle Universal Installer looks at the language list of each file/filegroup to determine which need to be copied.
+</P>
+
+
+
+
+
+
+<!-- Start Footer -->
+</DIV>
+
+<DIV CLASS="OUTD">
+<HR>
+
+
+
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+<TR>
+<TD VALIGN="BOTTOM" WIDTH="33%">
+<TABLE CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD ALIGN="CENTER"><A HREF="preface.htm"><IMG SRC="./larrow.gif" ALT="Go to previous page" BORDER="0" HEIGHT="30" WIDTH="30"></A></TD>
+
+<TD ALIGN="CENTER"><A HREF="moh.htm"><IMG SRC="./rarrow.gif" ALT="Go to next page" BORDER="0" HEIGHT="30" WIDTH="30"></A></TD>
+    
+</TR>
+</TABLE>
+</TD>
+<TD ALIGN="CENTER" WIDTH="34%">
+<A HREF="cpyr.htm"><IMG SRC="./oracle.gif" ALT="Oracle" BORDER="0"><BR>
+<FONT SIZE="-2">Copyright &copy; 1996&#044; 2002 Oracle Corporation.</FONT></A>
+<BR>
+<FONT SIZE="-2">All Rights Reserved.</FONT>
+</TD>
+<TD VALIGN="BOTTOM" ALIGN="RIGHT" WIDTH="33%"> 
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="144">
+<TR>
+
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"></TD>
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"></TD>
+
+
+
+
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"><A HREF="toc.htm"><IMG SRC="./conticon.gif" ALT="Go To Table Of Contents" BORDER="0" HEIGHT="30"
+WIDTH="30"><BR>
+<FONT SIZE="-2">Contents</FONT></A></TD>
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"><A HREF="index.htm"><IMG SRC="./indxicon.gif" ALT="Go To Index" BORDER="0" HEIGHT="30"
+WIDTH="30"><BR>
+<FONT SIZE="-2">Index</FONT></A></TD>
+
+</TR>
+</TABLE>
+</TD>
+</TR>
+</TABLE>
+  
+</DIV>
+
+</BODY>
+</HTML>
+

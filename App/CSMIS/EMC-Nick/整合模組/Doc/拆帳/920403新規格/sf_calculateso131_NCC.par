@@ -1,0 +1,28 @@
+
+<EXEC_CONSOLE_PARAMETERS>
+  <CONNECTIONS>
+    <CONNECTION NAME="emc">
+      <SCHEMAS>
+        <SCHEMA NAME="NCC">
+          <OBJECTS>
+            <OBJECT NAME="SF_CALCULATESO131">
+              <ENTRY_POINTS>
+                <ENTRY_POINT NAME="DEFAULT">
+                  <ARGUMENTS>
+                    <ARGUMENT NAME="p_compcode" VALUE="5"/>
+                    <ARGUMENT NAME="p_servicetype" VALUE="C"/>
+                    <ARGUMENT NAME="p_computeym" VALUE="09201"/>
+                    <ARGUMENT NAME="p_startdate" VALUE="20030101"/>
+                    <ARGUMENT NAME="p_enddate" VALUE="20030131"/>
+                    <ARGUMENT NAME="p_chargeitemsql" VALUE="902,903,904,905,906,907,908,910,931,932,933,934,935,911,936"/>
+                    <ARGUMENT NAME="p_realorshoulddate" VALUE="0"/>
+                  </ARGUMENTS>
+                </ENTRY_POINT>
+              </ENTRY_POINTS>
+            </OBJECT>
+          </OBJECTS>
+        </SCHEMA>
+      </SCHEMAS>
+    </CONNECTION>
+  </CONNECTIONS>
+</EXEC_CONSOLE_PARAMETERS>

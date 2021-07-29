@@ -1,0 +1,89 @@
+Hi,
+
+Below are some puzzles we encounterd during setup connection to Nagra's SMS gateway.
+We could not establish connection between our test program and SMS gateway.
+Would you please help us to find out where is the problem. Thanks.
+
+
+0. 所要連結的server應該是哪一部?哪一個process要跑起來?
+0. 
+   . Which computer that our test program should connect? 
+   . Which process should be running in that computer?
+   . How can we know the SMS gateway is nunning?
+
+
+1. 所要連結的service為何?port為何?是否輸入指令svr emgr即可得知?
+1. 
+   . What is the value for "service" during TCP/IP connection setup?
+   . What is the port #? 20000 and 21000?
+   . Where can we find these port numbers? Are they system parameters in Nagra's s/w?
+   . Can we use "svr emgr" command to know the SMS gateway is running or not?
+
+
+2. 要建立連結時,是否應先送一個定義為device_call的structure到server(SMS GATEWAY)端?
+	device_call的定義如下:
+
+	struct device_call {
+	  short int 	len;			//2 bytes
+	  unsigned char op_mode;		//1 byte
+	  unsigned char obj_name_len;		//1 byte
+	  char		obj_name[32];		//32 bytes
+	  char 		user_data[255];		//255 bytes
+	}
+
+	其中len是不是device_call中除len欄位外的bytes數? op_mode等於'0' or '1'?
+	obj_name要填入何值? obj_name_len是否等於obj_name的bytes數?
+	user_data要填入何值?
+2. In the above data structure :
+   . Is this formula correct? value of len equals to 
+     (length of op_mode) + (length of obj_name_len) + (length of obj_name) + (length of user_data), 
+     that is: len = 1 + 1 + (length of obj_name) + (length of user_data)
+     Is value of len always equals to 289?
+   . What value can we assign to obj_name?
+   . Is obj_name_len equals to length of obj_name or just 32?
+   . What value can we assign to user_data? Can you give us an example? Is the value in myProg.txt correct?
+   
+
+3. 如何確定連結成功與否?
+	是否在write device_call之後,緊接著receive device_status這個structure回來,
+	device_Status的定義如下 :
+	struct device_status {
+	  short int 	len;	//2 bytes
+	  unsigned char	status;	//1 byte
+	}
+	透過device_status.status就可以知道連結是否成功?
+3. In the above data structure:
+   . How to know the connection is ok or not?
+   . Is receive device_status statement should invoked just after write device_call statement?
+   . Is it right?  If we check the value of device_status.status, then we know the connection is
+     ok or not.
+     In our test program:
+	We receive a value of 0x0001 for device_status.len, 0x06 for device_status.status
+
+	
+4. 連結成功後,是否就可以開始read data?
+	read data時,server是否將傳回之data放入device_answer and device_data
+	這樣的 structure中傳回?
+
+	device_answer的定義如下 :
+	struct device_answer {
+	  short int	len;		//2 bytes
+	  unsigned char	code;		//1 byte
+	  char		data[1025];	//1025 bytes
+	}
+
+	device_data的定義如下 :
+	struct device_data {
+	  short int	len;		//2 bytes
+	  char		data[1025];	//1025 bytes
+	}
+
+	這兩個structure的用途為何?為何要分兩個structure傳回?
+
+4. 
+   . Can we read data after we setup the connection successfully?
+   . When we read data from server, is server put result in 2 above data structures?
+   . Waht is the usage of this 2 data structure? Why 2 but not 1?
+   . In our test program, execution hanged here if we want to read 1028 bytes from server.
+     But we can read data from server if we only read 3 bytes.
+

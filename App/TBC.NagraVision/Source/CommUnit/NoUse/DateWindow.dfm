@@ -1,0 +1,72 @@
+object frmDateWindow: TfrmDateWindow
+  Left = 399
+  Top = 297
+  ActiveControl = Calendar
+  AutoSize = True
+  BorderIcons = []
+  BorderStyle = bsNone
+  Caption = 'frmDateWindow'
+  ClientHeight = 203
+  ClientWidth = 267
+  Color = clBtnFace
+  Font.Charset = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDeactivate = FormDeactivate
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 14
+  object Calendar: TMonthCalendar
+    Left = 0
+    Top = 0
+    Width = 267
+    Height = 169
+    Align = alClient
+    AutoSize = True
+    CalColors.BackColor = clWhite
+    Date = 37847.606034965270000000
+    TabOrder = 0
+    OnDblClick = btnSelectClick
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 169
+    Width = 267
+    Height = 34
+    Align = alBottom
+    BevelOuter = bvNone
+    TabOrder = 1
+    object Bevel1: TBevel
+      Left = 4
+      Top = 1
+      Width = 258
+      Height = 1
+      Shape = bsTopLine
+    end
+    object btnClear: TcxButton
+      Left = 196
+      Top = 6
+      Width = 65
+      Height = 25
+      Caption = #28165#38500
+      TabOrder = 0
+      OnClick = btnClearClick
+      LookAndFeel.Kind = lfUltraFlat
+    end
+    object btnSelect: TcxButton
+      Left = 123
+      Top = 6
+      Width = 65
+      Height = 25
+      Caption = #36984#21462
+      TabOrder = 1
+      OnClick = btnSelectClick
+      LookAndFeel.Kind = lfUltraFlat
+    end
+  end
+end

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2007/08/30 10:30:15.968.groupproj,D:\MyFolder\My Documents\RAD Studio\Projects\ProjectGroup1.groupproj=D:\App\EMC\WebPool\WebPool.groupproj</Transaction>
+  </Transactions>
+  <Default.Personality>
+    <Projects ActiveProject="WebPool.dll"/>
+  </Default.Personality>
+</BorlandProject>

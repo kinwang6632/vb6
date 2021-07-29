@@ -1,0 +1,237 @@
+  101                                     Service Calls      4260     17.9%
+  102                                            Outage      2208      9.3%
+                                    Request Information      1864      7.8%
+  103                                   Install Request       753      3.2%
+  104   Install Request--Not in Franchise or 2-Way Area        20      0.1%
+  105                                         COS Rates       225      0.9%
+  106                  Channel Location/Program Content        79      0.3%
+  107  Installation Time for No Plant or Non 2-Way Area       292      1.2%
+  108                             Converter/STB Related        22      0.1%
+  109                          Company Location/Fax No.       169      0.7%
+  110                      Phone No. of Other Companies        93      0.4%
+  111             Ask for Customer Service Info/Premium       117      0.5%
+  112                                Identify Employees         3      0.0%
+  113                                        Spare Item        89      0.4%
+  114                                        Spare Item         2      0.0%
+                                        Payment Related      4738       20%
+  115               Channel of Payment (Incl. Past Due)      2523     10.6%
+  116                         Confirm Amount to Be Paid       363      1.5%
+  117                        Asking for Resending Bills       504      2.1%
+  118                             Confirm Bill Deadline        18      0.1%
+  119                     Confirm Next Payment Due Date       586      2.5%
+  120                                      Direct Debit       219      0.9%
+  121                               Refund/Fee Transfer        89      0.4%
+  122                    Making Collection Appointments         5      0.0%
+  123                                   Invoice Related       131      0.6%
+  124                             Confirm Receiving Fax       243      1.0%
+  125                              Change Billing Cycle        54      0.2%
+  126                                        Spare Item         3      0.0%
+                                      Schedule Installs      2076      8.7%
+  127                                    Single Product      1580      6.7%
+  128                                     Dual Services        51      0.2%
+  129                                   Triple Services         0      0.0%
+  130                                     Four Products         1      0.0%
+  131                                        Relocation       444      1.9%
+  132                                        Spare Item         0      0.0%
+                                           Schedule COS       133      0.6%
+  133                                 Indoor Relocation        15      0.1%
+  134                              Additional Equipment        99      0.4%
+  135                          Refund Various Equipment         9      0.0%
+  136                                      Speed Change         6      0.0%
+  137              Apply for & Cancel Fixed/Multiple IP         1      0.0%
+  138                                        Spare Item         0      0.0%
+  139                                        Spare Item         0      0.0%
+  140                                        Spare Item         3      0.0%
+                                               Dispatch      2590     10.9%
+  141                           Reschedule Appointments        97      0.4%
+  142                               Cancel Appointments       172      0.7%
+  143                               Confirm Appointment      2114      8.9%
+  144                     Running Late for Installs/COS        21      0.1%
+  145                    Running Late for Service Calls        13      0.1%
+  146                                   Transfer to TSR       172      0.7%
+  147                                        Spare Item         1      0.0%
+                                On-Line Troubleshooting      1352      5.7%
+  148            Unable to Connect to Specific Websites         7      0.0%
+  149                                    E-Mail Setting        10      0.0%
+  150                                        PC Setting        10      0.0%
+  151                            Cable Modem Technology         1      0.0%
+  152                               Reset the Modem/STB       135      0.6%
+  153                                        IP Related         4      0.0%
+  154                                       NIC Related         0      0.0%
+  155                                Customer Education      1042      4.4%
+  156                               EPG Troubleshooting         2      0.0%
+  157                          Satellite Signal Problem        97      0.4%
+  158                          Preventative Maintenance        41      0.2%
+  159                               CP Related Problems         0      0.0%
+  160                                        Spare Item         3      0.0%
+                                    Customer Complaints       172      0.7%
+  161                                      Ad Insertion         4      0.0%
+  162                            Change Channel Line Up         7      0.0%
+  163                            Channel Location/Split        21      0.1%
+  164                                  Program Contents        14      0.1%
+  165                         Not Provide Program Guide         1      0.0%
+  166                               No Chinese Subtitle         0      0.0%
+  167               Speed of Switching Channel too slow         0      0.0%
+  168                        Remote Control Malfunction         1      0.0%
+  169                         Employee/Service Attitude        31      0.1%
+  170                                             Rates        24      0.1%
+  171                             Collection Procedures        41      0.2%
+  172                                  Frequent Outages        15      0.1%
+  173                                  Connection Speed         4      0.0%
+  174                 Unable to Access Specific Website         3      0.0%
+  175       Intermittent Connection/Network Instability         3      0.0%
+  176                                    E-Mail Related         0      0.0%
+  177            Content of Project/Promotion Materials         0      0.0%
+  178                              CP Related Complaint         1      0.0%
+  179                                        Spare Item         2      0.0%
+                                 Special Request Orders       308      1.3%
+  180        Remove Cable Drop/Equipment/Obsolete Cable        31      0.1%
+  181                  Work w/Official for Construction        18      0.1%
+  182                            Restore Terrestrial TV         5      0.0%
+  183            Ask for Compensation or Extend Payment         2      0.0%
+  184                        Update Account Information       229      1.0%
+  185                                            Piracy        11      0.0%
+  186                                 Power Supply Subs         6      0.0%
+  187                Community Closed Circuit TV System         3      0.0%
+  188                                   Special Routing         2      0.0%
+  189                                        Spare Item         0      0.0%
+  190                                        Spare Item         1      0.0%
+                                             Disconnect       324      1.4%
+  191                              Temporary Disconnect        63      0.3%
+  192                                 Unpaid Disconnect       261      1.1%
+                                                 Others      3723     15.7%
+  193                       Calls from or for Employees        72      0.3%
+  194                              Phone System Related      3642     15.3%
+  195                                         Spam Mail         1      0.0%
+  196                              Express Satisfaction         1      0.0%
+  197                                Provide Suggestion         4      0.0%
+  198                                        Spare Item         0      0.0%
+  199                                        Spare Item         3      0.0%
+                   Total Invalid  Wrap Up Codes Entered     22448     94.5%
+    0                      System_Default_Activity_Code     22014     92.7%
+   01                      System_Default_Activity_Code         7      0.0%
+  011                      System_Default_Activity_Code         4      0.0%
+  013                      System_Default_Activity_Code         1      0.0%
+   02                      System_Default_Activity_Code         2      0.0%
+   03                      System_Default_Activity_Code         2      0.0%
+    1                      System_Default_Activity_Code        24      0.1%
+   10                      System_Default_Activity_Code        41      0.2%
+  100                      System_Default_Activity_Code         2      0.0%
+ 1001                      System_Default_Activity_Code         2      0.0%
+ 1002                      System_Default_Activity_Code         1      0.0%
+ 1010                      System_Default_Activity_Code         1      0.0%
+ 1011                      System_Default_Activity_Code         2      0.0%
+ 1012                      System_Default_Activity_Code         3      0.0%
+102102                      System_Default_Activity_Code         1      0.0%
+105105                      System_Default_Activity_Code         1      0.0%
+ 1081                      System_Default_Activity_Code         1      0.0%
+   11                      System_Default_Activity_Code        21      0.1%
+ 1101                      System_Default_Activity_Code        22      0.1%
+ 1102                      System_Default_Activity_Code        13      0.1%
+ 1103                      System_Default_Activity_Code         7      0.0%
+ 1105                      System_Default_Activity_Code         2      0.0%
+ 1106                      System_Default_Activity_Code         1      0.0%
+ 1107                      System_Default_Activity_Code         1      0.0%
+ 1109                      System_Default_Activity_Code         1      0.0%
+ 1110                      System_Default_Activity_Code         1      0.0%
+ 1115                      System_Default_Activity_Code        10      0.0%
+ 1116                      System_Default_Activity_Code         2      0.0%
+ 1119                      System_Default_Activity_Code         8      0.0%
+ 1124                      System_Default_Activity_Code         1      0.0%
+ 1125                      System_Default_Activity_Code         1      0.0%
+ 1127                      System_Default_Activity_Code        10      0.0%
+ 1131                      System_Default_Activity_Code         1      0.0%
+ 1141                      System_Default_Activity_Code         1      0.0%
+ 1142                      System_Default_Activity_Code         4      0.0%
+ 1143                      System_Default_Activity_Code        11      0.0%
+ 1146                      System_Default_Activity_Code         1      0.0%
+ 1149                      System_Default_Activity_Code         1      0.0%
+ 1155                      System_Default_Activity_Code         5      0.0%
+ 1169                      System_Default_Activity_Code         1      0.0%
+ 1171                      System_Default_Activity_Code         4      0.0%
+ 1184                      System_Default_Activity_Code         3      0.0%
+ 1185                      System_Default_Activity_Code         1      0.0%
+ 1194                      System_Default_Activity_Code         2      0.0%
+ 1197                      System_Default_Activity_Code         1      0.0%
+   12                      System_Default_Activity_Code        16      0.1%
+ 1207                      System_Default_Activity_Code         1      0.0%
+ 1255                      System_Default_Activity_Code         2      0.0%
+ 1277                      System_Default_Activity_Code         2      0.0%
+12794                      System_Default_Activity_Code         1      0.0%
+ 1294                      System_Default_Activity_Code         1      0.0%
+   13                      System_Default_Activity_Code         6      0.0%
+ 1313                      System_Default_Activity_Code         1      0.0%
+   14                      System_Default_Activity_Code        19      0.1%
+ 1433                      System_Default_Activity_Code         1      0.0%
+ 1436                      System_Default_Activity_Code         1      0.0%
+ 1464                      System_Default_Activity_Code         1      0.0%
+ 1494                      System_Default_Activity_Code         1      0.0%
+   15                      System_Default_Activity_Code        13      0.1%
+ 1522                      System_Default_Activity_Code         1      0.0%
+155155                      System_Default_Activity_Code         1      0.0%
+ 1577                      System_Default_Activity_Code         1      0.0%
+   16                      System_Default_Activity_Code         3      0.0%
+   17                      System_Default_Activity_Code        10      0.0%
+   18                      System_Default_Activity_Code         1      0.0%
+ 1855                      System_Default_Activity_Code         1      0.0%
+ 1881                      System_Default_Activity_Code         1      0.0%
+   19                      System_Default_Activity_Code         5      0.0%
+ 1955                      System_Default_Activity_Code         1      0.0%
+ 1994                      System_Default_Activity_Code         1      0.0%
+    2                      System_Default_Activity_Code         1      0.0%
+   20                      System_Default_Activity_Code         1      0.0%
+ 2000                      System_Default_Activity_Code         1      0.0%
+  201                                   Service Calls-2         5      0.0%
+  202                                          Outage-2         2      0.0%
+  203                                 Install Request-2         1      0.0%
+  207                    Installation Time 4 No Plant-2         5      0.0%
+   21                    Installation Time 4 No Plant-2         1      0.0%
+  211                    Ask Customer SVC Inf-Premium-2         1      0.0%
+  215                              Channel of Payment-2         5      0.0%
+  216                       Confirm Amount to Be Paid-2         1      0.0%
+   22                       Confirm Amount to Be Paid-2         1      0.0%
+  222                     Make Collection Appointment-2         3      0.0%
+  223                                 Invoice Related-2         1      0.0%
+  227                                  Single Product-2         6      0.0%
+  228                                   Dual Products-2         2      0.0%
+   24                                   Dual Products-2         1      0.0%
+  241                         Reschedule Appointments-2         1      0.0%
+  243                             Confirm Appointment-2         2      0.0%
+  246                                 Transfer to TSR-2         1      0.0%
+  255                              Customer Education-2         1      0.0%
+   27                              Customer Education-2         3      0.0%
+  273                                Connection Speed-2         1      0.0%
+  293                     Calls from or for Employees-2         2      0.0%
+  294                            Phone System Related-2         2      0.0%
+    3                            Phone System Related-2         1      0.0%
+  301                                   Service Calls-3         5      0.0%
+  302                                          Outage-3         1      0.0%
+  303                                 Install Request-3         1      0.0%
+  305                                       COS Rates-3         1      0.0%
+  306                    Channel Location-PGM Content-3         1      0.0%
+  307                    Installation time 4 No Plant-3         1      0.0%
+ 3117                    Installation time 4 No Plant-3         1      0.0%
+  315                              Channel of Payment-3         6      0.0%
+  317                      Asking for Resending Bills-3         1      0.0%
+  319                    Confirm Next Paymnt due date-3         1      0.0%
+  320                                    Direct Debit-3         1      0.0%
+  322                     Make Collection Appointment-3         1      0.0%
+  343                             Confirm Appointment-3         2      0.0%
+  355                              Customer Education-3         2      0.0%
+  394                            Phone System Related-3         2      0.0%
+    4                            Phone System Related-3         4      0.0%
+  401                                   Service Calls-4         5      0.0%
+   43                                   Service Calls-4         4      0.0%
+  431                                      Relocation-4         1      0.0%
+  443                             Confirm Appointment-4         1      0.0%
+  494                            Phone System Related-4         3      0.0%
+    5                            Phone System Related-4         1      0.0%
+  502                                 Internet Outage-5         1      0.0%
+  543                                Downgrade to HSI-5         1      0.0%
+  555                                      PC Setting-5         1      0.0%
+   92                                      PC Setting-5         1      0.0%
+   94                                      PC Setting-5         8      0.0%
+                        Unique Wrap Up Codes Entered :         87          
+                  Total Valid  Wrap Up Codes Entered :      23748          
+                Total Invalid  Wrap Up Codes Entered :        434          
+                Total Num. Of  Wrap Up Codes Entered :      24182          

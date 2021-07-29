@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="BIG5" standalone="yes" ?>
+
+<!-- xml version="1.0" encoding="GB2312" standalone="yes" -->
+<Msg Version="1" MsgID="2" Type="SMSUp"
+  DateTime="2002-08-17 15:30:00" SrcCode="110000S01"
+  DstCode="110000G01" ReplyID="1">
+  <Return Type="CAProductQuery" Value="0" Desc="成功" Redirect="">
+	<!-- 
+		屬性說明:
+		  Value: 執行的結果代碼
+		  Dest: 執行的結果說明
+		  Type: 固定為 CAProductQuery
+		  Redirect: 若欲傳回之檔案大於1MB, 則須將檔案壓縮放在某目錄下,然後回應給client,
+			    請client redirect 到該 URL 抓取檔案
+
+		只能有一個傳回值.可能的傳回值:
+		  0: 成功
+		  1: 沒有查到資料	
+		  2: 內部錯誤
+		  100 - 199: SMS 自訂之錯誤
+	--> 
+  </Return>
+  <CAProductQueryReport InstQuery="0" Date="2003-02-01" TotalProductNum="4" TotalChannelNum="40">
+	<!--
+		屬性說明:
+		  InstQuery: client 端之查詢模式
+		  Date: client 端之查詢時間
+		  TotalProductNum: 當前整個SMS內CA產品總數
+		  TotalChannelNum: 當前整個SMS內數位電視頻道總數
+	-->
+	<CAProduct DateTime="2003-02-01 12:00:00" ProductCode="1" ProductName="CCTV節目" CASID="0x4A01">
+		<!-- 
+		屬性說明:
+		  DateTime	必須存在(查詢時間)
+		  ProductCode	必須存在(CA系統定義的產品編號)
+		  ProductName	必須存在(產品名稱，最長為100個字元)
+		  CASID		必須存在(CAS的ID)
+		-->
+	  <Channel Provider="CCTV" Name="CCTV-3" />
+		<!-- 
+		屬性說明:
+		  Provider	必須存在(節目平台=>提供數位電視頻道的節目提供商，如“中央電視臺”，“湖北電視臺”等)
+		  Name		必須存在(節目平臺提供的數位電視頻道，如“CCTV-1”等)
+		-->
+	  <Channel Provider="CCTV" Name="CCTV-5" />
+	  <Channel Provider="CCTV" Name="CCTV-6" />
+	  <Channel Provider="CCTV" Name="CCTV-8" />
+	</CAProduct>
+	<CAProduct DateTime="2003-02-01 12:00:00" ProductCode="2" ProductName="省台節目" CASID="0x4A01">
+	  <Channel Provider="湖南電視台" Name="湖南電視" />	  
+	  <Channel Provider="浙江電視台" Name="浙江電視" />	  
+	</CAProduct>
+  </CAProductQueryReport>
+</Msg>

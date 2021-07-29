@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ProductManagementData SYSTEM "ProductManagementData.dtd">
+<ProductManagementData creationDate="20060418000000">
+<ProviderInfo>
+<ProviderId>IMS Nagra</ProviderId>
+<ProviderName>IMS Nagravision S.A.</ProviderName>
+<DtdVersion>1.1.1</DtdVersion>
+</ProviderInfo>
+<ProductPeriodicNotification>
+<ProductReportRequest>
+<SalePeriod beginTime="20060418000000" endTime="20060425000000"/>
+<ProductType productKind="PPV"/>
+</ProductReportRequest>
+<ProductReportReply>
+<ProductData>
+</ProductData>
+</ProductReportReply>
+</ProductPeriodicNotification>
+</ProductManagementData>

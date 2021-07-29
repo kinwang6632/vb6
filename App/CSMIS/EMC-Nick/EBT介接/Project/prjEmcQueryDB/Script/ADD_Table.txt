@@ -1,0 +1,87 @@
+
+set heading off
+variable str varchar2(80)
+exec :str := '<< 建立暫存檔 >> ' || to_char(sysdate, 'YYYY/MM/DD HH24:MI:SS');
+spool D:\App\EMC\EBT介接\Log
+print str 
+
+
+
+/*
+	EMC與EBT客戶資料對應紀錄檔 => EMC_EBT001
+*/
+PROMPT *** EMC_EBT001   EMC與EBT客戶資料對應紀錄檔 (以各系統台建立此 table)***
+DROP TABLE EMC_EBT001 CASCADE CONSTRAINT;
+CREATE TABLE EMC_EBT001 (
+	EmcCompCode	Number(3),
+	EmcCustID	Number(8),
+	EbtContractNo		Varchar2(50),
+	EbtCustID	Varchar2(20),
+	EbtContractBDate	Date,
+	EbtContractEDate	Date,
+	EbtCustCName	Varchar2(100),
+	EbtCustContactPhone	Varchar2(20),
+	EbtCustContactMobile	Varchar2(20),
+	EbtCompOwnerName Varchar2(50),
+	EbtContactPhone	Varchar2(20),
+	EbtItContactName Varchar2(50),
+	EbtItContactPhone	Varchar2(20),
+	EbtItContactMobile	Varchar2(20),
+	EbtItEMail	Varchar2(50),
+	EbTInstAddr	Varchar2(200),
+	EbTCustAddr	Varchar2(100),
+	EbTBillAddr	Varchar2(200),
+	EbtContractStatusCode	Varchar2(10),
+	EbtContractStatusDesc	Varchar2(20),
+	EbtFeePeriodCode	Varchar2(5),
+	EbtFeePeriodDesc	Varchar2(20),
+	EbtServiceType	Char(2),
+	UpdTime	Date,
+	UpdEn	Varchar2(20)
+	);
+	
+insert into  EMC_EBT001(EmcCompCode,EmcCustID,EbtServiceType,EbtContractNo ) values(7,2,'CM','CMCUS-01020296340');
+insert into  EMC_EBT001(EmcCompCode,EmcCustID,EbtServiceType,EbtContractNo ) values(7,2,'CT','CPCUS-01020296360');
+insert into  EMC_EBT001(EmcCompCode,EmcCustID,EbtServiceType,EbtContractNo ) values(7,2,'CT','CPCUS-01020296860');
+
+/*
+	使用者資料檔 => EMC_EBT002
+*/
+PROMPT *** EMC_EBT002   使用者資料檔 (以 EBTUSER 建立此 table) ***
+DROP TABLE EMC_EBT002 CASCADE CONSTRAINT;
+CREATE TABLE EMC_EBT002 (
+	UserID		Varchar2(8),
+	UserName	Varchar2(30),
+	UserPasswd	Varchar2(10),
+	UserGroup	Number(5),
+	IsSupervisor	Number(1),
+	UpdTime		Date,
+	UpdEn		Varchar2(20),
+	CONSTRAINT PK_EMCEBT002 PRIMARY KEY (UserID)
+	); 
+insert into  EMC_EBT002 values('a','Howard','a',1,1,null,null);
+insert into  EMC_EBT002 values('b','Jackal','b',1,0,null,null);
+
+
+
+PROMPT *** EMC_EBT003   使用者群組代碼檔 (以 EBTUSER 建立此 table) ***
+DROP TABLE EMC_EBT003 CASCADE CONSTRAINT;
+CREATE TABLE EMC_EBT003 (
+	CODENO		Number(5),
+	DESCRIPTION	Varchar2(20),
+	STOPFLAG	Number(1),
+	UpdTime		Date,
+	UpdEn		Varchar2(20),
+	CONSTRAINT PK_EMCEBT003 PRIMARY KEY (CODENO)
+	); 
+insert into  EMC_EBT003 values('1','EMC資訊部',0,null,null);
+insert into  EMC_EBT003 values('2','EBT客服',0,null,null);
+
+
+
+commit;
+spool off
+set heading on
+
+
+

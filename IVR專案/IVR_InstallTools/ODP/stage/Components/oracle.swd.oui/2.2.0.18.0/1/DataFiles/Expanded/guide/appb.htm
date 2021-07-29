@@ -1,0 +1,780 @@
+
+<!DOCTYPE html public "-//w3c//dtd html 3.2 transitional//en.us">
+<HTML lang="en.us">
+<HEAD>
+
+<META NAME="Generator" CONTENT="Quadralay WebWorks Publisher 5.0.4">
+<META NAME="Page" CONTENT="DefaultSingle">
+<META NAME="Title" CONTENT="Troubleshooting">
+
+
+<TITLE>Troubleshooting</TITLE>
+	   
+
+<LINK REL="toc" HREF="toc.htm" TITLE="Contents">
+<LINK REL="index" HREF="index.htm" TITLE="Index">
+<LINK REL="copyright" HREF="cpyr.htm" TITLE="Copyright">
+<LINK REL="up" HREF="toc.htm" TITLE="Up">
+<LINK REL="next" HREF="index.htm" TITLE="Next">
+<LINK REL="previous" HREF="appa.htm" TITLE="Previous">
+
+
+</HEAD>
+       
+<BODY BGCOLOR="#ffffff">
+
+<A NAME="top"></A>
+
+
+
+
+<A HREF="#BEGIN">Skip Headers</A><BR><BR>
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+<TR>
+
+ 
+<TD ALIGN="LEFT" VALIGN="TOP"><FONT COLOR="#330099" FACE="Helvetica, Arial, sans-serif"><STRONG>Oracle Universal Installer Concepts Guide<BR>Release 2.2</STRONG><BR>Part Number A96697-01</FONT></TD>
+<TD VALIGN="BOTTOM" ALIGN="RIGHT" WIDTH="144">
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+<TR>
+
+
+
+
+
+
+
+
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"></TD>
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"></TD>
+
+
+
+
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"><A HREF="toc.htm"><IMG SRC="./conticon.gif" ALT="Go To Table Of Contents" BORDER="0" HEIGHT="30"
+WIDTH="30"><BR>
+<FONT SIZE="-2">Contents</FONT></A></TD>
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"><A HREF="index.htm"><IMG SRC="./indxicon.gif" ALT="Go To Index" BORDER="0" HEIGHT="30"
+WIDTH="30"><BR>
+<FONT SIZE="-2">Index</FONT></A></TD>
+
+</TR>
+</TABLE>
+</TD>
+</TR>
+</TABLE>
+<HR>
+<P>
+<A HREF="appa.htm"><IMG SRC="./larrow.gif" ALT="Go to previous page" BORDER="0" HEIGHT="30" WIDTH="30"></A>
+
+<A HREF="index.htm"><IMG SRC="./rarrow.gif" ALT="Go to next page" BORDER="0" HEIGHT="30" WIDTH="30"></A>
+    
+
+
+<A NAME="BEGIN"></A>
+
+
+
+<DIV CLASS="IND">
+<!-- End Header -->
+
+
+
+
+
+
+
+<A NAME="943366"></A>
+<!--TOC=Title-"943366"-->
+<H1 CLASS="Title"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099">B<BR>Troubleshooting</FONT></H1>
+
+<!--/TOC=Title-->
+<A NAME="945820"></A>
+<P CLASS="BP">
+This chapter describes possible troubleshooting issues. 
+</P>
+
+<UL CLASS="LB1">
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="945818"></A><A HREF="appb.htm#945490">Debugging Mechanisms in the Oracle Universal Installer</a>
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="945823"></A><A HREF="appb.htm#945715">Oracle Universal Installer Errors</a>
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="945824"></A><A HREF="appb.htm#945742">Deinstalling or Upgrading Oracle Universal Installer</a>
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="946293"></A><A HREF="appb.htm#946266">Understanding the Contents of the ORAPARAM.INI File</a>
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="945825"></A><A HREF="appb.htm#945748">Other Tips</a>
+<P>
+</UL>
+
+<A NAME="945490"></A>
+<!--TOC=h1-"945490"-->
+<H2 CLASS="H1"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Debugging Mechanisms in the Oracle Universal Installer</FONT></H2>
+
+
+<!--/TOC=h1-->
+<A NAME="945491"></A>
+<P CLASS="BP">
+During the install, the Oracle Universal Installer writes a text file that contains information on:
+</P>
+
+<UL CLASS="LB1">
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="945492"></A>variable settings
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="945493"></A>action calls
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="945494"></A>queries
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="945495"></A>exception information
+<P>
+</UL>
+<A NAME="945496"></A>
+<P CLASS="BP">
+The <CODE>installActions.log</CODE> is located in the <CODE>&lt;oraInventory&gt;\logs </CODE>directory. It is backed-up as <CODE>installActions&lt;date&gt;.log.</CODE>
+</P>
+<A NAME="945497"></A>
+<P CLASS="BP">
+The Installation Log is used for debugging purposes only. All actions, queries, everything that happens during the install, and all modifications to the target machine are logged in the file. 
+</P>
+<A NAME="945498"></A>
+<P CLASS="BP">
+A sample file is shown below:
+</P>
+    
+<PRE CLASS="CE">
+<A NAME="945499"></A>installActions1999-06-16_09-52-16-AM.log
+<A NAME="945500"></A>Environment variables: 
+<A NAME="945501"></A>	ORACLE_HOME = 
+<A NAME="945502"></A>	PATH = E:\OEM\bin;E:\ORACLE815\bin;C:\Program 
+Files\Oracle\jre\1.1.7\bin;C:\ORATST\BIN
+<A NAME="945503"></A>	CLASSPATH = C:\Program Files\Exceed.nt\hcljrcsv.zip;
+<A NAME="945504"></A>Username is: pjlee
+<A NAME="945505"></A>
+<A NAME="945506"></A>The installer version is 1.7.0.0.0
+<A NAME="945507"></A>
+<A NAME="945508"></A>*** Welcome Page***
+<A NAME="945509"></A>Setting value of FROM_LOCATION to E:\bootstrap\cd\Disk1\stage\products.jar
+<A NAME="945510"></A>Setting value of INVENTORY_LOCATION to C:\Program Files\Oracle\Inventory
+<A NAME="945511"></A>Setting value of UNIX_GROUP_NAME to  
+<A NAME="945512"></A>Setting value of FROM_LOCATION to E:\bootstrap\cd\Disk1\stage\products.jar
+<A NAME="945513"></A>Setting value of ORACLE_HOME to E:\Universal
+<A NAME="945514"></A>Setting value of ORACLE_HOME_NAME to Universal
+<A NAME="945515"></A>
+<A NAME="945516"></A>*** File Locations Page***
+<A NAME="945517"></A>FromLocation = FROM_LOCATION = E:\bootstrap\cd\Disk1\stage\products.jar
+<A NAME="945518"></A>ToLocation = ORACLE_HOME = E:\Universal
+<A NAME="945519"></A>ToName = ORACLE_HOME_NAME = Universal
+<A NAME="945520"></A>Initializing installer access setup
+<A NAME="945521"></A>Setting value of ORACLE_HOME to E:\Universal
+<A NAME="945522"></A>Setting value of ORACLE_HOME_KEY to Software\ORACLE\HOME3
+<A NAME="945523"></A>Setting value of ORACLE_HOME_FOLDER to Oracle - Universal
+<A NAME="945524"></A>Setting value of ORACLE_HOME_SERVICE to Universal
+<A NAME="945525"></A>Setting value of ToplevelComp to oracle.swd, 1.7.0.0.0, &gt;0.0, [ 912 453 615 50 
+601 173 467 295 87 610 198 918 913 162 2 30 21 10021 111 90 168 888 ][OH:0]
+<A NAME="945526"></A>Setting value of SELECTED_LANGUAGES to [en]
+<A NAME="945527"></A>Doing operation for installer access setup
+<A NAME="945528"></A>Initializing inventory setup WCCE
+<A NAME="945529"></A>Doing operation in inventory setup WCCE
+<A NAME="945530"></A>
+<A NAME="945531"></A>*** Available Products Page***
+<A NAME="945532"></A>TopLevelComp = ToplevelComp = oracle.swd, 1.7.0.0.0, &gt;0.0, [ 912 453 615 50 601 
+173 467 295 87 610 198 918 913 162 2 30 21 10021 111 90 168 888 ][OH:0]
+<A NAME="945533"></A>LangsSel = SELECTED_LANGUAGES = [en]
+<A NAME="945534"></A>Setting value of ToplevelComp to oracle.swd, 1.7.0.0.0, &gt;0.0, [ 912 453 615 50 
+601 173 467 295 87 610 198 918 913 162 2 30 21 10021 111 90 168 888 ][OH:0]
+<A NAME="945535"></A>Setting value of DepMode to Complete
+<A NAME="945536"></A>Setting value of TLDepModes to Complete,
+<A NAME="945537"></A>
+<A NAME="945538"></A>*** Installation Types Page***
+<A NAME="945539"></A>DepMode = DepMode = Complete
+<A NAME="945540"></A>TLDepModes = TLDepModes = Complete,
+<A NAME="945541"></A>Setting value of DepMode to Complete
+<A NAME="945542"></A>Setting value of PROD_HOME to E:\Universal\oracle.swd
+<A NAME="945543"></A>Setting value of PROD_HOME to E:\Universal\oracle.swd
+<A NAME="945544"></A>Setting value of PRE_REQUISITE to true
+<A NAME="945545"></A>Setting value of PROD_HOME to E:\Universal\oracle.swd
+<A NAME="945546"></A>Setting value of SHOW_COMPONENT_LOCATIONS_PAGE to true
+<A NAME="945547"></A>
+<A NAME="945548"></A>*** Component Locations Page***
+<A NAME="945549"></A>ShowCompLocs = SHOW_COMPONENT_LOCATIONS_PAGE = true
+<A NAME="945550"></A>Entering  component: oracle.swd installation
+<A NAME="945551"></A>
+<A NAME="945552"></A>*** Summary Page***
+<A NAME="945553"></A>ShowSummary = SHOW_SUMMARY_PAGE = null
+<A NAME="945554"></A>	Global Settings
+<A NAME="945555"></A>		Source : E:\bootstrap\cd\Disk1\stage\products.jar
+<A NAME="945556"></A>		Destination : E:\Universal
+</PRE>    <A NAME="945710"></A>
+<P CLASS="BP">
+
+</P>
+<A NAME="945832"></A>
+<P CLASS="BP">
+Text files are also written in the <CODE>temp</CODE> directory:
+</P>
+    
+<PRE CLASS="CE">
+<A NAME="945711"></A>&lt;temp&gt;\OraInstall\oraInstall.err
+<A NAME="945712"></A>&lt;temp&gt;\OraInstall\oraInstall.out
+<A NAME="945713"></A>
+</PRE>    <A NAME="945714"></A>
+<P CLASS="BP">
+If a problem occurs during the installation, you should look for Java exceptions in these files.
+</P>
+
+<A NAME="945715"></A>
+<!--TOC=h1-"945715"-->
+<H2 CLASS="H1"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Oracle Universal Installer Errors</FONT></H2>
+
+
+<!--/TOC=h1-->
+<A NAME="945716"></A>
+<P CLASS="BP">
+Refer to the Release Notes for information on any Oracle Universal Installer limitations for a particular version.
+</P>
+<A NAME="945717"></A>
+<P CLASS="BP">
+The most common Oracle Universal Installer errors are listed below:
+</P>
+
+<UL CLASS="LB1">
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="945718"></A>out of "temp" space
+<P>
+
+<A NAME="945872"></A>
+<P CLASS="BP1">
+Make sure you have enough space in the default <CODE>TEMP</CODE> or <CODE>TMP</CODE> directory otherwise the installation will not succeed. The amount of space required depends on the product being installed.
+</P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="945719"></A>incomplete stage and missing files in file groups
+<P>
+
+<A NAME="945883"></A>
+<P CLASS="BP1">
+Verify the staging file. There may be runtime errors that the install developer missed which causes the unexpected environment changes.
+</P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="945720"></A>exceptions from action libraries:
+<P>
+
+<UL CLASS="LB2">
+
+<LI CLASS="LB2" TYPE="DISC"><A NAME="945721"></A>NT Services, if a service is already started
+<P>
+
+<LI CLASS="LB2" TYPE="DISC"><A NAME="945722"></A>file permissions
+<P>
+</UL>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="945892"></A>UNCAUGHT_RUNTIME exception when user tries to install the product on his machine
+<P>
+
+<A NAME="945973"></A>
+<P CLASS="BP1">
+This is a blanket error catch which catches any runtime errors like NullPointers from libraries. Check if the temp\OraInstall\orainsrall.err has any stack trace. If there is none, the user will have to call support to debug his staging area.
+</P>
+</UL>
+
+<A NAME="945742"></A>
+<!--TOC=h1-"945742"-->
+<H2 CLASS="H1"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Deinstalling or Upgrading Oracle Universal Installer</FONT></H2>
+
+
+<!--/TOC=h1-->
+<A NAME="946044"></A>
+<P CLASS="BP">
+Consider the following restrictions and guidelines when deinstalling or upgrading Oracle Universal Installer:
+</P>
+
+<UL CLASS="LB1">
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="945743"></A>You cannot deinstall the Oracle Universal Installer if you are running it from the installed area. To deinstall the Oracle Universal Installer, run it from the stage area.
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="945745"></A>To upgrade the Oracle Universal Installer, you need to run it from the staging area.
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="946067"></A>To preserve backward compatibility, Oracle Universal Installer 2.1 can read serialized inventories written by Universal Installer 2.0.x and older. As a result, Universal Installer 2.1 will always be able to read the changes made by an older version of Universal Installer. 
+<P>
+</UL>
+
+<A NAME="946266"></A>
+<!--TOC=h1-"946266"-->
+<H2 CLASS="H1"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Understanding the Contents of the ORAPARAM.INI File</FONT></H2>
+
+
+<!--/TOC=h1-->
+<A NAME="946297"></A>
+<P CLASS="BP">
+The following sections describe the contents of the ORAPARAM.INI file, which is used to set initialization parameters for Oracle Software Installer. In general, you should not have to edit the contents of this file, but in certain situations, understanding the contents of this file can help you troubleshoot installation problems.
+</P>
+<A NAME="946298"></A>
+<P CLASS="BP">
+The following sections include:
+</P>
+
+<UL CLASS="LB1">
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="946301"></A>A description of the parameters that can be used in the ORAPARAM.INI file
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="946302"></A>A sample ORAPARAM.INI file
+<P>
+</UL>
+
+<A NAME="946294"></A>
+<!--TOC=h2-"946294"-->
+<H3 CLASS="H2"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Parameters in ORAPARAM.INI</FONT></H3>
+<!--/TOC=h2-->
+<A NAME="946268"></A>
+<P CLASS="BP">
+This section describes the various parameters that can be set in the ORAPARAM.INI file. 
+</P>
+
+<DL CLASS="A1">
+
+<DT CLASS="A1"><FONT SIZE="-1" FACE="Arial, Helvetica, sans-serif"><A NAME="946085"></A><STRONG>[Oracle] </STRONG></FONT>
+<BR><FONT SIZE="-1" FACE="Arial, Helvetica, sans-serif"><A NAME="946086"></A><STRONG>DISTRIBUTION</STRONG></FONT>
+</DL>
+<A NAME="946087"></A>
+<P CLASS="BP">
+Set DISTRIBUTION to TRUE if the ORAPARAM.INI file is on a distribution media. A distribution media can be a CD-ROM or the Web. 
+</P>
+
+<DL CLASS="A1">
+<BR><FONT SIZE="-1" FACE="Arial, Helvetica, sans-serif"><A NAME="946088"></A><STRONG>SOURCE</STRONG></FONT>
+</DL>
+ <A NAME="946089"></A>
+<P CLASS="BP">
+Location of your staging area (the <CODE>products.jar</CODE> file). This location is relative to the directory where <CODE>oraparam.ini</CODE> exists.
+</P>
+
+<DL CLASS="A1">
+<BR><FONT SIZE="-1" FACE="Arial, Helvetica, sans-serif"><A NAME="946090"></A><STRONG>LICENSE_LOCATION</STRONG></FONT>
+</DL>
+ <A NAME="946091"></A>
+<P CLASS="BP">
+Location of a text file for License information. This location is relative to the directory where oraparam.ini exists. The legal terms file should be a plain text file.
+</P>
+<A NAME="946092"></A>
+<P CLASS="BP">
+If you specify the LICENSE_LOCATION variable, the Oracle Universal Installer will ask for license acceptance after you click the Next button on the "Welcome" screen. The Oracle Universal Installer will let the user proceed only after license is accepted. 
+</P>
+<A NAME="946093"></A>
+<P CLASS="BP">
+This parameter is ignored if the file is not found. 
+</P>
+
+<DL CLASS="A1">
+<BR><FONT SIZE="-1" FACE="Arial, Helvetica, sans-serif"><A NAME="946094"></A><STRONG>LICENSE_TITLE</STRONG></FONT>
+</DL>
+ <A NAME="946095"></A>
+<P CLASS="BP">
+The value of this variable displays as the title of the license agreement. The Oracle Universal Installer only reads this value if the license dialog is displayed. That is, if the LICENSE_LOCATION variable has a valid value.
+</P>
+
+<DL CLASS="A1">
+<BR><FONT SIZE="-1" FACE="Arial, Helvetica, sans-serif"><A NAME="946096"></A><STRONG>JRE_LOCATION</STRONG></FONT>
+</DL>
+ <A NAME="946097"></A>
+<P CLASS="BP">
+Location to the Java Runtime Environment (JRE) which will be used by the Oracle Universal Installer.
+</P>
+   
+<A NAME="946102">
+<DIV ALIGN="CENTER">
+<P>
+<TABLE CLASS="Note" BORDER="0" WIDTH="80%" CELLPADDING="0" CELLSPACING="0" dir="ltr" summary="This is a layout table to format a note" title="This is a layout table to format a note">
+<TR CLASS="Note"><TD CLASS="Note">
+<HR>
+<A NAME="946100"></A><FONT FACE="Arial, Helvetica, sans-serif"><STRONG CLASS="NH"><STRONG CLASS="Bold">Note</STRONG>:</STRONG></FONT>
+
+<A NAME="946101"></A>
+<P CLASS="NB">
+For a single install to point to two different JRE versions, move the oraparam.ini file one level below its original location and then specify the individual platform's JRE location. For example, if the original location is in the Disk1/install directory, move it to the Disk1/install/win32 or the Disk1/install/solaris directory and then specify the individual platform's JRE location.
+<HR>
+</TD>
+</TR>
+
+
+</TABLE>
+
+
+</DIV>
+</A>
+  <BR><FONT SIZE="-1" FACE="Arial, Helvetica, sans-serif"><A NAME="946103"></A><STRONG>OUI_LOCATION</STRONG></FONT>
+ <A NAME="946104"></A>
+<P CLASS="BP">
+Location of the Oracle Universal Installer files.
+</P>
+
+<DL CLASS="A1">
+<BR><FONT SIZE="-1" FACE="Arial, Helvetica, sans-serif"><A NAME="946105"></A><STRONG>JRE_MEMORY_OPTIONS</STRONG></FONT>
+</DL>
+ <A NAME="946106"></A>
+<P CLASS="BP">
+Set these to increase the initial heap size for JRE. 
+</P>
+
+<DL CLASS="A1">
+<BR><FONT SIZE="-1" FACE="Arial, Helvetica, sans-serif"><A NAME="946107"></A><STRONG>DEFAULT_HOME_LOCATION</STRONG></FONT>
+</DL>
+ <A NAME="946108"></A>
+<P CLASS="BP">
+Location of the default home.
+</P>
+
+<DL CLASS="A1">
+<BR><FONT SIZE="-1" FACE="Arial, Helvetica, sans-serif"><A NAME="946109"></A><STRONG>DEFAULT_HOME_NAME</STRONG></FONT>
+</DL>
+ <A NAME="946110"></A>
+<P CLASS="BP">
+The default name for the Oracle Home. This parameter is used only if the install takes place on a machine with no previous Oracle installations. 
+</P>
+
+<DL CLASS="A1">
+<BR><FONT SIZE="-1" FACE="Arial, Helvetica, sans-serif"><A NAME="946111"></A><STRONG>NO_BROWSE</STRONG></FONT>
+</DL>
+ <A NAME="946112"></A>
+<P CLASS="BP">
+List directories which you do not want to browse. These are typically large directories which will take a long time to list. For example,  <CODE>/net</CODE>, <CODE>/nfs</CODE>. 
+</P>
+
+<DL CLASS="A1">
+<BR><FONT SIZE="-1" FACE="Arial, Helvetica, sans-serif"><A NAME="946113"></A><STRONG>NLS_ENABLED</STRONG></FONT>
+</DL>
+ <A NAME="946114"></A>
+<P CLASS="BP">
+Set NLS_ENABLED to TRUE for the Oracle Universal Installer to enable NLS support. Set NLS_ENABLED to FALSE to disable the installation session translations. The Oracle Universal Installer displays in English even if you run on a non-English system.
+</P>
+
+<DL CLASS="A1">
+<BR><FONT SIZE="-1" FACE="Arial, Helvetica, sans-serif"><A NAME="946115"></A><STRONG>BOOTSTRAP</STRONG></FONT>
+</DL>
+ <A NAME="946116"></A>
+<P CLASS="BP">
+In the case of installing products that span multiple CDs, a "bootstrap" occurs in which temporary copies of OUI and JRE are placed in the TEMP or TMP directory so that these applications can be launched when you change CD-ROMs.
+</P>
+<A NAME="946117"></A>
+<P CLASS="BP">
+As a user or developer of an install, you need to set BOOTSTRAP to True or False. BOOTSTRAP tells the Oracle Universal Installer to attempt a bootstrap. Set BOOTSTRAP to True before cutting CDs, but set it to False once you have copied the staging area to the hard disk.
+</P>
+<A NAME="946118"></A>
+<P CLASS="BP">
+If you are running a multiple CD install, you must set the bootstrap variable BOOTSTRAP=TRUE.
+</P>
+<A NAME="946119"></A>
+<P CLASS="BP">
+Otherwise, the first CD cannot be ejected on Solaris because the file system is busy. The Oracle Universal Installer is holding open several files on the CD including the JRE executable, and on Solaris, ejectable volumes cannot be ejected if a process has opened files on the volume.
+</P>
+<A NAME="946120"></A>
+<P CLASS="BP">
+Setting the BOOTSTRAP variable to TRUE informs the Oracle Universal Installer to copy the Oracle Universal Installer classes and the JRE executables to a temporary directory where you can launch them; thereby freeing the CD device.
+</P>
+<A NAME="946121"></A>
+<P CLASS="BP">
+You may also need to launch runInstaller in the background by using the ampersand character:
+</P>
+    
+<PRE CLASS="CE">
+<A NAME="946122"></A>./runInstaller &amp;
+<A NAME="946440"></A>
+</PRE>    <A NAME="946123"></A>
+<P CLASS="BP">
+By launching <CODE>runInstaller</CODE> in the background, you can change your current directory after you launch the Oracle Universal Installer so that you can eject the CD. 
+</P>
+<A NAME="946124"></A>
+<P CLASS="BP">
+You may want to create a shell script that launches the Oracle Universal Installer in the background and then exits. If you choose to create a shell script, remember to also pass all parameters that passed to the shell script along to runInstaller in case you want to pass a response file name to run a silent installation.
+</P>
+
+<DL CLASS="A1">
+<BR><FONT SIZE="-1" FACE="Arial, Helvetica, sans-serif"><A NAME="946125"></A><STRONG>BOOTSTRAP_SIZE</STRONG></FONT>
+</DL>
+ <A NAME="946436"></A>
+<P CLASS="BP">
+Use this parameter to set the size the temporary space required when you the BOOTSTRAP parameter is set to TRUE.
+</P>
+<A NAME="946489"></A>
+<P CLASS="BP">
+For example, when you install Oracle Universal Installer, Universal Installer sets the value of this parameter to to the temporary space required by both Universal Installer and the Java Runtime Environment (JRE).
+</P>
+<A NAME="946448"></A>
+<P CLASS="BP">
+By default, if the BOOTSTRAP_SIZE entry is not set, Universal Installer will assume 30MB for Windows computers and 54MB for UNIX computers. However, this value could vary from one major release to the other, based on the space required by newer versions of JRE.
+</P>
+<A NAME="946453"></A>
+<P CLASS="BP">
+If the shiphome contains advertisement images, the installation developers are expected to add the space taken by the images to this value.
+</P>
+<A NAME="946457"></A>
+<P CLASS="BP">
+OUI will check the temp space requirements before starting up and give an error if there is not enough space for OUI to run in bootstrap mode.
+</P>
+
+<DL CLASS="A1">
+<BR><FONT SIZE="-1" FACE="Arial, Helvetica, sans-serif"><A NAME="946433"></A><STRONG>OUI_VERSION = &lt;2.0.1.0.0&gt;</STRONG></FONT>
+</DL>
+ <A NAME="946126"></A>
+<P CLASS="BP">
+Set the version of the Oracle Universal Installer you are using. 
+</P>
+   
+<A NAME="946131">
+<DIV ALIGN="CENTER">
+<P>
+<TABLE CLASS="Note" BORDER="0" WIDTH="80%" CELLPADDING="0" CELLSPACING="0" dir="ltr" summary="This is a layout table to format a note" title="This is a layout table to format a note">
+<TR CLASS="Note"><TD CLASS="Note">
+<HR>
+<A NAME="946129"></A><FONT FACE="Arial, Helvetica, sans-serif"><STRONG CLASS="NH">Note:</STRONG></FONT>
+
+<A NAME="946130"></A>
+<P CLASS="NB">
+You must set the Universal Installer version correctly in order for the BOOTSTRAP parameter to work.
+<HR>
+</TD>
+</TR>
+
+
+</TABLE>
+
+
+</DIV>
+</A>
+   
+<DL CLASS="A1">
+
+<DT CLASS="A1"><FONT SIZE="-1" FACE="Arial, Helvetica, sans-serif"><A NAME="946133"></A><STRONG>USE_BUILD_NUMBER</STRONG></FONT>
+</DL>
+<A NAME="946134"></A>
+<P CLASS="BP">
+Use this parameter to control whether or not Universal Installer considers the build number of the component when determining whether or not to overwrite a previous version or the same version of a component.
+</P>
+
+<DL CLASS="A1">
+
+<DT CLASS="A1"><FONT SIZE="-1" FACE="Arial, Helvetica, sans-serif"><A NAME="946139"></A><STRONG>APPLTOP_STAGE</STRONG></FONT>
+</DL>
+<A NAME="946140"></A>
+<P CLASS="BP">
+Use this parameter when you want your users to specify the location of an Oracle Applications top (APPL_TOP) directory. When this parameter is set to true, the File Locations page will include fields for selecting an APPL_TOP directory.
+</P>
+
+<DL CLASS="A1">
+
+<DT CLASS="A1"><FONT SIZE="-1" FACE="Arial, Helvetica, sans-serif"><A NAME="946142"></A><STRONG>[IMAGES]</STRONG></FONT>
+</DL>
+<A NAME="946143"></A>
+<P CLASS="BP">
+To show advertisements during an install, you must specify each image as a separate variable.
+</P>
+
+<A NAME="946148"></A>
+<!--TOC=h2-"946148"-->
+<H3 CLASS="H2"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Sample ORAPARAM.INI</FONT></H3>
+<!--/TOC=h2-->
+<A NAME="946149"></A>
+<P CLASS="BP">
+A sample ORAPARAM.INI file is shown below.
+</P>
+    
+<PRE CLASS="CE">
+<A NAME="946150"></A>  
+<A NAME="946151"></A>[Oracle] 
+<A NAME="946153"></A>DISTRIBUTION=TRUE 
+<A NAME="946154"></A>#Set DISTRIBUTION to TRUE if the ORAPARAM.INI file is on a distribution media. A 
+distribution media can be a CD-ROM or the Web. 
+<A NAME="946155"></A>
+<A NAME="946157"></A>SOURCE=../stage/products.jar 
+<A NAME="946158"></A>#Location of the products.jar file. This location is relative to the directory 
+<A NAME="946159"></A>where oraparam.ini exists.
+<A NAME="946160"></A>
+<A NAME="946162"></A>LICENSE_LOCATION= 
+<A NAME="946163"></A>#Location of a text file for License information. This location is relative 
+<A NAME="946164"></A>to the directory where oraparam.ini exists. 
+<A NAME="946165"></A>#After you click the Next button on the Welcome page, the Oracle Universal 
+Installer will ask for license acceptance. If this file exists, the Oracle 
+Universal Installer will let the user proceed only after license is accepted. 
+<A NAME="946166"></A>
+<A NAME="946168"></A>JRE_LOCATION=../stage/Components/oracle/swd/jre/1.1.6.2.1o/2/DataFiles/Expanded
+<A NAME="946169"></A>/ojre 
+<A NAME="946170"></A>#Relative location to the Java Runtime Environment (JRE) which will be used by 
+the Oracle Universal Installer 
+<A NAME="946171"></A>
+<A NAME="946173"></A>OUI_LOCATION=../stage/Components/oracle/swd/oui/1.5.1.4.2/1/DataFiles/Expanded 
+<A NAME="946174"></A>#Relative location to the Oracle Universal Installer files 
+<A NAME="946175"></A>
+<A NAME="946177"></A>DEFAULT_HOME_NAME="OUIHome" 
+<A NAME="946178"></A>#The default name for the Oracle Home. This parameter is used only if the 
+install takes place on a machine with no previous Oracle installations. This 
+parameter is used only on Windows platforms. 
+<A NAME="946179"></A>
+<A NAME="946181"></A>HLP_LOCATION= 
+<A NAME="946182"></A>#For future use only
+<A NAME="946183"></A>
+<A NAME="946185"></A>EWT_LOCATION= 
+<A NAME="946186"></A>#For future use only 
+<A NAME="946187"></A>
+<A NAME="946189"></A>NLS_ENABLED=TRUE 
+<A NAME="946190"></A>#Set NLS_ENABLED to FALSE to disable the translations. The Oracle Universal 
+Installer displays in English even if you run on a non-English system. 
+<A NAME="946191"></A>
+<A NAME="946193"></A>JRE_MEMORY_OPTIONS=-ms16m -mx32m 
+<A NAME="946194"></A>#Set these to increase the initial heap size for JRE.  
+<A NAME="946195"></A>
+<A NAME="946197"></A>NO_BROWSE= 
+<A NAME="946198"></A>#list directories which you do not want to browse. These are typically 
+<A NAME="946199"></A>large directories which will take a long time to list. 
+<A NAME="946200"></A># =/net, /nfs 
+<A NAME="946201"></A>
+<A NAME="946202"></A>OUI_VERSION = &lt;1.7.0.1.0&gt;
+<A NAME="946203"></A>Set the version of the Oracle Universal Installer you are using. <STRONG CLASS="Bold">Note</STRONG>: you must 
+set the version correctly in order for the bootstrap to work.
+<A NAME="946204"></A>
+<A NAME="946205"></A>USE_BUILD_NUMBER=True
+<A NAME="946206"></A>When this parameter is set to true, Oracle Universal Installer will consider the 
+build number of the component when determining whether or not to overwrite a 
+previous version or the same version of a component.
+<A NAME="946207"></A>
+<A NAME="946208"></A>APPLTOP_STAGE=True
+<A NAME="946209"></A>Use this parameter when you want your users to specify the location of an Oracle 
+Applications top (APPL_TOP) directory. When this parameter is set to true, the 
+File Locations page will include fields for selecting an APPL_TOP directory.
+<A NAME="946210"></A>
+<A NAME="946211"></A>
+<A NAME="946212"></A>[IMAGES]
+<A NAME="946213"></A>FILE1=images/installAd0.gif
+<A NAME="946214"></A>FILE2=images/installAd1.gif
+</PRE>    <A NAME="946077"></A>
+<P CLASS="BP">
+
+</P>
+
+<A NAME="945748"></A>
+<!--TOC=h1-"945748"-->
+<H2 CLASS="H1"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Other Tips</FONT></H2>
+
+
+<!--/TOC=h1-->
+<A NAME="945749"></A>
+<P CLASS="BP">
+Make sure the correct version of the JRE is used from the PATH.
+</P>
+<A NAME="945750"></A>
+<P CLASS="BP">
+If Java cannot run applications from a Sun machine on an NCD X terminal (the Oracle Universal Installer does not start), remove the following file: 
+</P>
+    
+<PRE CLASS="CE">
+<A NAME="945751"></A>$JAVA_HOME/lib/font.properties
+<A NAME="945752"></A>
+</PRE>    <A NAME="945753"></A>
+<P CLASS="BP">
+X terminal emulators which were tested with the Oracle Universal Installer are listed below:
+</P>
+
+<UL CLASS="LB1">
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="945754"></A>Exceed 
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="945755"></A>Reflection X
+<P>
+
+<A NAME="945756"></A>
+<P CLASS="BP1">
+Refection X 6.2+: Select Settings/Window Manager/ Default Local Window Manager/ Reflection Window Manager. You may also have to select "X terminal desktop." 
+</P>
+
+<A NAME="945757"></A>
+<P CLASS="BP1">
+Reflection X 6.0: Select Connection/New XDMCP Connection/Connection Settings/Direct method/ type host destination and press connect.
+</P>
+</UL>
+<A NAME="945758"></A>
+<P CLASS="BP">
+If you are deleting an Oracle Home manually without using the Oracle Universal Installer, the products remain registered with the Oracle Universal Installer. You must then simulate a de-install so that all Oracle Universal Installer references are removed.
+</P>
+<A NAME="945762"></A>
+<P CLASS="BP">
+If the install is canceled:
+</P>
+
+<UL CLASS="LB1">
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="945763"></A>Products will not be registered with the Oracle Universal Installer
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="945764"></A>Some files may have been copied, depending on when you issued the Cancel.
+<P>
+</UL>
+
+
+
+
+
+
+<!-- Start Footer -->
+</DIV>
+
+<DIV CLASS="OUTD">
+<HR>
+
+
+
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+<TR>
+<TD VALIGN="BOTTOM" WIDTH="33%">
+<TABLE CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD ALIGN="CENTER"><A HREF="appa.htm"><IMG SRC="./larrow.gif" ALT="Go to previous page" BORDER="0" HEIGHT="30" WIDTH="30"></A></TD>
+
+<TD ALIGN="CENTER"><A HREF="index.htm"><IMG SRC="./rarrow.gif" ALT="Go to next page" BORDER="0" HEIGHT="30" WIDTH="30"></A></TD>
+    
+</TR>
+</TABLE>
+</TD>
+<TD ALIGN="CENTER" WIDTH="34%">
+<A HREF="cpyr.htm"><IMG SRC="./oracle.gif" ALT="Oracle" BORDER="0"><BR>
+<FONT SIZE="-2">Copyright &copy; 1996&#044; 2002 Oracle Corporation.</FONT></A>
+<BR>
+<FONT SIZE="-2">All Rights Reserved.</FONT>
+</TD>
+<TD VALIGN="BOTTOM" ALIGN="RIGHT" WIDTH="33%"> 
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="144">
+<TR>
+
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"></TD>
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"></TD>
+
+
+
+
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"><A HREF="toc.htm"><IMG SRC="./conticon.gif" ALT="Go To Table Of Contents" BORDER="0" HEIGHT="30"
+WIDTH="30"><BR>
+<FONT SIZE="-2">Contents</FONT></A></TD>
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"><A HREF="index.htm"><IMG SRC="./indxicon.gif" ALT="Go To Index" BORDER="0" HEIGHT="30"
+WIDTH="30"><BR>
+<FONT SIZE="-2">Index</FONT></A></TD>
+
+</TR>
+</TABLE>
+</TD>
+</TR>
+</TABLE>
+  
+</DIV>
+
+</BODY>
+</HTML>
+

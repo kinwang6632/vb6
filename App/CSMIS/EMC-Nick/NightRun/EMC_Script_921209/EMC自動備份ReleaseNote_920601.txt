@@ -1,0 +1,36 @@
+Release note: EMC每月Night-run自動備份重要資料的規則與程式
+
+* 原機制: 
+	EMC目前每月於工單自動月結(使用Night-run)後的第二天凌晨01:30, 也會使用Night-run自動備份整理過的客戶
+	基本資料/下收資料...等重要資料於某檔中, 並使用Oracle Snapshot備份至總公司. 
+	此備份程式名稱為: SP_BackupCustData.SQL
+	該檔案命名原則為: 系統台名稱+西曆年月 ==> 例: EMCYMS200305
+
+* 機制規則異動: 92.06.01 啟用
+	1. 檔案命名原則修改, 以便備份其他檔案時, 可以取不同的名稱. 各種備份檔案命名原則為:
+		系統台名稱_SO檔名_西曆年月 ==> 例: EMCYMS_SO001ALL_200305,  EMCYMS_SO004_200305
+
+	2. 原備份之客戶重要資料檔名稱因此由EMCYMS200305, 改成EMCYMS_SO001ALL_200305
+
+	3. 新增兩種重要資料的備份:
+		. 客戶設備資料檔: 每月將各SO的SO004(FaciCode之參考號為3,4者, STB & IC卡)備份起來, 
+			例: EMCYMS_SO004_200305
+		. 大樓客戶數檔: 每月將各SO的SO017中有關客戶數與合約期限資料等部份欄位備份起來, 
+			例: EMCYMS_SO017_200305
+
+* 後續動作:
+	1. 請RD修改備份程式SP_BackupCustData.SQL, 修改成上述規則
+	2. 請RD提供將修改後的備份程式掛上Night-run的排程程式, 例: StartBackupCustData_920601.sql
+	3. 請RD提供這些備份檔案的資料結構文件給Lawrence, Tows及其他PM
+	4. 請Lawrence於收到SP_BackupCustData.SQL後, 納入下次整體script檔release
+	5. 請KC派專人儘速將此新版備份機制做測試
+	6. 請Tows修改Snapshot設定, 將這些新的備份檔納入目前Snapshot機制內
+	7. 若測試ok後, 請KC派專人儘速將此新版備份機制設定至EMC各系統台
+	   	. 若先前已掛上Night-run, 則重新compile該支SP_BackupCustData後端程式即可
+		. 若先前未掛上Night-run, 則: (使用SQL*plus)
+			(1) compile該支SP_BackupCustData後端程式
+			(2) 將此備份程式掛上Oracle Night-run: 執行StartBackupCustData_920601.sql
+
+
+
+

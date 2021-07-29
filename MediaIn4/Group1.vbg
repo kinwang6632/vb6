@@ -1,0 +1,8 @@
+VBGROUP 5.0
+StartupProject=..\SO3000\prjSO3000.vbp
+Project=..\MediaOut4\MediaOut.vbp
+Project=MediaIn.vbp
+Project=..\CreditCardIn\CreditCardIn.vbp
+Project=..\CreditCardOut\CreditCardOutTCB\CreditCardOut.vbp
+Project=..\CreditCardOut\CreditCardOutEMC\CreditCardOutEMC.vbp
+Project=..\csBankCenter4\csBankCenter4.vbp

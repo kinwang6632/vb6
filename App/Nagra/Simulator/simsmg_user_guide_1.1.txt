@@ -1,0 +1,46 @@
+Copyright (c) Nagravision 1999-2000
+
+User guide for the 1.1 simsmg tool
+
+Description:
+Simsmg is the Nagravision SMS Gateway simulator tool.
+It has been designed to help the third party SMS integration tests.
+This tool works on both Unix and NT 4.0 workstation platform.
+
+Limitations:
+The handled SMS protocol is the one described in the 
+SMS Gateway interface definition version 2.6 Nagravision document (or so called EIS 2.6). 
+This tool holds only one SMS connection on the emm command port. No feedback command are
+generated.
+
+Prerequisite:
+NT 4.0 workstation:
+-the Perl 5.0 has been installed
+-the perl command is available through the path:
+setup the path on NT:
+click on "My computer" icone and select "Properties"
+click on "Environment"
+check the path environment variable for the current login
+if the path is not correct, redefine it using the "Variable" and "Value" fields
+set and apply
+make sure the path is properly defined by typing the "path" command in a DOS window
+
+Unix:
+-the Perl 4.0 or higher has been installed
+-the perl command is available through the path:
+using the tcsh shell, make sure the path variable is set in the ~/.cshrc file
+
+Run:
+NT 4.0 workstation:
+-open a DOS window
+-type the following command :
+perl simsmg -s (-s is used for synchronous and MUST be used)
+
+Unix:
+-open a terminal
+-type the following command:
+simsmg -s (-s is used for synchronous and MUST be used)
+
+Field format:
+The length of the ZIP CODE changes from one customer to the other. Make sure that the 
+'ZIP_CODE' length is properly defined in the ./protocol/sms_protocol.pl file

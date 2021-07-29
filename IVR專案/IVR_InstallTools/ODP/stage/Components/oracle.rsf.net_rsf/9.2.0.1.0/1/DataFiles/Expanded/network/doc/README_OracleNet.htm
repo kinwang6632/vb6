@@ -1,0 +1,652 @@
+
+<!DOCTYPE html public "-//w3c//dtd html 3.2 transitional//en.us">
+<HTML lang="en.us">
+<HEAD>
+
+<META NAME="Generator" CONTENT="Quadralay WebWorks Publisher 5.0.4">
+<META NAME="Page" CONTENT="Default">
+<META NAME="Title" CONTENT="">
+
+
+<TITLE></TITLE>
+	   
+
+
+
+<LINK REL="copyright" HREF="../../dcommon/html/cpyr.htm" TITLE="Copyright">
+
+
+
+
+
+</HEAD>
+       
+<BODY BGCOLOR="#ffffff">
+
+<A NAME="top"></A>
+
+
+
+
+<A HREF="#BEGIN">Skip Headers</A><BR><BR>
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+<TR>
+
+ 
+<TD ALIGN="LEFT" VALIGN="TOP"><FONT COLOR="#330099" FACE="Helvetica, Arial, sans-serif"><STRONG>Oracle9<i>i</i> Net Services README<BR>Release 2 (9.2)</STRONG></FONT></TD>
+<TD VALIGN="BOTTOM" ALIGN="RIGHT" WIDTH="144">
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+<TR>
+
+
+
+
+
+
+
+
+
+
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"></TD>
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"></TD>
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"></TD>
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"></TD>
+
+
+
+
+
+</TR>
+</TABLE>
+</TD>
+</TR>
+</TABLE>
+<HR>
+<P>
+
+
+
+    
+
+
+<A NAME="BEGIN"></A>
+
+
+
+<DIV CLASS="IND">
+<!-- End Header -->
+
+
+
+
+
+
+<STRONG CLASS="Bold">Oracle9</STRONG><EM CLASS="Italic">i</EM><STRONG CLASS="Bold"> Net Services README Release 2 (9.2)</STRONG>
+<DL CLASS="A1">
+
+<DT CLASS="A1"><FONT SIZE="-1" FACE="Arial, Helvetica, sans-serif"><A NAME="477196"></A><STRONG>Copyright &#169; 2002 Oracle Corporation. All rights reserved. </STRONG></FONT>
+</DL>
+<A NAME="506392"></A>
+<P CLASS="BP">
+The Programs (which include both the software and documentation) contain proprietary information of Oracle Corporation; they are provided under a license agreement containing restrictions on use and disclosure and are also protected by copyright, patent and other intellectual and industrial property laws. Reverse engineering, disassembly or decompilation of the Programs, except to the extent required to obtain interoperability with other independently created software or as specified by law, is prohibited.
+</P>
+<A NAME="506432"></A>
+<P CLASS="BP">
+The information contained in this document is subject to change without notice. If you find any problems in the documentation, please report them to us in writing. Oracle Corporation does not warrant that this document is error free. Except as may be expressly permitted in your license agreement for these Programs, no part of these Programs may be reproduced or transmitted in any form or by any means, electronic or mechanical, for any purpose, without the express written permission of Oracle Corporation. 
+</P>
+
+<DL CLASS="A1">
+
+<DT CLASS="A1"><FONT SIZE="-1" FACE="Arial, Helvetica, sans-serif"><A NAME="477214"></A><STRONG>RESTRICTED RIGHTS LEGEND:</STRONG></FONT>
+</DL>
+<A NAME="506483"></A>
+<P CLASS="BP">
+If the Programs are delivered to the US Government or anyone licensing or using the Programs on behalf of the US Government, the following notice is applicable:
+</P>
+
+<DL CLASS="A1">
+<BR><FONT SIZE="-1" FACE="Arial, Helvetica, sans-serif"><A NAME="506484"></A><STRONG>RESTRICTED RIGHTS NOTICE                                                              </STRONG></FONT>
+</DL>
+ <A NAME="506509"></A>
+<P CLASS="BP">
+Programs delivered subject to the DOD FAR Supplement are commercial computer software and use, duplication and disclosure of the Programs including documentation, shall be subject to the licensing restrictions set forth in the applicable Oracle license agreement. Otherwise, Programs delivered subject to the Federal Acquisition Regulations are 'restricted computer software' and use, duplication, and disclosure of the Programs shall be subject to the restrictions in FAR 52.227-19, Commercial Computer Software - Restricted Rights (June, 1987). Oracle Corporation, 500 Oracle Parkway, Redwood City, CA 94065. 
+</P>
+<A NAME="524706"></A>
+<P CLASS="BP">
+The Programs are not intended for use in any nuclear, aviation, mass transit, medical, or other inherently dangerous applications. It shall be licensee's responsibility to take all appropriate fail-safe, back up, redundancy and other measures to ensure the safe use of such applications if the Programs are used for such purposes, and Oracle Corporation disclaims liability for any damages caused by such use of the Programs. 
+</P>
+
+<DL CLASS="A1">
+<BR><FONT SIZE="-1" FACE="Arial, Helvetica, sans-serif"><A NAME="526289"></A><STRONG>TRADEMARKS</STRONG></FONT>
+</DL>
+ <A NAME="508596"></A>
+<P CLASS="BP">
+Oracle is a registered trademark, and Oracle9<EM CLASS="Italic">i</EM> and Oracle8<EM CLASS="Italic">i</EM> are trademarks or registered trademarks of Oracle Corporation. Other names may be trademarks of their respective owners.
+</P>
+<A NAME="477258"></A>
+<P CLASS="BP">
+All trade names referenced are the service mark, trademark, or registered trademark of the respective manufacturer.
+</P>
+<A NAME="557851"></A><FONT FACE="Arial, Helvetica, sans-serif"><STRONG CLASS="NH">Documentation Accessibility:</STRONG></FONT>
+<A NAME="557852"></A>
+<P CLASS="BP">
+
+</P>
+<A NAME="557853"></A>
+<P CLASS="BP">
+Our goal is to make Oracle products, services, and supporting documentation accessible, with good usability, to the disabled community. To that end, our documentation includes features that make information available to users of assistive technology. This documentation is available in HTML format, and contains markup to facilitate access by the disabled community. Standards will continue to evolve over time, and Oracle Corporation is actively engaged with other market-leading technology vendors to address technical obstacles so that our documentation can be accessible to all of our customers. For additional information, visit the Oracle Accessibility Program Web site at 
+</P>
+    
+<PRE CLASS="CE">
+<A NAME="557821"></A>http://www.oracle.com/accessibility/
+<A NAME="557862"></A>
+</PRE>    <A NAME="557827"></A><FONT FACE="Arial, Helvetica, sans-serif"><STRONG CLASS="NH">Accessibility of Code Examples in Documentation:</STRONG></FONT>
+<A NAME="557828"></A>
+<P CLASS="BP">
+
+</P>
+<A NAME="557829"></A>
+<P CLASS="BP">
+JAWS, a Windows screen reader, may not always correctly read the code examples in this document. The conventions for writing code require that closing braces should appear on an otherwise empty line; however, JAWS may not always read a line of text that consists solely of a bracket or brace. 
+</P>
+<A NAME="557834"></A><FONT FACE="Arial, Helvetica, sans-serif"><STRONG CLASS="NH">Accessibility of Links to External Web Sites in Documentation:</STRONG></FONT>
+<A NAME="557835"></A>
+<P CLASS="BP">
+
+</P>
+<A NAME="557836"></A>
+<P CLASS="BP">
+This documentation may contain links to Web sites of other companies or organizations that Oracle Corporation does not own or control. Oracle Corporation neither evaluates nor makes any representations regarding the accessibility of these Web sites.
+</P>
+<A NAME="516936"></A>
+<P CLASS="BP">
+-----------------------------------------------
+</P>
+<A NAME="515579"></A>
+<P CLASS="BP">
+<STRONG CLASS="Bold">CONTENTS</STRONG>
+</P>
+
+<DL CLASS="LS">
+
+<DT CLASS="LSF"><A NAME="556584"></A><A HREF="README_OracleNet.htm#556736">1  INTRODUCTION</a>
+
+<DT CLASS="LSF"><A NAME="549491"></A><A HREF="README_OracleNet.htm#555971">2  INSTALLATION</a>
+
+<DT CLASS="LSF"><A NAME="560664"></A><A HREF="README_OracleNet.htm#560164">3  DIRECTORY NAMING</a>
+
+<DT CLASS="LSF"><A NAME="560672"></A><A HREF="README_OracleNet.htm#560177">4  ORACLE NAMES LDAP PROXY SERVERS</a>
+
+<DT CLASS="LSF"><A NAME="560680"></A><A HREF="README_OracleNet.htm#561024">5  TRCROUTE UTILITY</a>
+
+<DT CLASS="LSF"><A NAME="560688"></A><A HREF="README_OracleNet.htm#560208">6  ORACLE NET CONFIGURATION ASSISTANT AND ORACLE NET MANAGER</a>
+
+<DT CLASS="LSF"><A NAME="561046"></A><A HREF="README_OracleNet.htm#561037">7  DOCUMENTATION ERRATA FOR ORACLE CONNECTION MANAGER</a>
+
+<DT CLASS="LSF"><A NAME="560716"></A><A HREF="README_OracleNet.htm#560297">8  NEW FEATURES AND OBSOLESCENCE</a>
+</DL>
+
+<A NAME="556736"></A>
+<!--TOC=h1-"556736"-->
+<H2 CLASS="H1"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099">1&#32; INTRODUCTION</FONT></H2>
+
+
+<!--/TOC=h1-->
+<A NAME="560042"></A>
+<P CLASS="BP">
+This README file is relevant only to the delivered Oracle Net Services release 2 (9.2) product. This README documents any differences between the Oracle Net Services and its documented functionality, as well as known problems and workarounds. Operating system releases, such as UNIX, Windows NT, and so on, often provide an Oracle operating system-specific README document. 
+</P>
+<A NAME="503885"></A>
+<P CLASS="BP">
+For information about upgrading, downgrading, and migration, see Oracle9<EM CLASS="Italic">i</EM> <EM CLASS="Italic">Database Migration</EM>.
+</P>
+<A NAME="560014"></A>
+<P CLASS="BP">
+Oracle Net Services is the foundation of Oracle's family of networking products, providing the industry's most comprehensive, enterprise-wide data access solution for the heterogeneous distributed computing environments. It enables both client/server and server/server communications across any network. Oracle Net Services offers the following benefits: 
+</P>
+
+<UL CLASS="LB1">
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="560015"></A>Network scalability and performance 
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="560016"></A>Network load balancing 
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="560017"></A>Integrated administration with graphical configuration tools 
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="560018"></A>Directory naming solutions 
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="560019"></A>Configuration flexibility 
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="560020"></A>Comprehensive platform support 
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="560021"></A>Multiple protocol support
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="560022"></A>Comprehensive tracing and diagnostics 
+<P>
+</UL>
+
+<A NAME="555971"></A>
+<!--TOC=h1-"555971"-->
+<H2 CLASS="H1"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099">2&#32; INSTALLATION</FONT></H2>
+
+
+<!--/TOC=h1-->
+<A NAME="560096"></A>
+<P CLASS="BP">
+A release 9.2 listener is required for an Oracle9<EM CLASS="Italic">i</EM> release 2 (9.2) database. Previous versions of the listener are not supported for use with an Oracle9<EM CLASS="Italic">i</EM> release 2 (9.2) database. However, it is possible to use a release 9.2 listener with previous releases of the database. 
+</P>
+   
+<A NAME="560100">
+<DIV ALIGN="CENTER">
+<P>
+<TABLE CLASS="NoteAlso" BORDER="0" WIDTH="80%" CELLPADDING="0" CELLSPACING="0" dir="ltr" summary="This is a layout table to format a note" title="This is a layout table to format a note">
+<TR CLASS="NoteAlso"><TD CLASS="NoteAlso">
+<A NAME="560103"></A><FONT FACE="Arial, Helvetica, sans-serif"><STRONG CLASS="NH">See Also:</STRONG></FONT>
+
+<A NAME="560104"></A>
+<P CLASS="NB">
+Oracle operating system-specific documentation for more information about client and server installations.
+</TD>
+</TR>
+
+</TABLE>
+
+
+</DIV>
+
+</A>
+   
+<A NAME="560164"></A>
+<!--TOC=h1-"560164"-->
+<H2 CLASS="H1"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099">3&#32; DIRECTORY NAMING</FONT></H2>
+
+
+<!--/TOC=h1-->
+<A NAME="560854"></A>
+<P CLASS="BP">
+Directory naming support in this release enables configuration of a root Oracle Context in an Oracle Internet Directory (<CODE>dn:cn=OracleContext</CODE>). However, directory naming support in Oracle8<EM CLASS="Italic">i</EM> release 8.1.7 and 8.1.6 does not support an Oracle Context at the root of the directory. To ensure that directory naming works for both Oracle9<EM CLASS="Italic">i</EM> and Oracle8<EM CLASS="Italic">i</EM> clients, use an Oracle Context that is not located directly under the root of the directory.
+</P>
+<A NAME="560166"></A>
+<P CLASS="BP">
+[Reference Bugs 1784971 and 1777306]
+</P>
+   
+<A NAME="560175">
+<DIV ALIGN="CENTER">
+<P>
+<TABLE CLASS="NoteAlso" BORDER="0" WIDTH="80%" CELLPADDING="0" CELLSPACING="0" dir="ltr" summary="This is a layout table to format a note" title="This is a layout table to format a note">
+<TR CLASS="NoteAlso"><TD CLASS="NoteAlso">
+<A NAME="560170"></A><FONT FACE="Arial, Helvetica, sans-serif"><STRONG CLASS="NH">See Also:</STRONG></FONT>
+
+<A NAME="560174"></A>
+<P CLASS="NB">
+<A HREF="README_OracleNet.htm#560210">"Oracle Net Configuration Assistant"</a>
+</TD>
+</TR>
+
+</TABLE>
+
+
+</DIV>
+
+</A>
+   
+<A NAME="560177"></A>
+<!--TOC=h1-"560177"-->
+<H2 CLASS="H1"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099">4&#32; ORACLE NAMES LDAP PROXY SERVERS</FONT></H2>
+
+
+<!--/TOC=h1-->
+<A NAME="560179"></A>
+<P CLASS="BP">
+For complex migrations, the Oracle Names Control utility's <CODE>DUMP_LDAP</CODE> command enables migration from an Oracle Names domain structured directory to an LDAP-compliant directory server with a directory information tree (DIT) structure. The hierarchical structure for each of these systems is comparable, and it is possible for any domain tree to be replicated in the DIT. The <CODE>DUMP_LDAP</CODE> command also enables rearrangement of the tree structure during migration, from any domain structure to any possible other DIT structure.
+</P>
+<A NAME="560180"></A>
+<P CLASS="BP">
+Oracle Names LDAP Proxy servers, which are used after the data is migrated into a directory server, rely on topology checkpoint files. Checkpoint files are generated from the old Oracle Names administrative region as source topology data for the proxy server. This topology data defines the region structure for all Oracle Names servers or Oracle Names LDAP Proxy servers. Every region has a single topology definition; each server's topology checkpoint file should be an identical replica of this definition. By default, the topology checkpoint file has a file name of <CODE>cktop.ora</CODE> and resides in the <CODE>$ORACLE_HOME/network/names</CODE> on UNIX, and the <EM><CODE>ORACLE_HOME</CODE></EM><CODE>\network\names</CODE> on Windows NT. 
+</P>
+<A NAME="560181"></A>
+<P CLASS="BP">
+Most cases of migration from multiple administrative regions in Oracle Names to a DIT structure that is not the same requires modification of the region structure in the topology file. Region restructuring occurs if changes are made to domains which are definitive elements of the topology, or if the region boundaries are altered. Every possible case of domain restructuring may or may not require region restructuring. For instance, in a single-region network you can change the domain structure without requiring a topology change. The following constitute a topology change:
+</P>
+
+<UL CLASS="LB1">
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="560182"></A>Addition or removal of any Oracle Names servers, as well as modification of an Oracle Names server's name or protocol address 
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="560183"></A>Modification of domain definitions for an administrative region or its delegated administrative regions 
+<P>
+  
+<A NAME="560188">
+<DIV ALIGN="CENTER">
+<P>
+<TABLE CLASS="Note" BORDER="0" WIDTH="80%" CELLPADDING="0" CELLSPACING="0" dir="ltr" summary="This is a layout table to format a note" title="This is a layout table to format a note">
+<TR CLASS="Note"><TD CLASS="Note">
+<HR>
+<A NAME="560186"></A><FONT FACE="Arial, Helvetica, sans-serif"><STRONG CLASS="NH">Note:</STRONG></FONT>
+
+<A NAME="560187"></A>
+<P CLASS="NB">
+All domains that are defined by the <CODE>NAMES.DOMAINS</CODE> parameter in the <CODE>names.ora</CODE> file must also be defined in the topology. 
+<HR>
+</TD>
+</TR>
+
+
+</TABLE>
+
+
+</DIV>
+</A>
+  </UL>
+<A NAME="561020"></A>
+<P CLASS="BP">
+Oracle Net Services tools do not currently support topology modification. However, topology definitions can be modified manually by editing the topology checkpoint files, according to the rules described in <CODE><A HREF="http://metalink.oracle.com/cgi-bin/cr/getfile_cr.cgi?283548">http://metalink.oracle.com/cgi-bin/cr.cgi?283548</a></CODE>. Using existing topology files as a template, you can set up an Oracle Names LDAP Proxy server to support any region structure allowed for a given DIT.
+</P>
+
+<A NAME="561024"></A>
+<!--TOC=h1-"561024"-->
+<H2 CLASS="H1"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099">5&#32; TRCROUTE UTILITY</FONT></H2>
+
+
+<!--/TOC=h1-->
+<A NAME="560205"></A>
+<P CLASS="BP">
+The TRCROUTE utility for UNIX operating systems enables administrators to discover what Oracle Net Services route a connection takes from a client to a database server. If there is an address list containing <CODE>SOURCE_ROUTE=on</CODE>, as is the case with Oracle Connection Manager where there is more than one hop to the database server, this utility does not work.
+</P>
+<A NAME="560206"></A>
+<P CLASS="BP">
+[Reference Bug 2147202]
+</P>
+
+<A NAME="560208"></A>
+<!--TOC=h1-"560208"-->
+<H2 CLASS="H1"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099">6&#32; ORACLE NET CONFIGURATION ASSISTANT AND ORACLE NET MANAGER </FONT></H2>
+
+
+<!--/TOC=h1-->
+
+<A NAME="560210"></A>
+<!--TOC=h2-"560210"-->
+<H3 CLASS="H2"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099">6.1&#32; Oracle Net Configuration Assistant</FONT></H3>
+<!--/TOC=h2-->
+
+<UL CLASS="LB1">
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="560211"></A>A root Oracle Context (<CODE>dn:cn=OracleContext</CODE>) is created by default with the current release of Oracle Internet Directory. Because directory naming support in Oracle8<EM CLASS="Italic">i</EM> release 8.1.7 and 8.1.6 does not support an Oracle Context at the root of the directory, release 8.1.7 and 8.1.6 clients will take an exception during directory usage configuration with the Net8 Configuration Assistant. 
+<P>
+
+<A NAME="560212"></A>
+<P CLASS="BP1">
+To configure directory usage for release 8.1.7 and 8.1.6 clients:
+</P>
+
+<OL CLASS="LN2" TYPE="1">
+
+<LI CLASS="LN2" TYPE="1" VALUE="1"><A NAME="560213"></A>Configure directory usage with Oracle Net Configuration Assistant from a release 9.2 Oracle home.
+<P>
+
+<LI CLASS="LN2" TYPE="1" VALUE="2"><A NAME="560214"></A>Copy the created <CODE>ldap.ora</CODE> file to the release 8.1.7 and 8.1.6 clients. 
+<P>
+
+<A NAME="560215"></A>
+<P CLASS="BP2">
+<CODE>ldap.ora</CODE> resides in <CODE>$ORACLE_HOME/network/admin</CODE> on UNIX, and <EM><CODE>ORACLE_HOME</CODE></EM><CODE>\network\admin</CODE> directory on Windows operating systems.
+</P>
+
+<A NAME="561226"></A>
+<P CLASS="BP2">
+[Reference Bugs 1777306 and1784971]
+</P>
+
+<A NAME="561234">
+<DIV ALIGN="CENTER">
+<P>
+<TABLE CLASS="NoteAlso" BORDER="0" WIDTH="80%" CELLPADDING="0" CELLSPACING="0" dir="ltr" summary="This is a layout table to format a note" title="This is a layout table to format a note">
+<TR CLASS="NoteAlso"><TD CLASS="NoteAlso">
+<A NAME="561229"></A><FONT FACE="Arial, Helvetica, sans-serif"><STRONG CLASS="NH">See Also:</STRONG></FONT>
+
+<A NAME="561233"></A>
+<P CLASS="NB">
+<A HREF="README_OracleNet.htm#560164">"DIRECTORY NAMING"</a>
+</TD>
+</TR>
+
+</TABLE>
+
+
+</DIV>
+
+</A>
+ 
+</OL>
+</UL>
+<A NAME="561238"></A>
+<P CLASS="BP">
+
+</P>
+
+<UL CLASS="LB1">
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="561235"></A>The <STRONG CLASS="Bold">Create additional or upgrade existing Oracle Context</STRONG> option in the Directory Usage Configuration page does not upgrade enterprise roles or domain entries set up with a release 8.1 Oracle Context. In this case, you must create a new Oracle Context and re-create the security information. 
+<P>
+  
+<A NAME="560233">
+<DIV ALIGN="CENTER">
+<P>
+<TABLE CLASS="NoteAlso" BORDER="0" WIDTH="80%" CELLPADDING="0" CELLSPACING="0" dir="ltr" summary="This is a layout table to format a note" title="This is a layout table to format a note">
+<TR CLASS="NoteAlso"><TD CLASS="NoteAlso">
+<A NAME="560231"></A><FONT FACE="Arial, Helvetica, sans-serif"><STRONG CLASS="NH">See Also:</STRONG></FONT>
+
+<A NAME="560232"></A>
+<P CLASS="NB">
+<EM CLASS="Italic">Oracle Advanced Security Administrator's Guide</EM>
+</TD>
+</TR>
+
+</TABLE>
+
+
+</DIV>
+
+</A>
+  </UL>
+<A NAME="561239"></A>
+<P CLASS="BP">
+
+</P>
+
+<UL CLASS="LB1">
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="560234"></A>If you delete a listener's configuration, it is not possible to administer the listener. Therefore, ensure that the listener is stopped prior to deleting it's configuration.
+<P>
+</UL>
+
+<A NAME="560235"></A>
+<!--TOC=h2-"560235"-->
+<H3 CLASS="H2"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099">6.2&#32; Oracle Net Manager</FONT></H3>
+<!--/TOC=h2-->
+
+<UL CLASS="LB1">
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="560236"></A>When configuring directory usage configuration, it is not possible to specify directory entries that use multibyte characters. 
+<P>
+
+<A NAME="560237"></A>
+<P CLASS="BP1">
+[Reference Bug 1102675]
+</P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="560238"></A>Oracle Net Manager does not display all entries stored in a <CODE>tnsnames.ora</CODE> file or in an LDAP-compliant directory server. A net service name must contain a complete connect descriptor, including description, protocol address, and connect data information. 
+<P>
+
+<A NAME="560239"></A>
+<P CLASS="BP1">
+The following example shows a net service name called <CODE>sales</CODE> that contains a protocol address and connection information to a database named <CODE>sales.us.acme.com</CODE>. 
+</P>
+
+<A NAME="560240"></A>
+<P CLASS="BP1">
+This information displays in Oracle Net Manager.
+</P>
+   
+<PRE CLASS="CE1">
+<A NAME="560241"></A>sales= 
+<A NAME="560242"></A>(DESCRIPTION= 
+<A NAME="560243"></A>  (ADDRESS=(PROTOCOL=tcp)(HOST=sales-server)(PORT=1521))
+<A NAME="560244"></A>  (CONNECT_DATA=
+<A NAME="560245"></A>    (SERVICE_NAME=sales.us.acme.com)))
+<A NAME="560246"></A>
+</PRE>
+   
+<A NAME="560247"></A>
+<P CLASS="BP1">
+Some entries created by Database Configuration Assistant contain only address information. The following example shows an entry that is not a net service name, but rather a named address. 
+</P>
+
+<A NAME="560248"></A>
+<P CLASS="BP1">
+The named address of <CODE>listener1</CODE> only contains listener protocol address information. This named address does not display in Oracle Net Manager, but can still be used to resolve <CODE>listener1</CODE> to a list of protocol addresses. Named addresses are used mainly to identify nondefault local listeners or remote listeners. 
+</P>
+   
+<PRE CLASS="CE1">
+<A NAME="560249"></A>listener1= 
+<A NAME="560250"></A> (ADDRESS_LIST=
+<A NAME="560251"></A>   (ADDRESS=(PROTOCOL=tcp)(HOST=sales1-server)(PORT=1521))
+<A NAME="560252"></A>   (ADDRESS=(PROTOCOL=tcp)(HOST=sales2-server)(PORT=1521)))
+</PRE>
+  
+<A NAME="561240">
+<DIV ALIGN="CENTER">
+<P>
+<TABLE CLASS="NoteAlso" BORDER="0" WIDTH="80%" CELLPADDING="0" CELLSPACING="0" dir="ltr" summary="This is a layout table to format a note" title="This is a layout table to format a note">
+<TR CLASS="NoteAlso"><TD CLASS="NoteAlso">
+<A NAME="560256"></A><FONT FACE="Arial, Helvetica, sans-serif"><STRONG CLASS="NH">See Also:</STRONG></FONT>
+
+<A NAME="560257"></A>
+<P CLASS="NB">
+Chapter 12, "Configuring and Administering the Listener," in the <EM CLASS="Italic">Oracle9i Net Services Administrator's Guide</EM> for further information about configuring a listener that uses a nondefault address.
+</TD>
+</TR>
+
+</TABLE>
+
+
+</DIV>
+
+</A>
+ </UL>
+<A NAME="561243"></A>
+<P CLASS="BP">
+
+</P>
+
+<UL CLASS="LB1">
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="560259"></A>If you delete a listener's configuration, it is not possible to administer the listener. Therefore, ensure that the listener is stopped prior to deleting it's configuration.
+<P>
+</UL>
+
+<A NAME="561037"></A>
+<!--TOC=h1-"561037"-->
+<H2 CLASS="H1"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099">7&#32; DOCUMENTATION ERRATA FOR ORACLE CONNECTION MANAGER</FONT></H2>
+
+
+<!--/TOC=h1-->
+<A NAME="561038"></A>
+<P CLASS="BP">
+This section describes documentation errata for Oracle Connection Manager:
+</P>
+
+<UL CLASS="LB1">
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="561039"></A>The <CODE>TRACE_TIMESTAMP</CODE> parameter adds a time stamp in the form of <EM><CODE>dd</CODE></EM><CODE>-</CODE><EM><CODE>mon</CODE></EM><CODE>-</CODE><EM><CODE>yyyy</CODE></EM><CODE> </CODE><EM><CODE>hh</CODE></EM><CODE>:</CODE><EM><CODE>mi</CODE></EM><CODE>:</CODE><EM><CODE>ss</CODE></EM><CODE>:</CODE><EM><CODE>mil</CODE></EM> to trace events in the <CODE>cman_</CODE><EM><CODE>pid</CODE></EM><CODE>.trc</CODE> file on UNIX or the <CODE>cman</CODE><EM><CODE>pid</CODE></EM><CODE>.trc</CODE> on Windows NT. This parameter does not impact events in the <CODE>cmadmin_</CODE><EM><CODE>pid</CODE></EM><CODE>.trc</CODE> file on UNIX or the <CODE>cmadmin</CODE><EM><CODE>pid</CODE></EM><CODE>.trc</CODE> file on Windows NT, as is documented in both the <EM CLASS="Italic">Oracle9i Net Services Administrator's Guide</EM> and the <EM CLASS="Italic">Oracle9i Net Services Reference Guide</EM>.
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="561040"></A>The parameter to enable tracing in the <CODE>cman.ora</CODE> file is documented as <CODE>TRACE_LEVEL</CODE> in Chapter 17, "Troubleshooting Oracle Net Services," of the <EM CLASS="Italic">Oracle9i Net Services Administrator's Guide</EM>. The correct parameter name is <CODE>TRACING</CODE>. A value of <CODE>yes</CODE> enables tracing for the CMGW and CMADMIN processes. The CMGW process creates a trace file called <CODE>cman_</CODE><EM><CODE>pid</CODE></EM><CODE>.trc</CODE>, and the CMADMIN process creates a trace file called <CODE>cmadm_</CODE><EM><CODE>pid</CODE></EM><CODE>.trc</CODE>. A value of <CODE>no</CODE> disables tracing.
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="561041"></A>The <CODE>SET TRACE_LEVEL</CODE> and <CODE>SET TRACE_DIRECTORY</CODE> commands for the Oracle Connection Manager Control utility have not been implemented, as described in Chapter 17, "Troubleshooting Oracle Net Services," of the <EM CLASS="Italic">Oracle9i Net Services Administrator's Guide</EM>. 
+<P>
+</UL>
+
+<A NAME="560297"></A>
+<!--TOC=h1-"560297"-->
+<H2 CLASS="H1"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099">8&#32; NEW FEATURES AND OBSOLESCENCE</FONT></H2>
+
+
+<!--/TOC=h1-->
+<A NAME="560298"></A>
+<P CLASS="BP">
+The "What's New" section of <EM CLASS="Italic">Oracle9i Net Services Administrator's Guide</EM> describes new features of Oracle Net Services and provides pointers to additional information. It also describes features no longer supported. 
+</P>
+<A NAME="560299"></A>
+<P CLASS="BP">
+Appendix B, "Commands and Parameters Not Supported in This Release," of the <EM CLASS="Italic">Oracle9i Net Services Administrator's Guide </EM>provides detailed information about the control utility and networking parameters no longer supported. 
+</P>
+
+
+
+
+
+
+<!-- Start Footer -->
+</DIV>
+
+<DIV CLASS="OUTD">
+<HR>
+
+
+
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+<TR>
+<TD VALIGN="BOTTOM" WIDTH="33%">
+<TABLE CELLSPACING="0" CELLPADDING="0">
+<TR>
+
+
+
+    
+</TR>
+</TABLE>
+</TD>
+<TD ALIGN="CENTER" WIDTH="34%">
+<A HREF="dcommon/html/cpyr.htm"><IMG SRC="dcommon/gifs/oracle.gif" ALT="Oracle" BORDER="0"><BR>
+<FONT SIZE="-2">Copyright &copy; 2001&#044; 2002 Oracle Corporation.</FONT></A>
+<BR>
+<FONT SIZE="-2">All Rights Reserved.</FONT>
+</TD>
+<TD VALIGN="BOTTOM" ALIGN="RIGHT" WIDTH="33%"> 
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="144">
+<TR>
+
+
+
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"></TD>
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"></TD>
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"></TD>
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"></TD>
+
+
+
+
+
+</TR>
+</TABLE>
+</TD>
+</TR>
+</TABLE>
+  
+</DIV>
+
+</BODY>
+</HTML>
+

@@ -1,0 +1,28 @@
+Y JACKAL Jackal 7 開博 v30 v30 mis C 127.0.0.1
+
+
+Y JACKAL Jackal 9 陽明山有線電視 ymstest ymstest emcyms C 127.0.0.1
+
+
+Y JACKAL Jackal 13 新唐城有線 emctc emctc emctc C 127.0.0.1
+
+
+Y JACKAL Jackal 6 豐盟有線 emcfm emcfm emcfm C 127.0.0.1
+
+Y JACKAL Jackal 1 觀昇有線 emcks emcks emcks C 127.0.0.1
+
+
+
+SELECT * FROM SO033 WHERE COMPCODE=7 AND CitemCode IN(103)  AND 
+(RealDate BETWEEN to_date('2003/01/01 00:00:01','YYYY/MM/DD HH24:MI:SS') AND 
+to_date('2003/01/31 23:59:59','YYYY/MM/DD HH24:MI:SS'))  ORDER BY CitemCode
+
+
+SELECT * FROM SO131 WHERE COMPUTEYM='09201' AND RealOrShouldDate=0
+
+
+SELECT * FROM SO033 WHERE COMPCODE=7 AND CitemCode IN(103)  AND (RealDate BETWEEN to_date('2003/01/01 00:00:01','YYYY/MM/DD HH24:MI:SS') AND to_date('2003/01/31 23:59:59','YYYY/MM/DD HH24:MI:SS'))  ORDER BY CitemCode
+
+
+
+CANCEL

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BroadcastData SYSTEM "BroadcastData.dtd">
+<BroadcastData creationDate="20060316024349">
+  <ProviderInfo>
+    <ProviderId>Nagra</ProviderId>
+    <ProviderName>Nagravision S.A.</ProviderName>
+  </ProviderInfo>
+  <ScheduleData>
+    <ChannelPeriod beginTime="20060316160000" endTime="20060321160000">
+      <ChannelId>501</ChannelId>
+      <Event beginTime="20060316160000" duration="86400">
+        <EventId>L00000047479</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>東森電影院-17</Name>
+            <Description>1.老大靠邊閃 (護)
+2.流星撞地球 (普)
+3.蝙蝠俠 (普)
+4.午夜狂奔 (護)
+5.心火 (護)
+6.電影奇譚 (普)</Description>
+            <ExtendedInfo name="導演">克里斯湯普森, 提姆波頓, 哈洛雷米斯</ExtendedInfo>
+            <ExtendedInfo name="演員">傑克尼柯遜, 凱文貝肯, 勞勃狄尼洛, 金貝辛格, 梅莉史翠普, 比利克里斯托, 米高基頓</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Movie Show - 17</Name>
+            <Description>1.Analyze This (PP)
+2.Meteorites! (G)
+3.Batman (G)
+4.Midnight Run (PP)
+5.Heartburn (PP)
+6.The Big Picture (G)</Description>
+            <ExtendedInfo name="導演">Tim Burton, Harold Ramis, Chris Thompson</ExtendedInfo>
+            <ExtendedInfo name="演員">Robert DeNiro, Jack Nicholson, Michael Keaton, Kevin Bacon, Billy Crystal, Kim Basinger, Meryl Streep</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>6</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060317160000" duration="86400">
+        <EventId>L00000047481</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>東森電影院-18</Name>
+            <Description>1.老大靠邊閃 (護)
+2.流星撞地球 (普)
+3.蝙蝠俠 (普)
+4.午夜狂奔 (護)
+5.心火 (護)
+6.電影奇譚 (普)</Description>
+            <ExtendedInfo name="導演">提姆波頓, 哈洛雷米斯, 克里斯湯普森</ExtendedInfo>
+            <ExtendedInfo name="演員">傑克尼柯遜, 比利克里斯托, 凱文貝肯, 金貝辛格, 米高基頓, 勞勃狄尼洛, 梅莉史翠普</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Movie Show - 18</Name>
+            <Description>1.Analyze This (PP)
+2.Meteorites! (G)
+3.Batman (G)
+4.Midnight Run (PP)
+5.Heartburn (PP)
+6.The Big Picture (G)</Description>
+            <ExtendedInfo name="導演">Chris Thompson, Harold Ramis, Tim Burton</ExtendedInfo>
+            <ExtendedInfo name="演員">Meryl Streep, Billy Crystal, Kim Basinger, Jack Nicholson, Michael Keaton, Robert DeNiro, Kevin Bacon</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>6</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060318160000" duration="86400">
+        <EventId>L00000047483</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>東森電影院-19</Name>
+            <Description>1.老大靠邊閃 (護)
+2.流星撞地球 (普)
+3.蝙蝠俠 (普)
+4.午夜狂奔 (護)
+5.心火 (護)
+6.電影奇譚 (普)</Description>
+            <ExtendedInfo name="導演">提姆波頓, 克里斯湯普森, 哈洛雷米斯</ExtendedInfo>
+            <ExtendedInfo name="演員">傑克尼柯遜, 梅莉史翠普, 凱文貝肯, 勞勃狄尼洛, 米高基頓, 金貝辛格, 比利克里斯托</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Movie Show - 19</Name>
+            <Description>1.Analyze This (PP)
+2.Meteorites! (G)
+3.Batman (G)
+4.Midnight Run (PP)
+5.Heartburn (PP)
+6.The Big Picture (G)</Description>
+            <ExtendedInfo name="導演">Harold Ramis, Chris Thompson, Tim Burton</ExtendedInfo>
+            <ExtendedInfo name="演員">Meryl Streep, Jack Nicholson, Robert DeNiro, Michael Keaton, Kim Basinger, Kevin Bacon, Billy Crystal</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>6</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060319160000" duration="86400">
+        <EventId>L00000047485</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>東森電影院-20</Name>
+            <Description>1.老大靠邊閃 (護)
+2.流星撞地球 (普)
+3.蝙蝠俠 (普)
+4.午夜狂奔 (護)
+5.心火 (護)
+6.電影奇譚 (普)</Description>
+            <ExtendedInfo name="導演">提姆波頓, 克里斯湯普森, 哈洛雷米斯</ExtendedInfo>
+            <ExtendedInfo name="演員">金貝辛格, 凱文貝肯, 梅莉史翠普, 傑克尼柯遜, 米高基頓, 比利克里斯托, 勞勃狄尼洛</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Movie Show - 20</Name>
+            <Description>1.Analyze This (PP)
+2.Meteorites! (G)
+3.Batman (G)
+4.Midnight Run (PP)
+5.Heartburn (PP)
+6.The Big Picture (G)</Description>
+            <ExtendedInfo name="導演">Harold Ramis, Tim Burton, Chris Thompson</ExtendedInfo>
+            <ExtendedInfo name="演員">Michael Keaton, Jack Nicholson, Meryl Streep, Robert DeNiro, Billy Crystal, Kim Basinger, Kevin Bacon</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>6</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+      <Event beginTime="20060320160000" duration="86400">
+        <EventId>L00000047487</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>東森電影院-21</Name>
+            <Description>1.老大靠邊閃 (護)
+2.流星撞地球 (普)
+3.蝙蝠俠 (普)
+4.午夜狂奔 (護)
+5.心火 (護)
+6.電影奇譚 (普)</Description>
+            <ExtendedInfo name="導演">克里斯湯普森, 提姆波頓, 哈洛雷米斯</ExtendedInfo>
+            <ExtendedInfo name="演員">金貝辛格, 凱文貝肯, 傑克尼柯遜, 勞勃狄尼洛, 比利克里斯托, 梅莉史翠普, 米高基頓</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>Movie Show - 21</Name>
+            <Description>1.Analyze This (PP)
+2.Meteorites! (G)
+3.Batman (G)
+4.Midnight Run (PP)
+5.Heartburn (PP)
+6.The Big Picture (G)</Description>
+            <ExtendedInfo name="導演">Harold Ramis, Chris Thompson, Tim Burton</ExtendedInfo>
+            <ExtendedInfo name="演員">Billy Crystal, Kim Basinger, Kevin Bacon, Robert DeNiro, Jack Nicholson, Michael Keaton, Meryl Streep</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>6</ParentalRating>
+          <DvbContent>
+            <Content nibble1="1" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+    </ChannelPeriod>
+  </ScheduleData>
+</BroadcastData>

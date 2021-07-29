@@ -1,0 +1,180 @@
+
+
+北桃園 oracle sid: ntymis user:emcnty ip:172.16.33.201
+
+http://oce.ntut.edu.tw
+
+STB:119118269607
+ICC:116019444654
+
+============================================================================
+41           限制級電影頻道
+43           幼幼ABC-A
+44           幼幼ABC-B
+45           幼幼ABC-C
+46           尼可兒童頻道
+47           數位慈濟大愛
+48           東森戲曲頻道
+49           東森女性學苑頻道
+50           東森高爾夫頻道
+51           東森健康醫療頻道
+57           成人情色全餐
+60           境外頻道
+62           數位音樂&資訊
+9            彩虹頻道
+============================================================================
+
+update send_nagra set seqno=seqno+1000, cmd_Status='W', resenttimes=0,ERR_CODE = NULL, ERR_MSG=NULL ;
+update send_nagra set seqno=rownum, cmd_Status='W', resenttimes=0,ERR_CODE = NULL, ERR_MSG=NULL ;
+
+commit;
+select cmd_Status,count(*) from send_nagra group by cmd_Status;
+
+insert into send_nagra select * from send_nagra;
+update send_nagra set cmd_status='W', resenttimes=0 where cmd_status<>'C';
+
+delete CaCallbackData;
+select count(*) from CaCallbackData;
+select count(*) from CaSeqNoTransNumMappingData;
+
+select ERR_CODE, ERR_MSG from send_nagra where ERR_MSG<>'';
+select ERR_CODE, ERR_MSG from send_nagra where CMD_STATUS='E';
+select cmd_status, ERR_CODE, ERR_MSG, seqno, resenttimes from send_nagra where seqno=488;
+select ERR_CODE, ERR_MSG from send_nagra where resenttimes<4 and cmd_Status='P';
+
+512 筆 => 57:09 ~ 00:10
+512 筆 => 26:45
+
+
+//開機 => A1
+insert into send_nagra(HIGH_LEVEL_CMD_ID,ICC_NO,STB_NO,CMD_STATUS,OPERATOR,SEQNO,COMPCODE)
+values('A1','1160194446','1191182696','W','howard',124,9);
+
+//關機 => A2
+insert into send_nagra(HIGH_LEVEL_CMD_ID,ICC_NO,CMD_STATUS,OPERATOR,SEQNO,COMPCODE)
+values('A2','1160194446','W','howard',124,9);
+
+
+//停機 => A3
+insert into send_nagra(HIGH_LEVEL_CMD_ID,ICC_NO,CMD_STATUS,OPERATOR,SEQNO,COMPCODE)
+values('A3','1160194446','W','howard',124,9);
+
+
+//復機 => A4
+insert into send_nagra(HIGH_LEVEL_CMD_ID,ICC_NO,CMD_STATUS,OPERATOR,SEQNO,COMPCODE)
+values('A4','1160194446','W','howard',124,9);
+
+//開頻道 (多組)=> B1
+insert into send_nagra(HIGH_LEVEL_CMD_ID,ICC_NO,STB_NO,CMD_STATUS,NOTES, OPERATOR,SEQNO,COMPCODE, 
+SUBSCRIPTION_BEGIN_DATE,SUBSCRIPTION_END_DATE)
+values('B1','1160194446','1191182696','W','A~41,A~43,A~44,A~45,A~48,A~51,A~50,A~46,A~47,A~9,A~57,A~60,A~62','howard',778899,9,
+to_date('2003/03/17','YYYY/MM/DD'), to_date('2003/12/31','YYYY/MM/DD'));
+
+//關頻道 (多組)=> B2
+insert into send_nagra(HIGH_LEVEL_CMD_ID,ICC_NO,CMD_STATUS,NOTES, OPERATOR,SEQNO,COMPCODE)
+values('B2','1160194446','W','1,2,3,4','howard',778899,9);
+
+
+//關頻道 (全部)=> B3
+insert into send_nagra(HIGH_LEVEL_CMD_ID,ICC_NO,CMD_STATUS,NOTES, OPERATOR,SEQNO,COMPCODE)
+values('B3','1160194446','W','1,2,3,4','howard',778899,9);
+
+//set network id => E4
+insert into send_nagra(HIGH_LEVEL_CMD_ID,ICC_NO,STB_NO,MIS_IRD_CMD_ID,OPERATOR, COMPCODE,cmd_status,SEQNO)
+values('E4','1160194648','1191189254',4,'Howard',9,'W',987);
+
+//set pin code => E1
+insert into send_nagra(HIGH_LEVEL_CMD_ID,ICC_NO,STB_NO,MIS_IRD_CMD_ID,OPERATOR, COMPCODE,cmd_status,SEQNO, MIS_IRD_CMD_DATA)
+values('E1','1160194648','1191189254',1,'Howard',9,'W',988,'1234');
+
+
+//解配對 => C1
+insert into send_nagra(HIGH_LEVEL_CMD_ID,OPERATOR, COMPCODE,cmd_status,SEQNO,notes)
+values('C1','Howard',9,'W',988,'123,456');
+
+//清除 EMM command => C2
+insert into send_nagra(HIGH_LEVEL_CMD_ID,ICC_NO,CMD_STATUS,OPERATOR,SEQNO,COMPCODE)
+values('C2','1160194446','W','howard',123,9);
+select cmd_Status from send_nagra where HIGH_LEVEL_CMD_ID='C2';
+select cmd_status from send_nagra where ICC_NO='1160194446';
+
+============================================================================
+Lab 環境設定
+
+STB:65537
+ICC:1160052760
+
+IP=> 10.40.26.10
+Gateway=> 10.40.26.252
+Mask=> 255.255.255.0
+Server IP=> 10.40.16.1
+
+Credit 100
+Threshold Credit => 50
+Callback Number => 81783071
+
+測試 return path 的command sequence
+pair (cmd 52)
+create ICC on Call Collector (cmd 104)
+Create credit (cmd 13)
+set phone num (cmd 49)
+immediate callback (cmd 60)
+
+
+-----------------------------------------------
+未測
+
+207 => icc memory full alarm => ICC 會自動清除? 還是要 SMS 下指令使之清除 memory data ?
+
+automatic callback
+FTP 節目表
+Special event callback (P34)
+
+
+ 
+============
+已經接收到
+202 => ppv purchase list
+215 => products list
+
+201 => current debit and credit
+205 => phone discrepancies
+206 => stb responding status
+211 => start of report
+212 => end of report
+
+============
+不需要測
+200 => low credit alarm
+208 => event definition error 
+209 => null event error
+210 => epg data feed format error
+213 => event product schedule change
+214 => event remove error
+
+
+
+==============================================================================
+update CaCallbackData set PROCESSINGSTATE ='N';
+
+delete CallbackLog200;
+delete CallbackLog201;
+delete CallbackLog202;
+delete CallbackLog205;
+delete CallbackLog206;
+delete CallbackLog207;
+delete CallbackLog215;
+
+
+select count(*) from CallbackLog200;
+select count(*) from CallbackLog201;
+select count(*) from CallbackLog202;
+select count(*) from CallbackLog205;
+select count(*) from CallbackLog206;
+select count(*) from CallbackLog207;
+select count(*) from CallbackLog215;
+
+
+
+
+

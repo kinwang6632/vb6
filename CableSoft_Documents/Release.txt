@@ -1,0 +1,18 @@
+#4222
+B04,A07_1,A07_3(prjInvoice.exe),轉檔程式(prjToInv014A.exe)
+INVOICESCHEMA.MDB
+
+1.轉檔程式請放至與prjInvoice同一目錄執行，進入模式與prjInvoice一樣
+　轉檔程式如果勾選"備份INV014"則會產生INV014_Bak的Table，預設不勾選
+2.A07_3為此次新增的Form,新增模式下輸入發票號碼後會自動帶入明細資料(INV008)
+  明細只能修改金額,無法新增,但可單獨刪除明細(選到那筆後按CTRL+DEL即可刪除)
+3.A07_1編輯與儲存的功能刪除,查詢後的資料在該筆點二下則會自動進入A07_3
+  新增也是如此
+
+#4437
+prjSO64N0A.exe
+
+#4377
+csBankCenter4.dll
+
+　

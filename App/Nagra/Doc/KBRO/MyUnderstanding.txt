@@ -1,0 +1,74 @@
+名詞解釋 :
+	CC :Call Collector or the system, which run on the same computer as the SAS 
+	    and the SMS-Gateway is used to upload information from the ICC into CC database,
+	    e.g., a list of expired impulsively purchased PPV event products. The uploades
+	          information is subsequently transmitted through the SMS-Gateway to the SMS.
+
+	ICC : Integrated Circuit Card.(ex:a smart card)
+	IEMM : Impulsive EMM(Carries the data related to products that may be 
+	       impulsively purchased)
+	IMS : Information Management System
+	IPPV : A PPV event product, which can be impulsively purchased through the STB and 
+	       results int the acquisition of an IEMM acquired for processing in the ICC.
+	PPV : Pay Per View
+	SAS : Subscriber Authorization System (收視戶授權系統)
+	SMS : Subscriber Management System (收視戶管理系統)
+	STB : Set-top box
+	
+
+1. SMS Gateway 是 SMS和CA System(Conditional Access)的 Interface.
+	包括 :
+	  a. SMS and SAS
+	  b. SMS and the Call Collector
+	  c. SMS and IMS
+
+2. SMS Gateway commands分成四個groups..
+	a.Subscriber related commands 
+	  -- add, cancel and suspend subscription
+	b.Call Collector Commands
+	  -- add a subscriber to the Call Collector database, 
+	     request list of purchase,etc.(All handled by the Call Collector)
+	c.Feeback commands
+	  -- these provide the SMS with different kind of information.
+	     Which also include message acknowledgements, a clolplete list of purchase from 
+	     the Call Collector or IMS errors depending on the system configuration.
+	d.Product management commands
+
+3. 在 SMS和SMS Gateway間有兩個connection,
+	一個用來傳送 SMS to SMS Gateway的commands(command id 0 to 199)
+	一個用來傳送 SMS Gateway to SMS的commands(command id 200 to 299)
+
+
+
+4. SMS Gateway commands分成五種types -- EMM, CONTROL, PRODUCT_DEF,FEEBACK and OPERATION
+	EMM,CONTROL and PRODUCT_DEF commands由SMS產生,傳送到 SMS Gateway
+	FEEDBACK commands由IMS, SAS or CC產生,傳送到SMS Gateway
+	OPERATION commands兩方均能產生,傳送至另一方
+
+5. SMS command = SMS command root header + SMS comand section
+  
+SMS command root header
+Field	Size	Format	Description
+Transaction_number	9	000000000 to 999999999	Number used to uniquely identifya transaction across the interface for each source.
+Command_type	2	00 to 99	Command type can be EMM,CONTROL,PRODUCT_DEF,FEEDBACK and OPERATION.
+Source_ID	4	0000 to 9999	A number that identifies a source such as the SMS or IMS(the number is provided by Nagravision)
+Dest_ID	4	0000 to 9999	Identifier of the addressed SMS. This number is defined at system configuration.
+MOP_PPID	5	00000 to 99999	Identifier of the technical management operator. This number is provided at system configuration by: Nagravision.
+Creation_date	8	YYYYMMDD	Creation date of the command.
+
+ 
+SMS command section
+If (command_type == EMM command) {  EMM command section}else if (command_type == CONTROL command) {  CONTROL command section}else if (command_type == PRODUCT_DEF command) {  PRODUCT_DEF command section}else if (command_type == FEEDBACK command) {  FEEDBACK command section}else if (command_type == OPERATION command) {  OPERATION command section}else { return error }
+EMM commands are always addressed to a unique ICC or a set of ICCs.
+CONTROL commands : 當需要對SAS or CC執行一個operation時會用到
+	(Note: CONTROL commands do not affect ICCs.)
+PRODUCT_DEF commands : 用來從SMS傳送product 的definitions, updates and cancellation到IMS database.
+FEEDBACK commands : 提供詳細的ICC Status的資料
+OPERATION commands provide gateway transaction synchronization and handshaking.
+
+Notes : a. The SMS Gateway ID (used as the value for above Dest_ID and Source_ID fields) is defined as 
+0002
+      b. The CC ID (used as the value for above Dest_ID and Source_ID fields) is defined as 0003 for 
+one CC configuration.
+
+

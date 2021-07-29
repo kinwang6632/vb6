@@ -1,0 +1,3 @@
+VBGROUP 5.0
+StartupProject=..\SO3000\prjSO3000.vbp
+Project=csACHTranRefer.vbp

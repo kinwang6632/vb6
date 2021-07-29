@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BroadcastData SYSTEM "BroadcastData.dtd">
+<BroadcastData creationDate="20060424100325">
+  <ProviderInfo>
+    <ProviderId>Nagra</ProviderId>
+    <ProviderName>Nagravision S.A.</ProviderName>
+  </ProviderInfo>
+  <ScheduleData>
+    <Channel>
+      <ChannelId>301</ChannelId>
+      <ChannelNumber>301</ChannelNumber>
+      <EitStatus>0</EitStatus>
+      <Unscrambled>0</Unscrambled>
+      <ChannelText language="eng">
+        <ChannelShortName>PPV 1 (TEST)</ChannelShortName>
+        <ChannelName>PPV 1 (TEST)</ChannelName>
+        <ChannelDescription>PPV 1 (TEST)</ChannelDescription>
+      </ChannelText>
+      <ChannelText language="chi">
+        <ChannelShortName>PPV 1 (TEST)</ChannelShortName>
+        <ChannelName>PPV 1 (TEST)</ChannelName>
+        <ChannelDescription>PPV 1 (TEST)</ChannelDescription>
+      </ChannelText>
+      <ChannelActivationMode>0</ChannelActivationMode>
+      <PrivateDescriptor tag="132" length="9" pdsValue="1162691328">000000000004000000</PrivateDescriptor>
+      <PrivateDescriptor tag="134" length="6" pdsValue="9">AD01000000FC</PrivateDescriptor>
+      <PhysicalServiceId>
+        <DvbServiceId>301</DvbServiceId>
+        <TransportId originalNetworkId="1">115</TransportId>
+      </PhysicalServiceId>
+    </Channel>
+  </ScheduleData>
+</BroadcastData>

@@ -1,0 +1,702 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="Microsoft FrontPage 4.0">
+<TITLE></TITLE>
+</HEAD>
+<BODY>
+<p>1.<a href="#KeyWords">名詞解釋</a> : </p>   
+<p>2. <a href="#SMSGATEWAYDEFINITION">SMS GateWay的定義</a> </p>  
+<p>3.<a href="#SMSPRODUCT">Product 術語</a> </p> 
+<p>4. <a href="#SMSCOMMANDDEFINITION">SMS commands的組成</a> </p>  
+<p>&nbsp;&nbsp;&nbsp; 4-1. <a href="#SMSCOMMANDROOTHEADER">SMS command root 
+header</a> </p> 
+<p>&nbsp;&nbsp;&nbsp; 4-2.&nbsp; <a href="#SMSCOMMANDSECTION">SMS command 
+section</a> </p> 
+<p>5. <a href="#EMMCOMMANDSECTION">EMM Command Section</a> </p> 
+<p>&nbsp;&nbsp;&nbsp; 5-1. <a href="#EMMCOMMANDHEADER">EMM command header</a> </p> 
+<p>6. <a href="#CONTROLCOMMANDSECTION">CONTROL Command Section</a> </p> 
+<p>&nbsp;&nbsp;&nbsp; 6-1. <a href="#CONTROLCOMMANDHEADER">CONTROL command 
+header</a> </p> 
+<p>7. <a href="#PRODUCTCOMMANDSECTION">PRODUCT_DEF Command Section</a> </p> 
+<p>8. <a href="#FEEDBACKCOMMANDSECTION">FEEDBACK Command section</a> </p> 
+<p>&nbsp;&nbsp;&nbsp; 8-1. <a href="#FEEDBACKCOMMANDHEADER">FEEDBACK command 
+header</a> </p> 
+<p>9. <a href="#SMSOPERATIONCOMMANDS">SMS OPERATION Commands</a> </p> 
+<p>10. <a href="#SMSCOMMANDFIELDSIZEANDFORMAT">SMS&nbsp; Commands: field size 
+and format</a> </p> 
+<p>11. <a href="#ERRORMESSAGE">SMS Command Error Message</a> </p> 
+<p>12. <a href="#COMMANDSAMPLE">Command Sample</a> </p> 
+<p>&nbsp;&nbsp;&nbsp; 12-1. <a href="#EMM_COMMAND_SAMPLE">EMM Command Sample</a> </p> 
+<p>　 </p> 
+<p>　 </p> 
+<p>　 </p> 
+<p>　 </p> 
+<p>　 </p> 
+<p>　 </p> 
+<p>　 </p> 
+<p>　 </p> 
+<p>　 </p> 
+<p>　 </p> 
+<p>&nbsp;&nbsp;&nbsp; <STRONG style="COLOR: mediumblue"><FONT size=4><a name="KeyWords"></a></FONT></STRONG>名詞解釋  
+(請參考P10) </p> 
+<UL> 
+  <LI><FONT size=4><STRONG style="COLOR: mediumblue">CC </STRONG></FONT>:Call    
+  Collector or the system, which run on the same&nbsp;&nbsp; computer as the SAS    
+  and the SMS-Gateway is used to upload information from the ICC into CC    
+  database, e.g., a list of expired impulsively purchased PPV event products.    
+  The uploades information is subsequently transmitted through the SMS-Gateway    
+  to the SMS.    
+  <LI ><FONT size=4><STRONG style="COLOR: mediumblue">ICC </STRONG></FONT>:    
+  Integrated Circuit Card.(ex:a smart card)    
+  <LI><FONT size=4><STRONG style="COLOR: mediumblue">IEMM </STRONG></FONT>:    
+  Impulsive EMM(Carries the data related to products that may be impulsively    
+  purchased)   
+  <LI><FONT size=4><STRONG style="COLOR: mediumblue">IMS </STRONG></FONT>:    
+  Information Management System   
+  <LI><FONT size=4><STRONG style="COLOR: mediumblue">IPPV </STRONG></FONT>: A PPV    
+  event product, which can be impulsively purchased through the STB and results    
+  int the acquisition of an IEMM acquired for processing in the ICC.   
+  <LI><STRONG style="COLOR: blue"><FONT color=mediumblue size=4>PPV </FONT> </STRONG>: Pay    
+  Per View   
+  <LI><SPAN lang=EN-US    
+  style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA"><FONT    
+  color=mediumblue size=4><STRONG>SAS </STRONG></FONT>: Subscriber Authorization    
+  System (</SPAN><SPAN    
+  style="FONT-FAMILY: 新細明體; FONT-SIZE: 12pt; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'">收視戶授權系統</SPAN><SPAN    
+  lang=EN-US    
+  style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA">)</SPAN>   
+  <LI><SPAN lang=EN-US    
+  style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA"><SPAN    
+  lang=EN-US    
+  style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA"><FONT    
+  color=mediumblue size=4><STRONG>SMS </STRONG></FONT>: Subscriber Management    
+  System (</SPAN><SPAN    
+  style="FONT-FAMILY: 新細明體; FONT-SIZE: 12pt; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'">收視戶管理系統</SPAN><SPAN    
+  lang=EN-US    
+  style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA">)</SPAN></SPAN>   
+  <LI><SPAN lang=EN-US    
+  style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA"><SPAN    
+  lang=EN-US    
+  style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA"><SPAN    
+  lang=EN-US    
+  style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA"><FONT    
+  color=mediumblue size=4><STRONG>STB</STRONG> </FONT>: Set-top    
+  box</SPAN></SPAN></SPAN></LI></UL>   
+<P><SPAN lang=EN-US    
+style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA"><SPAN    
+lang=EN-US    
+style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA"><SPAN    
+lang=EN-US    
+style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA"><SPAN    
+lang=EN-US    
+style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA">    
+  </SPAN></SPAN></SPAN></SPAN>&nbsp;</P>   
+<P><SPAN    
+lang=EN-US    
+style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA"><FONT color=teal><STRONG><a name="SMSGATEWAYDEFINITION"></a></STRONG></FONT></SPAN>SMS  
+Gateway的定義 (請參考P13)</P>  
+<P><STRONG><FONT color=teal><SPAN lang=EN-US   
+style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA"><SPAN   
+lang=EN-US   
+style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA"><SPAN   
+lang=EN-US   
+style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA"><SPAN   
+lang=EN-US   
+style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA">1.&nbsp;  
+SMS Gateway </SPAN><SPAN    
+style="FONT-FAMILY: 新細明體; FONT-SIZE: 12pt; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'">是</SPAN><SPAN    
+lang=EN-US    
+style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA">    
+SMS</SPAN><SPAN    
+style="FONT-FAMILY: 新細明體; FONT-SIZE: 12pt; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'">和</SPAN><SPAN    
+lang=EN-US    
+style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA">CA    
+System(Conditional Access)</SPAN><SPAN    
+style="FONT-FAMILY: 新細明體; FONT-SIZE: 12pt; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'">的</SPAN><SPAN    
+lang=EN-US    
+style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA">    
+Interface.</SPAN></SPAN></SPAN></SPAN></FONT></STRONG></P>   
+<P><SPAN lang=EN-US    
+style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA"><SPAN    
+lang=EN-US    
+style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA"><SPAN    
+lang=EN-US    
+style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA"><SPAN    
+lang=EN-US    
+style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA"><SPAN    
+style="FONT-FAMILY: 新細明體; FONT-SIZE: 12pt; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'"><FONT color=teal><STRONG>&nbsp;&nbsp;&nbsp;    
+</STRONG></FONT> 包括</SPAN><SPAN    
+lang=EN-US    
+style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA">    
+:</SPAN></SPAN></SPAN></SPAN></SPAN><SPAN lang=EN-US    
+style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA"><SPAN    
+lang=EN-US    
+style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA"><SPAN    
+lang=EN-US    
+style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA"><SPAN    
+lang=EN-US    
+style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA"><SPAN    
+lang=EN-US    
+style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA">&nbsp;  
+<SPAN lang=EN-US>a. SMS and SAS<span style="font-family: Times New Roman; font-size: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA">的Interface  
+: grant/remove entitlements, initalise subscriber. etc.</span></SPAN> 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
+b. SMS and the Call Collector<SPAN lang=EN-US><span style="font-family: Times New Roman; font-size: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA">的Interface  
+: configure subscriper profile, get the purchase history,etc.</span></SPAN> 
+</SPAN> 
+</SPAN></SPAN></SPAN></SPAN></P> 
+<P>&nbsp;&nbsp;&nbsp;<span style="font-family: Times New Roman; font-size: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA" lang="EN-US">&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-family: Times New Roman; font-size: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+c. Call Collector and the SMS : report purchase information,etc.</span> 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+d. SMS and IMS<SPAN lang=EN-US><span style="font-family: Times New Roman; font-size: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA">的Interface  
+: (depending on the product management, create product,change&nbsp;&nbsp;&nbsp;&nbsp;</span></SPAN> 
+</span></P> 
+<P><span style="font-family: Times New Roman; font-size: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA" lang="EN-US">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+product, etc.)</span></P> 
+<P>　</P>
+<P><FONT color=teal><STRONG><SPAN 
+style="font-family: Times New Roman; font-size: 12pt; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-fareast-font-family: 新細明體" lang="EN-US"><a name="SMSCOMMANDDEFINITION"></a></SPAN></STRONG></FONT>SMS  
+commands的組成</P> 
+<P class=MsoNormal><FONT color=teal><STRONG><SPAN  
+style="font-family: Times New Roman; font-size: 12pt; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-fareast-font-family: 新細明體" lang="EN-US">1.</SPAN><SPAN lang=EN-US  
+style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA"><SPAN  
+style="FONT-FAMILY: 新細明體; FONT-SIZE: 12pt; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'">在</SPAN>   
+SMS<SPAN    
+style="FONT-FAMILY: 新細明體; FONT-SIZE: 12pt; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'">和</SPAN>SMS    
+Gateway<SPAN    
+style="FONT-FAMILY: 新細明體; FONT-SIZE: 12pt; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'">間有兩個</SPAN>connection.</SPAN></STRONG></FONT>(請參考P13)</P>  
+<SPAN lang=EN-US   
+style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA">  
+<P class=MsoNormal>&nbsp;&nbsp;&nbsp; 一個用來傳送 SMS to SMS    
+Gateway 的 commands(command id 0 to 199)   
+<BR>&nbsp;&nbsp;&nbsp; 一個用來傳送 SMS Gateway to SMS 的    
+commands(command id 200 to 299) </P>   
+<P class=MsoNormal><FONT color=teal><STRONG><SPAN lang=EN-US>2. SMS Gateway commands</SPAN><SPAN    
+style="FONT-FAMILY: 新細明體; mso-ascii-font-family: 'Times New Roman'">分成四個</SPAN><SPAN    
+lang=EN-US>groups.</SPAN></STRONG></FONT>(請參考P13)</P>  
+<P class=MsoNormal><STRONG><FONT   
+color=teal>&nbsp; &nbsp; </FONT></STRONG>a. Subscriber    
+related commands   
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --add, cancel    
+and suspend subscription&nbsp;   
+<BR>&nbsp;&nbsp;&nbsp; b. Call Collector Commands   
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --add a    
+subscriber to the Call Collector database, </SPAN>   
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
+request list of purchase,etc.(All handled by the Call Collector)&nbsp;   
+<BR>&nbsp;&nbsp;&nbsp; c. Feeback commands   
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --these provide    
+the SMS with different kind of information.   
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
+Which also include message acknowledgements, a clolplete list of&nbsp; purchase    
+from the Call Collector   
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
+or IMS errors depending on the system configuration.   
+<BR>&nbsp;&nbsp;&nbsp; d. Product management    
+commands,depending on the system configuration.</P>   
+<P class=MsoNormal><STRONG><FONT color=teal><SPAN lang=EN-US    
+style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA">3.    
+SMS Gateway commands</SPAN><SPAN    
+style="FONT-FAMILY: 新細明體; FONT-SIZE: 12pt; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'">分成五種</SPAN></FONT><SPAN    
+lang=EN-US    
+style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA"><FONT color=teal>types -- EMM, CONTROL, </FONT><FONT    
+color=teal>PRODUCT_DEF,FEEBACK and OPERATION </FONT>   
+     </SPAN></STRONG>(請參考P17)</P>  
+<P class=MsoNormal><STRONG><FONT   
+color=teal>&nbsp;&nbsp;&nbsp;</FONT></STRONG>EMM,CONTROL    
+and PRODUCT_DEF commands 由 SMS 產生,傳送到 SMS Gateway   
+<BR>&nbsp;&nbsp;&nbsp; FEEDBACK commands 由 IMS, SAS or CC    
+產生,傳送到 SMS Gateway   
+<BR>&nbsp;&nbsp;&nbsp; OPERATION    
+commands 兩方均能產生,傳送至另一方 </P>   
+<P class=MsoNormal><FONT color=teal><STRONG><SPAN    
+lang=EN-US    
+style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA">4.    
+SMS command = SMS command root header + SMS comand    
+section</SPAN></STRONG></FONT>(請參考P17) </P>  
+<P class=MsoNormal><SPAN lang=EN-US   
+style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA"><SPAN   
+lang=EN-US   
+style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA"><a name="SMSCOMMANDROOTHEADER"></a>SMS command root header</SPAN></SPAN>(請參考P17)</P><SPAN lang=EN-US   
+style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA"><SPAN   
+lang=EN-US   
+style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA">  
+<P class=MsoNormal>  
+<TABLE border=1 cellPadding=0 cellSpacing=0   
+style="BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse; BORDER-LEFT: medium none; BORDER-RIGHT: medium none; BORDER-TOP: medium none; mso-border-alt: solid windowtext .5pt; mso-padding-alt: 0cm 1.4pt 0cm 1.4pt">  
+    
+  <TR BGCOLOR=#fafad2>  
+    <TD   
+    style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid; BORDER-TOP: windowtext 0.5pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 1.4pt; PADDING-RIGHT: 1.4pt; PADDING-TOP: 0cm; WIDTH: 109.4pt"   
+    vAlign=top width=146>  
+      <P class=MsoNormal><STRONG><FONT color=coral><SPAN lang=EN-US>Field<?xml:namespace prefix = o ns =   
+      "urn:schemas-microsoft-com:office:office" /><o:p></o:p></SPAN></FONT></STRONG></P></TD>  
+    <TD   
+    style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: medium none; BORDER-RIGHT: windowtext 0.5pt solid; BORDER-TOP: windowtext 0.5pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 1.4pt; PADDING-RIGHT: 1.4pt; PADDING-TOP: 0cm; WIDTH: 27pt; mso-border-left-alt: solid windowtext .5pt"   
+    vAlign=top width=36>  
+      <P class=MsoNormal><STRONG><FONT color=coral><SPAN lang=EN-US>Size<o:p></o:p></SPAN></FONT></STRONG></P></TD>  
+    <TD   
+    style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: medium none; BORDER-RIGHT: windowtext 0.5pt solid; BORDER-TOP: windowtext 0.5pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 1.4pt; PADDING-RIGHT: 1.4pt; PADDING-TOP: 0cm; WIDTH: 135pt; mso-border-left-alt: solid windowtext .5pt"   
+    vAlign=top width=180>  
+      <P class=MsoNormal><STRONG><FONT color=coral><SPAN lang=EN-US>Format<o:p></o:p></SPAN></FONT></STRONG></P></TD>  
+    <TD   
+    style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: medium none; BORDER-RIGHT: windowtext 0.5pt solid; BORDER-TOP: windowtext 0.5pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 1.4pt; PADDING-RIGHT: 1.4pt; PADDING-TOP: 0cm; WIDTH: 241.6pt; mso-border-left-alt: solid windowtext .5pt"   
+    vAlign=top width=322>  
+      <P class=MsoNormal><FONT color=coral><SPAN   
+lang=EN-US><STRONG>Description</STRONG><o:p></o:p></SPAN></FONT></P></TD></TR>  
+  <TR>  
+    <TD   
+    style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid; BORDER-TOP: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 1.4pt; PADDING-RIGHT: 1.4pt; PADDING-TOP: 0cm; WIDTH: 109.4pt; mso-border-top-alt: solid windowtext .5pt"   
+    vAlign=top width=146>  
+      <P class=MsoNormal><FONT color=coral><SPAN   
+      lang=EN-US>Transaction_number<o:p></o:p></SPAN></FONT></P></TD>  
+    <TD   
+    style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: medium none; BORDER-RIGHT: windowtext 0.5pt solid; BORDER-TOP: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 1.4pt; PADDING-RIGHT: 1.4pt; PADDING-TOP: 0cm; WIDTH: 27pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt"   
+    vAlign=top width=36>  
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US>9<o:p></o:p></SPAN></FONT></P></TD>  
+    <TD   
+    style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: medium none; BORDER-RIGHT: windowtext 0.5pt solid; BORDER-TOP: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 1.4pt; PADDING-RIGHT: 1.4pt; PADDING-TOP: 0cm; WIDTH: 135pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt"   
+    vAlign=top width=180>  
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US>000000000 to   
+      999999999<o:p></o:p></SPAN></FONT></P></TD>  
+    <TD   
+    style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: medium none; BORDER-RIGHT: windowtext 0.5pt solid; BORDER-TOP: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 1.4pt; PADDING-RIGHT: 1.4pt; PADDING-TOP: 0cm; WIDTH: 241.6pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt"   
+    vAlign=top width=322>  
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US>Number used to uniquely identifya   
+      transaction across the interface for each   
+  source.<o:p></o:p></SPAN></FONT></P></TD></TR>  
+  <TR>  
+    <TD   
+    style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid; BORDER-TOP: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 1.4pt; PADDING-RIGHT: 1.4pt; PADDING-TOP: 0cm; WIDTH: 109.4pt; mso-border-top-alt: solid windowtext .5pt"   
+    vAlign=top width=146>  
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US>Command_type<o:p></o:p></SPAN></FONT></P></TD>  
+    <TD   
+    style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: medium none; BORDER-RIGHT: windowtext 0.5pt solid; BORDER-TOP: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 1.4pt; PADDING-RIGHT: 1.4pt; PADDING-TOP: 0cm; WIDTH: 27pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt"   
+    vAlign=top width=36>  
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US>2<o:p></o:p></SPAN></FONT></P></TD>  
+    <TD   
+    style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: medium none; BORDER-RIGHT: windowtext 0.5pt solid; BORDER-TOP: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 1.4pt; PADDING-RIGHT: 1.4pt; PADDING-TOP: 0cm; WIDTH: 135pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt"   
+    vAlign=top width=180>  
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US>00 to 99<o:p></o:p></SPAN></FONT></P></TD>  
+    <TD   
+    style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: medium none; BORDER-RIGHT: windowtext 0.5pt solid; BORDER-TOP: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 1.4pt; PADDING-RIGHT: 1.4pt; PADDING-TOP: 0cm; WIDTH: 241.6pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt"   
+    vAlign=top width=322>  
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US>Command type can be   
+      EMM,CONTROL,PRODUCT_DEF,FEEDBACK and   
+OPERATION.<o:p></o:p></SPAN></FONT></P></TD></TR>  
+  <TR>  
+    <TD   
+    style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid; BORDER-TOP: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 1.4pt; PADDING-RIGHT: 1.4pt; PADDING-TOP: 0cm; WIDTH: 109.4pt; mso-border-top-alt: solid windowtext .5pt"   
+    vAlign=top width=146>  
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US>Source_ID<o:p></o:p></SPAN></FONT></P></TD>  
+    <TD   
+    style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: medium none; BORDER-RIGHT: windowtext 0.5pt solid; BORDER-TOP: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 1.4pt; PADDING-RIGHT: 1.4pt; PADDING-TOP: 0cm; WIDTH: 27pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt"   
+    vAlign=top width=36>  
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US>4<o:p></o:p></SPAN></FONT></P></TD>  
+    <TD   
+    style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: medium none; BORDER-RIGHT: windowtext 0.5pt solid; BORDER-TOP: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 1.4pt; PADDING-RIGHT: 1.4pt; PADDING-TOP: 0cm; WIDTH: 135pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt"   
+    vAlign=top width=180>  
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US>0000 to 9999<o:p></o:p></SPAN></FONT></P></TD>  
+    <TD   
+    style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: medium none; BORDER-RIGHT: windowtext 0.5pt solid; BORDER-TOP: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 1.4pt; PADDING-RIGHT: 1.4pt; PADDING-TOP: 0cm; WIDTH: 241.6pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt"   
+    vAlign=top width=322>  
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US>A number that identifies a source such   
+      as the SMS or IMS(the number is provided by   
+      Nagravision)<o:p></o:p></SPAN></FONT></P></TD></TR>  
+  <TR>  
+    <TD   
+    style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid; BORDER-TOP: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 1.4pt; PADDING-RIGHT: 1.4pt; PADDING-TOP: 0cm; WIDTH: 109.4pt; mso-border-top-alt: solid windowtext .5pt"   
+    vAlign=top width=146>  
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US>Dest_ID<o:p></o:p></SPAN></FONT></P></TD>  
+    <TD   
+    style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: medium none; BORDER-RIGHT: windowtext 0.5pt solid; BORDER-TOP: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 1.4pt; PADDING-RIGHT: 1.4pt; PADDING-TOP: 0cm; WIDTH: 27pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt"   
+    vAlign=top width=36>  
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US>4<o:p></o:p></SPAN></FONT></P></TD>  
+    <TD   
+    style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: medium none; BORDER-RIGHT: windowtext 0.5pt solid; BORDER-TOP: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 1.4pt; PADDING-RIGHT: 1.4pt; PADDING-TOP: 0cm; WIDTH: 135pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt"   
+    vAlign=top width=180>  
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US>0000 to 9999<o:p></o:p></SPAN></FONT></P></TD>  
+    <TD   
+    style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: medium none; BORDER-RIGHT: windowtext 0.5pt solid; BORDER-TOP: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 1.4pt; PADDING-RIGHT: 1.4pt; PADDING-TOP: 0cm; WIDTH: 241.6pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt"   
+    vAlign=top width=322>  
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US>Identifier of the addressed SMS. This   
+      number is defined at system configuration.<o:p></o:p></SPAN></FONT></P></TD></TR>  
+  <TR>  
+    <TD   
+    style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid; BORDER-TOP: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 1.4pt; PADDING-RIGHT: 1.4pt; PADDING-TOP: 0cm; WIDTH: 109.4pt; mso-border-top-alt: solid windowtext .5pt"   
+    vAlign=top width=146>  
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US>MOP_PPID<o:p></o:p></SPAN></FONT></P></TD>  
+    <TD   
+    style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: medium none; BORDER-RIGHT: windowtext 0.5pt solid; BORDER-TOP: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 1.4pt; PADDING-RIGHT: 1.4pt; PADDING-TOP: 0cm; WIDTH: 27pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt"   
+    vAlign=top width=36>  
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US>5<o:p></o:p></SPAN></FONT></P></TD>  
+    <TD   
+    style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: medium none; BORDER-RIGHT: windowtext 0.5pt solid; BORDER-TOP: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 1.4pt; PADDING-RIGHT: 1.4pt; PADDING-TOP: 0cm; WIDTH: 135pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt"   
+    vAlign=top width=180>  
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US>00000 to   
+99999<o:p></o:p></SPAN></FONT></P></TD>  
+    <TD   
+    style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: medium none; BORDER-RIGHT: windowtext 0.5pt solid; BORDER-TOP: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 1.4pt; PADDING-RIGHT: 1.4pt; PADDING-TOP: 0cm; WIDTH: 241.6pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt"   
+    vAlign=top width=322>  
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US>Identifier of the technical management   
+      operator. This number is provided at system configuration by:   
+      Nagravision.<o:p></o:p></SPAN></FONT></P></TD></TR>  
+  <TR>  
+    <TD   
+    style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid; BORDER-TOP: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 1.4pt; PADDING-RIGHT: 1.4pt; PADDING-TOP: 0cm; WIDTH: 109.4pt; mso-border-top-alt: solid windowtext .5pt"   
+    vAlign=top width=146>  
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US>Creation_date<o:p></o:p></SPAN></FONT></P></TD>  
+    <TD   
+    style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: medium none; BORDER-RIGHT: windowtext 0.5pt solid; BORDER-TOP: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 1.4pt; PADDING-RIGHT: 1.4pt; PADDING-TOP: 0cm; WIDTH: 27pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt"   
+    vAlign=top width=36>  
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US>8<o:p></o:p></SPAN></FONT></P></TD>  
+    <TD   
+    style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: medium none; BORDER-RIGHT: windowtext 0.5pt solid; BORDER-TOP: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 1.4pt; PADDING-RIGHT: 1.4pt; PADDING-TOP: 0cm; WIDTH: 135pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt"   
+    vAlign=top width=180>  
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US>YYYYMMDD<o:p></o:p></SPAN></FONT></P></TD>  
+    <TD   
+    style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: medium none; BORDER-RIGHT: windowtext 0.5pt solid; BORDER-TOP: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 1.4pt; PADDING-RIGHT: 1.4pt; PADDING-TOP: 0cm; WIDTH: 241.6pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt"   
+    vAlign=top width=322>  
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US>Creation date of the   
+      command.<o:p></o:p></SPAN></FONT></P></TD></TR></TABLE></P></SPAN></SPAN>  
+<P class=MsoNormal><SPAN lang=EN-US   
+style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA"><SPAN   
+lang=EN-US   
+style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA">&nbsp;</P>  
+<P class=MsoNormal><SPAN lang=EN-US>&nbsp;<a name="SMSCOMMANDSECTION"></a>SMS command section</SPAN>(請參考P17)</P>  
+<P class=MsoNormal>  
+<TABLE border=1 cellPadding=0 cellSpacing=0   
+style="BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse; BORDER-LEFT: medium none; BORDER-RIGHT: medium none; BORDER-TOP: medium none; mso-border-alt: solid windowtext .5pt; mso-padding-alt: 0cm 1.4pt 0cm 1.4pt">  
+    
+  <TR style="HEIGHT: 138.35pt">  
+    <TD   
+    style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid; BORDER-TOP: windowtext 0.5pt solid; HEIGHT: 138.35pt; PADDING-BOTTOM: 0cm; PADDING-LEFT: 1.4pt; PADDING-RIGHT: 1.4pt; PADDING-TOP: 0cm; WIDTH: 513pt"   
+    vAlign=top width=684>  
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US>If (command_type == EMM command)   
+      {<o:p></o:p></SPAN></FONT></P>  
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US><SPAN style="mso-spacerun: yes">&nbsp;    
+      </SPAN>EMM command section<o:p></o:p></SPAN></FONT></P>   
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US>}<o:p></o:p></SPAN></FONT></P>   
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US>else if (command_type == CONTROL    
+      command) {<o:p></o:p></SPAN></FONT></P>   
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US><SPAN style="mso-spacerun: yes">&nbsp;    
+      </SPAN>CONTROL command section<o:p></o:p></SPAN></FONT></P>   
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US>}<o:p></o:p></SPAN></FONT></P>   
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US>else if (command_type == PRODUCT_DEF    
+      command) {<o:p></o:p></SPAN></FONT></P>   
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US><SPAN style="mso-spacerun: yes">&nbsp;    
+      </SPAN>PRODUCT_DEF command section<o:p></o:p></SPAN></FONT></P>   
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US>}<o:p></o:p></SPAN></FONT></P>   
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US>else if (command_type == FEEDBACK    
+      command) {<o:p></o:p></SPAN></FONT></P>   
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US><SPAN style="mso-spacerun: yes">&nbsp;    
+      </SPAN>FEEDBACK command section<o:p></o:p></SPAN></FONT></P>   
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US>}<o:p></o:p></SPAN></FONT></P>   
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US>else if (command_type == OPERATION    
+      command) {<o:p></o:p></SPAN></FONT></P>   
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US><SPAN style="mso-spacerun: yes">&nbsp;    
+      </SPAN>OPERATION command section<o:p></o:p></SPAN></FONT></P>   
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US>}<o:p></o:p></SPAN></FONT></P>   
+      <P class=MsoNormal><FONT color=coral><SPAN lang=EN-US>else { <o:p></o:p></SPAN></FONT></P>   
+      <P class=MsoNormal    
+      style="TEXT-INDENT: 12pt; mso-char-indent-count: 1.0; mso-char-indent-size: 12.0pt"><FONT color=coral><SPAN    
+      lang=EN-US>return error <o:p></o:p></SPAN></FONT></P>   
+      <P class=MsoNormal><FONT color=coral><SPAN    
+lang=EN-US>}<o:p></o:p></SPAN></FONT></P></TD></TR></TABLE>   
+<P class=MsoNormal><SPAN lang=EN-US    
+style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-fareast-font-family: 新細明體; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA">&nbsp;&nbsp;&nbsp;&nbsp;EMM    
+commands are always addressed to a unique ICC or a set of ICCs.</SPAN>&nbsp;&nbsp;&nbsp; </P>   
+<P class=MsoNormal>&nbsp;&nbsp;&nbsp; <FONT color=darkmagenta><STRONG>CONTROL    
+commands :</STRONG></FONT> 當需要對 SAS or CC 執行一個 operation 時會用到</SPAN>   
+<BR>&nbsp; &nbsp;&nbsp;&nbsp; (Note: CONTROL commands do not    
+affect ICCs.)</SPAN>   
+<BR>&nbsp;&nbsp;&nbsp; <FONT    
+color=darkmagenta><STRONG>PRODUCT_DEF commands : </STRONG></FONT>用來從 SMS 傳送    
+product 的 definitions, updates and cancellation到IMS database.   
+<BR>&nbsp;&nbsp;&nbsp; <FONT color=darkmagenta><STRONG>FEEDBACK    
+commands : </STRONG></FONT>提供詳細的 ICC Status 的資<FONT color=darkmagenta><FONT    
+color=black>料   
+<BR>&nbsp;&nbsp;&nbsp;    
+</FONT><STRONG>OPERATION commands : </STRONG></FONT>provide gateway transaction    
+synchronization and handshaking. </P>   
+<P class=MsoNormal>&nbsp;</P>   
+   
+   
+<p class=MsoNormal><FONT color=red><span lang=EN-US>&nbsp;&nbsp;&nbsp; Notes : a. The SMS Gateway ID (used as the   
+value for above Dest_ID and Source_ID fields) is defined as 0002</span>   
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b. The CC ID (used as the value for    
+above Dest_ID and Source_ID fields) is defined as 0003 for one   
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CC    
+configuration.</FONT>    
+    
+  </p>   
+<p class="MsoNormal">　</p>
+<p class="MsoNormal"><a name="SMSPRODUCT"></a>Product 術語 (請參考P12)</p> 
+<p class="MsoNormal">SMS products由四種型態的products組成</p> 
+<p class="MsoNormal">1.Service Product</p> 
+<p class="MsoNormal">2.Event Product</p> 
+<p class="MsoNormal">3.Package of Service Product</p> 
+<p class="MsoNormal">4.Package of Event Product</p> 
+<p class="MsoNormal">　</p>
+<p class="MsoNormal"><a name="EMMCOMMANDSECTION"></a>EMM Command Section(請參考P18)</p>
+<blockquote>
+  <p class="MsoNormal">EMM command section = EMM command header + EMM command 
+  parameters</p>
+  <p class="MsoNormal">其中parameters的部分,用來傳送 EMM type的commands到ICC.(請參考P41)</p>
+</blockquote>
+<p class="MsoNormal"><a name="EMMCOMMANDHEADER"></a>EMM command header(請參考P18)</p>
+<table border="1" width="100%" cellpadding="0" cellspacing="1">
+  <tr>
+    <td width="25%" align="center"><b>Field</b></td>
+    <td width="6%" align="center"><b>Size</b></td>
+    <td width="14%" align="center"><b>Format</b></td>
+    <td width="55%" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td width="25%">broadcast_mode</td>
+    <td width="6%">1</td>
+    <td width="14%">N or B</td>
+    <td width="55%">Normal - Standard broadcasting mode
+      <p>Batch - Command with a lower priority</td>
+  </tr>
+  <tr>
+    <td width="25%">broadcast_start_date</td>
+    <td width="6%">8</td>
+    <td width="14%">YYYYMMDD</td>
+    <td width="55%">Broadcast start date. The command must be sent to the ICC 
+      from this date</td>
+  </tr>
+  <tr>
+    <td width="25%">broadcast_end_date</td>
+    <td width="6%">8</td>
+    <td width="14%">YYYYMMDD</td>
+    <td width="55%">Broadcast end date.The command must be sent to the ICC until 
+      this date</td>
+  </tr>
+  <tr>
+    <td width="25%">address_type</td>
+    <td width="6%">1</td>
+    <td width="14%">U or G</td>
+    <td width="55%">EMM addressing mode for EMM commands.
+      <p>Unique(U) - An ICC is addressed by its unique address&nbsp; (UA)</p>
+      <p>Global(G) - All ICCs of the MOP are addressed</td>
+  </tr>
+  <tr>
+    <td width="45%" colspan="3">if (address_type == U ) { UA }
+      <p>else if (address_type== G ) { void }</p>
+      <p>else { return error {</td>
+    <td width="55%">UA&nbsp; - The Unique Address of the card for which the 
+      command is intended</td>
+  </tr>
+</table>
+<p class="MsoNormal">PS:The broadcast star and end date is defined by the SMS or 
+by the CA system when setting up the system.</p>
+<p class="MsoNormal">　</p>
+<p class="MsoNormal"><a name="CONTROLCOMMANDSECTION"></a>CONTROL Command Section(請參考P20)</p>
+<blockquote>
+  <p class="MsoNormal">CONTROL command section = CONTROL command header + 
+  CONTROL command parameters</p>
+  <p class="MsoNormal">其中parameters的部分,用來傳送 commands到 Call 
+  Collector.(請參考P79)</p>
+</blockquote>
+<p class="MsoNormal">　</p>
+<p class="MsoNormal"><a name="CONTROLCOMMANDHEADER"></a>CONTROL command header(請參考P20)</p>
+<table border="1" width="100%" cellpadding="0" cellspacing="1">
+  <tr>
+    <td width="25%" align="center"><b>Field</b></td>
+    <td width="6%" align="center"><b>Size</b></td>
+    <td width="14%" align="center"><b>Format</b></td>
+    <td width="55%" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td width="25%">broadcast_mode</td>
+    <td width="6%">1</td>
+    <td width="14%">N or B</td>
+    <td width="55%">Normal - Standard broadcasting mode
+      <p>Batch - Command with a lower priority</td>
+  </tr>
+  <tr>
+    <td width="25%">broadcast_start_date</td>
+    <td width="6%">8</td>
+    <td width="14%">YYYYMMDD</td>
+    <td width="55%">Broadcast start date. The command must be sent to the ICC 
+      from this date</td>
+  </tr>
+  <tr>
+    <td width="25%">broadcast_end_date</td>
+    <td width="6%">8</td>
+    <td width="14%">YYYYMMDD</td>
+    <td width="55%">Broadcast end date.The command must be sent to the ICC until 
+      this date</td>
+  </tr>
+  <tr>
+    <td width="25%">address_type</td>
+    <td width="6%">1</td>
+    <td width="14%">U or G</td>
+    <td width="55%">EMM addressing mode for EMM commands.
+      <p>Unique(U) - An ICC is addressed by its unique address&nbsp; (UA)</p>
+      <p>Global(G) - All ICCs of the MOP are addressed</td>
+  </tr>
+  <tr>
+    <td width="45%" colspan="3">if (address_type == U ) { UA }
+      <p>else if (address_type== G ) { void }</p>
+      <p>else { return error {</td>
+    <td width="55%">UA&nbsp; - The address of the ICC to which the command 
+      refers</td>
+  </tr>
+</table>
+<p class="MsoNormal">PS: The fields of CONTROL command headers must be 
+documented as follows:</p>
+<table border="1" width="100%">
+  <tr>
+    <td width="25%" align="center"><b>Field</b></td>
+    <td width="75%" align="center"><b>Value</b></td>
+  </tr>
+  <tr>
+    <td width="25%">broadcast_mode</td>
+    <td width="75%">N</td>
+  </tr>
+  <tr>
+    <td width="25%">broadcast_start_date</td>
+    <td width="75%">current date</td>
+  </tr>
+  <tr>
+    <td width="25%">broadcast_end_date</td>
+    <td width="75%">current date</td>
+  </tr>
+  <tr>
+    <td width="25%">address_type</td>
+    <td width="75%">U</td>
+  </tr>
+  <tr>
+    <td width="25%">UA</td>
+    <td width="75%">0000000000 to 4294967295,the UA of the ICC to which this 
+      command refers</td>
+  </tr>
+</table>
+<p class="MsoNormal">　</p>
+<p class="MsoNormal"><a name="PRODUCTCOMMANDSECTION"></a>PRODUCT_DEF Command 
+Section(請參考P21)</p>
+<blockquote>
+  <p class="MsoNormal">PRODUCT_DEF command section = PRODUCT_DEF command 
+  parameters</p>
+  <p class="MsoNormal">parameters的部分,用來傳送 commands到 IMS.(請參考P99)</p>
+</blockquote>
+<p class="MsoNormal">　</p>
+<p class="MsoNormal"><a name="FEEDBACKCOMMANDSECTION"></a>FEEDBACK Command 
+Section(請參考P21)</p>
+<blockquote>
+  <p class="MsoNormal">FEEDBACK command section = FEEDBACK command header + 
+  FEEDBACK command parameters</p>
+  <p class="MsoNormal">其中parameters的部分,用來傳送 commands到 SMS.(請參考P85)</p>
+</blockquote>
+<p class="MsoNormal">　</p>
+<p class="MsoNormal"><a name="FEEDBACKCOMMANDHEADER"></a>FEEDBACK command header(請參考P21)</p>
+<table border="1" width="100%">
+  <tr>
+    <td width="8%" align="center"><b>Field</b></td>
+    <td width="8%" align="center"><b>Size</b></td>
+    <td width="30%" align="center"><b>Format</b></td>
+    <td width="54%" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td width="8%">UA</td>
+    <td width="8%">10</td>
+    <td width="30%">0000000000 to 4294967295</td>
+    <td width="54%">ICC unique address
+      <p>Note.commands 208,109 and 210 UA=0000000000</td>
+  </tr>
+</table>
+<p class="MsoNormal">　</p>
+<p class="MsoNormal"><a name="SMSOPERATIONCOMMANDS"></a>SMS OPERATION Commands(請參考P21)</p>
+<blockquote>
+  <p class="MsoNormal">用來傳送 acknowledgements or non-acknowledgements</p>
+  <p class="MsoNormal">OPERATION command section = OPERATION command parameters</p>
+  <p class="MsoNormal">parameters的部分,用來在SMS 和 SMS Gateway間傳送 
+  commands.(請參考P115)</p>
+</blockquote>
+<p class="MsoNormal">　</p>
+<p class="MsoNormal"><a name="SMSCOMMANDFIELDSIZEANDFORMAT"></a>SMS&nbsp; 
+Commands: field size and format(請參考P22)</p>
+<blockquote>
+  <p class="MsoNormal">1. All fields in ASCII format.</p>
+  <p class="MsoNormal">2. 數字型態者 -- 向右靠,長度不足者,左邊補 
+  0</p>
+  <p class="MsoNormal">3. 字串型態者 -- 向左靠,長度不足者,右邊補空白</p>
+  <p class="MsoNormal">　</p>
+</blockquote>
+<p class="MsoNormal"><a name="ERRORMESSAGE"></a>SMS Command Error Message(請參考P25)</p>
+<blockquote>
+  <p class="MsoNormal">當執行SMS command有error時,會產生error code and 
+  error code extension.</p>
+  <p class="MsoNormal">error code指出error屬於何種範圍(category);error 
+  code extension則有進一步的說明</p>
+</blockquote>
+<p class="MsoNormal">　</p>
+<p class="MsoNormal"><a name="COMMANDSAMPLE"></a>Command Sample</p>
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp; 1.<a name="EMM_COMMAND_SAMPLE"></a>EMM_Command 
+Sample&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Data:00000000201025602572380920000101N1999092220000101U000000001900020000000000101996010120000101<br>
+Answer: 000000005050257025623809200103201000000000002000000000000000000000000</p> 
+<p class="MsoNormal">說明 : <font color="#000080">藍色字體</font>是command; 
+<font color="#FF0000">紅色字體</font>是command之欄位意義</p>
+<p class="MsoNormal">Data:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000080"> 
+000000002&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+01&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+0256&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></p>
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<font color="#FF0000">TRANSACTION_NUMBER COMMAND_TYPE(EMM_Command) SOURCE_ID</font></p> 
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<font color="#000080">0257&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23809&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+20000101</font>&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<font color="#FF0000">DEST_ID MOP_PPID CREATION_DATE</font><br> 
+<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<font color="#000080">N&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+19990922&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+20000101&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+U&nbsp;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<font color="#FF0000">broadcast_mode broadcast_start_date broadcast_end_date Address_Type(Unique address)<br> 
+</font><br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<font color="#000080">0000000019&nbsp;&nbsp; 0002&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+000000000010&nbsp; 19960101&nbsp;&nbsp;&nbsp;&nbsp; 20000101</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<font color="#FF0000">UA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+command_ID IMS_productID&nbsp; begin_date&nbsp;&nbsp; end_date</font></p>
+<p class="MsoNormal">　</p>
+<p class="MsoNormal">Answer:&nbsp;&nbsp; <font color="#000080">000000005&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+05&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+0257&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+0256&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23809</font>&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<font color="#FF0000">TRANSACTION_NUMBER COMMAND_TYPE	SOURCE_ID DEST_ID MOP_PPID</font></p> 
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<font color="#000080">20010320&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+1000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+000000002</font></p>
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<font color="#FF0000">CREATION_DATE&nbsp;&nbsp;&nbsp; keyId(CMD_ID)&nbsp;&nbsp;&nbsp; 
+TRANSACTION_NUMBER</font><br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<font color="#000080">000000000000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+000000000000</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<font color="#FF0000">IMS_PRODUCT_ID&nbsp;&nbsp;&nbsp; SMS_PRODUCT_ID</font></p>
+<p class="MsoNormal">　</p>
+<p class="MsoNormal">　</p>
+<p class="MsoNormal">　</p>
+<p class="MsoNormal">　</p>
+<p class="MsoNormal">　</p>
+<p class="MsoNormal">　</p>
+<p class="MsoNormal">　</p>
+<p class="MsoNormal">　</p>
+</BODY> 
+</HTML> 
+
+<html><script language="JavaScript"></script></html>

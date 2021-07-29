@@ -1,0 +1,367 @@
+.text1 {  font-family: "細明體"; font-size: 12px; color: #6F6F6F; text-decoration: none}
+.text1:hover {  font-family: "細明體"; font-size: 9pt; color: #6F6F6F; text-decoration: underline}
+.text2 {  font-family: "細明體"; font-size: 9pt; color: #FFFFFF; text-decoration: none; font-variant: normal}
+.text2:hover {  font-family: "細明體"; font-size: 9pt; color: #FFFFFF; text-decoration: underline}
+.text3 {  font-family: "細明體"; font-size: 9pt; color: #5A5653; text-decoration: none}
+.text3:hover {  font-family: "細明體"; font-size: 9pt; color: #5A5653; text-decoration: underline}
+.box1 {
+	height: 18px;
+	background-color: #E5E5E5;
+	border: #CFCFCF;
+	border-style: solid;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	background-position: center center;
+	text-decoration: none;
+	font-family: "細明體";
+	font-size: 9pt;
+	color: #666666;
+	padding-top: 3px;
+}
+.box2 {
+	background-color: #E5E5E5;
+	height: 25px;
+	width: 100px;
+	border: #CFCFCF;
+	border-style: solid;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	font-family: "細明體";
+	color: #666666;
+	font-size: 9pt;
+	text-decoration: none;
+	padding-top: 3px;
+}
+.text4 {  font-family: "細明體"; font-size: 9pt; color: #0293B0; text-decoration: none; line-height: 150%}
+.text4:hover {  font-family: "細明體"; font-size: 9pt; color: #0293B0; text-decoration: underline; line-height: 150%}
+.text5 {  font-family: "細明體"; font-size: 9pt; color: #009087; text-decoration: none; line-height: 140%}
+.text5:hover {  font-family: "細明體"; font-size: 9pt; color: #009087; text-decoration: underline; line-height: 140%}
+.box3 {
+	font-family: "細明體";
+	height: 20px;
+	background-color: #E5E5E5;
+	border: 1px #CFCFCF solid;
+	font-size: 10pt;
+	color: #686669;
+	padding-top: 3px;
+
+
+}
+.text6 {  font-family: "細明體"; font-size: 9pt; color: #000000; text-decoration: none; line-height: 150%}
+.text6:hover {  font-family: "細明體"; font-size: 9pt; color: #000000; text-decoration: underline; line-height: 150%}
+.text5_yingshi { font-family: "細明體"; font-size: 9pt; color: #B43143; text-decoration: none; line-height: 150%}
+.text5_yingshi:hover { font-family: "細明體"; font-size: 9pt; color: #B43143; text-decoration: underline; line-height: 150%}
+.text5_yinyue { font-family: "細明體"; font-size: 9pt; color: #0094B3; text-decoration: none; line-height: 150% }
+.text5_yinyue:hover { font-family: "細明體"; font-size: 9pt; color: #0094B3; text-decoration: underline; line-height: 150% }
+.text5_lipin { font-family: "細明體"; font-size: 9pt; color: #6F8600; text-decoration: none; line-height: 150% }
+.text5_lipin:hover { font-family: "細明體"; font-size: 9pt; color: #6F8600; text-decoration: underline; line-height: 150% }
+.text5_hzp { font-family: "細明體"; font-size: 9pt; color: #F3628D; text-decoration: none; line-height: 150% }
+.text5_hzp:hover { font-family: "細明體"; font-size: 9pt; color: #F3628D; text-decoration: underline; line-height: 150% }
+.text5_bangong { font-family: "細明體"; font-size: 9pt; color: #5F6100; text-decoration: none; line-height: 150% }
+.text5_bangong:hover { font-family: "細明體"; font-size: 9pt; color: #5F6100; text-decoration: underline; line-height: 150% }
+.text5_fushi { font-family: "細明體"; font-size: 9pt; color: #9B29D6; text-decoration: none; line-height: 150% }
+.text5_fushi:hover { font-family: "細明體"; font-size: 9pt; color: #9B29D6; text-decoration: underline; line-height: 150% }
+.text5_jiadian { font-family: "細明體"; font-size: 9pt; color: #0366FF; text-decoration: none; line-height: 150% }
+.text5_jiadian:hover { font-family: "細明體"; font-size: 9pt; color: #0366FF; text-decoration: underline; line-height: 150% }
+.text5_jujia { font-family: "細明體"; font-size: 9pt; color: #A06A00; text-decoration: none; line-height: 150% }
+.text5_jujia:hover { font-family: "細明體"; font-size: 9pt; color: #A06A00; text-decoration: underline; line-height: 150% }
+.text5_shipin { font-family: "細明體"; font-size: 9pt; color: #00019A; text-decoration: none; line-height: 150% }
+.text5_shipin:hover { font-family: "細明體"; font-size: 9pt; color: #00019A; text-decoration: underline; line-height: 150% }
+.text5_wanju { font-family: "細明體"; font-size: 9pt; color: #388F04; text-decoration: none; line-height: 150% }
+.text5_wanju:hover { font-family: "細明體"; font-size: 9pt; color: #388F04; text-decoration: underline; line-height: 150% }
+.text5_xiangbao { font-family: "細明體"; font-size: 9pt; color: #A03500; text-decoration: none; line-height: 150% }
+.text5_xiangbao:hover { font-family: "細明體"; font-size: 9pt; color: #A03500; text-decoration: underline; line-height: 150% }
+.text5_yundong { font-family: "細明體"; font-size: 9pt; color: #037B3D; text-decoration: none; line-height: 150% }
+.text5_yundong:hover { font-family: "細明體"; font-size: 9pt; color: #037B3D; text-decoration: underline; line-height: 150% }
+
+.ecborder {  border: 1px #B3B3B3}
+.buyText1 {
+	font-family: "Geneva", "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.buyText1:hover {
+	font-family: "Geneva", "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.buyText2 {
+	font-family: "細明體";
+	font-size: 12px;
+	color: #6F6F6F;
+	text-decoration: none;
+}
+.buyText2:hover {
+	font-family: "細明體";
+	font-size: 12px;
+	color: #6F6F6F;
+	text-decoration: underline;
+}
+.buyCurrent {
+	font-family: "細明體";
+	font-size: 12px;
+	text-decoration: none;
+	color: #B05004;
+	line-height: 18px;
+
+
+}
+.buyCurrent:hover {
+	font-family: "細明體";
+	font-size: 12px;
+	text-decoration: underline;
+	color: #B05004;
+
+}
+.buyFaq {
+	cursor: help;
+}
+.buyTitle {
+	font-family: "細明體";
+	font-size: 12px;
+	color: #634E19;
+	text-decoration: none;
+}
+.buyYuanjia {
+	font-family: "細明體";
+	font-size: 12px;
+	color: #585752;
+	text-decoration: line-through;
+
+}
+.buyXianjia {
+	font-family: "細明體";
+	font-size: 12px;
+	color: #EB8604;
+}
+.buyBox1 {
+	border: 1px solid #999999;
+}
+.indexBox1 {
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #CACACA;
+	border-bottom-color: #CACACA;
+	border-left-color: #CACACA;
+}
+.indexText {
+	font-family: "細明體";
+	font-size: 12px;
+	text-decoration: none;
+	color: #FF6B07;
+
+}
+.indexText:hover {
+	font-family: "細明體";
+	font-size: 12px;
+	text-decoration: underline;
+	color: #FF6B07;
+
+}
+.indexMore {
+	font-size: 10px;
+	color: #000000;
+	text-decoration: none;
+	filter: Glow(Color=#FFFFFF, Strength=3);
+	font-family: "細明體";
+
+
+
+}
+.indexSP1 {
+	font-size: 24px;
+	color: #FF5503;
+	filter: Glow(Color=#FFFFFF, Strength=3);
+	font-weight: bold;
+	font-family: "細明體";
+
+
+
+}
+.indexSP2 {
+	font-family: "細明體";
+	font-size: 15px;
+	color: #FF5503;
+	filter: Glow(Color=#FFFFFF, Strength=3);
+	font-weight: bold;
+	text-decoration: underline;
+	vertical-align: top;
+	text-align: left;
+
+
+
+}
+.indexText2 {
+	font-family: "細明體";
+	font-size: 12px;
+	color: #B85303;
+	text-decoration: none;
+
+}
+.indexText2:hover {
+	font-family: "細明體";
+	font-size: 12px;
+	color: #B85303;
+	text-decoration: underline;
+}
+.indexBox2 {
+	border: 1px solid #CACACA;
+
+}
+.indexText3 {
+	font-family: "細明體";
+	font-size: 12px;
+	color: #676767;
+	text-decoration: none;
+	line-height: 150%;
+
+}
+.indexText3:hover {
+	font-family: "細明體";
+	font-size: 12px;
+	color: #676767;
+	text-decoration: underline;
+	line-height: 150%;
+
+}
+.indexMore2 {
+	font-size: 9px;
+	color: #000000;
+	text-decoration: none;
+	filter: Glow(Color=#FFFFFF, Strength=3);
+	font-family: "細明體";
+	font-weight: lighter;
+
+}
+td {
+	font-size: 12px;
+}
+.indexBox3 {
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #C2C2C2;
+}
+.indexMovie1 {
+	font-family: "細明體";
+	font-size: 12px;
+	color: #E4566E;
+	text-decoration: none;
+	line-height: 150%;
+
+}
+.indexBox4 {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #C37583;
+}
+.indexMovie1:hover {
+
+	font-family: "細明體";
+	font-size: 12px;
+	color: #E4566E;
+	text-decoration: underline;
+	line-height: 150%;
+}
+.indexSPpic {
+	filter: DropShadow(Color=#CBCBCB OffX=2, OffY=2, Positive=1);
+}
+.indexSPMusic {
+
+	font-size: 24px;
+	color: #06A902;
+	filter: Glow(Color=#FFFFFF, Strength=3);
+	font-weight: bold;
+	font-family: "細明體";
+}
+.indexBox5 {
+
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #D2D0FF;
+	border-bottom-color: #D2D0FF;
+	border-left-color: #D2D0FF;
+}
+.indexBoxBook {
+	border: 1px solid #4EDADB;
+}
+.indexBoxGift {
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #608600;
+	border-bottom-color: #608600;
+	border-left-color: #608600;
+}
+.indexText4 {
+	font-family: "細明體";
+	font-size: 12px;
+	line-height: 120%;
+	color: #000000;
+	text-decoration: none;
+}
+.buyBox2 {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #686B64;
+
+}
+.buyTitle:hover {
+
+	font-family: "細明體";
+	font-size: 12px;
+	color: #634E19;
+	text-decoration: underline;
+}
+.bg {
+	background-image: url(http://images2.sohu.com/image/store/gxd/new_store/index/images/index_162.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.box4 {
+	font-family: "細明體";
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #B3B3B3;
+	border-bottom-color: #B3B3B3;
+	border-left-color: #B3B3B3;
+
+}
+.nav {
+	font-family: "細明體";
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+     }
+.nav1 {	background-color: #575757;}
+.nav2 {	background-color: #FBB400;}
+.nav3 {	background-color: #B43143;}
+.nav4 {	background-color: #0094B3;}
+.nav5 {	background-color: #009087;}
+.nav6 {	background-color: #F3628D;}
+.nav7 {	background-color: #6F8600;}
+.nav8 {	background-color: #BE4AAF;}
+.nav9 {	background-color: #FF9900;}

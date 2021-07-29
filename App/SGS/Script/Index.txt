@@ -1,0 +1,44 @@
+1.SF_ICCARDQUERY
+  ..SO004(CompCode,PRDate,InstDate,SmartCardNo)
+  ..SO004(CompCode,CustId,PRDate,InstDate,SmartCardNo)
+  ..SO004(CompCode,CustId,PRDate,InstDate,SmartCardNo,InstDate)
+  ..SO001(CustID)
+  ..SO459(CompCode,FirstFlag,ErrorCode,ModeType)
+
+2.SF_CAPRODUCTQUERY
+
+3.SF_PRODPURCHASEQUERY
+  ..SO005(CompCode,ChCode,OrderNo)
+  ..SO105(OrderNo)
+  ..SO105(OrderNo,AcceptTime)
+  ..SOAC0202(CompCode,ChCode,UpdTime,ModeType)
+
+4.SF_ENTITLEMENTQUERY
+  ..SO005(CompCode,ChCode)
+  ..SO005(CompCode,ChCode,SetTime)
+
+5.Delphi  
+  ..SO459(CompCode,ModeType,HandleEDateTime)
+  ..SO459(CompCode,FirstFlag,ErrorCode,HandleEDateTime)
+  ..SO461(DstMsgID,CompCode,ModeType,HandleEDateTime)
+  ..SO460(DstMsgID)
+  ..SO451~SO458(CompCode,HandleEDateTime)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

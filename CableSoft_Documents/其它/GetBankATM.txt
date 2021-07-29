@@ -1,0 +1,41 @@
+
+Public Function GetBankATM(strBillNo As String, lngCustId As Long, strBankCode As String, _
+    strShouldDate As String, lngShouldAmt As Long) As String
+    On Error Resume Next
+    Dim rsTmp As New ADODB.Recordset
+    Dim clsBankATMNo As Object
+    Dim strShDate As String
+        If strBankCode = "" Or strBillNo = "" Or lngCustId = 0 Then Exit Function
+        If Not GetRS(rsTmp, "Select FileName2,CorpID From " & GetOwner & "CD018 Where CodeNo = " & strBankCode) Then Exit Function
+        If Len(rsTmp("FileName2") & "") = 0 Or Len(rsTmp("CorpId") & "") = 0 Then MsgBox "銀行代碼檔中無定義轉帳輸入檔名或收件單位代號", vbCritical, gimsgWarning: Exit Function
+        strShDate = Format(strShouldDate, "yyyy/mm/dd")
+        Set clsBankATMNo = CreateObject("csBankATMNo.cls" & rsTmp("FileName2"))
+        
+        If Err.Number = 429 Then
+            GetBankATM = GetATMNo(strBillNo, lngCustId, rsTmp("CorpID") & "", strShDate, lngShouldAmt, rsTmp("FileName2") & "")
+            If GetBankATM = "" Then
+                MsgBox "銀行代碼檔中定義之轉帳輸入檔名 : [" & rsTmp("FileName2") & "] 不正確,請確認!!", vbCritical, gimsgWarning: Exit Function
+            End If
+        Else
+            GetBankATM = clsBankATMNo.GetATMNo(strBillNo, lngCustId, rsTmp("CorpID") & "", strShDate, lngShouldAmt, gcnGi)
+        End If
+End Function
+
+Private Function GetATMNo(strBillNo As String, lngCustId As Long, strCorpID As String, _
+    strShouldDate As String, lngShouldAmt As Long, ByVal strSFName As String) As String
+  On Error Resume Next
+    Dim ComSF_GETCCBATM As New ADODB.Command
+        With ComSF_GETCCBATM
+                .Parameters.Append .CreateParameter("RETURN_VALUE", adVarChar, adParamReturnValue, 2000)
+                .Parameters.Append .CreateParameter("P_VIRTUALCODE", adVarChar, adParamInput, 2000, strCorpID)
+                .Parameters.Append .CreateParameter("P_YM", adVarChar, adParamInput, 2000, Left(strBillNo, 6))
+                .Parameters.Append .CreateParameter("P_CURRCUSTID", adVarNumeric, adParamInput, , lngCustId)
+                .Parameters.Append .CreateParameter("p_Amount", adVarNumeric, adParamInput, , lngShouldAmt)
+                Set .ActiveConnection = gcnGi
+                .CommandText = "SF_" & strSFName
+                .CommandType = adCmdStoredProc
+                .Execute
+                If Err.Number <> 0 Then Exit Function
+                GetATMNo = .Parameters("Return_value").Value & ""
+        End With
+End Function

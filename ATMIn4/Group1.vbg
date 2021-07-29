@@ -1,0 +1,6 @@
+VBGROUP 5.0
+StartupProject=..\SO3000\prjSO3000.vbp
+Project=..\csBankCenter4\csBankCenter4.vbp
+Project=ATMIn4.vbp
+Project=..\CreditCardOut\CreditCardOutEMC\CreditCardOutEMC.vbp
+Project=..\CreditCardIn\CreditCardIn.vbp

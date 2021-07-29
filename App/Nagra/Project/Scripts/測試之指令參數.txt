@@ -1,0 +1,29 @@
+連接到瑞士的設定 :
+	destination id = 10
+	source id = 3
+	mop = 257
+	broadcast start date = "the day of the test"
+	broadcast end date = "the day of the test + 2 days"
+	icc = 2080378471
+	stb s/n = 65536
+
+	tel no. +41 21 732 0211 or 0396 (Fabiano)
+	username = smstest
+	passwd = Smstest
+	ip nagra smsgw = 192.168.100.1
+	port = 20000
+
+========================================================================================
+測試以下 command 時,要執行相對的 SQL Statement
+
+Command B1 :
+	update send_nagra set notes='A~111111111111,A~222222222222,A~333333333333,B~555555555555~20020201~20020205';	
+
+Command B2, B4, B5 :
+	update send_nagra set notes='111111111111,222222222222,333333333333,555555555555';
+
+Command B6 :
+	update send_nagra set notes='A~111111111111,A~222222222222,A~333333333333,B~555555555555~20021031';
+
+Command B7 :
+	update send_nagra set notes='111111111111,222222222222~3333333333;4444444444';

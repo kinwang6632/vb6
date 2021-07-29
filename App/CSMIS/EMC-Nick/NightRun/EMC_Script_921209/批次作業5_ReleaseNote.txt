@@ -1,0 +1,107 @@
+各位好,
+
+EMC night-run機制新增一項(每月自動工單日結機制), 請詳閱以下說明, 並請KC指派同仁將其掛上
+各系統台, 謝謝!
+
+1. 緣由: 
+   EMC要求系統台每月6日晚間自動做三種工單的日結, 其稱為工單月結關帳, 以便與東富物料MSS
+   系統同時關帳, 可減少資料異動後的不一致情形, 故公司決議由Night-run來自動做, 也就是
+   包裝成Oracle的job, 由Oracle排程來自動做.
+
+2. 先前暫時做法: 
+   上週五(92.04.04)因為RD來不及寫較完整的Night-run程式, 故先寫一支臨時的script檔
+   (AutoCloseWorkOrder_920406.sql), 交由Tows以NT的排程對EMC所有系統台依序去執行. 
+   但不知是否掛的方式不對, 還是其他原因, 只有觀昇一家有執行, 其他家皆未執行, 故於
+   92.04.07由Liga及Debby手動至各家執行AutoCloseWorkOrder_920406.sql來救急.
+
+3. 正式做法: (RD提供下列程式)
+   a. 批次作業5__每月自動工單日結機制(每月7日02:00一次, 批次程式編號=5):
+	. 檔名: SP_JDailyOp5.sql
+	. 流程說明: 
+		(1) 取日結程式所需參數: Night-run基本參數(存於SO501A), 前次日結參數(存於SO088),...
+		(2) 呼叫工單日結程式SF_ClsWorkOrder [由RDK所維護]
+		(3) log結果至Night-run記錄檔(SO030A)
+
+   b. 將SP_JDailyOp5.sql包裝, 並設定至Oracle批次作業的設定程式:
+	. 檔名: StartDailyOp5_920408.sql
+	. 流程說明: 
+		(1) 設定執行參數: 
+		    . 每月的7日清晨02:00執行
+		    . 若此程式(StartDailyOp5_920408.sql)在的1~6日掛上Oracle, 就設定在本月執行,
+			若在7日以後才掛上Oracle, 就設定在次月執行
+		    . 每月執行一次
+		    . 每次待執行的程式名稱: SP_JDailyOp5
+		(2) 移除同名之舊night-run程式: 
+		    表示你可以重複執行StartDailyOp5_920408.sql也沒關係, 程式只會保留一筆Oracle job
+		(3) 定義SP_JDailyOp5的night-run
+
+4. 步驟 (如何將此機制掛上Oracle ?): 使用SQL*plus至各家執行以下步驟
+   1. compile批次作業5(每月自動工單日結機制)程式: compile SP_JDailyOp5.sql
+
+   2. 將SP_JDailyOp5掛上Oracle排程: 執行 StartDailyOp5_920408.sql
+
+5. 你學到什麼?  (Oracle night-run技術已在公司至少2年了, 是個很簡單且成熟的技巧)
+   a. StartDailyOp5_920408.sql是一個典型的Oracle排程掛載程式範例, 他與其他排程掛載程式皆類似
+      (如StartDailyOp_911003.sql, 內容較複雜). 您可以修改內容, 以便掛上其他想要掛上Oracle排程
+      的程式.
+
+   b. SP_JDailyOp5.sql是個典型包裝程式, 可將正式程式包裝成如下流程.
+	(1) 自動取足夠參數
+	(2) 呼叫正式程式
+	(3) log結果
+      您可以修改內容, 以便包裝其他想要掛上Oracle排程的程式.
+
+
+***** 若同仁要了解Oracle排程做法, 一定請詳讀 *****
+
+6. Oracle排程(稱為Oracle job)的注意事項與限制: 		*** 非常重要 ***
+   Oracle job是有限制與屬性的, 於Oracle的啟動參數檔Init.ora中, 有以下2個參數
+	(1) job_queue_processes
+		. 意義: Oracle job的個數
+		. default值: 0 (若為0表示不啟用Oracle job機制, 即使你有定義job也無效), 但也不要太大
+		. 建議值: 4
+	(2) job_queue_interval
+		. 意義: 多久掃瞄一次Oracle job queue中的job, 以便時間到時去執行, 單位為"秒"
+		. default值: 60 
+		. 建議值: 因為我們是每日或每月, 故60秒可能太頻繁了, 也會影響Oracle效率
+
+    ==> 我建議RD或PM都應有能力去查或修改Oracle的啟動參數檔中的此2參數的設定值 !!!
+
+7. 參考資料: (除此次新程式外, 其他檔案或程式皆是已release了)
+   . TBC晚上執行機制_911003.doc或TBC晚上執行機制_910614.doc: 
+     說明建立TBC night-rin機制的標準程序. 適用於新建立Oracle主機時, 或轉換更新Oracle主機後, 
+     重新啟用night-rin機制. 
+
+   . StartDailyOp_911003.sql: 
+	a. 掛上批次作業1: 呼叫SP_DropTmpTV
+	b. 掛上批次作業2: 呼叫SP_JDailyOp1
+
+   . StartDailyOp5_920408.sql:
+	a. 掛上批次作業5: 呼叫SP_JDailyOp5
+
+   . 各程式與關聯說明:
+	1. SP_DropTmpTV.sql: 可刪除CC&B產生的暫時table及view
+	2. SP_JDailyOp1.sql: 主掛鉤程式, 呼叫SF_DailyOp1, 再呼叫批次作業2(SP_JdailpOp2), 
+		批次作業3(SP_JdailpOp3), 批次作業4(SP_JdailyOp4), 以產生營運日報表1/2/3/4統計資料
+	3. SF_DailyOp1.sql: 被SP_JDailyOp1呼叫, 產生營運日報表1/2統計資料
+	4. SP_JdailpOp2.sql: 呼叫SF_DailyOp2, 產生營運日報表3統計資料
+	5. SP_JdailyOp4.sql: 呼叫SF_DailyOp4, 產生營運日報表4統計資料, 及大樓戶統收戶數自動計算
+	6. SP_JdailyOp3.sql: 呼叫SF_DailyOp3, 產生客服員派工完工收費統計資料 (EMC專用, TBC無)
+	7. SP_JDailyOp5.sql: 呼叫SF_ClsWorkOrder, 每月自動工單日結
+
+8. 如何檢查Night-run設定與執行結果?
+   . 檢查night-run所需基本參數: 公司別, 服務別, 各種報表統計所需之資料截止日...
+	select * from SO501A
+
+   . 檢查Oracle的排程設定: 若你有排上Oracle job, 則應該看到這些job的屬性
+	select * from USER_JOBS
+
+   . 檢查各種night-run的執行log: 每日或每月執行night-run程式的執行log
+	select * from SO030A
+
+   . night-run相關檔案: 請參考"TBC晚上執行機制_911003.doc"內容
+
+   . 檢查night-run所產生的資料: 請參考"TBC晚上執行機制_911003.doc"內容
+
+
+Pierre

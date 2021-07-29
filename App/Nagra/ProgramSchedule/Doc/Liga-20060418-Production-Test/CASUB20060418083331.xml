@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ProductManagementData SYSTEM "ProductManagementData.dtd">
+<ProductManagementData creationDate="20060418083331">
+<ProviderInfo>
+<ProviderId>IMS Nagra</ProviderId>
+<ProviderName>IMS Nagravision S.A.</ProviderName>
+<DtdVersion>1.1.1</DtdVersion>
+</ProviderInfo>
+<ProductChangeNotification>
+
+<ProductData>
+<Product>
+<ProductId>13963</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>PPV 2 1C1P</ProductName>
+<ProductDescription>PPV 2 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060418083208" endTime="20101231083211"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>302</ChannelId>
+<ChannelNumber>302</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>PPV 2 (TEST)</ChannelShortName>
+<ChannelName>PPV 2 (TEST)</ChannelName>
+<ChannelDescription>PPV 2 (TEST)</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>PPV 2 (TEST)</ChannelShortName>
+<ChannelName>PPV 2 (TEST)</ChannelName>
+<ChannelDescription>PPV 2 (TEST)</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+</ProductData>
+</ProductChangeNotification>
+</ProductManagementData>

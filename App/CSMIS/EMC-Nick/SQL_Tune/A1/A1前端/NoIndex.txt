@@ -1,0 +1,92 @@
+..彙總一
+目前歷時: 00:00:00.42
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=CHOOSE (Cost=301 Card=19 Bytes=77
+          9)
+
+   1    0   SORT (GROUP BY) (Cost=301 Card=19 Bytes=779)
+   2    1     TABLE ACCESS (FULL) OF 'SO089' (Cost=42 Card=14900 Bytes
+          =610900)
+*******************************************************************************
+目前歷時: 00:00:00.61
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=CHOOSE (Cost=301 Card=19 Bytes=77
+          9)
+
+   1    0   SORT (GROUP BY) (Cost=301 Card=19 Bytes=779)
+   2    1     TABLE ACCESS (FULL) OF 'SO089' (Cost=42 Card=14900 Bytes
+          =610900)
+
+===============================================================================
+===============================================================================
+..彙總二
+目前歷時: 00:00:00.41
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=CHOOSE (Cost=448 Card=10 Bytes=54
+          0)
+
+   1    0   SORT (GROUP BY) (Cost=448 Card=10 Bytes=540)
+   2    1     TABLE ACCESS (FULL) OF 'SO089' (Cost=42 Card=14900 Bytes
+          =804600)
+*******************************************************************************
+目前歷時: 00:00:00.51
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=CHOOSE (Cost=448 Card=10 Bytes=54
+          0)
+
+   1    0   SORT (GROUP BY) (Cost=448 Card=10 Bytes=540)
+   2    1     TABLE ACCESS (FULL) OF 'SO089' (Cost=42 Card=14900 Bytes
+          =804600)
+
+
+
+===============================================================================
+===============================================================================
+..彙總三
+目前歷時: 00:00:15.62
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=CHOOSE (Cost=614 Card=2 Bytes=416
+          )
+
+   1    0   SORT (GROUP BY) (Cost=614 Card=2 Bytes=416)
+   2    1     VIEW (Cost=613 Card=2 Bytes=416)
+   3    2       UNION-ALL
+   4    3         SORT (GROUP BY) (Cost=278 Card=1 Bytes=37)
+   5    4           TABLE ACCESS (FULL) OF 'SO089' (Cost=42 Card=14900
+           Bytes=551300)
+
+   6    3         SORT (GROUP BY) (Cost=335 Card=1 Bytes=49)
+   7    6           TABLE ACCESS (FULL) OF 'SO089' (Cost=42 Card=14900
+           Bytes=730100)
+
+********************************************************************************
+目前歷時: 00:00:20.99
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=CHOOSE (Cost=614 Card=2 Bytes=416
+          )
+
+   1    0   SORT (GROUP BY) (Cost=614 Card=2 Bytes=416)
+   2    1     VIEW (Cost=613 Card=2 Bytes=416)
+   3    2       UNION-ALL
+   4    3         SORT (GROUP BY) (Cost=278 Card=1 Bytes=37)
+   5    4           TABLE ACCESS (FULL) OF 'SO089' (Cost=42 Card=14900
+           Bytes=551300)
+
+   6    3         SORT (GROUP BY) (Cost=335 Card=1 Bytes=49)
+   7    6           TABLE ACCESS (FULL) OF 'SO089' (Cost=42 Card=14900
+           Bytes=730100)
+
+
+

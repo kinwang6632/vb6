@@ -1,0 +1,21 @@
+/*
+  檔名: Create_User.sql
+  Date: 2004.03.04
+  @D:\App\SGS\Script\Create_User.sql
+*/
+
+
+-- 1. 建立 database user
+DROP USER "SGSCOM";
+
+CREATE USER "SGSCOM"  PROFILE "DEFAULT" IDENTIFIED BY "SGSCOM" 
+    DEFAULT 
+    TABLESPACE "EMCCT" TEMPORARY 
+    TABLESPACE "EMCCT_TMP" ACCOUNT UNLOCK;
+
+GRANT "CONNECT" TO "SGSCOM";
+GRANT "RESOURCE" TO "SGSCOM";
+
+
+-- 2. grant 權限 => 要用 system來執行以下之指令
+GRANT ALTER ANY TRIGGER TO "SGSCOM";

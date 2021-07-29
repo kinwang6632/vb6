@@ -1,0 +1,3648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ProductManagementData SYSTEM "ProductManagementData.dtd">
+<ProductManagementData creationDate="20060424000001">
+<ProviderInfo>
+<ProviderId>IMS Nagra</ProviderId>
+<ProviderName>IMS Nagravision S.A.</ProviderName>
+<DtdVersion>1.1.1</DtdVersion>
+</ProviderInfo>
+<ProductPeriodicNotification>
+<ProductReportRequest>
+<SalePeriod beginTime="20060424000000" endTime="20060501000000"/>
+<ProductType productKind="Sub"/>
+</ProductReportRequest>
+<ProductReportReply>
+<ProductData>
+<Product>
+<ProductId>660</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N NHK 1C1P</ProductName>
+<ProductDescription>N NHK 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822023324" endTime="20101231023326"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>4</ChannelId>
+<ChannelNumber>4</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>NHK</ChannelShortName>
+<ChannelName>NHK</ChannelName>
+<ChannelDescription>NHK</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>NHK</ChannelShortName>
+<ChannelName>NHK</ChannelName>
+<ChannelDescription>NHK</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>661</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Hua-Zang 1C1P</ProductName>
+<ProductDescription>N Hua-Zang 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822023354" endTime="20101231023357"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>101</ChannelId>
+<ChannelNumber>101</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>HUA-ZANG</ChannelShortName>
+<ChannelName>HUA-ZANG</ChannelName>
+<ChannelDescription>HUA-ZANG</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>華藏</ChannelShortName>
+<ChannelName>華藏</ChannelName>
+<ChannelDescription>華藏</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>662</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Zi-Bei 1C1P</ProductName>
+<ProductDescription>N Zi-Bei 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822023433" endTime="20101231023435"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>102</ChannelId>
+<ChannelNumber>102</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Zi-Bei</ChannelShortName>
+<ChannelName>Zi-Bei</ChannelName>
+<ChannelDescription>Zi-Bei</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>佛衛慈悲</ChannelShortName>
+<ChannelName>佛衛慈悲</ChannelName>
+<ChannelDescription>佛衛慈悲</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>663</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Universal 1C1P</ProductName>
+<ProductDescription>N Universal 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822023504" endTime="20101231023507"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>103</ChannelId>
+<ChannelNumber>103</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>UNIVERSAL</ChannelShortName>
+<ChannelName>UNIVERSAL</ChannelName>
+<ChannelDescription>UNIVERSAL</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>法界</ChannelShortName>
+<ChannelName>法界</ChannelName>
+<ChannelDescription>法界</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>664</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Nickelodeon 1C1P</ProductName>
+<ProductDescription>N Nickelodeon 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822023550" endTime="20101231023553"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>104</ChannelId>
+<ChannelNumber>104</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Nickelodeon</ChannelShortName>
+<ChannelName>Nickelodeon</ChannelName>
+<ChannelDescription>Nickelodeon</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>尼可兒童頻道</ChannelShortName>
+<ChannelName>尼可兒童頻道</ChannelName>
+<ChannelDescription>尼可兒童頻道</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>665</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N ETTV 1C1P</ProductName>
+<ProductDescription>N ETTV 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822023618" endTime="20101231023620"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>105</ChannelId>
+<ChannelNumber>105</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>ETTV</ChannelShortName>
+<ChannelName>ETTV</ChannelName>
+<ChannelDescription>ETTV</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>ETTV</ChannelShortName>
+<ChannelName>ETTV</ChannelName>
+<ChannelDescription>ETTV</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>666</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Animax 1C1P</ProductName>
+<ProductDescription>N Animax 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822023718" endTime="20101231023720"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>106</ChannelId>
+<ChannelNumber>106</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Animax</ChannelShortName>
+<ChannelName>Animax</ChannelName>
+<ChannelDescription>Animax</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>Animax</ChannelShortName>
+<ChannelName>Animax</ChannelName>
+<ChannelDescription>Animax</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>667</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N ET Education 1C1P</ProductName>
+<ProductDescription>N ET Education 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822023825" endTime="20101231023827"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>998</ChannelId>
+<ChannelNumber>998</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>ET education</ChannelShortName>
+<ChannelName>ET education</ChannelName>
+<ChannelDescription>ET education</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>東森教育頻道(測試)</ChannelShortName>
+<ChannelName>東森教育頻道(測試)</ChannelName>
+<ChannelDescription>東森教育頻道(測試)</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>668</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Food and Travel 1C1P</ProductName>
+<ProductDescription>N Food and Travel 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822023854" endTime="20101231023856"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>140</ChannelId>
+<ChannelNumber>140</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Food and Travel</ChannelShortName>
+<ChannelName>Food and Travel</ChannelName>
+<ChannelDescription>Food and Travel</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>旅遊美食台(測試)</ChannelShortName>
+<ChannelName>旅遊美食台(測試)</ChannelName>
+<ChannelDescription>旅遊美食台(測試)</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>669</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N EHSN Travel 1C1P</ProductName>
+<ProductDescription>N EHSN Travel 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822023916" endTime="20101231023918"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>144</ChannelId>
+<ChannelNumber>144</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>EHSN Travel</ChannelShortName>
+<ChannelName>EHSN Travel</ChannelName>
+<ChannelDescription>EHSN Travel</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>東森旅遊台(測試)</ChannelShortName>
+<ChannelName>東森旅遊台(測試)</ChannelName>
+<ChannelDescription>東森旅遊台(測試)</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>670</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Living Ideas Channel 1C1P</ProductName>
+<ProductDescription>N Living Ideas Channel 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822023939" endTime="20101231023942"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>149</ChannelId>
+<ChannelNumber>149</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Living Ideas Channel</ChannelShortName>
+<ChannelName>Living Ideas Channel</ChannelName>
+<ChannelDescription>Living Ideas Channel</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>生活智慧台(測試)</ChannelShortName>
+<ChannelName>生活智慧台(測試)</ChannelName>
+<ChannelDescription>生活智慧台(測試)</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>671</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Discovery H&amp;L 1C1P</ProductName>
+<ProductDescription>N Discovery H&amp;L 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822024002" endTime="20101231024004"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>150</ChannelId>
+<ChannelNumber>150</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Discovery H&amp;L</ChannelShortName>
+<ChannelName>Discovery H&amp;L</ChannelName>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>Discovery 動力頻道</ChannelShortName>
+<ChannelName>Discovery 動力頻道</ChannelName>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>672</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Discovery Science 1C1P</ProductName>
+<ProductDescription>N Discovery Science 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822024031" endTime="20101231024034"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>151</ChannelId>
+<ChannelNumber>151</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Discovery Science</ChannelShortName>
+<ChannelName>Discovery Science</ChannelName>
+<ChannelDescription>Discovery Science</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>Discovery 科學頻道</ChannelShortName>
+<ChannelName>Discovery 科學頻道</ChannelName>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>673</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N A1 1C1P</ProductName>
+<ProductDescription>N A1 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822024055" endTime="20101231024057"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>152</ChannelId>
+<ChannelNumber>152</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>A1</ChannelShortName>
+<ChannelName>A1</ChannelName>
+<ChannelDescription>A1</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>A1</ChannelShortName>
+<ChannelName>A1</ChannelName>
+<ChannelDescription>A1</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>674</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Jacky Channel 1C1P</ProductName>
+<ProductDescription>N Jacky Channel 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822024118" endTime="20101231024120"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>153</ChannelId>
+<ChannelNumber>153</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Jacky Channel</ChannelShortName>
+<ChannelName>Jacky Channel</ChannelName>
+<ChannelDescription>Jacky Channel</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>Jacky CH(測試)</ChannelShortName>
+<ChannelName>Jacky CH(測試)</ChannelName>
+<ChannelDescription>Jacky CH(測試)</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>675</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Spicy News 1C1P</ProductName>
+<ProductDescription>N Spicy News 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822024202" endTime="20101231024204"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>154</ChannelId>
+<ChannelNumber>154</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Spicy News</ChannelShortName>
+<ChannelName>Spicy News</ChannelName>
+<ChannelDescription>Spicy News</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>麻辣新聞台(測試)</ChannelShortName>
+<ChannelName>麻辣新聞台(測試)</ChannelName>
+<ChannelDescription>麻辣新聞台(測試)</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>676</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Fortune and Mysterious Channel 1C1P</ProductName>
+<ProductDescription>N Fortune and Mysterious Channel 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822024229" endTime="20101231024231"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>155</ChannelId>
+<ChannelNumber>155</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Fortune and Mysterious Channel</ChannelShortName>
+<ChannelName>Fortune and Mysterious Channel</ChannelName>
+<ChannelDescription>Fortune and Mysterious Channel</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>靈異命理台(測試)</ChannelShortName>
+<ChannelName>靈異命理台(測試)</ChannelName>
+<ChannelDescription>靈異命理台(測試)</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>677</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Dramas &amp; Movies 1C1P</ProductName>
+<ProductDescription>N Dramas &amp; Movies 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822024702" endTime="20101231024704"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>157</ChannelId>
+<ChannelNumber>157</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Dramas &amp; Movies</ChannelShortName>
+<ChannelName>Dramas &amp; Movies</ChannelName>
+<ChannelDescription>Dramas &amp; Movies</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>戲劇電影台(測試)</ChannelShortName>
+<ChannelName>戲劇電影台(測試)</ChannelName>
+<ChannelDescription>戲劇電影台(測試)</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>678</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Tzu-Chi 1 1C1P</ProductName>
+<ProductDescription>N Tzu-Chi 1 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822024740" endTime="20101231024743"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>201</ChannelId>
+<ChannelNumber>201</ChannelNumber>
+<ChannelText language="chi">
+<ChannelShortName>慈濟 1</ChannelShortName>
+<ChannelName>慈濟 1</ChannelName>
+<ChannelDescription>慈濟 1</ChannelDescription>
+</ChannelText>
+<ChannelText language="eng">
+<ChannelShortName>TZU-CHI 1</ChannelShortName>
+<ChannelName>TZU-CHI 1</ChannelName>
+<ChannelDescription>TZU-CHI 1</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>679</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Tzu-Chi 2 1C1P</ProductName>
+<ProductDescription>N Tzu-Chi 2 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822024802" endTime="20101231024805"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>202</ChannelId>
+<ChannelNumber>202</ChannelNumber>
+<ChannelText language="chi">
+<ChannelShortName>慈濟 2</ChannelShortName>
+<ChannelName>慈濟 2</ChannelName>
+<ChannelDescription>慈濟 2</ChannelDescription>
+</ChannelText>
+<ChannelText language="eng">
+<ChannelShortName>TZU-CHI 2</ChannelShortName>
+<ChannelName>TZU-CHI 2</ChannelName>
+<ChannelDescription>TZU-CHI 2</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>680</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Tzu-Chi 3 1C1P</ProductName>
+<ProductDescription>N Tzu-Chi 3 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822024834" endTime="20101231024836"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>203</ChannelId>
+<ChannelNumber>203</ChannelNumber>
+<ChannelText language="chi">
+<ChannelShortName>慈濟 3</ChannelShortName>
+<ChannelName>慈濟 3</ChannelName>
+<ChannelDescription>慈濟 3</ChannelDescription>
+</ChannelText>
+<ChannelText language="eng">
+<ChannelShortName>TZU-CHI 3</ChannelShortName>
+<ChannelName>TZU-CHI 3</ChannelName>
+<ChannelDescription>TZU-CHI 3</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>681</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N EHSN-1 1C1P</ProductName>
+<ProductDescription>N EHSN-1 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822024930" endTime="20101231024932"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>211</ChannelId>
+<ChannelNumber>211</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>EHSN-1</ChannelShortName>
+<ChannelName>EHSN-1</ChannelName>
+<ChannelDescription>EHSN-1</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>東森購物1台</ChannelShortName>
+<ChannelName>東森購物1台</ChannelName>
+<ChannelDescription>東森購物1台</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>682</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N EHSN-2 1C1P</ProductName>
+<ProductDescription>N EHSN-2 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822025113" endTime="20101231025115"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>212</ChannelId>
+<ChannelNumber>212</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>EHSN-2</ChannelShortName>
+<ChannelName>EHSN-2</ChannelName>
+<ChannelDescription>EHSN-2</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>東森購物2台</ChannelShortName>
+<ChannelName>東森購物2台</ChannelName>
+<ChannelDescription>東森購物2台</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>683</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N EHSN-3 1C1P</ProductName>
+<ProductDescription>N EHSN-3 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822025137" endTime="20101231025140"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>213</ChannelId>
+<ChannelNumber>213</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>EHSN-3</ChannelShortName>
+<ChannelName>EHSN-3</ChannelName>
+<ChannelDescription>EHSN-3</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>東森購物3台</ChannelShortName>
+<ChannelName>東森購物3台</ChannelName>
+<ChannelDescription>東森購物3台</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>684</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N EHSN-5 1C1P</ProductName>
+<ProductDescription>N EHSN-5 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822025204" endTime="20101231025206"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>214</ChannelId>
+<ChannelNumber>214</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>EHSN-5</ChannelShortName>
+<ChannelName>EHSN-5</ChannelName>
+<ChannelDescription>EHSN-5</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>東森購物5台</ChannelShortName>
+<ChannelName>東森購物5台</ChannelName>
+<ChannelDescription>東森購物5台</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>685</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Top 1C1P</ProductName>
+<ProductDescription>N Top 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822025232" endTime="20101231025234"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>215</ChannelId>
+<ChannelNumber>215</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>TOP</ChannelShortName>
+<ChannelName>TOP</ChannelName>
+<ChannelDescription>TOP</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>TOP</ChannelShortName>
+<ChannelName>TOP</ChannelName>
+<ChannelDescription>TOP</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>686</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N EHSN Insurance 1C1P</ProductName>
+<ProductDescription>N EHSN Insurance 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822025258" endTime="20101231025300"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>216</ChannelId>
+<ChannelNumber>216</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>EHSN Insurance</ChannelShortName>
+<ChannelName>EHSN Insurance</ChannelName>
+<ChannelDescription>EHSN Insurance</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>東森保險館</ChannelShortName>
+<ChannelName>東森保險館</ChannelName>
+<ChannelDescription>東森保險館</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>687</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Best Selection 1C1P</ProductName>
+<ProductDescription>N Best Selection 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822025323" endTime="20101231025325"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>218</ChannelId>
+<ChannelNumber>218</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Best Selection</ChannelShortName>
+<ChannelName>Best Selection</ChannelName>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>東森精選館</ChannelShortName>
+<ChannelName>東森精選館</ChannelName>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>689</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Yo Yo 2 1C1P</ProductName>
+<ProductDescription>N Yo Yo 2 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822025421" endTime="20101231025423"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>121</ChannelId>
+<ChannelNumber>121</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>YOYO 2</ChannelShortName>
+<ChannelName>YOYO 2</ChannelName>
+<ChannelDescription>YOYO 2</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>幼幼 2 台</ChannelShortName>
+<ChannelName>幼幼 2 台</ChannelName>
+<ChannelDescription>幼幼 2 台</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>690</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Yo Yo 3 1C1P</ProductName>
+<ProductDescription>N Yo Yo 3 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822025439" endTime="20101231025441"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>122</ChannelId>
+<ChannelNumber>122</ChannelNumber>
+<ChannelText language="chi">
+<ChannelShortName>幼幼 3 台</ChannelShortName>
+<ChannelName>幼幼 3 台</ChannelName>
+<ChannelDescription>幼幼 3 台</ChannelDescription>
+</ChannelText>
+<ChannelText language="eng">
+<ChannelShortName>YOYO 3</ChannelShortName>
+<ChannelName>YOYO 3</ChannelName>
+<ChannelDescription>YOYO 3</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>691</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Yo Yo 4 1C1P</ProductName>
+<ProductDescription>N Yo Yo 4 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822025501" endTime="20101231025504"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>123</ChannelId>
+<ChannelNumber>123</ChannelNumber>
+<ChannelText language="chi">
+<ChannelShortName>幼幼 4 台</ChannelShortName>
+<ChannelName>幼幼 4 台</ChannelName>
+<ChannelDescription>幼幼 4 台</ChannelDescription>
+</ChannelText>
+<ChannelText language="eng">
+<ChannelShortName>YOYO 4</ChannelShortName>
+<ChannelName>YOYO 4</ChannelName>
+<ChannelDescription>YOYO 4</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>692</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Shopping 1C1P</ProductName>
+<ProductDescription>N Shopping 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822025603" endTime="20101231025605"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>220</ChannelId>
+<ChannelNumber>220</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Shopping</ChannelShortName>
+<ChannelName>Shopping</ChannelName>
+<ChannelDescription>Shopping</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>測試頻道</ChannelShortName>
+<ChannelName>測試頻道</ChannelName>
+<ChannelDescription>測試頻道</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>694</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N HBO 1C1P</ProductName>
+<ProductDescription>N HBO 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822025754" endTime="20101231025756"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>695</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Cinemax 1C1P</ProductName>
+<ProductDescription>N Cinemax 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822025814" endTime="20101231025816"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>223</ChannelId>
+<ChannelNumber>223</ChannelNumber>
+<ChannelText language="chi">
+<ChannelShortName>Cinemax</ChannelShortName>
+<ChannelName>Cinemax</ChannelName>
+</ChannelText>
+<ChannelText language="eng">
+<ChannelShortName>Cinemax</ChannelShortName>
+<ChannelName>Cinemax</ChannelName>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>696</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Star Movie 1C1P</ProductName>
+<ProductDescription>N Star Movie 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822025834" endTime="20101231025837"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>224</ChannelId>
+<ChannelNumber>224</ChannelNumber>
+<ChannelText language="chi">
+<ChannelShortName>衛視西片</ChannelShortName>
+<ChannelName>衛視西片</ChannelName>
+</ChannelText>
+<ChannelText language="eng">
+<ChannelShortName>Star Movie</ChannelShortName>
+<ChannelName>Star Movie</ChannelName>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>697</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N STC 1C1P</ProductName>
+<ProductDescription>N STC 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822025904" endTime="20101231025906"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>225</ChannelId>
+<ChannelNumber>225</ChannelNumber>
+<ChannelText language="chi">
+<ChannelShortName>STC</ChannelShortName>
+<ChannelName>STC</ChannelName>
+<ChannelDescription>STC</ChannelDescription>
+</ChannelText>
+<ChannelText language="eng">
+<ChannelShortName>STC</ChannelShortName>
+<ChannelName>STC</ChannelName>
+<ChannelDescription>STC</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>698</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N TCM 1C1P</ProductName>
+<ProductDescription>N TCM 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822025925" endTime="20101231025927"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>226</ChannelId>
+<ChannelNumber>226</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>TCM</ChannelShortName>
+<ChannelName>TCM</ChannelName>
+<ChannelDescription>TCM</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>TCM(試播)</ChannelShortName>
+<ChannelName>TCM(試播)</ChannelName>
+<ChannelDescription>TCM(試播)</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>703</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Happy 1C1P</ProductName>
+<ProductDescription>N Happy 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822030218" endTime="20101231030220"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>294</ChannelId>
+<ChannelNumber>294</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>HAPPY</ChannelShortName>
+<ChannelName>HAPPY</ChannelName>
+<ChannelDescription>HAPPY</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>HAPPY</ChannelShortName>
+<ChannelName>HAPPY</ChannelName>
+<ChannelDescription>HAPPY</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>704</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Hi-Play 1C1P</ProductName>
+<ProductDescription>N Hi-Play 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822030300" endTime="20101231030302"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>295</ChannelId>
+<ChannelNumber>295</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>HI-PLAY</ChannelShortName>
+<ChannelName>HI-PLAY</ChannelName>
+<ChannelDescription>HI-PLAY</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>HI-PLAY</ChannelShortName>
+<ChannelName>HI-PLAY</ChannelName>
+<ChannelDescription>HI-PLAY</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>705</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Hot 1C1P</ProductName>
+<ProductDescription>N Hot 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822030323" endTime="20101231030325"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>296</ChannelId>
+<ChannelNumber>296</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>HOT</ChannelShortName>
+<ChannelName>HOT</ChannelName>
+<ChannelDescription>HOT</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>HOT</ChannelShortName>
+<ChannelName>HOT</ChannelName>
+<ChannelDescription>HOT</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>706</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Rainbow E 1C1P</ProductName>
+<ProductDescription>N Rainbow E 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822030357" endTime="20101231030359"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>297</ChannelId>
+<ChannelNumber>297</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>RANBOW E</ChannelShortName>
+<ChannelName>RANBOW E</ChannelName>
+<ChannelDescription>RANBOW E</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>彩虹 E</ChannelShortName>
+<ChannelName>彩虹 E</ChannelName>
+<ChannelDescription>彩虹 E</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>707</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Novel Channel 1C1P</ProductName>
+<ProductDescription>N Novel Channel 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822030525" endTime="20101231030527"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>298</ChannelId>
+<ChannelNumber>298</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Novel Channel</ChannelShortName>
+<ChannelName>Novel Channel</ChannelName>
+<ChannelDescription>Novel Channel</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>新穎</ChannelShortName>
+<ChannelName>新穎</ChannelName>
+<ChannelDescription>新穎</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>708</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Look TV 1C1P</ProductName>
+<ProductDescription>N Look TV 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822030601" endTime="20101231030603"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>299</ChannelId>
+<ChannelNumber>299</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Look TV</ChannelShortName>
+<ChannelName>Look TV</ChannelName>
+<ChannelDescription>Look TV</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>Look TV</ChannelShortName>
+<ChannelName>Look TV</ChannelName>
+<ChannelDescription>Look TV</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>709</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N BBC 1C1P</ProductName>
+<ProductDescription>N BBC 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822030622" endTime="20101231030624"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>321</ChannelId>
+<ChannelNumber>321</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>BBC</ChannelShortName>
+<ChannelName>BBC</ChannelName>
+<ChannelDescription>BBC</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>英國BBC電視台</ChannelShortName>
+<ChannelName>英國BBC電視台</ChannelName>
+<ChannelDescription>英國BBC電視台</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>710</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N ABC 1C1P</ProductName>
+<ProductDescription>N ABC 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822030647" endTime="20101231030649"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>322</ChannelId>
+<ChannelNumber>322</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>ABC Asia Pacific</ChannelShortName>
+<ChannelName>ABC Asia Pacific</ChannelName>
+<ChannelDescription>ABC Asia Pacific</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>澳洲ABC電視台</ChannelShortName>
+<ChannelName>澳洲ABC電視台</ChannelName>
+<ChannelDescription>澳洲ABC電視台</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>711</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N TV5 1C1P</ProductName>
+<ProductDescription>N TV5 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822030719" endTime="20101231030721"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>323</ChannelId>
+<ChannelNumber>323</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>TV5</ChannelShortName>
+<ChannelName>TV5</ChannelName>
+<ChannelDescription>TV5</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>法國TV5電視台</ChannelShortName>
+<ChannelName>法國TV5電視台</ChannelName>
+<ChannelDescription>法國TV5電視台</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>712</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Arirang TV 1C1P</ProductName>
+<ProductDescription>N Arirang TV 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822030750" endTime="20101231030752"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>324</ChannelId>
+<ChannelNumber>324</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Arirang TV</ChannelShortName>
+<ChannelName>Arirang TV</ChannelName>
+<ChannelDescription>Arirang TV</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>阿里郎</ChannelShortName>
+<ChannelName>阿里郎</ChannelName>
+<ChannelDescription>阿里郎</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>713</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Channel News Asia 1C1P</ProductName>
+<ProductDescription>N Channel News Asia 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822030827" endTime="20101231030829"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>325</ChannelId>
+<ChannelNumber>325</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Channel NewsAsia</ChannelShortName>
+<ChannelName>Channel NewsAsia</ChannelName>
+<ChannelDescription>Channel NewsAsia</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>Channel NewsAsia</ChannelShortName>
+<ChannelName>Channel NewsAsia</ChannelName>
+<ChannelDescription>Channel NewsAsia</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>714</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N DW 1C1P</ProductName>
+<ProductDescription>N DW 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822030852" endTime="20101231030854"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>326</ChannelId>
+<ChannelNumber>326</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Deutsche Welle</ChannelShortName>
+<ChannelName>Deutsche Welle</ChannelName>
+<ChannelDescription>Deutsche Welle</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>德國DW電視台</ChannelShortName>
+<ChannelName>德國DW電視台</ChannelName>
+<ChannelDescription>德國DW電視台</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>715</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Bloomberg TV 1C1P</ProductName>
+<ProductDescription>N Bloomberg TV 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822030918" endTime="20101231030921"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>327</ChannelId>
+<ChannelNumber>327</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Bloomberg TV</ChannelShortName>
+<ChannelName>Bloomberg TV</ChannelName>
+<ChannelDescription>Bloomberg TV</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>彭博財經頻道</ChannelShortName>
+<ChannelName>彭博財經頻道</ChannelName>
+<ChannelDescription>彭博財經頻道</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>716</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N CNN 1C1P</ProductName>
+<ProductDescription>N CNN 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822030941" endTime="20101231030943"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>328</ChannelId>
+<ChannelNumber>328</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>CNN</ChannelShortName>
+<ChannelName>CNN</ChannelName>
+<ChannelDescription>CNN</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>CNN</ChannelShortName>
+<ChannelName>CNN</ChannelName>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>717</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N VTV4 1C1P</ProductName>
+<ProductDescription>N VTV4 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822031007" endTime="20101231031010"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>329</ChannelId>
+<ChannelNumber>329</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>VTV 4(TEST)</ChannelShortName>
+<ChannelName>VTV 4(TEST)</ChannelName>
+<ChannelDescription>VTV 4(TEST)</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>越南頻道</ChannelShortName>
+<ChannelName>越南頻道</ChannelName>
+<ChannelDescription>越南頻道</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>718</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N ETFM 1C1P</ProductName>
+<ProductDescription>N ETFM 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822031036" endTime="20101231031038"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>400</ChannelId>
+<ChannelNumber>400</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>ETFM</ChannelShortName>
+<ChannelName>ETFM</ChannelName>
+<ChannelDescription>ETFM</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>ETFM</ChannelShortName>
+<ChannelName>ETFM</ChannelName>
+<ChannelDescription>ETFM</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>5679</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N MGM 1C1P</ProductName>
+<ProductDescription>N MGM 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051019102014" endTime="20101231102016"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>232</ChannelId>
+<ChannelNumber>232</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>MGM</ChannelShortName>
+<ChannelName>MGM</ChannelName>
+<ChannelDescription>MGM</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>MGM</ChannelShortName>
+<ChannelName>MGM</ChannelName>
+<ChannelDescription>MGM</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>5680</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Beauty 1C1P</ProductName>
+<ProductDescription>N Beauty 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051019102508" endTime="20101231102510"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>130</ChannelId>
+<ChannelNumber>130</ChannelNumber>
+<ChannelText language="chi">
+<ChannelShortName>東森女性學苑</ChannelShortName>
+<ChannelName>東森女性學苑</ChannelName>
+</ChannelText>
+<ChannelText language="eng">
+<ChannelShortName>Beauty</ChannelShortName>
+<ChannelName>Beauty</ChannelName>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>5681</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Hallmark 1C1P</ProductName>
+<ProductDescription>N Hallmark 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051019103557" endTime="20101231103558"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>221</ChannelId>
+<ChannelNumber>221</ChannelNumber>
+<ChannelText language="chi">
+<ChannelShortName>Hallmark</ChannelShortName>
+<ChannelName>Hallmark</ChannelName>
+</ChannelText>
+<ChannelText language="eng">
+<ChannelShortName>Hallmark</ChannelShortName>
+<ChannelName>Hallmark</ChannelName>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>5682</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Star World 1C1P</ProductName>
+<ProductDescription>N Star World 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20051019103708" endTime="20101231103710"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>231</ChannelId>
+<ChannelNumber>231</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Star World</ChannelShortName>
+<ChannelName>Star World</ChannelName>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>Star World</ChannelShortName>
+<ChannelName>Star World</ChannelName>
+<ChannelDescription>Star World</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>9525</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Desire Channel 1C1P</ProductName>
+<ProductDescription>N Desire Channel 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060106034641" endTime="20101231034647"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>292</ChannelId>
+<ChannelNumber>292</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Desire Channel</ChannelShortName>
+<ChannelName>Desire Channel</ChannelName>
+<ChannelDescription>Desire Channel</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>慾望電視台</ChannelShortName>
+<ChannelName>慾望電視台</ChannelName>
+<ChannelDescription>慾望電視台</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>13963</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>PPV 2 1C1P</ProductName>
+<ProductDescription>PPV 2 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20060418083208" endTime="20101231083211"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>302</ChannelId>
+<ChannelNumber>302</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>PPV 2 (TEST)</ChannelShortName>
+<ChannelName>PPV 2 (TEST)</ChannelName>
+<ChannelDescription>PPV 2 (TEST)</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>PPV 2 (TEST)</ChannelShortName>
+<ChannelName>PPV 2 (TEST)</ChannelName>
+<ChannelDescription>PPV 2 (TEST)</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>13</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>Game Pack01</ProductName>
+<ProductDescription>Game Pack01</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20021106033028" endTime="20101231055521"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>14</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>Music Pack01</ProductName>
+<ProductDescription>Music Pack01</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20021106033350" endTime="20101231055542"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>15</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>RADIO Pack01</ProductName>
+<ProductDescription>RADIO Pack01</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20021106033846" endTime="20101231055600"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>41</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>Adult Channel</ProductName>
+<ProductDescription>Adult Channel</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20030106025921" endTime="20101231030126"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>43</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>YoYo ABC A</ProductName>
+<ProductDescription>YoYo ABC A</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20030106031007" endTime="20101231155959"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>44</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>YoYo ABC B</ProductName>
+<ProductDescription>YoYo ABC B</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20030106031249" endTime="20101231155959"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>45</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>YoYo ABC C</ProductName>
+<ProductDescription>YoYo ABC C</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20030106031413" endTime="20101231155959"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>46</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>Nickelodeon</ProductName>
+<ProductDescription>Nickelodeon</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20030106031653" endTime="20101231155959"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>47</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>TZU-CHI Package 01</ProductName>
+<ProductDescription>TZU-CHI Package 01</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20030106032003" endTime="20101231155959"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>48</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>ET My Drama</ProductName>
+<ProductDescription>ET My Drama</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20030106032232" endTime="20101231155959"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>49</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>ET My WOW</ProductName>
+<ProductDescription>ET My WOW</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20030106032527" endTime="20101231155959"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>51</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>ET My Care</ProductName>
+<ProductDescription>ET My Care</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20030106032959" endTime="20101231155959"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>52</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>BBC News</ProductName>
+<ProductDescription>BBC News</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20030106033135" endTime="20101231155959"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>54</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>Oversea News Channel</ProductName>
+<ProductDescription>Oversea News Channel</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20030106033719" endTime="20101231155959"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>57</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>New Adult Package</ProductName>
+<ProductDescription>New Adult Package</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20030106035300" endTime="20101231155959"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>60</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>Oversea Channel</ProductName>
+<ProductDescription>Oversea Channel</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20030121014714" endTime="20101231014714"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>62</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>Music and AP</ProductName>
+<ProductDescription>Music and AP</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20030121015237" endTime="20101231015237"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>107</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>STOCK</ProductName>
+<ProductDescription>STOCK</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20030804071040" endTime="20101231071048"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>193</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>forien channel</ProductName>
+<ProductDescription>forien channel</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20040420083150" endTime="20101231083152"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>217</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>adult  1</ProductName>
+<ProductDescription>adult  1</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20040908030549" endTime="20101231030557"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>238</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>Discovery 1</ProductName>
+<ProductDescription>Discovery 1</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20041101075425" endTime="20101231075436"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>240</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>AV Channel</ProductName>
+<ProductDescription>AV Channel</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20041101081535" endTime="20101231081540"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>284</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>284</ProductName>
+<ProductDescription>284</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050101064128" endTime="20101231064135"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>295</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>295</ProductName>
+<ProductDescription>295</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050101065339" endTime="20101231065346"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>305</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>305</ProductName>
+<ProductDescription>305</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050101070111" endTime="20101231070115"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>342</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>342</ProductName>
+<ProductDescription>342</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050101094410" endTime="20101231094414"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>344</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>344</ProductName>
+<ProductDescription>344</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050121021704" endTime="20101231021708"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>408</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>408</ProductName>
+<ProductDescription>408</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050527095027" endTime="20101231095030"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>410</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>410</ProductName>
+<ProductDescription>410</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050527095134" endTime="20101231095136"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>421</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>421</ProductName>
+<ProductDescription>421</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050601040000" endTime="20101231040000"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>423</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>423</ProductName>
+<ProductDescription>423</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050603064954" endTime="20101231064958"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>482</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>482</ProductName>
+<ProductDescription>482</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050610083029" endTime="20070610083033"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="1"/>
+</Product>
+<Product>
+<ProductId>599</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>599</ProductName>
+<ProductDescription>599</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050726040854" endTime="20101231040856"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>618</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>618</ProductName>
+<ProductDescription>618</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050726071034" endTime="20101231071040"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>619</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>619</ProductName>
+<ProductDescription>619</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050726071240" endTime="20101231071245"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>620</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>620</ProductName>
+<ProductDescription>620</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050726071313" endTime="20101231071318"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>621</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>621</ProductName>
+<ProductDescription>621</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050726071354" endTime="20101231071359"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>622</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>622</ProductName>
+<ProductDescription>622</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050726071437" endTime="20101231071447"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>623</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>623</ProductName>
+<ProductDescription>623</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050726071526" endTime="20101231071531"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>624</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>624</ProductName>
+<ProductDescription>624</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050802085053" endTime="20101231085055"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>638</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N  Lover Channel 1C1P</ProductName>
+<ProductDescription>N  Lover Channel 1C1P</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822021551" endTime="20101231021558"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>293</ChannelId>
+<ChannelNumber>293</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Lover Channel</ChannelShortName>
+<ChannelName>Lover Channel</ChannelName>
+<ChannelDescription>Lover Channel</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>情人頻道</ChannelShortName>
+<ChannelName>情人頻道</ChannelName>
+<ChannelDescription>情人頻道</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>639</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Nickelodeon</ProductName>
+<ProductDescription>N Nickelodeon</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822021654" endTime="20101231021657"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>104</ChannelId>
+<ChannelNumber>104</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Nickelodeon</ChannelShortName>
+<ChannelName>Nickelodeon</ChannelName>
+<ChannelDescription>Nickelodeon</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>尼可兒童頻道</ChannelShortName>
+<ChannelName>尼可兒童頻道</ChannelName>
+<ChannelDescription>尼可兒童頻道</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>640</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N New Adult Pack</ProductName>
+<ProductDescription>N New Adult Pack</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822021722" endTime="20101231021724"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>294</ChannelId>
+<ChannelNumber>294</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>HAPPY</ChannelShortName>
+<ChannelName>HAPPY</ChannelName>
+<ChannelDescription>HAPPY</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>HAPPY</ChannelShortName>
+<ChannelName>HAPPY</ChannelName>
+<ChannelDescription>HAPPY</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>295</ChannelId>
+<ChannelNumber>295</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>HI-PLAY</ChannelShortName>
+<ChannelName>HI-PLAY</ChannelName>
+<ChannelDescription>HI-PLAY</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>HI-PLAY</ChannelShortName>
+<ChannelName>HI-PLAY</ChannelName>
+<ChannelDescription>HI-PLAY</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>296</ChannelId>
+<ChannelNumber>296</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>HOT</ChannelShortName>
+<ChannelName>HOT</ChannelName>
+<ChannelDescription>HOT</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>HOT</ChannelShortName>
+<ChannelName>HOT</ChannelName>
+<ChannelDescription>HOT</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>641</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Foreign Channel</ProductName>
+<ProductDescription>N Foreign Channel</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822021852" endTime="20101231021854"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>221</ChannelId>
+<ChannelNumber>221</ChannelNumber>
+<ChannelText language="chi">
+<ChannelShortName>Hallmark</ChannelShortName>
+<ChannelName>Hallmark</ChannelName>
+</ChannelText>
+<ChannelText language="eng">
+<ChannelShortName>Hallmark</ChannelShortName>
+<ChannelName>Hallmark</ChannelName>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>223</ChannelId>
+<ChannelNumber>223</ChannelNumber>
+<ChannelText language="chi">
+<ChannelShortName>Cinemax</ChannelShortName>
+<ChannelName>Cinemax</ChannelName>
+</ChannelText>
+<ChannelText language="eng">
+<ChannelShortName>Cinemax</ChannelShortName>
+<ChannelName>Cinemax</ChannelName>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>224</ChannelId>
+<ChannelNumber>224</ChannelNumber>
+<ChannelText language="chi">
+<ChannelShortName>衛視西片</ChannelShortName>
+<ChannelName>衛視西片</ChannelName>
+</ChannelText>
+<ChannelText language="eng">
+<ChannelShortName>Star Movie</ChannelShortName>
+<ChannelName>Star Movie</ChannelName>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>225</ChannelId>
+<ChannelNumber>225</ChannelNumber>
+<ChannelText language="chi">
+<ChannelShortName>STC</ChannelShortName>
+<ChannelName>STC</ChannelName>
+<ChannelDescription>STC</ChannelDescription>
+</ChannelText>
+<ChannelText language="eng">
+<ChannelShortName>STC</ChannelShortName>
+<ChannelName>STC</ChannelName>
+<ChannelDescription>STC</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>231</ChannelId>
+<ChannelNumber>231</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Star World</ChannelShortName>
+<ChannelName>Star World</ChannelName>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>Star World</ChannelShortName>
+<ChannelName>Star World</ChannelName>
+<ChannelDescription>Star World</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>328</ChannelId>
+<ChannelNumber>328</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>CNN</ChannelShortName>
+<ChannelName>CNN</ChannelName>
+<ChannelDescription>CNN</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>CNN</ChannelShortName>
+<ChannelName>CNN</ChannelName>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>642</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Adult 1</ProductName>
+<ProductDescription>N Adult 1</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822021950" endTime="20101231021953"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>297</ChannelId>
+<ChannelNumber>297</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>RANBOW E</ChannelShortName>
+<ChannelName>RANBOW E</ChannelName>
+<ChannelDescription>RANBOW E</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>彩虹 E</ChannelShortName>
+<ChannelName>彩虹 E</ChannelName>
+<ChannelDescription>彩虹 E</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>298</ChannelId>
+<ChannelNumber>298</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Novel Channel</ChannelShortName>
+<ChannelName>Novel Channel</ChannelName>
+<ChannelDescription>Novel Channel</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>新穎</ChannelShortName>
+<ChannelName>新穎</ChannelName>
+<ChannelDescription>新穎</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>299</ChannelId>
+<ChannelNumber>299</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Look TV</ChannelShortName>
+<ChannelName>Look TV</ChannelName>
+<ChannelDescription>Look TV</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>Look TV</ChannelShortName>
+<ChannelName>Look TV</ChannelName>
+<ChannelDescription>Look TV</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>300</ChannelId>
+<ChannelNumber>300</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Rainbow Movie</ChannelShortName>
+<ChannelName>Rainbow Movie</ChannelName>
+<ChannelDescription>Rainbow Movie</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>彩虹電影台</ChannelShortName>
+<ChannelName>彩虹電影台</ChannelName>
+<ChannelDescription>彩虹電影台</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>643</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N 284</ProductName>
+<ProductDescription>N 284</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822022030" endTime="20101231022032"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>201</ChannelId>
+<ChannelNumber>201</ChannelNumber>
+<ChannelText language="chi">
+<ChannelShortName>慈濟 1</ChannelShortName>
+<ChannelName>慈濟 1</ChannelName>
+<ChannelDescription>慈濟 1</ChannelDescription>
+</ChannelText>
+<ChannelText language="eng">
+<ChannelShortName>TZU-CHI 1</ChannelShortName>
+<ChannelName>TZU-CHI 1</ChannelName>
+<ChannelDescription>TZU-CHI 1</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>202</ChannelId>
+<ChannelNumber>202</ChannelNumber>
+<ChannelText language="chi">
+<ChannelShortName>慈濟 2</ChannelShortName>
+<ChannelName>慈濟 2</ChannelName>
+<ChannelDescription>慈濟 2</ChannelDescription>
+</ChannelText>
+<ChannelText language="eng">
+<ChannelShortName>TZU-CHI 2</ChannelShortName>
+<ChannelName>TZU-CHI 2</ChannelName>
+<ChannelDescription>TZU-CHI 2</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>203</ChannelId>
+<ChannelNumber>203</ChannelNumber>
+<ChannelText language="chi">
+<ChannelShortName>慈濟 3</ChannelShortName>
+<ChannelName>慈濟 3</ChannelName>
+<ChannelDescription>慈濟 3</ChannelDescription>
+</ChannelText>
+<ChannelText language="eng">
+<ChannelShortName>TZU-CHI 3</ChannelShortName>
+<ChannelName>TZU-CHI 3</ChannelName>
+<ChannelDescription>TZU-CHI 3</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>211</ChannelId>
+<ChannelNumber>211</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>EHSN-1</ChannelShortName>
+<ChannelName>EHSN-1</ChannelName>
+<ChannelDescription>EHSN-1</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>東森購物1台</ChannelShortName>
+<ChannelName>東森購物1台</ChannelName>
+<ChannelDescription>東森購物1台</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>212</ChannelId>
+<ChannelNumber>212</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>EHSN-2</ChannelShortName>
+<ChannelName>EHSN-2</ChannelName>
+<ChannelDescription>EHSN-2</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>東森購物2台</ChannelShortName>
+<ChannelName>東森購物2台</ChannelName>
+<ChannelDescription>東森購物2台</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>213</ChannelId>
+<ChannelNumber>213</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>EHSN-3</ChannelShortName>
+<ChannelName>EHSN-3</ChannelName>
+<ChannelDescription>EHSN-3</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>東森購物3台</ChannelShortName>
+<ChannelName>東森購物3台</ChannelName>
+<ChannelDescription>東森購物3台</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>214</ChannelId>
+<ChannelNumber>214</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>EHSN-5</ChannelShortName>
+<ChannelName>EHSN-5</ChannelName>
+<ChannelDescription>EHSN-5</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>東森購物5台</ChannelShortName>
+<ChannelName>東森購物5台</ChannelName>
+<ChannelDescription>東森購物5台</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>215</ChannelId>
+<ChannelNumber>215</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>TOP</ChannelShortName>
+<ChannelName>TOP</ChannelName>
+<ChannelDescription>TOP</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>TOP</ChannelShortName>
+<ChannelName>TOP</ChannelName>
+<ChannelDescription>TOP</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>216</ChannelId>
+<ChannelNumber>216</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>EHSN Insurance</ChannelShortName>
+<ChannelName>EHSN Insurance</ChannelName>
+<ChannelDescription>EHSN Insurance</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>東森保險館</ChannelShortName>
+<ChannelName>東森保險館</ChannelName>
+<ChannelDescription>東森保險館</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>218</ChannelId>
+<ChannelNumber>218</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Best Selection</ChannelShortName>
+<ChannelName>Best Selection</ChannelName>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>東森精選館</ChannelShortName>
+<ChannelName>東森精選館</ChannelName>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>400</ChannelId>
+<ChannelNumber>400</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>ETFM</ChannelShortName>
+<ChannelName>ETFM</ChannelName>
+<ChannelDescription>ETFM</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>ETFM</ChannelShortName>
+<ChannelName>ETFM</ChannelName>
+<ChannelDescription>ETFM</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>401</ChannelId>
+<ChannelNumber>401</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>US Popular New Song</ChannelShortName>
+<ChannelName>US Popular New Song</ChannelName>
+<ChannelDescription>US Popular New Song</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>西洋暢銷單曲</ChannelShortName>
+<ChannelName>西洋暢銷單曲</ChannelName>
+<ChannelDescription>西洋暢銷單曲</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>402</ChannelId>
+<ChannelNumber>402</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>HMV The Music Master</ChannelShortName>
+<ChannelName>HMV The Music Master</ChannelName>
+<ChannelDescription>HMV The Music Master</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>西洋樂曲排行</ChannelShortName>
+<ChannelName>西洋樂曲排行</ChannelName>
+<ChannelDescription>西洋樂曲排行</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>403</ChannelId>
+<ChannelNumber>403</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Sweet Love Songs</ChannelShortName>
+<ChannelName>Sweet Love Songs</ChannelName>
+<ChannelDescription>Sweet Love Songs</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>西洋精選情歌</ChannelShortName>
+<ChannelName>西洋精選情歌</ChannelName>
+<ChannelDescription>西洋精選情歌</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>404</ChannelId>
+<ChannelNumber>404</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>50&amp;60 Popular Hit's</ChannelShortName>
+<ChannelName>50&amp;60 Popular Hit's</ChannelName>
+<ChannelDescription>50&amp;60 Popular Hit's</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>50,60年代流行歌曲</ChannelShortName>
+<ChannelName>50,60年代流行歌曲</ChannelName>
+<ChannelDescription>50,60年代流行歌曲</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>405</ChannelId>
+<ChannelNumber>405</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>R&amp;B</ChannelShortName>
+<ChannelName>R&amp;B</ChannelName>
+<ChannelDescription>R&amp;B</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>R&amp;B</ChannelShortName>
+<ChannelName>R&amp;B</ChannelName>
+<ChannelDescription>R&amp;B</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>406</ChannelId>
+<ChannelNumber>406</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>HIPHOP</ChannelShortName>
+<ChannelName>HIPHOP</ChannelName>
+<ChannelDescription>HIPHOP</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>HIPHOP</ChannelShortName>
+<ChannelName>HIPHOP</ChannelName>
+<ChannelDescription>HIPHOP</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>407</ChannelId>
+<ChannelNumber>407</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Rapld Tempo</ChannelShortName>
+<ChannelName>Rapld Tempo Dance Music</ChannelName>
+<ChannelDescription>Rapld Tempo Dance Music</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>DISCO舞曲</ChannelShortName>
+<ChannelName>DISCO舞曲</ChannelName>
+<ChannelDescription>DISCO舞曲</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>408</ChannelId>
+<ChannelNumber>408</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Jazz Vocal</ChannelShortName>
+<ChannelName>Jazz Vocal</ChannelName>
+<ChannelDescription>Jazz Vocal</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>爵士樂(演唱)</ChannelShortName>
+<ChannelName>爵士樂(演唱)</ChannelName>
+<ChannelDescription>爵士樂(演唱)</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>409</ChannelId>
+<ChannelNumber>409</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Jazz Main Stream</ChannelShortName>
+<ChannelName>Jazz Main Stream</ChannelName>
+<ChannelDescription>Jazz Main Stream</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>爵士樂(演奏)</ChannelShortName>
+<ChannelName>爵士樂(演奏)</ChannelName>
+<ChannelDescription>爵士樂(演奏)</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>410</ChannelId>
+<ChannelNumber>410</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Italian Pops</ChannelShortName>
+<ChannelName>Italian Pops</ChannelName>
+<ChannelDescription>Italian Pops</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>義大利流行音樂</ChannelShortName>
+<ChannelName>義大利流行音樂</ChannelName>
+<ChannelDescription>義大利流行音樂</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>411</ChannelId>
+<ChannelNumber>411</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Latin Dance Music</ChannelShortName>
+<ChannelName>Latin Dance Music</ChannelName>
+<ChannelDescription>Latin Dance Music</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>中南美音樂</ChannelShortName>
+<ChannelName>中南美音樂</ChannelName>
+<ChannelDescription>中南美音樂</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>412</ChannelId>
+<ChannelNumber>412</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Enke</ChannelShortName>
+<ChannelName>Enke</ChannelName>
+<ChannelDescription>Enke</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>演歌</ChannelShortName>
+<ChannelName>演歌</ChannelName>
+<ChannelDescription>演歌</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>413</ChannelId>
+<ChannelNumber>413</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Japaness Weakly Hit Pops</ChannelShortName>
+<ChannelName>Japaness Weakly Hit Pops</ChannelName>
+<ChannelDescription>Japaness Weakly Hit Pops</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>CAN週刊有線</ChannelShortName>
+<ChannelName>CAN週刊有線</ChannelName>
+<ChannelDescription>CAN週刊有線</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>414</ChannelId>
+<ChannelNumber>414</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>BGM Music</ChannelShortName>
+<ChannelName>BGM Music</ChannelName>
+<ChannelDescription>BGM Music</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>BGM新時代音樂</ChannelShortName>
+<ChannelName>BGM新時代音樂</ChannelName>
+<ChannelDescription>BGM新時代音樂</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>415</ChannelId>
+<ChannelNumber>415</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Bossa Nova</ChannelShortName>
+<ChannelName>Bossa Nova</ChannelName>
+<ChannelDescription>Bossa Nova</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>Bossa Nova</ChannelShortName>
+<ChannelName>Bossa Nova</ChannelName>
+<ChannelDescription>Bossa Nova</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>416</ChannelId>
+<ChannelNumber>416</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>BGM Classical</ChannelShortName>
+<ChannelName>BGM Classical</ChannelName>
+<ChannelDescription>BGM Classical</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>BGM古典樂</ChannelShortName>
+<ChannelName>BGM古典樂</ChannelName>
+<ChannelDescription>BGM古典樂</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>417</ChannelId>
+<ChannelNumber>417</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Piano easy listening</ChannelShortName>
+<ChannelName>Piano easy listening</ChannelName>
+<ChannelDescription>Piano easy listening</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>鋼琴演奏</ChannelShortName>
+<ChannelName>鋼琴演奏</ChannelName>
+<ChannelDescription>鋼琴演奏</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>418</ChannelId>
+<ChannelNumber>418</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>BGM</ChannelShortName>
+<ChannelName>BGM</ChannelName>
+<ChannelDescription>BGM</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>BGM音樂盒</ChannelShortName>
+<ChannelName>BGM音樂盒</ChannelName>
+<ChannelDescription>BGM音樂盒</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>419</ChannelId>
+<ChannelNumber>419</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>BGM 2</ChannelShortName>
+<ChannelName>BGM 2</ChannelName>
+<ChannelDescription>BGM 2</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>舒適環境音樂</ChannelShortName>
+<ChannelName>舒適環境音樂</ChannelName>
+<ChannelDescription>舒適環境音樂</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>420</ChannelId>
+<ChannelNumber>420</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Bird Hamming</ChannelShortName>
+<ChannelName>Bird Hamming</ChannelName>
+<ChannelDescription>Bird Hamming</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>大自然音樂</ChannelShortName>
+<ChannelName>大自然音樂</ChannelName>
+<ChannelDescription>大自然音樂</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>421</ChannelId>
+<ChannelNumber>421</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Taiwanese Pops</ChannelShortName>
+<ChannelName>Taiwanese Pops</ChannelName>
+<ChannelDescription>Taiwanese Pops</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>台語流行歌曲</ChannelShortName>
+<ChannelName>台語流行歌曲</ChannelName>
+<ChannelDescription>台語流行歌曲</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>422</ChannelId>
+<ChannelNumber>422</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Chinese Best Selling Songs</ChannelShortName>
+<ChannelName>Chinese Best Selling Songs</ChannelName>
+<ChannelDescription>Chinese Best Selling Songs</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>中文暢銷流行</ChannelShortName>
+<ChannelName>中文暢銷流行</ChannelName>
+<ChannelDescription>中文暢銷流行</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>423</ChannelId>
+<ChannelNumber>423</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Chinese Soft Songs</ChannelShortName>
+<ChannelName>Chinese Soft Songs</ChannelName>
+<ChannelDescription>Chinese Soft Songs</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>中文抒情歌曲</ChannelShortName>
+<ChannelName>中文抒情歌曲</ChannelName>
+<ChannelDescription>中文抒情歌曲</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>424</ChannelId>
+<ChannelNumber>424</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Chinese Classical Music</ChannelShortName>
+<ChannelName>Chinese Classical Music</ChannelName>
+<ChannelDescription>Chinese Classical Music</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>中國古典樂</ChannelShortName>
+<ChannelName>中國古典樂</ChannelName>
+<ChannelDescription>中國古典樂</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>425</ChannelId>
+<ChannelNumber>425</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Children Music</ChannelShortName>
+<ChannelName>Children Music</ChannelName>
+<ChannelDescription>Children Music</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>兒童音樂</ChannelShortName>
+<ChannelName>兒童音樂</ChannelName>
+<ChannelDescription>兒童音樂</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>426</ChannelId>
+<ChannelNumber>426</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Soft Lounge</ChannelShortName>
+<ChannelName>Soft Lounge</ChannelName>
+<ChannelDescription>Soft Lounge</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>427</ChannelId>
+<ChannelNumber>427</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Birthday Songs</ChannelShortName>
+<ChannelName>Birthday Songs</ChannelName>
+<ChannelDescription>Birthday Songs</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>生日快樂</ChannelShortName>
+<ChannelName>生日快樂</ChannelName>
+<ChannelDescription>生日快樂</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>428</ChannelId>
+<ChannelNumber>428</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Wedding &amp; Good bye</ChannelShortName>
+<ChannelName>Wedding &amp; Good bye</ChannelName>
+<ChannelDescription>Wedding &amp; Good bye</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>結婚及晚安曲</ChannelShortName>
+<ChannelName>結婚及晚安曲</ChannelName>
+<ChannelDescription>結婚及晚安曲</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>429</ChannelId>
+<ChannelNumber>429</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Kiss Radio</ChannelShortName>
+<ChannelName>Kiss Radio</ChannelName>
+<ChannelDescription>Kiss Radio</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>430</ChannelId>
+<ChannelNumber>430</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Pop Music</ChannelShortName>
+<ChannelName>Pop Music</ChannelName>
+<ChannelDescription>Pop Music</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>POP流行新曲</ChannelShortName>
+<ChannelName>POP流行新曲</ChannelName>
+<ChannelDescription>POP流行新曲</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>644</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N 295</ProductName>
+<ProductDescription>N 295</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822022113" endTime="20101231022115"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>130</ChannelId>
+<ChannelNumber>130</ChannelNumber>
+<ChannelText language="chi">
+<ChannelShortName>東森女性學苑</ChannelShortName>
+<ChannelName>東森女性學苑</ChannelName>
+</ChannelText>
+<ChannelText language="eng">
+<ChannelShortName>Beauty</ChannelShortName>
+<ChannelName>Beauty</ChannelName>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>150</ChannelId>
+<ChannelNumber>150</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Discovery H&amp;L</ChannelShortName>
+<ChannelName>Discovery H&amp;L</ChannelName>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>Discovery 動力頻道</ChannelShortName>
+<ChannelName>Discovery 動力頻道</ChannelName>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>151</ChannelId>
+<ChannelNumber>151</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Discovery Science</ChannelShortName>
+<ChannelName>Discovery Science</ChannelName>
+<ChannelDescription>Discovery Science</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>Discovery 科學頻道</ChannelShortName>
+<ChannelName>Discovery 科學頻道</ChannelName>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>152</ChannelId>
+<ChannelNumber>152</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>A1</ChannelShortName>
+<ChannelName>A1</ChannelName>
+<ChannelDescription>A1</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>A1</ChannelShortName>
+<ChannelName>A1</ChannelName>
+<ChannelDescription>A1</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>225</ChannelId>
+<ChannelNumber>225</ChannelNumber>
+<ChannelText language="chi">
+<ChannelShortName>STC</ChannelShortName>
+<ChannelName>STC</ChannelName>
+<ChannelDescription>STC</ChannelDescription>
+</ChannelText>
+<ChannelText language="eng">
+<ChannelShortName>STC</ChannelShortName>
+<ChannelName>STC</ChannelName>
+<ChannelDescription>STC</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>232</ChannelId>
+<ChannelNumber>232</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>MGM</ChannelShortName>
+<ChannelName>MGM</ChannelName>
+<ChannelDescription>MGM</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>MGM</ChannelShortName>
+<ChannelName>MGM</ChannelName>
+<ChannelDescription>MGM</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>645</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N 305</ProductName>
+<ProductDescription>N 305</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822022138" endTime="20101231022140"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>321</ChannelId>
+<ChannelNumber>321</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>BBC</ChannelShortName>
+<ChannelName>BBC</ChannelName>
+<ChannelDescription>BBC</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>英國BBC電視台</ChannelShortName>
+<ChannelName>英國BBC電視台</ChannelName>
+<ChannelDescription>英國BBC電視台</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>322</ChannelId>
+<ChannelNumber>322</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>ABC Asia Pacific</ChannelShortName>
+<ChannelName>ABC Asia Pacific</ChannelName>
+<ChannelDescription>ABC Asia Pacific</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>澳洲ABC電視台</ChannelShortName>
+<ChannelName>澳洲ABC電視台</ChannelName>
+<ChannelDescription>澳洲ABC電視台</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>323</ChannelId>
+<ChannelNumber>323</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>TV5</ChannelShortName>
+<ChannelName>TV5</ChannelName>
+<ChannelDescription>TV5</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>法國TV5電視台</ChannelShortName>
+<ChannelName>法國TV5電視台</ChannelName>
+<ChannelDescription>法國TV5電視台</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>325</ChannelId>
+<ChannelNumber>325</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Channel NewsAsia</ChannelShortName>
+<ChannelName>Channel NewsAsia</ChannelName>
+<ChannelDescription>Channel NewsAsia</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>Channel NewsAsia</ChannelShortName>
+<ChannelName>Channel NewsAsia</ChannelName>
+<ChannelDescription>Channel NewsAsia</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>326</ChannelId>
+<ChannelNumber>326</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Deutsche Welle</ChannelShortName>
+<ChannelName>Deutsche Welle</ChannelName>
+<ChannelDescription>Deutsche Welle</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>德國DW電視台</ChannelShortName>
+<ChannelName>德國DW電視台</ChannelName>
+<ChannelDescription>德國DW電視台</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>327</ChannelId>
+<ChannelNumber>327</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Bloomberg TV</ChannelShortName>
+<ChannelName>Bloomberg TV</ChannelName>
+<ChannelDescription>Bloomberg TV</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>彭博財經頻道</ChannelShortName>
+<ChannelName>彭博財經頻道</ChannelName>
+<ChannelDescription>彭博財經頻道</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>646</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Basic Pack</ProductName>
+<ProductDescription>N Basic Pack</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822022205" endTime="20101231022208"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>104</ChannelId>
+<ChannelNumber>104</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Nickelodeon</ChannelShortName>
+<ChannelName>Nickelodeon</ChannelName>
+<ChannelDescription>Nickelodeon</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>尼可兒童頻道</ChannelShortName>
+<ChannelName>尼可兒童頻道</ChannelName>
+<ChannelDescription>尼可兒童頻道</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>106</ChannelId>
+<ChannelNumber>106</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Animax</ChannelShortName>
+<ChannelName>Animax</ChannelName>
+<ChannelDescription>Animax</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>Animax</ChannelShortName>
+<ChannelName>Animax</ChannelName>
+<ChannelDescription>Animax</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>121</ChannelId>
+<ChannelNumber>121</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>YOYO 2</ChannelShortName>
+<ChannelName>YOYO 2</ChannelName>
+<ChannelDescription>YOYO 2</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>幼幼 2 台</ChannelShortName>
+<ChannelName>幼幼 2 台</ChannelName>
+<ChannelDescription>幼幼 2 台</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>122</ChannelId>
+<ChannelNumber>122</ChannelNumber>
+<ChannelText language="chi">
+<ChannelShortName>幼幼 3 台</ChannelShortName>
+<ChannelName>幼幼 3 台</ChannelName>
+<ChannelDescription>幼幼 3 台</ChannelDescription>
+</ChannelText>
+<ChannelText language="eng">
+<ChannelShortName>YOYO 3</ChannelShortName>
+<ChannelName>YOYO 3</ChannelName>
+<ChannelDescription>YOYO 3</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>123</ChannelId>
+<ChannelNumber>123</ChannelNumber>
+<ChannelText language="chi">
+<ChannelShortName>幼幼 4 台</ChannelShortName>
+<ChannelName>幼幼 4 台</ChannelName>
+<ChannelDescription>幼幼 4 台</ChannelDescription>
+</ChannelText>
+<ChannelText language="eng">
+<ChannelShortName>YOYO 4</ChannelShortName>
+<ChannelName>YOYO 4</ChannelName>
+<ChannelDescription>YOYO 4</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>647</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N 408</ProductName>
+<ProductDescription>N 408</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822022228" endTime="20101231022230"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>106</ChannelId>
+<ChannelNumber>106</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Animax</ChannelShortName>
+<ChannelName>Animax</ChannelName>
+<ChannelDescription>Animax</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>Animax</ChannelShortName>
+<ChannelName>Animax</ChannelName>
+<ChannelDescription>Animax</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>648</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N 410</ProductName>
+<ProductDescription>N 410</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822022254" endTime="20101231022257"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>121</ChannelId>
+<ChannelNumber>121</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>YOYO 2</ChannelShortName>
+<ChannelName>YOYO 2</ChannelName>
+<ChannelDescription>YOYO 2</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>幼幼 2 台</ChannelShortName>
+<ChannelName>幼幼 2 台</ChannelName>
+<ChannelDescription>幼幼 2 台</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>122</ChannelId>
+<ChannelNumber>122</ChannelNumber>
+<ChannelText language="chi">
+<ChannelShortName>幼幼 3 台</ChannelShortName>
+<ChannelName>幼幼 3 台</ChannelName>
+<ChannelDescription>幼幼 3 台</ChannelDescription>
+</ChannelText>
+<ChannelText language="eng">
+<ChannelShortName>YOYO 3</ChannelShortName>
+<ChannelName>YOYO 3</ChannelName>
+<ChannelDescription>YOYO 3</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>123</ChannelId>
+<ChannelNumber>123</ChannelNumber>
+<ChannelText language="chi">
+<ChannelShortName>幼幼 4 台</ChannelShortName>
+<ChannelName>幼幼 4 台</ChannelName>
+<ChannelDescription>幼幼 4 台</ChannelDescription>
+</ChannelText>
+<ChannelText language="eng">
+<ChannelShortName>YOYO 4</ChannelShortName>
+<ChannelName>YOYO 4</ChannelName>
+<ChannelDescription>YOYO 4</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>649</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N 421</ProductName>
+<ProductDescription>N 421</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822022344" endTime="20101231022346"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0"/>
+</Product>
+<Product>
+<ProductId>650</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N 423</ProductName>
+<ProductDescription>N 423</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822022443" endTime="20101231022445"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>329</ChannelId>
+<ChannelNumber>329</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>VTV 4(TEST)</ChannelShortName>
+<ChannelName>VTV 4(TEST)</ChannelName>
+<ChannelDescription>VTV 4(TEST)</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>越南頻道</ChannelShortName>
+<ChannelName>越南頻道</ChannelName>
+<ChannelDescription>越南頻道</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>651</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N 482</ProductName>
+<ProductDescription>N 482</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822022531" endTime="20101231022534"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>4</ChannelId>
+<ChannelNumber>4</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>NHK</ChannelShortName>
+<ChannelName>NHK</ChannelName>
+<ChannelDescription>NHK</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>NHK</ChannelShortName>
+<ChannelName>NHK</ChannelName>
+<ChannelDescription>NHK</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>652</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N 599</ProductName>
+<ProductDescription>N 599</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822022602" endTime="20101231022604"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>140</ChannelId>
+<ChannelNumber>140</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Food and Travel</ChannelShortName>
+<ChannelName>Food and Travel</ChannelName>
+<ChannelDescription>Food and Travel</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>旅遊美食台(測試)</ChannelShortName>
+<ChannelName>旅遊美食台(測試)</ChannelName>
+<ChannelDescription>旅遊美食台(測試)</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>653</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N 618</ProductName>
+<ProductDescription>N 618</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822022623" endTime="20101231022626"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>144</ChannelId>
+<ChannelNumber>144</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>EHSN Travel</ChannelShortName>
+<ChannelName>EHSN Travel</ChannelName>
+<ChannelDescription>EHSN Travel</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>東森旅遊台(測試)</ChannelShortName>
+<ChannelName>東森旅遊台(測試)</ChannelName>
+<ChannelDescription>東森旅遊台(測試)</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>654</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N 619</ProductName>
+<ProductDescription>N 619</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822022644" endTime="20101231022646"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>149</ChannelId>
+<ChannelNumber>149</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Living Ideas Channel</ChannelShortName>
+<ChannelName>Living Ideas Channel</ChannelName>
+<ChannelDescription>Living Ideas Channel</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>生活智慧台(測試)</ChannelShortName>
+<ChannelName>生活智慧台(測試)</ChannelName>
+<ChannelDescription>生活智慧台(測試)</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>656</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N 621</ProductName>
+<ProductDescription>N 621</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822022723" endTime="20101231022725"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>154</ChannelId>
+<ChannelNumber>154</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Spicy News</ChannelShortName>
+<ChannelName>Spicy News</ChannelName>
+<ChannelDescription>Spicy News</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>麻辣新聞台(測試)</ChannelShortName>
+<ChannelName>麻辣新聞台(測試)</ChannelName>
+<ChannelDescription>麻辣新聞台(測試)</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>657</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N 622</ProductName>
+<ProductDescription>N 622</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822022744" endTime="20101231022747"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>155</ChannelId>
+<ChannelNumber>155</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Fortune and Mysterious Channel</ChannelShortName>
+<ChannelName>Fortune and Mysterious Channel</ChannelName>
+<ChannelDescription>Fortune and Mysterious Channel</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>靈異命理台(測試)</ChannelShortName>
+<ChannelName>靈異命理台(測試)</ChannelName>
+<ChannelDescription>靈異命理台(測試)</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>658</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N 623</ProductName>
+<ProductDescription>N 623</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822022805" endTime="20101231022807"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>157</ChannelId>
+<ChannelNumber>157</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Dramas &amp; Movies</ChannelShortName>
+<ChannelName>Dramas &amp; Movies</ChannelName>
+<ChannelDescription>Dramas &amp; Movies</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>戲劇電影台(測試)</ChannelShortName>
+<ChannelName>戲劇電影台(測試)</ChannelName>
+<ChannelDescription>戲劇電影台(測試)</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>659</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N 624</ProductName>
+<ProductDescription>N 624</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822022825" endTime="20101231022827"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>298</ChannelId>
+<ChannelNumber>298</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Novel Channel</ChannelShortName>
+<ChannelName>Novel Channel</ChannelName>
+<ChannelDescription>Novel Channel</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>新穎</ChannelShortName>
+<ChannelName>新穎</ChannelName>
+<ChannelDescription>新穎</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>719</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N Discovery 1</ProductName>
+<ProductDescription>N Discovery 1</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822053054" endTime="20101231053056"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>150</ChannelId>
+<ChannelNumber>150</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Discovery H&amp;L</ChannelShortName>
+<ChannelName>Discovery H&amp;L</ChannelName>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>Discovery 動力頻道</ChannelShortName>
+<ChannelName>Discovery 動力頻道</ChannelName>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>151</ChannelId>
+<ChannelNumber>151</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Discovery Science</ChannelShortName>
+<ChannelName>Discovery Science</ChannelName>
+<ChannelDescription>Discovery Science</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>Discovery 科學頻道</ChannelShortName>
+<ChannelName>Discovery 科學頻道</ChannelName>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>152</ChannelId>
+<ChannelNumber>152</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>A1</ChannelShortName>
+<ChannelName>A1</ChannelName>
+<ChannelDescription>A1</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>A1</ChannelShortName>
+<ChannelName>A1</ChannelName>
+<ChannelDescription>A1</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+<Product>
+<ProductId>720</ProductId>
+<ProductType productKind="Sub" impulsiveFlag="0" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>N 342</ProductName>
+<ProductDescription>N 342</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20050822053120" endTime="20101231053122"/>
+<EpgPrice>0</EpgPrice>
+<SubscriptionData allowPpvEventsFlag="0">
+<Channel>
+<ChannelId>220</ChannelId>
+<ChannelNumber>220</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>Shopping</ChannelShortName>
+<ChannelName>Shopping</ChannelName>
+<ChannelDescription>Shopping</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>測試頻道</ChannelShortName>
+<ChannelName>測試頻道</ChannelName>
+<ChannelDescription>測試頻道</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>226</ChannelId>
+<ChannelNumber>226</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>TCM</ChannelShortName>
+<ChannelName>TCM</ChannelName>
+<ChannelDescription>TCM</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>TCM(試播)</ChannelShortName>
+<ChannelName>TCM(試播)</ChannelName>
+<ChannelDescription>TCM(試播)</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>996</ChannelId>
+<ChannelNumber>996</ChannelNumber>
+<ChannelText language="chi">
+<ChannelShortName>BBC PRIME(TEST)</ChannelShortName>
+<ChannelName>BBC PRIME(TEST)</ChannelName>
+<ChannelDescription>BBC PRIME(TEST)</ChannelDescription>
+</ChannelText>
+<ChannelText language="eng">
+<ChannelShortName>BBC PRIME(TEST)</ChannelShortName>
+<ChannelName>BBC PRIME(TEST)</ChannelName>
+<ChannelDescription>BBC PRIME(TEST)</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>997</ChannelId>
+<ChannelNumber>997</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>WFC(TEST)</ChannelShortName>
+<ChannelName>WFC(TEST)</ChannelName>
+<ChannelDescription>WFC(TEST)</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>WFC(TEST)</ChannelShortName>
+<ChannelName>WFC(TEST)</ChannelName>
+<ChannelDescription>WFC(TEST)</ChannelDescription>
+</ChannelText>
+</Channel>
+<Channel>
+<ChannelId>998</ChannelId>
+<ChannelNumber>998</ChannelNumber>
+<ChannelText language="eng">
+<ChannelShortName>ET education</ChannelShortName>
+<ChannelName>ET education</ChannelName>
+<ChannelDescription>ET education</ChannelDescription>
+</ChannelText>
+<ChannelText language="chi">
+<ChannelShortName>東森教育頻道(測試)</ChannelShortName>
+<ChannelName>東森教育頻道(測試)</ChannelName>
+<ChannelDescription>東森教育頻道(測試)</ChannelDescription>
+</ChannelText>
+</Channel>
+</SubscriptionData>
+</Product>
+</ProductData>
+</ProductReportReply>
+</ProductPeriodicNotification>
+</ProductManagementData>

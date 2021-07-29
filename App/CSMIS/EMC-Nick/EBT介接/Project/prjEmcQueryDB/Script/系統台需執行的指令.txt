@@ -1,0 +1,52 @@
+conn emcnty/emcnty@catvnr;
+
+
+PROMPT *** EMC_EBT001   EMC與EBT客戶資料對應紀錄檔 (以各系統台建立此 table)***
+DROP TABLE EMC_EBT001 CASCADE CONSTRAINT;
+CREATE TABLE EMC_EBT001 (
+	EmcCompCode	Number(3),
+	EmcCustID	Number(8),
+	EbtContractNo		Varchar2(50),
+	EbtCustID	Varchar2(20),
+	EbtContractBDate	Date,
+	EbtContractEDate	Date,
+	EbtCustCName	Varchar2(100),
+	EbtCustContactPhone	Varchar2(20),
+	EbtCustContactMobile	Varchar2(20),
+	EbtCompOwnerName Varchar2(50),
+	EbtContactPhone	Varchar2(20),
+	EbtItContactName Varchar2(50),
+	EbtItContactPhone	Varchar2(20),
+	EbtItContactMobile	Varchar2(20),
+	EbtItEMail	Varchar2(50),
+	EbTInstAddr	Varchar2(200),
+	EbTCustAddr	Varchar2(100),
+	EbTBillAddr	Varchar2(200),
+	EbtContractStatusCode	Varchar2(10),
+	EbtContractStatusDesc	Varchar2(20),
+	EbtFeePeriodCode	Varchar2(5),
+	EbtFeePeriodDesc	Varchar2(20),
+	EbtServiceType	Char(2),
+	UpdTime	Date,
+	UpdEn	Varchar2(20)
+	);
+	
+GRANT SELECT ON "SO001" TO "EBTUSER";
+GRANT SELECT ON "SO002" TO "EBTUSER";
+GRANT SELECT ON "SO003" TO "EBTUSER";
+GRANT SELECT ON "SO014" TO "EBTUSER";
+GRANT SELECT ON "SO509A" TO "EBTUSER";
+GRANT SELECT ON "EMC_EBT001" TO "EBTUSER";
+
+insert into  EMC_EBT001(EmcCompCode,EmcCustID,EbtServiceType,EbtContractNo ) values(16,2,'CM','CMCUS-01020296340');
+insert into  EMC_EBT001(EmcCompCode,EmcCustID,EbtServiceType,EbtContractNo ) values(16,2,'CT','CPCUS-01020296360');
+insert into  EMC_EBT001(EmcCompCode,EmcCustID,EbtServiceType,EbtContractNo ) values(16,2,'CT','CPCUS-01020296860');
+
+commit;
+
+
+drop index I_EMC_EBT001_1;
+	CREATE INDEX I_EMC_EBT001_1 ON EMC_EBT001 (EMCCUSTID, EBTCUSTID, EBTCONTRACTNO);
+
+drop index I_SO001_1;
+	CREATE INDEX I_SO001_1 ON SO001 (INSTADDRESS);

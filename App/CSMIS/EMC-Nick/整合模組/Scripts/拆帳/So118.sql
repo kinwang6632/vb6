@@ -1,0 +1,11 @@
+PROMPT *** So118  拆帳之已鎖帳年月檔 ***
+
+DROP TABLE So118 CASCADE CONSTRAINT;
+
+CREATE TABLE So118 (
+	Comp_ID			VARCHAR2(3),
+	LockYM			Varchar2(6),
+	OPERATOR		VARCHAR2(20),
+	UPDTIME		  	VARCHAR2(20)
+       );
+

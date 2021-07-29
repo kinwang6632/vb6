@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2007/12/27 14:49:18.796.pas,D:\App\CsHorse2\Project\LoginService_Impl.pas=</Transaction>
+    <Transaction>2007/12/27 14:49:24.859.pas,D:\App\CsHorse2\Project\CsHorse2Library_Invk.pas=</Transaction>
+    <Transaction>2007/12/27 14:49:27.359.pas,D:\App\CsHorse2\Project\CsHorse2Library_Intf.pas=</Transaction>
+    <Transaction>2007/12/27 14:55:28.796.pas,D:\App\CsHorse2\Project\Server\CsHorse2Library_Intf.pas=</Transaction>
+    <Transaction>2007/12/27 14:55:31.031.pas,D:\App\CsHorse2\Project\Server\CsHorse2Library_Invk.pas=</Transaction>
+    <Transaction>2007/12/27 14:55:33.265.pas,D:\App\CsHorse2\Project\Server\LoginService_Impl.pas=</Transaction>
+    <Transaction>2007/12/27 14:55:33.265.dfm,D:\App\CsHorse2\Project\Server\LoginService_Impl.dfm=</Transaction>
+    <Transaction>2007/12/27 16:27:43.640.pas,D:\App\CsHorse2\Project\Server\cbUIModule.pas=D:\App\CsHorse2\Project\Server\cbMainModule.pas</Transaction>
+    <Transaction>2007/12/27 16:27:43.640.dfm,D:\App\CsHorse2\Project\Server\cbUIModule.dfm=D:\App\CsHorse2\Project\Server\cbMainModule.dfm</Transaction>
+    <Transaction>2007/12/28 10:01:09.687.pas,D:\App\CsHorse2\Project\Server\cbMainModule.pas=D:\App\CsHorse2\Project\Server\cbMainUIModule.pas</Transaction>
+    <Transaction>2007/12/28 10:01:09.687.dfm,D:\App\CsHorse2\Project\Server\cbMainModule.dfm=D:\App\CsHorse2\Project\Server\cbMainUIModule.dfm</Transaction>
+    <Transaction>2007/12/28 10:02:59.046.pas,D:\App\CsHorse2\Project\Server\Unit1.pas=D:\App\CsHorse2\Project\Server\cbROModule.pas</Transaction>
+    <Transaction>2007/12/28 10:02:59.046.dfm,D:\App\CsHorse2\Project\Server\Unit1.dfm=D:\App\CsHorse2\Project\Server\cbROModule.dfm</Transaction>
+    <Transaction>2008/01/02 10:41:57.671.pas,D:\App\CsHorse2\Project\Server\cbROModule.pas=D:\App\CsHorse2\Project\Server\cbRServerOModule.pas</Transaction>
+    <Transaction>2008/01/02 10:41:57.671.dfm,D:\App\CsHorse2\Project\Server\cbROModule.dfm=D:\App\CsHorse2\Project\Server\cbRServerOModule.dfm</Transaction>
+    <Transaction>2008/01/02 10:43:18.015.pas,D:\App\CsHorse2\Project\Server\cbRServerOModule.pas=D:\App\CsHorse2\Project\Server\cbROServerModule.pas</Transaction>
+    <Transaction>2008/01/02 10:43:18.015.dfm,D:\App\CsHorse2\Project\Server\cbRServerOModule.dfm=D:\App\CsHorse2\Project\Server\cbROServerModule.dfm</Transaction>
+    <Transaction>2008/01/03 15:42:15.375.pas,D:\App\CsHorse2\Project\AnnService_Impl.pas=</Transaction>
+    <Transaction>2008/01/03 17:31:42.812.pas,D:\App\CsHorse2\Project\Server\AnnService_Impl.pas=</Transaction>
+    <Transaction>2008/01/03 17:31:42.812.dfm,D:\App\CsHorse2\Project\Server\AnnService_Impl.dfm=</Transaction>
+    <Transaction>2008/02/15 17:16:16.625.pas,D:\App\CsHorse2\Project\Server\Unit1.pas=D:\App\CsHorse2\Project\Server\cbConfig.pas</Transaction>
+    <Transaction>2008/02/15 17:16:16.625.dfm,D:\App\CsHorse2\Project\Server\Unit1.dfm=D:\App\CsHorse2\Project\Server\cbConfig.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

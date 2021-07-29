@@ -1,0 +1,4 @@
+VBGROUP 5.0
+StartupProject=..\..\Corey\CSMIS\Csmis.vbp
+Project=csVODontrolPanelWeb\csVODcontrol.vbp
+Project=..\csVODNOUI±M®×\csVODontrolPanelWeb\csVODcontrolNoUI.vbp

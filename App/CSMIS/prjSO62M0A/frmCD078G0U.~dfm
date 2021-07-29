@@ -1,0 +1,510 @@
+object frmCD078GU: TfrmCD078GU
+  Left = 312
+  Top = 198
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'frmCD078G'
+  ClientHeight = 373
+  ClientWidth = 469
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  Icon.Data = {
+    0000010002002020100000000000E80200002600000010101000000000002801
+    00000E0300002800000020000000400000000100040000000000800200000000
+    0000000000000000000000000000000000000000800000800000008080008000
+    0000800080008080000080808000C0C0C0000000FF0000FF000000FFFF00FF00
+    0000FF00FF00FFFF0000FFFFFF00000000000000000000000000000000000000
+    00000000BBBBBBBB000000000000000000000BBBBBBBBBBBBBB0000000000000
+    0000BBBBBBBBBBBBBBBB00000000000000BBBBBBBBBBBBBBBBBBBB0000000000
+    0BBBBBBBBBBBBBBBBBBBBBB000000000BBBBBBBBB0000000BBBBBBBB00000000
+    BBBBBBB00BBBBBBB00BBBBBB0000000BBBBBBB00BBBBBBBBB00BBBBBB00000BB
+    BBBBB00BBBBBBBBBBB00BBBBBB0000BBBBBBB0BBBBBBBBBBBBB0BBBBBB0000BB
+    BBBB0BBBBBBBBBBBBBBB0BBBBB000BBBBBBB0BBBBBBBBBBBBBBB0BBBBBB00BBB
+    BBBB0BBBBBBBBBBBBBBB0BBBBBB00BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB00BBB
+    BBBBBBBBBBBBBBBBBBBBBBBBBBB00BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB00BBB
+    BBBBBBB00BBBBBB00BBBBBBBBBB00BBBBBBBBB0000BBBB0000BBBBBBBBB00BBB
+    BBBBBB0000BBBB0000BBBBBBBBB000BBBBBBBB0000BBBB0000BBBBBBBB0000BB
+    BBBBBB0000BBBB0000BBBBBBBB0000BBBBBBBB0000BBBB0000BBBBBBBB00000B
+    BBBBBBB00BBBBBB00BBBBBBBB0000000BBBBBBBBBBBBBBBBBBBBBBBB00000000
+    BBBBBBBBBBBBBBBBBBBBBBBB000000000BBBBBBBBBBBBBBBBBBBBBB000000000
+    00BBBBBBBBBBBBBBBBBBBB00000000000000BBBBBBBBBBBBBBBB000000000000
+    00000BBBBBBBBBBBBBB000000000000000000000BBBBBBBB0000000000000000
+    0000000000000000000000000000FFF00FFFFF8001FFFE00007FFC00003FF800
+    001FF000000FE0000007C0000003C00000038000000180000001800000010000
+    0000000000000000000000000000000000000000000000000000000000008000
+    00018000000180000001C0000003C0000003E0000007F000000FF800001FFC00
+    003FFE00007FFF8001FFFFF00FFF280000001000000020000000010004000000
+    0000C00000000000000000000000000000000000000000000000000080000080
+    00000080800080000000800080008080000080808000C0C0C0000000FF0000FF
+    000000FFFF00FF000000FF00FF00FFFF0000FFFFFF0000000000000000000000
+    0BBBBBB00000000BBBBBBBBBB00000BBB000003BBB0000BB00BBBB03BB000BBB
+    0BBBBBB0BBB00BBB0BBBBBB0BBB00BBBBBBBBBBBBBB00BBBB00BB00BBBB00BBB
+    B00BB00BBBB00BBBB00BB00BBBB000BBB00BB00BBB0000BBBBBBBBBBBB00000B
+    BBBBBBBBB00000000BBBBBB000000000000000000000F81F0000E0070000C003
+    0000840100008801000000000000000000000000000000000000000000000000
+    00008001000080010000C0030000E0070000F81F0000}
+  OldCreateOrder = False
+  Position = poOwnerFormCenter
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 469
+    Height = 171
+    Align = alTop
+    TabOrder = 0
+    object Label2: TLabel
+      Left = 9
+      Top = 10
+      Width = 48
+      Height = 14
+      Caption = #26381#21209#39006#21029
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clRed
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label1: TLabel
+      Left = 9
+      Top = 33
+      Width = 48
+      Height = 14
+      Caption = #25910#36027#38917#30446
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clRed
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label3: TLabel
+      Left = 8
+      Top = 58
+      Width = 48
+      Height = 14
+      Caption = #25351#23450#35373#20633
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label4: TLabel
+      Left = 8
+      Top = 84
+      Width = 48
+      Height = 14
+      Caption = #40670#25976#36774#27861
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+    inline ServiceType: TDataLookup
+      Left = 60
+      Top = 6
+      Width = 175
+      Height = 23
+      HorzScrollBar.Visible = False
+      VertScrollBar.Visible = False
+      TabOrder = 0
+      inherited CodeNo: TcxTextEdit
+        Properties.CharCase = ecUpperCase
+        Properties.MaxLength = 1
+        Properties.OnChange = ServiceTypeCodeNoPropertiesChange
+      end
+      inherited CodeName: TcxLookupComboBox
+        Left = 61
+        Properties.OnChange = ServiceTypeCodeNamePropertiesChange
+        Properties.OnInitPopup = ServiceTypeCodeNamePropertiesInitPopup
+        Width = 110
+      end
+    end
+    inline CItem: TDataLookup
+      Left = 60
+      Top = 30
+      Width = 300
+      Height = 23
+      HorzScrollBar.Visible = False
+      VertScrollBar.Visible = False
+      TabOrder = 1
+      inherited CodeNo: TcxTextEdit
+        Properties.MaxLength = 5
+        Properties.OnChange = CItemCodeNoPropertiesChange
+      end
+      inherited CodeName: TcxLookupComboBox
+        Left = 61
+        Properties.OnChange = CItemCodeNamePropertiesChange
+        Properties.OnInitPopup = CItemCodeNamePropertiesInitPopup
+        Width = 235
+      end
+    end
+    object chkMasterSale: TcxCheckBox
+      Tag = 1
+      Left = 4
+      Top = 142
+      Caption = #20027#25512#22810#38542
+      Properties.NullStyle = nssUnchecked
+      Properties.ReadOnly = True
+      Style.StyleController = StyleController.CheckBoxStyle
+      TabOrder = 4
+      Width = 74
+    end
+    inline FaciItem: TDataLookup
+      Left = 59
+      Top = 55
+      Width = 211
+      Height = 23
+      HorzScrollBar.Visible = False
+      VertScrollBar.Visible = False
+      TabOrder = 2
+      inherited CodeNo: TcxTextEdit
+        Left = 1
+        Properties.MaxLength = 2
+        Properties.OnChange = FaciItemCodeNoPropertiesChange
+      end
+      inherited CodeName: TcxLookupComboBox
+        Properties.OnChange = FaciItemCodeNamePropertiesChange
+        Properties.OnInitPopup = FaciItemCodeNamePropertiesInitPopup
+        Width = 146
+      end
+    end
+    inline MSalePoint: TDataLookup
+      Left = 60
+      Top = 80
+      Width = 300
+      Height = 23
+      HorzScrollBar.Visible = False
+      VertScrollBar.Visible = False
+      TabOrder = 3
+      inherited CodeNo: TcxTextEdit
+        Properties.MaxLength = 5
+        Properties.OnChange = MSalePointCodeNoPropertiesChange
+      end
+      inherited CodeName: TcxLookupComboBox
+        Left = 61
+        Properties.OnChange = MSalePointCodeNamePropertiesChange
+        Properties.OnInitPopup = MSalePointCodeNamePropertiesInitPopup
+        Width = 235
+      end
+    end
+    object btnRankList: TBitBtn
+      Left = 80
+      Top = 140
+      Width = 26
+      Height = 24
+      Hint = #40670#25976#26126#32048#35373#23450
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 5
+      OnClick = btnRankListClick
+      Glyph.Data = {
+        36040000424D3604000000000000360000002800000010000000100000000100
+        2000000000000004000000000000000000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        0000A27A66CCC9967EFFC5927CFFC18E7AFFBD8A78FFB98676FFB58274FFB17E
+        72FFAD7A70FFA9766EFFA5726CFF845B56CC000000000000000000000000A57C
+        66CCEEDACEFFF9F9F9FFF9F9F9FFFAFAFAFFFCFCFCFFFEFEFEFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFDBC7C4FF845B56CC0000000000000000D29F
+        82FFFFFFFFFF0033FFFF0033FFFF0033FFFF0033FFFF0033FFFFFDFDFDFFF38D
+        00FFF48E00FFF69000FFF89200FFFFFFFFFFA5726CFF0000000000000000D7A4
+        84FFFFFFFFFFF3F3F3FFF4F4F4FFF5F5F5FFF6F6F6FFF8F8F8FFF9F9F9FFF18B
+        00FFF38D00FFF48E00FFF69000FFFFFFFFFFA9766EFF0000000000000000DCA9
+        87FFFFFFFFFF00BFF2FF00BFF2FF00BFF2FF00BFF2FF00BFF2FFF7F7F7FFEF89
+        00FFF18B00FFF38D00FFF48E00FFFFFFFFFFAE7B70FF0000000000000000E1AE
+        8AFFFFFFFFFFECECECFFEDEDEDFFEEEEEEFFF1F1F1FFF3F3F3FFF5F5F5FFF7F7
+        F7FFF9F9F9FFFCFCFCFFFFFFFFFFFFFFFFFFB38073FF0000000000000000E5B2
+        8CFFFFFFFFFFE37D00FFE47E00FFE57F00FFE78100FFE88200FFF2F2F2FF0033
+        FFFF0033FFFF0033FFFF0033FFFFFFFFFFFFB78475FF0000000000000000E9B6
+        8EFFFFFFFFFFE17B00FFE37D00FFE37D00FFE57F00FFE68000FFEFEFEFFFF3F3
+        F3FFF5F5F5FFF8F8F8FFFAFAFAFFFEFEFEFFBA8777FF0000000000000000EDBA
+        90FFFFFFFFFFDF7900FFE07A00FFE27C00FFE37D00FFE57F00FFEEEEEEFF00A9
+        DCFF00A9DCFF00A9DCFF00A9DCFFFCFCFCFFBE8B79FF0000000000000000F1BE
+        92FFFFFFFFFFE0E0E0FFE3E3E3FFE5E5E5FFE7E7E7FFE9E9E9FFECECECFFEEEE
+        EEFFF2F2F2FFF5F5F5FFF8F8F8FFFAFAFAFFC28F7BFF0000000000000000F5C2
+        94FFFFFFFFFF0EA71CFF0FA81EFF12AB24FF14AD28FF17B02EFF18B131FF1AB3
+        36FF1DB63BFF1FB83FFF21BA43FFF9F9F9FFC6937DFF0000000000000000F9C6
+        96FFFFFFFFFF0BA417FF0EA71CFF10A920FF13AC26FF15AE2AFF17B02FFF19B2
+        34FF1CB539FF1EB73EFF21BA43FFF9F9F9FFC9967EFF0000000000000000C29A
+        76CCFDE8D5FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFEEDACEFF885F58CC00000000000000000000
+        0000BE9673CCF9C696FFF5C294FFF1BE92FFEDBA90FFE9B68EFFE5B28CFFE1AE
+        8AFFDDAA88FFD9A686FFD5A284FF885F58CC0000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000}
+    end
+    object btnInstCodeStr: TButton
+      Left = 4
+      Top = 106
+      Width = 93
+      Height = 25
+      Caption = #25351#23450#27966#24037#39006#21029
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clRed
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 6
+      OnClick = btnInstCodeStrClick
+    end
+    object cxButton1: TcxButton
+      Left = 97
+      Top = 106
+      Width = 25
+      Height = 25
+      TabOrder = 7
+      OnClick = cxButton1Click
+      Glyph.Data = {
+        72020000424D720200000000000036000000280000000E0000000D0000000100
+        1800000000003C020000C40E0000C40E00000000000000000000C8D0D4C8D0D4
+        C8D0D4C8D0D4C8D0D4C8D0D4C8D0D4C8D0D4C8D0D4C8D0D4C8D0D4C8D0D40000
+        80FFFFFF0000C8D0D4C8D0D4000080FFFFFFC8D0D4C8D0D4C8D0D4C8D0D4C8D0
+        D4C8D0D4C8D0D4C8D0D4C8D0D4C8D0D40000C8D0D4000080000080000080FFFF
+        FFC8D0D4C8D0D4C8D0D4C8D0D4C8D0D4C8D0D4000080FFFFFFC8D0D40000C8D0
+        D4000080000080000080FFFFFFC8D0D4C8D0D4C8D0D4C8D0D4C8D0D4000080FF
+        FFFFC8D0D4C8D0D40000C8D0D4C8D0D4000080000080000080FFFFFFC8D0D4C8
+        D0D4C8D0D4000080000080FFFFFFC8D0D4C8D0D40000C8D0D4C8D0D4C8D0D400
+        0080000080000080FFFFFFC8D0D4000080000080FFFFFFC8D0D4C8D0D4C8D0D4
+        0000C8D0D4C8D0D4C8D0D4C8D0D4000080000080000080000080000080FFFFFF
+        C8D0D4C8D0D4C8D0D4C8D0D40000C8D0D4C8D0D4C8D0D4C8D0D4C8D0D4000080
+        000080000080FFFFFFC8D0D4C8D0D4C8D0D4C8D0D4C8D0D40000C8D0D4C8D0D4
+        C8D0D4C8D0D4000080000080000080000080000080FFFFFFC8D0D4C8D0D4C8D0
+        D4C8D0D40000C8D0D4C8D0D4C8D0D4000080000080000080FFFFFFC8D0D40000
+        80FFFFFFC8D0D4C8D0D4C8D0D4C8D0D40000C8D0D40000800000800000800000
+        80FFFFFFC8D0D4C8D0D4C8D0D4000080000080FFFFFFC8D0D4C8D0D400000000
+        80000080000080000080FFFFFFC8D0D4C8D0D4C8D0D4C8D0D4C8D0D400008000
+        0080FFFFFFC8D0D40000000080000080FFFFFFC8D0D4C8D0D4C8D0D4C8D0D4C8
+        D0D4C8D0D4C8D0D4C8D0D4000080000080FFFFFF0000}
+      LookAndFeel.Kind = lfStandard
+    end
+    object edtInstCodeStr: TcxTextEdit
+      Left = 122
+      Top = 108
+      Enabled = False
+      ParentFont = False
+      Style.StyleController = StyleController.EditorStyle
+      TabOrder = 8
+      Width = 266
+    end
+    object btnDelRnak: TBitBtn
+      Left = 109
+      Top = 140
+      Width = 108
+      Height = 25
+      Hint = #21034#38500#40670#25976#26126#32048
+      Caption = #21034#38500#19968#31558#26126#32048
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 9
+      OnClick = btnDelRnakClick
+      Glyph.Data = {
+        36040000424D3604000000000000360000002800000010000000100000000100
+        2000000000000004000000000000000000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        0D1402058CCB03099AE10000507B000004070000000000000000000000000000
+        0000000057850000548B00001C2A000000000000000000000000000000000000
+        5D8D1844F6FF194DF8FF1031D2FF01028BD000001A2400000000000000010000
+        66930928D7FF092ED7FF0313B3FF0000608F0000000000000000000000000102
+        92D02451F9FF1F52FFFF1D4FFFFF1744E8FF040AA3EC0000283A000066970D2E
+        DDFF1142F9FF0D3DF5FF0B3BF0FF041ABCFF00003C5D00000000000000000000
+        2D421832DBFF285BFFFF2456FFFF2253FFFF1B4BF1FF050DAEFB0F30DDFF164A
+        FEFF1344F9FF1041F6FF0E3EF6FF0A3CF0FF000077BF00000000000000000000
+        3C511F37DDFF3A6FFFFF2C5EFFFF295AFFFF2657FFFF2052FCFF1C4FFFFF194A
+        FDFF1646FAFF1445FAFF0F3DF2FF0209A0E700002C4300000000000000000000
+        000100005066111BBCF03D6AFBFF3567FFFF2C5DFFFF2859FFFF2253FFFF1D4E
+        FFFF1A4DFFFF123DEDFF000289CB0000131A0000000000000000000000000000
+        0000000000000000161C000085BA2E4EE7FF3668FFFF2E5EFFFF2859FFFF2254
+        FFFF163DEAFF00007DBE0000070B000000000000000000000000000000000000
+        0000000000000000000000003A4D253FDFFF3B6DFFFF3464FFFF2E5EFFFF2759
+        FFFF1B46EAFF00018CCF00000508000000000000000000000000000000000000
+        00000000000000000000020297C14B7CFFFF4170FFFF3B6BFFFF396CFFFF2D5E
+        FFFF2558FFFF1336D7FF00006993000000000000000000000000000000000000
+        0000000000000000252C263CDAFE5080FFFF4575FFFF3662FAFF0D14C2FE3C6D
+        FFFF2A5BFFFF2053FDFF0B1DC2FD000035470000000000000000000000000000
+        00000000000000006F8B527CFAFF5081FFFF4B7DFFFF0A11B8EA000030420D13
+        B6E9386AFFFF2456FFFF1A4AF2FF02069FE300000B0F00000000000000000000
+        0000000000001119C2E06A9CFFFF5788FFFF2B46E7FF00004A5C000000000000
+        28320E1AC1F23065FFFF1F51FFFF1439DDFF00006C9C00000000000000000000
+        00000000000000007E913A52E3FE5782FBFF01019EC200000000000000000000
+        0000000039471425D2FA265AFFFF0F2EE3FF010295CF00000000000000000000
+        000000000000000000000000313C00007BA40000273000000000000000000000
+        00000000000000004C63000188BC000034490000010200000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000}
+    end
+  end
+  object Panel2: TPanel
+    Left = 0
+    Top = 171
+    Width = 469
+    Height = 165
+    Align = alClient
+    TabOrder = 1
+    object PenalGrid: TcxGrid
+      Left = 1
+      Top = 1
+      Width = 467
+      Height = 163
+      Align = alClient
+      TabOrder = 0
+      LookAndFeel.Kind = lfFlat
+      object gvPenal: TcxGridDBTableView
+        NavigatorButtons.ConfirmDelete = False
+        DataController.DataSource = dsCD078G1
+        DataController.Summary.DefaultGroupSummaryItems = <>
+        DataController.Summary.FooterSummaryItems = <>
+        DataController.Summary.SummaryGroups = <>
+        OptionsBehavior.FocusFirstCellOnNewRecord = True
+        OptionsBehavior.GoToNextCellOnEnter = True
+        OptionsBehavior.FocusCellOnCycle = True
+        OptionsCustomize.ColumnFiltering = False
+        OptionsCustomize.ColumnMoving = False
+        OptionsCustomize.ColumnSorting = False
+        OptionsData.Deleting = False
+        OptionsData.Editing = False
+        OptionsData.Inserting = False
+        OptionsSelection.CellSelect = False
+        OptionsView.GroupByBox = False
+        Styles.Background = StyleController.cxStyle1
+        object gvPenalCol2: TcxGridDBColumn
+          Caption = #26041#26696
+          DataBinding.FieldName = 'Description'
+          HeaderAlignmentHorz = taCenter
+          Width = 143
+        end
+        object gvPenalCol1: TcxGridDBColumn
+          Caption = #37329#38989
+          DataBinding.FieldName = 'DiscountAmt'
+          GroupSummaryAlignment = taCenter
+          HeaderAlignmentHorz = taCenter
+          Options.Focusing = False
+          Width = 87
+        end
+        object gvPenalCol3: TcxGridDBColumn
+          Caption = #40670#25976#34892#37559#36774#27861
+          DataBinding.FieldName = 'SalePointName'
+          Width = 161
+        end
+        object gvPenalCol4: TcxGridDBColumn
+          Caption = #26159#21542#20027#25512
+          DataBinding.FieldName = 'MasterSale'
+          PropertiesClassName = 'TcxCheckBoxProperties'
+          Properties.Alignment = taLeftJustify
+          Properties.DisplayChecked = '1'
+          Properties.DisplayUnchecked = '0'
+          Properties.NullStyle = nssUnchecked
+          Properties.ValueChecked = '1'
+          Properties.ValueUnchecked = '0'
+          HeaderAlignmentHorz = taCenter
+        end
+      end
+      object glPenal: TcxGridLevel
+        GridView = gvPenal
+      end
+    end
+  end
+  object Panel3: TPanel
+    Left = 0
+    Top = 336
+    Width = 469
+    Height = 37
+    Align = alBottom
+    TabOrder = 2
+    DesignSize = (
+      469
+      37)
+    object btnUpdate: TButton
+      Left = 6
+      Top = 3
+      Width = 69
+      Height = 26
+      Action = actUpdate
+      TabOrder = 0
+    end
+    object btnSave: TButton
+      Left = 80
+      Top = 3
+      Width = 69
+      Height = 26
+      Action = actSave
+      TabOrder = 1
+    end
+    object Button1: TButton
+      Left = 152
+      Top = 3
+      Width = 69
+      Height = 26
+      Action = actCancel
+      Cancel = True
+      TabOrder = 2
+    end
+    object edtDML: TcxTextEdit
+      Left = 400
+      Top = 4
+      Anchors = [akRight, akBottom]
+      Enabled = False
+      ParentFont = False
+      Properties.Alignment.Horz = taCenter
+      Properties.ReadOnly = True
+      Style.Color = 16777111
+      Style.Font.Charset = ANSI_CHARSET
+      Style.Font.Color = clWindowText
+      Style.Font.Height = -13
+      Style.Font.Name = 'Tahoma'
+      Style.Font.Style = []
+      Style.StyleController = StyleController.EditorStyle
+      Style.IsFontAssigned = True
+      StyleDisabled.Color = 16777111
+      StyleDisabled.TextColor = clWindowText
+      TabOrder = 3
+      Width = 67
+    end
+  end
+  object dsCD078G1: TDataSource
+    Left = 126
+    Top = 215
+  end
+  object cdsCD078G1: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    AfterScroll = cdsCD078G1AfterScroll
+    Left = 154
+    Top = 214
+  end
+  object ActionList1: TActionList
+    Left = 98
+    Top = 216
+    object actSave: TAction
+      Caption = 'F2.'#23384#27284
+      ShortCut = 113
+      OnExecute = actSaveExecute
+    end
+    object actCancel: TAction
+      Caption = #21462#28040'(&X)'
+      ShortCut = 32856
+      OnExecute = actCancelExecute
+    end
+    object actUpdate: TAction
+      Caption = 'F11.'#20462#25913
+      ShortCut = 122
+      OnExecute = actUpdateExecute
+    end
+  end
+end

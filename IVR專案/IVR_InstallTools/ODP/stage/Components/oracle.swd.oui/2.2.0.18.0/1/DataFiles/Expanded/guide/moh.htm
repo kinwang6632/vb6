@@ -1,0 +1,876 @@
+
+<!DOCTYPE html public "-//w3c//dtd html 3.2 transitional//en.us">
+<HTML lang="en.us">
+<HEAD>
+
+<META NAME="Generator" CONTENT="Quadralay WebWorks Publisher 5.0.4">
+<META NAME="Page" CONTENT="DefaultSingle">
+<META NAME="Title" CONTENT=" Using Multiple Oracle Homes">
+
+
+<TITLE> Using Multiple Oracle Homes</TITLE>
+	   
+
+<LINK REL="toc" HREF="toc.htm" TITLE="Contents">
+<LINK REL="index" HREF="index.htm" TITLE="Index">
+<LINK REL="copyright" HREF="cpyr.htm" TITLE="Copyright">
+<LINK REL="up" HREF="toc.htm" TITLE="Up">
+<LINK REL="next" HREF="rsp.htm" TITLE="Next">
+<LINK REL="previous" HREF="oui.htm" TITLE="Previous">
+
+
+</HEAD>
+       
+<BODY BGCOLOR="#ffffff">
+
+<A NAME="top"></A>
+
+
+
+
+<A HREF="#BEGIN">Skip Headers</A><BR><BR>
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+<TR>
+
+ 
+<TD ALIGN="LEFT" VALIGN="TOP"><FONT COLOR="#330099" FACE="Helvetica, Arial, sans-serif"><STRONG>Oracle Universal Installer Concepts Guide<BR>Release 2.2</STRONG><BR>Part Number A96697-01</FONT></TD>
+<TD VALIGN="BOTTOM" ALIGN="RIGHT" WIDTH="144">
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+<TR>
+
+
+
+
+
+
+
+
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"></TD>
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"></TD>
+
+
+
+
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"><A HREF="toc.htm"><IMG SRC="./conticon.gif" ALT="Go To Table Of Contents" BORDER="0" HEIGHT="30"
+WIDTH="30"><BR>
+<FONT SIZE="-2">Contents</FONT></A></TD>
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"><A HREF="index.htm"><IMG SRC="./indxicon.gif" ALT="Go To Index" BORDER="0" HEIGHT="30"
+WIDTH="30"><BR>
+<FONT SIZE="-2">Index</FONT></A></TD>
+
+</TR>
+</TABLE>
+</TD>
+</TR>
+</TABLE>
+<HR>
+<P>
+<A HREF="oui.htm"><IMG SRC="./larrow.gif" ALT="Go to previous page" BORDER="0" HEIGHT="30" WIDTH="30"></A>
+
+<A HREF="rsp.htm"><IMG SRC="./rarrow.gif" ALT="Go to next page" BORDER="0" HEIGHT="30" WIDTH="30"></A>
+    
+
+
+<A NAME="BEGIN"></A>
+
+
+
+<DIV CLASS="IND">
+<!-- End Header -->
+
+
+
+
+
+
+
+<A NAME="743462"></A>
+<!--TOC=Title-"743462"-->
+<H1 CLASS="Title"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099">2<BR> Using Multiple Oracle Homes</FONT></H1>
+
+<!--/TOC=Title-->
+
+<A NAME="743677"></A>
+<!--TOC=h1-"743677"-->
+<H2 CLASS="H1"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Introduction</FONT></H2>
+
+
+<!--/TOC=h1-->
+<A NAME="745128"></A>
+<P CLASS="BP">
+The Oracle Universal Installer supports the installation of several active Oracle homes on the same machine. An Oracle home is the system context in which Oracle products run. This context consists of the directory location where the products are installed, the corresponding system path setup, and where applicable, the program groups associated with the products installed in that home, and the services running from that home. 
+</P>
+
+<A NAME="743720"></A>
+<!--TOC=h1-"743720"-->
+<H2 CLASS="H1"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Multiple Oracle Homes</FONT></H2>
+
+
+<!--/TOC=h1-->
+<A NAME="743220"></A>
+<P CLASS="BP">
+The Oracle Universal Installer supports the installation of several active Oracle homes on the same machine as long as the products support this at runtime. You can have multiple versions of the same product or different products running from different Oracle homes concurrently. Products installed in one home will not conflict or interact with products installed in another home. You can update software in any home at any time, assuming all Oracle applications/services/processes installed on the target home are shut down. Processes from other homes may still be running. 
+</P>
+
+<A NAME="743819"></A>
+<!--TOC=h2-"743819"-->
+<H3 CLASS="H2"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Target Home</FONT></H3>
+<!--/TOC=h2-->
+<A NAME="743820"></A>
+<P CLASS="BP">
+The Oracle home currently accessed by the Oracle Universal Installer for installation or deinstallation is the target home. In order to upgrade or remove products from the target homes, those products must be shut down/stopped.
+</P>
+
+<A NAME="743265"></A>
+<!--TOC=h2-"743265"-->
+<H3 CLASS="H2"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Product Types</FONT></H3>
+<!--/TOC=h2-->
+<A NAME="743266"></A>
+<P CLASS="BP">
+Different levels of support are available with multiple Oracle homes for the following product types:
+</P>
+
+<UL CLASS="LB1">
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="743268"></A>Products that can be installed once in any new Oracle home. Ensure that the previous product installation is first removed so that only one copy/version of that application can run at the same time. If such product is already installed, and you try to install it again on a different home, the Oracle Universal Installer issues an error message.
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="743269"></A>Products that can be installed multiple times, in different homes, on the same machine, with no conflicts or interaction at install-time, run-time, or deinstall-time. These are products which can be used concurrently. 
+<P>
+  
+<A NAME="747116">
+<DIV ALIGN="CENTER">
+<P>
+<TABLE CLASS="Note" BORDER="0" WIDTH="80%" CELLPADDING="0" CELLSPACING="0" dir="ltr" summary="This is a layout table to format a note" title="This is a layout table to format a note">
+<TR CLASS="Note"><TD CLASS="Note">
+<HR>
+<A NAME="747111"></A><FONT FACE="Arial, Helvetica, sans-serif"><STRONG CLASS="NH">Note:</STRONG></FONT>
+
+<A NAME="747112"></A>
+<P CLASS="NB">
+The installation guide of your products will specify what type they are and whether they can be installed once in a home or multiple times. 
+<HR>
+</TD>
+</TR>
+
+
+</TABLE>
+
+
+</DIV>
+</A>
+  </UL>
+
+<A NAME="743826"></A>
+<!--TOC=h1-"743826"-->
+<H2 CLASS="H1"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Home Selector (Available on Win32 Platforms)</FONT></H2>
+
+
+<!--/TOC=h1-->
+<A NAME="750140"></A>
+<P CLASS="BP">
+The following sections describe the Home Selector application, which is available when you install the Oracle Universal Installer on a Windows computer.
+</P>
+
+<A NAME="749197"></A>
+<!--TOC=h2-"749197"-->
+<H3 CLASS="H2"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Overview</FONT></H3>
+<!--/TOC=h2-->
+<A NAME="749302"></A>
+<P CLASS="BP">
+The Home Selector is part of the installation software and is installed with the Oracle Universal Installer. It is installed in <CODE>&lt;oui_location&gt;\HomeSelector</CODE>.
+</P>
+<A NAME="749294"></A>
+<P CLASS="BP">
+If your application is not installed in one of the Oracle homes, you need to ensure it uses the right product version, by pointing it to the right home. That specific (target) home must take precedence over the other homes in your path when you launch your application. 
+</P>
+<A NAME="749295"></A>
+<P CLASS="BP">
+The Home Selector enables you to easily change your primary Oracle home (the one that appears first in the PATH environment variable). If you need to switch the active home or need to perform batch work which requires a "default home" to be active, the Oracle Home Selector can be used to change the Windows NT system settings.
+</P>
+<A NAME="749313"></A>
+<P CLASS="BP">
+When using the Home Selector to make a specific $ORACLE_HOME the active one, the software installation in question is moved to the top of the PATH variable, making it the first directory to be scanned for executables and library files.
+</P>
+
+<A NAME="749285"></A>
+<!--TOC=h2-"749285"-->
+<H3 CLASS="H2"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> How It Works</FONT></H3>
+<!--/TOC=h2-->
+<A NAME="749277"></A>
+<P CLASS="BP">
+When you perform an install on a system, the first $ORACLE_HOME will be named the "DEFAULT_HOME" and will register itself in the Windows NT registry under the key:
+</P>
+    
+<PRE CLASS="CE">
+<A NAME="749198"></A>  HKEY_LOCAL_MACHINE
+<A NAME="749199"></A>    Software
+<A NAME="749200"></A>      Oracle
+<A NAME="749346"></A>
+</PRE>    <A NAME="749202"></A>
+<P CLASS="BP">
+This is the default Windows NT registry hive which contains all the "generic" Oracle settings. Also the PATH variable is adjusted and the BIN directory of the $ORACLE_HOME is added to the environment variable.
+</P>
+<A NAME="749203"></A>
+<P CLASS="BP">
+Starting with Oracle 8.0.4, the first version to be multiple $ORACLE_HOME aware, some additional parameters will also be written to the key:
+</P>
+    
+<PRE CLASS="CE">
+<A NAME="749204"></A>  HKEY_LOCAL_MACHINE
+<A NAME="749205"></A>    Software
+<A NAME="749206"></A>      Oracle
+<A NAME="749207"></A>        Home0
+</PRE>    <A NAME="749209"></A>
+<P CLASS="BP">
+With the Oracle Universal Installer, you can change the "DEFAULT_HOME" name to something else. Also, it registers all Oracle settings in the "Home0" subkey of the ORACLE key.
+</P>
+<A NAME="749210"></A>
+<P CLASS="BP">
+When an additional $ORACLE_HOME is added to the system, the PATH variable is adjusted again to add the new BIN directory of the newly installed Oracle software. The registry variables are written to a key named "HOMEx," where X is the next available number in the Oracle key.
+</P>
+<A NAME="749238"></A>
+<P CLASS="BP">
+When several $ORACLE_HOMEs are installed, the executables referenced are all found in the first $ORACLE_HOME\BIN directory of the PATH variable. When you want to switch the order of the PATH variable, you can use the Home Selector to switch the order of the $ORACLE_HOMEs installed on the system.
+</P>
+<A NAME="749218"></A>
+<P CLASS="BP">
+Together with the installation and registration of the software in the registry, a second series of registry variables are written in the following key:
+</P>
+    
+<PRE CLASS="CE">
+<A NAME="749219"></A>  HKEY_LOCAL_MACHINE
+<A NAME="749220"></A>    Software
+<A NAME="749221"></A>      Oracle
+<A NAME="749222"></A>        ALL_HOMES
+<A NAME="749223"></A>
+</PRE>    <A NAME="749224"></A>
+<P CLASS="BP">
+This is the starting point for the list of all $ORACLE_HOME installations, done on this system. 
+</P>
+<A NAME="749225"></A>
+<P CLASS="BP">
+The following variables are written in this key:
+</P>
+
+<UL CLASS="LB1">
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="749226"></A>HOME_COUNTER: Number of Oracle home directories already present on the system. This counter is a number, exactly 1 higher as the last ID subkey present.
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="749227"></A>LAST_HOME: ID number of the currently active $ORACLE_HOME
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="749228"></A>IDx: List of registry key's containing the name, number and installation directory of this ORACLE_HOME. The first installation is written in ID0, the next one in ID1, etc.
+<P>
+</UL>
+<A NAME="749284"></A>
+<P CLASS="BP">
+If the Home Selector is started in interactive mode, the registry hive "ALL_HOMES" is read, including all subkeys, and a dialog box will be displayed with all available installations. As soon as the you select one, the PATH variable will be adjusted at the system level.
+</P>
+<A NAME="749757"></A>
+<P CLASS="BP">
+In order to make batch processing possible, this tool also has a command line interface, making it possible to use the tool to switch the PATH settings while executing a series of commands:
+</P>
+    
+<PRE CLASS="CE">
+<A NAME="748774"></A>ohsel -switch "Oracle Home Name"
+<A NAME="748871"></A>
+</PRE>    <A NAME="748731"></A>
+<P CLASS="BP">
+The name of this $ORACLE_HOME is one of the names found in the ID subkeys.
+</P>
+
+<A NAME="749337"></A>
+<!--TOC=h2-"749337"-->
+<H3 CLASS="H2"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Oracle Home Directory Structure for Windows Platform</FONT></H3>
+<!--/TOC=h2-->
+<A NAME="745278"></A>
+<P CLASS="BP">
+A typical Oracle home on Windows platforms contains the files and directories shown in <A HREF="moh.htm#745247">Table&nbsp;2-1</a>.
+</P>
+   
+<A NAME="750151">
+<H5 CLASS="TT"><FONT FACE="Helvetica,Arial,sans-serif"><EM>
+<A NAME="745247"></A>
+<STRONG><FONT FACE="Arial, Helvetica, sans-serif"><EM>Table 2-1 &#32;<STRONG CLASS="Bold"><EM CLASS="Italic">Oracle Home Directory for Windows Platforms</EM></STRONG></EM></FONT></STRONG>
+ </EM></FONT></H5>
+
+<TABLE CLASS="Formal" BORDER="1" FRAME="HSIDES" RULES="GROUPS" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" dir="ltr" title="">
+<THEAD>
+<TR CLASS="Formal"><TH CLASS="Formal" align="left" valign="bottom" scope="col">
+<A NAME="745251"></A>
+<FONT FACE="Arial, Helvetica, sans-serif"><STRONG>Oracle Home Directory</STRONG></FONT></TH>
+<TH CLASS="Formal" align="left" valign="bottom" scope="col">
+<A NAME="745253"></A>
+<FONT FACE="Arial, Helvetica, sans-serif"><STRONG>Contents</STRONG></FONT></TH>
+</TR>
+<TBODY>
+<TR CLASS="Formal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Formal">
+<A NAME="745255"></A>
+<P CLASS="TB">
+\BIN</TD>
+<TD CLASS="Formal">
+<A NAME="745257"></A>
+<P CLASS="TB">
+Product executables and DLLs</TD>
+</TR>
+<TR CLASS="Formal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Formal">
+<A NAME="745259"></A>
+<P CLASS="TB">
+\DBS</TD>
+<TD CLASS="Formal">
+<A NAME="745261"></A>
+<P CLASS="TB">
+Common message files</TD>
+</TR>
+<TR CLASS="Formal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Formal">
+<A NAME="745271"></A>
+<P CLASS="TB">
+\PROD1</TD>
+<TD CLASS="Formal">
+<A NAME="745273"></A>
+<P CLASS="TB">
+PROD1 product files</TD>
+</TR>
+<TR CLASS="Formal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Formal">
+<A NAME="745275"></A>
+<P CLASS="TB">
+\PROD2</TD>
+<TD CLASS="Formal">
+<A NAME="745277"></A>
+<P CLASS="TB">
+PROD2 product files</TD>
+</TR>
+
+</TABLE>
+
+
+</A>
+   
+<A NAME="745185"></A>
+<!--TOC=h2-"745185"-->
+<H3 CLASS="H2"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Optimal Flexible Architecture Directory Structure (on Solaris)</FONT></H3>
+<!--/TOC=h2-->
+<A NAME="747159"></A>
+<P CLASS="BP">
+The Optimal Flexible Architecture (OFA) standard is a set of configuration guidelines for fast, reliable Oracle databases that require little maintenance.
+</P>
+<A NAME="747160"></A>
+<P CLASS="BP">
+OFA is designed to:
+</P>
+
+<UL CLASS="LB1">
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="747161"></A>organize large amounts of complicated software and data on disk to avoid device bottlenecks and poor performance
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="747162"></A>facilitate routine administrative tasks such as software and data backup functions, which are often vulnerable to data corruption
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="747163"></A>alleviate switching among multiple Oracle databases
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="747164"></A>adequately manage and administer database growth
+<P>
+
+<LI CLASS="LB1" TYPE="DISC"><A NAME="747165"></A>help eliminate fragmentation of free space in the data dictionary, isolate other fragmentation, and minimize resource contention
+<P>
+</UL>
+<A NAME="747157"></A>
+<P CLASS="BP">
+The OFA directory structure is described below.
+</P>
+
+<A NAME="746551"></A>
+<!--TOC=h3-"746551"-->
+<H4 CLASS="H3"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> ORACLE_BASE Directory</FONT></H4>
+<!--/TOC=h3-->
+<A NAME="746552"></A>
+<P CLASS="BP">
+ORACLE_BASE specifies the BASE of the Oracle directory structure for OFA-compliant databases. A typical ORACLE_BASE directory structure is described in <A HREF="moh.htm#746559">Table&nbsp;2-2</a>. When installing an OFA-compliant database using the Oracle Installer, ORACLE_BASE is by default set to<STRONG CLASS="Bold"> </STRONG><EM><CODE>/pm/app/oracle</CODE></EM><STRONG CLASS="Bold">. </STRONG>
+</P>
+   
+<A NAME="746578">
+<H5 CLASS="TT"><FONT FACE="Helvetica,Arial,sans-serif"><EM>
+<A NAME="746559"></A>
+<STRONG><FONT FACE="Arial, Helvetica, sans-serif"><EM>Table 2-2 &#32;Sample ORACLE_BASE Directory Structure and Content</EM></FONT></STRONG>
+ </EM></FONT></H5>
+
+<TABLE CLASS="Formal" BORDER="1" FRAME="HSIDES" RULES="GROUPS" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" dir="ltr" title="">
+<TR CLASS="Formal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Formal">
+<A NAME="746563"></A>
+<P CLASS="TB">
+<CODE>admin</CODE></TD>
+<TD CLASS="Formal">
+<A NAME="746565"></A>
+<P CLASS="TB">
+administrative files</TD>
+</TR>
+<TR CLASS="Formal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Formal">
+<A NAME="746567"></A>
+<P CLASS="TB">
+<CODE>doc</CODE></TD>
+<TD CLASS="Formal">
+<A NAME="746569"></A>
+<P CLASS="TB">
+online documentation</TD>
+</TR>
+<TR CLASS="Formal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Formal">
+<A NAME="746571"></A>
+<P CLASS="TB">
+<CODE>local</CODE></TD>
+<TD CLASS="Formal">
+<A NAME="746573"></A>
+<P CLASS="TB">
+subtree for local Oracle software</TD>
+</TR>
+<TR CLASS="Formal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Formal">
+<A NAME="746575"></A>
+<P CLASS="TB">
+<CODE>product</CODE></TD>
+<TD CLASS="Formal">
+<A NAME="746577"></A>
+<P CLASS="TB">
+Oracle software</TD>
+</TR>
+
+</TABLE>
+
+
+</A>
+   
+<A NAME="746579"></A>
+<!--TOC=h3-"746579"-->
+<H4 CLASS="H3"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> ORACLE_HOME Directory</FONT></H4>
+<!--/TOC=h3-->
+<A NAME="747133"></A>
+<P CLASS="BP">
+The following is an example of an Oracle Server Install.
+</P>
+<A NAME="746580"></A>
+<P CLASS="BP">
+If you install an OFA-compliant Oracle Server, the ORACLE_HOME directory is <CODE>/mount_point/app/oracle/product/</CODE><EM><CODE>release_number</CODE></EM>. ORACLE_HOME directory structure and content are described in <A HREF="moh.htm#746591">Table&nbsp;2-3</a>. Under UNIX, the<STRONG CLASS="Bold"> </STRONG>ORACLE_HOME directory might contain the following subdirectories, as well as a subdirectory for each Oracle product selected.
+</P>
+   
+<A NAME="750167">
+<DIV ALIGN="CENTER">
+<P>
+<TABLE CLASS="Note" BORDER="0" WIDTH="80%" CELLPADDING="0" CELLSPACING="0" dir="ltr" summary="This is a layout table to format a note" title="This is a layout table to format a note">
+<TR CLASS="Note"><TD CLASS="Note">
+<HR>
+<A NAME="750170"></A><FONT FACE="Arial, Helvetica, sans-serif"><STRONG CLASS="NH">Note:</STRONG></FONT>
+
+<A NAME="750178"></A>
+<P CLASS="NB">
+The examples in this table are for sample only. The directories that appear in your own Oracle Home will depend upon whether the corresponding products are installed and the version of the Oracle database you are running.
+<HR>
+</TD>
+</TR>
+
+
+</TABLE>
+
+
+</DIV>
+</A>
+
+<A NAME="746682">
+<H5 CLASS="TT"><FONT FACE="Helvetica,Arial,sans-serif"><EM>
+<A NAME="746591"></A>
+<STRONG><FONT FACE="Arial, Helvetica, sans-serif"><EM>Table 2-3 &#32;Sample ORACLE_HOME Directory Structure and Content</EM></FONT></STRONG>
+ </EM></FONT></H5>
+
+<TABLE CLASS="Formal" BORDER="1" FRAME="HSIDES" RULES="GROUPS" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" dir="ltr" title="">
+<TR CLASS="Formal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Formal">
+<A NAME="746595"></A>
+<P CLASS="TB">
+<CODE>assistants</CODE></TD>
+<TD CLASS="Formal">
+<A NAME="746597"></A>
+<P CLASS="TB">
+configuration Assistants</TD>
+</TR>
+<TR CLASS="Formal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Formal">
+<A NAME="746599"></A>
+<P CLASS="TB">
+<CODE>bin</CODE></TD>
+<TD CLASS="Formal">
+<A NAME="746601"></A>
+<P CLASS="TB">
+binaries for all products</TD>
+</TR>
+<TR CLASS="Formal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Formal">
+<A NAME="746603"></A>
+<P CLASS="TB">
+<CODE>ctx</CODE></TD>
+<TD CLASS="Formal">
+<A NAME="746605"></A>
+<P CLASS="TB">
+interMedia Text cartridge</TD>
+</TR>
+<TR CLASS="Formal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Formal">
+<A NAME="746607"></A>
+<P CLASS="TB">
+<CODE>dbs</CODE></TD>
+<TD CLASS="Formal">
+<A NAME="746609"></A>
+<P CLASS="TB">
+<CODE>init</CODE><EM CLASS="Italic">sid</EM><CODE>.ora</CODE>, <CODE>lk</CODE><EM CLASS="Italic">sid</EM></TD>
+</TR>
+<TR CLASS="Formal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Formal">
+<A NAME="746611"></A>
+<P CLASS="TB">
+install</TD>
+<TD CLASS="Formal">
+<A NAME="746613"></A>
+<P CLASS="TB">
+install related files</TD>
+</TR>
+<TR CLASS="Formal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Formal">
+<A NAME="746615"></A>
+<P CLASS="TB">
+<CODE>lib</CODE></TD>
+<TD CLASS="Formal">
+<A NAME="746617"></A>
+<P CLASS="TB">
+Oracle product libraries</TD>
+</TR>
+<TR CLASS="Formal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Formal">
+<A NAME="746619"></A>
+<P CLASS="TB">
+jlib</TD>
+<TD CLASS="Formal">
+<A NAME="746621"></A>
+<P CLASS="TB">
+Java classes</TD>
+</TR>
+<TR CLASS="Formal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Formal">
+<A NAME="746623"></A>
+<P CLASS="TB">
+<CODE>md</CODE></TD>
+<TD CLASS="Formal">
+<A NAME="746625"></A>
+<P CLASS="TB">
+Spatial cartridge</TD>
+</TR>
+<TR CLASS="Formal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Formal">
+<A NAME="746627"></A>
+<P CLASS="TB">
+<CODE>mlx</CODE></TD>
+<TD CLASS="Formal">
+<A NAME="746629"></A>
+<P CLASS="TB">
+Xerox Stemmer (for interMedia Text cartridge)</TD>
+</TR>
+<TR CLASS="Formal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Formal">
+<A NAME="746631"></A>
+<P CLASS="TB">
+<CODE>network</CODE></TD>
+<TD CLASS="Formal">
+<A NAME="746633"></A>
+<P CLASS="TB">
+Net8</TD>
+</TR>
+<TR CLASS="Formal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Formal">
+<A NAME="746635"></A>
+<P CLASS="TB">
+<CODE>nlsrtl</CODE></TD>
+<TD CLASS="Formal">
+<A NAME="746637"></A>
+<P CLASS="TB">
+NLS runtime loadable data</TD>
+</TR>
+<TR CLASS="Formal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Formal">
+<A NAME="746639"></A>
+<P CLASS="TB">
+<CODE>ocommon</CODE></TD>
+<TD CLASS="Formal">
+<A NAME="746641"></A>
+<P CLASS="TB">
+common files for all products</TD>
+</TR>
+<TR CLASS="Formal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Formal">
+<A NAME="746643"></A>
+<P CLASS="TB">
+odg</TD>
+<TD CLASS="Formal">
+<A NAME="746645"></A>
+<P CLASS="TB">
+data gatherer</TD>
+</TR>
+<TR CLASS="Formal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Formal">
+<A NAME="746647"></A>
+<P CLASS="TB">
+opsm</TD>
+<TD CLASS="Formal">
+<A NAME="746649"></A>
+<P CLASS="TB">
+Parallel Server Manager Components</TD>
+</TR>
+<TR CLASS="Formal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Formal">
+<A NAME="746651"></A>
+<P CLASS="TB">
+oracore</TD>
+<TD CLASS="Formal">
+<A NAME="746653"></A>
+<P CLASS="TB">
+core libraries</TD>
+</TR>
+<TR CLASS="Formal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Formal">
+<A NAME="746655"></A>
+<P CLASS="TB">
+<CODE>ord</CODE></TD>
+<TD CLASS="Formal">
+<A NAME="746657"></A>
+<P CLASS="TB">
+data cartridges</TD>
+</TR>
+<TR CLASS="Formal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Formal">
+<A NAME="746659"></A>
+<P CLASS="TB">
+<CODE>otrace</CODE></TD>
+<TD CLASS="Formal">
+<A NAME="746661"></A>
+<P CLASS="TB">
+Oracle TRACE</TD>
+</TR>
+<TR CLASS="Formal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Formal">
+<A NAME="746663"></A>
+<P CLASS="TB">
+<CODE>plsql</CODE></TD>
+<TD CLASS="Formal">
+<A NAME="746665"></A>
+<P CLASS="TB">
+PL/SQL</TD>
+</TR>
+<TR CLASS="Formal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Formal">
+<A NAME="746667"></A>
+<P CLASS="TB">
+precomp</TD>
+<TD CLASS="Formal">
+<A NAME="746669"></A>
+<P CLASS="TB">
+precompilers</TD>
+</TR>
+<TR CLASS="Formal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Formal">
+<A NAME="746671"></A>
+<P CLASS="TB">
+<CODE>rdbms</CODE></TD>
+<TD CLASS="Formal">
+<A NAME="746673"></A>
+<P CLASS="TB">
+server files and libraries required for the database</TD>
+</TR>
+<TR CLASS="Formal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Formal">
+<A NAME="746675"></A>
+<P CLASS="TB">
+<CODE>slax</CODE></TD>
+<TD CLASS="Formal">
+<A NAME="746677"></A>
+<P CLASS="TB">
+SLAX parser</TD>
+</TR>
+<TR CLASS="Formal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Formal">
+<A NAME="746679"></A>
+<P CLASS="TB">
+<CODE>sqlplus</CODE></TD>
+<TD CLASS="Formal">
+<A NAME="746681"></A>
+<P CLASS="TB">
+SQL*Plus</TD>
+</TR>
+
+</TABLE>
+
+
+</A>
+   
+<A NAME="742924"></A>
+<!--TOC=h1-"742924"-->
+<H2 CLASS="H1"><FONT FACE="Arial, Helvetica, sans-serif" COLOR="#330099"> Creating an Oracle Home</FONT></H2>
+
+
+<!--/TOC=h1-->
+<A NAME="742925"></A>
+<P CLASS="BP">
+To create an Oracle home, follow the steps below.
+</P>
+
+<OL CLASS="LN1" TYPE="1">
+
+<LI CLASS="LN1" TYPE="1" VALUE="1"><A NAME="742926"></A>Run the Oracle Universal Installer. 
+<P>
+
+
+<LI CLASS="LN1" TYPE="1" VALUE="2"><A NAME="748256"></A>In the File Locations page, enter the Oracle home settings for the installation session under Destination. See <A HREF="moh.htm#750009">Table&nbsp;2-4</a> for a description of the fields in this section of the screen.
+<P>
+ 
+<A NAME="749831">
+<DIV ALIGN="CENTER">
+<P>
+<TABLE CLASS="Note" BORDER="0" WIDTH="80%" CELLPADDING="0" CELLSPACING="0" dir="ltr" summary="This is a layout table to format a note" title="This is a layout table to format a note">
+<TR CLASS="Note"><TD CLASS="Note">
+<HR>
+<A NAME="749829"></A><FONT FACE="Arial, Helvetica, sans-serif"><STRONG CLASS="NH">Note:</STRONG></FONT>
+
+<A NAME="749830"></A>
+<P CLASS="NB">
+The Name field only appears in Windows platforms.
+<HR>
+</TD>
+</TR>
+
+
+</TABLE>
+
+
+</DIV>
+</A>
+ 
+<LI CLASS="LN1" TYPE="1" VALUE="3"><A NAME="749871"></A>Continue with your installation. Refer to <A HREF="oui.htm#435690">Chapter&nbsp;1, "Using the Oracle Universal Installer"</a> for detailed information.
+<P>
+ 
+<A NAME="750035">
+<H5 CLASS="TT"><FONT FACE="Helvetica,Arial,sans-serif"><EM>
+<A NAME="750009"></A>
+<STRONG><FONT FACE="Arial, Helvetica, sans-serif"><EM>Table 2-4 &#32;Oracle Installation Settings in Destination &nbsp;</EM></FONT></STRONG>
+ </EM></FONT></H5>
+
+<TABLE CLASS="Formal" BORDER="1" FRAME="HSIDES" RULES="GROUPS" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" dir="ltr" title="">
+<THEAD>
+<TR CLASS="Formal"><TH CLASS="Formal" align="left" valign="bottom" scope="col">
+<A NAME="750013"></A>
+<FONT FACE="Arial, Helvetica, sans-serif"><STRONG>Settings</STRONG></FONT></TH>
+<TH CLASS="Formal" align="left" valign="bottom" scope="col">
+<A NAME="750015"></A>
+<FONT FACE="Arial, Helvetica, sans-serif"><STRONG>Functions</STRONG></FONT></TH>
+</TR>
+<TBODY>
+<TR CLASS="Formal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Formal">
+<A NAME="750017"></A>
+<P CLASS="TB">
+Name</TD>
+<TD CLASS="Formal">
+<A NAME="750019"></A>
+<P CLASS="TB">
+For Windows platforms, Oracle homes are identified by name, and the Oracle home name identifies the program group associated with a particular Oracle home, and the Oracle services installed on the associated home. The Oracle home name must be 1 to 16 characters long and can only include alphanumeric characters and underscores.</TD>
+</TR>
+<TR CLASS="Formal" ALIGN="LEFT" VALIGN="TOP"><TD CLASS="Formal">
+<A NAME="750021"></A>
+<P CLASS="TB">
+Path</TD>
+<TD CLASS="Formal">
+<A NAME="750023"></A>
+<P CLASS="TB">
+Enter an Oracle home and its full path or select an Oracle home from a drop down list of existing Oracle Homes. The Oracle home location is the directory where products are installed. 
+<A NAME="750024"></A>
+<P CLASS="TB">
+List of Oracle homes on Windows platforms:
+<UL CLASS="TLB">
+
+<LI CLASS="TLB" TYPE="DISC"><A NAME="750025"></A>all Oracle homes that are already created using the Oracle Universal Installer 
+<P>
+
+<LI CLASS="TLB" TYPE="DISC"><A NAME="750026"></A>all homes created using the previous Oracle Installer (ORCA-based) 
+<P>
+
+<LI CLASS="TLB" TYPE="DISC"><A NAME="750027"></A>the home that the ORACLE_HOME environment variable points to 
+<P>
+</UL>
+<A NAME="750028"></A>
+<P CLASS="TB">
+List of Oracle homes on UNIX: 
+<UL CLASS="TLB">
+
+<LI CLASS="TLB" TYPE="DISC"><A NAME="750029"></A>all Oracle homes that are already created using the Oracle Universal Installer 
+<P>
+
+<LI CLASS="TLB" TYPE="DISC"><A NAME="750030"></A>all homes as defined in the /var/opt/oratab file 
+<P>
+
+<LI CLASS="TLB" TYPE="DISC"><A NAME="750031"></A>the home that the ORACLE_HOME environment variable points to 
+<P>
+</UL>
+<A NAME="750032"></A>
+<P CLASS="TB">
+If none of these homes exists, a default home is calculated based on the disk volume with the largest amount of free space.
+<A NAME="750033"></A>
+<P CLASS="TB">
+Datafiles may or may not be installed within an Oracle home. You may use the <STRONG CLASS="Bold">Browse</STRONG> button to choose a directory to install your product. 
+<A NAME="750034"></A>
+<P CLASS="TB">
+For Windows platforms: it must be a valid path that is not in the Windows directory. Different homes cannot share the same location. </TD>
+</TR>
+
+</TABLE>
+
+
+</A>
+  
+</OL>
+<A NAME="750111"></A>
+<P CLASS="BP">
+
+</P>
+
+
+
+
+
+
+<!-- Start Footer -->
+</DIV>
+
+<DIV CLASS="OUTD">
+<HR>
+
+
+
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+<TR>
+<TD VALIGN="BOTTOM" WIDTH="33%">
+<TABLE CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD ALIGN="CENTER"><A HREF="oui.htm"><IMG SRC="./larrow.gif" ALT="Go to previous page" BORDER="0" HEIGHT="30" WIDTH="30"></A></TD>
+
+<TD ALIGN="CENTER"><A HREF="rsp.htm"><IMG SRC="./rarrow.gif" ALT="Go to next page" BORDER="0" HEIGHT="30" WIDTH="30"></A></TD>
+    
+</TR>
+</TABLE>
+</TD>
+<TD ALIGN="CENTER" WIDTH="34%">
+<A HREF="cpyr.htm"><IMG SRC="./oracle.gif" ALT="Oracle" BORDER="0"><BR>
+<FONT SIZE="-2">Copyright &copy; 1996&#044; 2002 Oracle Corporation.</FONT></A>
+<BR>
+<FONT SIZE="-2">All Rights Reserved.</FONT>
+</TD>
+<TD VALIGN="BOTTOM" ALIGN="RIGHT" WIDTH="33%"> 
+<TABLE CELLSPACING="0" CELLPADDING="0" WIDTH="144">
+<TR>
+
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"></TD>
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"></TD>
+
+
+
+
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"><A HREF="toc.htm"><IMG SRC="./conticon.gif" ALT="Go To Table Of Contents" BORDER="0" HEIGHT="30"
+WIDTH="30"><BR>
+<FONT SIZE="-2">Contents</FONT></A></TD>
+<TD ALIGN="CENTER" VALIGN="TOP" WIDTH="25%"><A HREF="index.htm"><IMG SRC="./indxicon.gif" ALT="Go To Index" BORDER="0" HEIGHT="30"
+WIDTH="30"><BR>
+<FONT SIZE="-2">Index</FONT></A></TD>
+
+</TR>
+</TABLE>
+</TD>
+</TR>
+</TABLE>
+  
+</DIV>
+
+</BODY>
+</HTML>
+

@@ -1,0 +1,44 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{21480edc-3824-4f55-bddb-a5d79a5366a3}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Projects Include="TestWebPool.dproj" />
+    <Projects Include="WebPool.dproj" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="WebPool">
+    <MSBuild Projects="WebPool.dproj" Targets="" />
+  </Target>
+  <Target Name="WebPool:Clean">
+    <MSBuild Projects="WebPool.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="WebPool:Make">
+    <MSBuild Projects="WebPool.dproj" Targets="Make" />
+  </Target>
+  <Target Name="TestWebPool">
+    <MSBuild Projects="TestWebPool.dproj" Targets="" />
+  </Target>
+  <Target Name="TestWebPool:Clean">
+    <MSBuild Projects="TestWebPool.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="TestWebPool:Make">
+    <MSBuild Projects="TestWebPool.dproj" Targets="Make" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="WebPool;TestWebPool" />
+  </Target>
+  <Target Name="Clean">
+    <CallTarget Targets="WebPool:Clean;TestWebPool:Clean" />
+  </Target>
+  <Target Name="Make">
+    <CallTarget Targets="WebPool:Make;TestWebPool:Make" />
+  </Target>
+  <Import Condition="Exists('$(MSBuildBinPath)\Borland.Group.Targets')" Project="$(MSBuildBinPath)\Borland.Group.Targets" />
+</Project>

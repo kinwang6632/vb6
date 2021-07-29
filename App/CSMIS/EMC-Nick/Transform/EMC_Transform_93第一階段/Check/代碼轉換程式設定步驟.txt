@@ -1,0 +1,17 @@
+1.請將附件解壓縮放置C:\下(路徑一定要對)
+
+2.更改C:\Transform\Check\LoadChkData.bat內的資料庫帳號密碼
+
+3.執行C:\Transform\Check\LoadChkData.bat即可將資料Load到Table  Code_Check1
+
+4.檢查Code_Check1.log檔是否正常Load完成
+
+5.Compile  @C:\Transform\Check\SP_CheckTransformData.sql
+
+6.掛在NightRun上
+  Compile  @C:\Transform\Check\StartCheckTransform.sql
+
+7.執行完NightRun查看Table  Code_Check2是否有異常資料
+  (隔天執行完才有資料)
+
+註:暫時先不檢查對照代表

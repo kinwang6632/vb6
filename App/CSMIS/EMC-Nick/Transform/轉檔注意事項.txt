@@ -1,0 +1,49 @@
+
+1. 轉檔前請先執行下列之 command..=>先allocate space,避免轉檔時 allocate. 加快轉檔時間
+alter table So001 allocate extent (size 150M);
+alter table So002 allocate extent (size 150M);
+alter table So007 allocate extent (size 150M);
+alter table So008 allocate extent (size 150M);
+alter table So009 allocate extent (size 150M);
+alter table So014 allocate extent (size 150M);
+alter table So033 allocate extent (size 150M);
+alter table So034 allocate extent (size 150M);
+
+
+2. 轉檔後請執行下列之 command..=>用以收回沒用到的 space
+alter table  so001 deallocate unused;
+alter table  so002 deallocate unused;
+alter table  so007 deallocate unused;
+alter table  so008 deallocate unused;
+alter table  so009 deallocate unused;
+alter table  so014 deallocate unused;
+alter table  so033 deallocate unused;
+alter table  so034 deallocate unused;
+
+
+3.create index 請先執行下列之 command..=>先allocate space,避免轉檔時 allocate. 加快轉檔時間
+alter index PK_So001 allocate extent (size 100M);
+alter index PK_So002 allocate extent (size 100M);
+alter index PK_So007 allocate extent (size 100M);
+alter index PK_So008 allocate extent (size 100M);
+alter index PK_So009 allocate extent (size 100M);
+alter index PK_So014 allocate extent (size 100M);
+alter index PK_So033 allocate extent (size 100M);
+alter index PK_So034 allocate extent (size 100M);
+
+4.create index 後請執行下列之 command..=>用以收回沒用到的 space
+alter index PK_So001 deallocate unused;
+alter index PK_So002 deallocate unused;
+alter index PK_So014 deallocate unused;
+alter index PK_So007 deallocate unused;
+alter index PK_So008 deallocate unused;
+alter index PK_So009 deallocate unused;
+alter index PK_So033 deallocate unused;
+alter index PK_So034 deallocate unused;
+
+
+
+5.系統上線前,請先執行 AnalyzeTable.sql 與 AnalyzeIndex.sql
+  =>此兩個 file 可以透過執行 prjCreateAnalyzeSql.exe 而產生
+
+

@@ -1,0 +1,46 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{5dc62691-369e-4764-aa46-d85bda293b5c}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Projects Include="E2CClientTest\E2CClientTest.dporj.dproj">
+      <Dependencies>E2C\prjE2C.dproj</Dependencies>
+    </Projects>
+    <Projects Include="E2C\prjE2C.dproj" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+<BorlandProject xmlns=""><Default.Personality></Default.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="prjE2C">
+    <MSBuild Projects="E2C\prjE2C.dproj" Targets="" />
+  </Target>
+  <Target Name="prjE2C:Clean">
+    <MSBuild Projects="E2C\prjE2C.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="prjE2C:Make">
+    <MSBuild Projects="E2C\prjE2C.dproj" Targets="Make" />
+  </Target>
+  <Target Name="E2CClientTest_dporj" DependsOnTargets="prjE2C">
+    <MSBuild Projects="E2CClientTest\E2CClientTest.dporj.dproj" Targets="" />
+  </Target>
+  <Target Name="E2CClientTest_dporj:Clean" DependsOnTargets="prjE2C:Clean">
+    <MSBuild Projects="E2CClientTest\E2CClientTest.dporj.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="E2CClientTest_dporj:Make" DependsOnTargets="prjE2C:Make">
+    <MSBuild Projects="E2CClientTest\E2CClientTest.dporj.dproj" Targets="Make" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="prjE2C;E2CClientTest_dporj" />
+  </Target>
+  <Target Name="Clean">
+    <CallTarget Targets="prjE2C:Clean;E2CClientTest_dporj:Clean" />
+  </Target>
+  <Target Name="Make">
+    <CallTarget Targets="prjE2C:Make;E2CClientTest_dporj:Make" />
+  </Target>
+  <Import Condition="Exists('$(MSBuildBinPath)\Borland.Group.Targets')" Project="$(MSBuildBinPath)\Borland.Group.Targets" />
+</Project>

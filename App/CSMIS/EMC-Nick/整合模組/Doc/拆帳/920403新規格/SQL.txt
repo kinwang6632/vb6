@@ -1,0 +1,160 @@
+..負項
+select BillNo,Item,CustId,CitemCode,CitemName,ShouldDate, NVL(ShouldAmt,0) ShouldAmt,RealDate,NVL(RealAmt,0) RealAmt, RealPeriod,RealStartDate,RealStopDate,CompCode,OrderNo, SBillNo,SItem  from SO033 WHERE CompCode=5 and ServiceType='C' and (RealDate between to_date(20030301,'YYYYMMDD') and to_date(20030331,'YYYYMMDD')) and CitemCode in (998) AND CancelFlag=0
+
+
+select BillNo,Item,CustId,CitemCode,CitemName,ShouldDate, NVL(ShouldAmt,0) ShouldAmt,RealDate,NVL(RealAmt,0) RealAmt, RealPeriod,RealStartDate,RealStopDate,CompCode,OrderNo, SBillNo,SItem  from SO034 WHERE CompCode=5 and ServiceType='C' and (RealDate between to_date(20030301,'YYYYMMDD') and to_date(20030331,'YYYYMMDD')) and CitemCode in (998) AND CancelFlag=0
+
+
+
+
+
+
+
+..正項
+select BillNo,Item,CustId,CitemCode,CitemName,ShouldDate, NVL(ShouldAmt,0) ShouldAmt,RealDate,NVL(RealAmt,0) RealAmt, RealPeriod,RealStartDate,RealStopDate,CompCode,OrderNo, SBillNo,SItem  from SO033 WHERE CompCode=5 and ServiceType='C' and (RealDate between to_date(20030301,'YYYYMMDD') and to_date(20030331,'YYYYMMDD')) and CitemCode in (902,903,904,905,906,907,908,910,931,932,933,934,935,911,936) AND CancelFlag=0
+
+select BillNo,Item,CustId,CitemCode,CitemName,ShouldDate, NVL(ShouldAmt,0) ShouldAmt,RealDate,NVL(RealAmt,0) RealAmt, RealPeriod,RealStartDate,RealStopDate,CompCode,OrderNo, SBillNo,SItem  from SO034 WHERE CompCode=5 and ServiceType='C' and (RealDate between to_date(20030301,'YYYYMMDD') and to_date(20030331,'YYYYMMDD')) and CitemCode in (902,903,904,905,906,907,908,910,931,932,933,934,935,911,936) AND CancelFlag=0
+
+
+
+
+
+
+..觀昇
+305,902,904,905,906,907,908,910,931,932,933,934,935,936
+
+SELECT * FROM SO033 WHERE COMPCODE=7 AND CitemCode IN(103)  AND (RealDate BETWEEN to_date('2002/12/01 00:00:01','YYYY/MM/DD HH24:MI:SS') AND to_date('2002/12/31 23:59:59','YYYY/MM/DD HH24:MI:SS'))  ORDER BY CitemCode
+
+
+
+select name from v$tablespace;
+
+
+
+...
+負項(EMCFM)
+SELECT * FROM SO033 WHERE COMPCODE=6 AND CitemCode IN(998)  AND 
+(RealDate BETWEEN to_date('2003/03/01 00:00:01','YYYY/MM/DD HH24:MI:SS') AND 
+to_date('2003/03/31 23:59:59','YYYY/MM/DD HH24:MI:SS'))  AND CancelCode IS NULL AND 
+CancelName IS NULL  ORDER BY CitemCode
+
+
+
+
+SELECT * FROM SO034 WHERE COMPCODE=6 AND CitemCode IN(998)  AND 
+(RealDate BETWEEN to_date('2003/03/01 00:00:01','YYYY/MM/DD HH24:MI:SS') AND 
+to_date('2003/03/31 23:59:59','YYYY/MM/DD HH24:MI:SS'))  AND CancelCode IS NULL AND 
+CancelName IS NULL  ORDER BY CitemCode
+
+
+
+SELECT * FROM INV017 WHERE SEQ IN ('200304170001067','200304170001068','200304170001069','200304170001070','200304170001071')
+
+SELECT * FROM SO033 WHERE  INVDATE IS NOT NULL
+
+SELECT * FROM SO033 WHERE ROWNUM<=100 AND INVDATE IS NOT NULL ORDER BY INVDATE
+
+
+SELECT * FROM INV009 WHERE COMPID=1 AND CUSTID='100001'
+
+
+GetMisChargeInfo
+
+INSERT INTO  INV009( IdentifyId1, IdentifyId2,SOURCE,COMPCODE,CUSTID,BILLNO,ITEM,UptTime,UptEn) VALUES('1',0,33,1,'100001','200303BC0604875',1,TO_DATE('20030419','YYYYMMDD'),'JACKAL')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+..正項
+select BillNo,Item,CustId,CitemCode,CitemName,ShouldDate, NVL(ShouldAmt,0) ShouldAmt,RealDate,NVL(RealAmt,0) RealAmt, RealPeriod,RealStartDate,RealStopDate,CompCode,OrderNo, SBillNo,SItem  from SO033 WHERE CompCode=7 and ServiceType='C' and (RealDate between to_date(20030101,'YYYYMMDD') and to_date(20030131,'YYYYMMDD')) and CitemCode in (92,93,94,95,96,97) AND CancelFlag=0
+
+
+
+
+..負項
+select BillNo,Item,CustId,CitemCode,CitemName,ShouldDate, NVL(ShouldAmt,0) ShouldAmt,RealDate,NVL(RealAmt,0) RealAmt, RealPeriod,RealStartDate,RealStopDate,CompCode,OrderNo, SBillNo,SItem  from SO033 WHERE CompCode=7 and ServiceType='C' and (RealDate between to_date(20030101,'YYYYMMDD') and to_date(20030131,'YYYYMMDD')) and CitemCode in (103) AND CancelFlag=0
+
+
+
+200301TC1111144
+
+
+200301050000187
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+先檢查SBillNo有沒有值
+<一>若 SBillNo 沒有值
+        直接 Append 在最後一筆,SO131.Notes=單據編號沒有值
+
+<二>若 SBillNo 有值
+        SELECT 整個 SO131 
+       <1>若 SELECT 不到任何正項 , 直接 Append 在最後一筆,SO131.Notes=找不到正項資料 , 可能早期的資料尚未計算
+      
+       <2>若 SELECT 有正項 , 檢查此正項資料是否為畫面所選的收費項目
+             <A>若不是所選收費項目 , 則忽略此退費項目
+
+             <B>若是所選收費項目 , 檢查此正項資料計算年月 , 是否為畫面所選要計算的計算年月
+                   <a>若是則新增一筆資料至此正項收費項目的下面 , SO131.Notes=退費
+
+                   <b>若不是則代表正項及退費項目分別屬不同年月 , 直接 Append 在最後一筆 , SO131.Notes=此月沒有此退費項目的正項資料
+
+
+        
+                   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SELECT ComputeYM,RealOrShouldDate,SeqNo,BillNo,Item,CustId,CustId,CitemName,ShouldDate,TO_CHAR(ShouldAmt) ShouldAmt,RealDate,TO_CHAR(RealAmt) RealAmt,RealPeriod,RealStartDate,RealStopDate,CompCode,OrderNo,SBillNo,SItem,MediaCode,MediaName,AcceptEn,AcceptName,IntroId,IntroName,Notes FROM SO131 WHERE ComputeYM IS NULL

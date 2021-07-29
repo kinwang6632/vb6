@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataSet xmlns="http://tempuri.org/CMWebServiceGW/CMWebServiceGW">
+  <xs:schema id="CMConnLogDS" targetNamespace="http://tempuri.org/CMConnLogDS.xsd" xmlns:mstns="http://tempuri.org/CMConnLogDS.xsd" xmlns="http://tempuri.org/CMConnLogDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+    <xs:element name="CMConnLogDS" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="CMConnLogDT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="QueryResult" type="xs:string" minOccurs="0" />
+                <xs:element name="FaultReason" type="xs:string" minOccurs="0" />
+                <xs:element name="OnlineTime" type="xs:string" minOccurs="0" />
+                <xs:element name="OfflineTime" type="xs:string" minOccurs="0" />
+                <xs:element name="CMIP" type="xs:string" minOccurs="0" />
+                <xs:element name="PCIP" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+    <CMConnLogDS xmlns="http://tempuri.org/CMConnLogDS.xsd">
+      <CMConnLogDT diffgr:id="CMConnLogDT1" msdata:rowOrder="0">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <OnlineTime>2005-09-20 20:15:19</OnlineTime>
+        <OfflineTime>2005-09-20 21:21:10</OfflineTime>
+        <CMIP>10.12.38.248</CMIP>
+        <PCIP>222.250.5.120</PCIP>
+      </CMConnLogDT>
+      <CMConnLogDT diffgr:id="CMConnLogDT2" msdata:rowOrder="1">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <OnlineTime>2005-09-20 21:22:41</OnlineTime>
+        <OfflineTime>2005-09-20 21:23:17</OfflineTime>
+        <CMIP>10.12.38.248</CMIP>
+        <PCIP />
+      </CMConnLogDT>
+      <CMConnLogDT diffgr:id="CMConnLogDT3" msdata:rowOrder="2">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <OnlineTime>2005-09-20 21:25:32</OnlineTime>
+        <OfflineTime>2005-09-20 21:36:10</OfflineTime>
+        <CMIP>10.12.38.248</CMIP>
+        <PCIP>222.250.5.120</PCIP>
+      </CMConnLogDT>
+      <CMConnLogDT diffgr:id="CMConnLogDT4" msdata:rowOrder="3">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <OnlineTime>2005-09-20 21:37:43</OnlineTime>
+        <OfflineTime>2005-09-21 18:34:08</OfflineTime>
+        <CMIP>10.12.38.248</CMIP>
+        <PCIP>222.250.5.120</PCIP>
+      </CMConnLogDT>
+      <CMConnLogDT diffgr:id="CMConnLogDT5" msdata:rowOrder="4">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <OnlineTime>2005-09-21 18:35:36</OnlineTime>
+        <OfflineTime>2005-09-21 19:41:09</OfflineTime>
+        <CMIP>10.12.38.248</CMIP>
+        <PCIP>222.250.5.120</PCIP>
+      </CMConnLogDT>
+      <CMConnLogDT diffgr:id="CMConnLogDT6" msdata:rowOrder="5">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <OnlineTime>2005-09-21 19:42:36</OnlineTime>
+        <OfflineTime>2005-09-21 19:44:14</OfflineTime>
+        <CMIP>10.12.38.248</CMIP>
+        <PCIP>222.250.5.120</PCIP>
+      </CMConnLogDT>
+      <CMConnLogDT diffgr:id="CMConnLogDT7" msdata:rowOrder="6">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <OnlineTime>2005-09-21 19:46:40</OnlineTime>
+        <OfflineTime>2005-09-22 19:36:08</OfflineTime>
+        <CMIP>10.12.38.248</CMIP>
+        <PCIP>222.250.5.120</PCIP>
+      </CMConnLogDT>
+      <CMConnLogDT diffgr:id="CMConnLogDT8" msdata:rowOrder="7">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <OnlineTime>2005-09-22 19:37:37</OnlineTime>
+        <OfflineTime>2005-09-22 21:52:18</OfflineTime>
+        <CMIP>10.12.38.248</CMIP>
+        <PCIP>222.250.5.120</PCIP>
+      </CMConnLogDT>
+      <CMConnLogDT diffgr:id="CMConnLogDT9" msdata:rowOrder="8">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <OnlineTime>2005-09-22 21:54:01</OnlineTime>
+        <OfflineTime>2005-10-01 16:38:25</OfflineTime>
+        <CMIP>10.12.38.248</CMIP>
+        <PCIP>222.250.5.120</PCIP>
+      </CMConnLogDT>
+      <CMConnLogDT diffgr:id="CMConnLogDT10" msdata:rowOrder="9">
+        <QueryResult>1</QueryResult>
+        <FaultReason />
+        <OnlineTime>2005-10-01 18:18:23</OnlineTime>
+        <OfflineTime>2005-10-02 04:53:22</OfflineTime>
+        <CMIP>10.12.38.248</CMIP>
+        <PCIP />
+      </CMConnLogDT>
+    </CMConnLogDS>
+  </diffgr:diffgram>
+</DataSet>

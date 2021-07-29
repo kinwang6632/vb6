@@ -1,0 +1,17 @@
+1.Login至各系統台SQL *Plus
+
+2.找出 SP_GetSnapShotTableCounts.sql 的 Job_ID
+  select Job from User_jobs where what=upper('SP_GetSnapShotTableCounts');
+
+3.刪除 SP_GetSnapShotTableCounts.sql NigthRun
+  將步驟二取得的Job_ID放入下一行指令括號中(取代???)
+  DBMS_JOB.REMOVE(???);
+
+4.重新Compile SP_Refresh.sql
+  因為SP_GetSnapShotTableCounts改由SP_Refresh程式呼叫
+
+
+Pierre請問這樣OK嗎?
+
+
+  

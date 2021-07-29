@@ -1,0 +1,55 @@
+/*
+  批次作業: 新增一批關頻道指令, 以做到於某一時間到時, 可關閉這些付費頻道
+  目的: 可針對所有使用中的STB, 關閉試看至某一日期的頻道
+  檔名: SF_CancelChannel1.sql
+
+  注意: 此函式目的設計成當92.03.31, EMC會要求我們將所有STB試看至該日的情色頻道組全部關掉,
+	但我們的高階功能並未提供試看至某日的功能(只有試看固定天數的功能), 做的時候, EMC
+	全部系統台都要執行一次.  此函式也可以讓我們刻意關掉某些頻道.
+
+  IN p_CompCode number: 公司別
+     p_ProdIdList varchar2: Nagra product id. list, 以','區隔, 不要有空白
+     p_ExecTime varchar2: 關頻道時間, 西曆時間10碼字串, 'YYYYMMDDHH24MI', 不含秒
+  OUT p_RetMsg varchar2: 處理結果自串
+  Return NUMBER：處理結果代碼
+	>=0：執行完畢
+	-1: 參數錯誤
+	-2: SQL指令錯誤
+	...
+        -99：其他錯誤
+
+  流程:
+	Loop所有使用中的STB
+		.. 新增一筆關頻道指令(B2)至共用資料區的Send_Nagra中, 欄位至少如下:
+			High_Level_Cmd_ID: 'B2'
+			ICC_NO: 該設備之ICC卡號
+			Notes: 待關頻道之Product id. list, 以','區隔
+
+  定義: 
+	. 所有使用中的STB: 設備資料檔(SO004)中其品名代碼(FaciCode), 對應至品名代碼
+	  檔(CD022)的參考號(RefNo)為3(即STB)者, 且該設備的拆除日期為空者(PRDate is null)
+
+@c:\Gird\V300\Script\SF_CancelChannel1
+variable nn number
+variable msg varchar2(100)
+
+exec :nn := SF_CancelChannel1(1, '12,13', '200304010010', :msg);
+print nn
+pring msg
+
+  Date: 
+  By: 
+*/
+create or replace function SF_CancelChannel1(p_CompCode number, p_ProdIdList varchar2, 
+	p_ExecTime varchar2, p_RetMsg out varchar2) return number
+  as
+begin
+
+EXCEPTION
+  WHEN OTHERS THEN
+    DBMS_OUTPUT.PUT_LINE('Error Code ='||SQLCODE||' '||'Error message='||SQLERRM);
+    p_RetMsg := '其他錯誤: '||SQLERRM;
+    rollback;
+    return -99;
+END;
+/

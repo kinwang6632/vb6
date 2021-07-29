@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CableSoft_PServer_Gateway", "CableSoft_Gateway\CableSoft_Gateway\CableSoft_PServer_Gateway.vbproj", "{6FA7A5DE-2EC5-4E93-AA32-FB2C8264A9B1}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CableSoft.Gateway.Common", "..\..\GatewayCommon\CableSoft.Getway.Common\CableSoft.Gateway.Common.vbproj", "{BA62AAA2-E2E1-4A1A-A7B2-5B913319253E}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CableSoft.Gateway.csException", "..\..\GatewayCommon\CableSoft.Getway.csException\CableSoft.Gateway.csException.vbproj", "{E82F8F79-2AC9-425A-A9CA-E5C20CEDC2EC}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CableSoft.GateWay.SystemIO", "..\..\GatewayCommon\CableSoft.GetWay.SystemIO\CableSoft.GateWay.SystemIO.vbproj", "{D0A2D271-7BDA-4D1E-9AAF-739F35497804}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CryptUtil", "..\..\GatewayCommon\CryptUtil\CryptUtil\CryptUtil.vbproj", "{F0996E21-AB49-4D72-8748-31F22F58B4BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FA7A5DE-2EC5-4E93-AA32-FB2C8264A9B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FA7A5DE-2EC5-4E93-AA32-FB2C8264A9B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FA7A5DE-2EC5-4E93-AA32-FB2C8264A9B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FA7A5DE-2EC5-4E93-AA32-FB2C8264A9B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA62AAA2-E2E1-4A1A-A7B2-5B913319253E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA62AAA2-E2E1-4A1A-A7B2-5B913319253E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA62AAA2-E2E1-4A1A-A7B2-5B913319253E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA62AAA2-E2E1-4A1A-A7B2-5B913319253E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E82F8F79-2AC9-425A-A9CA-E5C20CEDC2EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E82F8F79-2AC9-425A-A9CA-E5C20CEDC2EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E82F8F79-2AC9-425A-A9CA-E5C20CEDC2EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E82F8F79-2AC9-425A-A9CA-E5C20CEDC2EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0A2D271-7BDA-4D1E-9AAF-739F35497804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0A2D271-7BDA-4D1E-9AAF-739F35497804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0A2D271-7BDA-4D1E-9AAF-739F35497804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0A2D271-7BDA-4D1E-9AAF-739F35497804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0996E21-AB49-4D72-8748-31F22F58B4BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0996E21-AB49-4D72-8748-31F22F58B4BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0996E21-AB49-4D72-8748-31F22F58B4BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0996E21-AB49-4D72-8748-31F22F58B4BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

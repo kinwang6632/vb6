@@ -1,0 +1,54 @@
+PROMPT *** CD067A  分類代碼檔 ***
+
+DROP TABLE CD067A CASCADE CONSTRAINT;
+
+CREATE TABLE CD067A (
+	TableName		VARCHAR2(30),
+	TableDescription	Varchar2(50),
+	OPERATOR		VARCHAR2(20),
+	UPDTIME			VARCHAR2(20),
+	CONSTRAINT PK_CD067A PRIMARY KEY (TableName)
+       );
+
+DROP INDEX I_CD067A_1;
+
+CREATE INDEX I_CD067A_1 ON CD067A (TableName);
+
+
+PROMPT *** CD067B  類別資料檔 ***
+
+DROP TABLE CD067B CASCADE CONSTRAINT;
+
+CREATE TABLE CD067B (
+	CodeNo			Number(3),
+	TableName		VARCHAR2(30),
+	Description		VARCHAR2(20),
+	RefNo			Number(3),
+	ServiceType		Char(1),
+	StopFlag		Number(1),
+	OPERATOR		VARCHAR2(20),
+	UPDTIME			VARCHAR2(20)
+       );
+
+DROP INDEX I_CD067B_1;
+
+CREATE INDEX I_CD067B_1 ON CD067B (CodeNo);
+
+
+PROMPT *** CD067C  分類明細對照檔 ***
+
+DROP TABLE CD067C CASCADE CONSTRAINT;
+
+CREATE TABLE CD067C (
+	CompCode		Number(3),
+	TableName		VARCHAR2(30),
+	MasterCodeNo		Number(3),
+	DetailCodeNo		Number(3),
+	StopFlag		Number(1),
+	OPERATOR		VARCHAR2(20),
+	UPDTIME			VARCHAR2(20)
+       );
+
+DROP INDEX I_CD067C_1;
+
+CREATE INDEX I_CD067C_1 ON CD067C (CompCode,TableName) ;

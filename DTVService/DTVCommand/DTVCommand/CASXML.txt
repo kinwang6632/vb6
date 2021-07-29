@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataTable>
+    <CompanyCode>1</CompanyCode>
+	 <AccountID>TBCSOCKETNTY</AccountID>
+	 <Password>032710088</Password>
+	 <ProcessType>A2</ProcessType>
+	 <ICC>321456789012</ICC>
+	 <STBNo>12345678901234</STBNo>
+	 <CMDString>1234</CMDString>
+</DataTable>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<DataTable>
+    <CompanyCode>1</CompanyCode>
+	 <AccountID>TBCSOCKETNTY</AccountID>
+	 <Password>032710088</Password>
+	 <ProcessType>A6</ProcessType>
+	 <ICC>321456789012</ICC>
+	 <STBNo>12345678901234</STBNo>
+	 <CMDString>10002/00002;10@20100101@20101231~20@20100201@20101231;1234</CMDString>
+</DataTable>
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<DataTable>
+    <CompanyCode>1</CompanyCode>
+	 <AccountID>TBCSOCKETNTY</AccountID>
+	 <Password>032710088</Password>
+	 <ProcessType>A7</ProcessType>
+	 <ICC>321456789012</ICC>
+	 <STBNo>12345678901234</STBNo>
+	 <CMDString>10002/00002;10@20100101@20101231~20@20100201@20101231;1234</CMDString>
+</DataTable>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<DataTable>
+    <CompanyCode>1</CompanyCode>
+	 <AccountID>TBCSOCKETNTY</AccountID>
+	 <Password>032710088</Password>
+	 <ProcessType>A8</ProcessType>
+	 <ICC>321456789012</ICC>
+	 <STBNo>12345678901234</STBNo>
+	 <CMDString>10002;1234</CMDString>
+</DataTable>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<DataTable>
+    <CompanyCode>1</CompanyCode>
+	 <AccountID>TBCSOCKETNTY</AccountID>
+	 <Password>032710088</Password>
+	 <ProcessType>A9</ProcessType>
+	 <ICC>321456789012</ICC>
+	 <STBNo>12345678901234</STBNo>
+	 <CMDString>00002;10@20100101@20101231~20@20100201@20101231</CMDString>
+</DataTable>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<DataTable>
+    <CompanyCode>1</CompanyCode>
+	 <AccountID>TBCSOCKETNTY</AccountID>
+	 <Password>032710088</Password>
+	 <ProcessType>B1</ProcessType>
+	 <ICC>321456789012</ICC>
+	 <STBNo>12345678901234</STBNo>
+	 <CMDString>10@20100101@20101231~20@20100201@20101231</CMDString>
+</DataTable>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<DataTable>
+    <CompanyCode>1</CompanyCode>
+	 <AccountID>TBCSOCKETNTY</AccountID>
+	 <Password>032710088</Password>
+	 <ProcessType>B2</ProcessType>
+	 <ICC>321456789012</ICC>
+	 <STBNo>12345678901234</STBNo>
+	 <CMDString>10~20</CMDString>
+</DataTable>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<DataTable>
+    <CompanyCode>1</CompanyCode>
+	 <AccountID>TBCSOCKETNTY</AccountID>
+	 <Password>032710088</Password>
+	 <ProcessType>B6</ProcessType>
+	 <ICC>321456789012</ICC>
+	 <STBNo>12345678901234</STBNo>
+	 <CMDString>10@20100101@20101231~20@20100201@20101231</CMDString>
+</DataTable>
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<DataTable>
+    <CompanyCode>1</CompanyCode>
+	 <AccountID>TBCSOCKETNTY</AccountID>
+	 <Password>032710088</Password>
+	 <ProcessType>B9</ProcessType>
+	 <ICC>321456789012</ICC>
+	 <STBNo>12345678901234</STBNo>
+	 <CMDString>10@20100101@20101231~20@20100201@20101231;1234</CMDString>
+</DataTable>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<DataTable>
+    <CompanyCode>1</CompanyCode>
+	 <AccountID>TBCSOCKETNTY</AccountID>
+	 <Password>032710088</Password>
+	 <ProcessType>B10</ProcessType>
+	 <ICC>321456789012</ICC>
+	 <STBNo>12345678901234</STBNo>
+	 <CMDString>99@20100101@20101231~XYZ123456789012~200</CMDString>
+</DataTable>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ProductManagementData SYSTEM "ProductManagementData.dtd">
+<ProductManagementData creationDate="20040827082717">
+<ProviderInfo>
+<ProviderId>IMS Nagra</ProviderId>
+<ProviderName>IMS Nagravision S.A.</ProviderName>
+<DtdVersion>1.1.1</DtdVersion>
+</ProviderInfo>
+<ProductChangeNotification>
+
+<ProductData>
+<Product>
+<ProductId>3307</ProductId>
+<ProductType productKind="PPV" impulsiveFlag="1" specialPpv="0"/>
+<ProductStatus suspendedFlag="0" soldFlag="0"/>
+<ProductText language="eng">
+<ProductName>靈蝠殺陣(躢)</ProductName>
+<ProductDescription>靈蝠殺陣(躢)</ProductDescription>
+</ProductText>
+<SalePeriod beginTime="20040824200000" endTime="20040830020000"/>
+<EpgPrice>11</EpgPrice>
+<PpvData>
+<ValidityPeriod beginTime="20040828000000" endTime="20040901000000"/>
+<Event beginTime="20040829200000" duration="21600">
+<EventId>20041</EventId>
+<PreviewTime>3</PreviewTime>
+<EpgText language="chi">
+<Name>靈蝠殺陣(躢)</Name>
+<Description>一群恐怖的蝙蝠襲䢊德州的小鎮造成鎮殧的恐慌。䢿府迅速派㢡到小鎮展開調查；為專家所百思不解的是這群恐怖的蝙蝠竟然會䢻䢊人類! 這會是軍方單位所瞢發的恐怖武器嗎?</Description>
+</EpgText>
+<ParentalRating>0</ParentalRating>
+<ChannelNumber>2</ChannelNumber>
+</Event>
+</PpvData>
+</Product>
+</ProductData>
+</ProductChangeNotification>
+</ProductManagementData>

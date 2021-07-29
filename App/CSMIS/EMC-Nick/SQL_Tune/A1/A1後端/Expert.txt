@@ -1,0 +1,519 @@
+***********************************************************************************
+******************         佣          獎           金           ******************
+***********************************************************************************
+..佣金Expert測試
+....BOX買(OK)
+select a.SNo, a.IntroId, a.IntroName, a.WorkerEn1,a.WorkerName1,a.WorkerEn2,
+a.WorkerName2, a.WorkerEn3,a.WorkerName3,a.AcceptEn, a.AcceptName, 
+a.MediaCode , a.MediaName ,a.ORDERNO,b.FaciSNo ,b.InstDate ,b.PRDate ,
+a.CustID,b.SeqNo,a.PromCode,a.PromName   from So007 a, So004 b  
+where (b.InstDate BETWEEN to_date('2003/05/01 00:00:00','YYYY/MM/DD HH24:MI:SS') AND 
+to_date('2003/05/31 23:59:59','YYYY/MM/DD HH24:MI:SS')) AND b.BuyCode=1 AND 
+a.SNo=b.SNo AND b.SmartCardNo Is Not Null AND b.FaciCode Is Not Null
+
+
+....BOX租(OK)--
+select a.SNo, a.IntroId, a.IntroName, a.WorkerEn1,a.WorkerName1,a.WorkerEn2,
+a.WorkerName2, a.WorkerEn3,a.WorkerName3,a.AcceptEn, a.AcceptName, a.MediaCode, 
+a.MediaName,a.ORDERNO,b.FaciSNo ,b.InstDate ,b.PRDate  ,a.CustID,b.SeqNo,
+a.PromCode,a.PromName  from So007 a, So004 b  
+where (b.InstDate BETWEEN to_date('2002/06/03 00:00:00','YYYY/MM/DD HH24:MI:SS') AND 
+to_date('2003/08/02 23:59:59','YYYY/MM/DD HH24:MI:SS')) AND BuyCode=3 AND 
+(b.PRDATE IS NULL OR ((b.PRDATE IS NOT NULL) AND (b.PRDate-b.InstDate>=90))) AND 
+a.SNo=b.SNo AND b.SmartCardNo Is Not Null AND b.FaciCode Is Not Null
+
+
+....getDateData(OK)
+select RealDate,ShouldDate from so034 
+where FaciSeqNo='200210280035073' AND ROWNUM <=1 ORDER BY ShouldDate
+
+
+....處理 M 單()
+select SNo,InstDate ,PRDate,SeqNo,PRSNO,CustId,FaciSNo  from So004  
+where (InstDate BETWEEN to_date('2003/05/01 00:00:00','YYYY/MM/DD HH24:MI:SS') AND 
+to_date('2003/09/31 23:59:59','YYYY/MM/DD HH24:MI:SS')) AND 
+SmartCardNo Is Not Null AND FaciCode Is Not Null AND 
+SNO LIKE '%M%' AND BuyCode in (1,3)
+
+
+....處理 M 單 getISno(OK)
+select a.SNo, a.IntroId, a.IntroName, a.WorkerEn1,a.WorkerName1,a.WorkerEn2,
+a.WorkerName2, a.WorkerEn3,a.WorkerName3,a.AcceptEn, a.AcceptName, 
+a.MediaCode , a.MediaName ,a.ORDERNO,b.FaciSNo ,b.InstDate ,b.PRDate ,
+a.CustID,b.SeqNo,b.BuyCode  from So007 a, So004 b  
+where  a.SNo=b.SNo AND b.SmartCardNo Is Not Null AND b.BuyCode IN (1,3) AND 
+b.FaciCode Is Not Null and b.PRSNO='200211MC0257721'
+
+
+....處理 M 單 checkedIsAlreadyPay(OK)
+SELECT COUNT(*) counts FROM SO122 WHERE ComputeYM='09111' AND 
+Sno='200211IC0187622' AND COMPCODE=10 AND INTACCCOMM > 0 AND StbNo='9111100001'
+
+
+
+....佣金計算正項(OK)
+SELECT A.RefNo,B.CustId,B.OrderNo,B.FirstFlag,B.DiscountCode,B.DiscountName,
+B.OrderNo,TO_DATE(TO_CHAR(B.RealStartDate,'YYYY/MM/DD'),'YYYY/MM/DD') RealStartDate ,
+TO_DATE(TO_CHAR(B.RealStopDate,'YYYY/MM/DD'),'YYYY/MM/DD') RealStopDate ,
+B.CMName,B.CitemCode,B.CitemName,B.PTCode,B.RealAmt,to_char(B.RealAmt) StrRealAmt ,
+B.CompCode,B.ClctEn,B.ClctName,B.BillNo,B.Item, B.RealPeriod, B.SBILLNO, 
+B.SITEM ,TO_DATE(TO_CHAR(B.RealDate,'YYYY/MM/DD'),'YYYY/MM/DD') RealDate,
+TO_DATE(TO_CHAR(B.ShouldDate,'YYYY/MM/DD'),'YYYY/MM/DD') ShouldDate 
+FROM CD019 A, So033 B Where B.CancelFlag=0 AND B.UcCode is NULL and 
+B.ServiceType='C' AND 
+(B.RealDate BETWEEN to_date('2003/06/01 00:00:00','YYYY/MM/DD HH24:MI:SS') AND 
+to_date('2003/06/30 23:59:59','YYYY/MM/DD HH24:MI:SS')) AND B.CitemCode=A.CodeNo and 
+A.RefNo=2 and (b.OrderNo is not null or b.OrderNo<>'')  AND 
+B.COMPCODE='10' Order by B.ClctEn
+
+
+
+....佣金計算正項from So105(OK)
+Select MediaCode,ACCEPTEN, ACCEPTNAME, IntroId, IntroName,PromCode,PromName  
+from So105  where OrderNo='200212070000188'
+
+
+
+....佣金計算退費(OK)
+SELECT A.RefNo,B.CustId,B.OrderNo,B.FirstFlag,
+TO_DATE(TO_CHAR(B.SHOULDDATE,'YYYY/MM/DD'),'YYYY/MM/DD') SHOULDDATE,
+B.DiscountCode,B.OrderNo,
+TO_DATE(TO_CHAR(B.RealStartDate,'YYYY/MM/DD'),'YYYY/MM/DD') RealStartDate,
+TO_DATE(TO_CHAR(B.RealStopDate,'YYYY/MM/DD'),'YYYY/MM/DD') RealStopDate,
+B.CMName,B.CitemCode,B.CitemName,B.PTCode,
+TO_DATE(TO_CHAR(B.RealDate,'YYYY/MM/DD'),'YYYY/MM/DD') RealDate,
+B.RealAmt,to_char(B.RealAmt) StrRealAmt,B.CompCode,B.ClctEn,B.ClctName,
+B.BillNo,B.Item, B.REALPERIOD,B.SBILLNO, B.SITEM FROM CD019 A, So034 B 
+Where B.CancelFlag=0 AND B.UcCode is NULL and B.ServiceType='C' AND 
+(B.ShouldDate BETWEEN to_date('2003/05/01 00:00:00','YYYY/MM/DD HH24:MI:SS') AND 
+to_date('2003/09/30 23:59:59','YYYY/MM/DD HH24:MI:SS')) AND 
+B.CitemCode=A.CodeNo  AND B.COMPCODE='10' AND A.RefNo=9  Order by B.ClctEn
+
+
+
+....佣金計算退費callSF_GetChargeData(OK)
+select BillNo,IntAccId,IntAccName,IntAccOriPercent,StaffCode,
+TO_CHAR(RealStartDate,'YYYY/MM/DD') RealStartDate,
+TO_CHAR(RealStopDate,'YYYY/MM/DD') RealStopDate,CitemCode,CitemName,
+MediaCode,MediaName,PROMCODE,PROMNAME,CustId,PeriodId,FirstFlag,
+OrderNo,CallSelf  from SO122 WHERE CompCode=10 and 
+BillNo='200211TC1111162' and Item=2
+
+
+
+***********************************************************************************
+******************             A1        報         表           ******************
+***********************************************************************************
+..YMS-A1-1()
+..Sourse(7:25)
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=CHOOSE (Cost=5386 Card=879 Bytes=
+          77277)
+
+   1    0   SORT (UNIQUE) (Cost=5386 Card=879 Bytes=77277)
+   2    1     UNION-ALL
+   3    2       TABLE ACCESS (FULL) OF 'SO033' (Cost=487 Card=25 Bytes
+          =2125)
+
+   4    2       TABLE ACCESS (FULL) OF 'SO034' (Cost=4883 Card=854 Byt
+          es=75152)
+
+
+
+
+
+Statistics
+----------------------------------------------------------
+        557  recursive calls
+         91  db block gets
+      35500  consistent gets
+      35299  physical reads
+          0  redo size
+    1878671  bytes sent via SQL*Net to client
+     110648  bytes received via SQL*Net from client
+        995  SQL*Net roundtrips to/from client
+         10  sorts (memory)
+          1  sorts (disk)
+      14900  rows processed
+
+
+..Sourse含Index1(5:53)
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=CHOOSE (Cost=26 Card=901 Bytes=79
+          213)
+
+   1    0   SORT (UNIQUE) (Cost=26 Card=901 Bytes=79213)
+   2    1     UNION-ALL
+   3    2       TABLE ACCESS (BY INDEX ROWID) OF 'SO033' (Cost=4 Card=
+          25 Bytes=2125)
+
+   4    3         INDEX (RANGE SCAN) OF 'I_SO033_JACKAL_1' (NON-UNIQUE
+          ) (Cost=2 Card=25)
+
+   5    2       CONCATENATION
+   6    5         TABLE ACCESS (BY INDEX ROWID) OF 'SO034' (Cost=3 Car
+          d=438 Bytes=38544)
+
+   7    6           INDEX (RANGE SCAN) OF 'I_SO034_JACKAL_1' (NON-UNIQ
+          UE) (Cost=2 Card=438)
+
+   8    5         TABLE ACCESS (BY INDEX ROWID) OF 'SO034' (Cost=3 Car
+          d=438 Bytes=38544)
+
+   9    8           INDEX (RANGE SCAN) OF 'I_SO034_JACKAL_1' (NON-UNIQ
+          UE) (Cost=2 Card=438)
+
+
+..Sourse含Index2(6:26)
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=CHOOSE (Cost=26 Card=901 Bytes=79
+          213)
+
+   1    0   SORT (UNIQUE) (Cost=26 Card=901 Bytes=79213)
+   2    1     UNION-ALL
+   3    2       TABLE ACCESS (BY INDEX ROWID) OF 'SO033' (Cost=4 Card=
+          25 Bytes=2125)
+
+   4    3         INDEX (RANGE SCAN) OF 'I_SO033_JACKAL_1' (NON-UNIQUE
+          ) (Cost=2 Card=25)
+
+   5    2       CONCATENATION
+   6    5         TABLE ACCESS (BY INDEX ROWID) OF 'SO034' (Cost=3 Car
+          d=438 Bytes=38544)
+
+   7    6           INDEX (RANGE SCAN) OF 'I_SO034_JACKAL_1' (NON-UNIQ
+          UE) (Cost=2 Card=438)
+
+   8    5         TABLE ACCESS (BY INDEX ROWID) OF 'SO034' (Cost=3 Car
+          d=438 Bytes=38544)
+
+   9    8           INDEX (RANGE SCAN) OF 'I_SO034_JACKAL_1' (NON-UNIQ
+          UE) (Cost=2 Card=438)
+
+
+Statistics
+----------------------------------------------------------
+       6030  recursive calls
+        476  db block gets
+       8074  consistent gets
+       1649  physical reads
+      78548  redo size
+    1878671  bytes sent via SQL*Net to client
+     110648  bytes received via SQL*Net from client
+        995  SQL*Net roundtrips to/from client
+         18  sorts (memory)
+          1  sorts (disk)
+      14900  rows processed
+
+
+..Sourse僅Index2(6:36)
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=CHOOSE (Cost=5386 Card=879 Bytes=
+          77277)
+
+   1    0   SORT (UNIQUE) (Cost=5386 Card=879 Bytes=77277)
+   2    1     UNION-ALL
+   3    2       TABLE ACCESS (FULL) OF 'SO033' (Cost=487 Card=25 Bytes
+          =2125)
+
+   4    2       TABLE ACCESS (FULL) OF 'SO034' (Cost=4883 Card=854 Byt
+          es=75152)
+
+
+
+
+
+Statistics
+----------------------------------------------------------
+          8  recursive calls
+         91  db block gets
+      35376  consistent gets
+      35216  physical reads
+          0  redo size
+    1878671  bytes sent via SQL*Net to client
+     110648  bytes received via SQL*Net from client
+        995  SQL*Net roundtrips to/from client
+          0  sorts (memory)
+          1  sorts (disk)
+      14900  rows processed
+
+select A.BillNo, A.Item, A.CustId, A.CitemCode, A.CitemName, A.RealDate, A.RealAmt, A.RealPeriod, A.RealStartDate, A.RealStopDate, A.STCode, A.ClctEn, A.AddrNo, A.ServCode, A.ServiceType, A.sCitemCode, A.sBillNo, A.sItem, A.ShouldDate
+ from SO033 A
+ where 
+ A.RealDate>=to_date('20030901','YYYYMMDD') and A.RealDate<=to_date('20030930','YYYYMMDD') and A.UCCode is null and A.CancelFlag=0 and nvl(A.RealAmt,0) !=0
+ and (A.CitemCode IN (301) or A.CitemCode IN (302)) and A.CompCode=10 and A.ServiceType='C'
+ union 
+ select A.BillNo, A.Item, A.CustId, A.CitemCode, A.CitemName, A.RealDate, A.RealAmt, A.RealPeriod, A.RealStartDate, A.RealStopDate, A.STCode, A.ClctEn, A.AddrNo, A.ServCode, A.ServiceType, A.sCitemCode, A.sBillNo, A.sItem, A.ShouldDate
+ from SO034 A
+ where 
+ A.RealDate>=to_date('20030901','YYYYMMDD') and A.RealDate<=to_date('20030930','YYYYMMDD') and A.UCCode is null and A.CancelFlag=0 and nvl(A.RealAmt,0) !=0
+ and (A.CitemCode IN (301) or A.CitemCode IN (302)) and A.CompCode=10 and A.ServiceType='C';
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+..Alt1(7:00)
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=CHOOSE (Cost=5386 Card=867 Bytes=
+          76227)
+
+   1    0   SORT (UNIQUE) (Cost=5386 Card=867 Bytes=76227)
+   2    1     UNION-ALL
+   3    2       TABLE ACCESS (FULL) OF 'SO033' (Cost=487 Card=23 Bytes
+          =1955)
+
+   4    2       TABLE ACCESS (FULL) OF 'SO034' (Cost=4883 Card=844 Byt
+          es=74272)
+
+
+
+
+
+Statistics
+----------------------------------------------------------
+          8  recursive calls
+         91  db block gets
+      35376  consistent gets
+      35132  physical reads
+          0  redo size
+    1878671  bytes sent via SQL*Net to client
+     110648  bytes received via SQL*Net from client
+        995  SQL*Net roundtrips to/from client
+          6  sorts (memory)
+          1  sorts (disk)
+      14900  rows processed
+
+..Alt1含Index1(06:31)
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=CHOOSE (Cost=26 Card=889 Bytes=78
+          163)
+
+   1    0   SORT (UNIQUE) (Cost=26 Card=889 Bytes=78163)
+   2    1     UNION-ALL
+   3    2       TABLE ACCESS (BY INDEX ROWID) OF 'SO033' (Cost=4 Card=
+          23 Bytes=1955)
+
+   4    3         INDEX (RANGE SCAN) OF 'I_SO033_JACKAL_1' (NON-UNIQUE
+          ) (Cost=2 Card=23)
+
+   5    2       CONCATENATION
+   6    5         TABLE ACCESS (BY INDEX ROWID) OF 'SO034' (Cost=3 Car
+          d=433 Bytes=38104)
+
+   7    6           INDEX (RANGE SCAN) OF 'I_SO034_JACKAL_1' (NON-UNIQ
+          UE) (Cost=2 Card=433)
+
+   8    5         TABLE ACCESS (BY INDEX ROWID) OF 'SO034' (Cost=3 Car
+          d=433 Bytes=38104)
+
+   9    8           INDEX (RANGE SCAN) OF 'I_SO034_JACKAL_1' (NON-UNIQ
+          UE) (Cost=2 Card=433)
+
+
+
+
+
+Statistics
+----------------------------------------------------------
+          8  recursive calls
+         80  db block gets
+       4571  consistent gets
+       1374  physical reads
+          0  redo size
+    1878671  bytes sent via SQL*Net to client
+     110648  bytes received via SQL*Net from client
+        995  SQL*Net roundtrips to/from client
+         10  sorts (memory)
+          1  sorts (disk)
+      14900  rows processed
+
+
+..Alt1含Index2(6:33)
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=CHOOSE (Cost=26 Card=889 Bytes=78
+          163)
+
+   1    0   SORT (UNIQUE) (Cost=26 Card=889 Bytes=78163)
+   2    1     UNION-ALL
+   3    2       TABLE ACCESS (BY INDEX ROWID) OF 'SO033' (Cost=4 Card=
+          23 Bytes=1955)
+
+   4    3         INDEX (RANGE SCAN) OF 'I_SO033_JACKAL_1' (NON-UNIQUE
+          ) (Cost=2 Card=23)
+
+   5    2       CONCATENATION
+   6    5         TABLE ACCESS (BY INDEX ROWID) OF 'SO034' (Cost=3 Car
+          d=433 Bytes=38104)
+
+   7    6           INDEX (RANGE SCAN) OF 'I_SO034_JACKAL_1' (NON-UNIQ
+          UE) (Cost=2 Card=433)
+
+   8    5         TABLE ACCESS (BY INDEX ROWID) OF 'SO034' (Cost=3 Car
+          d=433 Bytes=38104)
+
+   9    8           INDEX (RANGE SCAN) OF 'I_SO034_JACKAL_1' (NON-UNIQ
+          UE) (Cost=2 Card=433)
+
+
+
+
+
+Statistics
+----------------------------------------------------------
+        956  recursive calls
+        122  db block gets
+       5602  consistent gets
+        722  physical reads
+       9024  redo size
+    1878671  bytes sent via SQL*Net to client
+     110648  bytes received via SQL*Net from client
+        995  SQL*Net roundtrips to/from client
+         10  sorts (memory)
+          1  sorts (disk)
+      14900  rows processed
+
+
+..Alt1僅Index2(6:55)
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=CHOOSE (Cost=5386 Card=879 Bytes=
+          77277)
+
+   1    0   SORT (UNIQUE) (Cost=5386 Card=879 Bytes=77277)
+   2    1     UNION-ALL
+   3    2       TABLE ACCESS (FULL) OF 'SO033' (Cost=487 Card=25 Bytes
+          =2125)
+
+   4    2       TABLE ACCESS (FULL) OF 'SO034' (Cost=4883 Card=854 Byt
+          es=75152)
+
+
+
+
+
+Statistics
+----------------------------------------------------------
+          8  recursive calls
+         91  db block gets
+      35376  consistent gets
+      35245  physical reads
+          0  redo size
+    1878671  bytes sent via SQL*Net to client
+     110648  bytes received via SQL*Net from client
+        995  SQL*Net roundtrips to/from client
+          6  sorts (memory)
+          1  sorts (disk)
+      14900  rows processed
+
+
+select A.BillNo, A.Item, A.CustId, A.CitemCode, A.CitemName, A.RealDate, A.RealAmt, A.RealPeriod, A.RealStartDate, A.RealStopDate, A.STCode, A.ClctEn, A.AddrNo, A.ServCode, A.ServiceType, A.sCitemCode, A.sBillNo, A.sItem, A.ShouldDate
+ from SO033 A
+ where 
+ A.RealDate>=to_date('20030901','YYYYMMDD') and A.RealDate<=to_date('20030930','YYYYMMDD') and A.UCCode is null and 0=A.CancelFlag and 0<>nvl(A.RealAmt,0) 
+ and 10=A.CompCode and 'C'=A.ServiceType and  (A.CitemCode IN (301) or A.CitemCode IN (302)) 
+ union 
+ select A.BillNo, A.Item, A.CustId, A.CitemCode, A.CitemName, A.RealDate, A.RealAmt, A.RealPeriod, A.RealStartDate, A.RealStopDate, A.STCode, A.ClctEn, A.AddrNo, A.ServCode, A.ServiceType, A.sCitemCode, A.sBillNo, A.sItem, A.ShouldDate
+ from SO034 A
+ where 
+ A.RealDate>=to_date('20030901','YYYYMMDD') and A.RealDate<=to_date('20030930','YYYYMMDD') and A.UCCode is null and 0=A.CancelFlag and 0<>nvl(A.RealAmt,0) 
+ and 10=A.CompCode and 'C'=A.ServiceType and  (A.CitemCode IN (301) or A.CitemCode IN (302));
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+select count(*)
+ from SO033 A
+ where 
+ A.RealDate>=to_date('20030901','YYYYMMDD') and A.RealDate<=to_date('20030930','YYYYMMDD') and A.UCCode is null and A.CancelFlag=0 and nvl(A.RealAmt,0) !=0
+ and (A.CitemCode IN (301) or A.CitemCode IN (302)) and A.CompCode=10 and A.ServiceType='C'
+ union 
+ select count(*)
+ from SO034 A
+ where 
+ A.RealDate>=to_date('20030901','YYYYMMDD') and A.RealDate<=to_date('20030930','YYYYMMDD') and A.UCCode is null and A.CancelFlag=0 and nvl(A.RealAmt,0) !=0
+ and (A.CitemCode IN (301) or A.CitemCode IN (302)) and A.CompCode=10 and A.ServiceType='C';
+
+
+///////////////////////////////////////////////////////////////////////
+CREATE INDEX I_SO033_JACKAL_1 ON SO033 (RealDate,UCCode,CancelFlag,RealAmt,CitemCode,CompCode,ServiceType)
+	PCTFREE 10 STORAGE (INITIAL 100K NEXT 500K MINEXTENTS 1 MAXEXTENTS 500) TABLESPACE GICMIS_NDX_V30;
+
+CREATE INDEX I_SO034_JACKAL_1 ON SO034 (RealDate,UCCode,CancelFlag,RealAmt,CitemCode,CompCode,ServiceType)
+	PCTFREE 10 STORAGE (INITIAL 100K NEXT 500K MINEXTENTS 1 MAXEXTENTS 500) TABLESPACE GICMIS_NDX_V30;
+
+
+
+CREATE INDEX I_SO033_JACKAL_2 ON SO033 (BillNo,Item,CustId,CitemCode,RealDate,RealAmt,RealPeriod,RealStartDate,RealStopDate,STCode,ClctEn,AddrNo,ServCode,ServiceType,sCitemCode,sBillNo,sItem,ShouldDate,UCCode,CancelFlag,CompCode)
+	PCTFREE 10 STORAGE (INITIAL 100K NEXT 500K MINEXTENTS 1 MAXEXTENTS 500) TABLESPACE GICMIS_NDX_V30;
+
+
+CREATE INDEX I_SO034_JACKAL_2 ON SO034 (BillNo,Item,CustId,CitemCode,RealDate,RealAmt,RealPeriod,RealStartDate,RealStopDate,STCode,ClctEn,AddrNo,ServCode,ServiceType,sCitemCode,sBillNo,sItem,ShouldDate,UCCode,CancelFlag,CompCode)
+	PCTFREE 10 STORAGE (INITIAL 100K NEXT 500K MINEXTENTS 1 MAXEXTENTS 500) TABLESPACE GICMIS_NDX_V30;
+
+
+
+analyze table SO033  estimate statistics;
+analyze table SO034  estimate statistics;
+
+analyze index I_SO033_JACKAL_1 compute statistics;
+analyze index I_SO034_JACKAL_1 compute statistics;
+
+
+
+
+
+***********************************************************************************
+******************               發             票               ******************
+***********************************************************************************
+..INVAMOUNT>=0(OK)-[0]
+SELECT SEQ,CUSTID,TEL,BUSINESSID,TITLE,INVADDR,MAILADDR,ZIPCODE,to_char(CHARGEDATE, 'YYYY/MM/DD') CHARGEDATE,TAXTYPE,TAXRATE,SALEAMOUNT,TAXAMOUNT,INVAMOUNT,CHARGETITLE FROM INV016  WHERE COMPID=10 AND CHARGEDATE between TO_DATE('2003/10/09','YYYY/MM/DD') AND TO_DATE('2003/10/09','YYYY/MM/DD') AND BEASSIGNEDINVID='N' AND ISVALID='Y' AND HOWTOCREATE=2 AND INVAMOUNT>=0 AND SHOULDBEASSIGNED='Y' ORDER BY CHARGEDATE
+
+
+..inv017,檢查每一筆資料是否已經開立發票(OKOK)-[0]
+SELECT BILLID,BILLIDITEMNO,TAXTYPE, TO_CHAR(CHARGEDATE,'YYYY/MM/DD') CHARGEDATE,ITEMID ,DESCRIPTION,QUANTITY,UNITPRICE,TAXAMOUNT,TOTALAMOUNT,TO_CHAR(STARTDATE,'YYYY/MM/DD') STARTDATE,TO_CHAR(ENDDATE,'YYYY/MM/DD') ENDDATE,CHARGEEN,SERVICETYPE from inv017 where SEQ='200310170000001'
+
+
+..檢查是否有開立過且沒做廢的資料(OK)-[2]
+SELECT B.INVID FROM INV007 A,INV008 B WHERE B.BILLID ='200310BC0600137' AND B.BILLIDITEMNO=1 AND A.ISOBSOLETE='N'  AND B.INVID=A.INVID ORDER BY B.INVID
+
+
+..檢查是否需要新增到 INV019(客戶明細檔)(OK)-[0]
+SELECT COUNT(*) COUNT FROM INV019 WHERE CUSTID=600137 AND COMPID =10
+	    AND IDENTIFYID1=1 AND IDENTIFYID2=0 AND TITLEID ='1'
+
+
+..處理發票主暫存檔(INV032)(OK)-[0]
+SELECT BILLID,BILLIDITEMNO,TAXTYPE, TO_CHAR(CHARGEDATE,'YYYY/MM/DD') CHARGEDATE,ITEMID ,DESCRIPTION,QUANTITY,UNITPRICE,TAXAMOUNT,TOTALAMOUNT,TO_CHAR(STARTDATE,'YYYY/MM/DD') STARTDATE,TO_CHAR(ENDDATE,'YYYY/MM/DD') ENDDATE,CHARGEEN,SERVICETYPE from inv017 where SEQ='200310170000001'
+
+
+..(OK)-[0]
+SELECT COUNT(*) COUNT FROM v30.SO033 WHERE BILLNO='200310BC0600137' AND ITEM =1
+
+
+..(OK)-[0]
+SELECT COUNT(*) COUNT FROM INV002 WHERE CUSTID=600189 AND COMPID =10
+	    AND IDENTIFYID1=1 AND IDENTIFYID2= 0
+
+
+..篩選若發票金額 <0 的不用開發票並 Log 資料至 INV033(OK)-[0]
+SELECT SEQ,CUSTID,TEL,BUSINESSID,TITLE,INVADDR,MAILADDR,ZIPCODE,to_char(CHARGEDATE, 'YYYY/MM/DD') CHARGEDATE,TAXTYPE,TAXRATE,SALEAMOUNT,TAXAMOUNT,INVAMOUNT FROM INV016  WHERE COMPID=10 AND CHARGEDATE between TO_DATE('2003/10/09','YYYY/MM/DD') AND TO_DATE('2003/10/09','YYYY/MM/DD') AND BEASSIGNEDINVID='N' AND ISVALID='Y' AND HOWTOCREATE=2 AND INVAMOUNT<0 AND SHOULDBEASSIGNED='Y' ORDER BY CHARGEDATE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=========
+set autotrace on explain statistics;

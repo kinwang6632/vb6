@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BroadcastData SYSTEM "BroadcastData.dtd">
+<BroadcastData creationDate="20060426061419">
+  <ProviderInfo>
+    <ProviderId>Nagra</ProviderId>
+    <ProviderName>Nagravision S.A.</ProviderName>
+  </ProviderInfo>
+  <ScheduleData>
+    <ChannelPeriod beginTime="20060426160000" endTime="20060427160000">
+      <ChannelId>301</ChannelId>
+      <Event beginTime="20060426160000" duration="86400">
+        <EventId>L00000088036</EventId>
+        <EventType>P</EventType>
+        <EpgProduction>
+          <EpgText language="chi">
+            <Name>家庭電影</Name>
+            <Description>簡介家庭電影</Description>
+            <ExtendedInfo name="導演">mountain fire</ExtendedInfo>
+            <ExtendedInfo name="演員">kate wu, Annie kao</ExtendedInfo>
+          </EpgText>
+          <EpgText language="eng">
+            <Name>家庭電影</Name>
+            <Description>簡介家庭電影</Description>
+            <ExtendedInfo name="導演">導演 1</ExtendedInfo>
+            <ExtendedInfo name="演員">演員 2, 演員 1, 演員 12</ExtendedInfo>
+          </EpgText>
+          <CopyProtection null="1"/>
+          <ParentalRating>3</ParentalRating>
+          <DvbContent>
+            <Content nibble1="5" nibble2="0"/>
+            <User nibble1="0" nibble2="0"/>
+          </DvbContent>
+        </EpgProduction>
+      </Event>
+    </ChannelPeriod>
+  </ScheduleData>
+</BroadcastData>

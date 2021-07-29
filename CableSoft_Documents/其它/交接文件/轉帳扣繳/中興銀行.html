@@ -1,0 +1,122 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0043)http://www.csbank.com.tw/page3/3-1/rs04.htm -->
+<HTML><HEAD><TITLE></TITLE>
+<META content="text/html; charset=big5" http-equiv=Content-Type>
+<META content="MSHTML 5.00.2614.3500" name=GENERATOR></HEAD>
+<BODY bgColor=#ffffff>
+<DIV align=center>
+<CENTER>
+<TABLE bgColor=#800000 border=0 cellPadding=0 cellSpacing=0>
+  <TBODY>
+  <TR>
+    <TD><FONT color=#ffffff face=標楷體 
+      size=5><STRONG>中興商業銀行集中轉帳磁片檔案欄位說明</STRONG></FONT></TD></TR></TBODY></TABLE></CENTER></DIV>
+<HR SIZE=1>
+
+<OL>
+  <LI>磁片規格 : MS-DOS format , ASCII code , 3.5 吋 
+  <LI>檔案長度 : 80 bytes 
+  <LI>磁片封面 : 寫明 公司名稱、公司統一編號、總金額、總筆數 
+  <LI>檔案名稱 : 入帳 (貸方) CSBCR.DAT &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 扣帳 
+  (借方) 
+  CSBDR.DAT<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  券商查詢(CSB.INQ) 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  證券商查詢結果(CSB.REP) 
+  <LI>檔案儲存 : 一磁片只存一入帳或扣帳檔 
+  <LI>注意事項 : 資料型態為英、數字，請勿鍵入中文資料。欄位無資料時，請鍵入空白。 
+  <LI>附 註： 客戶可將測試磁片直接交給主辦行做轉帳磁片基本檢核，並印出全部檢核資料， 並告知客戶磁片資料及欄位是否正確。 </LI></OL>
+<P>★★認購股票存款戶查詢時，請依帳號、金額由小至大排序★★</P>
+<DIV align=center>
+<CENTER>
+<TABLE border=1 cellPadding=2 cellSpacing=1 width="95%">
+  <TBODY>
+  <TR>
+    <TD vAlign=top width="5%">序號</TD>
+    <TD vAlign=top>欄位名稱</TD>
+    <TD vAlign=top>型態及長度</TD>
+    <TD vAlign=top>欄位起迄</TD>
+    <TD vAlign=top>欄 位 說 明 </TD></TR>
+  <TR>
+    <TD vAlign=top width="5%">1</TD>
+    <TD vAlign=top>CTS_TXD</TD>
+    <TD vAlign=top>X(06)</TD>
+    <TD vAlign=top>1......6</TD>
+    <TD vAlign=top>轉帳日期 : 國曆 ( 不得為例假日 ) 例 : 810514 </TD></TR>
+  <TR>
+    <TD vAlign=top width="5%">2</TD>
+    <TD vAlign=top>CTS_BHI</TD>
+    <TD vAlign=top>X(03)</TD>
+    <TD vAlign=top>7......9</TD>
+    <TD vAlign=top>主辦行 : </TD></TR>
+  <TR>
+    <TD vAlign=top width="5%">3</TD>
+    <TD vAlign=top>CTS_NBD</TD>
+    <TD vAlign=top>X(10)</TD>
+    <TD vAlign=top>10....19</TD>
+    <TD vAlign=top>申請集中轉帳公司或單位營利事業統一編號，左靠右補空白
+      <P>註：本欄資料需與集中轉帳申請建檔資料相符核</P></TD></TR>
+  <TR>
+    <TD vAlign=top width="5%">4</TD>
+    <TD vAlign=top>CTS_CAN</TD>
+    <TD vAlign=top>X(12)</TD>
+    <TD vAlign=top>20....31</TD>
+    <TD vAlign=top>開戶人帳號 </TD></TR>
+  <TR>
+    <TD vAlign=top width="5%">5</TD>
+    <TD vAlign=top>CTS_NPD</TD>
+    <TD vAlign=top>X(10)</TD>
+    <TD vAlign=top>32....41</TD>
+    <TD 
+  vAlign=top>開戶人身分證統一編號，註：本欄有資料時將檢核該帳戶之身份証統一編號是否與本欄資料相符，故不需檢核時，請鍵入空白</TD></TR>
+  <TR>
+    <TD vAlign=top width="5%">6</TD>
+    <TD vAlign=top>CTS_TYP</TD>
+    <TD vAlign=top>X(01)</TD>
+    <TD vAlign=top>42....42</TD>
+    <TD vAlign=top>入扣帳別 : "1" 為借方 (扣帳)由前述帳號扣款
+      <P>"2" 為貸方 (入帳)入款於前述帳號</P>
+      <P>"0" 為認購有價證券諮詢</P></TD></TR>
+  <TR>
+    <TD vAlign=top width="5%">7</TD>
+    <TD vAlign=top>CTS_BUS</TD>
+    <TD vAlign=top>X(02)</TD>
+    <TD vAlign=top>43....44</TD>
+    <TD vAlign=top>業務種類 : "01"薪資類 "02"股利類 "03"獎金, 紅利類 證券戶請鍵入"04" 證券專戶入扣帳類
+      <P>"05" 公用事業代繳費用類</P>
+      <P>"06" 認購有價證券款項扣款或諮詢類</P>
+      <P>"07" 認購處理費扣款類</P>
+      <P>"09" 其他類 "10" ＭＩＣＲ扣帳類</P>
+      <P>"11" 定期定額基金扣款類</P>
+      <P>"12" 信用卡繳款類＋手續費10元</P></TD></TR>
+  <TR>
+    <TD vAlign=top width="5%">8</TD>
+    <TD vAlign=top>CTS_AMT</TD>
+    <TD vAlign=top>9(11)v9(2)</TD>
+    <TD vAlign=top>45....57</TD>
+    <TD vAlign=top>轉帳金額 : 右靠左補 0 ,後兩碼為小數，不含小數點，且 不得為負數及零</TD></TR>
+  <TR>
+    <TD vAlign=top width="5%">9</TD>
+    <TD vAlign=top>CTS_SEQ</TD>
+    <TD vAlign=top>X(10)</TD>
+    <TD vAlign=top>58....67</TD>
+    <TD vAlign=top>資料編號 : 由客戶自行使用, 或空白 定期定額基金扣款類前3碼 58～60 為基金代碼
+      <P>證券戶股票代號為前4碼 58～61</P>
+      <P>證券戶營業員代號為後3碼 65～67</P>
+      <P>證券戶請鍵入股票代號，存摺上會轉換為股票中文名稱</P></TD></TR>
+  <TR>
+    <TD vAlign=top width="5%">10</TD>
+    <TD vAlign=top>CTS_REV</TD>
+    <TD vAlign=top>X(13)</TD>
+    <TD vAlign=top>68....80
+      <P>68</P>
+      <P>　</P>
+      <P>　</P>
+      <P>69....80</P></TD>
+    <TD vAlign=top>保留欄位 : 空白； 諮詢及銷帳磁片本欄說明如下：
+      <P>Byte-68 為扣帳或諮詢註記：1.轉帳成功 2.轉帳失敗</P>
+      <P>3.無此帳號或結清戶或靜止戶或繼承戶或科目不符或帳戶資料檢核不符 4.存款不足 5.統一編號不符 6.客戶未簽訂授權轉帳合約</P>
+      <P>Byte(69～80)為累計申購金額,10位整數+2位小數</P></TD></TR></TBODY></TABLE></CENTER></DIV>
+<HR SIZE=1>
+
+<P align=center><A href="javascript:%20history.back()">回上頁</A></P></BODY></HTML>

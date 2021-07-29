@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="BIG5" standalone="yes" ?>
+
+<!-- xml version="1.0" encoding="GB2312" standalone="yes" -->
+<Msg Version="1" MsgID="2" Type="SMSDown"
+  DateTime="2002-08-17 15:30:00" SrcCode="110000G01"
+  DstCode="110000S01">
+  <ProdPurchaseQuery InstQuery="0" Date="2003-02-01">
+	<!-- 
+		InstQuery:是否即時查詢
+		  0: 指定查詢某日期的用戶產品訂購資訊的變化,此時 Date 屬性必須有值
+		  1: 即時查詢目前時刻相對於本日00:00  的用戶產品訂購資訊的變化,此時 Date 屬性可以忽略
+		Date:查詢某日期的 xml 文件
+	-->
+  </ProdPurchaseQuery>
+</Msg>

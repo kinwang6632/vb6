@@ -1,0 +1,16 @@
+Nagra 與 EMC 會 implement , 且與 return path 有關的功能如下.
+
+    1. Low credit alarm
+        => 當客戶的 credit 低於某一臨界值時, CC (Call Collector, Nagra 的return path 模組) 會傳回此指令
+    2. Current Debit and Credit
+        => 傳回某 ICC 目前的 debit 與 credit
+    3. PPV Purchase List
+        => 傳回 ICC 卡上之影片訂購紀錄
+    4. Phone Discrepancies
+        => 當客戶回傳的電話號碼與原先預設用來回傳的電話號碼不同時, CC 會傳回此指令
+    5. STB Responding Status
+        => 當 STB 於一定的時間內, 都沒有回傳資料時, CC 會傳回此指令
+    6. ICC Memory Full Alarm
+        => 當 ICC 卡上的 memory 滿了, CC 會傳回此指令
+    7. Products List
+        => 傳回該 ICC 目前所有的授權資訊以及 PPV
