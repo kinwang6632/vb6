@@ -125,17 +125,22 @@ Public Function SelectServType(ByVal strNo As String, ByVal objServiceType As Ob
               strType = Mid(strType1, 2)
               strType = "Where CodeNo in (" & strType & ")"
           End If
+        
         If TypeName(objServiceType) = "GiList" Then
             Call SetgiList(objServiceType, "CodeNo", "Description", "CD046", , , , , , , strType)
             objServiceType.SetCodeNo ""
             objServiceType.Query_Description
             objServiceType.ListIndex = 1
-        ElseIf TypeName(objServiceType) = "GiMulti" Then
-            Call SetgiMulti(objServiceType, "CodeNo", "Description", "CD046", "服務類別代碼", "服務類別名稱")
-            objServiceType.SetQueryCode rsSO041("MainServiceType") & ""
         Else
             Call SetgiMulti(objServiceType, "CodeNo", "Description", "CD046", "服務類別代碼", "服務類別名稱")
-            objServiceType.SetQueryCode "'" & rsSO041("MainServiceType") & "'"
+            If UCase(TypeName(objServiceType)) = UCase("CSmulti") Then
+               objServiceType.SetQueryCode "'" & Trim(rsSO041("MainServiceType")) & "'"
+            
+               
+            Else
+                objServiceType.SetQueryCode rsSO041("MainServiceType") & ""
+            End If
+            
         End If
         
     End If
@@ -724,21 +729,21 @@ Public Sub ChangIntroVisible(ByVal funFrom As Object, ByVal funMediaCode As Stri
     Call GetRS(rsCD009, strSQL)
     Select Case rsCD009("refno")
            Case 1
-                funFrom.lblCustId.Visible = True
+                funFrom.lblCustID.Visible = True
                 funFrom.txtCustid.Visible = True
                 funFrom.gimIntroId.Visible = False
            Case 2
                 Call SetgiMulti(funFrom.gimIntroId, "EmpNo", "EmpName", "CM003", "介紹人代碼", "介紹人姓名", "Where CompCode=" & funCompCode)
-                funFrom.lblCustId.Visible = False
+                funFrom.lblCustID.Visible = False
                 funFrom.txtCustid.Visible = False
                 funFrom.gimIntroId.Visible = True
            Case 3
                 Call SetgiMulti(funFrom.gimIntroId, "CodeNo", "Description", "CD010", "介紹人代碼", "介紹人姓名", "Where CompCode=" & funCompCode)
-                funFrom.lblCustId.Visible = False
+                funFrom.lblCustID.Visible = False
                 funFrom.txtCustid.Visible = False
                 funFrom.gimIntroId.Visible = True
            Case Else
-                funFrom.lblCustId.Visible = False
+                funFrom.lblCustID.Visible = False
                 funFrom.txtCustid.Visible = False
                 funFrom.gimIntroId.Visible = False
     End Select
