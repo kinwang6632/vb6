@@ -125,20 +125,23 @@ Public Function SelectServType(ByVal strNo As String, ByVal objServiceType As Ob
               strType = Mid(strType1, 2)
               strType = "Where CodeNo in (" & strType & ")"
           End If
-        
         If TypeName(objServiceType) = "GiList" Then
             Call SetgiList(objServiceType, "CodeNo", "Description", "CD046", , , , , , , strType)
             objServiceType.SetCodeNo ""
             objServiceType.Query_Description
             objServiceType.ListIndex = 1
-        Else
+        ElseIf TypeName(objServiceType) = "GiMulti" Then
             Call SetgiMulti(objServiceType, "CodeNo", "Description", "CD046", "服務類別代碼", "服務類別名稱")
-            If UCase(TypeName(objServiceType)) = UCase("CSmulti") Then
-               objServiceType.SetQueryCode "'" & Trim(rsSO041("MainServiceType")) & "'"
-            
-               
+            objServiceType.SetQueryCode rsSO041("MainServiceType") & ""
+        Else
+         If UCase(TypeName(objServiceType)) = UCase("CSmulti") Then
+                Call SetgiMulti(objServiceType, "CodeNo", "Description", "CD046", "服務類別代碼", "服務類別名稱")
+                
+                objServiceType.SetQueryCode "'" & Trim(rsSO041("MainServiceType")) & "'"
+                           
             Else
-                objServiceType.SetQueryCode rsSO041("MainServiceType") & ""
+                Call SetgiMulti(objServiceType, "CodeNo", "Description", "CD046", "服務類別代碼", "服務類別名稱")
+                objServiceType.SetQueryCode "'" & rsSO041("MainServiceType") & "'"
             End If
             
         End If
